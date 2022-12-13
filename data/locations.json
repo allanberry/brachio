@@ -1,0 +1,4554 @@
+[
+  {
+    "node": "afpls",
+    "address": "1 Margaret Mitchell Sq",
+    "postal": "30303",
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "US",
+    "latitude": 33.75883,
+    "longitude": -84.388719
+  },
+  {
+    "node": "bklynlibrary",
+    "address": "10 Grand Army Plaza",
+    "postal": "11238",
+    "city": "Brooklyn",
+    "state": "NY",
+    "country": "US",
+    "latitude": 40.672452,
+    "longitude": -73.968287
+  },
+  {
+    "node": "sfpl",
+    "address": "100 Larkin Street",
+    "postal": "94102-4733",
+    "city": "San Francisco",
+    "state": "CA",
+    "country": "US",
+    "latitude": 37.779345,
+    "longitude": -122.415859
+  },
+  {
+    "node": "carli",
+    "address": "100 Trade Centre Drive, Suite 303",
+    "postal": "61820-7233",
+    "city": "Champaign",
+    "state": "IL",
+    "country": "US",
+    "latitude": 40.097083,
+    "longitude": -88.245994
+  },
+  {
+    "node": "metmuseum",
+    "address": "1000 5th Ave",
+    "postal": "10028",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "latitude": 40.778873,
+    "longitude": -73.962284
+  },
+  {
+    "node": "loc",
+    "address": "101 Independence Ave, SE",
+    "postal": "20540",
+    "city": "Washington",
+    "state": "DC",
+    "country": "US",
+    "latitude": 38.886796,
+    "longitude": -77.004694
+  },
+  {
+    "node": "mdpls",
+    "address": "101 W Flagler St",
+    "postal": "33130",
+    "city": "Miami",
+    "state": "FL",
+    "country": "US",
+    "latitude": 25.774227,
+    "longitude": -80.195711
+  },
+  {
+    "node": "nal",
+    "address": "10301 Baltimore Ave",
+    "postal": "20705",
+    "city": "Beltsville",
+    "state": "MD",
+    "country": "US",
+    "latitude": 39.022958,
+    "longitude": -76.921718
+  },
+  {
+    "node": "amphilsoc",
+    "address": "104 S 5th St",
+    "postal": "19106",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "US",
+    "latitude": 39.948993,
+    "longitude": -75.149344
+  },
+  {
+    "node": "usask",
+    "address": "105 Administration Place",
+    "postal": "S7N 5A2",
+    "city": "Saskatoon",
+    "state": "SK",
+    "country": "CA",
+    "latitude": 38.689283,
+    "longitude": -120.054929
+  },
+  {
+    "node": "auraria",
+    "address": "1068 9th Street Park",
+    "postal": "80204",
+    "city": "Denver",
+    "state": "CO",
+    "country": "US",
+    "latitude": 39.741723,
+    "longitude": -105.00412
+  },
+  {
+    "node": "sil",
+    "address": "10th St. and Constitution Ave. NW",
+    "postal": "20560",
+    "city": "Washington",
+    "state": "DC",
+    "country": "US",
+    "latitude": 38.892011,
+    "longitude": -76.992646
+  },
+  {
+    "node": "moma",
+    "address": "11 W 53rd St",
+    "postal": "10019",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "latitude": 40.761078,
+    "longitude": -73.977146
+  },
+  {
+    "node": "hbculibraries",
+    "address": "111 James P. Brawley Drive SW",
+    "postal": "30314",
+    "city": "Manoa",
+    "state": "HI",
+    "country": "US",
+    "latitude": 33.752012,
+    "longitude": -84.412948
+  },
+  {
+    "node": "aic",
+    "address": "111 S Michigan Ave",
+    "postal": "60603",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "US",
+    "latitude": 41.880686,
+    "longitude": -87.624094
+  },
+  {
+    "node": "huntington",
+    "address": "1151 Oxford Rd",
+    "postal": "91108",
+    "city": "San Marino",
+    "state": "CA",
+    "country": "US",
+    "latitude": 34.128413,
+    "longitude": -118.114407
+  },
+  {
+    "node": "uwo",
+    "address": "1151 Richmond Street",
+    "postal": "N6A 3K7",
+    "city": "London",
+    "state": "ON",
+    "country": "CA",
+    "latitude": 36.476062,
+    "longitude": -119.443179
+  },
+  {
+    "node": "masshist",
+    "address": "1154 Boylston St",
+    "postal": "02215",
+    "city": "Boston",
+    "state": "MA",
+    "country": "US",
+    "latitude": 42.34643,
+    "longitude": -71.08993
+  },
+  {
+    "node": "oi",
+    "address": "1155 E 58th St",
+    "postal": "60637",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "US",
+    "latitude": 41.789249,
+    "longitude": -87.597676
+  },
+  {
+    "node": "ualberta",
+    "address": "116 St & 85 Ave",
+    "postal": "T6G 2R3",
+    "city": "Edmonton",
+    "state": "AB",
+    "country": "CA",
+    "latitude": 35.228851,
+    "longitude": -118.823153
+  },
+  {
+    "node": "getty",
+    "address": "1200 Getty Center Drive",
+    "postal": "90049",
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "node": "tsl",
+    "address": "1201 Brazos St",
+    "postal": "78701",
+    "city": "Austin",
+    "state": "TX",
+    "country": "US",
+    "latitude": 30.270516,
+    "longitude": -97.740617
+  },
+  {
+    "node": "nyam",
+    "address": "1216 5th Ave",
+    "postal": "10029",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "latitude": 40.792099,
+    "longitude": -73.952175
+  },
+  {
+    "node": "phoenixpubliclibrary",
+    "address": "1221 N. Central Ave.",
+    "postal": "85004",
+    "city": "Phoenix",
+    "state": "AZ",
+    "country": "US",
+    "latitude": 33.463231,
+    "longitude": -112.072859
+  },
+  {
+    "node": "lacountylibrary",
+    "address": "12348 Imperial Hwy",
+    "postal": "90650",
+    "city": "Downey",
+    "state": "CA",
+    "country": "US",
+    "latitude": 33.916924,
+    "longitude": -118.06967
+  },
+  {
+    "node": "hclib",
+    "address": "12601 Ridgedale Drive",
+    "postal": "55305",
+    "city": "Minnetonka",
+    "state": "MN",
+    "country": "US",
+    "latitude": 44.964594,
+    "longitude": -93.440533
+  },
+  {
+    "node": "mcmaster",
+    "address": "1280 Main St W",
+    "postal": "L8S 4L8",
+    "city": "Hamilton",
+    "state": "ON",
+    "country": "CA",
+    "latitude": 39.728209,
+    "longitude": -122.053823
+  },
+  {
+    "node": "sparc",
+    "address": "130 E Tyler St",
+    "postal": "23669",
+    "city": "Hampton",
+    "state": "VA",
+    "country": "US",
+    "latitude": 37.022764,
+    "longitude": -76.334995
+  },
+  {
+    "node": "hsp",
+    "address": "1300 Locust St",
+    "postal": "19107",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "US",
+    "latitude": 39.947737,
+    "longitude": -75.162764
+  },
+  {
+    "node": "adlerplanetarium",
+    "address": "1300 S Lake Shore Dr",
+    "postal": "60605",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "US",
+    "latitude": 41.866355,
+    "longitude": -87.607805
+  },
+  {
+    "node": "slpl",
+    "address": "1301 Olive Street",
+    "postal": "63103",
+    "city": "St. Louis",
+    "state": "MO",
+    "country": "US",
+    "latitude": 38.630782,
+    "longitude": -90.199427
+  },
+  {
+    "node": "librarycompany",
+    "address": "1314 Locust St",
+    "postal": "19107",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "US",
+    "latitude": 39.947792,
+    "longitude": -75.163139
+  },
+  {
+    "node": "fieldmuseum",
+    "address": "1400 S Lake Shore Dr",
+    "postal": "60605",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "US",
+    "latitude": 41.866397,
+    "longitude": -87.616845
+  },
+  {
+    "node": "lvccld",
+    "address": "1401 E Flamingo Rd",
+    "postal": "89119",
+    "city": "Las Vegas",
+    "state": "NV",
+    "country": "US",
+    "latitude": 36.11363,
+    "longitude": -115.134844
+  },
+  {
+    "node": "chicagohistory",
+    "address": "1601 N Clark St",
+    "postal": "60614",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "US",
+    "latitude": 41.913196,
+    "longitude": -87.630793
+  },
+  {
+    "node": "nyhistory",
+    "address": "170 Central Park West",
+    "postal": "10024",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "latitude": 40.779185,
+    "longitude": -73.974008
+  },
+  {
+    "node": "americanantiquarian",
+    "address": "185 Salisbury St",
+    "postal": "01609",
+    "city": "Worcester",
+    "state": "MA",
+    "country": "US",
+    "latitude": 42.27724,
+    "longitude": -71.810295
+  },
+  {
+    "node": "nationalmuseumofmexicanart",
+    "address": "1852 W. 19th Street",
+    "postal": "60608",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "US",
+    "latitude": 41.856034,
+    "longitude": -87.672143
+  },
+  {
+    "node": "cca",
+    "address": "1920 Baile St",
+    "postal": "H3H 2S6",
+    "city": "Montréal",
+    "state": "QC",
+    "country": "CA",
+    "latitude": 45.491406,
+    "longitude": -73.578662
+  },
+  {
+    "node": "hagley",
+    "address": "200 Hagley Creek Rd",
+    "postal": "19807",
+    "city": "Wilmington",
+    "state": "DE",
+    "country": "US",
+    "latitude": 39.773689,
+    "longitude": -75.578769
+  },
+  {
+    "node": "uwaterloo",
+    "address": "200 University Ave W",
+    "postal": "N2L 3G1",
+    "city": "Waterloo",
+    "state": "ON",
+    "country": "CA",
+    "latitude": 38.034644,
+    "longitude": -121.186889
+  },
+  {
+    "node": "folger",
+    "address": "201 E Capitol St SE",
+    "postal": "20003",
+    "city": "Washington",
+    "state": "DC",
+    "country": "US",
+    "latitude": 38.889441,
+    "longitude": -77.00277
+  },
+  {
+    "node": "arl",
+    "address": "21 Dupont Circle NW #800",
+    "postal": "20036",
+    "city": "Washington",
+    "state": "DC",
+    "country": "US",
+    "latitude": 38.909075,
+    "longitude": -77.043708
+  },
+  {
+    "node": "bplonline",
+    "address": "2100 Park Place",
+    "postal": "35203-2744",
+    "city": "Birmingham",
+    "state": "AL",
+    "country": "US",
+    "latitude": 33.521111,
+    "longitude": -86.807438
+  },
+  {
+    "node": "cuyahogalibrary",
+    "address": "2111 Snow Road",
+    "postal": "44134",
+    "city": "Cleveland",
+    "state": "OH",
+    "country": "US",
+    "latitude": 41.403396,
+    "longitude": -81.69747
+  },
+  {
+    "node": "daytonmetrolibrary",
+    "address": "215 East Third Street",
+    "postal": "45402",
+    "city": "Dayton",
+    "state": "OH",
+    "country": "US",
+    "latitude": 39.760419,
+    "longitude": -84.187706
+  },
+  {
+    "node": "mcachicago",
+    "address": "220 E Chicago Ave",
+    "postal": "60611",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "US",
+    "latitude": 41.897225,
+    "longitude": -87.620961
+  },
+  {
+    "node": "nysl",
+    "address": "222 Madison Avenue",
+    "postal": "12230",
+    "city": "Albany",
+    "state": "NY",
+    "country": "US",
+    "latitude": 42.648625,
+    "longitude": -73.761907
+  },
+  {
+    "node": "morganlibrary",
+    "address": "225 Madison Ave",
+    "postal": "10016",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "latitude": 40.749085,
+    "longitude": -73.981807
+  },
+  {
+    "node": "ulaval",
+    "address": "2325 Rue de l'Université",
+    "postal": "G1V 0A6",
+    "city": "Quebec",
+    "state": "QC",
+    "country": "CA",
+    "latitude": 46.779134,
+    "longitude": -71.26949
+  },
+  {
+    "node": "ubc",
+    "address": "2329 West Mall",
+    "postal": "V6T 1Z4",
+    "city": "Vancouver",
+    "state": "BC",
+    "country": "CA",
+    "latitude": 49.261513,
+    "longitude": -123.253715
+  },
+  {
+    "node": "naturemuseum",
+    "address": "2430 N. Cannon Dr.",
+    "postal": "60614",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "US",
+    "latitude": 41.929331,
+    "longitude": -87.636709
+  },
+  {
+    "node": "ucalgary",
+    "address": "2500 University Dr NW",
+    "postal": "T2N 1N4",
+    "city": "Calgary",
+    "state": "AB",
+    "country": "CA",
+    "latitude": 34.737431,
+    "longitude": -86.605003
+  },
+  {
+    "node": "utoronto",
+    "address": "27 King's College Cir",
+    "postal": "M5S",
+    "city": "Toronto",
+    "state": "ON",
+    "country": "CA",
+    "latitude": 43.661051,
+    "longitude": 79.395494
+  },
+  {
+    "node": "savannahstate",
+    "address": "3219 College Street",
+    "postal": "31404-5310",
+    "city": "Savannah",
+    "state": "GA",
+    "country": "US"
+  },
+  {
+    "node": "anchoragelibrary",
+    "address": "3600 Denali St",
+    "postal": "99503",
+    "city": "Anchorage",
+    "state": "AK",
+    "country": "US",
+    "latitude": 61.187497,
+    "longitude": -149.877444
+  },
+  {
+    "node": "bac-lac",
+    "address": "395 Wellington St",
+    "postal": "K1A 0N4",
+    "city": "Ottawa",
+    "state": "QC",
+    "country": "CA",
+    "latitude": 35.570882,
+    "longitude": -121.106807
+  },
+  {
+    "node": "chipublib",
+    "address": "400 S State St",
+    "postal": "60605",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "US",
+    "latitude": 41.876323,
+    "longitude": -87.628401
+  },
+  {
+    "node": "houstonlibrary",
+    "address": "4124 Montrose Blvd",
+    "postal": "77006",
+    "city": "Houston",
+    "state": "TX",
+    "country": "US",
+    "latitude": 29.735956,
+    "longitude": -95.39129
+  },
+  {
+    "node": "cuny",
+    "address": "425 E 25th St",
+    "postal": "10010",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "latitude": 40.737603,
+    "longitude": -73.975408
+  },
+  {
+    "node": "vahistorical",
+    "address": "428 N Arthur Ashe Blvd",
+    "postal": "23220",
+    "city": "Richmond",
+    "state": "VA",
+    "country": "US",
+    "latitude": 37.557992,
+    "longitude": -77.47349
+  },
+  {
+    "node": "yorku",
+    "address": "4700 Keele St",
+    "postal": "M3J 1P3",
+    "city": "Toronto",
+    "state": "ON",
+    "country": "CA",
+    "latitude": 43.782481,
+    "longitude": -79.502833
+  },
+  {
+    "node": "nypl",
+    "address": "476 Fifth Avenue",
+    "postal": "10018",
+    "city": "New York",
+    "state": "NY",
+    "country": "US",
+    "latitude": 40.752994,
+    "longitude": -73.981781
+  },
+  {
+    "node": "librarieshawaii",
+    "address": "478 S King St",
+    "postal": "96813",
+    "city": "Honolulu",
+    "state": "HI",
+    "country": "US",
+    "latitude": 21.305763,
+    "longitude": -157.857755
+  },
+  {
+    "node": "cpl",
+    "address": "4801 S Michigan Ave",
+    "postal": "60615",
+    "city": "Cleveland",
+    "state": "OH",
+    "country": "US",
+    "latitude": 41.807118,
+    "longitude": -87.622307
+  },
+  {
+    "node": "acrl",
+    "address": "50 E Huron St",
+    "postal": "60611",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "US",
+    "latitude": 41.895326,
+    "longitude": -87.626168
+  },
+  {
+    "node": "alcts",
+    "address": "50 E Huron St",
+    "postal": "60611",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "US",
+    "latitude": 41.895326,
+    "longitude": -87.626168
+  },
+  {
+    "node": "uoguelph",
+    "address": "50 Stone Rd E",
+    "postal": "N1G 2W1",
+    "city": "Guelph",
+    "state": "ON",
+    "country": "CA",
+    "latitude": 43.52793,
+    "longitude": -80.22312
+  },
+  {
+    "node": "winterthur",
+    "address": "5105 Kennett Pike",
+    "postal": "19735",
+    "city": "Winterthur",
+    "state": "DE",
+    "country": "US",
+    "latitude": 39.804547,
+    "longitude": -75.610548
+  },
+  {
+    "node": "lindahall",
+    "address": "5109 Cherry St",
+    "postal": "64110",
+    "city": "Kansas City",
+    "state": "MO",
+    "country": "US",
+    "latitude": 39.033248,
+    "longitude": -94.579216
+  },
+  {
+    "node": "gwla",
+    "address": "5200 W 94th Terrace #200",
+    "postal": "66207",
+    "city": "Overland Park",
+    "state": "KS",
+    "country": "US",
+    "latitude": 38.958181,
+    "longitude": -94.645564
+  },
+  {
+    "node": "detroitpubliclibrary",
+    "address": "5201 Woodward Ave",
+    "postal": "48202",
+    "city": "Detroit",
+    "state": "MI",
+    "country": "US",
+    "latitude": 42.35847,
+    "longitude": -83.066978
+  },
+  {
+    "node": "smartmuseum",
+    "address": "5550 S. Greenwood Ave.",
+    "postal": "60637",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "US",
+    "latitude": 41.793512,
+    "longitude": -87.600202
+  },
+  {
+    "node": "msichicago",
+    "address": "5700 S Lake Shore Drive",
+    "postal": "60637",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "US",
+    "latitude": 41.786933,
+    "longitude": -87.581249
+  },
+  {
+    "node": "newberry",
+    "address": "60 West Walton Street",
+    "postal": "60610",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "US",
+    "latitude": 41.90019,
+    "longitude": -87.630587
+  },
+  {
+    "node": "queenslibrary",
+    "address": "60-05 Main St",
+    "postal": "11355",
+    "city": "Queens",
+    "state": "NY",
+    "country": "US",
+    "latitude": 40.742923,
+    "longitude": -73.825306
+  },
+  {
+    "node": "mocp",
+    "address": "600 S Michigan Ave",
+    "postal": "60605",
+    "city": "Cambridge",
+    "state": "MA",
+    "country": "US",
+    "latitude": 41.874245,
+    "longitude": -87.624802
+  },
+  {
+    "node": "crl",
+    "address": "6050 S Kenwood Ave",
+    "postal": "60637",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "US",
+    "latitude": 41.784424,
+    "longitude": -87.593526
+  },
+  {
+    "node": "lapl",
+    "address": "630 W. 5th Street",
+    "postal": "90071",
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "US",
+    "latitude": 34.05063,
+    "longitude": -118.25491
+  },
+  {
+    "node": "umanitoba",
+    "address": "66 Chancellors Cir",
+    "postal": "R3T 2N2",
+    "city": "Winnipeg",
+    "state": "MB",
+    "country": "CA",
+    "latitude": 33.548299,
+    "longitude": -117.344739
+  },
+  {
+    "node": "bpl",
+    "address": "700 Boylston St",
+    "postal": "02116",
+    "city": "Boston",
+    "state": "MA",
+    "country": "US",
+    "latitude": 42.349231,
+    "longitude": -71.078659
+  },
+  {
+    "node": "dusablemuseum",
+    "address": "740 E 56th Pl",
+    "postal": "60637",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "US",
+    "latitude": 41.791761,
+    "longitude": -87.607054
+  },
+  {
+    "node": "claremont",
+    "address": "747 N Dartmouth Ave",
+    "postal": "91711",
+    "city": "Claremont",
+    "state": "CA",
+    "country": "US",
+    "latitude": 34.101408,
+    "longitude": -117.713856
+  },
+  {
+    "node": "uottawa",
+    "address": "75 Laurier Ave. E",
+    "postal": "K1N 6N5",
+    "city": "Ottawa",
+    "state": "ON",
+    "country": "CA",
+    "latitude": 45.42602,
+    "longitude": -75.68121
+  },
+  {
+    "node": "cincinnatilibrary",
+    "address": "800 Vine St",
+    "postal": "45202",
+    "city": "Cincinnati",
+    "state": "OH",
+    "country": "US",
+    "latitude": 39.104912,
+    "longitude": -84.513687
+  },
+  {
+    "node": "luma",
+    "address": "820 North Michigan Avenue",
+    "postal": "60611",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "US",
+    "latitude": 41.897397,
+    "longitude": -87.624312
+  },
+  {
+    "node": "mcgill",
+    "address": "845 Sherbrooke St W",
+    "postal": "H3A 0G4",
+    "city": "Montreal",
+    "state": "QC",
+    "country": "CA",
+    "latitude": 42.587422,
+    "longitude": -83.491455
+  },
+  {
+    "node": "nlm",
+    "address": "8600 Rockville Pike",
+    "postal": "20894",
+    "city": "Bethesda",
+    "state": "MD",
+    "country": "US",
+    "latitude": 38.995492,
+    "longitude": -77.096417
+  },
+  {
+    "node": "archives",
+    "address": "8601 Adelphi Road",
+    "postal": "20740-6001",
+    "city": "College Park",
+    "state": "MD",
+    "country": "US",
+    "latitude": 39.001101,
+    "longitude": -76.959408
+  },
+  {
+    "node": "sfu",
+    "address": "8888 University Dr",
+    "postal": "V5A 1S6",
+    "city": "Burnaby",
+    "state": "BC",
+    "country": "CA",
+    "latitude": 46.755875,
+    "longitude": -96.79597
+  },
+  {
+    "node": "acpl",
+    "address": "900 Library Plaza",
+    "postal": "46802",
+    "city": "Fort Wayne",
+    "state": "IN",
+    "country": "US",
+    "latitude": 41.077192,
+    "longitude": -85.14241
+  },
+  {
+    "node": "jcbl",
+    "address": "94 George St",
+    "postal": "02906",
+    "city": "Providence",
+    "state": "RI",
+    "country": "US",
+    "latitude": 41.82599,
+    "longitude": -71.390089
+  },
+  {
+    "node": "kcls",
+    "address": "960 Newport Way NW",
+    "postal": "98027",
+    "city": "Issaquah",
+    "state": "WA",
+    "country": "US",
+    "latitude": 47.540233,
+    "longitude": -122.050296
+  },
+  {
+    "node": "queensu",
+    "address": "99 University Ave",
+    "postal": "K7L 3N6",
+    "city": "Kingston",
+    "state": "ON",
+    "country": "CA",
+    "latitude": 37.443144,
+    "longitude": -122.164537
+  },
+  {
+    "node": "uaslp",
+    "address": "Alvaro Obregon 64, Centro",
+    "postal": "78300",
+    "city": "San Luis Potosí",
+    "state": "SL",
+    "country": "MX",
+    "latitude": 22.62487,
+    "longitude": -101.71756
+  },
+  {
+    "node": "udg",
+    "address": "Av Juárez 976, Col Americana, Americana",
+    "postal": "44160",
+    "city": "Guadalajara",
+    "state": "JA",
+    "country": "MX",
+    "latitude": 41.499495,
+    "longitude": -81.695409
+  },
+  {
+    "node": "anahuac",
+    "address": "Av Universidad Anáhuac 46, Col, Lomas Anahuac",
+    "postal": "52786",
+    "city": "Mexico City",
+    "state": "DF",
+    "country": "MX",
+    "latitude": 39.201449,
+    "longitude": -91.838271
+  },
+  {
+    "node": "tec",
+    "address": "Av. Eugenio Garza Sada 2501 Sur, Tecnológico",
+    "postal": "64849",
+    "city": "Monterrey",
+    "state": "NL",
+    "country": "MX",
+    "latitude": 37.257,
+    "longitude": -94.44439
+  },
+  {
+    "node": "savannahstate_library",
+    "address": "Box 20394, 2200 Tompkins Rd",
+    "postal": "31404",
+    "city": "Savannah",
+    "state": "GA",
+    "country": "US"
+  },
+  {
+    "node": "buap",
+    "address": "C. 4 Sur 104, Centro",
+    "postal": "72000",
+    "city": "Puebla",
+    "state": "PU",
+    "country": "MX",
+    "latitude": 36.887453,
+    "longitude": -84.809447
+  },
+  {
+    "node": "ipn",
+    "address": "Calz. Ticomán No. 600, San José Ticoman, Gustavo A. Madero",
+    "postal": "07320",
+    "city": "Mexico City",
+    "state": "DF",
+    "country": "MX",
+    "latitude": 40.728158,
+    "longitude": -74.077642
+  },
+  {
+    "node": "colpos",
+    "address": "Km. 36.5, México 136 5",
+    "postal": "56230",
+    "city": "Mexico City",
+    "state": "DF",
+    "country": "MX",
+    "latitude": 44.76007,
+    "longitude": -95.09754
+  },
+  {
+    "node": "hab",
+    "address": "Lessingpl. 1",
+    "postal": "38304",
+    "city": "Wolfenbüttel",
+    "state": "NI",
+    "country": "DE",
+    "latitude": 35.614517,
+    "longitude": -88.813947
+  },
+  {
+    "node": "uanl",
+    "address": "Pedro de Alba S/N, Niños Héroes, Ciudad Universitaria",
+    "postal": "66451",
+    "city": "San Nicolás de los Garza",
+    "state": "NL",
+    "country": "MX",
+    "latitude": 38.622848,
+    "longitude": -95.656131
+  },
+  {
+    "node": "uam",
+    "address": "Prol. Canal de Miramontes 3855, Coapa, Ex de San Juan de Dios, Tlalpan",
+    "postal": "14387",
+    "city": "Mexico City",
+    "state": "DF",
+    "country": "MX",
+    "latitude": 19.28707,
+    "longitude": -99.13708
+  },
+  {
+    "node": "unam",
+    "address": "University City, Coyoacán",
+    "postal": "04510",
+    "city": "Mexico City",
+    "state": "DF",
+    "country": "MX",
+    "latitude": 39.201449,
+    "longitude": -91.838271
+  },
+  {
+    "node": "ucalgary_library",
+    "city": "Calgary",
+    "state": "AB",
+    "country": "CA"
+  },
+  {
+    "node": "ualberta_library",
+    "city": "Edmonton",
+    "state": "AB",
+    "country": "CA"
+  },
+  {
+    "node": "sfu_library",
+    "city": "Burnaby",
+    "state": "BC",
+    "country": "CA"
+  },
+  {
+    "node": "ubc_library",
+    "city": "Vancouver",
+    "state": "BC",
+    "country": "CA"
+  },
+  {
+    "node": "uoguelph_library",
+    "city": "Guelph",
+    "state": "ON",
+    "country": "CA"
+  },
+  {
+    "node": "mcmaster_library",
+    "city": "Hamilton",
+    "state": "ON",
+    "country": "CA"
+  },
+  {
+    "node": "queensu_library",
+    "city": "Kingston",
+    "state": "ON",
+    "country": "CA"
+  },
+  {
+    "node": "uwo_library",
+    "city": "London",
+    "state": "ON",
+    "country": "CA"
+  },
+  {
+    "node": "yorku_library",
+    "city": "North York",
+    "state": "ON",
+    "country": "CA"
+  },
+  {
+    "node": "uottawa_library",
+    "city": "Ottawa",
+    "state": "ON",
+    "country": "CA"
+  },
+  {
+    "node": "utoronto_library",
+    "city": "Toronto",
+    "state": "ON",
+    "country": "CA"
+  },
+  {
+    "node": "uwaterloo_library",
+    "city": "Waterloo",
+    "state": "ON",
+    "country": "CA"
+  },
+  {
+    "node": "mcgill_library",
+    "city": "Montreal",
+    "state": "QC",
+    "country": "CA"
+  },
+  {
+    "node": "ulaval_library",
+    "city": "Quebec",
+    "state": "QC",
+    "country": "CA"
+  },
+  {
+    "node": "usask_library",
+    "city": "Saskatoon",
+    "state": "SK",
+    "country": "CA"
+  },
+  {
+    "node": "anahuac_library",
+    "city": "Mexico City",
+    "state": "DF",
+    "country": "MX"
+  },
+  {
+    "node": "colpos_library",
+    "city": "Mexico City",
+    "state": "DF",
+    "country": "MX"
+  },
+  {
+    "node": "ipn_library",
+    "city": "Mexico City",
+    "state": "DF",
+    "country": "MX"
+  },
+  {
+    "node": "uam_library",
+    "city": "Mexico City",
+    "state": "DF",
+    "country": "MX"
+  },
+  {
+    "node": "unam_library",
+    "city": "Mexico City",
+    "state": "DF",
+    "country": "MX"
+  },
+  {
+    "node": "udg_library",
+    "city": "Guadalajara",
+    "state": "JA",
+    "country": "MX"
+  },
+  {
+    "node": "tec_library",
+    "city": "Monterrey",
+    "state": "NL",
+    "country": "MX"
+  },
+  {
+    "node": "uanl_library",
+    "city": "San Nicolás de los Garza",
+    "state": "NL",
+    "country": "MX"
+  },
+  {
+    "node": "buap_library",
+    "city": "Puebla",
+    "state": "PU",
+    "country": "MX"
+  },
+  {
+    "node": "uaslp_library",
+    "city": "San Luis Potosí",
+    "state": "SL",
+    "country": "MX"
+  },
+  {
+    "node": "uaf",
+    "city": "Fairbanks",
+    "state": "AK",
+    "country": "US"
+  },
+  {
+    "node": "uaf_library",
+    "city": "Fairbanks",
+    "state": "AK",
+    "country": "US"
+  },
+  {
+    "node": "auburn",
+    "city": "Auburn",
+    "state": "AL",
+    "country": "US"
+  },
+  {
+    "node": "auburn_library",
+    "city": "Auburn",
+    "state": "AL",
+    "country": "US"
+  },
+  {
+    "node": "uab",
+    "city": "Birmingham",
+    "state": "AL",
+    "country": "US"
+  },
+  {
+    "node": "uab_library",
+    "city": "Birmingham",
+    "state": "AL",
+    "country": "US"
+  },
+  {
+    "node": "uah",
+    "city": "Huntsville",
+    "state": "AL",
+    "country": "US"
+  },
+  {
+    "node": "uah_library",
+    "city": "Huntsville",
+    "state": "AL",
+    "country": "US"
+  },
+  {
+    "node": "southalabama",
+    "city": "Mobile",
+    "state": "AL",
+    "country": "US"
+  },
+  {
+    "node": "southalabama_library",
+    "city": "Mobile",
+    "state": "AL",
+    "country": "US"
+  },
+  {
+    "node": "aamu",
+    "city": "Normal",
+    "state": "AL",
+    "country": "US"
+  },
+  {
+    "node": "aamu_library",
+    "city": "Normal",
+    "state": "AL",
+    "country": "US"
+  },
+  {
+    "node": "ua",
+    "city": "Tuscaloosa",
+    "state": "AL",
+    "country": "US"
+  },
+  {
+    "node": "ua_library",
+    "city": "Tuscaloosa",
+    "state": "AL",
+    "country": "US"
+  },
+  {
+    "node": "uark",
+    "city": "Fayetteville",
+    "state": "AR",
+    "country": "US"
+  },
+  {
+    "node": "uark_library",
+    "city": "Fayetteville",
+    "state": "AR",
+    "country": "US"
+  },
+  {
+    "node": "astate",
+    "city": "Jonesboro",
+    "state": "AR",
+    "country": "US"
+  },
+  {
+    "node": "astate_library",
+    "city": "Jonesboro",
+    "state": "AR",
+    "country": "US"
+  },
+  {
+    "node": "ualr",
+    "city": "Little Rock",
+    "state": "AR",
+    "country": "US"
+  },
+  {
+    "node": "ualr_library",
+    "city": "Little Rock",
+    "state": "AR",
+    "country": "US"
+  },
+  {
+    "node": "nau",
+    "city": "Flagstaff",
+    "state": "AZ",
+    "country": "US"
+  },
+  {
+    "node": "nau_library",
+    "city": "Flagstaff",
+    "state": "AZ",
+    "country": "US"
+  },
+  {
+    "node": "asu_phoenix",
+    "city": "Phoenix",
+    "state": "AZ",
+    "country": "US"
+  },
+  {
+    "node": "asu",
+    "city": "Tempe",
+    "state": "AZ",
+    "country": "US"
+  },
+  {
+    "node": "asu_library",
+    "city": "Tempe",
+    "state": "AZ",
+    "country": "US"
+  },
+  {
+    "node": "arizona",
+    "city": "Tucson",
+    "state": "AZ",
+    "country": "US"
+  },
+  {
+    "node": "arizona_library",
+    "city": "Tucson",
+    "state": "AZ",
+    "country": "US"
+  },
+  {
+    "node": "apu",
+    "city": "Azusa",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "node": "apu_library",
+    "city": "Azusa",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "node": "berkeley",
+    "city": "Berkeley",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "node": "berkeley_library",
+    "city": "Berkeley",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "node": "cgu",
+    "city": "Claremont",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "node": "claremont_library",
+    "city": "Claremont",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "node": "ucdavis",
+    "city": "Davis",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "node": "ucdavis_library",
+    "city": "Davis",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "node": "uci",
+    "city": "Irvine",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "node": "uci_library",
+    "city": "Irvine",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "node": "getty_library",
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "node": "lmu",
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "node": "lmu_library",
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "node": "ucla",
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "node": "ucla_library",
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "node": "usc",
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "node": "usc_library",
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "node": "ucmerced",
+    "city": "Merced",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "node": "ucmerced_library",
+    "city": "Merced",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "node": "chapman",
+    "city": "Orange",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "node": "chapman_library",
+    "city": "Orange",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "node": "caltech",
+    "city": "Pasadena",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "node": "caltech_library",
+    "city": "Pasadena",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "node": "ucr",
+    "city": "Riverside",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "node": "ucr_library",
+    "city": "Riverside",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "node": "ca_library",
+    "city": "Sacramento",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "node": "sandiego",
+    "city": "San Diego",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "node": "sandiego_library",
+    "city": "San Diego",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "node": "sdsu",
+    "city": "San Diego",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "node": "sdsu_library",
+    "city": "San Diego",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "node": "ucsd",
+    "city": "San Diego",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "node": "ucsd_library",
+    "city": "San Diego",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "node": "scsb",
+    "city": "Santa Barbara",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "node": "scsb_library",
+    "city": "Santa Barbara",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "node": "ucsc",
+    "city": "Santa Cruz",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "node": "ucsc_library",
+    "city": "Santa Cruz",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "node": "stanford",
+    "city": "Stanford",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "node": "stanford_library",
+    "city": "Stanford",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "node": "colorado",
+    "city": "Boulder",
+    "state": "CO",
+    "country": "US"
+  },
+  {
+    "node": "colorado_library",
+    "city": "Boulder",
+    "state": "CO",
+    "country": "US"
+  },
+  {
+    "node": "uccs",
+    "city": "Colorado Springs",
+    "state": "CO",
+    "country": "US"
+  },
+  {
+    "node": "uccs_library",
+    "city": "Colorado Springs",
+    "state": "CO",
+    "country": "US"
+  },
+  {
+    "node": "auraria_library",
+    "city": "Denver",
+    "state": "CO",
+    "country": "US"
+  },
+  {
+    "node": "du",
+    "city": "Denver",
+    "state": "CO",
+    "country": "US"
+  },
+  {
+    "node": "du_library",
+    "city": "Denver",
+    "state": "CO",
+    "country": "US"
+  },
+  {
+    "node": "ucdenver",
+    "city": "Denver",
+    "state": "CO",
+    "country": "US"
+  },
+  {
+    "node": "colostate",
+    "city": "Fort Collins",
+    "state": "CO",
+    "country": "US"
+  },
+  {
+    "node": "colostate_library",
+    "city": "Fort Collins",
+    "state": "CO",
+    "country": "US"
+  },
+  {
+    "node": "mines",
+    "city": "Golden",
+    "state": "CO",
+    "country": "US"
+  },
+  {
+    "node": "mines_library",
+    "city": "Golden",
+    "state": "CO",
+    "country": "US"
+  },
+  {
+    "node": "yale",
+    "city": "New Haven",
+    "state": "CT",
+    "country": "US"
+  },
+  {
+    "node": "yale_library",
+    "city": "New Haven",
+    "state": "CT",
+    "country": "US"
+  },
+  {
+    "node": "uconn",
+    "city": "Storrs",
+    "state": "CT",
+    "country": "US"
+  },
+  {
+    "node": "uconn_library",
+    "city": "Storrs",
+    "state": "CT",
+    "country": "US"
+  },
+  {
+    "node": "american",
+    "city": "Washington",
+    "state": "DC",
+    "country": "US"
+  },
+  {
+    "node": "american_library",
+    "city": "Washington",
+    "state": "DC",
+    "country": "US"
+  },
+  {
+    "node": "catholic",
+    "city": "Washington",
+    "state": "DC",
+    "country": "US"
+  },
+  {
+    "node": "catholic_library",
+    "city": "Washington",
+    "state": "DC",
+    "country": "US"
+  },
+  {
+    "node": "gallaudet",
+    "city": "Washington",
+    "state": "DC",
+    "country": "US"
+  },
+  {
+    "node": "gallaudet_library",
+    "city": "Washington",
+    "state": "DC",
+    "country": "US"
+  },
+  {
+    "node": "georgetown",
+    "city": "Washington",
+    "state": "DC",
+    "country": "US"
+  },
+  {
+    "node": "georgetown_library",
+    "city": "Washington",
+    "state": "DC",
+    "country": "US"
+  },
+  {
+    "node": "gwu",
+    "city": "Washington",
+    "state": "DC",
+    "country": "US"
+  },
+  {
+    "node": "gwu_library",
+    "city": "Washington",
+    "state": "DC",
+    "country": "US"
+  },
+  {
+    "node": "howard",
+    "city": "Washington",
+    "state": "DC",
+    "country": "US"
+  },
+  {
+    "node": "howard_library",
+    "city": "Washington",
+    "state": "DC",
+    "country": "US"
+  },
+  {
+    "node": "desu",
+    "city": "Dover",
+    "state": "DE",
+    "country": "US"
+  },
+  {
+    "node": "desu_library",
+    "city": "Dover",
+    "state": "DE",
+    "country": "US"
+  },
+  {
+    "node": "udel",
+    "city": "Newark",
+    "state": "DE",
+    "country": "US"
+  },
+  {
+    "node": "udel_library",
+    "city": "Newark",
+    "state": "DE",
+    "country": "US"
+  },
+  {
+    "node": "fau",
+    "city": "Boca Raton",
+    "state": "FL",
+    "country": "US"
+  },
+  {
+    "node": "fau_library",
+    "city": "Boca Raton",
+    "state": "FL",
+    "country": "US"
+  },
+  {
+    "node": "miami",
+    "city": "Coral Gables",
+    "state": "FL",
+    "country": "US"
+  },
+  {
+    "node": "miami_library",
+    "city": "Coral Gables",
+    "state": "FL",
+    "country": "US"
+  },
+  {
+    "node": "broward_library",
+    "city": "Fort Lauderdale",
+    "state": "FL",
+    "country": "US"
+  },
+  {
+    "node": "nova",
+    "city": "Fort Lauderdale",
+    "state": "FL",
+    "country": "US"
+  },
+  {
+    "node": "nova_library",
+    "city": "Fort Lauderdale",
+    "state": "FL",
+    "country": "US"
+  },
+  {
+    "node": "ufl",
+    "city": "Gainesville",
+    "state": "FL",
+    "country": "US"
+  },
+  {
+    "node": "ufl_library",
+    "city": "Gainesville",
+    "state": "FL",
+    "country": "US"
+  },
+  {
+    "node": "fit",
+    "city": "Melbourne",
+    "state": "FL",
+    "country": "US"
+  },
+  {
+    "node": "fit_library",
+    "city": "Melbourne",
+    "state": "FL",
+    "country": "US"
+  },
+  {
+    "node": "fiu",
+    "city": "Miami",
+    "state": "FL",
+    "country": "US"
+  },
+  {
+    "node": "fiu_library",
+    "city": "Miami",
+    "state": "FL",
+    "country": "US"
+  },
+  {
+    "node": "ucf",
+    "city": "Orlando",
+    "state": "FL",
+    "country": "US"
+  },
+  {
+    "node": "ucf_library",
+    "city": "Orlando",
+    "state": "FL",
+    "country": "US"
+  },
+  {
+    "node": "famu",
+    "city": "Tallahassee",
+    "state": "FL",
+    "country": "US"
+  },
+  {
+    "node": "famu_library",
+    "city": "Tallahassee",
+    "state": "FL",
+    "country": "US"
+  },
+  {
+    "node": "fsu",
+    "city": "Tallahassee",
+    "state": "FL",
+    "country": "US"
+  },
+  {
+    "node": "fsu_library",
+    "city": "Tallahassee",
+    "state": "FL",
+    "country": "US"
+  },
+  {
+    "node": "usf",
+    "city": "Tampa",
+    "state": "FL",
+    "country": "US"
+  },
+  {
+    "node": "usf_library",
+    "city": "Tampa",
+    "state": "FL",
+    "country": "US"
+  },
+  {
+    "node": "asurams",
+    "city": "Albany",
+    "state": "GA",
+    "country": "US"
+  },
+  {
+    "node": "asurams_library",
+    "city": "Albany",
+    "state": "GA",
+    "country": "US"
+  },
+  {
+    "node": "uga",
+    "city": "Athens",
+    "state": "GA",
+    "country": "US"
+  },
+  {
+    "node": "uga_library",
+    "city": "Athens",
+    "state": "GA",
+    "country": "US"
+  },
+  {
+    "node": "auc_library",
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "US"
+  },
+  {
+    "node": "cau",
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "US"
+  },
+  {
+    "node": "emory",
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "US"
+  },
+  {
+    "node": "emory_library",
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "US"
+  },
+  {
+    "node": "gatech",
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "US"
+  },
+  {
+    "node": "gatech_library",
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "US"
+  },
+  {
+    "node": "gsu",
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "US"
+  },
+  {
+    "node": "gsu_library",
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "US"
+  },
+  {
+    "node": "morehouse",
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "US"
+  },
+  {
+    "node": "spelman",
+    "city": "Atlanta",
+    "state": "GA",
+    "country": "US"
+  },
+  {
+    "node": "kennesaw",
+    "city": "Kennesaw",
+    "state": "GA",
+    "country": "US"
+  },
+  {
+    "node": "kennesaw_library",
+    "city": "Kennesaw",
+    "state": "GA",
+    "country": "US"
+  },
+  {
+    "node": "mercer",
+    "city": "Macon",
+    "state": "GA",
+    "country": "US"
+  },
+  {
+    "node": "mercer_library",
+    "city": "Macon",
+    "state": "GA",
+    "country": "US"
+  },
+  {
+    "node": "georgiasouthern",
+    "city": "Statesboro",
+    "state": "GA",
+    "country": "US"
+  },
+  {
+    "node": "georgiasouthern_library",
+    "city": "Statesboro",
+    "state": "GA",
+    "country": "US"
+  },
+  {
+    "node": "hawaii",
+    "city": "Manoa",
+    "state": "HI",
+    "country": "US"
+  },
+  {
+    "node": "hawaii_library",
+    "city": "Manoa",
+    "state": "HI",
+    "country": "US"
+  },
+  {
+    "node": "iastate",
+    "city": "Ames",
+    "state": "IA",
+    "country": "US"
+  },
+  {
+    "node": "iastate_library",
+    "city": "Ames",
+    "state": "IA",
+    "country": "US"
+  },
+  {
+    "node": "uiowa",
+    "city": "Iowa City",
+    "state": "IA",
+    "country": "US"
+  },
+  {
+    "node": "uiowa_library",
+    "city": "Iowa City",
+    "state": "IA",
+    "country": "US"
+  },
+  {
+    "node": "boisestate",
+    "city": "Boise",
+    "state": "ID",
+    "country": "US"
+  },
+  {
+    "node": "boisestate_library",
+    "city": "Boise",
+    "state": "ID",
+    "country": "US"
+  },
+  {
+    "node": "uidaho",
+    "city": "Moscow",
+    "state": "ID",
+    "country": "US"
+  },
+  {
+    "node": "uidaho_library",
+    "city": "Moscow",
+    "state": "ID",
+    "country": "US"
+  },
+  {
+    "node": "isu",
+    "city": "Pocatello",
+    "state": "ID",
+    "country": "US"
+  },
+  {
+    "node": "isu_library",
+    "city": "Pocatello",
+    "state": "ID",
+    "country": "US"
+  },
+  {
+    "node": "siu",
+    "city": "Carbondale",
+    "state": "IL",
+    "country": "US"
+  },
+  {
+    "node": "siu_library",
+    "city": "Carbondale",
+    "state": "IL",
+    "country": "US"
+  },
+  {
+    "node": "illinois",
+    "city": "Champaign",
+    "state": "IL",
+    "country": "US"
+  },
+  {
+    "node": "illinois_library",
+    "city": "Champaign",
+    "state": "IL",
+    "country": "US"
+  },
+  {
+    "node": "aic_library",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "US"
+  },
+  {
+    "node": "colum",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "US"
+  },
+  {
+    "node": "colum_library",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "US"
+  },
+  {
+    "node": "depaul",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "US"
+  },
+  {
+    "node": "depaul_library",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "US"
+  },
+  {
+    "node": "iit",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "US"
+  },
+  {
+    "node": "iit_library",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "US"
+  },
+  {
+    "node": "luc",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "US"
+  },
+  {
+    "node": "luc_library",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "US"
+  },
+  {
+    "node": "uchicago",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "US"
+  },
+  {
+    "node": "uchicago_library",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "US"
+  },
+  {
+    "node": "uic",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "US"
+  },
+  {
+    "node": "uic_library",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "US"
+  },
+  {
+    "node": "niu",
+    "city": "Dekalb",
+    "state": "IL",
+    "country": "US"
+  },
+  {
+    "node": "niu_library",
+    "city": "Dekalb",
+    "state": "IL",
+    "country": "US"
+  },
+  {
+    "node": "nw",
+    "city": "Evanston",
+    "state": "IL",
+    "country": "US"
+  },
+  {
+    "node": "nw_library",
+    "city": "Evanston",
+    "state": "IL",
+    "country": "US"
+  },
+  {
+    "node": "illinoisstate",
+    "city": "Normal",
+    "state": "IL",
+    "country": "US"
+  },
+  {
+    "node": "illinoisstate_library",
+    "city": "Normal",
+    "state": "IL",
+    "country": "US"
+  },
+  {
+    "node": "indiana",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "US"
+  },
+  {
+    "node": "indiana_library",
+    "city": "Bloomington",
+    "state": "IN",
+    "country": "US"
+  },
+  {
+    "node": "iupui",
+    "city": "Indianapolis",
+    "state": "IN",
+    "country": "US"
+  },
+  {
+    "node": "iupui_library",
+    "city": "Indianapolis",
+    "state": "IN",
+    "country": "US"
+  },
+  {
+    "node": "bsu",
+    "city": "Muncie",
+    "state": "IN",
+    "country": "US"
+  },
+  {
+    "node": "bsu_library",
+    "city": "Muncie",
+    "state": "IN",
+    "country": "US"
+  },
+  {
+    "node": "nd",
+    "city": "South Bend",
+    "state": "IN",
+    "country": "US"
+  },
+  {
+    "node": "nd_library",
+    "city": "South Bend",
+    "state": "IN",
+    "country": "US"
+  },
+  {
+    "node": "purdue",
+    "city": "West Lafayette",
+    "state": "IN",
+    "country": "US"
+  },
+  {
+    "node": "purdue_library",
+    "city": "West Lafayette",
+    "state": "IN",
+    "country": "US"
+  },
+  {
+    "node": "ku",
+    "city": "Lawrence",
+    "state": "KS",
+    "country": "US"
+  },
+  {
+    "node": "ku_library",
+    "city": "Lawrence",
+    "state": "KS",
+    "country": "US"
+  },
+  {
+    "node": "k-state",
+    "city": "Manhattan",
+    "state": "KS",
+    "country": "US"
+  },
+  {
+    "node": "k-state_library",
+    "city": "Manhattan",
+    "state": "KS",
+    "country": "US"
+  },
+  {
+    "node": "wichita",
+    "city": "Wichita",
+    "state": "KS",
+    "country": "US"
+  },
+  {
+    "node": "wichita_library",
+    "city": "Wichita",
+    "state": "KS",
+    "country": "US"
+  },
+  {
+    "node": "uky",
+    "city": "Lexington",
+    "state": "KY",
+    "country": "US"
+  },
+  {
+    "node": "uky_library",
+    "city": "Lexington",
+    "state": "KY",
+    "country": "US"
+  },
+  {
+    "node": "louisville",
+    "city": "Louisville",
+    "state": "KY",
+    "country": "US"
+  },
+  {
+    "node": "louisville_library",
+    "city": "Louisville",
+    "state": "KY",
+    "country": "US"
+  },
+  {
+    "node": "lsu",
+    "city": "Baton Rouge",
+    "state": "LA",
+    "country": "US"
+  },
+  {
+    "node": "lsu_library",
+    "city": "Baton Rouge",
+    "state": "LA",
+    "country": "US"
+  },
+  {
+    "node": "subr",
+    "city": "Baton Rouge",
+    "state": "LA",
+    "country": "US"
+  },
+  {
+    "node": "subr_library",
+    "city": "Baton Rouge",
+    "state": "LA",
+    "country": "US"
+  },
+  {
+    "node": "gram",
+    "city": "Grambling",
+    "state": "LA",
+    "country": "US"
+  },
+  {
+    "node": "gram_library",
+    "city": "Grambling",
+    "state": "LA",
+    "country": "US"
+  },
+  {
+    "node": "louisiana",
+    "city": "Lafayette",
+    "state": "LA",
+    "country": "US"
+  },
+  {
+    "node": "louisiana_library",
+    "city": "Lafayette",
+    "state": "LA",
+    "country": "US"
+  },
+  {
+    "node": "dillard",
+    "city": "New Orleans",
+    "state": "LA",
+    "country": "US"
+  },
+  {
+    "node": "dillard_library",
+    "city": "New Orleans",
+    "state": "LA",
+    "country": "US"
+  },
+  {
+    "node": "tulane",
+    "city": "New Orleans",
+    "state": "LA",
+    "country": "US"
+  },
+  {
+    "node": "tulane_library",
+    "city": "New Orleans",
+    "state": "LA",
+    "country": "US"
+  },
+  {
+    "node": "uno",
+    "city": "New Orleans",
+    "state": "LA",
+    "country": "US"
+  },
+  {
+    "node": "uno_library",
+    "city": "New Orleans",
+    "state": "LA",
+    "country": "US"
+  },
+  {
+    "node": "latech",
+    "city": "Ruston",
+    "state": "LA",
+    "country": "US"
+  },
+  {
+    "node": "latech_library",
+    "city": "Ruston",
+    "state": "LA",
+    "country": "US"
+  },
+  {
+    "node": "umass",
+    "city": "Amherst",
+    "state": "MA",
+    "country": "US"
+  },
+  {
+    "node": "umass_library",
+    "city": "Amherst",
+    "state": "MA",
+    "country": "US"
+  },
+  {
+    "node": "bu",
+    "city": "Boston",
+    "state": "MA",
+    "country": "US"
+  },
+  {
+    "node": "bu_library",
+    "city": "Boston",
+    "state": "MA",
+    "country": "US"
+  },
+  {
+    "node": "northeastern",
+    "city": "Boston",
+    "state": "MA",
+    "country": "US"
+  },
+  {
+    "node": "northeastern_library",
+    "city": "Boston",
+    "state": "MA",
+    "country": "US"
+  },
+  {
+    "node": "umb",
+    "city": "Boston",
+    "state": "MA",
+    "country": "US"
+  },
+  {
+    "node": "umb_library",
+    "city": "Boston",
+    "state": "MA",
+    "country": "US"
+  },
+  {
+    "node": "harvard",
+    "city": "Cambridge",
+    "state": "MA",
+    "country": "US"
+  },
+  {
+    "node": "harvard_library",
+    "city": "Cambridge",
+    "state": "MA",
+    "country": "US"
+  },
+  {
+    "node": "mit",
+    "city": "Cambridge",
+    "state": "MA",
+    "country": "US"
+  },
+  {
+    "node": "mit_library",
+    "city": "Cambridge",
+    "state": "MA",
+    "country": "US"
+  },
+  {
+    "node": "bc",
+    "city": "Chestnut Hill",
+    "state": "MA",
+    "country": "US"
+  },
+  {
+    "node": "bc_library",
+    "city": "Chestnut Hill",
+    "state": "MA",
+    "country": "US"
+  },
+  {
+    "node": "uml",
+    "city": "Lowell",
+    "state": "MA",
+    "country": "US"
+  },
+  {
+    "node": "uml_library",
+    "city": "Lowell",
+    "state": "MA",
+    "country": "US"
+  },
+  {
+    "node": "tufts",
+    "city": "Medford",
+    "state": "MA",
+    "country": "US"
+  },
+  {
+    "node": "tufts_library",
+    "city": "Medford",
+    "state": "MA",
+    "country": "US"
+  },
+  {
+    "node": "umassd",
+    "city": "North Dartmouth",
+    "state": "MA",
+    "country": "US"
+  },
+  {
+    "node": "umassd_library",
+    "city": "North Dartmouth",
+    "state": "MA",
+    "country": "US"
+  },
+  {
+    "node": "brandeis",
+    "city": "Waltham",
+    "state": "MA",
+    "country": "US"
+  },
+  {
+    "node": "brandeis_library",
+    "city": "Waltham",
+    "state": "MA",
+    "country": "US"
+  },
+  {
+    "node": "clarku",
+    "city": "Worcester",
+    "state": "MA",
+    "country": "US"
+  },
+  {
+    "node": "clarku_library",
+    "city": "Worcester",
+    "state": "MA",
+    "country": "US"
+  },
+  {
+    "node": "wpi",
+    "city": "Worcester",
+    "state": "MA",
+    "country": "US"
+  },
+  {
+    "node": "wpi_library",
+    "city": "Worcester",
+    "state": "MA",
+    "country": "US"
+  },
+  {
+    "node": "umanitoba_library",
+    "city": "Winnipeg",
+    "state": "MB",
+    "country": "US"
+  },
+  {
+    "node": "jhu",
+    "city": "Baltimore",
+    "state": "MD",
+    "country": "US"
+  },
+  {
+    "node": "jhu_library",
+    "city": "Baltimore",
+    "state": "MD",
+    "country": "US"
+  },
+  {
+    "node": "morgan",
+    "city": "Baltimore",
+    "state": "MD",
+    "country": "US"
+  },
+  {
+    "node": "morgan_library",
+    "city": "Baltimore",
+    "state": "MD",
+    "country": "US"
+  },
+  {
+    "node": "umbc",
+    "city": "Baltimore",
+    "state": "MD",
+    "country": "US"
+  },
+  {
+    "node": "umbc_library",
+    "city": "Baltimore",
+    "state": "MD",
+    "country": "US"
+  },
+  {
+    "node": "bowiestate",
+    "city": "Bowie",
+    "state": "MD",
+    "country": "US"
+  },
+  {
+    "node": "bowiestate_library",
+    "city": "Bowie",
+    "state": "MD",
+    "country": "US"
+  },
+  {
+    "node": "umd",
+    "city": "College Park",
+    "state": "MD",
+    "country": "US"
+  },
+  {
+    "node": "umd_library",
+    "city": "College Park",
+    "state": "MD",
+    "country": "US"
+  },
+  {
+    "node": "umes",
+    "city": "Princess Anne",
+    "state": "MD",
+    "country": "US"
+  },
+  {
+    "node": "umes_library",
+    "city": "Princess Anne",
+    "state": "MD",
+    "country": "US"
+  },
+  {
+    "node": "une",
+    "city": "Biddeford",
+    "state": "ME",
+    "country": "US"
+  },
+  {
+    "node": "une_library",
+    "city": "Biddeford",
+    "state": "ME",
+    "country": "US"
+  },
+  {
+    "node": "umaine",
+    "city": "Orono",
+    "state": "ME",
+    "country": "US"
+  },
+  {
+    "node": "umaine_library",
+    "city": "Orono",
+    "state": "ME",
+    "country": "US"
+  },
+  {
+    "node": "umich",
+    "city": "Ann Arbor",
+    "state": "MI",
+    "country": "US"
+  },
+  {
+    "node": "umich_library",
+    "city": "Ann Arbor",
+    "state": "MI",
+    "country": "US"
+  },
+  {
+    "node": "wayne",
+    "city": "Detroit",
+    "state": "MI",
+    "country": "US"
+  },
+  {
+    "node": "wayne_library",
+    "city": "Detroit",
+    "state": "MI",
+    "country": "US"
+  },
+  {
+    "node": "msu",
+    "city": "East Lansing",
+    "state": "MI",
+    "country": "US"
+  },
+  {
+    "node": "msu_library",
+    "city": "East Lansing",
+    "state": "MI",
+    "country": "US"
+  },
+  {
+    "node": "mtu",
+    "city": "Houghton",
+    "state": "MI",
+    "country": "US"
+  },
+  {
+    "node": "mtu_library",
+    "city": "Houghton",
+    "state": "MI",
+    "country": "US"
+  },
+  {
+    "node": "wmich",
+    "city": "Kalamazoo",
+    "state": "MI",
+    "country": "US"
+  },
+  {
+    "node": "wmich_library",
+    "city": "Kalamazoo",
+    "state": "MI",
+    "country": "US"
+  },
+  {
+    "node": "cmich",
+    "city": "Mount Pleasant",
+    "state": "MI",
+    "country": "US"
+  },
+  {
+    "node": "cmich_library",
+    "city": "Mount Pleasant",
+    "state": "MI",
+    "country": "US"
+  },
+  {
+    "node": "oakland",
+    "city": "Rochester Hills",
+    "state": "MI",
+    "country": "US"
+  },
+  {
+    "node": "oakland_library",
+    "city": "Rochester Hills",
+    "state": "MI",
+    "country": "US"
+  },
+  {
+    "node": "emich",
+    "city": "Ypsilanti",
+    "state": "MI",
+    "country": "US"
+  },
+  {
+    "node": "emich_library",
+    "city": "Ypsilanti",
+    "state": "MI",
+    "country": "US"
+  },
+  {
+    "node": "umn",
+    "city": "MInneapolis",
+    "state": "MN",
+    "country": "US"
+  },
+  {
+    "node": "umn_library",
+    "city": "MInneapolis",
+    "state": "MN",
+    "country": "US"
+  },
+  {
+    "node": "missouri",
+    "city": "Columbia",
+    "state": "MO",
+    "country": "US"
+  },
+  {
+    "node": "missouri_library",
+    "city": "Columbia",
+    "state": "MO",
+    "country": "US"
+  },
+  {
+    "node": "umkc",
+    "city": "Kansas City",
+    "state": "MO",
+    "country": "US"
+  },
+  {
+    "node": "umkc_library",
+    "city": "Kansas City",
+    "state": "MO",
+    "country": "US"
+  },
+  {
+    "node": "mst",
+    "city": "Rolla",
+    "state": "MO",
+    "country": "US"
+  },
+  {
+    "node": "mst_library",
+    "city": "Rolla",
+    "state": "MO",
+    "country": "US"
+  },
+  {
+    "node": "slu",
+    "city": "Saint Louis",
+    "state": "MO",
+    "country": "US"
+  },
+  {
+    "node": "slu_library",
+    "city": "Saint Louis",
+    "state": "MO",
+    "country": "US"
+  },
+  {
+    "node": "umsl",
+    "city": "Saint Louis",
+    "state": "MO",
+    "country": "US"
+  },
+  {
+    "node": "umsl_library",
+    "city": "Saint Louis",
+    "state": "MO",
+    "country": "US"
+  },
+  {
+    "node": "wustl",
+    "city": "St. Louis",
+    "state": "MO",
+    "country": "US"
+  },
+  {
+    "node": "wustl_library",
+    "city": "St. Louis",
+    "state": "MO",
+    "country": "US"
+  },
+  {
+    "node": "usm",
+    "city": "Hattiesburg",
+    "state": "MS",
+    "country": "US"
+  },
+  {
+    "node": "usm_library",
+    "city": "Hattiesburg",
+    "state": "MS",
+    "country": "US"
+  },
+  {
+    "node": "jsums",
+    "city": "Jackson",
+    "state": "MS",
+    "country": "US"
+  },
+  {
+    "node": "jsums_library",
+    "city": "Jackson",
+    "state": "MS",
+    "country": "US"
+  },
+  {
+    "node": "olemiss",
+    "city": "Oxford",
+    "state": "MS",
+    "country": "US"
+  },
+  {
+    "node": "olemiss_library",
+    "city": "Oxford",
+    "state": "MS",
+    "country": "US"
+  },
+  {
+    "node": "msstate",
+    "city": "Starkville",
+    "state": "MS",
+    "country": "US"
+  },
+  {
+    "node": "msstate_library",
+    "city": "Starkville",
+    "state": "MS",
+    "country": "US"
+  },
+  {
+    "node": "montana",
+    "city": "Bozeman",
+    "state": "MT",
+    "country": "US"
+  },
+  {
+    "node": "montana_library",
+    "city": "Bozeman",
+    "state": "MT",
+    "country": "US"
+  },
+  {
+    "node": "unl",
+    "city": "Lincoln",
+    "state": "NB",
+    "country": "US"
+  },
+  {
+    "node": "unl_library",
+    "city": "Lincoln",
+    "state": "NB",
+    "country": "US"
+  },
+  {
+    "node": "unc",
+    "city": "Chapel Hill",
+    "state": "NC",
+    "country": "US"
+  },
+  {
+    "node": "unc_library",
+    "city": "Chapel Hill",
+    "state": "NC",
+    "country": "US"
+  },
+  {
+    "node": "uncc",
+    "city": "Charlotte",
+    "state": "NC",
+    "country": "US"
+  },
+  {
+    "node": "uncc_library",
+    "city": "Charlotte",
+    "state": "NC",
+    "country": "US"
+  },
+  {
+    "node": "duke",
+    "city": "Durham",
+    "state": "NC",
+    "country": "US"
+  },
+  {
+    "node": "duke_library",
+    "city": "Durham",
+    "state": "NC",
+    "country": "US"
+  },
+  {
+    "node": "nccu",
+    "city": "Durham",
+    "state": "NC",
+    "country": "US"
+  },
+  {
+    "node": "nccu_library",
+    "city": "Durham",
+    "state": "NC",
+    "country": "US"
+  },
+  {
+    "node": "uncfsu",
+    "city": "Fayetteville",
+    "state": "NC",
+    "country": "US"
+  },
+  {
+    "node": "uncfsu_library",
+    "city": "Fayetteville",
+    "state": "NC",
+    "country": "US"
+  },
+  {
+    "node": "ncat",
+    "city": "Greensboro",
+    "state": "NC",
+    "country": "US"
+  },
+  {
+    "node": "ncat_library",
+    "city": "Greensboro",
+    "state": "NC",
+    "country": "US"
+  },
+  {
+    "node": "uncg",
+    "city": "Greensboro",
+    "state": "NC",
+    "country": "US"
+  },
+  {
+    "node": "uncg_library",
+    "city": "Greensboro",
+    "state": "NC",
+    "country": "US"
+  },
+  {
+    "node": "ecu",
+    "city": "Greenville",
+    "state": "NC",
+    "country": "US"
+  },
+  {
+    "node": "ecu_library",
+    "city": "Greenville",
+    "state": "NC",
+    "country": "US"
+  },
+  {
+    "node": "ncsu",
+    "city": "Raleigh",
+    "state": "NC",
+    "country": "US"
+  },
+  {
+    "node": "ncsu_library",
+    "city": "Raleigh",
+    "state": "NC",
+    "country": "US"
+  },
+  {
+    "node": "uncw",
+    "city": "Wilmington",
+    "state": "NC",
+    "country": "US"
+  },
+  {
+    "node": "uncw_library",
+    "city": "Wilmington",
+    "state": "NC",
+    "country": "US"
+  },
+  {
+    "node": "wfu",
+    "city": "Winston-Salem",
+    "state": "NC",
+    "country": "US"
+  },
+  {
+    "node": "wfu_library",
+    "city": "Winston-Salem",
+    "state": "NC",
+    "country": "US"
+  },
+  {
+    "node": "wssu",
+    "city": "Winston-Salem",
+    "state": "NC",
+    "country": "US"
+  },
+  {
+    "node": "wssu_library",
+    "city": "Winston-Salem",
+    "state": "NC",
+    "country": "US"
+  },
+  {
+    "node": "ndsu",
+    "city": "Fargo",
+    "state": "ND",
+    "country": "US"
+  },
+  {
+    "node": "ndsu_library",
+    "city": "Fargo",
+    "state": "ND",
+    "country": "US"
+  },
+  {
+    "node": "und",
+    "city": "Grand Forks",
+    "state": "ND",
+    "country": "US"
+  },
+  {
+    "node": "und_library",
+    "city": "Grand Forks",
+    "state": "ND",
+    "country": "US"
+  },
+  {
+    "node": "unomaha",
+    "city": "Omaha",
+    "state": "NE",
+    "country": "US"
+  },
+  {
+    "node": "unomaha_library",
+    "city": "Omaha",
+    "state": "NE",
+    "country": "US"
+  },
+  {
+    "node": "unh",
+    "city": "Durham",
+    "state": "NH",
+    "country": "US"
+  },
+  {
+    "node": "unh_library",
+    "city": "Durham",
+    "state": "NH",
+    "country": "US"
+  },
+  {
+    "node": "dartmouth",
+    "city": "Hanover",
+    "state": "NH",
+    "country": "US"
+  },
+  {
+    "node": "dartmouth_library",
+    "city": "Hanover",
+    "state": "NH",
+    "country": "US"
+  },
+  {
+    "node": "camden",
+    "city": "Camden",
+    "state": "NJ",
+    "country": "US"
+  },
+  {
+    "node": "camden_library",
+    "city": "Camden",
+    "state": "NJ",
+    "country": "US"
+  },
+  {
+    "node": "rowan",
+    "city": "Glassboro",
+    "state": "NJ",
+    "country": "US"
+  },
+  {
+    "node": "rowan_library",
+    "city": "Glassboro",
+    "state": "NJ",
+    "country": "US"
+  },
+  {
+    "node": "stevens",
+    "city": "Hoboken",
+    "state": "NJ",
+    "country": "US"
+  },
+  {
+    "node": "stevens_library",
+    "city": "Hoboken",
+    "state": "NJ",
+    "country": "US"
+  },
+  {
+    "node": "montclair",
+    "city": "Montclair",
+    "state": "NJ",
+    "country": "US"
+  },
+  {
+    "node": "montclair_library",
+    "city": "Montclair",
+    "state": "NJ",
+    "country": "US"
+  },
+  {
+    "node": "rutgers",
+    "city": "New Brunswick",
+    "state": "NJ",
+    "country": "US"
+  },
+  {
+    "node": "rutgers_library",
+    "city": "New Brunswick",
+    "state": "NJ",
+    "country": "US"
+  },
+  {
+    "node": "newark",
+    "city": "Newark",
+    "state": "NJ",
+    "country": "US"
+  },
+  {
+    "node": "newark_library",
+    "city": "Newark",
+    "state": "NJ",
+    "country": "US"
+  },
+  {
+    "node": "njit",
+    "city": "Newark",
+    "state": "NJ",
+    "country": "US"
+  },
+  {
+    "node": "njit_library",
+    "city": "Newark",
+    "state": "NJ",
+    "country": "US"
+  },
+  {
+    "node": "princeton",
+    "city": "Princeton",
+    "state": "NJ",
+    "country": "US"
+  },
+  {
+    "node": "princeton_library",
+    "city": "Princeton",
+    "state": "NJ",
+    "country": "US"
+  },
+  {
+    "node": "shu",
+    "city": "South Orange",
+    "state": "NJ",
+    "country": "US"
+  },
+  {
+    "node": "shu_library",
+    "city": "South Orange",
+    "state": "NJ",
+    "country": "US"
+  },
+  {
+    "node": "unm",
+    "city": "Albuquerque",
+    "state": "NM",
+    "country": "US"
+  },
+  {
+    "node": "unm_library",
+    "city": "Albuquerque",
+    "state": "NM",
+    "country": "US"
+  },
+  {
+    "node": "nmsu",
+    "city": "Las Cruces",
+    "state": "NM",
+    "country": "US"
+  },
+  {
+    "node": "nmsu_library",
+    "city": "Las Cruces",
+    "state": "NM",
+    "country": "US"
+  },
+  {
+    "node": "unlv",
+    "city": "Las Vegas",
+    "state": "NV",
+    "country": "US"
+  },
+  {
+    "node": "unlv_library",
+    "city": "Las Vegas",
+    "state": "NV",
+    "country": "US"
+  },
+  {
+    "node": "unr",
+    "city": "Reno",
+    "state": "NV",
+    "country": "US"
+  },
+  {
+    "node": "unr_library",
+    "city": "Reno",
+    "state": "NV",
+    "country": "US"
+  },
+  {
+    "node": "albany",
+    "city": "Albany",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "albany_library",
+    "city": "Albany",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "fordham",
+    "city": "Bronx",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "fordham_library",
+    "city": "Bronx",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "buffalo",
+    "city": "Buffalo",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "buffalo_library",
+    "city": "Buffalo",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "cornell",
+    "city": "Ithaca",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "cornell_library",
+    "city": "Ithaca",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "columbia",
+    "city": "New York",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "columbia_library",
+    "city": "New York",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "columbia_tc",
+    "city": "New York",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "columbia_tc_library",
+    "city": "New York",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "cuny_ccny",
+    "city": "New York",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "cuny_gc",
+    "city": "New York",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "cuny_library",
+    "city": "New York",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "metmuseum_library",
+    "city": "New York",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "moma_library",
+    "city": "New York",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "newschool",
+    "city": "New York",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "newschool_library",
+    "city": "New York",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "nyu",
+    "city": "New York",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "nyu_library",
+    "city": "New York",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "rockefeller",
+    "city": "New York",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "rockefeller_library",
+    "city": "New York",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "yu",
+    "city": "New York",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "yu_library",
+    "city": "New York",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "clarkson",
+    "city": "Potsdam",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "clarkson_library",
+    "city": "Potsdam",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "rit",
+    "city": "Rochester",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "rit_library",
+    "city": "Rochester",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "rochester",
+    "city": "Rochester",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "rochester_library",
+    "city": "Rochester",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "stonybrook",
+    "city": "Stony Brook",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "stonybrook_library",
+    "city": "Stony Brook",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "esf",
+    "city": "Syracuse",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "esf_library",
+    "city": "Syracuse",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "syr",
+    "city": "Syracuse",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "syr_library",
+    "city": "Syracuse",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "rpi",
+    "city": "Troy",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "rpi_library",
+    "city": "Troy",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "binghamton",
+    "city": "Vestal",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "binghamton_library",
+    "city": "Vestal",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "node": "uakron",
+    "city": "Akron",
+    "state": "OH",
+    "country": "US"
+  },
+  {
+    "node": "uakron_library",
+    "city": "Akron",
+    "state": "OH",
+    "country": "US"
+  },
+  {
+    "node": "ohio",
+    "city": "Athens",
+    "state": "OH",
+    "country": "US"
+  },
+  {
+    "node": "ohio_library",
+    "city": "Athens",
+    "state": "OH",
+    "country": "US"
+  },
+  {
+    "node": "bgsu",
+    "city": "Bowling Green",
+    "state": "OH",
+    "country": "US"
+  },
+  {
+    "node": "bgsu_library",
+    "city": "Bowling Green",
+    "state": "OH",
+    "country": "US"
+  },
+  {
+    "node": "uc",
+    "city": "Cincinnati",
+    "state": "OH",
+    "country": "US"
+  },
+  {
+    "node": "uc_library",
+    "city": "Cincinnati",
+    "state": "OH",
+    "country": "US"
+  },
+  {
+    "node": "case",
+    "city": "Cleveland",
+    "state": "OH",
+    "country": "US"
+  },
+  {
+    "node": "case_library",
+    "city": "Cleveland",
+    "state": "OH",
+    "country": "US"
+  },
+  {
+    "node": "csuohio",
+    "city": "Cleveland",
+    "state": "OH",
+    "country": "US"
+  },
+  {
+    "node": "csuohio_library",
+    "city": "Cleveland",
+    "state": "OH",
+    "country": "US"
+  },
+  {
+    "node": "osu",
+    "city": "Columbus",
+    "state": "OH",
+    "country": "US"
+  },
+  {
+    "node": "osu_library",
+    "city": "Columbus",
+    "state": "OH",
+    "country": "US"
+  },
+  {
+    "node": "udayton",
+    "city": "Dayton",
+    "state": "OH",
+    "country": "US"
+  },
+  {
+    "node": "udayton_library",
+    "city": "Dayton",
+    "state": "OH",
+    "country": "US"
+  },
+  {
+    "node": "wright",
+    "city": "Dayton",
+    "state": "OH",
+    "country": "US"
+  },
+  {
+    "node": "wright_library",
+    "city": "Dayton",
+    "state": "OH",
+    "country": "US"
+  },
+  {
+    "node": "kent",
+    "city": "Kent",
+    "state": "OH",
+    "country": "US"
+  },
+  {
+    "node": "kent_library",
+    "city": "Kent",
+    "state": "OH",
+    "country": "US"
+  },
+  {
+    "node": "miamioh",
+    "city": "Oxford",
+    "state": "OH",
+    "country": "US"
+  },
+  {
+    "node": "miamioh_library",
+    "city": "Oxford",
+    "state": "OH",
+    "country": "US"
+  },
+  {
+    "node": "utoledo",
+    "city": "Toledo",
+    "state": "OH",
+    "country": "US"
+  },
+  {
+    "node": "utoledo_library",
+    "city": "Toledo",
+    "state": "OH",
+    "country": "US"
+  },
+  {
+    "node": "afit",
+    "city": "Wright-Patterson AFB",
+    "state": "OH",
+    "country": "US"
+  },
+  {
+    "node": "afit_library",
+    "city": "Wright-Patterson AFB",
+    "state": "OH",
+    "country": "US"
+  },
+  {
+    "node": "ou",
+    "city": "Norman",
+    "state": "OK",
+    "country": "US"
+  },
+  {
+    "node": "ou_library",
+    "city": "Norman",
+    "state": "OK",
+    "country": "US"
+  },
+  {
+    "node": "okstate",
+    "city": "Stillwater",
+    "state": "OK",
+    "country": "US"
+  },
+  {
+    "node": "okstate_library",
+    "city": "Stillwater",
+    "state": "OK",
+    "country": "US"
+  },
+  {
+    "node": "utulsa",
+    "city": "Tulsa",
+    "state": "OK",
+    "country": "US"
+  },
+  {
+    "node": "utulsa_library",
+    "city": "Tulsa",
+    "state": "OK",
+    "country": "US"
+  },
+  {
+    "node": "oregonstate",
+    "city": "Corvallis",
+    "state": "OR",
+    "country": "US"
+  },
+  {
+    "node": "oregonstate_library",
+    "city": "Corvallis",
+    "state": "OR",
+    "country": "US"
+  },
+  {
+    "node": "uoregon",
+    "city": "Eugene",
+    "state": "OR",
+    "country": "US"
+  },
+  {
+    "node": "uoregon_library",
+    "city": "Eugene",
+    "state": "OR",
+    "country": "US"
+  },
+  {
+    "node": "pdx",
+    "city": "Portland",
+    "state": "OR",
+    "country": "US"
+  },
+  {
+    "node": "pdx_library",
+    "city": "Portland",
+    "state": "OR",
+    "country": "US"
+  },
+  {
+    "node": "lehigh",
+    "city": "Bethlehem",
+    "state": "PA",
+    "country": "US"
+  },
+  {
+    "node": "lehigh_library",
+    "city": "Bethlehem",
+    "state": "PA",
+    "country": "US"
+  },
+  {
+    "node": "drexel",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "US"
+  },
+  {
+    "node": "drexel_library",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "US"
+  },
+  {
+    "node": "jefferson",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "US"
+  },
+  {
+    "node": "jefferson_library",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "US"
+  },
+  {
+    "node": "temple",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "US"
+  },
+  {
+    "node": "temple_library",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "US"
+  },
+  {
+    "node": "upenn",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "US"
+  },
+  {
+    "node": "upenn_library",
+    "city": "Philadelphia",
+    "state": "PA",
+    "country": "US"
+  },
+  {
+    "node": "cmu",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "country": "US"
+  },
+  {
+    "node": "cmu_library",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "country": "US"
+  },
+  {
+    "node": "duq",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "country": "US"
+  },
+  {
+    "node": "duq_library",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "country": "US"
+  },
+  {
+    "node": "pitt",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "country": "US"
+  },
+  {
+    "node": "pitt_library",
+    "city": "Pittsburgh",
+    "state": "PA",
+    "country": "US"
+  },
+  {
+    "node": "psu",
+    "city": "State College",
+    "state": "PA",
+    "country": "US"
+  },
+  {
+    "node": "psu_library",
+    "city": "State College",
+    "state": "PA",
+    "country": "US"
+  },
+  {
+    "node": "villanova",
+    "city": "Villanova",
+    "state": "PA",
+    "country": "US"
+  },
+  {
+    "node": "villanova_library",
+    "city": "Villanova",
+    "state": "PA",
+    "country": "US"
+  },
+  {
+    "node": "upr",
+    "city": "San Juan",
+    "state": "PR",
+    "country": "US"
+  },
+  {
+    "node": "upr_library",
+    "city": "San Juan",
+    "state": "PR",
+    "country": "US"
+  },
+  {
+    "node": "uri",
+    "city": "Kingston",
+    "state": "RI",
+    "country": "US"
+  },
+  {
+    "node": "uri_library",
+    "city": "Kingston",
+    "state": "RI",
+    "country": "US"
+  },
+  {
+    "node": "brown",
+    "city": "Providence",
+    "state": "RI",
+    "country": "US"
+  },
+  {
+    "node": "brown_library",
+    "city": "Providence",
+    "state": "RI",
+    "country": "US"
+  },
+  {
+    "node": "clemson",
+    "city": "Clemson",
+    "state": "SC",
+    "country": "US"
+  },
+  {
+    "node": "clemson_library",
+    "city": "Clemson",
+    "state": "SC",
+    "country": "US"
+  },
+  {
+    "node": "sc",
+    "city": "Columbia",
+    "state": "SC",
+    "country": "US"
+  },
+  {
+    "node": "sc_library",
+    "city": "Columbia",
+    "state": "SC",
+    "country": "US"
+  },
+  {
+    "node": "sdstate",
+    "city": "Brookings",
+    "state": "SD",
+    "country": "US"
+  },
+  {
+    "node": "sdstate_library",
+    "city": "Brookings",
+    "state": "SD",
+    "country": "US"
+  },
+  {
+    "node": "usd",
+    "city": "Vermillion",
+    "state": "SD",
+    "country": "US"
+  },
+  {
+    "node": "usd_library",
+    "city": "Vermillion",
+    "state": "SD",
+    "country": "US"
+  },
+  {
+    "node": "tntech",
+    "city": "Cookeville",
+    "state": "TN",
+    "country": "US"
+  },
+  {
+    "node": "tntech_library",
+    "city": "Cookeville",
+    "state": "TN",
+    "country": "US"
+  },
+  {
+    "node": "etsu",
+    "city": "Johnson City",
+    "state": "TN",
+    "country": "US"
+  },
+  {
+    "node": "etsu_library",
+    "city": "Johnson City",
+    "state": "TN",
+    "country": "US"
+  },
+  {
+    "node": "utk",
+    "city": "Knoxville",
+    "state": "TN",
+    "country": "US"
+  },
+  {
+    "node": "utk_library",
+    "city": "Knoxville",
+    "state": "TN",
+    "country": "US"
+  },
+  {
+    "node": "memphis",
+    "city": "Memphis",
+    "state": "TN",
+    "country": "US"
+  },
+  {
+    "node": "memphis_library",
+    "city": "Memphis",
+    "state": "TN",
+    "country": "US"
+  },
+  {
+    "node": "tnstate",
+    "city": "Nashville",
+    "state": "TN",
+    "country": "US"
+  },
+  {
+    "node": "tnstate_library",
+    "city": "Nashville",
+    "state": "TN",
+    "country": "US"
+  },
+  {
+    "node": "vanderbilt",
+    "city": "Nashville",
+    "state": "TN",
+    "country": "US"
+  },
+  {
+    "node": "vanderbilt_library",
+    "city": "Nashville",
+    "state": "TN",
+    "country": "US"
+  },
+  {
+    "node": "uta",
+    "city": "Arlington",
+    "state": "TX",
+    "country": "US"
+  },
+  {
+    "node": "uta_library",
+    "city": "Arlington",
+    "state": "TX",
+    "country": "US"
+  },
+  {
+    "node": "utexas",
+    "city": "Austin",
+    "state": "TX",
+    "country": "US"
+  },
+  {
+    "node": "utexas_library",
+    "city": "Austin",
+    "state": "TX",
+    "country": "US"
+  },
+  {
+    "node": "tamu",
+    "city": "College Station",
+    "state": "TX",
+    "country": "US"
+  },
+  {
+    "node": "tamu_library",
+    "city": "College Station",
+    "state": "TX",
+    "country": "US"
+  },
+  {
+    "node": "tamucc",
+    "city": "Corpus Christi",
+    "state": "TX",
+    "country": "US"
+  },
+  {
+    "node": "tamucc_library",
+    "city": "Corpus Christi",
+    "state": "TX",
+    "country": "US"
+  },
+  {
+    "node": "dallas_library",
+    "city": "Dallas",
+    "state": "TX",
+    "country": "US"
+  },
+  {
+    "node": "smu",
+    "city": "Dallas",
+    "state": "TX",
+    "country": "US"
+  },
+  {
+    "node": "smu_library",
+    "city": "Dallas",
+    "state": "TX",
+    "country": "US"
+  },
+  {
+    "node": "unt",
+    "city": "Denton",
+    "state": "TX",
+    "country": "US"
+  },
+  {
+    "node": "unt_library",
+    "city": "Denton",
+    "state": "TX",
+    "country": "US"
+  },
+  {
+    "node": "utrgv",
+    "city": "Edinburg",
+    "state": "TX",
+    "country": "US"
+  },
+  {
+    "node": "utrgv_library",
+    "city": "Edinburg",
+    "state": "TX",
+    "country": "US"
+  },
+  {
+    "node": "utep",
+    "city": "El Paso",
+    "state": "TX",
+    "country": "US"
+  },
+  {
+    "node": "utep_library",
+    "city": "El Paso",
+    "state": "TX",
+    "country": "US"
+  },
+  {
+    "node": "tcu",
+    "city": "Fort Worth",
+    "state": "TX",
+    "country": "US"
+  },
+  {
+    "node": "tcu_library",
+    "city": "Fort Worth",
+    "state": "TX",
+    "country": "US"
+  },
+  {
+    "node": "rice",
+    "city": "Houston",
+    "state": "TX",
+    "country": "US"
+  },
+  {
+    "node": "rice_library",
+    "city": "Houston",
+    "state": "TX",
+    "country": "US"
+  },
+  {
+    "node": "tsu",
+    "city": "Houston",
+    "state": "TX",
+    "country": "US"
+  },
+  {
+    "node": "tsu_library",
+    "city": "Houston",
+    "state": "TX",
+    "country": "US"
+  },
+  {
+    "node": "uh",
+    "city": "Houston",
+    "state": "TX",
+    "country": "US"
+  },
+  {
+    "node": "uh_library",
+    "city": "Houston",
+    "state": "TX",
+    "country": "US"
+  },
+  {
+    "node": "tamuk",
+    "city": "Kingsville",
+    "state": "TX",
+    "country": "US"
+  },
+  {
+    "node": "tamuk_library",
+    "city": "Kingsville",
+    "state": "TX",
+    "country": "US"
+  },
+  {
+    "node": "ttu",
+    "city": "Lubbock",
+    "state": "TX",
+    "country": "US"
+  },
+  {
+    "node": "ttu_library",
+    "city": "Lubbock",
+    "state": "TX",
+    "country": "US"
+  },
+  {
+    "node": "pvamu",
+    "city": "Prairie View",
+    "state": "TX",
+    "country": "US"
+  },
+  {
+    "node": "pvamu_library",
+    "city": "Prairie View",
+    "state": "TX",
+    "country": "US"
+  },
+  {
+    "node": "utdallas",
+    "city": "Richardson",
+    "state": "TX",
+    "country": "US"
+  },
+  {
+    "node": "utdallas_library",
+    "city": "Richardson",
+    "state": "TX",
+    "country": "US"
+  },
+  {
+    "node": "utsa",
+    "city": "San Antonio",
+    "state": "TX",
+    "country": "US"
+  },
+  {
+    "node": "utsa_library",
+    "city": "San Antonio",
+    "state": "TX",
+    "country": "US"
+  },
+  {
+    "node": "txstate",
+    "city": "San Marcos",
+    "state": "TX",
+    "country": "US"
+  },
+  {
+    "node": "txstate_library",
+    "city": "San Marcos",
+    "state": "TX",
+    "country": "US"
+  },
+  {
+    "node": "baylor",
+    "city": "Waco",
+    "state": "TX",
+    "country": "US"
+  },
+  {
+    "node": "baylor_library",
+    "city": "Waco",
+    "state": "TX",
+    "country": "US"
+  },
+  {
+    "node": "usu",
+    "city": "Logan",
+    "state": "UT",
+    "country": "US"
+  },
+  {
+    "node": "usu_library",
+    "city": "Logan",
+    "state": "UT",
+    "country": "US"
+  },
+  {
+    "node": "byu",
+    "city": "Provo",
+    "state": "UT",
+    "country": "US"
+  },
+  {
+    "node": "byu_library",
+    "city": "Provo",
+    "state": "UT",
+    "country": "US"
+  },
+  {
+    "node": "utah",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "country": "US"
+  },
+  {
+    "node": "utah_library",
+    "city": "Salt Lake City",
+    "state": "UT",
+    "country": "US"
+  },
+  {
+    "node": "vt",
+    "city": "Blacksburg",
+    "state": "VA",
+    "country": "US"
+  },
+  {
+    "node": "vt_library",
+    "city": "Blacksburg",
+    "state": "VA",
+    "country": "US"
+  },
+  {
+    "node": "virginia",
+    "city": "Charlottesville",
+    "state": "VA",
+    "country": "US"
+  },
+  {
+    "node": "virginia_library",
+    "city": "Charlottesville",
+    "state": "VA",
+    "country": "US"
+  },
+  {
+    "node": "gmu",
+    "city": "Fairfax",
+    "state": "VA",
+    "country": "US"
+  },
+  {
+    "node": "gmu_library",
+    "city": "Fairfax",
+    "state": "VA",
+    "country": "US"
+  },
+  {
+    "node": "hamptonu",
+    "city": "Hampton",
+    "state": "VA",
+    "country": "US"
+  },
+  {
+    "node": "hamptonu_library",
+    "city": "Hampton",
+    "state": "VA",
+    "country": "US"
+  },
+  {
+    "node": "nsu",
+    "city": "Norfolk",
+    "state": "VA",
+    "country": "US"
+  },
+  {
+    "node": "nsu_library",
+    "city": "Norfolk",
+    "state": "VA",
+    "country": "US"
+  },
+  {
+    "node": "odu",
+    "city": "Norfolk",
+    "state": "VA",
+    "country": "US"
+  },
+  {
+    "node": "odu_library",
+    "city": "Norfolk",
+    "state": "VA",
+    "country": "US"
+  },
+  {
+    "node": "vcu",
+    "city": "Richmond",
+    "state": "VA",
+    "country": "US"
+  },
+  {
+    "node": "vcu_library",
+    "city": "Richmond",
+    "state": "VA",
+    "country": "US"
+  },
+  {
+    "node": "wm",
+    "city": "Williamsburg",
+    "state": "VA",
+    "country": "US"
+  },
+  {
+    "node": "wm_library",
+    "city": "Williamsburg",
+    "state": "VA",
+    "country": "US"
+  },
+  {
+    "node": "uvm",
+    "city": "Burlington",
+    "state": "VT",
+    "country": "US"
+  },
+  {
+    "node": "uvm_library",
+    "city": "Burlington",
+    "state": "VT",
+    "country": "US"
+  },
+  {
+    "node": "wsu",
+    "city": "Pullman",
+    "state": "WA",
+    "country": "US"
+  },
+  {
+    "node": "wsu_library",
+    "city": "Pullman",
+    "state": "WA",
+    "country": "US"
+  },
+  {
+    "node": "washington",
+    "city": "Seattle",
+    "state": "WA",
+    "country": "US"
+  },
+  {
+    "node": "washington_library",
+    "city": "Seattle",
+    "state": "WA",
+    "country": "US"
+  },
+  {
+    "node": "wisc",
+    "city": "Madison",
+    "state": "WI",
+    "country": "US"
+  },
+  {
+    "node": "wisc_library",
+    "city": "Madison",
+    "state": "WI",
+    "country": "US"
+  },
+  {
+    "node": "marquette",
+    "city": "Milwaukee",
+    "state": "WI",
+    "country": "US"
+  },
+  {
+    "node": "marquette_library",
+    "city": "Milwaukee",
+    "state": "WI",
+    "country": "US"
+  },
+  {
+    "node": "uwm",
+    "city": "Milwaukee",
+    "state": "WI",
+    "country": "US"
+  },
+  {
+    "node": "uwm_library",
+    "city": "Milwaukee",
+    "state": "WI",
+    "country": "US"
+  },
+  {
+    "node": "marshall",
+    "city": "Huntington",
+    "state": "WV",
+    "country": "US"
+  },
+  {
+    "node": "marshall_library",
+    "city": "Huntington",
+    "state": "WV",
+    "country": "US"
+  },
+  {
+    "node": "wvu",
+    "city": "Morgantown",
+    "state": "WV",
+    "country": "US"
+  },
+  {
+    "node": "wvu_library",
+    "city": "Morgantown",
+    "state": "WV",
+    "country": "US"
+  },
+  {
+    "node": "uwyo",
+    "city": "Laramie",
+    "state": "WY",
+    "country": "US"
+  },
+  {
+    "node": "uwyo_library",
+    "city": "Laramie",
+    "state": "WY",
+    "country": "US"
+  }
+]

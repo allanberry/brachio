@@ -1,0 +1,4412 @@
+[
+  {
+    "node": "aamu_library",
+    "url": "https://aamudigitalcollections.lyrasistechnology.org/",
+    "label": "collections"
+  },
+  {
+    "node": "tufts_library",
+    "url": "https://dca.tufts.edu/",
+    "label": "collections"
+  },
+  {
+    "node": "arizona_library",
+    "url": "https://libguides.library.arizona.edu/",
+    "label": "guides"
+  },
+  {
+    "node": "auburn_library",
+    "url": "https://www.lib.auburn.edu/find/",
+    "label": "guides"
+  },
+  {
+    "node": "auraria_library",
+    "url": "https://guides.auraria.edu/",
+    "label": "guides"
+  },
+  {
+    "node": "savannahstate_library",
+    "url": "https://www.savannahstate.edu/library/",
+    "label": "home"
+  },
+  {
+    "node": "savannahstate",
+    "url": "https://www.savannahstate.edu/",
+    "label": "home"
+  },
+  {
+    "node": "aamu_library",
+    "url": "https://alabamam.ent.sirsi.net/client/en_US/default",
+    "label": "home"
+  },
+  {
+    "node": "asurams_library",
+    "url": "https://www.asurams.edu/academic-affairs/library/index.php",
+    "label": "home"
+  },
+  {
+    "node": "auc_library",
+    "url": "https://www.auctr.edu/",
+    "label": "home"
+  },
+  {
+    "node": "bowiestate_library",
+    "url": "https://www.bowiestate.edu/library/",
+    "label": "home"
+  },
+  {
+    "node": "desu_library",
+    "url": "https://www.desu.edu/academics/library",
+    "label": "home"
+  },
+  {
+    "node": "dillard_library",
+    "url": "http://www.dillard.edu/_academics/library/index.php",
+    "label": "home"
+  },
+  {
+    "node": "famu_library",
+    "url": "https://library.famu.edu/index",
+    "label": "home"
+  },
+  {
+    "node": "gram_library",
+    "url": "https://www.gram.edu/library/",
+    "label": "home"
+  },
+  {
+    "node": "howard_library",
+    "url": "http://library.howard.edu/library/",
+    "label": "home"
+  },
+  {
+    "node": "jsums_library",
+    "url": "http://sampson.jsums.edu/screens/OPAC.html",
+    "label": "home"
+  },
+  {
+    "node": "morgan_library",
+    "url": "https://library.morgan.edu/home",
+    "label": "home"
+  },
+  {
+    "node": "ncat_library",
+    "url": "http://www.library.ncat.edu/",
+    "label": "home"
+  },
+  {
+    "node": "nccu_library",
+    "url": "https://www.nccu.edu/library",
+    "label": "home"
+  },
+  {
+    "node": "nsu_library",
+    "url": "https://library.nsu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "pvamu_library",
+    "url": "http://www.pvamu.edu/library/",
+    "label": "home"
+  },
+  {
+    "node": "subr_library",
+    "url": "http://www.subr.edu/page/2441",
+    "label": "home"
+  },
+  {
+    "node": "tnstate_library",
+    "url": "http://www.tnstate.edu/library/",
+    "label": "home"
+  },
+  {
+    "node": "tsu_library",
+    "url": "http://www.tsu.edu/academics/library/",
+    "label": "home"
+  },
+  {
+    "node": "uncfsu_library",
+    "url": "https://www.uncfsu.edu/library",
+    "label": "home"
+  },
+  {
+    "node": "wssu_library",
+    "url": "https://www.wssu.edu/academics/cg-okelly-library/index.html",
+    "label": "home"
+  },
+  {
+    "node": "acpl",
+    "url": "https://acpl-cms.wise.oclc.org/",
+    "label": "home"
+  },
+  {
+    "node": "acrl",
+    "url": "http://www.ala.org/acrl/",
+    "label": "home"
+  },
+  {
+    "node": "adlerplanetarium",
+    "url": "https://www.adlerplanetarium.org/",
+    "label": "home"
+  },
+  {
+    "node": "afit_library",
+    "url": "https://www.afit.edu/LIBRARY/",
+    "label": "home"
+  },
+  {
+    "node": "afpls",
+    "url": "http://afpls.org/",
+    "label": "home"
+  },
+  {
+    "node": "aic",
+    "url": "https://www.artic.edu/",
+    "label": "home"
+  },
+  {
+    "node": "aic_library",
+    "url": "https://www.artic.edu/library",
+    "label": "home"
+  },
+  {
+    "node": "albany_library",
+    "url": "https://library.albany.edu/",
+    "label": "home"
+  },
+  {
+    "node": "alcts",
+    "url": "http://www.ala.org/alcts/",
+    "label": "home"
+  },
+  {
+    "node": "american_library",
+    "url": "https://www.american.edu/library/",
+    "label": "home"
+  },
+  {
+    "node": "amphilsoc",
+    "url": "http://www.amphilsoc.org/",
+    "label": "home"
+  },
+  {
+    "node": "anahuac_library",
+    "url": "https://www.anahuac.mx/mexico/biblioteca/",
+    "label": "home"
+  },
+  {
+    "node": "anchoragelibrary",
+    "url": "http://www.anchoragelibrary.org/",
+    "label": "home"
+  },
+  {
+    "node": "apu_library",
+    "url": "https://www.apu.edu/library/",
+    "label": "home"
+  },
+  {
+    "node": "archives",
+    "url": "https://www.archives.gov/",
+    "label": "home"
+  },
+  {
+    "node": "arl",
+    "url": "https://www.arl.org/",
+    "label": "home"
+  },
+  {
+    "node": "astate_library",
+    "url": "https://www.astate.edu/a/library/",
+    "label": "home"
+  },
+  {
+    "node": "asu_library",
+    "url": "https://lib.asu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "auburn_library",
+    "url": "https://www.lib.auburn.edu/",
+    "label": "home"
+  },
+  {
+    "node": "auraria_library",
+    "url": "https://library.auraria.edu/",
+    "label": "home"
+  },
+  {
+    "node": "bac-lac",
+    "url": "https://www.bac-lac.gc.ca/",
+    "label": "home"
+  },
+  {
+    "node": "baylor_library",
+    "url": "https://www.baylor.edu/lib/",
+    "label": "home"
+  },
+  {
+    "node": "bc_library",
+    "url": "https://library.bc.edu/",
+    "label": "home"
+  },
+  {
+    "node": "bgsu_library",
+    "url": "https://www.bgsu.edu/library.html",
+    "label": "home"
+  },
+  {
+    "node": "binghamton_library",
+    "url": "https://www.binghamton.edu/libraries/",
+    "label": "home"
+  },
+  {
+    "node": "bklynlibrary",
+    "url": "https://www.bklynlibrary.org/",
+    "label": "home"
+  },
+  {
+    "node": "boisestate_library",
+    "url": "https://library.boisestate.edu/",
+    "label": "home"
+  },
+  {
+    "node": "bpl",
+    "url": "https://www.bpl.org/",
+    "label": "home"
+  },
+  {
+    "node": "bplonline",
+    "url": "http://www.bplonline.org/",
+    "label": "home"
+  },
+  {
+    "node": "brandeis_library",
+    "url": "https://www.brandeis.edu/library/",
+    "label": "home"
+  },
+  {
+    "node": "broward_library",
+    "url": "https://www.broward.org/Library/",
+    "label": "home"
+  },
+  {
+    "node": "brown_library",
+    "url": "https://library.brown.edu/",
+    "label": "home"
+  },
+  {
+    "node": "bsu_library",
+    "url": "https://www.bsu.edu/academics/libraries",
+    "label": "home"
+  },
+  {
+    "node": "buap_library",
+    "url": "https://bibliotecas.buap.mx/",
+    "label": "home"
+  },
+  {
+    "node": "buffalo_library",
+    "url": "https://library.buffalo.edu/",
+    "label": "home"
+  },
+  {
+    "node": "byu_library",
+    "url": "https://lib.byu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "ca_library",
+    "url": "https://www.library.ca.gov/",
+    "label": "home"
+  },
+  {
+    "node": "caltech_library",
+    "url": "https://www.library.caltech.edu/",
+    "label": "home"
+  },
+  {
+    "node": "camden_library",
+    "url": "https://www.camden.rutgers.edu/academics/libraries",
+    "label": "home"
+  },
+  {
+    "node": "case_library",
+    "url": "http://library.case.edu/",
+    "label": "home"
+  },
+  {
+    "node": "catholic_library",
+    "url": "https://libraries.catholic.edu/",
+    "label": "home"
+  },
+  {
+    "node": "chapman_library",
+    "url": "https://www.chapman.edu/library/",
+    "label": "home"
+  },
+  {
+    "node": "chicagohistory",
+    "url": "https://www.chicagohistory.org/",
+    "label": "home"
+  },
+  {
+    "node": "chipublib",
+    "url": "https://www.chipublib.org/",
+    "label": "home"
+  },
+  {
+    "node": "cincinnatilibrary",
+    "url": "https://www.cincinnatilibrary.org/",
+    "label": "home"
+  },
+  {
+    "node": "claremont_library",
+    "url": "https://library.claremont.edu/",
+    "label": "home"
+  },
+  {
+    "node": "clarkson_library",
+    "url": "https://www.clarkson.edu/university-libraries",
+    "label": "home"
+  },
+  {
+    "node": "clarku_library",
+    "url": "http://www2.clarku.edu/research/goddard/",
+    "label": "home"
+  },
+  {
+    "node": "clemson_library",
+    "url": "https://libraries.clemson.edu/",
+    "label": "home"
+  },
+  {
+    "node": "cmich_library",
+    "url": "https://www.cmich.edu/library/",
+    "label": "home"
+  },
+  {
+    "node": "cmu_library",
+    "url": "https://www.library.cmu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "colorado_library",
+    "url": "https://www.colorado.edu/libraries/",
+    "label": "home"
+  },
+  {
+    "node": "colostate_library",
+    "url": "https://lib.colostate.edu/",
+    "label": "home"
+  },
+  {
+    "node": "colpos_library",
+    "url": "http://www.biblio.colpos.mx/",
+    "label": "home"
+  },
+  {
+    "node": "colum_library",
+    "url": "https://library.colum.edu/",
+    "label": "home"
+  },
+  {
+    "node": "columbia_library",
+    "url": "https://library.columbia.edu/",
+    "label": "home"
+  },
+  {
+    "node": "columbia_tc_library",
+    "url": "https://library.tc.columbia.edu/",
+    "label": "home"
+  },
+  {
+    "node": "cornell_library",
+    "url": "https://www.library.cornell.edu/",
+    "label": "home"
+  },
+  {
+    "node": "cpl",
+    "url": "https://cpl.org/",
+    "label": "home"
+  },
+  {
+    "node": "csuohio_library",
+    "url": "https://library.csuohio.edu/",
+    "label": "home"
+  },
+  {
+    "node": "cuny_library",
+    "url": "https://www.cuny.edu/libraries/",
+    "label": "home"
+  },
+  {
+    "node": "cuyahogalibrary",
+    "url": "https://www.cuyahogalibrary.org/",
+    "label": "home"
+  },
+  {
+    "node": "dallas_library",
+    "url": "http://dallaslibrary2.org/",
+    "label": "home"
+  },
+  {
+    "node": "dartmouth_library",
+    "url": "https://www.library.dartmouth.edu/",
+    "label": "home"
+  },
+  {
+    "node": "daytonmetrolibrary",
+    "url": "http://www.daytonmetrolibrary.org/",
+    "label": "home"
+  },
+  {
+    "node": "depaul_library",
+    "url": "https://library.depaul.edu/",
+    "label": "home"
+  },
+  {
+    "node": "detroitpubliclibrary",
+    "url": "https://detroitpubliclibrary.org/",
+    "label": "home"
+  },
+  {
+    "node": "drexel_library",
+    "url": "https://www.library.drexel.edu/",
+    "label": "home"
+  },
+  {
+    "node": "du_library",
+    "url": "https://library.du.edu/",
+    "label": "home"
+  },
+  {
+    "node": "duke_library",
+    "url": "https://library.duke.edu/",
+    "label": "home"
+  },
+  {
+    "node": "duq_library",
+    "url": "https://www.duq.edu/academics/gumberg-library",
+    "label": "home"
+  },
+  {
+    "node": "dusablemuseum",
+    "url": "https://www.dusablemuseum.org/",
+    "label": "home"
+  },
+  {
+    "node": "ecu_library",
+    "url": "https://library.ecu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "emich_library",
+    "url": "https://www.emich.edu/library/",
+    "label": "home"
+  },
+  {
+    "node": "esf_library",
+    "url": "https://www.esf.edu/moonlib/",
+    "label": "home"
+  },
+  {
+    "node": "etsu_library",
+    "url": "https://libraries.etsu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "fau_library",
+    "url": "https://library.fau.edu/",
+    "label": "home"
+  },
+  {
+    "node": "fieldmuseum",
+    "url": "https://www.fieldmuseum.org/",
+    "label": "home"
+  },
+  {
+    "node": "fit_library",
+    "url": "https://lib.fit.edu/",
+    "label": "home"
+  },
+  {
+    "node": "fiu_library",
+    "url": "https://libraries.fiu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "folger",
+    "url": "http://www.folger.edu",
+    "label": "home"
+  },
+  {
+    "node": "fordham_library",
+    "url": "https://www.fordham.edu/info/27156/libraries",
+    "label": "home"
+  },
+  {
+    "node": "fsu_library",
+    "url": "https://www.lib.fsu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "gallaudet_library",
+    "url": "https://www.gallaudet.edu/library",
+    "label": "home"
+  },
+  {
+    "node": "gatech_library",
+    "url": "http://library.gatech.edu/",
+    "label": "home"
+  },
+  {
+    "node": "georgetown_library",
+    "url": "https://www.library.georgetown.edu/",
+    "label": "home"
+  },
+  {
+    "node": "georgiasouthern_library",
+    "url": "https://library.georgiasouthern.edu/",
+    "label": "home"
+  },
+  {
+    "node": "getty_library",
+    "url": "https://www.getty.edu/research/library/",
+    "label": "home"
+  },
+  {
+    "node": "gmu_library",
+    "url": "https://library.gmu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "gsu_library",
+    "url": "https://library.gsu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "gwla",
+    "url": "https://www.gwla.org/",
+    "label": "home"
+  },
+  {
+    "node": "gwu_library",
+    "url": "https://library.gwu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "hab",
+    "url": "http://www.hab.de",
+    "label": "home"
+  },
+  {
+    "node": "hamptonu_library",
+    "url": "http://lib.hamptonu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "harvard_library",
+    "url": "https://library.harvard.edu/",
+    "label": "home"
+  },
+  {
+    "node": "hawaii_library",
+    "url": "http://manoa.hawaii.edu/library/",
+    "label": "home"
+  },
+  {
+    "node": "hbculibraries",
+    "url": "http://hbculibraries.org/",
+    "label": "home"
+  },
+  {
+    "node": "hclib",
+    "url": "https://www.hclib.org/",
+    "label": "home"
+  },
+  {
+    "node": "houstonlibrary",
+    "url": "https://houstonlibrary.org/",
+    "label": "home"
+  },
+  {
+    "node": "hsp",
+    "url": "http://www.hsp.org/",
+    "label": "home"
+  },
+  {
+    "node": "huntington",
+    "url": "http://www.huntington.org",
+    "label": "home"
+  },
+  {
+    "node": "iastate_library",
+    "url": "http://www.lib.iastate.edu/",
+    "label": "home"
+  },
+  {
+    "node": "iit_library",
+    "url": "https://library.iit.edu/",
+    "label": "home"
+  },
+  {
+    "node": "illinois_library",
+    "url": "https://library.illinois.edu/",
+    "label": "home"
+  },
+  {
+    "node": "illinoisstate_library",
+    "url": "https://library.illinoisstate.edu/",
+    "label": "home"
+  },
+  {
+    "node": "indiana_library",
+    "url": "https://libraries.indiana.edu/",
+    "label": "home"
+  },
+  {
+    "node": "ipn_library",
+    "url": "https://www.ipn.mx/biblioteca/",
+    "label": "home"
+  },
+  {
+    "node": "isu_library",
+    "url": "https://www.isu.edu/library/",
+    "label": "home"
+  },
+  {
+    "node": "iupui_library",
+    "url": "http://www.ulib.iupui.edu/",
+    "label": "home"
+  },
+  {
+    "node": "jcbl",
+    "url": "http://www.jcbl.org",
+    "label": "home"
+  },
+  {
+    "node": "jefferson_library",
+    "url": "http://library.jefferson.edu/",
+    "label": "home"
+  },
+  {
+    "node": "jhu_library",
+    "url": "https://www.library.jhu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "k-state_library",
+    "url": "https://www.lib.k-state.edu/",
+    "label": "home"
+  },
+  {
+    "node": "kcls",
+    "url": "https://kcls.org/",
+    "label": "home"
+  },
+  {
+    "node": "kennesaw_library",
+    "url": "https://library.kennesaw.edu/",
+    "label": "home"
+  },
+  {
+    "node": "kent_library",
+    "url": "https://www.library.kent.edu/",
+    "label": "home"
+  },
+  {
+    "node": "ku_library",
+    "url": "https://lib.ku.edu/",
+    "label": "home"
+  },
+  {
+    "node": "lacountylibrary",
+    "url": "https://lacountylibrary.org/",
+    "label": "home"
+  },
+  {
+    "node": "lapl",
+    "url": "https://www.lapl.org/",
+    "label": "home"
+  },
+  {
+    "node": "latech_library",
+    "url": "https://www.latech.edu/library/",
+    "label": "home"
+  },
+  {
+    "node": "lehigh_library",
+    "url": "https://library.lehigh.edu/",
+    "label": "home"
+  },
+  {
+    "node": "librarieshawaii",
+    "url": "https://www.librarieshawaii.org/",
+    "label": "home"
+  },
+  {
+    "node": "librarycompany",
+    "url": "http://www.librarycompany.org",
+    "label": "home"
+  },
+  {
+    "node": "lindahall",
+    "url": "http://www.lindahall.org",
+    "label": "home"
+  },
+  {
+    "node": "lmu_library",
+    "url": "https://library.lmu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "loc",
+    "url": "http://www.loc.gov/",
+    "label": "home"
+  },
+  {
+    "node": "louisiana_library",
+    "url": "https://library.louisiana.edu/",
+    "label": "home"
+  },
+  {
+    "node": "louisville_library",
+    "url": "http://louisville.edu/library/",
+    "label": "home"
+  },
+  {
+    "node": "lsu_library",
+    "url": "https://www.lib.lsu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "luc_library",
+    "url": "http://libraries.luc.edu/",
+    "label": "home"
+  },
+  {
+    "node": "luma",
+    "url": "https://www.luc.edu/luma/",
+    "label": "home"
+  },
+  {
+    "node": "lvccld",
+    "url": "https://lvccld.org/",
+    "label": "home"
+  },
+  {
+    "node": "marquette_library",
+    "url": "https://www.marquette.edu/library/",
+    "label": "home"
+  },
+  {
+    "node": "marshall_library",
+    "url": "http://www.marshall.edu/library/",
+    "label": "home"
+  },
+  {
+    "node": "masshist",
+    "url": "http://www.masshist.org",
+    "label": "home"
+  },
+  {
+    "node": "mcachicago",
+    "url": "https://mcachicago.org/",
+    "label": "home"
+  },
+  {
+    "node": "mcgill_library",
+    "url": "http://www.mcgill.ca/library/",
+    "label": "home"
+  },
+  {
+    "node": "mcmaster_library",
+    "url": "http://www.mcmaster.ca/library/",
+    "label": "home"
+  },
+  {
+    "node": "mdpls",
+    "url": "https://www.mdpls.org/",
+    "label": "home"
+  },
+  {
+    "node": "memphis_library",
+    "url": "https://www.memphis.edu/libraries/",
+    "label": "home"
+  },
+  {
+    "node": "mercer_library",
+    "url": "https://libraries.mercer.edu/",
+    "label": "home"
+  },
+  {
+    "node": "metmuseum",
+    "url": "https://www.metmuseum.org/",
+    "label": "home"
+  },
+  {
+    "node": "metmuseum_library",
+    "url": "https://www.metmuseum.org/art/libraries-and-research-centers",
+    "label": "home"
+  },
+  {
+    "node": "miami_library",
+    "url": "https://www.library.miami.edu/",
+    "label": "home"
+  },
+  {
+    "node": "miamioh_library",
+    "url": "https://www.lib.miamioh.edu/",
+    "label": "home"
+  },
+  {
+    "node": "mines_library",
+    "url": "https://library.mines.edu/",
+    "label": "home"
+  },
+  {
+    "node": "missouri_library",
+    "url": "http://library.missouri.edu/",
+    "label": "home"
+  },
+  {
+    "node": "mit_library",
+    "url": "https://libraries.mit.edu/",
+    "label": "home"
+  },
+  {
+    "node": "mocp",
+    "url": "https://www.mocp.org/",
+    "label": "home"
+  },
+  {
+    "node": "moma",
+    "url": "https://www.moma.org/",
+    "label": "home"
+  },
+  {
+    "node": "moma_library",
+    "url": "https://www.moma.org/research-and-learning/library/",
+    "label": "home"
+  },
+  {
+    "node": "montana_library",
+    "url": "https://www.lib.montana.edu/",
+    "label": "home"
+  },
+  {
+    "node": "montclair_library",
+    "url": "https://www.montclair.edu/library/",
+    "label": "home"
+  },
+  {
+    "node": "morganlibrary",
+    "url": "http://www.morganlibrary.org",
+    "label": "home"
+  },
+  {
+    "node": "msichicago",
+    "url": "https://www.msichicago.org/",
+    "label": "home"
+  },
+  {
+    "node": "msstate_library",
+    "url": "http://lib.msstate.edu/",
+    "label": "home"
+  },
+  {
+    "node": "mst_library",
+    "url": "https://library.mst.edu/",
+    "label": "home"
+  },
+  {
+    "node": "msu_library",
+    "url": "https://lib.msu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "mtu_library",
+    "url": "https://www.mtu.edu/library/",
+    "label": "home"
+  },
+  {
+    "node": "nal",
+    "url": "http://www.nal.usda.gov/",
+    "label": "home"
+  },
+  {
+    "node": "nationalmuseumofmexicanart",
+    "url": "http://nationalmuseumofmexicanart.org/",
+    "label": "home"
+  },
+  {
+    "node": "naturemuseum",
+    "url": "https://naturemuseum.org/",
+    "label": "home"
+  },
+  {
+    "node": "nau_library",
+    "url": "https://nau.edu/library/",
+    "label": "home"
+  },
+  {
+    "node": "ncsu_library",
+    "url": "https://www.lib.ncsu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "nd_library",
+    "url": "https://library.nd.edu/",
+    "label": "home"
+  },
+  {
+    "node": "ndsu_library",
+    "url": "https://library.ndsu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "newark_library",
+    "url": "https://www.newark.rutgers.edu/libraries",
+    "label": "home"
+  },
+  {
+    "node": "newberry",
+    "url": "http://www.newberry.org",
+    "label": "home"
+  },
+  {
+    "node": "newschool_library",
+    "url": "https://library.newschool.edu/",
+    "label": "home"
+  },
+  {
+    "node": "niu_library",
+    "url": "https://www.niu.edu/ulib/",
+    "label": "home"
+  },
+  {
+    "node": "njit_library",
+    "url": "https://library.njit.edu/",
+    "label": "home"
+  },
+  {
+    "node": "nlm",
+    "url": "http://www.nlm.nih.gov/",
+    "label": "home"
+  },
+  {
+    "node": "nmsu_library",
+    "url": "https://library.nmsu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "northeastern_library",
+    "url": "https://library.northeastern.edu/",
+    "label": "home"
+  },
+  {
+    "node": "nova_library",
+    "url": "https://sherman.library.nova.edu/",
+    "label": "home"
+  },
+  {
+    "node": "nw_library",
+    "url": "https://www.library.northwestern.edu/",
+    "label": "home"
+  },
+  {
+    "node": "nyam",
+    "url": "http://www.nyam.org",
+    "label": "home"
+  },
+  {
+    "node": "nyhistory",
+    "url": "http://www.nyhistory.org",
+    "label": "home"
+  },
+  {
+    "node": "nysl",
+    "url": "http://www.nysl.nysed.gov/",
+    "label": "home"
+  },
+  {
+    "node": "nyu_library",
+    "url": "http://library.nyu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "oakland_library",
+    "url": "https://library.oakland.edu/",
+    "label": "home"
+  },
+  {
+    "node": "odu_library",
+    "url": "https://www.odu.edu/library",
+    "label": "home"
+  },
+  {
+    "node": "ohio_library",
+    "url": "https://www.ohio.edu/library/",
+    "label": "home"
+  },
+  {
+    "node": "oi",
+    "url": "https://oi.uchicago.edu/",
+    "label": "home"
+  },
+  {
+    "node": "okstate_library",
+    "url": "https://library.okstate.edu/",
+    "label": "home"
+  },
+  {
+    "node": "olemiss_library",
+    "url": "https://libraries.olemiss.edu/",
+    "label": "home"
+  },
+  {
+    "node": "oregonstate_library",
+    "url": "https://library.oregonstate.edu/",
+    "label": "home"
+  },
+  {
+    "node": "osu_library",
+    "url": "https://library.osu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "ou_library",
+    "url": "https://libraries.ou.edu/",
+    "label": "home"
+  },
+  {
+    "node": "pdx_library",
+    "url": "https://library.pdx.edu/",
+    "label": "home"
+  },
+  {
+    "node": "phoenixpubliclibrary",
+    "url": "https://www.phoenixpubliclibrary.org/",
+    "label": "home"
+  },
+  {
+    "node": "pitt_library",
+    "url": "https://www.library.pitt.edu/",
+    "label": "home"
+  },
+  {
+    "node": "princeton_library",
+    "url": "http://library.princeton.edu/",
+    "label": "home"
+  },
+  {
+    "node": "psu_library",
+    "url": "https://libraries.psu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "purdue_library",
+    "url": "https://www.lib.purdue.edu/",
+    "label": "home"
+  },
+  {
+    "node": "queenslibrary",
+    "url": "https://www.queenslibrary.org/",
+    "label": "home"
+  },
+  {
+    "node": "queensu_library",
+    "url": "http://library.queensu.ca/",
+    "label": "home"
+  },
+  {
+    "node": "rice_library",
+    "url": "https://library.rice.edu/",
+    "label": "home"
+  },
+  {
+    "node": "rit_library",
+    "url": "https://library.rit.edu/",
+    "label": "home"
+  },
+  {
+    "node": "rochester_library",
+    "url": "https://library.rochester.edu/",
+    "label": "home"
+  },
+  {
+    "node": "rockefeller_library",
+    "url": "https://www.rockefeller.edu/markus-library/",
+    "label": "home"
+  },
+  {
+    "node": "rowan_library",
+    "url": "https://www.lib.rowan.edu/",
+    "label": "home"
+  },
+  {
+    "node": "rpi_library",
+    "url": "https://library.rpi.edu/",
+    "label": "home"
+  },
+  {
+    "node": "rutgers_library",
+    "url": "https://www.libraries.rutgers.edu/",
+    "label": "home"
+  },
+  {
+    "node": "sandiego_library",
+    "url": "https://www.sandiego.edu/library/",
+    "label": "home"
+  },
+  {
+    "node": "sc_library",
+    "url": "http://library.sc.edu/",
+    "label": "home"
+  },
+  {
+    "node": "scsb_library",
+    "url": "https://www.library.ucsb.edu/",
+    "label": "home"
+  },
+  {
+    "node": "sdstate_library",
+    "url": "https://www.sdstate.edu/hilton-m-briggs-library",
+    "label": "home"
+  },
+  {
+    "node": "sdsu_library",
+    "url": "https://library.sdsu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "sfpl",
+    "url": "https://sfpl.org/",
+    "label": "home"
+  },
+  {
+    "node": "sfu_library",
+    "url": "https://www.lib.sfu.ca/",
+    "label": "home"
+  },
+  {
+    "node": "shu_library",
+    "url": "https://library.shu.edu/library",
+    "label": "home"
+  },
+  {
+    "node": "sil",
+    "url": "http://www.sil.si.edu/",
+    "label": "home"
+  },
+  {
+    "node": "siu_library",
+    "url": "https://lib.siu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "slpl",
+    "url": "https://www.slpl.org/",
+    "label": "home"
+  },
+  {
+    "node": "slu_library",
+    "url": "http://lib.slu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "smartmuseum",
+    "url": "https://smartmuseum.uchicago.edu/",
+    "label": "home"
+  },
+  {
+    "node": "smu_library",
+    "url": "https://www.smu.edu/libraries",
+    "label": "home"
+  },
+  {
+    "node": "southalabama_library",
+    "url": "https://www.southalabama.edu/libraries/",
+    "label": "home"
+  },
+  {
+    "node": "sparc",
+    "url": "https://sparcopen.org/",
+    "label": "home"
+  },
+  {
+    "node": "stanford_library",
+    "url": "https://library.stanford.edu/",
+    "label": "home"
+  },
+  {
+    "node": "stevens_library",
+    "url": "https://library.stevens.edu/",
+    "label": "home"
+  },
+  {
+    "node": "stonybrook_library",
+    "url": "http://www.library.stonybrook.edu/",
+    "label": "home"
+  },
+  {
+    "node": "syr_library",
+    "url": "https://library.syr.edu/",
+    "label": "home"
+  },
+  {
+    "node": "tamu_library",
+    "url": "https://library.tamu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "tamucc_library",
+    "url": "https://library.tamucc.edu/",
+    "label": "home"
+  },
+  {
+    "node": "tamuk_library",
+    "url": "http://lib.tamuk.edu/",
+    "label": "home"
+  },
+  {
+    "node": "tcu_library",
+    "url": "https://library.tcu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "tec_library",
+    "url": "https://biblioteca.tec.mx/",
+    "label": "home"
+  },
+  {
+    "node": "temple_library",
+    "url": "https://library.temple.edu/",
+    "label": "home"
+  },
+  {
+    "node": "tntech_library",
+    "url": "https://www.tntech.edu/library/",
+    "label": "home"
+  },
+  {
+    "node": "tsl",
+    "url": "https://www.tsl.texas.gov/",
+    "label": "home"
+  },
+  {
+    "node": "ttu_library",
+    "url": "https://library.ttu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "tufts_library",
+    "url": "https://tischlibrary.tufts.edu/use-library/",
+    "label": "home"
+  },
+  {
+    "node": "tulane_library",
+    "url": "https://library.tulane.edu/",
+    "label": "home"
+  },
+  {
+    "node": "txstate_library",
+    "url": "https://www.library.txstate.edu/",
+    "label": "home"
+  },
+  {
+    "node": "ua_library",
+    "url": "https://www.lib.ua.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uab_library",
+    "url": "https://library.uab.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uaf_library",
+    "url": "http://library.uaf.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uah_library",
+    "url": "https://www.uah.edu/library",
+    "label": "home"
+  },
+  {
+    "node": "uakron_library",
+    "url": "https://www.uakron.edu/libraries/",
+    "label": "home"
+  },
+  {
+    "node": "ualberta_library",
+    "url": "https://www.library.ualberta.ca/",
+    "label": "home"
+  },
+  {
+    "node": "ualr_library",
+    "url": "https://ualr.edu/library/",
+    "label": "home"
+  },
+  {
+    "node": "uanl_library",
+    "url": "https://www.dgb.uanl.mx/",
+    "label": "home"
+  },
+  {
+    "node": "uark_library",
+    "url": "https://libraries.uark.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uaslp_library",
+    "url": "http://bibliotecas.uaslp.mx/",
+    "label": "home"
+  },
+  {
+    "node": "ubc_library",
+    "url": "http://www.library.ubc.ca/",
+    "label": "home"
+  },
+  {
+    "node": "uc_library",
+    "url": "https://www.libraries.uc.edu/",
+    "label": "home"
+  },
+  {
+    "node": "ucalgary_library",
+    "url": "https://library.ucalgary.ca/",
+    "label": "home"
+  },
+  {
+    "node": "uccs_library",
+    "url": "https://www.uccs.edu/library/",
+    "label": "home"
+  },
+  {
+    "node": "ucdavis_library",
+    "url": "https://www.library.ucdavis.edu/",
+    "label": "home"
+  },
+  {
+    "node": "ucf_library",
+    "url": "https://library.ucf.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uchicago_library",
+    "url": "https://www.lib.uchicago.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uci_library",
+    "url": "https://lib.uci.edu/",
+    "label": "home"
+  },
+  {
+    "node": "ucla_library",
+    "url": "http://www.library.ucla.edu/",
+    "label": "home"
+  },
+  {
+    "node": "ucmerced_library",
+    "url": "http://library.ucmerced.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uconn_library",
+    "url": "https://lib.uconn.edu/",
+    "label": "home"
+  },
+  {
+    "node": "ucr_library",
+    "url": "https://library.ucr.edu/",
+    "label": "home"
+  },
+  {
+    "node": "ucsc_library",
+    "url": "https://library.ucsc.edu/",
+    "label": "home"
+  },
+  {
+    "node": "ucsd_library",
+    "url": "https://library.ucsd.edu/",
+    "label": "home"
+  },
+  {
+    "node": "udayton_library",
+    "url": "https://udayton.edu/libraries/",
+    "label": "home"
+  },
+  {
+    "node": "udel_library",
+    "url": "https://library.udel.edu/",
+    "label": "home"
+  },
+  {
+    "node": "udg_library",
+    "url": "https://wdg.biblio.udg.mx/",
+    "label": "home"
+  },
+  {
+    "node": "ufl_library",
+    "url": "http://library.ufl.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uga_library",
+    "url": "https://www.libs.uga.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uh_library",
+    "url": "https://libraries.uh.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uic_library",
+    "url": "https://library.uic.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uidaho_library",
+    "url": "https://www.lib.uidaho.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uiowa_library",
+    "url": "https://www.lib.uiowa.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uky_library",
+    "url": "http://libraries.uky.edu/",
+    "label": "home"
+  },
+  {
+    "node": "ulaval_library",
+    "url": "http://www.bibl.ulaval.ca/",
+    "label": "home"
+  },
+  {
+    "node": "umaine_library",
+    "url": "https://library.umaine.edu/",
+    "label": "home"
+  },
+  {
+    "node": "umanitoba_library",
+    "url": "http://www.umanitoba.ca/libraries/",
+    "label": "home"
+  },
+  {
+    "node": "umass_library",
+    "url": "https://www.library.umass.edu/",
+    "label": "home"
+  },
+  {
+    "node": "umassd_library",
+    "url": "https://www.lib.umassd.edu/",
+    "label": "home"
+  },
+  {
+    "node": "umb_library",
+    "url": "https://www.umb.edu/library",
+    "label": "home"
+  },
+  {
+    "node": "umbc_library",
+    "url": "https://library.umbc.edu/",
+    "label": "home"
+  },
+  {
+    "node": "umd_library",
+    "url": "https://www.lib.umd.edu/",
+    "label": "home"
+  },
+  {
+    "node": "umes_library",
+    "url": "https://www.umes.edu/FDL/",
+    "label": "home"
+  },
+  {
+    "node": "umich_library",
+    "url": "https://www.lib.umich.edu/",
+    "label": "home"
+  },
+  {
+    "node": "umkc_library",
+    "url": "https://library.umkc.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uml_library",
+    "url": "https://www.uml.edu/library/",
+    "label": "home"
+  },
+  {
+    "node": "umn_library",
+    "url": "https://www.lib.umn.edu/",
+    "label": "home"
+  },
+  {
+    "node": "umsl_library",
+    "url": "https://www.umsl.edu/~libweb/",
+    "label": "home"
+  },
+  {
+    "node": "unam_library",
+    "url": "http://www.bibliotecas.unam.mx/",
+    "label": "home"
+  },
+  {
+    "node": "unc_library",
+    "url": "https://library.unc.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uncc_library",
+    "url": "https://library.uncc.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uncg_library",
+    "url": "https://library.uncg.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uncw_library",
+    "url": "https://library.uncw.edu/",
+    "label": "home"
+  },
+  {
+    "node": "und_library",
+    "url": "https://library.und.edu/",
+    "label": "home"
+  },
+  {
+    "node": "une_library",
+    "url": "https://library.une.edu/",
+    "label": "home"
+  },
+  {
+    "node": "unh_library",
+    "url": "https://www.library.unh.edu/",
+    "label": "home"
+  },
+  {
+    "node": "unl_library",
+    "url": "https://libraries.unl.edu/",
+    "label": "home"
+  },
+  {
+    "node": "unlv_library",
+    "url": "https://www.library.unlv.edu/",
+    "label": "home"
+  },
+  {
+    "node": "unm_library",
+    "url": "https://library.unm.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uno_library",
+    "url": "http://libguides.uno.edu/home/",
+    "label": "home"
+  },
+  {
+    "node": "unomaha_library",
+    "url": "https://www.unomaha.edu/criss-library/",
+    "label": "home"
+  },
+  {
+    "node": "unr_library",
+    "url": "https://library.unr.edu/",
+    "label": "home"
+  },
+  {
+    "node": "unt_library",
+    "url": "https://library.unt.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uoguelph_library",
+    "url": "https://www.lib.uoguelph.ca/",
+    "label": "home"
+  },
+  {
+    "node": "uoregon_library",
+    "url": "https://library.uoregon.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uottawa_library",
+    "url": "http://www.biblio.uottawa.ca/",
+    "label": "home"
+  },
+  {
+    "node": "upenn_library",
+    "url": "https://www.library.upenn.edu/",
+    "label": "home"
+  },
+  {
+    "node": "upr_library",
+    "url": "https://www.upr.edu/biblioteca-rrp/",
+    "label": "home"
+  },
+  {
+    "node": "uri_library",
+    "url": "https://web.uri.edu/library/",
+    "label": "home"
+  },
+  {
+    "node": "usask_library",
+    "url": "http://library.usask.ca/",
+    "label": "home"
+  },
+  {
+    "node": "usc_library",
+    "url": "https://libraries.usc.edu/",
+    "label": "home"
+  },
+  {
+    "node": "usd_library",
+    "url": "https://www.usd.edu/library",
+    "label": "home"
+  },
+  {
+    "node": "usf_library",
+    "url": "https://lib.usf.edu/",
+    "label": "home"
+  },
+  {
+    "node": "usm_library",
+    "url": "http://www.lib.usm.edu/",
+    "label": "home"
+  },
+  {
+    "node": "usu_library",
+    "url": "https://library.usu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uta_library",
+    "url": "https://libraries.uta.edu/",
+    "label": "home"
+  },
+  {
+    "node": "utah_library",
+    "url": "https://lib.utah.edu/",
+    "label": "home"
+  },
+  {
+    "node": "utdallas_library",
+    "url": "https://www.utdallas.edu/library/",
+    "label": "home"
+  },
+  {
+    "node": "utep_library",
+    "url": "https://www.utep.edu/library/",
+    "label": "home"
+  },
+  {
+    "node": "utexas_library",
+    "url": "https://www.lib.utexas.edu/",
+    "label": "home"
+  },
+  {
+    "node": "utk_library",
+    "url": "https://www.lib.utk.edu/",
+    "label": "home"
+  },
+  {
+    "node": "utoledo_library",
+    "url": "https://www.utoledo.edu/library/",
+    "label": "home"
+  },
+  {
+    "node": "utoronto_library",
+    "url": "http://www.library.utoronto.ca/",
+    "label": "home"
+  },
+  {
+    "node": "utrgv_library",
+    "url": "https://www.utrgv.edu/library/",
+    "label": "home"
+  },
+  {
+    "node": "utsa_library",
+    "url": "https://lib.utsa.edu/",
+    "label": "home"
+  },
+  {
+    "node": "utulsa_library",
+    "url": "https://library.utulsa.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uvm_library",
+    "url": "https://library.uvm.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uwaterloo_library",
+    "url": "http://www.lib.uwaterloo.ca/",
+    "label": "home"
+  },
+  {
+    "node": "uwm_library",
+    "url": "https://uwm.edu/libraries/",
+    "label": "home"
+  },
+  {
+    "node": "uwo_library",
+    "url": "http://www.lib.uwo.ca/",
+    "label": "home"
+  },
+  {
+    "node": "uwyo_library",
+    "url": "http://www.uwyo.edu/libraries/",
+    "label": "home"
+  },
+  {
+    "node": "vahistorical",
+    "url": "http://www.vahistorical.org",
+    "label": "home"
+  },
+  {
+    "node": "vanderbilt_library",
+    "url": "https://www.library.vanderbilt.edu/",
+    "label": "home"
+  },
+  {
+    "node": "vcu_library",
+    "url": "https://www.library.vcu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "villanova_library",
+    "url": "https://library.villanova.edu/",
+    "label": "home"
+  },
+  {
+    "node": "virginia_library",
+    "url": "https://www.library.virginia.edu/",
+    "label": "home"
+  },
+  {
+    "node": "vt_library",
+    "url": "https://lib.vt.edu/",
+    "label": "home"
+  },
+  {
+    "node": "washington_library",
+    "url": "http://www.lib.washington.edu/",
+    "label": "home"
+  },
+  {
+    "node": "wayne_library",
+    "url": "https://library.wayne.edu/",
+    "label": "home"
+  },
+  {
+    "node": "wfu_library",
+    "url": "https://zsr.wfu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "wichita_library",
+    "url": "https://libraries.wichita.edu/",
+    "label": "home"
+  },
+  {
+    "node": "winterthur",
+    "url": "http://www.winterthur.org",
+    "label": "home"
+  },
+  {
+    "node": "wisc_library",
+    "url": "https://www.library.wisc.edu/",
+    "label": "home"
+  },
+  {
+    "node": "wm_library",
+    "url": "https://libraries.wm.edu/",
+    "label": "home"
+  },
+  {
+    "node": "wmich_library",
+    "url": "https://wmich.edu/library",
+    "label": "home"
+  },
+  {
+    "node": "wpi_library",
+    "url": "https://www.wpi.edu/library",
+    "label": "home"
+  },
+  {
+    "node": "wright_library",
+    "url": "https://www.libraries.wright.edu/",
+    "label": "home"
+  },
+  {
+    "node": "wsu_library",
+    "url": "https://libraries.wsu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "wustl_library",
+    "url": "https://library.wustl.edu/",
+    "label": "home"
+  },
+  {
+    "node": "wvu_library",
+    "url": "https://library.wvu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "yale_library",
+    "url": "https://web.library.yale.edu/",
+    "label": "home"
+  },
+  {
+    "node": "yorku_library",
+    "url": "http://www.library.yorku.ca/",
+    "label": "home"
+  },
+  {
+    "node": "yu_library",
+    "url": "https://library.yu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "famu_library",
+    "url": "https://library.famu.edu/srch.php",
+    "label": "home"
+  },
+  {
+    "node": "aamu",
+    "url": "https://www.aamu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "afit",
+    "url": "https://www.afit.edu/EN/",
+    "label": "home"
+  },
+  {
+    "node": "albany",
+    "url": "https://www.albany.edu/",
+    "label": "home"
+  },
+  {
+    "node": "american",
+    "url": "https://american.edu/",
+    "label": "home"
+  },
+  {
+    "node": "americanantiquarian",
+    "url": "https://www.americanantiquarian.org",
+    "label": "home"
+  },
+  {
+    "node": "anahuac",
+    "url": "https://www.anahuac.mx/",
+    "label": "home"
+  },
+  {
+    "node": "apu",
+    "url": "https://www.apu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "arizona",
+    "url": "https://www.arizona.edu/",
+    "label": "home"
+  },
+  {
+    "node": "arizona_library",
+    "url": "https://new.library.arizona.edu/",
+    "label": "home"
+  },
+  {
+    "node": "astate",
+    "url": "https://www.astate.edu/",
+    "label": "home"
+  },
+  {
+    "node": "asu",
+    "url": "https://www.asu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "asu",
+    "url": "http://asu.edu/lib/",
+    "label": "home"
+  },
+  {
+    "node": "asu_phoenix",
+    "url": "https://www.asu.edu/about/colleges-and-schools/downtown-phoenix",
+    "label": "home"
+  },
+  {
+    "node": "asurams",
+    "url": "https://www.asurams.edu/",
+    "label": "home"
+  },
+  {
+    "node": "auburn",
+    "url": "http://www.auburn.edu/",
+    "label": "home"
+  },
+  {
+    "node": "auraria",
+    "url": "https://www.ahec.edu/",
+    "label": "home"
+  },
+  {
+    "node": "baylor",
+    "url": "https://www.baylor.edu/",
+    "label": "home"
+  },
+  {
+    "node": "bc",
+    "url": "https://www.bc.edu/",
+    "label": "home"
+  },
+  {
+    "node": "berkeley",
+    "url": "https://www.berkeley.edu/",
+    "label": "home"
+  },
+  {
+    "node": "berkeley_library",
+    "url": "https://www.lib.berkeley.edu/",
+    "label": "home"
+  },
+  {
+    "node": "bgsu",
+    "url": "https://www.bgsu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "binghamton",
+    "url": "https://www.binghamton.edu/",
+    "label": "home"
+  },
+  {
+    "node": "boisestate",
+    "url": "https://www.boisestate.edu/",
+    "label": "home"
+  },
+  {
+    "node": "bowiestate",
+    "url": "https://www.bowiestate.edu/",
+    "label": "home"
+  },
+  {
+    "node": "brandeis",
+    "url": "https://www.brandeis.edu/",
+    "label": "home"
+  },
+  {
+    "node": "brown",
+    "url": "https://www.brown.edu/",
+    "label": "home"
+  },
+  {
+    "node": "bsu",
+    "url": "https://www.bsu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "bu",
+    "url": "https://www.bu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "bu_library",
+    "url": "https://www.bu.edu/library/",
+    "label": "home"
+  },
+  {
+    "node": "buap",
+    "url": "https://www.buap.mx/",
+    "label": "home"
+  },
+  {
+    "node": "buffalo",
+    "url": "http://www.buffalo.edu/",
+    "label": "home"
+  },
+  {
+    "node": "byu",
+    "url": "https://www.byu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "caltech",
+    "url": "https://www.caltech.edu/",
+    "label": "home"
+  },
+  {
+    "node": "camden",
+    "url": "https://camden.rutgers.edu/new/",
+    "label": "home"
+  },
+  {
+    "node": "carli",
+    "url": "https://www.carli.illinois.edu/",
+    "label": "home"
+  },
+  {
+    "node": "case",
+    "url": "https://case.edu/",
+    "label": "home"
+  },
+  {
+    "node": "catholic",
+    "url": "https://www.catholic.edu/",
+    "label": "home"
+  },
+  {
+    "node": "cau",
+    "url": "https://www.cau.edu/",
+    "label": "home"
+  },
+  {
+    "node": "cca",
+    "url": "https://www.cca.qc.ca",
+    "label": "home"
+  },
+  {
+    "node": "cgu",
+    "url": "https://www.cgu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "chapman",
+    "url": "https://www.chapman.edu/",
+    "label": "home"
+  },
+  {
+    "node": "claremont",
+    "url": "https://www.claremont.edu/",
+    "label": "home"
+  },
+  {
+    "node": "clarkson",
+    "url": "https://www.clarkson.edu/",
+    "label": "home"
+  },
+  {
+    "node": "clarku",
+    "url": "https://www.clarku.edu/",
+    "label": "home"
+  },
+  {
+    "node": "clemson",
+    "url": "http://www.clemson.edu/",
+    "label": "home"
+  },
+  {
+    "node": "cmich",
+    "url": "https://www.cmich.edu/",
+    "label": "home"
+  },
+  {
+    "node": "cmu",
+    "url": "https://www.cmu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "colorado",
+    "url": "https://www.cu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "colorado_library",
+    "url": "http://ucblibraries.colorado.edu",
+    "label": "home"
+  },
+  {
+    "node": "colorado_library",
+    "url": "http://www.colorado.edu/AcademicLife/Libraries.html",
+    "label": "home"
+  },
+  {
+    "node": "colorado_library",
+    "url": "http://www.colorado.edu/Academics/Libraries.html",
+    "label": "home"
+  },
+  {
+    "node": "colostate",
+    "url": "https://www.colostate.edu/",
+    "label": "home"
+  },
+  {
+    "node": "colpos",
+    "url": "https://www.colpos.mx/",
+    "label": "home"
+  },
+  {
+    "node": "colum",
+    "url": "https://www.colum.edu/",
+    "label": "home"
+  },
+  {
+    "node": "columbia",
+    "url": "https://www.columbia.edu/",
+    "label": "home"
+  },
+  {
+    "node": "columbia_tc",
+    "url": "https://www.tc.columbia.edu/",
+    "label": "home"
+  },
+  {
+    "node": "cornell",
+    "url": "https://www.cornell.edu/",
+    "label": "home"
+  },
+  {
+    "node": "cornell_library",
+    "url": "https://digital.library.cornell.edu/",
+    "label": "home"
+  },
+  {
+    "node": "crl",
+    "url": "https://www.crl.edu/",
+    "label": "home"
+  },
+  {
+    "node": "csuohio",
+    "url": "https://www.csuohio.edu/",
+    "label": "home"
+  },
+  {
+    "node": "cuny",
+    "url": "https://www.cuny.edu/",
+    "label": "home"
+  },
+  {
+    "node": "cuny_ccny",
+    "url": "https://www.ccny.cuny.edu/",
+    "label": "home"
+  },
+  {
+    "node": "cuny_gc",
+    "url": "https://www.gc.cuny.edu/",
+    "label": "home"
+  },
+  {
+    "node": "dartmouth",
+    "url": "https://home.dartmouth.edu/",
+    "label": "home"
+  },
+  {
+    "node": "depaul",
+    "url": "https://www.depaul.edu/",
+    "label": "home"
+  },
+  {
+    "node": "desu",
+    "url": "https://www.desu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "dillard",
+    "url": "http://www.dillard.edu/",
+    "label": "home"
+  },
+  {
+    "node": "drexel",
+    "url": "https://drexel.edu/",
+    "label": "home"
+  },
+  {
+    "node": "du",
+    "url": "https://www.du.edu/",
+    "label": "home"
+  },
+  {
+    "node": "duke",
+    "url": "https://www.duke.edu/",
+    "label": "home"
+  },
+  {
+    "node": "duq",
+    "url": "https://www.duq.edu/",
+    "label": "home"
+  },
+  {
+    "node": "ecu",
+    "url": "https://www.ecu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "emich",
+    "url": "https://www.emich.edu/",
+    "label": "home"
+  },
+  {
+    "node": "emory",
+    "url": "http://www.emory.edu/",
+    "label": "home"
+  },
+  {
+    "node": "emory_library",
+    "url": "https://web.library.emory.edu/",
+    "label": "home"
+  },
+  {
+    "node": "esf",
+    "url": "https://www.esf.edu/",
+    "label": "home"
+  },
+  {
+    "node": "etsu",
+    "url": "https://www.etsu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "famu",
+    "url": "http://www.famu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "famu_library",
+    "url": "https://famu.catalog.fcla.edu/am.jsp",
+    "label": "home"
+  },
+  {
+    "node": "fau",
+    "url": "https://www.fau.edu/",
+    "label": "home"
+  },
+  {
+    "node": "fit",
+    "url": "https://www.fit.edu/",
+    "label": "home"
+  },
+  {
+    "node": "fiu",
+    "url": "https://www.fiu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "fordham",
+    "url": "https://www.fordham.edu/",
+    "label": "home"
+  },
+  {
+    "node": "fsu",
+    "url": "https://www.fsu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "gallaudet",
+    "url": "https://www.gallaudet.edu/",
+    "label": "home"
+  },
+  {
+    "node": "gatech",
+    "url": "https://www.gatech.edu/",
+    "label": "home"
+  },
+  {
+    "node": "gatech_library",
+    "url": "https://www.library.gatech.edu/",
+    "label": "home"
+  },
+  {
+    "node": "georgetown",
+    "url": "https://www.georgetown.edu/",
+    "label": "home"
+  },
+  {
+    "node": "georgiasouthern",
+    "url": "https://www.georgiasouthern.edu/",
+    "label": "home"
+  },
+  {
+    "node": "getty",
+    "url": "https://www.getty.edu/research/",
+    "label": "home"
+  },
+  {
+    "node": "getty",
+    "url": "http://archives2.getty.edu:8082/xtf/search",
+    "label": "home"
+  },
+  {
+    "node": "getty",
+    "url": "https://www.getty.edu/research/tools/vocabularies/tgn/",
+    "label": "home"
+  },
+  {
+    "node": "getty",
+    "url": "https://www.getty.edu/research/tools/vocabularies/ulan/",
+    "label": "home"
+  },
+  {
+    "node": "gmu",
+    "url": "https://www2.gmu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "gram",
+    "url": "http://www.gram.edu/",
+    "label": "home"
+  },
+  {
+    "node": "gsu",
+    "url": "https://www.gsu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "gwu",
+    "url": "https://www.gwu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "hagley",
+    "url": "https://www.hagley.org",
+    "label": "home"
+  },
+  {
+    "node": "hagley",
+    "url": "https://www.hagley.org/",
+    "label": "home"
+  },
+  {
+    "node": "hamptonu",
+    "url": "http://www.hamptonu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "harvard",
+    "url": "https://www.harvard.edu/",
+    "label": "home"
+  },
+  {
+    "node": "hawaii",
+    "url": "https://www.hawaii.edu/",
+    "label": "home"
+  },
+  {
+    "node": "howard",
+    "url": "https://www2.howard.edu/",
+    "label": "home"
+  },
+  {
+    "node": "iastate",
+    "url": "https://www.iastate.edu/",
+    "label": "home"
+  },
+  {
+    "node": "iit",
+    "url": "https://www.iit.edu/",
+    "label": "home"
+  },
+  {
+    "node": "illinois",
+    "url": "https://illinois.edu/",
+    "label": "home"
+  },
+  {
+    "node": "illinois_library",
+    "url": "https://digital.library.illinois.edu/",
+    "label": "home"
+  },
+  {
+    "node": "illinoisstate",
+    "url": "https://illinoisstate.edu/",
+    "label": "home"
+  },
+  {
+    "node": "indiana",
+    "url": "https://www.indiana.edu/",
+    "label": "home"
+  },
+  {
+    "node": "ipn",
+    "url": "https://www.ipn.mx/",
+    "label": "home"
+  },
+  {
+    "node": "isu",
+    "url": "https://www.isu.edu",
+    "label": "home"
+  },
+  {
+    "node": "iupui",
+    "url": "https://www.iupui.edu/",
+    "label": "home"
+  },
+  {
+    "node": "jefferson",
+    "url": "https://www.jefferson.edu/",
+    "label": "home"
+  },
+  {
+    "node": "jhu",
+    "url": "https://www.jhu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "jsums",
+    "url": "http://www.jsums.edu/",
+    "label": "home"
+  },
+  {
+    "node": "k-state",
+    "url": "https://www.k-state.edu/",
+    "label": "home"
+  },
+  {
+    "node": "kennesaw",
+    "url": "https://kennesaw.edu/",
+    "label": "home"
+  },
+  {
+    "node": "kent",
+    "url": "https://www.kent.edu/",
+    "label": "home"
+  },
+  {
+    "node": "ku",
+    "url": "https://ku.edu/",
+    "label": "home"
+  },
+  {
+    "node": "latech",
+    "url": "https://www.latech.edu/",
+    "label": "home"
+  },
+  {
+    "node": "lehigh",
+    "url": "https://www1.lehigh.edu/",
+    "label": "home"
+  },
+  {
+    "node": "lmu",
+    "url": "https://www.lmu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "louisiana",
+    "url": "https://louisiana.edu/",
+    "label": "home"
+  },
+  {
+    "node": "louisville",
+    "url": "http://louisville.edu/",
+    "label": "home"
+  },
+  {
+    "node": "lsu",
+    "url": "https://www.lsu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "luc",
+    "url": "https://www.luc.edu/",
+    "label": "home"
+  },
+  {
+    "node": "marquette",
+    "url": "https://www.marquette.edu/",
+    "label": "home"
+  },
+  {
+    "node": "marshall",
+    "url": "http://www.marshall.edu/",
+    "label": "home"
+  },
+  {
+    "node": "mcgill",
+    "url": "https://www.mcgill.ca/",
+    "label": "home"
+  },
+  {
+    "node": "mcmaster",
+    "url": "https://www.mcmaster.ca/",
+    "label": "home"
+  },
+  {
+    "node": "memphis",
+    "url": "https://www.memphis.edu/",
+    "label": "home"
+  },
+  {
+    "node": "mercer",
+    "url": "https://www.mercer.edu/",
+    "label": "home"
+  },
+  {
+    "node": "miami",
+    "url": "https://welcome.miami.edu/",
+    "label": "home"
+  },
+  {
+    "node": "miamioh",
+    "url": "https://miamioh.edu/",
+    "label": "home"
+  },
+  {
+    "node": "mines",
+    "url": "https://www.mines.edu/",
+    "label": "home"
+  },
+  {
+    "node": "missouri",
+    "url": "https://missouri.edu/",
+    "label": "home"
+  },
+  {
+    "node": "mit",
+    "url": "http://www.mit.edu/",
+    "label": "home"
+  },
+  {
+    "node": "montana",
+    "url": "https://www.montana.edu/",
+    "label": "home"
+  },
+  {
+    "node": "montclair",
+    "url": "https://www.montclair.edu/",
+    "label": "home"
+  },
+  {
+    "node": "morehouse",
+    "url": "https://www.morehouse.edu/",
+    "label": "home"
+  },
+  {
+    "node": "morgan",
+    "url": "https://www.morgan.edu",
+    "label": "home"
+  },
+  {
+    "node": "msstate",
+    "url": "https://www.msstate.edu/",
+    "label": "home"
+  },
+  {
+    "node": "mst",
+    "url": "https://www.mst.edu/",
+    "label": "home"
+  },
+  {
+    "node": "msu",
+    "url": "https://msu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "mtu",
+    "url": "https://www.mtu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "nau",
+    "url": "https://nau.edu/",
+    "label": "home"
+  },
+  {
+    "node": "ncat",
+    "url": "http://www.ncat.edu/",
+    "label": "home"
+  },
+  {
+    "node": "nccu",
+    "url": "http://www.nccu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "ncsu",
+    "url": "https://www.ncsu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "nd",
+    "url": "https://www.nd.edu/",
+    "label": "home"
+  },
+  {
+    "node": "ndsu",
+    "url": "https://www.ndsu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "newark",
+    "url": "https://www.newark.rutgers.edu/",
+    "label": "home"
+  },
+  {
+    "node": "newschool",
+    "url": "https://www.newschool.edu/",
+    "label": "home"
+  },
+  {
+    "node": "niu",
+    "url": "https://www.niu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "njit",
+    "url": "https://www.njit.edu/",
+    "label": "home"
+  },
+  {
+    "node": "nmsu",
+    "url": "https://www.nmsu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "northeastern",
+    "url": "https://www.northeastern.edu/",
+    "label": "home"
+  },
+  {
+    "node": "nova",
+    "url": "https://www.nova.edu/",
+    "label": "home"
+  },
+  {
+    "node": "nsu",
+    "url": "http://www.nsu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "nw",
+    "url": "https://www.northwestern.edu/",
+    "label": "home"
+  },
+  {
+    "node": "nw",
+    "url": "https://images.northwestern.edu/",
+    "label": "home"
+  },
+  {
+    "node": "nypl",
+    "url": "http://www.nypl.org/",
+    "label": "home"
+  },
+  {
+    "node": "nypl",
+    "url": "https://digitalcollections.nypl.org/",
+    "label": "home"
+  },
+  {
+    "node": "nyu",
+    "url": "https://www.nyu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "oakland",
+    "url": "https://oakland.edu/",
+    "label": "home"
+  },
+  {
+    "node": "odu",
+    "url": "https://www.odu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "ohio",
+    "url": "https://www.ohio.edu/",
+    "label": "home"
+  },
+  {
+    "node": "ohio_library",
+    "url": "https://www.library.ohio.edu/",
+    "label": "home"
+  },
+  {
+    "node": "okstate",
+    "url": "https://www.okstate.edu/",
+    "label": "home"
+  },
+  {
+    "node": "olemiss",
+    "url": "https://olemiss.edu/",
+    "label": "home"
+  },
+  {
+    "node": "oregonstate",
+    "url": "https://oregonstate.edu/",
+    "label": "home"
+  },
+  {
+    "node": "osu",
+    "url": "https://www.osu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "osu_library",
+    "url": "https://library.osu.edu/dc",
+    "label": "home"
+  },
+  {
+    "node": "ou",
+    "url": "https://www.ou.edu/",
+    "label": "home"
+  },
+  {
+    "node": "pdx",
+    "url": "https://www.pdx.edu/",
+    "label": "home"
+  },
+  {
+    "node": "pitt",
+    "url": "https://www.pitt.edu/",
+    "label": "home"
+  },
+  {
+    "node": "pitt_library",
+    "url": "https://www.library.pitt.edu/db/all",
+    "label": "home"
+  },
+  {
+    "node": "pitt_library",
+    "url": "https://www.library.pitt.edu/subject_specialists",
+    "label": "home"
+  },
+  {
+    "node": "princeton",
+    "url": "https://www.princeton.edu/",
+    "label": "home"
+  },
+  {
+    "node": "princeton_library",
+    "url": "https://dpul.princeton.edu/",
+    "label": "home"
+  },
+  {
+    "node": "psu",
+    "url": "https://www.psu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "purdue",
+    "url": "https://www.purdue.edu/",
+    "label": "home"
+  },
+  {
+    "node": "pvamu",
+    "url": "http://www.pvamu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "queensu",
+    "url": "https://www.queensu.ca/",
+    "label": "home"
+  },
+  {
+    "node": "rice",
+    "url": "https://www.rice.edu/",
+    "label": "home"
+  },
+  {
+    "node": "rit",
+    "url": "https://www.rit.edu/",
+    "label": "home"
+  },
+  {
+    "node": "rochester",
+    "url": "https://www.rochester.edu/",
+    "label": "home"
+  },
+  {
+    "node": "rockefeller",
+    "url": "https://www.rockefeller.edu/",
+    "label": "home"
+  },
+  {
+    "node": "rowan",
+    "url": "https://www.rowan.edu/",
+    "label": "home"
+  },
+  {
+    "node": "rpi",
+    "url": "https://www.rpi.edu/",
+    "label": "home"
+  },
+  {
+    "node": "rutgers",
+    "url": "https://www.rutgers.edu/",
+    "label": "home"
+  },
+  {
+    "node": "sandiego",
+    "url": "https://www.sandiego.edu/",
+    "label": "home"
+  },
+  {
+    "node": "sc",
+    "url": "https://www.sc.edu/",
+    "label": "home"
+  },
+  {
+    "node": "scsb",
+    "url": "https://www.ucsb.edu/",
+    "label": "home"
+  },
+  {
+    "node": "sdstate",
+    "url": "https://www.sdstate.edu/",
+    "label": "home"
+  },
+  {
+    "node": "sdsu",
+    "url": "https://www.sdsu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "sfu",
+    "url": "https://www.sfu.ca/",
+    "label": "home"
+  },
+  {
+    "node": "shu",
+    "url": "https://www.shu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "siu",
+    "url": "https://siu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "slu",
+    "url": "https://www.slu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "smu",
+    "url": "https://www.smu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "southalabama",
+    "url": "https://www.southalabama.edu/",
+    "label": "home"
+  },
+  {
+    "node": "spelman",
+    "url": "https://www.spelman.edu/",
+    "label": "home"
+  },
+  {
+    "node": "stanford",
+    "url": "https://www.stanford.edu/",
+    "label": "home"
+  },
+  {
+    "node": "stevens",
+    "url": "https://www.stevens.edu/",
+    "label": "home"
+  },
+  {
+    "node": "stonybrook",
+    "url": "https://www.stonybrook.edu/",
+    "label": "home"
+  },
+  {
+    "node": "subr",
+    "url": "http://www.subr.edu/",
+    "label": "home"
+  },
+  {
+    "node": "syr",
+    "url": "https://www.syracuse.edu/",
+    "label": "home"
+  },
+  {
+    "node": "tamu",
+    "url": "https://www.tamu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "tamucc",
+    "url": "https://www.tamucc.edu/",
+    "label": "home"
+  },
+  {
+    "node": "tamuk",
+    "url": "https://www.tamuk.edu/",
+    "label": "home"
+  },
+  {
+    "node": "tcu",
+    "url": "https://www.tcu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "tec",
+    "url": "https://tec.mx/",
+    "label": "home"
+  },
+  {
+    "node": "temple",
+    "url": "https://www.temple.edu/",
+    "label": "home"
+  },
+  {
+    "node": "tnstate",
+    "url": "http://www.tnstate.edu/",
+    "label": "home"
+  },
+  {
+    "node": "tntech",
+    "url": "https://www.tntech.edu/",
+    "label": "home"
+  },
+  {
+    "node": "tsu",
+    "url": "http://www.tsu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "ttu",
+    "url": "https://www.ttu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "tufts",
+    "url": "https://www.tufts.edu/",
+    "label": "home"
+  },
+  {
+    "node": "tulane",
+    "url": "https://tulane.edu/",
+    "label": "home"
+  },
+  {
+    "node": "txstate",
+    "url": "https://www.txstate.edu/",
+    "label": "home"
+  },
+  {
+    "node": "ua",
+    "url": "https://www.ua.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uab",
+    "url": "https://www.uab.edu/home/",
+    "label": "home"
+  },
+  {
+    "node": "uaf",
+    "url": "https://www.uaf.edu/uaf/",
+    "label": "home"
+  },
+  {
+    "node": "uah",
+    "url": "https://www.uah.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uakron",
+    "url": "https://www.uakron.edu/",
+    "label": "home"
+  },
+  {
+    "node": "ualberta",
+    "url": "https://www.ualberta.ca/",
+    "label": "home"
+  },
+  {
+    "node": "ualr",
+    "url": "https://ualr.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uam",
+    "url": "https://www.uam.mx/",
+    "label": "home"
+  },
+  {
+    "node": "uam_library",
+    "url": "http://amoxcalli.izt.uam.mx/",
+    "label": "home"
+  },
+  {
+    "node": "uam_library",
+    "url": "http://biblioteca.xoc.uam.mx/",
+    "label": "home"
+  },
+  {
+    "node": "uam_library",
+    "url": "http://cosei.azc.uam.mx/",
+    "label": "home"
+  },
+  {
+    "node": "uam_library",
+    "url": "https://bidi.uam.mx/",
+    "label": "home"
+  },
+  {
+    "node": "uanl",
+    "url": "https://www.uanl.mx/",
+    "label": "home"
+  },
+  {
+    "node": "uark",
+    "url": "https://www.uark.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uaslp",
+    "url": "http://www.uaslp.mx/",
+    "label": "home"
+  },
+  {
+    "node": "ubc",
+    "url": "https://www.ubc.ca/",
+    "label": "home"
+  },
+  {
+    "node": "uc",
+    "url": "https://www.uc.edu/",
+    "label": "home"
+  },
+  {
+    "node": "ucalgary",
+    "url": "http://www.ucalgary.ca/",
+    "label": "home"
+  },
+  {
+    "node": "uccs",
+    "url": "https://www.uccs.edu/",
+    "label": "home"
+  },
+  {
+    "node": "ucdavis",
+    "url": "https://www.ucdavis.edu/",
+    "label": "home"
+  },
+  {
+    "node": "ucdenver",
+    "url": "http://www.ucdenver.edu/",
+    "label": "home"
+  },
+  {
+    "node": "ucf",
+    "url": "https://www.ucf.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uchicago",
+    "url": "https://www.uchicago.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uci",
+    "url": "https://uci.edu/",
+    "label": "home"
+  },
+  {
+    "node": "ucla",
+    "url": "http://www.ucla.edu/",
+    "label": "home"
+  },
+  {
+    "node": "ucmerced",
+    "url": "https://www.ucmerced.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uconn",
+    "url": "https://uconn.edu/",
+    "label": "home"
+  },
+  {
+    "node": "ucr",
+    "url": "https://www.ucr.edu/",
+    "label": "home"
+  },
+  {
+    "node": "ucsc",
+    "url": "https://www.ucsc.edu/",
+    "label": "home"
+  },
+  {
+    "node": "ucsd",
+    "url": "https://ucsd.edu/",
+    "label": "home"
+  },
+  {
+    "node": "udayton",
+    "url": "https://udayton.edu/",
+    "label": "home"
+  },
+  {
+    "node": "udel",
+    "url": "https://www.udel.edu/",
+    "label": "home"
+  },
+  {
+    "node": "udg",
+    "url": "http://www.udg.mx/",
+    "label": "home"
+  },
+  {
+    "node": "ufl",
+    "url": "http://www.ufl.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uga",
+    "url": "https://www.uga.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uh",
+    "url": "http://www.uh.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uic",
+    "url": "https://www.uic.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uidaho",
+    "url": "https://www.uidaho.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uiowa",
+    "url": "https://uiowa.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uky",
+    "url": "http://www.uky.edu/",
+    "label": "home"
+  },
+  {
+    "node": "ulaval",
+    "url": "https://www.ulaval.ca/",
+    "label": "home"
+  },
+  {
+    "node": "umaine",
+    "url": "https://umaine.edu/",
+    "label": "home"
+  },
+  {
+    "node": "umanitoba",
+    "url": "http://umanitoba.ca/",
+    "label": "home"
+  },
+  {
+    "node": "umass",
+    "url": "https://www.umass.edu/",
+    "label": "home"
+  },
+  {
+    "node": "umassd",
+    "url": "https://www.umassd.edu/",
+    "label": "home"
+  },
+  {
+    "node": "umb",
+    "url": "https://www.umb.edu/",
+    "label": "home"
+  },
+  {
+    "node": "umbc",
+    "url": "https://www.umbc.edu/",
+    "label": "home"
+  },
+  {
+    "node": "umd",
+    "url": "https://www.umd.edu/",
+    "label": "home"
+  },
+  {
+    "node": "umes",
+    "url": "https://www.umes.edu/home/",
+    "label": "home"
+  },
+  {
+    "node": "umich",
+    "url": "https://umich.edu/",
+    "label": "home"
+  },
+  {
+    "node": "umkc",
+    "url": "https://www.umkc.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uml",
+    "url": "https://www.uml.edu/",
+    "label": "home"
+  },
+  {
+    "node": "umn",
+    "url": "https://twin-cities.umn.edu/",
+    "label": "home"
+  },
+  {
+    "node": "umsl",
+    "url": "https://www.umsl.edu/",
+    "label": "home"
+  },
+  {
+    "node": "unam",
+    "url": "https://www.unam.mx/",
+    "label": "home"
+  },
+  {
+    "node": "unc",
+    "url": "https://www.unc.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uncc",
+    "url": "https://www.uncc.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uncfsu",
+    "url": "https://www.uncfsu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uncg",
+    "url": "https://www.uncg.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uncw",
+    "url": "https://uncw.edu/",
+    "label": "home"
+  },
+  {
+    "node": "und",
+    "url": "https://und.edu/",
+    "label": "home"
+  },
+  {
+    "node": "une",
+    "url": "https://www.une.edu/",
+    "label": "home"
+  },
+  {
+    "node": "unh",
+    "url": "https://www.unh.edu/",
+    "label": "home"
+  },
+  {
+    "node": "unl",
+    "url": "https://www.unl.edu/",
+    "label": "home"
+  },
+  {
+    "node": "unlv",
+    "url": "https://www.unlv.edu/",
+    "label": "home"
+  },
+  {
+    "node": "unm",
+    "url": "http://www.unm.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uno",
+    "url": "https://www.uno.edu/",
+    "label": "home"
+  },
+  {
+    "node": "unomaha",
+    "url": "https://www.unomaha.edu/",
+    "label": "home"
+  },
+  {
+    "node": "unr",
+    "url": "https://www.unr.edu/",
+    "label": "home"
+  },
+  {
+    "node": "unt",
+    "url": "https://www.unt.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uoguelph",
+    "url": "https://www.uoguelph.ca/",
+    "label": "home"
+  },
+  {
+    "node": "uoregon",
+    "url": "https://www.uoregon.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uottawa",
+    "url": "https://www.uottawa.ca/en",
+    "label": "home"
+  },
+  {
+    "node": "upenn",
+    "url": "https://www.upenn.edu/",
+    "label": "home"
+  },
+  {
+    "node": "upr",
+    "url": "https://www.upr.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uri",
+    "url": "https://www.uri.edu/",
+    "label": "home"
+  },
+  {
+    "node": "usask",
+    "url": "https://www.usask.ca/",
+    "label": "home"
+  },
+  {
+    "node": "usc",
+    "url": "https://www.usc.edu/",
+    "label": "home"
+  },
+  {
+    "node": "usd",
+    "url": "https://www.usd.edu/",
+    "label": "home"
+  },
+  {
+    "node": "usf",
+    "url": "https://www.usf.edu/",
+    "label": "home"
+  },
+  {
+    "node": "usm",
+    "url": "https://www.usm.edu/",
+    "label": "home"
+  },
+  {
+    "node": "usu",
+    "url": "https://www.usu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uta",
+    "url": "https://www.uta.edu/",
+    "label": "home"
+  },
+  {
+    "node": "utah",
+    "url": "https://www.utah.edu/",
+    "label": "home"
+  },
+  {
+    "node": "utdallas",
+    "url": "https://www.utdallas.edu/",
+    "label": "home"
+  },
+  {
+    "node": "utep",
+    "url": "https://www.utep.edu/",
+    "label": "home"
+  },
+  {
+    "node": "utexas",
+    "url": "https://www.utexas.edu/",
+    "label": "home"
+  },
+  {
+    "node": "utk",
+    "url": "https://www.utk.edu/",
+    "label": "home"
+  },
+  {
+    "node": "utoledo",
+    "url": "https://www.utoledo.edu/",
+    "label": "home"
+  },
+  {
+    "node": "utoronto",
+    "url": "https://www.utoronto.ca/",
+    "label": "home"
+  },
+  {
+    "node": "utrgv",
+    "url": "https://www.utrgv.edu/",
+    "label": "home"
+  },
+  {
+    "node": "utsa",
+    "url": "https://www.utsa.edu/",
+    "label": "home"
+  },
+  {
+    "node": "utulsa",
+    "url": "https://utulsa.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uvm",
+    "url": "https://www.uvm.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uwaterloo",
+    "url": "https://uwaterloo.ca/",
+    "label": "home"
+  },
+  {
+    "node": "uwm",
+    "url": "https://uwm.edu/",
+    "label": "home"
+  },
+  {
+    "node": "uwo",
+    "url": "https://www.uwo.ca/",
+    "label": "home"
+  },
+  {
+    "node": "uwyo",
+    "url": "http://www.uwyo.edu/",
+    "label": "home"
+  },
+  {
+    "node": "vanderbilt",
+    "url": "https://www.vanderbilt.edu/",
+    "label": "home"
+  },
+  {
+    "node": "vcu",
+    "url": "https://vcu.edu",
+    "label": "home"
+  },
+  {
+    "node": "vcu_library",
+    "url": "https://guides.library.vcu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "villanova",
+    "url": "https://www1.villanova.edu/",
+    "label": "home"
+  },
+  {
+    "node": "virginia",
+    "url": "http://www.virginia.edu/",
+    "label": "home"
+  },
+  {
+    "node": "vt",
+    "url": "https://vt.edu/",
+    "label": "home"
+  },
+  {
+    "node": "washington",
+    "url": "https://www.washington.edu/",
+    "label": "home"
+  },
+  {
+    "node": "wayne",
+    "url": "https://wayne.edu/",
+    "label": "home"
+  },
+  {
+    "node": "wayne_library",
+    "url": "http://lib.wayne.edu/",
+    "label": "home"
+  },
+  {
+    "node": "wfu",
+    "url": "https://www.wfu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "wichita",
+    "url": "https://www.wichita.edu/",
+    "label": "home"
+  },
+  {
+    "node": "wisc",
+    "url": "https://www.wisc.edu/",
+    "label": "home"
+  },
+  {
+    "node": "wm",
+    "url": "https://www.wm.edu/",
+    "label": "home"
+  },
+  {
+    "node": "wmich",
+    "url": "https://wmich.edu/",
+    "label": "home"
+  },
+  {
+    "node": "wpi",
+    "url": "https://www.wpi.edu/",
+    "label": "home"
+  },
+  {
+    "node": "wright",
+    "url": "https://www.wright.edu/",
+    "label": "home"
+  },
+  {
+    "node": "wssu",
+    "url": "http://www.wssu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "wsu",
+    "url": "https://wsu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "wustl",
+    "url": "https://wustl.edu/",
+    "label": "home"
+  },
+  {
+    "node": "wvu",
+    "url": "https://www.wvu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "yale",
+    "url": "https://www.yale.edu/",
+    "label": "home"
+  },
+  {
+    "node": "yorku",
+    "url": "https://www.yorku.ca/",
+    "label": "home"
+  },
+  {
+    "node": "yu",
+    "url": "https://www.yu.edu/",
+    "label": "home"
+  },
+  {
+    "node": "albany_library",
+    "url": "https://future.library.albany.edu/services/persons-with-disabilities",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "arizona_library",
+    "url": "https://new.library.arizona.edu/accessibility",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "asu_library",
+    "url": "https://lib.asu.edu/disability",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "auburn_library",
+    "url": "https://www.lib.auburn.edu/ada/services.php",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "bc_library",
+    "url": "https://libguides.bc.edu/accessibility",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "berkeley_library",
+    "url": "https://www.lib.berkeley.edu/help/disability-resources",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "brown_library",
+    "url": "https://library.brown.edu/libweb/dss.php",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "byu_library",
+    "url": "https://lib.byu.edu/services/?categories=for-persons-with-disabilities",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "colorado_library",
+    "url": "https://www.colorado.edu/libraries/services/accessibility-services",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "colostate_library",
+    "url": "https://lib.colostate.edu/technology/assistive-technology/",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "columbia_library",
+    "url": "https://library.columbia.edu/using-libraries/disability.html",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "cornell_library",
+    "url": "https://www.library.cornell.edu/services/disability",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "dartmouth_library",
+    "url": "https://www.library.dartmouth.edu/libraries-and-spaces/accessibility",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "duke_library",
+    "url": "https://library.duke.edu/services/disabilities",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "emory_library",
+    "url": "https://web.library.emory.edu/using-the-library/accessibility.html",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "fsu_library",
+    "url": "https://www.lib.fsu.edu/accessibility",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "gatech_library",
+    "url": "https://www.library.gatech.edu/accessibility",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "georgetown_library",
+    "url": "https://www.library.georgetown.edu/disabilities",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "gwu_library",
+    "url": "https://library.gwu.edu/about/facilities/disability-support/disability-support",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "harvard_library",
+    "url": "https://library.harvard.edu/accessibility",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "hawaii_library",
+    "url": "http://manoa.hawaii.edu/library/help/ada/",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "iastate_library",
+    "url": "https://www.lib.iastate.edu/help-services/accessibility-services",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "illinois_library",
+    "url": "https://guides.library.illinois.edu/usersdisabilities",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "indiana_library",
+    "url": "https://libraries.indiana.edu/services/services-library-users-disabilities",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "jhu_library",
+    "url": "http://ask.library.jhu.edu/faq/44617",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "kent_library",
+    "url": "https://libguides.library.kent.edu/ada/s_r",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "ku_library",
+    "url": "https://lib.ku.edu/services/ada",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "louisville_library",
+    "url": "https://library.louisville.edu/ekstrom/accessibility",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "lsu_library",
+    "url": "https://www.lib.lsu.edu/services/patrons-disabilities",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "mcgill",
+    "url": "https://www.mcgill.ca/library/services/access",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "mcmaster_library",
+    "url": "https://library.mcmaster.ca/spaces/las",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "miami_library",
+    "url": "https://www.library.miami.edu/about/ada.html",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "missouri_library",
+    "url": "https://libraryguides.missouri.edu/personswithdisabilities",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "mit_library",
+    "url": "https://libguides.mit.edu/disabilities",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "msu_library",
+    "url": "https://lib.msu.edu/general/accessibility/",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "ncsu_library",
+    "url": "https://www.lib.ncsu.edu/accessibility-services",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "nd_library",
+    "url": "https://library.nd.edu/accessibility",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "nw_library",
+    "url": "https://www.library.northwestern.edu/visit/visitor-privileges/disability-services.html",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "nyu_library",
+    "url": "http://library.nyu.edu/services/teaching-learning/disability-services/",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "ohio_library",
+    "url": "https://www.ohio.edu/library/services/persons-disabilities",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "okstate_library",
+    "url": "https://library.okstate.edu/using-the-library/access-for-persons-with-disabilities",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "osu_library",
+    "url": "https://library.osu.edu/accessibility-resources",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "ou_library",
+    "url": "https://libraries.ou.edu/content/services-patrons-disabilities",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "pitt_library",
+    "url": "https://www.library.pitt.edu/persons-disabilities",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "princeton_library",
+    "url": "https://library.princeton.edu/services/disabilities",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "psu_library",
+    "url": "https://libraries.psu.edu/about/accessibility",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "queensu_library",
+    "url": "https://library.queensu.ca/help-services/accessibility",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "rice_library",
+    "url": "https://library.rice.edu/accessibility",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "rochester_library",
+    "url": "https://www.library.rochester.edu/services/accessibility-services",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "rutgers_library",
+    "url": "https://www.libraries.rutgers.edu/accessibility",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "sc_library",
+    "url": "https://sc.edu/about/offices_and_divisions/university_libraries/about/locations/tcl/disability_access/index.php",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "scsb_library",
+    "url": "https://www.library.ucsb.edu/disability-services",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "sfu_library",
+    "url": "https://www.lib.sfu.ca/about/overview/services-you/disabled",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "siu_library",
+    "url": "https://lib.siu.edu/services/disability-support.php",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "stonybrook_library",
+    "url": "https://library.stonybrook.edu/services/access-services/accessibility/",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "syr_library",
+    "url": "https://library.syr.edu/accessibility/index.php",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "tamu_library",
+    "url": "https://library.tamu.edu/services/accessibility.html",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "temple_library",
+    "url": "https://library.temple.edu/services/62",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "ttu_library",
+    "url": "https://www.depts.ttu.edu/library/user-experience/disablity-resources.php",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "tulane_library",
+    "url": "https://library.tulane.edu/services/computing-printing/Assistive-WorkStation",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "ua_library",
+    "url": "https://www.lib.ua.edu/using-the-library/accessibility/",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "ualberta_library",
+    "url": "https://www.library.ualberta.ca/services/accessibility-services",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "ubc_library",
+    "url": "https://services.library.ubc.ca/facilities/disability-access-by-building/",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "uc",
+    "url": "https://www.uc.edu/about/ucit/about/accessibility/eaccessibility-form.html",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "ucalgary_library",
+    "url": "https://libanswers.ucalgary.ca/faq/198192",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "ucdavis_library",
+    "url": "https://www.library.ucdavis.edu/service/services-patrons-disabilities/",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "uchicago_library",
+    "url": "https://www.lib.uchicago.edu/research/help/infofor/accessibility/",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "uci_library",
+    "url": "https://www.lib.uci.edu/accessibility",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "ucla_library",
+    "url": "https://www.library.ucla.edu/use/access-privileges/disability-resources",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "ucr_library",
+    "url": "https://library.ucr.edu/using-the-library/disability-services",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "ucsd_library",
+    "url": "http://libraries.ucsd.edu/ask-us/persons-with-disabilities.html",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "udel_library",
+    "url": "https://guides.lib.udel.edu/c.php?g=85328&p=548437",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "ufl_library",
+    "url": "http://www.uflib.ufl.edu/accessibility/",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "uga_library",
+    "url": "https://www.libs.uga.edu/accessibility",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "uh_library",
+    "url": "https://libraries.uh.edu/services/accessibility/",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "uic_library",
+    "url": "https://library.uic.edu/help/article/1955/use-accessibility-services",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "uiowa_library",
+    "url": "http://www.lib.uiowa.edu/help/disabilities/",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "uky_library",
+    "url": "http://libraries.uky.edu/Disability",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "umanitoba_library",
+    "url": "https://libguides.lib.umanitoba.ca/accessibility",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "umass_library",
+    "url": "https://www.library.umass.edu/services/disabilities/",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "umd_library",
+    "url": "https://www.lib.umd.edu/services/disabilities",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "umich_library",
+    "url": "https://www.lib.umich.edu/accessibility",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "umn_library",
+    "url": "https://www.lib.umn.edu/services/access-lib",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "unc_library",
+    "url": "https://library.unc.edu/services/disability-services/",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "unl_library",
+    "url": "https://libraries.unl.edu/library-services-people-disabilities",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "unm_library",
+    "url": "https://library.unm.edu/services/accessibility.php",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "uoguelph_library",
+    "url": "https://www.lib.uoguelph.ca/accessibility",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "uoregon_library",
+    "url": "https://library.uoregon.edu/library-accessibility",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "uottawa_library",
+    "url": "https://biblio.uottawa.ca/en/services/accessibility",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "upenn_library",
+    "url": "https://www.library.upenn.edu/about/access/accessibility",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "usask_library",
+    "url": "https://library.usask.ca/use-the-library/services/aes-library.php",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "usc_library",
+    "url": "https://libraries.usc.edu/accessibility-disability-services",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "utah_library",
+    "url": "http://campusguides.lib.utah.edu/libraryaccessibility",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "utexas_library",
+    "url": "https://www.lib.utexas.edu/about/policies/services-assistive",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "utk_library",
+    "url": "https://www.lib.utk.edu/info/disabilities/",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "utoronto_library",
+    "url": "https://onesearch.library.utoronto.ca/services-for-people-with-disabilities",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "uwaterloo_library",
+    "url": "https://uwaterloo.ca/library/accessibility/",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "uwo_library",
+    "url": "https://www.lib.uwo.ca/accessibility/index.html",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "vanderbilt_library",
+    "url": "https://www.library.vanderbilt.edu/about/accessibility.php",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "vcu_library",
+    "url": "https://www.library.vcu.edu/services/accessibility/",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "virginia_library",
+    "url": "https://www.library.virginia.edu/services/accessibility-services/",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "washington_library",
+    "url": "https://www.lib.washington.edu/services/accessibility",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "wayne_library",
+    "url": "https://library.wayne.edu/info/accessibility/",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "wisc_library",
+    "url": "https://www.library.wisc.edu/about/accessibility/",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "wsu_library",
+    "url": "https://libraries.wsu.edu/accessibility",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "yale_library",
+    "url": "https://web.library.yale.edu/services-persons-disabilities",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "yorku_library",
+    "url": "https://www.library.yorku.ca/web/ask-services/accessibility-services/",
+    "label": "page_accessibility"
+  },
+  {
+    "node": "tufts_library",
+    "url": "https://www.library.tufts.edu/vet/",
+    "label": "page_category"
+  },
+  {
+    "node": "tufts_library",
+    "url": "https://ginnlibrary.tufts.edu/",
+    "label": "page_category"
+  },
+  {
+    "node": "tufts_library",
+    "url": "https://hirshlibrary.tufts.edu/",
+    "label": "page_category"
+  },
+  {
+    "node": "uam_library",
+    "url": "https://www.uam.mx/_serv_comunidad/bibliotecas.html",
+    "label": "page_list"
+  },
+  {
+    "node": "aamu_library",
+    "url": "https://alabamam.ent.sirsi.net/client/en_US/default/search/",
+    "label": "search"
+  },
+  {
+    "node": "aamu_library",
+    "url": "https://alabamam.ent.sirsi.net/client/en_US/default/search/results",
+    "label": "search"
+  },
+  {
+    "node": "afit_library",
+    "url": "https://w95020.eos-intl.net/W95020/OPAC/Search/AdvancedSearch.aspx",
+    "label": "search"
+  },
+  {
+    "node": "aic",
+    "url": "https://www.artic.edu/search",
+    "label": "search"
+  },
+  {
+    "node": "aic_library",
+    "url": "https://artic-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=01ARTIC",
+    "label": "search"
+  },
+  {
+    "node": "albany_library",
+    "url": "https://search.library.albany.edu/discovery/search?vid=01SUNY_ALB:01SUNY_ALB",
+    "label": "search"
+  },
+  {
+    "node": "albany_library",
+    "url": "https://library.albany.edu/search/",
+    "label": "search"
+  },
+  {
+    "node": "american",
+    "url": "https://search.american.edu/s/search.html?collection=au-meta",
+    "label": "search"
+  },
+  {
+    "node": "american_library",
+    "url": "https://wrlc-amu.primo.exlibrisgroup.com/discovery/search?vid=01WRLC_AMU:prod",
+    "label": "search"
+  },
+  {
+    "node": "americanantiquarian",
+    "url": "https://www.americanantiquarian.org/addsearch-results",
+    "label": "search"
+  },
+  {
+    "node": "americanantiquarian",
+    "url": "https://catalog.mwa.org/vwebv/search",
+    "label": "search"
+  },
+  {
+    "node": "amphilsoc",
+    "url": "https://www.amphilsoc.org/search/node",
+    "label": "search"
+  },
+  {
+    "node": "anahuac_library",
+    "url": "https://anahuac.primo.exlibrisgroup.com/discovery/search?vid=52ANAHUAC_INST:UAMX",
+    "label": "search"
+  },
+  {
+    "node": "apu_library",
+    "url": "https://www.apu.edu/library/resources/databases/",
+    "label": "search"
+  },
+  {
+    "node": "apu_library",
+    "url": "http://encore.apu.edu/iii/encore/plus/Home,/$Search.form.sdirect",
+    "label": "search"
+  },
+  {
+    "node": "apu_library",
+    "url": "http://patris.apu.edu/search/",
+    "label": "search"
+  },
+  {
+    "node": "archives",
+    "url": "https://search.archives.gov/search?query=test&submit=&utf8=&affiliate=national-archives",
+    "label": "search"
+  },
+  {
+    "node": "arizona_library",
+    "url": "https://arizona-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=01UA",
+    "label": "search"
+  },
+  {
+    "node": "astate_library",
+    "url": "https://dbellis.library.astate.edu/vwebv/search",
+    "label": "search"
+  },
+  {
+    "node": "astate_library",
+    "url": "http://eds.a.ebscohost.com/eds/search/advanced?vid=0&sid=e71dd43d-b93a-4286-822f-a5a0c6fdf958%40sdc-v-sessmgr01",
+    "label": "search"
+  },
+  {
+    "node": "astate_library",
+    "url": "http://libguides.astate.edu/",
+    "label": "search"
+  },
+  {
+    "node": "asu_library",
+    "url": "https://libguides.asu.edu/",
+    "label": "search"
+  },
+  {
+    "node": "asu_library",
+    "url": "https://arizona-asu-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=01ASU",
+    "label": "search"
+  },
+  {
+    "node": "asurams_library",
+    "url": "https://www.asurams.edu/search/",
+    "label": "search"
+  },
+  {
+    "node": "asurams_library",
+    "url": "https://galileo-usg-asu-primo.hosted.exlibrisgroup.com/primo-explore/search?vid=ASU_V1",
+    "label": "search"
+  },
+  {
+    "node": "auburn_library",
+    "url": "http://aubiecat.auburn.edu/",
+    "label": "search"
+  },
+  {
+    "node": "auburn_library",
+    "url": "http://catalog.lib.auburn.edu/",
+    "label": "search"
+  },
+  {
+    "node": "auburn_library",
+    "url": "http://libguides.auburn.edu/",
+    "label": "search"
+  },
+  {
+    "node": "auburn_library",
+    "url": "https://eds.a.ebscohost.com/",
+    "label": "search"
+  },
+  {
+    "node": "auc_library",
+    "url": "https://auctr.on.worldcat.org/search",
+    "label": "search"
+  },
+  {
+    "node": "auraria_library",
+    "url": "https://library.auraria.edu/search/site",
+    "label": "search"
+  },
+  {
+    "node": "auraria_library",
+    "url": "https://auraria.summon.serialssolutions.com/",
+    "label": "search"
+  },
+  {
+    "node": "auraria_library",
+    "url": "https://library.auraria.edu/databases",
+    "label": "search"
+  },
+  {
+    "node": "carli",
+    "url": "https://www.carli.illinois.edu/search/",
+    "label": "search"
+  },
+  {
+    "node": "crl",
+    "url": "http://catalog.crl.edu/search/",
+    "label": "search"
+  },
+  {
+    "node": "getty",
+    "url": "https://www.getty.edu/search/museumed/results",
+    "label": "search"
+  },
+  {
+    "node": "getty",
+    "url": "https://www.getty.edu/art/collection/search/",
+    "label": "search"
+  },
+  {
+    "node": "getty",
+    "url": "https://www.getty.edu/search/gci/",
+    "label": "search"
+  },
+  {
+    "node": "getty",
+    "url": "https://www.getty.edu/search/global/",
+    "label": "search"
+  },
+  {
+    "node": "getty_library",
+    "url": "https://search.getty.edu/gateway/search",
+    "label": "search"
+  },
+  {
+    "node": "getty_library",
+    "url": "https://primo.getty.edu/primo-explore/search",
+    "label": "search"
+  },
+  {
+    "node": "pitt_library",
+    "url": "https://www.library.pitt.edu/search/node",
+    "label": "search"
+  },
+  {
+    "node": "pitt_library",
+    "url": "https://pitt.libguides.com/srch.php",
+    "label": "search"
+  },
+  {
+    "node": "pitt_library",
+    "url": "https://pitt.summon.serialssolutions.com/search",
+    "label": "search"
+  },
+  {
+    "node": "pitt_library",
+    "url": "https://pittcat.pitt.edu/vwebv/search",
+    "label": "search"
+  },
+  {
+    "node": "pitt_library",
+    "url": "https://rt4rf9qn2y.search.serialssolutions.com/",
+    "label": "search"
+  },
+  {
+    "node": "sil",
+    "url": "http://collections.si.edu/search/",
+    "label": "search"
+  },
+  {
+    "node": "stanford_library",
+    "url": "https://searchworks.stanford.edu/catalog?f%5Bcollection_type%5D%5B%5D=Digital+Collection",
+    "label": "search"
+  },
+  {
+    "node": "tufts_library",
+    "url": "http://library.tufts.edu/",
+    "label": "search"
+  },
+  {
+    "node": "tufts_library",
+    "url": "https://www.library.tufts.edu/",
+    "label": "search"
+  },
+  {
+    "node": "yale_library",
+    "url": "http://findit.library.yale.edu/",
+    "label": "search"
+  },
+  {
+    "node": "yale_library",
+    "url": "https://britishart.yale.edu/collections/search",
+    "label": "search"
+  }
+]

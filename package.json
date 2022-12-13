@@ -10,8 +10,11 @@
   },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
+    "@urql/vue": "^1.0.4",
     "autoprefixer": "^10.4.13",
     "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.2",
+    "graphql": "^16.6.0",
     "pinia": "^2.0.26",
     "postcss": "^8.4.19",
     "sass": "^1.56.2",

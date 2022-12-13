@@ -1,0 +1,690 @@
+slug,name,type,categories,tags,arl,ipeds
+anahuac,Anáhuac University,org,"college, private",,,
+colum,Columbia College Chicago,org,"college, private",,,144281
+tec,Monterrey Institute of Technology and Higher Education,org,"college, private",,,
+bc,Boston College,org,"college, private","acc, r1",,164924
+duke,Duke University,org,"college, private","acc, r1",,198419
+syr,Syracuse University,org,"college, private","acc, r1",,196413
+miami,University of Miami,org,"college, private","acc, r1",,135726
+wfu,Wake Forest University,org,"college, private","acc, r2",,199847
+nd,University of Notre Dame,org,"college, private","big_ten, acc, r1",,152080
+jhu,Johns Hopkins University,org,"college, private","big_ten, r1, aau",,162928
+nw,Northwestern University,org,"college, private","big_ten, r1, aau",,147767
+dillard,Dillard University,org,"college, private",hbcu,,158802
+morehouse,Morehouse College,org,"college, private",hbcu,,140553
+spelman,Spelman College,org,"college, private",hbcu,,141060
+howard,Howard University,org,"college, private","hbcu, r2",,131520
+brown,Brown University,org,"college, private","ivy_league, r1, aau",,217156
+columbia,Columbia University,org,"college, private","ivy_league, r1, aau",,190150
+cornell,Cornell University,org,"college, private","ivy_league, r1, aau",,190415
+dartmouth,Dartmouth College,org,"college, private","ivy_league, r1, aau",,182670
+harvard,Harvard University,org,"college, private","ivy_league, r1, aau",,166027
+princeton,Princeton University,org,"college, private","ivy_league, r1, aau",,186131
+upenn,University of Pennsylvania,org,"college, private","ivy_league, r1, aau",,215062
+yale,Yale University,org,"college, private","ivy_league, r1, aau",,130794
+stanford,Stanford University,org,"college, private","pac_12, r1, aau",,243744
+usc,University of Southern California,org,"college, private","pac_12, r1, aau",,123961
+drexel,Drexel University,org,"college, private",r1,,212054
+emory,Emory University,org,"college, private",r1,,139658
+gwu,George Washington University,org,"college, private",r1,,131469
+georgetown,Georgetown University,org,"college, private",r1,,131496
+northeastern,Northeastern University,org,"college, private",r1,,167358
+rpi,Rensselaer Polytechnic Institute,org,"college, private",r1,,194824
+tufts,Tufts University,org,"college, private",r1,,168148
+uchicago,University of Chicago,org,"college, private",r1,,144050
+bu,Boston University,org,"college, private","r1, aau",,164988
+brandeis,Brandeis University,org,"college, private","r1, aau",,165015
+caltech,California Institute of Technology,org,"college, private","r1, aau",,110404
+cmu,Carnegie Mellon University,org,"college, private","r1, aau",,211440
+case,Case Western Reserve University,org,"college, private","r1, aau",,201645
+mit,Massachusetts Institute of Technology,org,"college, private","r1, aau",,166683
+nyu,New York University,org,"college, private","r1, aau",,193900
+rice,Rice University,org,"college, private","r1, aau",,227757
+tulane,Tulane University,org,"college, private","r1, aau",,160755
+rochester,University of Rochester,org,"college, private","r1, aau",,195030
+wustl,Washington University,org,"college, private","r1, aau",,179867
+american,American University,org,"college, private",r2,,131159
+apu,Azusa Pacific University,org,"college, private",r2,,109785
+baylor,Baylor University,org,"college, private",r2,,223232
+byu,Brigham Young University,org,"college, private",r2,,230038
+catholic,Catholic University of America,org,"college, private",r2,,131283
+chapman,Chapman University,org,"college, private",r2,,111948
+cgu,Claremont Graduate University,org,"college, private",r2,,112251
+cau,Clark Atlanta University,org,"college, private",r2,,138947
+clarku,Clark University,org,"college, private",r2,,165334
+clarkson,Clarkson University,org,"college, private",r2,,190044
+depaul,DePaul University,org,"college, private",r2,,144740
+duq,Duquesne University,org,"college, private",r2,,212106
+fit,Florida Institute of Technology,org,"college, private",r2,,133881
+fordham,Fordham University,org,"college, private",r2,,191241
+gallaudet,Gallaudet University,org,"college, private",r2,,131450
+hamptonu,Hampton University,org,"college, private",r2,,232265
+iit,Illinois Institute of Technology,org,"college, private",r2,,145725
+lehigh,Lehigh University,org,"college, private",r2,,213543
+lmu,Loyola Marymount University,org,"college, private",r2,,117946
+luc,Loyola University Chicago,org,"college, private",r2,,146719
+marquette,Marquette University,org,"college, private",r2,,239105
+mercer,Mercer University,org,"college, private",r2,,140447
+miamioh,Miami University,org,"college, private",r2,,204024
+newschool,New School,org,"college, private",r2,,193654
+nova,Nova Southeastern University,org,"college, private",r2,,136215
+rit,Rochester Institute of Technology,org,"college, private",r2,,195003
+rockefeller,Rockefeller University,org,"college, private",r2,,195049
+slu,Saint Louis University,org,"college, private",r2,,179159
+shu,Seton Hall University,org,"college, private",r2,,186584
+smu,Southern Methodist University,org,"college, private",r2,,228246
+stevens,Stevens Institute of Technology,org,"college, private",r2,,186867
+columbia_tc,Teachers College at Columbia University,org,"college, private",r2,,196468
+tcu,Texas Christian University,org,"college, private",r2,,228875
+jefferson,Thomas Jefferson University,org,"college, private",r2,,216366
+udayton,University of Dayton,org,"college, private",r2,,202480
+du,University of Denver,org,"college, private",r2,,127060
+une,University of New England,org,"college, private",r2,,161457
+sandiego,University of San Diego,org,"college, private",r2,,122436
+utulsa,University of Tulsa,org,"college, private",r2,,207971
+villanova,Villanova University,org,"college, private",r2,,216597
+wpi,Worcester Polytechnic Institute,org,"college, private",r2,,168421
+yu,Yeshiva University,org,"college, private",r2,,197708
+vanderbilt,Vanderbilt University,org,"college, private","sec, r1, aau",,221999
+savannahstate,Savannah State University,org,"college, public",hbcu,,140960
+uanl,Autonomous University of Nuevo León,org,"college, public",,,
+uaslp,Autonomous University of San Luis Potosí,org,"college, public",,,
+mcmaster,McMaster University,org,"college, public",,,
+buap,Meritorious Autonomous University of Puebla,org,"college, public",,,
+uam,Metropolitan Autonomous University,org,"college, public",,,
+unam,National Autonomous University of Mexico,org,"college, public",,,
+ipn,National Polytechnic Institute of Mexico ,org,"college, public",,,
+colpos,Postgraduate College,org,"college, public",,,
+queensu,Queen's University,org,"college, public",,,
+sfu,Simon Fraser University,org,"college, public",,,
+ulaval,Université Laval,org,"college, public",,,
+albany,University at Albany,org,"college, public",,,196060
+ualberta,University of Alberta,org,"college, public",,,
+ubc,University of British Columbia,org,"college, public",,,
+ucalgary,University of Calgary,org,"college, public",,,
+udg,University of Guadalajara,org,"college, public",,,
+uoguelph,University of Guelph,org,"college, public",,,
+umanitoba,University of Manitoba,org,"college, public",,,
+uottawa,University of Ottawa,org,"college, public",,,
+usask,University of Saskatchewan,org,"college, public",,,
+uwaterloo,University of Waterloo,org,"college, public",,,
+uwo,Western University,org,"college, public",,,
+yorku,York University,org,"college, public",,,
+mcgill,McGill University,org,"college, public",aau,,
+utoronto,University of Toronto,org,"college, public",aau,,
+clemson,Clemson University,org,"college, public","acc, r1",,217882
+fsu,Florida State University,org,"college, public","acc, r1",,134097
+ncsu,North Carolina State University,org,"college, public","acc, r1",,199193
+vt,Virginia Polytechnic Institute and State University,org,"college, public","acc, r1",,233921
+unc,University of North Carolina,org,"college, public","acc, r1, aau",,199120
+pitt,University of Pittsburgh,org,"college, public","acc, r1, aau",,215293
+virginia,University of Virginia,org,"college, public","acc, r1, aau",,234076
+louisville,University of Louisville,org,"college, public","acc, r1, uic_peer",,157289
+unl,University of Nebraska,org,"college, public","big_ten, r1",,181464
+indiana,Indiana University,org,"college, public","big_ten, r1, aau",,151351
+msu,Michigan State University,org,"college, public","big_ten, r1, aau",,171100
+osu,Ohio State University,org,"college, public","big_ten, r1, aau",,204796
+psu,Pennsylvania State University,org,"college, public","big_ten, r1, aau",,214777
+purdue,Purdue University,org,"college, public","big_ten, r1, aau",,243780
+illinois,University of Illinois,org,"college, public","big_ten, r1, aau",,145637
+uiowa,University of Iowa,org,"college, public","big_ten, r1, aau",,153658
+umd,University of Maryland,org,"college, public","big_ten, r1, aau",,163286
+umich,University of Michigan,org,"college, public","big_ten, r1, aau",,170976
+umn,University of Minnesota,org,"college, public","big_ten, r1, aau",,174066
+wisc,University of Wisconsin,org,"college, public","big_ten, r1, aau",,240444
+rutgers,Rutgers University,org,"college, public","big_ten, r1, aau, uic_peer",,186380
+aamu,Alabama A & M University,org,"college, public",hbcu,,100654
+asurams,Albany State University,org,"college, public",hbcu,,138716
+bowiestate,Bowie State University,org,"college, public",hbcu,,162007
+uncfsu,Fayetteville State University,org,"college, public",hbcu,,198543
+gram,Grambling State University,org,"college, public",hbcu,,159009
+nsu,Norfolk State University,org,"college, public",hbcu,,232937
+nccu,North Carolina Central University,org,"college, public",hbcu,,199157
+pvamu,Prairie View A & M University,org,"college, public",hbcu,,227526
+subr,Southern University and A & M College,org,"college, public",hbcu,,160621
+wssu,Winston-Salem State University,org,"college, public",hbcu,,199999
+famu,Florida A & M University,org,"college, public","hbcu, r2",,133650
+jsums,Jackson State University,org,"college, public","hbcu, r2",,175856
+morgan,Morgan State University,org,"college, public","hbcu, r2",,163453
+ncat,North Carolina A & T State University,org,"college, public","hbcu, r2",,199102
+tnstate,Tennessee State University,org,"college, public","hbcu, r2",,221838
+tsu,Texas Southern University,org,"college, public","hbcu, r2",,229063
+asu,Arizona State University,org,"college, public","pac_12, r1",,104151
+oregonstate,Oregon State University,org,"college, public","pac_12, r1",,209542
+wsu,Washington State University,org,"college, public","pac_12, r1",,236939
+berkeley,"University of California, Berkeley",org,"college, public","pac_12, r1, aau",,110635
+colorado,University of Colorado,org,"college, public","pac_12, r1, aau",,126614
+uoregon,University of Oregon,org,"college, public","pac_12, r1, aau",,209551
+arizona,University of Arizona,org,"college, public","pac_12, r1, aau, uic_peer",,104179
+ucla,"University of California, Los Angeles",org,"college, public","pac_12, r1, aau, uic_peer",,110662
+utah,University of Utah,org,"college, public","pac_12, r1, aau, uic_peer",,230764
+washington,University of Washington,org,"college, public","pac_12, r1, aau, uic_peer",,236948
+binghamton,Binghamton University,org,"college, public",r1,,196079
+cuny_gc,"City University of New York, Graduate Center",org,"college, public",r1,,190576
+colostate,Colorado State University,org,"college, public",r1,,126818
+fiu,Florida International University,org,"college, public",r1,,133951
+gmu,George Mason University,org,"college, public",r1,,232186
+gsu,Georgia State University,org,"college, public",r1,,139940
+k-state,Kansas State University,org,"college, public",r1,,155399
+montana,Montana State University,org,"college, public",r1,,180461
+njit,New Jersey Institute of Technology,org,"college, public",r1,,185828
+okstate,Oklahoma State University,org,"college, public",r1,,207388
+temple,Temple University,org,"college, public",r1,,216339
+ttu,Texas Tech University,org,"college, public",r1,,229115
+ucr,"University of California, Riverside",org,"college, public",r1,,110671
+ucdenver,"University of Colorado, Denver",org,"college, public",r1,,126562
+udel,University of Delaware,org,"college, public",r1,,130943
+hawaii,University of Hawai'i,org,"college, public",r1,,141574
+uh,University of Houston,org,"college, public",r1,,225511
+uic,"University of Illinois, Chicago",org,"college, public",r1,,145600
+umass,University of Massachusetts,org,"college, public",r1,,166629
+unlv,"University of Nevada, Las Vegas",org,"college, public",r1,,182281
+unr,"University of Nevada, Reno",org,"college, public",r1,,182290
+unh,University of New Hampshire,org,"college, public",r1,,183044
+unm,University of New Mexico,org,"college, public",r1,,187985
+unt,University of North Texas,org,"college, public",r1,,227216
+ou,University of Oklahoma,org,"college, public",r1,,207500
+usm,University of Southern Mississippi,org,"college, public",r1,,176372
+uta,"University of Texas, Arlington",org,"college, public",r1,,228769
+utdallas,"University of Texas, Dallas",org,"college, public",r1,,228787
+utep,"University of Texas, El Paso",org,"college, public",r1,,228796
+uwm,"University of Wisconsin, Milwaukee",org,"college, public",r1,,240453
+wayne,Wayne State University,org,"college, public",r1,,172644
+wvu,West Virginia University,org,"college, public",r1,,238032
+gatech,Georgia Institute of Technology,org,"college, public","r1, aau",,139755
+iastate,Iowa State University,org,"college, public","r1, aau",,153603
+stonybrook,Stony Brook University,org,"college, public","r1, aau",,196097
+ucdavis,"University of California, Davis",org,"college, public","r1, aau",,110644
+ucsd,"University of California, San Diego",org,"college, public","r1, aau",,110680
+scsb,"University of California, Santa Barbara",org,"college, public","r1, aau",,110705
+ucsc,"University of California, Santa Cruz",org,"college, public","r1, aau",,110714
+ucf,University of Central Florida,org,"college, public","r1, aau",,132903
+ku,University of Kansas,org,"college, public","r1, aau",,155317
+utexas,University of Texas,org,"college, public","r1, aau",,228778
+buffalo,University at Buffalo,org,"college, public","r1, aau, uic_peer",,196088
+uci,"University of California, Irvine",org,"college, public","r1, aau, uic_peer",,110653
+uab,"University of Alabama, Birmingham",org,"college, public","r1, uic_peer",,100663
+uc,University of Cincinnati,org,"college, public","r1, uic_peer",,201885
+uconn,University of Connecticut,org,"college, public","r1, uic_peer",,129020
+usf,University of South Florida,org,"college, public","r1, uic_peer",,137351
+vcu,Virginia Commonwealth University,org,"college, public","r1, uic_peer",,234030
+afit,Air Force Institute of Technology Graduate School of Engineering & Management,org,"college, public",r2,,200697
+asu_phoenix,"Arizona State University, Phoenix",org,"college, public",r2,,448886
+astate,Arkansas State University,org,"college, public",r2,,106458
+bsu,Ball State University,org,"college, public",r2,,150136
+boisestate,Boise State University,org,"college, public",r2,,142115
+bgsu,Bowling Green State University,org,"college, public",r2,,201441
+cmich,Central Michigan University,org,"college, public",r2,,169248
+cuny_ccny,City College of New York,org,"college, public",r2,,190567
+csuohio,Cleveland State University,org,"college, public",r2,,202134
+wm,College of William & Mary,org,"college, public",r2,,231624
+mines,Colorado School of Mines,org,"college, public",r2,,126775
+desu,Delaware State University,org,"college, public",r2,,130934
+ecu,East Carolina University,org,"college, public",r2,,198464
+etsu,East Tennessee State University,org,"college, public",r2,,220075
+emich,Eastern Michigan University,org,"college, public",r2,,169798
+fau,Florida Atlantic University,org,"college, public",r2,,133669
+georgiasouthern,Georgia Southern University,org,"college, public",r2,,139931
+isu,Idaho State University,org,"college, public",r2,,142276
+illinoisstate,Illinois State University,org,"college, public",r2,,145813
+iupui,Indiana University – Purdue University Indianapolis,org,"college, public",r2,,151111
+kennesaw,Kennesaw State University,org,"college, public",r2,,486840
+kent,Kent State University,org,"college, public",r2,,203517
+latech,Louisiana Tech University,org,"college, public",r2,,159647
+marshall,Marshall University,org,"college, public",r2,,237525
+mtu,Michigan Technological University,org,"college, public",r2,,171128
+mst,Missouri University of Science and Technology,org,"college, public",r2,,178411
+montclair,Montclair State University,org,"college, public",r2,,185590
+nmsu,New Mexico State University,org,"college, public",r2,,188030
+ndsu,North Dakota State University,org,"college, public",r2,,200332
+nau,Northern Arizona University,org,"college, public",r2,,105330
+niu,Northern Illinois University,org,"college, public",r2,,147703
+oakland,Oakland University,org,"college, public",r2,,171571
+ohio,Ohio University,org,"college, public",r2,,204857
+odu,Old Dominion University,org,"college, public",r2,,232982
+pdx,Portland State University,org,"college, public",r2,,209807
+rowan,Rowan University,org,"college, public",r2,,184782
+camden,"Rutgers University, Camden",org,"college, public",r2,,186371
+newark,"Rutgers University, Newark",org,"college, public",r2,,186399
+sdsu,San Diego State University,org,"college, public",r2,,122409
+sdstate,South Dakota State University,org,"college, public",r2,,219356
+siu,Southern Illinois University,org,"college, public",r2,,149222
+esf,SUNY College of Environmental Science and Forestry,org,"college, public",r2,,196103
+tntech,Tennessee Technological University,org,"college, public",r2,,221847
+tamucc,"Texas A&M University, Corpus Christi",org,"college, public",r2,,224147
+tamuk,"Texas A&M University, Kingsville",org,"college, public",r2,,228705
+txstate,Texas State University,org,"college, public",r2,,228459
+uakron,University of Akron,org,"college, public",r2,,200800
+uah,"University of Alabama, Huntsville",org,"college, public",r2,,100706
+uaf,"University of Alaska, Fairbanks",org,"college, public",r2,,102614
+ualr,"University of Arkansas, Little Rock",org,"college, public",r2,,106245
+ucmerced,"University of California, Merced",org,"college, public",r2,,445188
+uccs,"University of Colorado, Colorado Springs",org,"college, public",r2,,126580
+uidaho,University of Idaho,org,"college, public",r2,,142285
+louisiana,"University of Louisiana, Lafayette",org,"college, public",r2,,160658
+umaine,University of Maine,org,"college, public",r2,,161253
+umbc,"University of Maryland, Baltimore County",org,"college, public",r2,,163268
+umes,"University of Maryland, Eastern Shore",org,"college, public",r2,,163338
+umb,"University of Massachusetts, Boston",org,"college, public",r2,,166638
+umassd,"University of Massachusetts, Dartmouth",org,"college, public",r2,,167987
+uml,"University of Massachusetts, Lowell",org,"college, public",r2,,166513
+memphis,University of Memphis,org,"college, public",r2,,220862
+umkc,"University of Missouri, Kansas City",org,"college, public",r2,,178402
+umsl,"University of Missouri, St. Louis",org,"college, public",r2,,178420
+unomaha,University of Nebraska at Omaha,org,"college, public",r2,,181394
+uno,University of New Orleans,org,"college, public",r2,,159939
+uncc,"University of North Carolina, Charlotte",org,"college, public",r2,,199139
+uncg,"University of North Carolina, Greensboro",org,"college, public",r2,,199148
+uncw,"University of North Carolina, Wilmington",org,"college, public",r2,,199218
+und,University of North Dakota,org,"college, public",r2,,200280
+upr,University of Puerto Rico,org,"college, public",r2,,243221
+uri,University of Rhode Island,org,"college, public",r2,,217484
+southalabama,University of South Alabama,org,"college, public",r2,,102094
+usd,University of South Dakota,org,"college, public",r2,,219471
+utrgv,"University of Texas, Rio Grande Valley",org,"college, public",r2,,227368
+utsa,"University of Texas, San Antonio",org,"college, public",r2,,229027
+utoledo,University of Toledo,org,"college, public",r2,,206084
+uvm,University of Vermont,org,"college, public",r2,,231174
+uwyo,University of Wyoming,org,"college, public",r2,,240727
+usu,Utah State University,org,"college, public",r2,,230728
+wmich,Western Michigan University,org,"college, public",r2,,172699
+wichita,Wichita State University,org,"college, public",r2,,156125
+wright,Wright State University,org,"college, public",r2,,206604
+auburn,Auburn University,org,"college, public","sec, r1",,100858
+lsu,Louisiana State University,org,"college, public","sec, r1",,159391
+msstate,Mississippi State University,org,"college, public","sec, r1",,176080
+ua,University of Alabama,org,"college, public","sec, r1",,100751
+uark,University of Arkansas,org,"college, public","sec, r1",,106397
+uga,University of Georgia,org,"college, public","sec, r1",,139959
+uky,University of Kentucky,org,"college, public","sec, r1",,157085
+olemiss,University of Mississippi,org,"college, public","sec, r1",,176017
+sc,University of South Carolina,org,"college, public","sec, r1",,218663
+utk,University of Tennessee,org,"college, public","sec, r1",,221759
+tamu,Texas A&M University,org,"college, public","sec, r1, aau",,228723
+ufl,University of Florida,org,"college, public","sec, r1, aau",,134130
+missouri,University of Missouri,org,"college, public","sec, r1, aau",,178396
+auraria,Auraria Higher Education Center,org,"consortium, academic",,,
+cuny,City University of New York,org,"consortium, academic",,,
+claremont,Claremont Colleges,org,"consortium, academic",,,
+crl,Center for Research Libraries,org,"consortium, academic",arl,9870,
+alcts,Association for Library Collections & Technical Services,org,"consortium, academic, library",,,
+acrl,Association of College and Research Libraries,org,"consortium, academic, library",,,
+arl,Association of Research Libraries,org,"consortium, academic, library",,,
+carli,Consortium of Academic and Research Libraries in Illinois,org,"consortium, academic, library",,,
+gwla,Greater Western Library Alliance,org,"consortium, academic, library",,,
+hbculibraries,Historically Black Colleges and Universities Libraries Alliance,org,"consortium, academic, library",,,
+sparc,Scholarly Publishing and Academic Resources Coalition,org,"consortium, academic, library",,,
+afit_library,"Air Force Institute of Technology Graduate School of Engineering & Management, D'Azzo Research Library",org,"library, academic",,,
+aamu_library,"Alabama A & M University, J. F. Drake Memorial Learning Resources Center",org,"library, academic",,,
+asurams_library,Albany State University Library,org,"library, academic",,,
+american_library,American University Library,org,"library, academic",,,
+anahuac_library,Anáhuac University Library,org,"library, academic",,,
+savannahstate_library,"Savannah State University, Asa H. Gordon Library",org,"library, academic",,,
+astate_library,"Arkansas State University, Dean B. Ellis Library",org,"library, academic",,,
+auc_library,"Atlanta University Center, Robert W. Woodruff Library",org,"library, academic",,,
+auraria_library,Auraria Library,org,"library, academic",,,
+uanl_library,Autonomous University of Nuevo León Library,org,"library, academic",,,
+uaslp_library,Autonomous University of San Luis Potosí Library,org,"library, academic",,,
+apu_library,Azusa Pacific University Libraries,org,"library, academic",,,
+bsu_library,Ball State University Libraries,org,"library, academic",,,
+baylor_library,Baylor University Libraries,org,"library, academic",,,
+binghamton_library,Binghamton University Libraries,org,"library, academic",,,
+boisestate_library,"Boise State University, Albertsons Library",org,"library, academic",,,
+bowiestate_library,"Bowie State University, Thurgood Marshall Library",org,"library, academic",,,
+bgsu_library,Bowling Green State University Libraries,org,"library, academic",,,
+brandeis_library,Brandeis University Library,org,"library, academic",,,
+caltech_library,California Institute of Technology Library,org,"library, academic",,,
+cmu_library,Carnegie Mellon University Libraries,org,"library, academic",,,
+catholic_library,"Catholic University of America, University Libraries",org,"library, academic",,,
+cmich_library,Central Michigan University Libraries,org,"library, academic",,,
+chapman_library,"Chapman University, Leatherby Libraries",org,"library, academic",,,
+cuny_library,City University of New York Libraries,org,"library, academic",,,
+claremont_library,Claremont Colleges Library,org,"library, academic",,,
+clarku_library,"Clark University, Robert H. Goddard Library",org,"library, academic",,,
+clarkson_library,Clarkson University Libraries,org,"library, academic",,,
+clemson_library,Clemson University Libraries,org,"library, academic",,,
+csuohio_library,"Cleveland State University, Michael Schwartz Library",org,"library, academic",,,
+wm_library,College of William & Mary Libraries,org,"library, academic",,,
+mines_library,"Colorado School of MInes, Arthur Lakes Library",org,"library, academic",,,
+colum_library,Columbia College Chicago Library,org,"library, academic",,,
+desu_library,"Delaware State University, William C. Jason Library",org,"library, academic",,,
+depaul_library,DePaul University Libraries,org,"library, academic",,,
+dillard_library,"Dillard University, Will W. Alexander Library",org,"library, academic",,,
+drexel_library,Drexel University Libraries,org,"library, academic",,,
+duq_library,"Duquesne University, Gumberg Library",org,"library, academic",,,
+ecu_library,"East Carolina University, Joyner Library",org,"library, academic",,,
+etsu_library,"East Tennessee State University, Charles C. Sherrod Library",org,"library, academic",,,
+emich_library,"Eastern Michigan University, Halle Library",org,"library, academic",,,
+uncfsu_library,"Fayetteville State University, Chestnutt Library",org,"library, academic",,,
+famu_library,Florida A & M University Libraries,org,"library, academic",,,
+fau_library,Florida Atlantic University Libraries,org,"library, academic",,,
+fit_library,"Florida Institute of Technology, Evans Library",org,"library, academic",,,
+fiu_library,Florida International University Libraries,org,"library, academic",,,
+fordham_library,Fordham University Libraries,org,"library, academic",,,
+gallaudet_library,Gallaudet University Library,org,"library, academic",,,
+gmu_library,George Mason University Libraries,org,"library, academic",,,
+gatech_library,Georgia Institute of Technology Library,org,"library, academic",,2950,
+georgiasouthern_library,Georgia Southern University Libraries,org,"library, academic",,,
+gsu_library,Georgia State University Library,org,"library, academic",,,
+gram_library,Grambling State University Library,org,"library, academic",,,
+hamptonu_library,"Hampton University, William R. & Norma B. Harvey Library",org,"library, academic",,,
+isu_library,Idaho State University Libraries,org,"library, academic",,,
+iit_library,"Illinois Institute of Technology, Paul V. Galvin Library",org,"library, academic",,,
+illinoisstate_library,"Illinois State University, Milner Library",org,"library, academic",,,
+iupui_library,"Indiana University – Purdue University Indianapolis, University Library",org,"library, academic",,,
+jsums_library,Jackson State University Libraries,org,"library, academic",,,
+k-state_library,Kansas State University Libraries,org,"library, academic",,,
+kennesaw_library,Kennesaw State University Library System,org,"library, academic",,,
+lehigh_library,Lehigh University Libraries,org,"library, academic",,,
+latech_library,Louisiana Tech University Library,org,"library, academic",,,
+lmu_library,"Loyola Marymount University, William H. Hannon Library",org,"library, academic",,,
+luc_library,Loyola University Chicago Libraries,org,"library, academic",,,
+marquette_library,Marquette University Raynor Memorial Libraries,org,"library, academic",,,
+marshall_library,Marshall University Libraries,org,"library, academic",,,
+mercer_library,Mercer University Library,org,"library, academic",,,
+buap_library,Meritorious Autonomous University of Puebla Library,org,"library, academic",,,
+uam_library,Metropolitan Autonomous University Digital Library,org,"library, academic",,,
+mtu_library,"Michigan Technological University, J. Robert Van Pelt and John and Ruanne Opie Library",org,"library, academic",,,
+msstate_library,Mississippi State University Libraries,org,"library, academic",,,
+mst_library,"Missouri University of Science and Technology, Curtis Laws Wilson Library",org,"library, academic",,,
+montana_library,Montana State University Library,org,"library, academic",,,
+montclair_library,"Montclair State University, Harry A. Sprague Library",org,"library, academic",,,
+tec_library,Monterrey Institute of Technology and Higher Education Library,org,"library, academic",,,
+morgan_library,"Morgan State University, Earl S. Richardson Library",org,"library, academic",,,
+unam_library,National Autonomous University of Mexico Library,org,"library, academic",,,
+ipn_library,National Polytechnic Institute of Mexico Library,org,"library, academic",,,
+njit_library,"New Jersey Institute of Technology, Robert W. Van Houten Library",org,"library, academic",,,
+nmsu_library,New Mexico State University Library,org,"library, academic",,,
+newschool_library,New School Libraries & Archives,org,"library, academic",,,
+nsu_library,"Norfolk State University, Lyman Beecher Brooks Library",org,"library, academic",,,
+ncat_library,"North Carolina A & T State University, F. D. Bluford Library",org,"library, academic",,,
+nccu_library,North Carolina Central University Libraries,org,"library, academic",,,
+ndsu_library,North Dakota State University Libraries,org,"library, academic",,,
+northeastern_library,Northeastern University Library,org,"library, academic",,,
+nau_library,Northern Arizona University Cline Library,org,"library, academic",,,
+niu_library,Northern Illinois University Libraries,org,"library, academic",,,
+nova_library,"Nova Southeastern University, Sherman Library",org,"library, academic",,,
+oakland_library,Oakland University Libraries,org,"library, academic",,,
+odu_library,Old Dominion University Libraries,org,"library, academic",,,
+oregonstate_library,Oregon State University Libraries,org,"library, academic",,,
+pdx_library,Portland State University Library,org,"library, academic",,,
+colpos_library,Postgraduate College Library,org,"library, academic",,,
+pvamu_library,Prairie View A & M University Library,org,"library, academic",,,
+rpi_library,Rensselaer Polytechnic Institute Libraries,org,"library, academic",,,
+rit_library,Rochester Institute of Technology Library,org,"library, academic",,,
+rockefeller_library,"Rockefeller University, Rita & Frits Markus Library",org,"library, academic",,,
+rowan_library,Rowan University Libraries,org,"library, academic",,,
+camden_library,"Rutgers University, Camden Libraries",org,"library, academic",,,
+newark_library,"Rutgers University, Newark Libraries",org,"library, academic",,,
+slu_library,Saint Louis University Libraries,org,"library, academic",,,
+sdsu_library,San Diego State University Library,org,"library, academic",,,
+shu_library,Seton Hall University Libraries,org,"library, academic",,,
+sdstate_library,"South Dakota State University, Hilton M. Briggs Library",org,"library, academic",,,
+smu_library,Southern Methodist University Libraries,org,"library, academic",,,
+subr_library,"Southern University and A & M College, John B. Cade Library",org,"library, academic",,,
+stevens_library,"Stevens Institute of Technology, Samuel C. Williams Library",org,"library, academic",,,
+esf_library,SUNY College of Environmental Science and Forestry Moon Memorial Library,org,"library, academic",,,
+columbia_tc_library,"Teachers College at Columbia University, Gottesman Libraries",org,"library, academic",,,
+tnstate_library,Tennessee State University Libraries & Media Centers,org,"library, academic",,,
+tntech_library,Tennessee Technological University Library,org,"library, academic",,,
+tamucc_library,"Texas A&M University, Corpus Christi, Mary and Jeff Bell Library",org,"library, academic",,,
+tamuk_library,"Texas A&M University, Kingsville, Jernigan Library",org,"library, academic",,,
+tcu_library,Texas Christian University Library,org,"library, academic",,,
+tsu_library,Texas Southern University Library Learning Center,org,"library, academic",,,
+txstate_library,Texas State University Libraries,org,"library, academic",,,
+jefferson_library,Thomas Jefferson University Libraries,org,"library, academic",,,
+tufts_library,Tufts University Libraries,org,"library, academic",,,
+uakron_library,University of Akron Libraries,org,"library, academic",,,
+uab_library,University of Alabama at Birmingham Libraries,org,"library, academic",,,
+uah_library,University of Alabama in Huntsville Library,org,"library, academic",,,
+uaf_library,"University of Alaska Fairbanks, Elmer E. Rasmuson Library",org,"library, academic",,,
+uark_library,University of Arkansas Libraries,org,"library, academic",,,
+ualr_library,"University of Arkansas, Little Rock, Ottenheimer Library",org,"library, academic",,,
+ucmerced_library,"University of California, Merced Library",org,"library, academic",,,
+ucsc_library,"University of California, Santa Cruz, University Library",org,"library, academic",,,
+ucf_library,University of Central Florida Libraries,org,"library, academic",,,
+uccs_library,"University of Colorado, Colorado Springs, Kraemer Family Library",org,"library, academic",,,
+udayton_library,University of Dayton Libraries,org,"library, academic",,,
+du_library,"University of Denver, University Libraries",org,"library, academic",,,
+udg_library,University of Guadalajara Digital Library,org,"library, academic",,,
+uidaho_library,University of Idaho Library,org,"library, academic",,,
+louisiana_library,"University of Louisiana, Lafayette, Edith Garland Dupré Library",org,"library, academic",,,
+umaine_library,"University of Maine, Raymond H. Fogler Library",org,"library, academic",,,
+umbc_library,"University of Maryland, Baltimore County, Albin O. Kuhn Library & Gallery",org,"library, academic",,,
+umes_library,"University of Maryland, Eastern Shore, Frederick Douglass Library",org,"library, academic",,,
+umb_library,"University of Massachusetts, Boston, Healey Library",org,"library, academic",,,
+umassd_library,"University of Massachusetts, Dartmouth, Claire T. Carney University Library",org,"library, academic",,,
+uml_library,"University of Massachusetts, Lowell Library",org,"library, academic",,,
+memphis_library,"University of Memphis, University Libraries",org,"library, academic",,,
+miami_library,University of Miami Libraries,org,"library, academic",,,
+olemiss_library,University of Mississippi Libraries,org,"library, academic",,,
+umkc_library,"University of Missouri, Kansas City Libraries",org,"library, academic",,,
+umsl_library,"University of Missouri, St. Louis, University Libraries",org,"library, academic",,,
+unomaha_library,"University of Nebraska at Omaha, Criss Library",org,"library, academic",,,
+unlv_library,"University of Nevada, Las Vegas, University Library",org,"library, academic",,,
+unr_library,"University of Nevada, Reno Library",org,"library, academic",,,
+une_library,University of New England Library Services,org,"library, academic",,,
+unh_library,University of New Hampshire Library,org,"library, academic",,,
+uno_library,"University of New Orleans, Earl K. Long Library",org,"library, academic",,,
+uncc_library,"University of North Carolina, Charlotte, J. Murrey Atkins Library",org,"library, academic",,,
+uncg_library,"University of North Carolina, Greensboro, University Libraries",org,"library, academic",,,
+uncw_library,"University of North Carolina, Wilmington, William Madison Randall Library",org,"library, academic",,,
+und_library,"University of North Dakota, Chester Fritz Library",org,"library, academic",,,
+unt_library,University of North Texas University Libraries,org,"library, academic",,,
+upr_library,University of Puerto Rico Library,org,"library, academic",,,
+uri_library,"University of Rhode Island, University Libraries",org,"library, academic",,,
+sandiego_library,"University of San Diego, Copley Library",org,"library, academic",,,
+southalabama_library,University of South Alabama Libraries,org,"library, academic",,,
+usd_library,"University of South Dakota, University Libraries",org,"library, academic",,,
+usf_library,University of South Florida Libraries,org,"library, academic",,,
+usm_library,"University of Southern Mississippi, University Libraries",org,"library, academic",,,
+uta_library,"University of Texas, Arlington, Libraries",org,"library, academic",,,
+utdallas_library,"University of Texas, Dallas, Library",org,"library, academic",,,
+utep_library,"University of Texas, El Paso, Library",org,"library, academic",,,
+utrgv_library,"University of Texas, Rio Grande Valley, University Library",org,"library, academic",,,
+utsa_library,"University of Texas, San Antonio, Libraries",org,"library, academic",,,
+utoledo_library,"University of Toledo, University Libraries",org,"library, academic",,,
+utulsa_library,University of Tulsa Libraries,org,"library, academic",,,
+uvm_library,"University of Vermont, Howe Library",org,"library, academic",,,
+uwm_library,"University of Wisconsin, Milwaukee Libraries",org,"library, academic",,,
+uwyo_library,University of Wyoming Libraries,org,"library, academic",,,
+usu_library,Utah State University Libraries,org,"library, academic",,,
+villanova_library,"Villanova University, Falvey Memorial Library",org,"library, academic",,,
+wfu_library,"Wake Forest University, Z. Smith Reynolds Library",org,"library, academic",,,
+wvu_library,West Virginia University Libraries,org,"library, academic",,,
+wmich_library,Western Michigan University Libraries,org,"library, academic",,,
+wichita_library,Wichita State University Libraries,org,"library, academic",,,
+wssu_library,"Winston-Salem State University, C.G. O'Kelly Library",org,"library, academic",,,
+wpi_library,"Worcester Polytechnic Institute, George C. Gordon Library",org,"library, academic",,,
+wright_library,Wright State University Libraries,org,"library, academic",,,
+yu_library,Yeshiva University Libraries,org,"library, academic",,,
+asu_library,Arizona State University Library,org,"library, academic",arl,400,
+auburn_library,Auburn University Libraries,org,"library, academic",arl,440,
+bc_library,Boston College Libraries,org,"library, academic",arl,550,
+bu_library,Boston University Libraries,org,"library, academic",arl,500,
+byu_library,"Brigham Young University, Harold B. Lee Library",org,"library, academic",arl,600,
+brown_library,Brown University Library,org,"library, academic",arl,800,
+case_library,"Case Western Reserve University, Kelvin Smith Library",org,"library, academic",arl,1500,
+colostate_library,Colorado State University Libraries,org,"library, academic",arl,1900,
+columbia_library,Columbia University Libraries,org,"library, academic",arl,2000,
+cornell_library,Cornell University Library,org,"library, academic",arl,2200,
+dartmouth_library,Dartmouth College Library,org,"library, academic",arl,2300,
+duke_library,Duke University Libraries,org,"library, academic",arl,2400,
+emory_library,Emory University Libraries,org,"library, academic",arl,2500,
+fsu_library,Florida State University Libraries,org,"library, academic",arl,2700,
+gwu_library,George Washington University Libraries,org,"library, academic",arl,2750,
+georgetown_library,Georgetown University Library,org,"library, academic",arl,2800,
+harvard_library,Harvard University Library,org,"library, academic",arl,3100,
+howard_library,Howard University Libraries,org,"library, academic",arl,3400,
+indiana_library,Indiana University Libraries,org,"library, academic",arl,3600,
+iastate_library,Iowa State University Library,org,"library, academic",arl,3800,
+jhu_library,"Johns Hopkins University, Sheridan Libraries",org,"library, academic",arl,3900,
+kent_library,Kent State University Libraries,org,"library, academic",arl,4200,
+ulaval_library,Laval University Library,org,"library, academic",arl,4350,
+lsu_library,Louisiana State University Libraries,org,"library, academic",arl,4400,
+mit_library,Massachusetts Institute of Technology Libraries,org,"library, academic",arl,4900,
+mcgill_library,McGill University Library,org,"library, academic",arl,4500,
+mcmaster_library,McMaster University Libraries,org,"library, academic",arl,4600,
+miamioh_library,Miami University Libraries,org,"library, academic",arl,5000,
+msu_library,Michigan State University Libraries,org,"library, academic",arl,5200,
+nyu_library,"New York University, Division of Libraries",org,"library, academic",arl,5700,
+ncsu_library,North Carolina State University Libraries,org,"library, academic",arl,5850,
+nw_library,Northwestern University Libraries,org,"library, academic",arl,5900,
+osu_library,Ohio State University Libraries,org,"library, academic",arl,6100,
+ohio_library,Ohio University Libraries,org,"library, academic",arl,6050,
+okstate_library,Oklahoma State University Library,org,"library, academic",arl,6300,
+psu_library,Pennsylvania State University Libraries,org,"library, academic",arl,6600,
+princeton_library,Princeton University Library,org,"library, academic",arl,6800,
+purdue_library,Purdue University Libraries,org,"library, academic",arl,6900,
+queensu_library,Queen's University Library,org,"library, academic",arl,7000,
+rice_library,"Rice University, Fondren Library",org,"library, academic",arl,7100,
+rutgers_library,Rutgers University Libraries,org,"library, academic",arl,7300,
+sfu_library,Simon Fraser University Library,org,"library, academic",arl,7390,
+siu_library,"Southern Illinois University, Morris Library",org,"library, academic",arl,7600,
+stanford_library,Stanford University Libraries,org,"library, academic",arl,7700,
+stonybrook_library,Stony Brook University Libraries,org,"library, academic",arl,8000,
+syr_library,Syracuse University Libraries,org,"library, academic",arl,8100,
+temple_library,Temple University Libraries,org,"library, academic",arl,8200,
+tamu_library,Texas A&M University Libraries,org,"library, academic",arl,8500,
+ttu_library,"Texas Tech University, University Libraries",org,"library, academic",arl,8550,
+tulane_library,"Tulane University, Howard Tilton Memorial Library",org,"library, academic",arl,8700,
+albany_library,"University at Albany, University Libraries",org,"library, academic",arl,7800,
+buffalo_library,"University at Buffalo, University Libraries",org,"library, academic",arl,7900,
+ua_library,University of Alabama Libraries,org,"library, academic",arl,100,
+ualberta_library,University of Alberta Libraries,org,"library, academic",arl,200,
+arizona_library,"University of Arizona, University Libraries",org,"library, academic",arl,300,
+ubc_library,University of British Columbia Library,org,"library, academic",arl,700,
+ucalgary_library,University of Calgary Libraries and Cultural Resources,org,"library, academic",arl,860,
+berkeley_library,"University of California, Berkeley Library",org,"library, academic",arl,900,
+ucdavis_library,"University of California, Davis University Library",org,"library, academic",arl,1000,
+uci_library,"University of California, Irvine Libraries",org,"library, academic",arl,1050,
+ucla_library,"University of California, Los Angeles Library",org,"library, academic",arl,1100,
+ucr_library,"University of California, Riverside Library",org,"library, academic",arl,1200,
+ucsd_library,"University of California, San Diego Library",org,"library, academic",arl,1300,
+scsb_library,"University of California, Santa Barbara Library",org,"library, academic",arl,1400,
+uchicago_library,University of Chicago Library,org,"library, academic",arl,1600,
+uc_library,University of Cincinnati Libraries,org,"library, academic",arl,1700,
+colorado_library,"University of Colorado, University Libraries",org,"library, academic",arl,1800,
+uconn_library,University of Connecticut Library,org,"library, academic",arl,2100,
+udel_library,"University of Delaware Library, Museums & Press",org,"library, academic",arl,2350,
+ufl_library,"University of Florida, George A. Smathers Libraries",org,"library, academic",arl,2600,
+uga_library,University of Georgia Libraries,org,"library, academic",arl,2900,
+uoguelph_library,University of Guelph Library,org,"library, academic",arl,3000,
+hawaii_library,University of Hawai'i Library,org,"library, academic",arl,3200,
+uh_library,University of Houston Libraries,org,"library, academic",arl,3300,
+illinois_library,"University of Illinois, University Library",org,"library, academic",arl,3500,
+uiowa_library,University of Iowa Libraries,org,"library, academic",arl,3700,
+ku_library,University of Kansas Libraries,org,"library, academic",arl,4100,
+uky_library,University of Kentucky Libraries,org,"library, academic",arl,4300,
+louisville_library,University of Louisville Libraries,org,"library, academic",arl,4420,
+umanitoba_library,University of Manitoba Libraries,org,"library, academic",arl,4650,
+umd_library,University of Maryland Libraries,org,"library, academic",arl,4700,
+umass_library,University of Massachusetts Libraries,org,"library, academic",arl,4800,
+umich_library,University of Michigan Library,org,"library, academic",arl,5100,
+umn_library,University of Minnesota Libraries,org,"library, academic",arl,5300,
+missouri_library,University of Missouri Libraries,org,"library, academic",arl,5400,
+unl_library,University of Nebraska Libraries,org,"library, academic",arl,5500,
+unm_library,University of New Mexico Libraries,org,"library, academic",arl,5600,
+unc_library,University of North Carolina Libraries,org,"library, academic",arl,5800,
+nd_library,"University of Notre Dame, Hesburgh Libraries",org,"library, academic",arl,6000,
+ou_library,University of Oklahoma Libraries,org,"library, academic",arl,6200,
+uoregon_library,University of Oregon Libraries,org,"library, academic",arl,6400,
+uottawa_library,University of Ottawa Library,org,"library, academic",arl,6430,
+upenn_library,University of Pennsylvania Libraries,org,"library, academic",arl,6500,
+pitt_library,"University of Pittsburgh, University Library System",org,"library, academic",arl,6700,
+rochester_library,"University of Rochester, River Campus Libraries",org,"library, academic",arl,7200,
+usask_library,University of Saskatchewan Library,org,"library, academic",arl,7370,
+sc_library,"University of South Carolina, University Libraries",org,"library, academic",arl,7400,
+usc_library,University of Southern California Libraries,org,"library, academic",arl,7500,
+utk_library,"University of Tennessee, University Libraries",org,"library, academic",arl,8300,
+utexas_library,University of Texas Libraries,org,"library, academic",arl,8400,
+utoronto_library,University of Toronto Libraries,org,"library, academic",arl,8600,
+utah_library,"University of Utah, J. Willard Marriott Library",org,"library, academic",arl,8800,
+virginia_library,University of Virginia Library,org,"library, academic",arl,8900,
+washington_library,"University of Washington, University Libraries",org,"library, academic",arl,9100,
+uwaterloo_library,University of Waterloo Library,org,"library, academic",arl,9350,
+wisc_library,University of Wisconsin Library,org,"library, academic",arl,9600,
+vanderbilt_library,"Vanderbilt University, Jean and Alexander Heard Libraries",org,"library, academic",arl,8850,
+vcu_library,Virginia Commonwealth University Libraries,org,"library, academic",arl,8950,
+vt_library,Virginia Polytechnic Institute and State University Libraries,org,"library, academic",arl,9000,
+wsu_library,Washington State University Libraries,org,"library, academic",arl,9200,
+wustl_library,Washington University Libraries,org,"library, academic",arl,9300,
+wayne_library,Wayne State University Libraries,org,"library, academic",arl,9400,
+uwo_library,Western University Libraries,org,"library, academic",arl,9500,
+yale_library,Yale University Libraries,org,"library, academic",arl,9700,
+yorku_library,York University Libraries,org,"library, academic",arl,9800,
+uic_library,"University of Illinois, Chicago Library",org,"library, academic","arl, carli, sparc, alcts, acrl, gwla",3490,
+americanantiquarian,American Antiquarian Society,org,"library, independent",irla,,
+amphilsoc,American Philosophical Society,org,"library, independent",irla,,
+cca,Canadian Centre for Architecture,org,"library, independent",irla,,
+hab,Herzog August Library,org,"library, independent",irla,,
+lindahall,"Linda Hall Library of Science, Engineering & Technology",org,"library, independent",irla,,
+masshist,Massachusetts Historical Society,org,"library, independent",irla,,
+folger,The Folger Shakespeare Library,org,"library, independent",irla,,
+hagley,The Hagley Museum and Library,org,"library, independent",irla,,
+hsp,The Historical Society of Pennsylvania,org,"library, independent",irla,,
+huntington,"The Huntington Library, Art Collections, and Botanical Gardens",org,"library, independent",irla,,
+jcbl,The John Carter Brown Library,org,"library, independent",irla,,
+librarycompany,The Library Company of Philadelphia,org,"library, independent",irla,,
+morganlibrary,The Morgan Library & Museum,org,"library, independent",irla,,
+nyam,The New York Academy of Medicine,org,"library, independent",irla,,
+nyhistory,The New-York Historical Society,org,"library, independent",irla,,
+newberry,The Newberry Library,org,"library, independent",irla,,
+vahistorical,The Virginia Historical Society,org,"library, independent",irla,,
+winterthur,"Winterthur Museum, Garden & Library",org,"library, independent",irla,,
+aic_library,"The Art Institute of Chicago, Ryerson and Burnham Libraries",org,"library, museum",,,
+metmuseum_library,The Metropolitan Museum of Art Libraries and Research Centers,org,"library, museum",,,
+moma_library,The Museum of Modern Art Library,org,"library, museum",,,
+getty_library,The Getty Research Library,org,"library, museum",irla,,
+acpl,Allen County Public Library,org,"library, public",,,
+anchoragelibrary,Anchorage Public Library,org,"library, public",,,
+afpls,Atlanta-Fulton Public Library,org,"library, public",,,
+bplonline,Birmingham Public Library,org,"library, public",,,
+bklynlibrary,Brooklyn Public Library,org,"library, public",,,
+broward_library,Broward County Library,org,"library, public",,,
+ca_library,California State Library,org,"library, public",,,
+chipublib,Chicago Public Library,org,"library, public",,,
+cpl,Cleveland Public Library,org,"library, public",,,
+cuyahogalibrary,Cuyahoga County Public Library,org,"library, public",,,
+dallas_library,Dallas Public Library,org,"library, public",,,
+daytonmetrolibrary,Dayton Metro Library,org,"library, public",,,
+detroitpubliclibrary,Detroit Public Library,org,"library, public",,,
+librarieshawaii,Hawaii State Public Library System,org,"library, public",,,
+hclib,Hennepin County Library,org,"library, public",,,
+houstonlibrary,Houston Public Library,org,"library, public",,,
+kcls,King County Library System,org,"library, public",,,
+lacountylibrary,LA County Library,org,"library, public",,,
+lvccld,Las Vegas-Clark County Library District,org,"library, public",,,
+lapl,Los Angeles Public Library,org,"library, public",,,
+mdpls,Miami-Dade Public Library System,org,"library, public",,,
+phoenixpubliclibrary,Phoenix Public Library,org,"library, public",,,
+cincinnatilibrary,Public Library of Cincinnati and Hamilton County,org,"library, public",,,
+queenslibrary,Queens Borough Public Library,org,"library, public",,,
+sfpl,San Francisco Public Library,org,"library, public",,,
+slpl,St. Louis Public Library,org,"library, public",,,
+bpl,Boston Public Library,org,"library, public",arl,9850,
+nypl,New York Public Library,org,"library, public","arl, irla",9950,
+bac-lac,Library and Archives Canada,org,"library, state",,,
+tsl,Texas State Library and Archives Commission,org,"library, state",,,
+loc,Library of Congress,org,"library, state",arl,9890,
+nal,National Agricultural Library,org,"library, state",arl,9910,
+archives,National Archives and Records Administration,org,"library, state",arl,9915,
+nlm,National Library of Medicine,org,"library, state",arl,9930,
+nysl,New York State Library,org,"library, state",arl,9960,
+sil,Smithsonian Libraries,org,"library, state",arl,9980,
+luma,Loyola University Museum of Art,org,"museum, art",,,
+mcachicago,Museum of Contemporary Art,org,"museum, art",,,
+mocp,Museum of Contemporary Photography,org,"museum, art",,,
+nationalmuseumofmexicanart,National Museum of Mexican Art,org,"museum, art",,,
+oi,Oriental Institute,org,"museum, art",,,
+smartmuseum,Smart Museum of Art,org,"museum, art",,,
+aic,The Art Institute of Chicago,org,"museum, art",,,
+getty,The Getty,org,"museum, art",,,
+metmuseum,The Metropolitan Museum of Art,org,"museum, art",,,
+moma,The Museum of Modern Art,org,"museum, art",,,
+chicagohistory,Chicago History Museum,org,"museum, humanities",,,
+dusablemuseum,DuSable Museum of African American History,org,"museum, humanities",,,
+adlerplanetarium,Adler Planetarium,org,"museum, science",,,
+fieldmuseum,Field Museum,org,"museum, science",,,
+msichicago,Museum of Science and Industry,org,"museum, science",,,
+naturemuseum,Peggy Notebaert Nature Museum,org,"museum, science",,,

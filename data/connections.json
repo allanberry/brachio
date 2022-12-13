@@ -1,0 +1,1557 @@
+[
+  {
+    "subject": "aamu_library",
+    "predicate": "has_parent",
+    "dobject": "aamu"
+  },
+  {
+    "subject": "afit_library",
+    "predicate": "has_parent",
+    "dobject": "afit"
+  },
+  {
+    "subject": "aic_library",
+    "predicate": "has_parent",
+    "dobject": "aic"
+  },
+  {
+    "subject": "albany_library",
+    "predicate": "has_parent",
+    "dobject": "albany"
+  },
+  {
+    "subject": "american_library",
+    "predicate": "has_parent",
+    "dobject": "american"
+  },
+  {
+    "subject": "anahuac_library",
+    "predicate": "has_parent",
+    "dobject": "anahuac"
+  },
+  {
+    "subject": "apu_library",
+    "predicate": "has_parent",
+    "dobject": "apu"
+  },
+  {
+    "subject": "arizona_library",
+    "predicate": "has_parent",
+    "dobject": "arizona"
+  },
+  {
+    "subject": "astate_library",
+    "predicate": "has_parent",
+    "dobject": "astate"
+  },
+  {
+    "subject": "asu_library",
+    "predicate": "has_parent",
+    "dobject": "asu"
+  },
+  {
+    "subject": "asurams_library",
+    "predicate": "has_parent",
+    "dobject": "asurams"
+  },
+  {
+    "subject": "auburn_library",
+    "predicate": "has_parent",
+    "dobject": "auburn"
+  },
+  {
+    "subject": "auraria_library",
+    "predicate": "has_parent",
+    "dobject": "auraria"
+  },
+  {
+    "subject": "baylor_library",
+    "predicate": "has_parent",
+    "dobject": "baylor"
+  },
+  {
+    "subject": "bc_library",
+    "predicate": "has_parent",
+    "dobject": "bc"
+  },
+  {
+    "subject": "berkeley_library",
+    "predicate": "has_parent",
+    "dobject": "berkeley"
+  },
+  {
+    "subject": "bgsu_library",
+    "predicate": "has_parent",
+    "dobject": "bgsu"
+  },
+  {
+    "subject": "binghamton_library",
+    "predicate": "has_parent",
+    "dobject": "binghamton"
+  },
+  {
+    "subject": "boisestate_library",
+    "predicate": "has_parent",
+    "dobject": "boisestate"
+  },
+  {
+    "subject": "bowiestate_library",
+    "predicate": "has_parent",
+    "dobject": "bowiestate"
+  },
+  {
+    "subject": "brandeis_library",
+    "predicate": "has_parent",
+    "dobject": "brandeis"
+  },
+  {
+    "subject": "brown_library",
+    "predicate": "has_parent",
+    "dobject": "brown"
+  },
+  {
+    "subject": "bsu_library",
+    "predicate": "has_parent",
+    "dobject": "bsu"
+  },
+  {
+    "subject": "bu_library",
+    "predicate": "has_parent",
+    "dobject": "bu"
+  },
+  {
+    "subject": "buap_library",
+    "predicate": "has_parent",
+    "dobject": "buap"
+  },
+  {
+    "subject": "buffalo_library",
+    "predicate": "has_parent",
+    "dobject": "buffalo"
+  },
+  {
+    "subject": "byu_library",
+    "predicate": "has_parent",
+    "dobject": "byu"
+  },
+  {
+    "subject": "caltech_library",
+    "predicate": "has_parent",
+    "dobject": "caltech"
+  },
+  {
+    "subject": "camden_library",
+    "predicate": "has_parent",
+    "dobject": "camden"
+  },
+  {
+    "subject": "case_library",
+    "predicate": "has_parent",
+    "dobject": "case"
+  },
+  {
+    "subject": "catholic_library",
+    "predicate": "has_parent",
+    "dobject": "catholic"
+  },
+  {
+    "subject": "chapman_library",
+    "predicate": "has_parent",
+    "dobject": "chapman"
+  },
+  {
+    "subject": "cgu",
+    "predicate": "has_parent",
+    "dobject": "claremont"
+  },
+  {
+    "subject": "claremont_library",
+    "predicate": "has_parent",
+    "dobject": "claremont"
+  },
+  {
+    "subject": "clarkson_library",
+    "predicate": "has_parent",
+    "dobject": "clarkson"
+  },
+  {
+    "subject": "clarku_library",
+    "predicate": "has_parent",
+    "dobject": "clarku"
+  },
+  {
+    "subject": "clemson_library",
+    "predicate": "has_parent",
+    "dobject": "clemson"
+  },
+  {
+    "subject": "cmich_library",
+    "predicate": "has_parent",
+    "dobject": "cmich"
+  },
+  {
+    "subject": "cmu_library",
+    "predicate": "has_parent",
+    "dobject": "cmu"
+  },
+  {
+    "subject": "colorado_library",
+    "predicate": "has_parent",
+    "dobject": "colorado"
+  },
+  {
+    "subject": "colostate_library",
+    "predicate": "has_parent",
+    "dobject": "colostate"
+  },
+  {
+    "subject": "colpos_library",
+    "predicate": "has_parent",
+    "dobject": "colpos"
+  },
+  {
+    "subject": "colum_library",
+    "predicate": "has_parent",
+    "dobject": "colum"
+  },
+  {
+    "subject": "mocp",
+    "predicate": "has_parent",
+    "dobject": "colum"
+  },
+  {
+    "subject": "columbia_library",
+    "predicate": "has_parent",
+    "dobject": "columbia"
+  },
+  {
+    "subject": "columbia_tc",
+    "predicate": "has_parent",
+    "dobject": "columbia"
+  },
+  {
+    "subject": "columbia_tc_library",
+    "predicate": "has_parent",
+    "dobject": "columbia_tc"
+  },
+  {
+    "subject": "cornell_library",
+    "predicate": "has_parent",
+    "dobject": "cornell"
+  },
+  {
+    "subject": "csuohio_library",
+    "predicate": "has_parent",
+    "dobject": "csuohio"
+  },
+  {
+    "subject": "cuny_ccny",
+    "predicate": "has_parent",
+    "dobject": "cuny"
+  },
+  {
+    "subject": "cuny_gc",
+    "predicate": "has_parent",
+    "dobject": "cuny"
+  },
+  {
+    "subject": "cuny_library",
+    "predicate": "has_parent",
+    "dobject": "cuny"
+  },
+  {
+    "subject": "dartmouth_library",
+    "predicate": "has_parent",
+    "dobject": "dartmouth"
+  },
+  {
+    "subject": "depaul_library",
+    "predicate": "has_parent",
+    "dobject": "depaul"
+  },
+  {
+    "subject": "desu_library",
+    "predicate": "has_parent",
+    "dobject": "desu"
+  },
+  {
+    "subject": "dillard_library",
+    "predicate": "has_parent",
+    "dobject": "dillard"
+  },
+  {
+    "subject": "drexel_library",
+    "predicate": "has_parent",
+    "dobject": "drexel"
+  },
+  {
+    "subject": "du_library",
+    "predicate": "has_parent",
+    "dobject": "du"
+  },
+  {
+    "subject": "duke_library",
+    "predicate": "has_parent",
+    "dobject": "duke"
+  },
+  {
+    "subject": "duq_library",
+    "predicate": "has_parent",
+    "dobject": "duq"
+  },
+  {
+    "subject": "ecu_library",
+    "predicate": "has_parent",
+    "dobject": "ecu"
+  },
+  {
+    "subject": "emich_library",
+    "predicate": "has_parent",
+    "dobject": "emich"
+  },
+  {
+    "subject": "emory_library",
+    "predicate": "has_parent",
+    "dobject": "emory"
+  },
+  {
+    "subject": "esf_library",
+    "predicate": "has_parent",
+    "dobject": "esf"
+  },
+  {
+    "subject": "etsu_library",
+    "predicate": "has_parent",
+    "dobject": "etsu"
+  },
+  {
+    "subject": "famu_library",
+    "predicate": "has_parent",
+    "dobject": "famu"
+  },
+  {
+    "subject": "fau_library",
+    "predicate": "has_parent",
+    "dobject": "fau"
+  },
+  {
+    "subject": "fit_library",
+    "predicate": "has_parent",
+    "dobject": "fit"
+  },
+  {
+    "subject": "fiu_library",
+    "predicate": "has_parent",
+    "dobject": "fiu"
+  },
+  {
+    "subject": "fordham_library",
+    "predicate": "has_parent",
+    "dobject": "fordham"
+  },
+  {
+    "subject": "fsu_library",
+    "predicate": "has_parent",
+    "dobject": "fsu"
+  },
+  {
+    "subject": "gallaudet_library",
+    "predicate": "has_parent",
+    "dobject": "gallaudet"
+  },
+  {
+    "subject": "gatech_library",
+    "predicate": "has_parent",
+    "dobject": "gatech"
+  },
+  {
+    "subject": "georgetown_library",
+    "predicate": "has_parent",
+    "dobject": "georgetown"
+  },
+  {
+    "subject": "georgiasouthern_library",
+    "predicate": "has_parent",
+    "dobject": "georgiasouthern"
+  },
+  {
+    "subject": "gmu_library",
+    "predicate": "has_parent",
+    "dobject": "gmu"
+  },
+  {
+    "subject": "gram_library",
+    "predicate": "has_parent",
+    "dobject": "gram"
+  },
+  {
+    "subject": "gsu_library",
+    "predicate": "has_parent",
+    "dobject": "gsu"
+  },
+  {
+    "subject": "gwu_library",
+    "predicate": "has_parent",
+    "dobject": "gwu"
+  },
+  {
+    "subject": "hamptonu_library",
+    "predicate": "has_parent",
+    "dobject": "hamptonu"
+  },
+  {
+    "subject": "harvard_library",
+    "predicate": "has_parent",
+    "dobject": "harvard"
+  },
+  {
+    "subject": "hawaii_library",
+    "predicate": "has_parent",
+    "dobject": "hawaii"
+  },
+  {
+    "subject": "auc_library",
+    "predicate": "has_parent",
+    "dobject": "hbculibraries"
+  },
+  {
+    "subject": "howard_library",
+    "predicate": "has_parent",
+    "dobject": "howard"
+  },
+  {
+    "subject": "iastate_library",
+    "predicate": "has_parent",
+    "dobject": "iastate"
+  },
+  {
+    "subject": "iit_library",
+    "predicate": "has_parent",
+    "dobject": "iit"
+  },
+  {
+    "subject": "illinois_library",
+    "predicate": "has_parent",
+    "dobject": "illinois"
+  },
+  {
+    "subject": "illinoisstate_library",
+    "predicate": "has_parent",
+    "dobject": "illinoisstate"
+  },
+  {
+    "subject": "indiana_library",
+    "predicate": "has_parent",
+    "dobject": "indiana"
+  },
+  {
+    "subject": "ipn_library",
+    "predicate": "has_parent",
+    "dobject": "ipn"
+  },
+  {
+    "subject": "isu_library",
+    "predicate": "has_parent",
+    "dobject": "isu"
+  },
+  {
+    "subject": "iupui_library",
+    "predicate": "has_parent",
+    "dobject": "iupui"
+  },
+  {
+    "subject": "jefferson_library",
+    "predicate": "has_parent",
+    "dobject": "jefferson"
+  },
+  {
+    "subject": "jhu_library",
+    "predicate": "has_parent",
+    "dobject": "jhu"
+  },
+  {
+    "subject": "jsums_library",
+    "predicate": "has_parent",
+    "dobject": "jsums"
+  },
+  {
+    "subject": "k-state_library",
+    "predicate": "has_parent",
+    "dobject": "k-state"
+  },
+  {
+    "subject": "kennesaw_library",
+    "predicate": "has_parent",
+    "dobject": "kennesaw"
+  },
+  {
+    "subject": "kent_library",
+    "predicate": "has_parent",
+    "dobject": "kent"
+  },
+  {
+    "subject": "ku_library",
+    "predicate": "has_parent",
+    "dobject": "ku"
+  },
+  {
+    "subject": "latech_library",
+    "predicate": "has_parent",
+    "dobject": "latech"
+  },
+  {
+    "subject": "lehigh_library",
+    "predicate": "has_parent",
+    "dobject": "lehigh"
+  },
+  {
+    "subject": "lmu_library",
+    "predicate": "has_parent",
+    "dobject": "lmu"
+  },
+  {
+    "subject": "louisiana_library",
+    "predicate": "has_parent",
+    "dobject": "louisiana"
+  },
+  {
+    "subject": "louisville_library",
+    "predicate": "has_parent",
+    "dobject": "louisville"
+  },
+  {
+    "subject": "lsu_library",
+    "predicate": "has_parent",
+    "dobject": "lsu"
+  },
+  {
+    "subject": "luc_library",
+    "predicate": "has_parent",
+    "dobject": "luc"
+  },
+  {
+    "subject": "luma",
+    "predicate": "has_parent",
+    "dobject": "luc"
+  },
+  {
+    "subject": "marquette_library",
+    "predicate": "has_parent",
+    "dobject": "marquette"
+  },
+  {
+    "subject": "marshall_library",
+    "predicate": "has_parent",
+    "dobject": "marshall"
+  },
+  {
+    "subject": "mcgill_library",
+    "predicate": "has_parent",
+    "dobject": "mcgill"
+  },
+  {
+    "subject": "mcmaster_library",
+    "predicate": "has_parent",
+    "dobject": "mcmaster"
+  },
+  {
+    "subject": "memphis_library",
+    "predicate": "has_parent",
+    "dobject": "memphis"
+  },
+  {
+    "subject": "mercer_library",
+    "predicate": "has_parent",
+    "dobject": "mercer"
+  },
+  {
+    "subject": "metmuseum_library",
+    "predicate": "has_parent",
+    "dobject": "metmuseum"
+  },
+  {
+    "subject": "miami_library",
+    "predicate": "has_parent",
+    "dobject": "miami"
+  },
+  {
+    "subject": "miamioh_library",
+    "predicate": "has_parent",
+    "dobject": "miamioh"
+  },
+  {
+    "subject": "mines_library",
+    "predicate": "has_parent",
+    "dobject": "mines"
+  },
+  {
+    "subject": "missouri_library",
+    "predicate": "has_parent",
+    "dobject": "missouri"
+  },
+  {
+    "subject": "mit_library",
+    "predicate": "has_parent",
+    "dobject": "mit"
+  },
+  {
+    "subject": "moma_library",
+    "predicate": "has_parent",
+    "dobject": "moma"
+  },
+  {
+    "subject": "montana_library",
+    "predicate": "has_parent",
+    "dobject": "montana"
+  },
+  {
+    "subject": "montclair_library",
+    "predicate": "has_parent",
+    "dobject": "montclair"
+  },
+  {
+    "subject": "morgan_library",
+    "predicate": "has_parent",
+    "dobject": "morgan"
+  },
+  {
+    "subject": "msstate_library",
+    "predicate": "has_parent",
+    "dobject": "msstate"
+  },
+  {
+    "subject": "mst_library",
+    "predicate": "has_parent",
+    "dobject": "mst"
+  },
+  {
+    "subject": "msu_library",
+    "predicate": "has_parent",
+    "dobject": "msu"
+  },
+  {
+    "subject": "mtu_library",
+    "predicate": "has_parent",
+    "dobject": "mtu"
+  },
+  {
+    "subject": "nau_library",
+    "predicate": "has_parent",
+    "dobject": "nau"
+  },
+  {
+    "subject": "ncat_library",
+    "predicate": "has_parent",
+    "dobject": "ncat"
+  },
+  {
+    "subject": "nccu_library",
+    "predicate": "has_parent",
+    "dobject": "nccu"
+  },
+  {
+    "subject": "ncsu_library",
+    "predicate": "has_parent",
+    "dobject": "ncsu"
+  },
+  {
+    "subject": "nd_library",
+    "predicate": "has_parent",
+    "dobject": "nd"
+  },
+  {
+    "subject": "ndsu_library",
+    "predicate": "has_parent",
+    "dobject": "ndsu"
+  },
+  {
+    "subject": "newschool_library",
+    "predicate": "has_parent",
+    "dobject": "newschool"
+  },
+  {
+    "subject": "niu_library",
+    "predicate": "has_parent",
+    "dobject": "niu"
+  },
+  {
+    "subject": "njit_library",
+    "predicate": "has_parent",
+    "dobject": "njit"
+  },
+  {
+    "subject": "nmsu_library",
+    "predicate": "has_parent",
+    "dobject": "nmsu"
+  },
+  {
+    "subject": "northeastern_library",
+    "predicate": "has_parent",
+    "dobject": "northeastern"
+  },
+  {
+    "subject": "nova_library",
+    "predicate": "has_parent",
+    "dobject": "nova"
+  },
+  {
+    "subject": "nsu_library",
+    "predicate": "has_parent",
+    "dobject": "nsu"
+  },
+  {
+    "subject": "nw_library",
+    "predicate": "has_parent",
+    "dobject": "nw"
+  },
+  {
+    "subject": "nyu_library",
+    "predicate": "has_parent",
+    "dobject": "nyu"
+  },
+  {
+    "subject": "oakland_library",
+    "predicate": "has_parent",
+    "dobject": "oakland"
+  },
+  {
+    "subject": "odu_library",
+    "predicate": "has_parent",
+    "dobject": "odu"
+  },
+  {
+    "subject": "okstate_library",
+    "predicate": "has_parent",
+    "dobject": "okstate"
+  },
+  {
+    "subject": "olemiss_library",
+    "predicate": "has_parent",
+    "dobject": "olemiss"
+  },
+  {
+    "subject": "oregonstate_library",
+    "predicate": "has_parent",
+    "dobject": "oregonstate"
+  },
+  {
+    "subject": "osu_library",
+    "predicate": "has_parent",
+    "dobject": "osu"
+  },
+  {
+    "subject": "ou_library",
+    "predicate": "has_parent",
+    "dobject": "ou"
+  },
+  {
+    "subject": "pdx_library",
+    "predicate": "has_parent",
+    "dobject": "pdx"
+  },
+  {
+    "subject": "pitt_library",
+    "predicate": "has_parent",
+    "dobject": "pitt"
+  },
+  {
+    "subject": "princeton_library",
+    "predicate": "has_parent",
+    "dobject": "princeton"
+  },
+  {
+    "subject": "psu_library",
+    "predicate": "has_parent",
+    "dobject": "psu"
+  },
+  {
+    "subject": "purdue_library",
+    "predicate": "has_parent",
+    "dobject": "purdue"
+  },
+  {
+    "subject": "pvamu_library",
+    "predicate": "has_parent",
+    "dobject": "pvamu"
+  },
+  {
+    "subject": "queensu_library",
+    "predicate": "has_parent",
+    "dobject": "queensu"
+  },
+  {
+    "subject": "rice_library",
+    "predicate": "has_parent",
+    "dobject": "rice"
+  },
+  {
+    "subject": "rit_library",
+    "predicate": "has_parent",
+    "dobject": "rit"
+  },
+  {
+    "subject": "rochester_library",
+    "predicate": "has_parent",
+    "dobject": "rochester"
+  },
+  {
+    "subject": "rockefeller_library",
+    "predicate": "has_parent",
+    "dobject": "rockefeller"
+  },
+  {
+    "subject": "rowan_library",
+    "predicate": "has_parent",
+    "dobject": "rowan"
+  },
+  {
+    "subject": "rpi_library",
+    "predicate": "has_parent",
+    "dobject": "rpi"
+  },
+  {
+    "subject": "newark_library",
+    "predicate": "has_parent",
+    "dobject": "rutgers"
+  },
+  {
+    "subject": "rutgers_library",
+    "predicate": "has_parent",
+    "dobject": "rutgers"
+  },
+  {
+    "subject": "sandiego_library",
+    "predicate": "has_parent",
+    "dobject": "sandiego"
+  },
+  {
+    "subject": "sc_library",
+    "predicate": "has_parent",
+    "dobject": "sc"
+  },
+  {
+    "subject": "scsb_library",
+    "predicate": "has_parent",
+    "dobject": "scsb"
+  },
+  {
+    "subject": "sdstate_library",
+    "predicate": "has_parent",
+    "dobject": "sdstate"
+  },
+  {
+    "subject": "sdsu_library",
+    "predicate": "has_parent",
+    "dobject": "sdstate"
+  },
+  {
+    "subject": "sfu_library",
+    "predicate": "has_parent",
+    "dobject": "sfu"
+  },
+  {
+    "subject": "shu_library",
+    "predicate": "has_parent",
+    "dobject": "shu"
+  },
+  {
+    "subject": "siu_library",
+    "predicate": "has_parent",
+    "dobject": "siu"
+  },
+  {
+    "subject": "slu_library",
+    "predicate": "has_parent",
+    "dobject": "slu"
+  },
+  {
+    "subject": "smu_library",
+    "predicate": "has_parent",
+    "dobject": "smu"
+  },
+  {
+    "subject": "southalabama_library",
+    "predicate": "has_parent",
+    "dobject": "southalabama"
+  },
+  {
+    "subject": "stanford_library",
+    "predicate": "has_parent",
+    "dobject": "stanford"
+  },
+  {
+    "subject": "stevens_library",
+    "predicate": "has_parent",
+    "dobject": "stevens"
+  },
+  {
+    "subject": "stonybrook_library",
+    "predicate": "has_parent",
+    "dobject": "stonybrook"
+  },
+  {
+    "subject": "subr_library",
+    "predicate": "has_parent",
+    "dobject": "subr"
+  },
+  {
+    "subject": "syr_library",
+    "predicate": "has_parent",
+    "dobject": "syr"
+  },
+  {
+    "subject": "tamu_library",
+    "predicate": "has_parent",
+    "dobject": "tamu"
+  },
+  {
+    "subject": "tamucc_library",
+    "predicate": "has_parent",
+    "dobject": "tamucc"
+  },
+  {
+    "subject": "tamuk_library",
+    "predicate": "has_parent",
+    "dobject": "tamuk"
+  },
+  {
+    "subject": "tcu_library",
+    "predicate": "has_parent",
+    "dobject": "tcu"
+  },
+  {
+    "subject": "tec_library",
+    "predicate": "has_parent",
+    "dobject": "tec"
+  },
+  {
+    "subject": "temple_library",
+    "predicate": "has_parent",
+    "dobject": "temple"
+  },
+  {
+    "subject": "tnstate_library",
+    "predicate": "has_parent",
+    "dobject": "tnstate"
+  },
+  {
+    "subject": "tntech_library",
+    "predicate": "has_parent",
+    "dobject": "tntech"
+  },
+  {
+    "subject": "tsu_library",
+    "predicate": "has_parent",
+    "dobject": "tsu"
+  },
+  {
+    "subject": "ttu_library",
+    "predicate": "has_parent",
+    "dobject": "ttu"
+  },
+  {
+    "subject": "tufts_library",
+    "predicate": "has_parent",
+    "dobject": "tufts"
+  },
+  {
+    "subject": "tulane_library",
+    "predicate": "has_parent",
+    "dobject": "tulane"
+  },
+  {
+    "subject": "txstate_library",
+    "predicate": "has_parent",
+    "dobject": "txstate"
+  },
+  {
+    "subject": "ua_library",
+    "predicate": "has_parent",
+    "dobject": "ua"
+  },
+  {
+    "subject": "uab_library",
+    "predicate": "has_parent",
+    "dobject": "uab"
+  },
+  {
+    "subject": "uaf_library",
+    "predicate": "has_parent",
+    "dobject": "uaf"
+  },
+  {
+    "subject": "uah_library",
+    "predicate": "has_parent",
+    "dobject": "uah"
+  },
+  {
+    "subject": "uakron_library",
+    "predicate": "has_parent",
+    "dobject": "uakron"
+  },
+  {
+    "subject": "ualberta_library",
+    "predicate": "has_parent",
+    "dobject": "ualberta"
+  },
+  {
+    "subject": "ualr_library",
+    "predicate": "has_parent",
+    "dobject": "ualr"
+  },
+  {
+    "subject": "uam_library",
+    "predicate": "has_parent",
+    "dobject": "uam"
+  },
+  {
+    "subject": "uanl_library",
+    "predicate": "has_parent",
+    "dobject": "uanl"
+  },
+  {
+    "subject": "uark_library",
+    "predicate": "has_parent",
+    "dobject": "uark"
+  },
+  {
+    "subject": "uaslp_library",
+    "predicate": "has_parent",
+    "dobject": "uaslp"
+  },
+  {
+    "subject": "ubc_library",
+    "predicate": "has_parent",
+    "dobject": "ubc"
+  },
+  {
+    "subject": "uc_library",
+    "predicate": "has_parent",
+    "dobject": "uc"
+  },
+  {
+    "subject": "ucalgary_library",
+    "predicate": "has_parent",
+    "dobject": "ucalgary"
+  },
+  {
+    "subject": "uccs_library",
+    "predicate": "has_parent",
+    "dobject": "uccs"
+  },
+  {
+    "subject": "ucdavis_library",
+    "predicate": "has_parent",
+    "dobject": "ucdavis"
+  },
+  {
+    "subject": "ucf_library",
+    "predicate": "has_parent",
+    "dobject": "ucf"
+  },
+  {
+    "subject": "oi",
+    "predicate": "has_parent",
+    "dobject": "uchicago"
+  },
+  {
+    "subject": "smartmuseum",
+    "predicate": "has_parent",
+    "dobject": "uchicago"
+  },
+  {
+    "subject": "uchicago_library",
+    "predicate": "has_parent",
+    "dobject": "uchicago"
+  },
+  {
+    "subject": "uci_library",
+    "predicate": "has_parent",
+    "dobject": "uci"
+  },
+  {
+    "subject": "ucla_library",
+    "predicate": "has_parent",
+    "dobject": "ucla"
+  },
+  {
+    "subject": "ucmerced_library",
+    "predicate": "has_parent",
+    "dobject": "ucmerced"
+  },
+  {
+    "subject": "uconn_library",
+    "predicate": "has_parent",
+    "dobject": "uconn"
+  },
+  {
+    "subject": "ucr_library",
+    "predicate": "has_parent",
+    "dobject": "ucr"
+  },
+  {
+    "subject": "ucsc_library",
+    "predicate": "has_parent",
+    "dobject": "ucsc"
+  },
+  {
+    "subject": "ucsd_library",
+    "predicate": "has_parent",
+    "dobject": "ucsd"
+  },
+  {
+    "subject": "udayton_library",
+    "predicate": "has_parent",
+    "dobject": "udayton"
+  },
+  {
+    "subject": "udel_library",
+    "predicate": "has_parent",
+    "dobject": "udel"
+  },
+  {
+    "subject": "udg_library",
+    "predicate": "has_parent",
+    "dobject": "udg"
+  },
+  {
+    "subject": "ufl_library",
+    "predicate": "has_parent",
+    "dobject": "ufl"
+  },
+  {
+    "subject": "uga_library",
+    "predicate": "has_parent",
+    "dobject": "uga"
+  },
+  {
+    "subject": "uh_library",
+    "predicate": "has_parent",
+    "dobject": "uh"
+  },
+  {
+    "subject": "uic_library",
+    "predicate": "has_parent",
+    "dobject": "uic"
+  },
+  {
+    "subject": "uidaho_library",
+    "predicate": "has_parent",
+    "dobject": "uidaho"
+  },
+  {
+    "subject": "uiowa_library",
+    "predicate": "has_parent",
+    "dobject": "uiowa"
+  },
+  {
+    "subject": "uky_library",
+    "predicate": "has_parent",
+    "dobject": "uky"
+  },
+  {
+    "subject": "ulaval_library",
+    "predicate": "has_parent",
+    "dobject": "ulaval"
+  },
+  {
+    "subject": "umaine_library",
+    "predicate": "has_parent",
+    "dobject": "umaine"
+  },
+  {
+    "subject": "umanitoba_library",
+    "predicate": "has_parent",
+    "dobject": "umanitoba"
+  },
+  {
+    "subject": "umass_library",
+    "predicate": "has_parent",
+    "dobject": "umass"
+  },
+  {
+    "subject": "umassd_library",
+    "predicate": "has_parent",
+    "dobject": "umassd"
+  },
+  {
+    "subject": "umb_library",
+    "predicate": "has_parent",
+    "dobject": "umb"
+  },
+  {
+    "subject": "umbc_library",
+    "predicate": "has_parent",
+    "dobject": "umbc"
+  },
+  {
+    "subject": "umd_library",
+    "predicate": "has_parent",
+    "dobject": "umd"
+  },
+  {
+    "subject": "umes_library",
+    "predicate": "has_parent",
+    "dobject": "umes"
+  },
+  {
+    "subject": "umich_library",
+    "predicate": "has_parent",
+    "dobject": "umich"
+  },
+  {
+    "subject": "umkc_library",
+    "predicate": "has_parent",
+    "dobject": "umkc"
+  },
+  {
+    "subject": "uml_library",
+    "predicate": "has_parent",
+    "dobject": "uml"
+  },
+  {
+    "subject": "umn_library",
+    "predicate": "has_parent",
+    "dobject": "umn"
+  },
+  {
+    "subject": "umsl_library",
+    "predicate": "has_parent",
+    "dobject": "umsl"
+  },
+  {
+    "subject": "unam_library",
+    "predicate": "has_parent",
+    "dobject": "unam"
+  },
+  {
+    "subject": "unc_library",
+    "predicate": "has_parent",
+    "dobject": "unc"
+  },
+  {
+    "subject": "wssu",
+    "predicate": "has_parent",
+    "dobject": "unc"
+  },
+  {
+    "subject": "uncc_library",
+    "predicate": "has_parent",
+    "dobject": "uncc"
+  },
+  {
+    "subject": "uncfsu_library",
+    "predicate": "has_parent",
+    "dobject": "uncfsu"
+  },
+  {
+    "subject": "uncg_library",
+    "predicate": "has_parent",
+    "dobject": "uncg"
+  },
+  {
+    "subject": "uncw_library",
+    "predicate": "has_parent",
+    "dobject": "uncw"
+  },
+  {
+    "subject": "und_library",
+    "predicate": "has_parent",
+    "dobject": "und"
+  },
+  {
+    "subject": "une_library",
+    "predicate": "has_parent",
+    "dobject": "une"
+  },
+  {
+    "subject": "unh_library",
+    "predicate": "has_parent",
+    "dobject": "unh"
+  },
+  {
+    "subject": "unl_library",
+    "predicate": "has_parent",
+    "dobject": "unl"
+  },
+  {
+    "subject": "unlv_library",
+    "predicate": "has_parent",
+    "dobject": "unlv"
+  },
+  {
+    "subject": "unm_library",
+    "predicate": "has_parent",
+    "dobject": "unm"
+  },
+  {
+    "subject": "uno_library",
+    "predicate": "has_parent",
+    "dobject": "uno"
+  },
+  {
+    "subject": "unomaha_library",
+    "predicate": "has_parent",
+    "dobject": "unomaha"
+  },
+  {
+    "subject": "unr_library",
+    "predicate": "has_parent",
+    "dobject": "unr"
+  },
+  {
+    "subject": "unt_library",
+    "predicate": "has_parent",
+    "dobject": "unt"
+  },
+  {
+    "subject": "uoguelph_library",
+    "predicate": "has_parent",
+    "dobject": "uoguelph"
+  },
+  {
+    "subject": "uoregon_library",
+    "predicate": "has_parent",
+    "dobject": "uoregon"
+  },
+  {
+    "subject": "uottawa_library",
+    "predicate": "has_parent",
+    "dobject": "uottawa"
+  },
+  {
+    "subject": "upenn_library",
+    "predicate": "has_parent",
+    "dobject": "upenn"
+  },
+  {
+    "subject": "upr_library",
+    "predicate": "has_parent",
+    "dobject": "upr"
+  },
+  {
+    "subject": "uri_library",
+    "predicate": "has_parent",
+    "dobject": "uri"
+  },
+  {
+    "subject": "usask_library",
+    "predicate": "has_parent",
+    "dobject": "usask"
+  },
+  {
+    "subject": "usc_library",
+    "predicate": "has_parent",
+    "dobject": "usc"
+  },
+  {
+    "subject": "usd_library",
+    "predicate": "has_parent",
+    "dobject": "usd"
+  },
+  {
+    "subject": "usf_library",
+    "predicate": "has_parent",
+    "dobject": "usf"
+  },
+  {
+    "subject": "usm_library",
+    "predicate": "has_parent",
+    "dobject": "usm"
+  },
+  {
+    "subject": "usu_library",
+    "predicate": "has_parent",
+    "dobject": "usu"
+  },
+  {
+    "subject": "uta_library",
+    "predicate": "has_parent",
+    "dobject": "uta"
+  },
+  {
+    "subject": "utah_library",
+    "predicate": "has_parent",
+    "dobject": "utah"
+  },
+  {
+    "subject": "utdallas_library",
+    "predicate": "has_parent",
+    "dobject": "utdallas"
+  },
+  {
+    "subject": "utep_library",
+    "predicate": "has_parent",
+    "dobject": "utep"
+  },
+  {
+    "subject": "utexas_library",
+    "predicate": "has_parent",
+    "dobject": "utexas"
+  },
+  {
+    "subject": "utk_library",
+    "predicate": "has_parent",
+    "dobject": "utk"
+  },
+  {
+    "subject": "utoledo_library",
+    "predicate": "has_parent",
+    "dobject": "utoledo"
+  },
+  {
+    "subject": "utoronto_library",
+    "predicate": "has_parent",
+    "dobject": "utoronto"
+  },
+  {
+    "subject": "utrgv_library",
+    "predicate": "has_parent",
+    "dobject": "utrgv"
+  },
+  {
+    "subject": "utsa_library",
+    "predicate": "has_parent",
+    "dobject": "utsa"
+  },
+  {
+    "subject": "utulsa_library",
+    "predicate": "has_parent",
+    "dobject": "utulsa"
+  },
+  {
+    "subject": "uvm_library",
+    "predicate": "has_parent",
+    "dobject": "uvm"
+  },
+  {
+    "subject": "uwaterloo_library",
+    "predicate": "has_parent",
+    "dobject": "uwaterloo"
+  },
+  {
+    "subject": "uwm_library",
+    "predicate": "has_parent",
+    "dobject": "uwm"
+  },
+  {
+    "subject": "uwo_library",
+    "predicate": "has_parent",
+    "dobject": "uwo"
+  },
+  {
+    "subject": "uwyo_library",
+    "predicate": "has_parent",
+    "dobject": "uwyo"
+  },
+  {
+    "subject": "vanderbilt_library",
+    "predicate": "has_parent",
+    "dobject": "vanderbilt"
+  },
+  {
+    "subject": "vcu_library",
+    "predicate": "has_parent",
+    "dobject": "vcu"
+  },
+  {
+    "subject": "villanova_library",
+    "predicate": "has_parent",
+    "dobject": "villanova"
+  },
+  {
+    "subject": "virginia_library",
+    "predicate": "has_parent",
+    "dobject": "virginia"
+  },
+  {
+    "subject": "vt_library",
+    "predicate": "has_parent",
+    "dobject": "vt"
+  },
+  {
+    "subject": "washington_library",
+    "predicate": "has_parent",
+    "dobject": "washington"
+  },
+  {
+    "subject": "wayne_library",
+    "predicate": "has_parent",
+    "dobject": "wayne"
+  },
+  {
+    "subject": "wfu_library",
+    "predicate": "has_parent",
+    "dobject": "wfu"
+  },
+  {
+    "subject": "wichita_library",
+    "predicate": "has_parent",
+    "dobject": "wichita"
+  },
+  {
+    "subject": "wisc_library",
+    "predicate": "has_parent",
+    "dobject": "wisc"
+  },
+  {
+    "subject": "wm_library",
+    "predicate": "has_parent",
+    "dobject": "wm"
+  },
+  {
+    "subject": "wmich_library",
+    "predicate": "has_parent",
+    "dobject": "wmich"
+  },
+  {
+    "subject": "wpi_library",
+    "predicate": "has_parent",
+    "dobject": "wpi"
+  },
+  {
+    "subject": "wright_library",
+    "predicate": "has_parent",
+    "dobject": "wright"
+  },
+  {
+    "subject": "wssu_library",
+    "predicate": "has_parent",
+    "dobject": "wssu"
+  },
+  {
+    "subject": "wsu_library",
+    "predicate": "has_parent",
+    "dobject": "wsu"
+  },
+  {
+    "subject": "wustl_library",
+    "predicate": "has_parent",
+    "dobject": "wustl"
+  },
+  {
+    "subject": "wvu_library",
+    "predicate": "has_parent",
+    "dobject": "wvu"
+  },
+  {
+    "subject": "yale_library",
+    "predicate": "has_parent",
+    "dobject": "yale"
+  },
+  {
+    "subject": "yorku_library",
+    "predicate": "has_parent",
+    "dobject": "yorku"
+  },
+  {
+    "subject": "yu_library",
+    "predicate": "has_parent",
+    "dobject": "yu"
+  },
+  {
+    "subject": "getty_library",
+    "predicate": "has_parent",
+    "dobject": "getty"
+  }
+]

@@ -1,15 +1,48 @@
 <script></script>
 
 <template>
-  <header>
-    <p>This is the header.</p>
+  <header class="p-3 mb-3 border-bottom">
+    <div class="container">
+      <div
+        class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
+      >
+        <ul
+          class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
+        >
+          <li>
+            <RouterLink class="nav-link px-2 link-secondary" to="/"
+              >Home</RouterLink
+            >
+          </li>
+          <li>
+            <RouterLink class="nav-link px-2 link-dark" to="/about"
+              >About</RouterLink
+            >
+          </li>
+          <li>
+            <RouterLink class="nav-link px-2 link-dark" to="/libraries"
+              >Libraries</RouterLink
+            >
+          </li>
+          <li>
+            <RouterLink
+              class="nav-link px-2 link-dark"
+              to="/libraries/library_name"
+              >Library</RouterLink
+            >
+          </li>
+        </ul>
 
-    
-    <nav>
-      <RouterLink to="/">Home</RouterLink>
-      <RouterLink to="/about">About</RouterLink>
-      <RouterLink to="/libraries">Libraries</RouterLink>
-    </nav>
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
+          <input
+            type="search"
+            class="form-control"
+            placeholder="Search..."
+            aria-label="Search"
+          />
+        </form>
+      </div>
+    </div>
   </header>
 </template>
 

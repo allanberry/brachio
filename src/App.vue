@@ -5,13 +5,16 @@ import Footer from "./components/Footer.vue";
 </script>
 
 <template>
-  <Header />
 
-  <Main />
+    <Header />
 
-  <Footer />
+    <Main />
+
+    <Footer />
+
 </template>
 
 <style lang="scss">
 @import "~/bootstrap/scss/bootstrap";
+
 </style>
