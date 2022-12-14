@@ -13,4 +13,16 @@ export default defineConfig({
       "~": fileURLToPath(new URL("./node_modules", import.meta.url)),
     },
   },
+  server: {
+    proxy: {
+      "/api": {
+        target: "https://realm.mongodb.com/api/client/v2.0/app/data-jgazm/graphql",
+        changeOrigin: true,
+        secure: false,
+        rewrite: (path) => path.replace(/^\/api/, ""),
+      },
+    },
+  }
 });
+
+

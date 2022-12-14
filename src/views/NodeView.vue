@@ -1,8 +1,33 @@
 <script setup>
 
+import axios from 'axios';
 
+var data = JSON.stringify({
+    query: `{
+      node {
+        _id
+        name
+      }
+    }`
+  });
 
+var config = {
+  method: 'post',
+  url: '/api',
+  headers: {
+    'content-type': 'application/json',
+    'apiKey': import.meta.env.VITE_APIKEY,
+  },
+  data
+};
 
+axios(config)
+  .then(function (response) {
+    console.log(JSON.stringify(response.data));
+  })
+  .catch(function (error) {
+    console.error({ request: error.request, response: error.response });
+  });
 </script>
 
 <template>

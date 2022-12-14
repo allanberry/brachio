@@ -1,12 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 
-import { createClient } from "@urql/vue";
-
-const client = createClient({
-  url: "http://localhost:3000/graphql",
-});
-
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
