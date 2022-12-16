@@ -20,7 +20,7 @@ const router = createRouter({
       component: () => import("../views/NodeListView.vue"),
     },
     {
-      path: "/libraries/library_name",
+      path: "/libraries/:slug",
       name: "library",
       component: () => import("../views/NodeView.vue"),
     },

@@ -24,13 +24,13 @@
               >Libraries</RouterLink
             >
           </li>
-          <li>
+          <!-- <li>
             <RouterLink
               class="nav-link px-2 link-dark"
               to="/libraries/library_name"
               >Library</RouterLink
             >
-          </li>
+          </li> -->
         </ul>
 
         <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
