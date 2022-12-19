@@ -1,4 +1,4 @@
-node,address,postal,city,state,country,latitude,longitude
+node_id,address,postal,city,state,country,latitude,longitude
 afpls,1 Margaret Mitchell Sq,30303,Atlanta,GA,US,33.75883,-84.388719
 bklynlibrary,10 Grand Army Plaza,11238,Brooklyn,NY,US,40.672452,-73.968287
 sfpl,100 Larkin Street,94102-4733,San Francisco,CA,US,37.779345,-122.415859

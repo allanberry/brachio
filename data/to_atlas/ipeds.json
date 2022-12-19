@@ -1,6 +1,6 @@
 [
   {
-    "UnitID": 195049,
+    "_id": "195049",
     "INSTNM_HD2017": "Rockefeller University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 559835022,
@@ -38,7 +38,7 @@
     "SFTELCA_DRVHR2017_RV": 3
   },
   {
-    "UnitID": 186131,
+    "_id": "186131",
     "INSTNM_HD2017": "Princeton University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 3955003000,
@@ -78,7 +78,7 @@
     "SFTELCA_DRVHR2017_RV": 289
   },
   {
-    "UnitID": 166027,
+    "_id": "166027",
     "INSTNM_HD2017": "Harvard University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 7416151000,
@@ -96,7 +96,7 @@
     "ADDR_HD2017": "Massachusetts Hall",
     "CITY_HD2017": "Cambridge",
     "STABBR_HD2017": "MA",
-    "ZIP_HD2017": 2138,
+    "ZIP_HD2017": "2138",
     "LONGITUD_HD2017": -71.118313,
     "LATITUDE_HD2017": 42.374471,
     "OBEREG_HD2017": 1,
@@ -118,7 +118,7 @@
     "SFTELCA_DRVHR2017_RV": 631
   },
   {
-    "UnitID": 130794,
+    "_id": "130794",
     "INSTNM_HD2017": "Yale University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 6301645817,
@@ -136,7 +136,7 @@
     "ADDR_HD2017": "Woodbridge Hall",
     "CITY_HD2017": "New Haven",
     "STABBR_HD2017": "CT",
-    "ZIP_HD2017": 6520,
+    "ZIP_HD2017": "6520",
     "LONGITUD_HD2017": -72.926688,
     "LATITUDE_HD2017": 41.311158,
     "OBEREG_HD2017": 1,
@@ -158,7 +158,7 @@
     "SFTELCA_DRVHR2017_RV": 467
   },
   {
-    "UnitID": 243744,
+    "_id": "243744",
     "INSTNM_HD2017": "Stanford University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 6271342000,
@@ -175,7 +175,7 @@
     "LTCRCLT_AL2018": 4256946,
     "CITY_HD2017": "Stanford",
     "STABBR_HD2017": "CA",
-    "ZIP_HD2017": 94305,
+    "ZIP_HD2017": "94305",
     "LONGITUD_HD2017": -122.167359,
     "LATITUDE_HD2017": 37.429434,
     "OBEREG_HD2017": 8,
@@ -197,7 +197,7 @@
     "SFTELCA_DRVHR2017_RV": 341
   },
   {
-    "UnitID": 200697,
+    "_id": "200697",
     "INSTNM_HD2017": "Air Force Institute of Technology-Graduate School of Engineering & Management",
     "LEXPTOTF_DRVAL2018": 4768,
     "LEXOMTLP_DRVAL2018": 0,
@@ -228,7 +228,7 @@
     "ENRTOT_DRVEF2017_RV": 898
   },
   {
-    "UnitID": 182670,
+    "_id": "182670",
     "INSTNM_HD2017": "Dartmouth College",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 1464489695,
@@ -268,7 +268,7 @@
     "SFTELCA_DRVHR2017_RV": 134
   },
   {
-    "UnitID": 110404,
+    "_id": "110404",
     "INSTNM_HD2017": "California Institute of Technology",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 851216000,
@@ -286,7 +286,7 @@
     "ADDR_HD2017": "1200 E California Blvd",
     "CITY_HD2017": "Pasadena",
     "STABBR_HD2017": "CA",
-    "ZIP_HD2017": 91125,
+    "ZIP_HD2017": "91125",
     "LONGITUD_HD2017": -118.125878,
     "LATITUDE_HD2017": 34.137349,
     "OBEREG_HD2017": 8,
@@ -308,7 +308,7 @@
     "SFTELCA_DRVHR2017_RV": 23
   },
   {
-    "UnitID": 139658,
+    "_id": "139658",
     "INSTNM_HD2017": "Emory University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 2642863000,
@@ -326,7 +326,7 @@
     "ADDR_HD2017": "408 Administration Building  201 Dowman Drive",
     "CITY_HD2017": "Atlanta",
     "STABBR_HD2017": "GA",
-    "ZIP_HD2017": 30322,
+    "ZIP_HD2017": "30322",
     "LONGITUD_HD2017": -84.325512,
     "LATITUDE_HD2017": 33.790183,
     "OBEREG_HD2017": 5,
@@ -348,7 +348,7 @@
     "SFTELCA_DRVHR2017_RV": 173
   },
   {
-    "UnitID": 198419,
+    "_id": "198419",
     "INSTNM_HD2017": "Duke University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 3829657000,
@@ -366,7 +366,7 @@
     "ADDR_HD2017": "103 Allen Bldg",
     "CITY_HD2017": "Durham",
     "STABBR_HD2017": "NC",
-    "ZIP_HD2017": 27708,
+    "ZIP_HD2017": "27708",
     "LONGITUD_HD2017": -78.937624,
     "LATITUDE_HD2017": 36.001135,
     "OBEREG_HD2017": 5,
@@ -388,7 +388,7 @@
     "SFTELCA_DRVHR2017_RV": 187
   },
   {
-    "UnitID": 221999,
+    "_id": "221999",
     "INSTNM_HD2017": "Vanderbilt University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 1441688835,
@@ -406,7 +406,7 @@
     "ADDR_HD2017": "2101 West End Avenue",
     "CITY_HD2017": "Nashville",
     "STABBR_HD2017": "TN",
-    "ZIP_HD2017": 37240,
+    "ZIP_HD2017": "37240",
     "LONGITUD_HD2017": -86.803369,
     "LATITUDE_HD2017": 36.14659,
     "OBEREG_HD2017": 5,
@@ -428,7 +428,7 @@
     "SFTELCA_DRVHR2017_RV": 130
   },
   {
-    "UnitID": 227757,
+    "_id": "227757",
     "INSTNM_HD2017": "Rice University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 1126636000,
@@ -468,7 +468,7 @@
     "SFTELCA_DRVHR2017_RV": 68
   },
   {
-    "UnitID": 217156,
+    "_id": "217156",
     "INSTNM_HD2017": "Brown University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 1326110000,
@@ -486,7 +486,7 @@
     "ADDR_HD2017": "One Prospect Street",
     "CITY_HD2017": "Providence",
     "STABBR_HD2017": "RI",
-    "ZIP_HD2017": 2912,
+    "ZIP_HD2017": "2912",
     "LONGITUD_HD2017": -71.40385,
     "LATITUDE_HD2017": 41.82617,
     "OBEREG_HD2017": 1,
@@ -508,7 +508,7 @@
     "SFTELCA_DRVHR2017_RV": 105
   },
   {
-    "UnitID": 166683,
+    "_id": "166683",
     "INSTNM_HD2017": "Massachusetts Institute of Technology",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 5371939000,
@@ -548,7 +548,7 @@
     "SFTELCA_DRVHR2017_RV": 76
   },
   {
-    "UnitID": 190415,
+    "_id": "190415",
     "INSTNM_HD2017": "Cornell University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 2644135890,
@@ -566,7 +566,7 @@
     "ADDR_HD2017": "300 Day Hall",
     "CITY_HD2017": "Ithaca",
     "STABBR_HD2017": "NY",
-    "ZIP_HD2017": 14853,
+    "ZIP_HD2017": "14853",
     "LONGITUD_HD2017": -76.483084,
     "LATITUDE_HD2017": 42.4472,
     "OBEREG_HD2017": 2,
@@ -588,7 +588,7 @@
     "SFTELCA_DRVHR2017_RV": 265
   },
   {
-    "UnitID": 179867,
+    "_id": "179867",
     "INSTNM_HD2017": "Washington University in St Louis",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 4034031000,
@@ -628,7 +628,7 @@
     "SFTELCA_DRVHR2017_RV": 91
   },
   {
-    "UnitID": 215062,
+    "_id": "215062",
     "INSTNM_HD2017": "University of Pennsylvania",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 5242432000,
@@ -668,7 +668,7 @@
     "SFTELCA_DRVHR2017_RV": 128
   },
   {
-    "UnitID": 152080,
+    "_id": "152080",
     "INSTNM_HD2017": "University of Notre Dame",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 2264937000,
@@ -686,7 +686,7 @@
     "ADDR_HD2017": "400 Main Building",
     "CITY_HD2017": "Notre Dame",
     "STABBR_HD2017": "IN",
-    "ZIP_HD2017": 46556,
+    "ZIP_HD2017": "46556",
     "LONGITUD_HD2017": -86.238959,
     "LATITUDE_HD2017": 41.703058,
     "OBEREG_HD2017": 3,
@@ -708,7 +708,7 @@
     "SFTELCA_DRVHR2017_RV": 143
   },
   {
-    "UnitID": 190150,
+    "_id": "190150",
     "INSTNM_HD2017": "Columbia University in the City of New York",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 5439864000,
@@ -726,7 +726,7 @@
     "ADDR_HD2017": "West 116 St and Broadway",
     "CITY_HD2017": "New York",
     "STABBR_HD2017": "NY",
-    "ZIP_HD2017": 10027,
+    "ZIP_HD2017": "10027",
     "LONGITUD_HD2017": -73.961885,
     "LATITUDE_HD2017": 40.808286,
     "OBEREG_HD2017": 2,
@@ -748,7 +748,7 @@
     "SFTELCA_DRVHR2017_RV": 290
   },
   {
-    "UnitID": 199847,
+    "_id": "199847",
     "INSTNM_HD2017": "Wake Forest University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 1411552000,
@@ -766,7 +766,7 @@
     "ADDR_HD2017": "1834 Wake Forest Road",
     "CITY_HD2017": "Winston-Salem",
     "STABBR_HD2017": "NC",
-    "ZIP_HD2017": 27106,
+    "ZIP_HD2017": "27106",
     "LONGITUD_HD2017": -80.277446,
     "LATITUDE_HD2017": 36.133609,
     "OBEREG_HD2017": 5,
@@ -788,7 +788,7 @@
     "SFTELCA_DRVHR2017_RV": 74
   },
   {
-    "UnitID": 164924,
+    "_id": "164924",
     "INSTNM_HD2017": "Boston College",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 866331068,
@@ -806,7 +806,7 @@
     "ADDR_HD2017": "140 Commonwealth Avenue",
     "CITY_HD2017": "Chestnut Hill",
     "STABBR_HD2017": "MA",
-    "ZIP_HD2017": 2467,
+    "ZIP_HD2017": "2467",
     "LONGITUD_HD2017": -71.169242,
     "LATITUDE_HD2017": 42.336213,
     "OBEREG_HD2017": 1,
@@ -828,7 +828,7 @@
     "SFTELCA_DRVHR2017_RV": 66
   },
   {
-    "UnitID": 144050,
+    "_id": "144050",
     "INSTNM_HD2017": "University of Chicago",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 2546085833,
@@ -846,7 +846,7 @@
     "ADDR_HD2017": "5801 S Ellis Ave",
     "CITY_HD2017": "Chicago",
     "STABBR_HD2017": "IL",
-    "ZIP_HD2017": 60637,
+    "ZIP_HD2017": "60637",
     "LONGITUD_HD2017": -87.599539,
     "LATITUDE_HD2017": 41.787994,
     "OBEREG_HD2017": 3,
@@ -868,7 +868,7 @@
     "SFTELCA_DRVHR2017_RV": 128
   },
   {
-    "UnitID": 147767,
+    "_id": "147767",
     "INSTNM_HD2017": "Northwestern University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 2935777000,
@@ -886,7 +886,7 @@
     "ADDR_HD2017": "633 Clark St",
     "CITY_HD2017": "Evanston",
     "STABBR_HD2017": "IL",
-    "ZIP_HD2017": 60208,
+    "ZIP_HD2017": "60208",
     "LONGITUD_HD2017": -87.679858,
     "LATITUDE_HD2017": 42.050356,
     "OBEREG_HD2017": 3,
@@ -908,7 +908,7 @@
     "SFTELCA_DRVHR2017_RV": 200
   },
   {
-    "UnitID": 195030,
+    "_id": "195030",
     "INSTNM_HD2017": "University of Rochester",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 1131429000,
@@ -948,7 +948,7 @@
     "SFTELCA_DRVHR2017_RV": 96
   },
   {
-    "UnitID": 162928,
+    "_id": "162928",
     "INSTNM_HD2017": "Johns Hopkins University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 6366233000,
@@ -988,7 +988,7 @@
     "SFTELCA_DRVHR2017_RV": 102
   },
   {
-    "UnitID": 131496,
+    "_id": "131496",
     "INSTNM_HD2017": "Georgetown University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 1371776000,
@@ -1028,7 +1028,7 @@
     "SFTELCA_DRVHR2017_RV": 85
   },
   {
-    "UnitID": 197708,
+    "_id": "197708",
     "INSTNM_HD2017": "Yeshiva University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 191014000,
@@ -1068,7 +1068,7 @@
     "SFTELCA_DRVHR2017_RV": 24
   },
   {
-    "UnitID": 112251,
+    "_id": "112251",
     "INSTNM_HD2017": "Claremont Graduate University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 59998431,
@@ -1106,7 +1106,7 @@
     "SFTELCA_DRVHR2017_RV": 0
   },
   {
-    "UnitID": 234076,
+    "_id": "234076",
     "INSTNM_HD2017": "University of Virginia-Main Campus",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 2184951197,
@@ -1146,7 +1146,7 @@
     "SFTELCA_DRVHR2017_RV": 171
   },
   {
-    "UnitID": 135726,
+    "_id": "135726",
     "INSTNM_HD2017": "University of Miami",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 1817664937,
@@ -1164,7 +1164,7 @@
     "ADDR_HD2017": "University of Miami",
     "CITY_HD2017": "Coral Gables",
     "STABBR_HD2017": "FL",
-    "ZIP_HD2017": 33146,
+    "ZIP_HD2017": "33146",
     "LONGITUD_HD2017": -80.278662,
     "LATITUDE_HD2017": 25.72126,
     "OBEREG_HD2017": 5,
@@ -1186,7 +1186,7 @@
     "SFTELCA_DRVHR2017_RV": 93
   },
   {
-    "UnitID": 170976,
+    "_id": "170976",
     "INSTNM_HD2017": "University of Michigan-Ann Arbor",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 4494847000,
@@ -1204,7 +1204,7 @@
     "ADDR_HD2017": "503 Thompson Street",
     "CITY_HD2017": "Ann Arbor",
     "STABBR_HD2017": "MI",
-    "ZIP_HD2017": 48109,
+    "ZIP_HD2017": "48109",
     "LONGITUD_HD2017": -83.742769,
     "LATITUDE_HD2017": 42.275921,
     "OBEREG_HD2017": 3,
@@ -1226,7 +1226,7 @@
     "SFTELCA_DRVHR2017_RV": 413
   },
   {
-    "UnitID": 168148,
+    "_id": "168148",
     "INSTNM_HD2017": "Tufts University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 979672960,
@@ -1265,7 +1265,7 @@
     "SFTELCA_DRVHR2017_RV": 34
   },
   {
-    "UnitID": 110635,
+    "_id": "110635",
     "INSTNM_HD2017": "University of California-Berkeley",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 2871112000,
@@ -1283,7 +1283,7 @@
     "ADDR_HD2017": "200 California Hall",
     "CITY_HD2017": "Berkeley",
     "STABBR_HD2017": "CA",
-    "ZIP_HD2017": 94720,
+    "ZIP_HD2017": "94720",
     "LONGITUD_HD2017": -122.260463,
     "LATITUDE_HD2017": 37.871918,
     "OBEREG_HD2017": 8,
@@ -1305,7 +1305,7 @@
     "SFTELCA_DRVHR2017_RV": 218
   },
   {
-    "UnitID": 160755,
+    "_id": "160755",
     "INSTNM_HD2017": "Tulane University of Louisiana",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 794579000,
@@ -1345,7 +1345,7 @@
     "SFTELCA_DRVHR2017_RV": 94
   },
   {
-    "UnitID": 131469,
+    "_id": "131469",
     "INSTNM_HD2017": "George Washington University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 1155486000,
@@ -1363,7 +1363,7 @@
     "ADDR_HD2017": "2121 I Street  NW",
     "CITY_HD2017": "Washington",
     "STABBR_HD2017": "DC",
-    "ZIP_HD2017": 20052,
+    "ZIP_HD2017": "20052",
     "LONGITUD_HD2017": -77.048363,
     "LATITUDE_HD2017": 38.89923,
     "OBEREG_HD2017": 2,
@@ -1385,7 +1385,7 @@
     "SFTELCA_DRVHR2017_RV": 108
   },
   {
-    "UnitID": 199120,
+    "_id": "199120",
     "INSTNM_HD2017": "University of North Carolina at Chapel Hill",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 2527761547,
@@ -1403,7 +1403,7 @@
     "ADDR_HD2017": "103 South Bldg Cb 9100",
     "CITY_HD2017": "Chapel Hill",
     "STABBR_HD2017": "NC",
-    "ZIP_HD2017": 27599,
+    "ZIP_HD2017": "27599",
     "LONGITUD_HD2017": -79.050969,
     "LATITUDE_HD2017": 35.911769,
     "OBEREG_HD2017": 5,
@@ -1425,7 +1425,7 @@
     "SFTELCA_DRVHR2017_RV": 138
   },
   {
-    "UnitID": 228246,
+    "_id": "228246",
     "INSTNM_HD2017": "Southern Methodist University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 581858000,
@@ -1465,7 +1465,7 @@
     "SFTELCA_DRVHR2017_RV": 65
   },
   {
-    "UnitID": 110662,
+    "_id": "110662",
     "INSTNM_HD2017": "University of California-Los Angeles",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 4829355000,
@@ -1505,7 +1505,7 @@
     "SFTELCA_DRVHR2017_RV": 151
   },
   {
-    "UnitID": 231624,
+    "_id": "231624",
     "INSTNM_HD2017": "College of William and Mary",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 386959534,
@@ -1545,7 +1545,7 @@
     "SFTELCA_DRVHR2017_RV": 47
   },
   {
-    "UnitID": 201645,
+    "_id": "201645",
     "INSTNM_HD2017": "Case Western Reserve University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 1013748238,
@@ -1563,7 +1563,7 @@
     "ADDR_HD2017": "10900 Euclid Ave",
     "CITY_HD2017": "Cleveland",
     "STABBR_HD2017": "OH",
-    "ZIP_HD2017": 44106,
+    "ZIP_HD2017": "44106",
     "LONGITUD_HD2017": -81.609596,
     "LATITUDE_HD2017": 41.507419,
     "OBEREG_HD2017": 3,
@@ -1585,7 +1585,7 @@
     "SFTELCA_DRVHR2017_RV": 73
   },
   {
-    "UnitID": 140553,
+    "_id": "140553",
     "INSTNM_HD2017": "Morehouse College",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 64595685,
@@ -1597,7 +1597,7 @@
     "ADDR_HD2017": "830 Westview Dr SW",
     "CITY_HD2017": "Atlanta",
     "STABBR_HD2017": "GA",
-    "ZIP_HD2017": 30314,
+    "ZIP_HD2017": "30314",
     "LONGITUD_HD2017": -84.414917,
     "LATITUDE_HD2017": 33.745982,
     "OBEREG_HD2017": 5,
@@ -1619,7 +1619,7 @@
     "SFTELCA_DRVHR2017_RV": 0
   },
   {
-    "UnitID": 223232,
+    "_id": "223232",
     "INSTNM_HD2017": "Baylor University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 703082000,
@@ -1636,7 +1636,7 @@
     "LTCRCLT_AL2018": 1624431,
     "CITY_HD2017": "Waco",
     "STABBR_HD2017": "TX",
-    "ZIP_HD2017": 76798,
+    "ZIP_HD2017": "76798",
     "LONGITUD_HD2017": -97.117641,
     "LATITUDE_HD2017": 31.54896,
     "OBEREG_HD2017": 6,
@@ -1658,7 +1658,7 @@
     "SFTELCA_DRVHR2017_RV": 104
   },
   {
-    "UnitID": 196468,
+    "_id": "196468",
     "INSTNM_HD2017": "Teachers College at Columbia University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 222310839,
@@ -1676,7 +1676,7 @@
     "ADDR_HD2017": "525 W 120th St",
     "CITY_HD2017": "New York",
     "STABBR_HD2017": "NY",
-    "ZIP_HD2017": 10027,
+    "ZIP_HD2017": "10027",
     "LONGITUD_HD2017": -73.960194,
     "LATITUDE_HD2017": 40.810216,
     "OBEREG_HD2017": 2,
@@ -1696,7 +1696,7 @@
     "SFTELCA_DRVHR2017_RV": 21
   },
   {
-    "UnitID": 240727,
+    "_id": "240727",
     "INSTNM_HD2017": "University of Wyoming",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 573183973,
@@ -1714,7 +1714,7 @@
     "ADDR_HD2017": "Corner of Ninth and Ivinson",
     "CITY_HD2017": "Laramie",
     "STABBR_HD2017": "WY",
-    "ZIP_HD2017": 82071,
+    "ZIP_HD2017": "82071",
     "LONGITUD_HD2017": -105.57931,
     "LATITUDE_HD2017": 41.311773,
     "OBEREG_HD2017": 7,
@@ -1736,7 +1736,7 @@
     "SFTELCA_DRVHR2017_RV": 67
   },
   {
-    "UnitID": 138947,
+    "_id": "138947",
     "INSTNM_HD2017": "Clark Atlanta University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 106628497,
@@ -1776,7 +1776,7 @@
     "SFTELCA_DRVHR2017_RV": 1
   },
   {
-    "UnitID": 153658,
+    "_id": "153658",
     "INSTNM_HD2017": "University of Iowa",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 1854796000,
@@ -1816,7 +1816,7 @@
     "SFTELCA_DRVHR2017_RV": 110
   },
   {
-    "UnitID": 131159,
+    "_id": "131159",
     "INSTNM_HD2017": "American University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 583818000,
@@ -1856,7 +1856,7 @@
     "SFTELCA_DRVHR2017_RV": 62
   },
   {
-    "UnitID": 165015,
+    "_id": "165015",
     "INSTNM_HD2017": "Brandeis University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 362573395,
@@ -1896,7 +1896,7 @@
     "SFTELCA_DRVHR2017_RV": 45
   },
   {
-    "UnitID": 239105,
+    "_id": "239105",
     "INSTNM_HD2017": "Marquette University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 414613000,
@@ -1914,7 +1914,7 @@
     "ADDR_HD2017": "1250 W Wisconsin Avenue",
     "CITY_HD2017": "Milwaukee",
     "STABBR_HD2017": "WI",
-    "ZIP_HD2017": 53233,
+    "ZIP_HD2017": "53233",
     "LONGITUD_HD2017": -87.927961,
     "LATITUDE_HD2017": 43.03903,
     "OBEREG_HD2017": 3,
@@ -1936,7 +1936,7 @@
     "SFTELCA_DRVHR2017_RV": 69
   },
   {
-    "UnitID": 141574,
+    "_id": "141574",
     "INSTNM_HD2017": "University of Hawaii at Manoa",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 897388712,
@@ -1976,7 +1976,7 @@
     "SFTELCA_DRVHR2017_RV": 82
   },
   {
-    "UnitID": 196413,
+    "_id": "196413",
     "INSTNM_HD2017": "Syracuse University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 923897977,
@@ -1994,7 +1994,7 @@
     "ADDR_HD2017": "900 South Crouse Ave.",
     "CITY_HD2017": "Syracuse",
     "STABBR_HD2017": "NY",
-    "ZIP_HD2017": 13244,
+    "ZIP_HD2017": "13244",
     "LONGITUD_HD2017": -76.136975,
     "LATITUDE_HD2017": 43.040176,
     "OBEREG_HD2017": 2,
@@ -2016,7 +2016,7 @@
     "SFTELCA_DRVHR2017_RV": 98
   },
   {
-    "UnitID": 117946,
+    "_id": "117946",
     "INSTNM_HD2017": "Loyola Marymount University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 374266000,
@@ -2056,7 +2056,7 @@
     "SFTELCA_DRVHR2017_RV": 58
   },
   {
-    "UnitID": 193900,
+    "_id": "193900",
     "INSTNM_HD2017": "New York University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 6454024693,
@@ -2096,7 +2096,7 @@
     "SFTELCA_DRVHR2017_RV": 107
   },
   {
-    "UnitID": 131450,
+    "_id": "131450",
     "INSTNM_HD2017": "Gallaudet University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 134460313,
@@ -2136,7 +2136,7 @@
     "SFTELCA_DRVHR2017_RV": 10
   },
   {
-    "UnitID": 213543,
+    "_id": "213543",
     "INSTNM_HD2017": "Lehigh University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 452456000,
@@ -2154,7 +2154,7 @@
     "ADDR_HD2017": "27 Memorial Drive West",
     "CITY_HD2017": "Bethlehem",
     "STABBR_HD2017": "PA",
-    "ZIP_HD2017": 18015,
+    "ZIP_HD2017": "18015",
     "LONGITUD_HD2017": -75.380236,
     "LATITUDE_HD2017": 40.606822,
     "OBEREG_HD2017": 2,
@@ -2176,7 +2176,7 @@
     "SFTELCA_DRVHR2017_RV": 34
   },
   {
-    "UnitID": 123961,
+    "_id": "123961",
     "INSTNM_HD2017": "University of Southern California",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 3405243000,
@@ -2194,7 +2194,7 @@
     "ADDR_HD2017": "University Park",
     "CITY_HD2017": "Los Angeles",
     "STABBR_HD2017": "CA",
-    "ZIP_HD2017": 90089,
+    "ZIP_HD2017": "90089",
     "LONGITUD_HD2017": -118.284169,
     "LATITUDE_HD2017": 34.021281,
     "OBEREG_HD2017": 8,
@@ -2216,7 +2216,7 @@
     "SFTELCA_DRVHR2017_RV": 114
   },
   {
-    "UnitID": 228778,
+    "_id": "228778",
     "INSTNM_HD2017": "The University of Texas at Austin",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 3322700425,
@@ -2234,7 +2234,7 @@
     "ADDR_HD2017": "110 Inner Campus Drive",
     "CITY_HD2017": "Austin",
     "STABBR_HD2017": "TX",
-    "ZIP_HD2017": 78712,
+    "ZIP_HD2017": "78712",
     "LONGITUD_HD2017": -97.738273,
     "LATITUDE_HD2017": 30.282825,
     "OBEREG_HD2017": 6,
@@ -2256,7 +2256,7 @@
     "SFTELCA_DRVHR2017_RV": 228
   },
   {
-    "UnitID": 130943,
+    "_id": "130943",
     "INSTNM_HD2017": "University of Delaware",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 965282192,
@@ -2274,7 +2274,7 @@
     "ADDR_HD2017": "104 Hullihen Hall",
     "CITY_HD2017": "Newark",
     "STABBR_HD2017": "DE",
-    "ZIP_HD2017": 19716,
+    "ZIP_HD2017": "19716",
     "LONGITUD_HD2017": -75.752822,
     "LATITUDE_HD2017": 39.679577,
     "OBEREG_HD2017": 2,
@@ -2296,7 +2296,7 @@
     "SFTELCA_DRVHR2017_RV": 51
   },
   {
-    "UnitID": 231174,
+    "_id": "231174",
     "INSTNM_HD2017": "University of Vermont",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 648851000,
@@ -2336,7 +2336,7 @@
     "SFTELCA_DRVHR2017_RV": 45
   },
   {
-    "UnitID": 211440,
+    "_id": "211440",
     "INSTNM_HD2017": "Carnegie Mellon University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 1282541358,
@@ -2376,7 +2376,7 @@
     "SFTELCA_DRVHR2017_RV": 54
   },
   {
-    "UnitID": 215293,
+    "_id": "215293",
     "INSTNM_HD2017": "University of Pittsburgh-Pittsburgh Campus",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 2292308507,
@@ -2394,7 +2394,7 @@
     "ADDR_HD2017": "4200 Fifth Avenue",
     "CITY_HD2017": "Pittsburgh",
     "STABBR_HD2017": "PA",
-    "ZIP_HD2017": 15260,
+    "ZIP_HD2017": "15260",
     "LONGITUD_HD2017": -79.953254,
     "LATITUDE_HD2017": 40.444388,
     "OBEREG_HD2017": 2,
@@ -2416,7 +2416,7 @@
     "SFTELCA_DRVHR2017_RV": 182
   },
   {
-    "UnitID": 127060,
+    "_id": "127060",
     "INSTNM_HD2017": "University of Denver",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 482115133,
@@ -2434,7 +2434,7 @@
     "ADDR_HD2017": "2199 S. University Blvd",
     "CITY_HD2017": "Denver",
     "STABBR_HD2017": "CO",
-    "ZIP_HD2017": 80208,
+    "ZIP_HD2017": "80208",
     "LONGITUD_HD2017": -104.963259,
     "LATITUDE_HD2017": 39.678005,
     "OBEREG_HD2017": 7,
@@ -2456,7 +2456,7 @@
     "SFTELCA_DRVHR2017_RV": 25
   },
   {
-    "UnitID": 191241,
+    "_id": "191241",
     "INSTNM_HD2017": "Fordham University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 590123000,
@@ -2474,7 +2474,7 @@
     "ADDR_HD2017": "441 E Fordham Rd",
     "CITY_HD2017": "Bronx",
     "STABBR_HD2017": "NY",
-    "ZIP_HD2017": 10458,
+    "ZIP_HD2017": "10458",
     "LONGITUD_HD2017": -73.882705,
     "LATITUDE_HD2017": 40.859354,
     "OBEREG_HD2017": 2,
@@ -2496,7 +2496,7 @@
     "SFTELCA_DRVHR2017_RV": 28
   },
   {
-    "UnitID": 243221,
+    "_id": "243221",
     "INSTNM_HD2017": "University of Puerto Rico-Rio Piedras",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 211029606,
@@ -2535,7 +2535,7 @@
     "SFTELCA_DRVHR2017_RV": 94
   },
   {
-    "UnitID": 151351,
+    "_id": "151351",
     "INSTNM_HD2017": "Indiana University-Bloomington",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 1363320349,
@@ -2575,7 +2575,7 @@
     "SFTELCA_DRVHR2017_RV": 134
   },
   {
-    "UnitID": 131283,
+    "_id": "131283",
     "INSTNM_HD2017": "Catholic University of America",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 243828552,
@@ -2593,7 +2593,7 @@
     "ADDR_HD2017": "620 Michigan Avenue  NE",
     "CITY_HD2017": "Washington",
     "STABBR_HD2017": "DC",
-    "ZIP_HD2017": 20064,
+    "ZIP_HD2017": "20064",
     "LONGITUD_HD2017": -76.997909,
     "LATITUDE_HD2017": 38.933651,
     "OBEREG_HD2017": 2,
@@ -2615,7 +2615,7 @@
     "SFTELCA_DRVHR2017_RV": 26
   },
   {
-    "UnitID": 102614,
+    "_id": "102614",
     "INSTNM_HD2017": "University of Alaska Fairbanks",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 397994430,
@@ -2655,7 +2655,7 @@
     "SFTELCA_DRVHR2017_RV": 26
   },
   {
-    "UnitID": 207971,
+    "_id": "207971",
     "INSTNM_HD2017": "University of Tulsa",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 227744547,
@@ -2695,7 +2695,7 @@
     "SFTELCA_DRVHR2017_RV": 53
   },
   {
-    "UnitID": 216366,
+    "_id": "216366",
     "INSTNM_HD2017": "Thomas Jefferson University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 928894295,
@@ -2713,7 +2713,7 @@
     "ADDR_HD2017": "1020 Walnut Street",
     "CITY_HD2017": "Philadelphia",
     "STABBR_HD2017": "PA",
-    "ZIP_HD2017": 19107,
+    "ZIP_HD2017": "19107",
     "LONGITUD_HD2017": -75.158266,
     "LATITUDE_HD2017": 39.948274,
     "OBEREG_HD2017": 2,
@@ -2733,7 +2733,7 @@
     "SFTELCA_DRVHR2017_RV": 21
   },
   {
-    "UnitID": 209551,
+    "_id": "209551",
     "INSTNM_HD2017": "University of Oregon",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 780911472,
@@ -2751,7 +2751,7 @@
     "ADDR_HD2017": "110 Johnson Hall",
     "CITY_HD2017": "Eugene",
     "STABBR_HD2017": "OR",
-    "ZIP_HD2017": 97403,
+    "ZIP_HD2017": "97403",
     "LONGITUD_HD2017": -123.075792,
     "LATITUDE_HD2017": 44.045146,
     "OBEREG_HD2017": 8,
@@ -2773,7 +2773,7 @@
     "SFTELCA_DRVHR2017_RV": 106
   },
   {
-    "UnitID": 228875,
+    "_id": "228875",
     "INSTNM_HD2017": "Texas Christian University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 568479000,
@@ -2791,7 +2791,7 @@
     "ADDR_HD2017": "2800 S University Dr",
     "CITY_HD2017": "Fort Worth",
     "STABBR_HD2017": "TX",
-    "ZIP_HD2017": 76129,
+    "ZIP_HD2017": "76129",
     "LONGITUD_HD2017": -97.361537,
     "LATITUDE_HD2017": 32.709568,
     "OBEREG_HD2017": 6,
@@ -2813,7 +2813,7 @@
     "SFTELCA_DRVHR2017_RV": 39
   },
   {
-    "UnitID": 199193,
+    "_id": "199193",
     "INSTNM_HD2017": "North Carolina State University at Raleigh",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 1474004063,
@@ -2853,7 +2853,7 @@
     "SFTELCA_DRVHR2017_RV": 91
   },
   {
-    "UnitID": 129020,
+    "_id": "129020",
     "INSTNM_HD2017": "University of Connecticut",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 1699828511,
@@ -2871,7 +2871,7 @@
     "ADDR_HD2017": "352 Mansfield Road",
     "CITY_HD2017": "Storrs",
     "STABBR_HD2017": "CT",
-    "ZIP_HD2017": 6269,
+    "ZIP_HD2017": "6269",
     "LONGITUD_HD2017": -72.249948,
     "LATITUDE_HD2017": 41.809098,
     "OBEREG_HD2017": 1,
@@ -2893,7 +2893,7 @@
     "SFTELCA_DRVHR2017_RV": 75
   },
   {
-    "UnitID": 161253,
+    "_id": "161253",
     "INSTNM_HD2017": "University of Maine",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 330223000,
@@ -2911,7 +2911,7 @@
     "ADDR_HD2017": "168 College Avenue",
     "CITY_HD2017": "Orono",
     "STABBR_HD2017": "ME",
-    "ZIP_HD2017": 4469,
+    "ZIP_HD2017": "4469",
     "LONGITUD_HD2017": -68.669332,
     "LATITUDE_HD2017": 44.899257,
     "OBEREG_HD2017": 1,
@@ -2933,7 +2933,7 @@
     "SFTELCA_DRVHR2017_RV": 31
   },
   {
-    "UnitID": 157085,
+    "_id": "157085",
     "INSTNM_HD2017": "University of Kentucky",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 1615317832,
@@ -2973,7 +2973,7 @@
     "SFTELCA_DRVHR2017_RV": 124
   },
   {
-    "UnitID": 146719,
+    "_id": "146719",
     "INSTNM_HD2017": "Loyola University Chicago",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 577938043,
@@ -2991,7 +2991,7 @@
     "ADDR_HD2017": "1032 W. Sheridan Rd",
     "CITY_HD2017": "Chicago",
     "STABBR_HD2017": "IL",
-    "ZIP_HD2017": 60660,
+    "ZIP_HD2017": "60660",
     "LONGITUD_HD2017": -87.656872,
     "LATITUDE_HD2017": 42.000765,
     "OBEREG_HD2017": 3,
@@ -3013,7 +3013,7 @@
     "SFTELCA_DRVHR2017_RV": 50
   },
   {
-    "UnitID": 157289,
+    "_id": "157289",
     "INSTNM_HD2017": "University of Louisville",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 692907000,
@@ -3053,7 +3053,7 @@
     "SFTELCA_DRVHR2017_RV": 30
   },
   {
-    "UnitID": 122436,
+    "_id": "122436",
     "INSTNM_HD2017": "University of San Diego",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 380955000,
@@ -3093,7 +3093,7 @@
     "SFTELCA_DRVHR2017_RV": 39
   },
   {
-    "UnitID": 179159,
+    "_id": "179159",
     "INSTNM_HD2017": "Saint Louis University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 537656124,
@@ -3133,7 +3133,7 @@
     "SFTELCA_DRVHR2017_RV": 18
   },
   {
-    "UnitID": 174066,
+    "_id": "174066",
     "INSTNM_HD2017": "University of Minnesota-Twin Cities",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 3018411154,
@@ -3173,7 +3173,7 @@
     "SFTELCA_DRVHR2017_RV": 277
   },
   {
-    "UnitID": 214777,
+    "_id": "214777",
     "INSTNM_HD2017": "Pennsylvania State University-Main Campus",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 3122498451,
@@ -3213,7 +3213,7 @@
     "SFTELCA_DRVHR2017_RV": 121
   },
   {
-    "UnitID": 149222,
+    "_id": "149222",
     "INSTNM_HD2017": "Southern Illinois University-Carbondale",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 792935155,
@@ -3253,7 +3253,7 @@
     "SFTELCA_DRVHR2017_RV": 28
   },
   {
-    "UnitID": 221759,
+    "_id": "221759",
     "INSTNM_HD2017": "The University of Tennessee-Knoxville",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 1136725677,
@@ -3271,7 +3271,7 @@
     "ADDR_HD2017": "527 Andy Holt Tower",
     "CITY_HD2017": "Knoxville",
     "STABBR_HD2017": "TN",
-    "ZIP_HD2017": 37996,
+    "ZIP_HD2017": "37996",
     "LONGITUD_HD2017": -83.925852,
     "LATITUDE_HD2017": 35.952082,
     "OBEREG_HD2017": 5,
@@ -3293,7 +3293,7 @@
     "SFTELCA_DRVHR2017_RV": 90
   },
   {
-    "UnitID": 230038,
+    "_id": "230038",
     "INSTNM_HD2017": "Brigham Young University-Provo",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 1425152061,
@@ -3311,7 +3311,7 @@
     "ADDR_HD2017": "Main Campus",
     "CITY_HD2017": "Provo",
     "STABBR_HD2017": "UT",
-    "ZIP_HD2017": 84602,
+    "ZIP_HD2017": "84602",
     "LONGITUD_HD2017": -111.649281,
     "LATITUDE_HD2017": 40.250851,
     "OBEREG_HD2017": 7,
@@ -3333,7 +3333,7 @@
     "SFTELCA_DRVHR2017_RV": 95
   },
   {
-    "UnitID": 236948,
+    "_id": "236948",
     "INSTNM_HD2017": "University of Washington-Seattle Campus",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 3854135362,
@@ -3373,7 +3373,7 @@
     "SFTELCA_DRVHR2017_RV": 233
   },
   {
-    "UnitID": 216597,
+    "_id": "216597",
     "INSTNM_HD2017": "Villanova University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 509251208,
@@ -3413,7 +3413,7 @@
     "SFTELCA_DRVHR2017_RV": 32
   },
   {
-    "UnitID": 187985,
+    "_id": "187985",
     "INSTNM_HD2017": "University of New Mexico-Main Campus",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 1066636928,
@@ -3431,7 +3431,7 @@
     "ADDR_HD2017": "1700 Lomas Blvd NE",
     "CITY_HD2017": "Albuquerque",
     "STABBR_HD2017": "NM",
-    "ZIP_HD2017": 87106,
+    "ZIP_HD2017": "87106",
     "LONGITUD_HD2017": -106.620155,
     "LATITUDE_HD2017": 35.083868,
     "OBEREG_HD2017": 6,
@@ -3453,7 +3453,7 @@
     "SFTELCA_DRVHR2017_RV": 124
   },
   {
-    "UnitID": 155317,
+    "_id": "155317",
     "INSTNM_HD2017": "University of Kansas",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 1183297725,
@@ -3471,7 +3471,7 @@
     "ADDR_HD2017": "Strong Hall  1450 Jayhawk Blvd  Room 230",
     "CITY_HD2017": "Lawrence",
     "STABBR_HD2017": "KS",
-    "ZIP_HD2017": 66045,
+    "ZIP_HD2017": "66045",
     "LONGITUD_HD2017": -95.247567,
     "LATITUDE_HD2017": 38.958549,
     "OBEREG_HD2017": 4,
@@ -3493,7 +3493,7 @@
     "SFTELCA_DRVHR2017_RV": 112
   },
   {
-    "UnitID": 165334,
+    "_id": "165334",
     "INSTNM_HD2017": "Clark University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 129700000,
@@ -3533,7 +3533,7 @@
     "SFTELCA_DRVHR2017_RV": 6
   },
   {
-    "UnitID": 230764,
+    "_id": "230764",
     "INSTNM_HD2017": "University of Utah",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 2119406000,
@@ -3573,7 +3573,7 @@
     "SFTELCA_DRVHR2017_RV": 116
   },
   {
-    "UnitID": 140447,
+    "_id": "140447",
     "INSTNM_HD2017": "Mercer University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 268484001,
@@ -3591,7 +3591,7 @@
     "ADDR_HD2017": "1501 Mercer University Drive",
     "CITY_HD2017": "Macon",
     "STABBR_HD2017": "GA",
-    "ZIP_HD2017": 31207,
+    "ZIP_HD2017": "31207",
     "LONGITUD_HD2017": -83.648295,
     "LATITUDE_HD2017": 32.831787,
     "OBEREG_HD2017": 5,
@@ -3613,7 +3613,7 @@
     "SFTELCA_DRVHR2017_RV": 60
   },
   {
-    "UnitID": 234030,
+    "_id": "234030",
     "INSTNM_HD2017": "Virginia Commonwealth University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 990909896,
@@ -3653,7 +3653,7 @@
     "SFTELCA_DRVHR2017_RV": 68
   },
   {
-    "UnitID": 126562,
+    "_id": "126562",
     "INSTNM_HD2017": "University of Colorado Denver/Anschutz Medical Campus",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 1285867745,
@@ -3692,7 +3692,7 @@
     "SFTELCA_DRVHR2017_RV": 50
   },
   {
-    "UnitID": 204796,
+    "_id": "204796",
     "INSTNM_HD2017": "Ohio State University-Main Campus",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 2966844143,
@@ -3710,7 +3710,7 @@
     "ADDR_HD2017": "190 N. Oval Mall",
     "CITY_HD2017": "Columbus",
     "STABBR_HD2017": "OH",
-    "ZIP_HD2017": 43210,
+    "ZIP_HD2017": "43210",
     "LONGITUD_HD2017": -83.014853,
     "LATITUDE_HD2017": 39.999324,
     "OBEREG_HD2017": 3,
@@ -3732,7 +3732,7 @@
     "SFTELCA_DRVHR2017_RV": 139
   },
   {
-    "UnitID": 186371,
+    "_id": "186371",
     "INSTNM_HD2017": "Rutgers University-Camden",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 191775000,
@@ -3750,7 +3750,7 @@
     "ADDR_HD2017": "406 Penn",
     "CITY_HD2017": "Camden",
     "STABBR_HD2017": "NJ",
-    "ZIP_HD2017": 8102,
+    "ZIP_HD2017": "8102",
     "LONGITUD_HD2017": -75.12224,
     "LATITUDE_HD2017": 39.948064,
     "OBEREG_HD2017": 2,
@@ -3772,7 +3772,7 @@
     "SFTELCA_DRVHR2017_RV": 30
   },
   {
-    "UnitID": 228723,
+    "_id": "228723",
     "INSTNM_HD2017": "Texas A & M University-College Station",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 3326547571,
@@ -3812,7 +3812,7 @@
     "SFTELCA_DRVHR2017_RV": 111
   },
   {
-    "UnitID": 164988,
+    "_id": "164988",
     "INSTNM_HD2017": "Boston University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 2146238000,
@@ -3830,7 +3830,7 @@
     "ADDR_HD2017": "One Silber Way",
     "CITY_HD2017": "Boston",
     "STABBR_HD2017": "MA",
-    "ZIP_HD2017": 2215,
+    "ZIP_HD2017": "2215",
     "LONGITUD_HD2017": -71.107942,
     "LATITUDE_HD2017": 42.351118,
     "OBEREG_HD2017": 1,
@@ -3852,7 +3852,7 @@
     "SFTELCA_DRVHR2017_RV": 110
   },
   {
-    "UnitID": 207388,
+    "_id": "207388",
     "INSTNM_HD2017": "Oklahoma State University-Main Campus",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 661316515,
@@ -3892,7 +3892,7 @@
     "SFTELCA_DRVHR2017_RV": 43
   },
   {
-    "UnitID": 110680,
+    "_id": "110680",
     "INSTNM_HD2017": "University of California-San Diego",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 3272433000,
@@ -3910,7 +3910,7 @@
     "ADDR_HD2017": "9500 Gilman Dr",
     "CITY_HD2017": "La Jolla",
     "STABBR_HD2017": "CA",
-    "ZIP_HD2017": 92093,
+    "ZIP_HD2017": "92093",
     "LONGITUD_HD2017": -117.237793,
     "LATITUDE_HD2017": 32.876598,
     "OBEREG_HD2017": 8,
@@ -3932,7 +3932,7 @@
     "SFTELCA_DRVHR2017_RV": 101
   },
   {
-    "UnitID": 240444,
+    "_id": "240444",
     "INSTNM_HD2017": "University of Wisconsin-Madison",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 2716065392,
@@ -3972,7 +3972,7 @@
     "SFTELCA_DRVHR2017_RV": 204
   },
   {
-    "UnitID": 186399,
+    "_id": "186399",
     "INSTNM_HD2017": "Rutgers University-Newark",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 454947000,
@@ -3990,7 +3990,7 @@
     "ADDR_HD2017": "249 University Avenue  Blumenthal Hall",
     "CITY_HD2017": "Newark",
     "STABBR_HD2017": "NJ",
-    "ZIP_HD2017": 7102,
+    "ZIP_HD2017": "7102",
     "LONGITUD_HD2017": -74.175809,
     "LATITUDE_HD2017": 40.739122,
     "OBEREG_HD2017": 2,
@@ -4012,7 +4012,7 @@
     "SFTELCA_DRVHR2017_RV": 59
   },
   {
-    "UnitID": 104179,
+    "_id": "104179",
     "INSTNM_HD2017": "University of Arizona",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 1904525558,
@@ -4052,7 +4052,7 @@
     "SFTELCA_DRVHR2017_RV": 175
   },
   {
-    "UnitID": 136215,
+    "_id": "136215",
     "INSTNM_HD2017": "Nova Southeastern University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 683541398,
@@ -4092,7 +4092,7 @@
     "SFTELCA_DRVHR2017_RV": 50
   },
   {
-    "UnitID": 145637,
+    "_id": "145637",
     "INSTNM_HD2017": "University of Illinois at Urbana-Champaign",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 2873532493,
@@ -4132,7 +4132,7 @@
     "SFTELCA_DRVHR2017_RV": 249
   },
   {
-    "UnitID": 196060,
+    "_id": "196060",
     "INSTNM_HD2017": "SUNY at Albany",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 510764877,
@@ -4150,7 +4150,7 @@
     "ADDR_HD2017": "1400 Washington Avenue",
     "CITY_HD2017": "Albany",
     "STABBR_HD2017": "NY",
-    "ZIP_HD2017": 12222,
+    "ZIP_HD2017": "12222",
     "LONGITUD_HD2017": -73.824662,
     "LATITUDE_HD2017": 42.685489,
     "OBEREG_HD2017": 2,
@@ -4172,7 +4172,7 @@
     "SFTELCA_DRVHR2017_RV": 34
   },
   {
-    "UnitID": 163286,
+    "_id": "163286",
     "INSTNM_HD2017": "University of Maryland-College Park",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 1786232938,
@@ -4189,7 +4189,7 @@
     "LTCRCLT_AL2018": 1212268,
     "CITY_HD2017": "College Park",
     "STABBR_HD2017": "MD",
-    "ZIP_HD2017": 20742,
+    "ZIP_HD2017": "20742",
     "LONGITUD_HD2017": -76.944721,
     "LATITUDE_HD2017": 38.988178,
     "OBEREG_HD2017": 2,
@@ -4211,7 +4211,7 @@
     "SFTELCA_DRVHR2017_RV": 120
   },
   {
-    "UnitID": 182281,
+    "_id": "182281",
     "INSTNM_HD2017": "University of Nevada-Las Vegas",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 760258000,
@@ -4229,7 +4229,7 @@
     "ADDR_HD2017": "4505 S Maryland Pky",
     "CITY_HD2017": "Las Vegas",
     "STABBR_HD2017": "NV",
-    "ZIP_HD2017": 89154,
+    "ZIP_HD2017": "89154",
     "LONGITUD_HD2017": -115.138462,
     "LATITUDE_HD2017": 36.106047,
     "OBEREG_HD2017": 8,
@@ -4251,7 +4251,7 @@
     "SFTELCA_DRVHR2017_RV": 88
   },
   {
-    "UnitID": 131520,
+    "_id": "131520",
     "INSTNM_HD2017": "Howard University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 570336000,
@@ -4291,7 +4291,7 @@
     "SFTELCA_DRVHR2017_RV": 48
   },
   {
-    "UnitID": 139959,
+    "_id": "139959",
     "INSTNM_HD2017": "University of Georgia",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 1489587510,
@@ -4309,7 +4309,7 @@
     "ADDR_HD2017": "Administration Building",
     "CITY_HD2017": "Athens",
     "STABBR_HD2017": "GA",
-    "ZIP_HD2017": 30602,
+    "ZIP_HD2017": "30602",
     "LONGITUD_HD2017": -83.374039,
     "LATITUDE_HD2017": 33.956262,
     "OBEREG_HD2017": 5,
@@ -4331,7 +4331,7 @@
     "SFTELCA_DRVHR2017_RV": 95
   },
   {
-    "UnitID": 145725,
+    "_id": "145725",
     "INSTNM_HD2017": "Illinois Institute of Technology",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 256319000,
@@ -4349,7 +4349,7 @@
     "ADDR_HD2017": "10 West 35th Street",
     "CITY_HD2017": "Chicago",
     "STABBR_HD2017": "IL",
-    "ZIP_HD2017": 60616,
+    "ZIP_HD2017": "60616",
     "LONGITUD_HD2017": -87.627321,
     "LATITUDE_HD2017": 41.8313,
     "OBEREG_HD2017": 3,
@@ -4371,7 +4371,7 @@
     "SFTELCA_DRVHR2017_RV": 19
   },
   {
-    "UnitID": 172699,
+    "_id": "172699",
     "INSTNM_HD2017": "Western Michigan University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 498463521,
@@ -4411,7 +4411,7 @@
     "SFTELCA_DRVHR2017_RV": 32
   },
   {
-    "UnitID": 207500,
+    "_id": "207500",
     "INSTNM_HD2017": "University of Oklahoma-Norman Campus",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 879848000,
@@ -4451,7 +4451,7 @@
     "SFTELCA_DRVHR2017_RV": 63
   },
   {
-    "UnitID": 182290,
+    "_id": "182290",
     "INSTNM_HD2017": "University of Nevada-Reno",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 625073327,
@@ -4469,7 +4469,7 @@
     "ADDR_HD2017": "North Virginia Street",
     "CITY_HD2017": "Reno",
     "STABBR_HD2017": "NV",
-    "ZIP_HD2017": 89557,
+    "ZIP_HD2017": "89557",
     "LONGITUD_HD2017": -119.815377,
     "LATITUDE_HD2017": 39.543642,
     "OBEREG_HD2017": 8,
@@ -4491,7 +4491,7 @@
     "SFTELCA_DRVHR2017_RV": 29
   },
   {
-    "UnitID": 155399,
+    "_id": "155399",
     "INSTNM_HD2017": "Kansas State University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 710642553,
@@ -4509,7 +4509,7 @@
     "ADDR_HD2017": "919 Mid-Campus Drive  Anderson Hall",
     "CITY_HD2017": "Manhattan",
     "STABBR_HD2017": "KS",
-    "ZIP_HD2017": 66506,
+    "ZIP_HD2017": "66506",
     "LONGITUD_HD2017": -96.581077,
     "LATITUDE_HD2017": 39.188648,
     "OBEREG_HD2017": 4,
@@ -4531,7 +4531,7 @@
     "SFTELCA_DRVHR2017_RV": 73
   },
   {
-    "UnitID": 171100,
+    "_id": "171100",
     "INSTNM_HD2017": "Michigan State University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 2524672090,
@@ -4570,7 +4570,7 @@
     "SFTELCA_DRVHR2017_RV": 157
   },
   {
-    "UnitID": 126614,
+    "_id": "126614",
     "INSTNM_HD2017": "University of Colorado Boulder",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 1432684570,
@@ -4609,7 +4609,7 @@
     "SFTELCA_DRVHR2017_RV": 83
   },
   {
-    "UnitID": 172644,
+    "_id": "172644",
     "INSTNM_HD2017": "Wayne State University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 852160000,
@@ -4627,7 +4627,7 @@
     "ADDR_HD2017": "656 West Kirby Street",
     "CITY_HD2017": "Detroit",
     "STABBR_HD2017": "MI",
-    "ZIP_HD2017": 48202,
+    "ZIP_HD2017": "48202",
     "LONGITUD_HD2017": -83.068998,
     "LATITUDE_HD2017": 42.358994,
     "OBEREG_HD2017": 3,
@@ -4649,7 +4649,7 @@
     "SFTELCA_DRVHR2017_RV": 57
   },
   {
-    "UnitID": 243780,
+    "_id": "243780",
     "INSTNM_HD2017": "Purdue University-Main Campus",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 1767061392,
@@ -4689,7 +4689,7 @@
     "SFTELCA_DRVHR2017_RV": 31
   },
   {
-    "UnitID": 110671,
+    "_id": "110671",
     "INSTNM_HD2017": "University of California-Riverside",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 934034000,
@@ -4707,7 +4707,7 @@
     "ADDR_HD2017": "900 University Ave",
     "CITY_HD2017": "Riverside",
     "STABBR_HD2017": "CA",
-    "ZIP_HD2017": 92521,
+    "ZIP_HD2017": "92521",
     "LONGITUD_HD2017": -117.32741,
     "LATITUDE_HD2017": 33.97246,
     "OBEREG_HD2017": 8,
@@ -4729,7 +4729,7 @@
     "SFTELCA_DRVHR2017_RV": 62
   },
   {
-    "UnitID": 171128,
+    "_id": "171128",
     "INSTNM_HD2017": "Michigan Technological University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 238504890,
@@ -4769,7 +4769,7 @@
     "SFTELCA_DRVHR2017_RV": 12
   },
   {
-    "UnitID": 110705,
+    "_id": "110705",
     "INSTNM_HD2017": "University of California-Santa Barbara",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 998432000,
@@ -4787,7 +4787,7 @@
     "ADDR_HD2017": "5221 Cheadle Hall",
     "CITY_HD2017": "Santa Barbara",
     "STABBR_HD2017": "CA",
-    "ZIP_HD2017": 93106,
+    "ZIP_HD2017": "93106",
     "LONGITUD_HD2017": -119.846426,
     "LATITUDE_HD2017": 34.416297,
     "OBEREG_HD2017": 8,
@@ -4809,7 +4809,7 @@
     "SFTELCA_DRVHR2017_RV": 49
   },
   {
-    "UnitID": 134130,
+    "_id": "134130",
     "INSTNM_HD2017": "University of Florida",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 3082681000,
@@ -4827,7 +4827,7 @@
     "ADDR_HD2017": "Tigert Hall",
     "CITY_HD2017": "Gainesville",
     "STABBR_HD2017": "FL",
-    "ZIP_HD2017": 32611,
+    "ZIP_HD2017": "32611",
     "LONGITUD_HD2017": -82.347911,
     "LATITUDE_HD2017": 29.64629,
     "OBEREG_HD2017": 5,
@@ -4849,7 +4849,7 @@
     "SFTELCA_DRVHR2017_RV": 196
   },
   {
-    "UnitID": 110653,
+    "_id": "110653",
     "INSTNM_HD2017": "University of California-Irvine",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 1936532000,
@@ -4867,7 +4867,7 @@
     "ADDR_HD2017": "501 Aldrich Hall",
     "CITY_HD2017": "Irvine",
     "STABBR_HD2017": "CA",
-    "ZIP_HD2017": 92697,
+    "ZIP_HD2017": "92697",
     "LONGITUD_HD2017": -117.841248,
     "LATITUDE_HD2017": 33.648434,
     "OBEREG_HD2017": 8,
@@ -4889,7 +4889,7 @@
     "SFTELCA_DRVHR2017_RV": 54
   },
   {
-    "UnitID": 183044,
+    "_id": "183044",
     "INSTNM_HD2017": "University of New Hampshire-Main Campus",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 486860127,
@@ -4929,7 +4929,7 @@
     "SFTELCA_DRVHR2017_RV": 51
   },
   {
-    "UnitID": 168421,
+    "_id": "168421",
     "INSTNM_HD2017": "Worcester Polytechnic Institute",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 254244000,
@@ -4969,7 +4969,7 @@
     "SFTELCA_DRVHR2017_RV": 14
   },
   {
-    "UnitID": 232186,
+    "_id": "232186",
     "INSTNM_HD2017": "George Mason University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 754503941,
@@ -5009,7 +5009,7 @@
     "SFTELCA_DRVHR2017_RV": 101
   },
   {
-    "UnitID": 181464,
+    "_id": "181464",
     "INSTNM_HD2017": "University of Nebraska-Lincoln",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 884524404,
@@ -5027,7 +5027,7 @@
     "ADDR_HD2017": "14th and R St",
     "CITY_HD2017": "Lincoln",
     "STABBR_HD2017": "NE",
-    "ZIP_HD2017": 68588,
+    "ZIP_HD2017": "68588",
     "LONGITUD_HD2017": -96.700508,
     "LATITUDE_HD2017": 40.817598,
     "OBEREG_HD2017": 4,
@@ -5049,7 +5049,7 @@
     "SFTELCA_DRVHR2017_RV": 109
   },
   {
-    "UnitID": 151111,
+    "_id": "151111",
     "INSTNM_HD2017": "Indiana University-Purdue University-Indianapolis",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 1319418527,
@@ -5089,7 +5089,7 @@
     "SFTELCA_DRVHR2017_RV": 48
   },
   {
-    "UnitID": 196079,
+    "_id": "196079",
     "INSTNM_HD2017": "Binghamton University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 470443076,
@@ -5129,7 +5129,7 @@
     "SFTELCA_DRVHR2017_RV": 29
   },
   {
-    "UnitID": 163268,
+    "_id": "163268",
     "INSTNM_HD2017": "University of Maryland-Baltimore County",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 393762329,
@@ -5147,7 +5147,7 @@
     "ADDR_HD2017": "1000 Hilltop Circle",
     "CITY_HD2017": "Baltimore",
     "STABBR_HD2017": "MD",
-    "ZIP_HD2017": 21250,
+    "ZIP_HD2017": "21250",
     "LONGITUD_HD2017": -76.711607,
     "LATITUDE_HD2017": 39.256686,
     "OBEREG_HD2017": 2,
@@ -5169,7 +5169,7 @@
     "SFTELCA_DRVHR2017_RV": 40
   },
   {
-    "UnitID": 142285,
+    "_id": "142285",
     "INSTNM_HD2017": "University of Idaho",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 384302678,
@@ -5209,7 +5209,7 @@
     "SFTELCA_DRVHR2017_RV": 48
   },
   {
-    "UnitID": 218663,
+    "_id": "218663",
     "INSTNM_HD2017": "University of South Carolina-Columbia",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 991496909,
@@ -5227,7 +5227,7 @@
     "ADDR_HD2017": "Columbia-Campus",
     "CITY_HD2017": "Columbia",
     "STABBR_HD2017": "SC",
-    "ZIP_HD2017": 29208,
+    "ZIP_HD2017": "29208",
     "LONGITUD_HD2017": -81.026935,
     "LATITUDE_HD2017": 33.996788,
     "OBEREG_HD2017": 5,
@@ -5249,7 +5249,7 @@
     "SFTELCA_DRVHR2017_RV": 96
   },
   {
-    "UnitID": 178402,
+    "_id": "178402",
     "INSTNM_HD2017": "University of Missouri-Kansas City",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 331245309,
@@ -5267,7 +5267,7 @@
     "ADDR_HD2017": "5100 Rockhill Rd.",
     "CITY_HD2017": "Kansas City",
     "STABBR_HD2017": "MO",
-    "ZIP_HD2017": 64110,
+    "ZIP_HD2017": "64110",
     "LONGITUD_HD2017": -94.582141,
     "LATITUDE_HD2017": 39.034179,
     "OBEREG_HD2017": 4,
@@ -5289,7 +5289,7 @@
     "SFTELCA_DRVHR2017_RV": 38
   },
   {
-    "UnitID": 212106,
+    "_id": "212106",
     "INSTNM_HD2017": "Duquesne University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 287251000,
@@ -5307,7 +5307,7 @@
     "ADDR_HD2017": "Administration Bldg 600 Forbes Ave",
     "CITY_HD2017": "Pittsburgh",
     "STABBR_HD2017": "PA",
-    "ZIP_HD2017": 15282,
+    "ZIP_HD2017": "15282",
     "LONGITUD_HD2017": -79.993123,
     "LATITUDE_HD2017": 40.43589,
     "OBEREG_HD2017": 2,
@@ -5329,7 +5329,7 @@
     "SFTELCA_DRVHR2017_RV": 27
   },
   {
-    "UnitID": 199148,
+    "_id": "199148",
     "INSTNM_HD2017": "University of North Carolina at Greensboro",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 432394476,
@@ -5369,7 +5369,7 @@
     "SFTELCA_DRVHR2017_RV": 43
   },
   {
-    "UnitID": 202480,
+    "_id": "202480",
     "INSTNM_HD2017": "University of Dayton",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 473058000,
@@ -5387,7 +5387,7 @@
     "ADDR_HD2017": "300 College Park",
     "CITY_HD2017": "Dayton",
     "STABBR_HD2017": "OH",
-    "ZIP_HD2017": 45469,
+    "ZIP_HD2017": "45469",
     "LONGITUD_HD2017": -84.176113,
     "LATITUDE_HD2017": 39.739547,
     "OBEREG_HD2017": 3,
@@ -5409,7 +5409,7 @@
     "SFTELCA_DRVHR2017_RV": 27
   },
   {
-    "UnitID": 186380,
+    "_id": "186380",
     "INSTNM_HD2017": "Rutgers University-New Brunswick",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 2653504000,
@@ -5449,7 +5449,7 @@
     "SFTELCA_DRVHR2017_RV": 147
   },
   {
-    "UnitID": 190576,
+    "_id": "190576",
     "INSTNM_HD2017": "CUNY Graduate School and University Center",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 327635637,
@@ -5467,7 +5467,7 @@
     "ADDR_HD2017": "365 Fifth Ave",
     "CITY_HD2017": "New York",
     "STABBR_HD2017": "NY",
-    "ZIP_HD2017": 10016,
+    "ZIP_HD2017": "10016",
     "LONGITUD_HD2017": -73.983822,
     "LATITUDE_HD2017": 40.748612,
     "OBEREG_HD2017": 2,
@@ -5487,7 +5487,7 @@
     "SFTELCA_DRVHR2017_RV": 18
   },
   {
-    "UnitID": 153603,
+    "_id": "153603",
     "INSTNM_HD2017": "Iowa State University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 1036871387,
@@ -5527,7 +5527,7 @@
     "SFTELCA_DRVHR2017_RV": 92
   },
   {
-    "UnitID": 110644,
+    "_id": "110644",
     "INSTNM_HD2017": "University of California-Davis",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 2531393000,
@@ -5567,7 +5567,7 @@
     "SFTELCA_DRVHR2017_RV": 60
   },
   {
-    "UnitID": 196088,
+    "_id": "196088",
     "INSTNM_HD2017": "University at Buffalo",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 1066803143,
@@ -5607,7 +5607,7 @@
     "SFTELCA_DRVHR2017_RV": 46
   },
   {
-    "UnitID": 167987,
+    "_id": "167987",
     "INSTNM_HD2017": "University of Massachusetts-Dartmouth",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 207454000,
@@ -5647,7 +5647,7 @@
     "SFTELCA_DRVHR2017_RV": 19
   },
   {
-    "UnitID": 216339,
+    "_id": "216339",
     "INSTNM_HD2017": "Temple University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 1399311000,
@@ -5687,7 +5687,7 @@
     "SFTELCA_DRVHR2017_RV": 83
   },
   {
-    "UnitID": 106397,
+    "_id": "106397",
     "INSTNM_HD2017": "University of Arkansas",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 853801648,
@@ -5705,7 +5705,7 @@
     "ADDR_HD2017": "Administration Bldg 425",
     "CITY_HD2017": "Fayetteville",
     "STABBR_HD2017": "AR",
-    "ZIP_HD2017": 72701,
+    "ZIP_HD2017": "72701",
     "LONGITUD_HD2017": -94.176981,
     "LATITUDE_HD2017": 36.070009,
     "OBEREG_HD2017": 5,
@@ -5727,7 +5727,7 @@
     "SFTELCA_DRVHR2017_RV": 40
   },
   {
-    "UnitID": 229115,
+    "_id": "229115",
     "INSTNM_HD2017": "Texas Tech University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 837942535,
@@ -5767,7 +5767,7 @@
     "SFTELCA_DRVHR2017_RV": 25
   },
   {
-    "UnitID": 225511,
+    "_id": "225511",
     "INSTNM_HD2017": "University of Houston",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 1087368643,
@@ -5807,7 +5807,7 @@
     "SFTELCA_DRVHR2017_RV": 82
   },
   {
-    "UnitID": 166629,
+    "_id": "166629",
     "INSTNM_HD2017": "University of Massachusetts-Amherst",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 1040035291,
@@ -5825,7 +5825,7 @@
     "ADDR_HD2017": "374 Whitmore Building 181 Presidents Drive",
     "CITY_HD2017": "Amherst",
     "STABBR_HD2017": "MA",
-    "ZIP_HD2017": 1003,
+    "ZIP_HD2017": "1003",
     "LONGITUD_HD2017": -72.526728,
     "LATITUDE_HD2017": 42.385999,
     "OBEREG_HD2017": 1,
@@ -5847,7 +5847,7 @@
     "SFTELCA_DRVHR2017_RV": 83
   },
   {
-    "UnitID": 217882,
+    "_id": "217882",
     "INSTNM_HD2017": "Clemson University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 881064427,
@@ -5865,7 +5865,7 @@
     "ADDR_HD2017": "201 Sikes Hall",
     "CITY_HD2017": "Clemson",
     "STABBR_HD2017": "SC",
-    "ZIP_HD2017": 29634,
+    "ZIP_HD2017": "29634",
     "LONGITUD_HD2017": -82.835114,
     "LATITUDE_HD2017": 34.679381,
     "OBEREG_HD2017": 5,
@@ -5887,7 +5887,7 @@
     "SFTELCA_DRVHR2017_RV": 74
   },
   {
-    "UnitID": 178396,
+    "_id": "178396",
     "INSTNM_HD2017": "University of Missouri-Columbia",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 1005806323,
@@ -5927,7 +5927,7 @@
     "SFTELCA_DRVHR2017_RV": 53
   },
   {
-    "UnitID": 126818,
+    "_id": "126818",
     "INSTNM_HD2017": "Colorado State University-Fort Collins",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 1147394682,
@@ -5967,7 +5967,7 @@
     "SFTELCA_DRVHR2017_RV": 28
   },
   {
-    "UnitID": 217484,
+    "_id": "217484",
     "INSTNM_HD2017": "University of Rhode Island",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 479193986,
@@ -5985,7 +5985,7 @@
     "ADDR_HD2017": "Green Hall  35 Campus Avenue",
     "CITY_HD2017": "Kingston",
     "STABBR_HD2017": "RI",
-    "ZIP_HD2017": 2881,
+    "ZIP_HD2017": "2881",
     "LONGITUD_HD2017": -71.527356,
     "LATITUDE_HD2017": 41.484691,
     "OBEREG_HD2017": 1,
@@ -6007,7 +6007,7 @@
     "SFTELCA_DRVHR2017_RV": 26
   },
   {
-    "UnitID": 193654,
+    "_id": "193654",
     "INSTNM_HD2017": "The New School",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 384554000,
@@ -6047,7 +6047,7 @@
     "SFTELCA_DRVHR2017_RV": 13
   },
   {
-    "UnitID": 200280,
+    "_id": "200280",
     "INSTNM_HD2017": "University of North Dakota",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 432338291,
@@ -6087,7 +6087,7 @@
     "SFTELCA_DRVHR2017_RV": 54
   },
   {
-    "UnitID": 176017,
+    "_id": "176017",
     "INSTNM_HD2017": "University of Mississippi",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 847439738,
@@ -6127,7 +6127,7 @@
     "SFTELCA_DRVHR2017_RV": 39
   },
   {
-    "UnitID": 167358,
+    "_id": "167358",
     "INSTNM_HD2017": "Northeastern University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 1112408656,
@@ -6167,7 +6167,7 @@
     "SFTELCA_DRVHR2017_RV": 48
   },
   {
-    "UnitID": 227216,
+    "_id": "227216",
     "INSTNM_HD2017": "University of North Texas",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 1112608907,
@@ -6207,7 +6207,7 @@
     "SFTELCA_DRVHR2017_RV": 99
   },
   {
-    "UnitID": 233921,
+    "_id": "233921",
     "INSTNM_HD2017": "Virginia Polytechnic Institute and State University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 1264147935,
@@ -6247,7 +6247,7 @@
     "SFTELCA_DRVHR2017_RV": 32
   },
   {
-    "UnitID": 206604,
+    "_id": "206604",
     "INSTNM_HD2017": "Wright State University-Main Campus",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 330031197,
@@ -6287,7 +6287,7 @@
     "SFTELCA_DRVHR2017_RV": 39
   },
   {
-    "UnitID": 126775,
+    "_id": "126775",
     "INSTNM_HD2017": "Colorado School of Mines",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 252325677,
@@ -6305,7 +6305,7 @@
     "ADDR_HD2017": "1500 Illinois St",
     "CITY_HD2017": "Golden",
     "STABBR_HD2017": "CO",
-    "ZIP_HD2017": 80401,
+    "ZIP_HD2017": "80401",
     "LONGITUD_HD2017": -105.223364,
     "LATITUDE_HD2017": 39.751443,
     "OBEREG_HD2017": 7,
@@ -6327,7 +6327,7 @@
     "SFTELCA_DRVHR2017_RV": 15
   },
   {
-    "UnitID": 196103,
+    "_id": "196103",
     "INSTNM_HD2017": "SUNY College of Environmental Science and Forestry",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 87513648,
@@ -6345,7 +6345,7 @@
     "ADDR_HD2017": "One Forestry Dr.",
     "CITY_HD2017": "Syracuse",
     "STABBR_HD2017": "NY",
-    "ZIP_HD2017": 13210,
+    "ZIP_HD2017": "13210",
     "LONGITUD_HD2017": -76.138724,
     "LATITUDE_HD2017": 43.034765,
     "OBEREG_HD2017": 2,
@@ -6367,7 +6367,7 @@
     "SFTELCA_DRVHR2017_RV": 5
   },
   {
-    "UnitID": 133650,
+    "_id": "133650",
     "INSTNM_HD2017": "Florida Agricultural and Mechanical University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 244373546,
@@ -6385,7 +6385,7 @@
     "ADDR_HD2017": "1500 S Martin Luther King Jr Blvd",
     "CITY_HD2017": "Tallahassee",
     "STABBR_HD2017": "FL",
-    "ZIP_HD2017": 32307,
+    "ZIP_HD2017": "32307",
     "LONGITUD_HD2017": -84.290226,
     "LATITUDE_HD2017": 30.428504,
     "OBEREG_HD2017": 5,
@@ -6407,7 +6407,7 @@
     "SFTELCA_DRVHR2017_RV": 43
   },
   {
-    "UnitID": 100751,
+    "_id": "100751",
     "INSTNM_HD2017": "The University of Alabama",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 1094684351,
@@ -6447,7 +6447,7 @@
     "SFTELCA_DRVHR2017_RV": 71
   },
   {
-    "UnitID": 139755,
+    "_id": "139755",
     "INSTNM_HD2017": "Georgia Institute of Technology-Main Campus",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 1630960190,
@@ -6487,7 +6487,7 @@
     "SFTELCA_DRVHR2017_RV": 33
   },
   {
-    "UnitID": 198464,
+    "_id": "198464",
     "INSTNM_HD2017": "East Carolina University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 655579033,
@@ -6527,7 +6527,7 @@
     "SFTELCA_DRVHR2017_RV": 8
   },
   {
-    "UnitID": 110714,
+    "_id": "110714",
     "INSTNM_HD2017": "University of California-Santa Cruz",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 811237000,
@@ -6567,7 +6567,7 @@
     "SFTELCA_DRVHR2017_RV": 39
   },
   {
-    "UnitID": 111948,
+    "_id": "111948",
     "INSTNM_HD2017": "Chapman University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 363516447,
@@ -6585,7 +6585,7 @@
     "ADDR_HD2017": "One University Dr.",
     "CITY_HD2017": "Orange",
     "STABBR_HD2017": "CA",
-    "ZIP_HD2017": 92866,
+    "ZIP_HD2017": "92866",
     "LONGITUD_HD2017": -117.851481,
     "LATITUDE_HD2017": 33.793678,
     "OBEREG_HD2017": 8,
@@ -6607,7 +6607,7 @@
     "SFTELCA_DRVHR2017_RV": 44
   },
   {
-    "UnitID": 201885,
+    "_id": "201885",
     "INSTNM_HD2017": "University of Cincinnati-Main Campus",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 1124203143,
@@ -6647,7 +6647,7 @@
     "SFTELCA_DRVHR2017_RV": 39
   },
   {
-    "UnitID": 199999,
+    "_id": "199999",
     "INSTNM_HD2017": "Winston-Salem State University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 132030997,
@@ -6687,7 +6687,7 @@
     "SFTELCA_DRVHR2017_RV": 14
   },
   {
-    "UnitID": 221838,
+    "_id": "221838",
     "INSTNM_HD2017": "Tennessee State University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 172747051,
@@ -6725,7 +6725,7 @@
     "SFTELCA_DRVHR2017_RV": 0
   },
   {
-    "UnitID": 142276,
+    "_id": "142276",
     "INSTNM_HD2017": "Idaho State University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 237722469,
@@ -6743,7 +6743,7 @@
     "ADDR_HD2017": "921 S 8th Ave",
     "CITY_HD2017": "Pocatello",
     "STABBR_HD2017": "ID",
-    "ZIP_HD2017": 83209,
+    "ZIP_HD2017": "83209",
     "LONGITUD_HD2017": -112.432312,
     "LATITUDE_HD2017": 42.863832,
     "OBEREG_HD2017": 7,
@@ -6763,7 +6763,7 @@
     "SFTELCA_DRVHR2017_RV": 26
   },
   {
-    "UnitID": 196097,
+    "_id": "196097",
     "INSTNM_HD2017": "Stony Brook University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 1150099056,
@@ -6781,7 +6781,7 @@
     "ADDR_HD2017": "310 Administration Building",
     "CITY_HD2017": "Stony Brook",
     "STABBR_HD2017": "NY",
-    "ZIP_HD2017": 11794,
+    "ZIP_HD2017": "11794",
     "LONGITUD_HD2017": -73.12046,
     "LATITUDE_HD2017": 40.91476,
     "OBEREG_HD2017": 2,
@@ -6803,7 +6803,7 @@
     "SFTELCA_DRVHR2017_RV": 58
   },
   {
-    "UnitID": 176080,
+    "_id": "176080",
     "INSTNM_HD2017": "Mississippi State University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 647024162,
@@ -6821,7 +6821,7 @@
     "ADDR_HD2017": "Lee Boulevard",
     "CITY_HD2017": "Mississippi State",
     "STABBR_HD2017": "MS",
-    "ZIP_HD2017": 39762,
+    "ZIP_HD2017": "39762",
     "LONGITUD_HD2017": -88.790139,
     "LATITUDE_HD2017": 33.454852,
     "OBEREG_HD2017": 5,
@@ -6843,7 +6843,7 @@
     "SFTELCA_DRVHR2017_RV": 26
   },
   {
-    "UnitID": 180461,
+    "_id": "180461",
     "INSTNM_HD2017": "Montana State University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 442664672,
@@ -6861,7 +6861,7 @@
     "ADDR_HD2017": "Montana State University",
     "CITY_HD2017": "Bozeman",
     "STABBR_HD2017": "MT",
-    "ZIP_HD2017": 59717,
+    "ZIP_HD2017": "59717",
     "LONGITUD_HD2017": -111.048812,
     "LATITUDE_HD2017": 45.666726,
     "OBEREG_HD2017": 7,
@@ -6883,7 +6883,7 @@
     "SFTELCA_DRVHR2017_RV": 35
   },
   {
-    "UnitID": 144740,
+    "_id": "144740",
     "INSTNM_HD2017": "DePaul University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 542441000,
@@ -6901,7 +6901,7 @@
     "ADDR_HD2017": "1 E Jackson Blvd",
     "CITY_HD2017": "Chicago",
     "STABBR_HD2017": "IL",
-    "ZIP_HD2017": 60604,
+    "ZIP_HD2017": "60604",
     "LONGITUD_HD2017": -87.62724,
     "LATITUDE_HD2017": 41.877618,
     "OBEREG_HD2017": 3,
@@ -6923,7 +6923,7 @@
     "SFTELCA_DRVHR2017_RV": 35
   },
   {
-    "UnitID": 228459,
+    "_id": "228459",
     "INSTNM_HD2017": "Texas State University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 633118442,
@@ -6941,7 +6941,7 @@
     "ADDR_HD2017": "601 University Dr",
     "CITY_HD2017": "San Marcos",
     "STABBR_HD2017": "TX",
-    "ZIP_HD2017": 78666,
+    "ZIP_HD2017": "78666",
     "LONGITUD_HD2017": -97.943029,
     "LATITUDE_HD2017": 29.888885,
     "OBEREG_HD2017": 6,
@@ -6963,7 +6963,7 @@
     "SFTELCA_DRVHR2017_RV": 43
   },
   {
-    "UnitID": 100663,
+    "_id": "100663",
     "INSTNM_HD2017": "University of Alabama at Birmingham",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 1314092979,
@@ -7003,7 +7003,7 @@
     "SFTELCA_DRVHR2017_RV": 31
   },
   {
-    "UnitID": 188030,
+    "_id": "188030",
     "INSTNM_HD2017": "New Mexico State University-Main Campus",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 384516525,
@@ -7043,7 +7043,7 @@
     "SFTELCA_DRVHR2017_RV": 2
   },
   {
-    "UnitID": 209542,
+    "_id": "209542",
     "INSTNM_HD2017": "Oregon State University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 1013429030,
@@ -7061,7 +7061,7 @@
     "ADDR_HD2017": "1500 SW Jefferson Avenue",
     "CITY_HD2017": "Corvallis",
     "STABBR_HD2017": "OR",
-    "ZIP_HD2017": 97331,
+    "ZIP_HD2017": "97331",
     "LONGITUD_HD2017": -123.274723,
     "LATITUDE_HD2017": 44.56395,
     "OBEREG_HD2017": 8,
@@ -7083,7 +7083,7 @@
     "SFTELCA_DRVHR2017_RV": 61
   },
   {
-    "UnitID": 100858,
+    "_id": "100858",
     "INSTNM_HD2017": "Auburn University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 1001708038,
@@ -7100,7 +7100,7 @@
     "LTCRCLT_AL2018": 386504,
     "CITY_HD2017": "Auburn",
     "STABBR_HD2017": "AL",
-    "ZIP_HD2017": 36849,
+    "ZIP_HD2017": "36849",
     "LONGITUD_HD2017": -85.488258,
     "LATITUDE_HD2017": 32.599378,
     "OBEREG_HD2017": 5,
@@ -7122,7 +7122,7 @@
     "SFTELCA_DRVHR2017_RV": 64
   },
   {
-    "UnitID": 204024,
+    "_id": "204024",
     "INSTNM_HD2017": "Miami University-Oxford",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 541415018,
@@ -7140,7 +7140,7 @@
     "ADDR_HD2017": "501 East High St",
     "CITY_HD2017": "Oxford",
     "STABBR_HD2017": "OH",
-    "ZIP_HD2017": 45056,
+    "ZIP_HD2017": "45056",
     "LONGITUD_HD2017": -84.732954,
     "LATITUDE_HD2017": 39.507757,
     "OBEREG_HD2017": 3,
@@ -7162,7 +7162,7 @@
     "SFTELCA_DRVHR2017_RV": 39
   },
   {
-    "UnitID": 134097,
+    "_id": "134097",
     "INSTNM_HD2017": "Florida State University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 1136393858,
@@ -7202,7 +7202,7 @@
     "SFTELCA_DRVHR2017_RV": 110
   },
   {
-    "UnitID": 163453,
+    "_id": "163453",
     "INSTNM_HD2017": "Morgan State University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 217562426,
@@ -7242,7 +7242,7 @@
     "SFTELCA_DRVHR2017_RV": 12
   },
   {
-    "UnitID": 186584,
+    "_id": "186584",
     "INSTNM_HD2017": "Seton Hall University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 285598000,
@@ -7282,7 +7282,7 @@
     "SFTELCA_DRVHR2017_RV": 44
   },
   {
-    "UnitID": 212054,
+    "_id": "212054",
     "INSTNM_HD2017": "Drexel University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 1029783000,
@@ -7300,7 +7300,7 @@
     "ADDR_HD2017": "3141 Chestnut St",
     "CITY_HD2017": "Philadelphia",
     "STABBR_HD2017": "PA",
-    "ZIP_HD2017": 19104,
+    "ZIP_HD2017": "19104",
     "LONGITUD_HD2017": -75.190051,
     "LATITUDE_HD2017": 39.955217,
     "OBEREG_HD2017": 2,
@@ -7322,7 +7322,7 @@
     "SFTELCA_DRVHR2017_RV": 54
   },
   {
-    "UnitID": 147703,
+    "_id": "147703",
     "INSTNM_HD2017": "Northern Illinois University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 557016439,
@@ -7362,7 +7362,7 @@
     "SFTELCA_DRVHR2017_RV": 66
   },
   {
-    "UnitID": 445188,
+    "_id": "445188",
     "INSTNM_HD2017": "University of California-Merced",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 582178000,
@@ -7402,7 +7402,7 @@
     "SFTELCA_DRVHR2017_RV": 14
   },
   {
-    "UnitID": 200332,
+    "_id": "200332",
     "INSTNM_HD2017": "North Dakota State University-Main Campus",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 371769459,
@@ -7442,7 +7442,7 @@
     "SFTELCA_DRVHR2017_RV": 23
   },
   {
-    "UnitID": 145600,
+    "_id": "145600",
     "INSTNM_HD2017": "University of Illinois at Chicago",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 2547264117,
@@ -7460,7 +7460,7 @@
     "ADDR_HD2017": "601 S Morgan",
     "CITY_HD2017": "Chicago",
     "STABBR_HD2017": "IL",
-    "ZIP_HD2017": 60607,
+    "ZIP_HD2017": "60607",
     "LONGITUD_HD2017": -87.650503,
     "LATITUDE_HD2017": 41.871837,
     "OBEREG_HD2017": 3,
@@ -7482,7 +7482,7 @@
     "SFTELCA_DRVHR2017_RV": 75
   },
   {
-    "UnitID": 238032,
+    "_id": "238032",
     "INSTNM_HD2017": "West Virginia University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 935419171,
@@ -7500,7 +7500,7 @@
     "ADDR_HD2017": "PO Box 6201",
     "CITY_HD2017": "Morgantown",
     "STABBR_HD2017": "WV",
-    "ZIP_HD2017": 26506,
+    "ZIP_HD2017": "26506",
     "LONGITUD_HD2017": -79.954391,
     "LATITUDE_HD2017": 39.634371,
     "OBEREG_HD2017": 5,
@@ -7522,7 +7522,7 @@
     "SFTELCA_DRVHR2017_RV": 53
   },
   {
-    "UnitID": 161457,
+    "_id": "161457",
     "INSTNM_HD2017": "University of New England",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 190875649,
@@ -7562,7 +7562,7 @@
     "SFTELCA_DRVHR2017_RV": 18
   },
   {
-    "UnitID": 100654,
+    "_id": "100654",
     "INSTNM_HD2017": "Alabama A & M University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 138305413,
@@ -7579,7 +7579,7 @@
     "ADDR_HD2017": "4900 Meridian Street",
     "CITY_HD2017": "Normal",
     "STABBR_HD2017": "AL",
-    "ZIP_HD2017": 35762,
+    "ZIP_HD2017": "35762",
     "LONGITUD_HD2017": -86.568502,
     "LATITUDE_HD2017": 34.783368,
     "OBEREG_HD2017": 5,
@@ -7601,7 +7601,7 @@
     "SFTELCA_DRVHR2017_RV": 7
   },
   {
-    "UnitID": 178420,
+    "_id": "178420",
     "INSTNM_HD2017": "University of Missouri-St Louis",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 223026819,
@@ -7641,7 +7641,7 @@
     "SFTELCA_DRVHR2017_RV": 16
   },
   {
-    "UnitID": 163338,
+    "_id": "163338",
     "INSTNM_HD2017": "University of Maryland Eastern Shore",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 84423210,
@@ -7681,7 +7681,7 @@
     "SFTELCA_DRVHR2017_RV": 11
   },
   {
-    "UnitID": 133881,
+    "_id": "133881",
     "INSTNM_HD2017": "Florida Institute of Technology",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 153475619,
@@ -7721,7 +7721,7 @@
     "SFTELCA_DRVHR2017_RV": 14
   },
   {
-    "UnitID": 199139,
+    "_id": "199139",
     "INSTNM_HD2017": "University of North Carolina at Charlotte",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 613546937,
@@ -7761,7 +7761,7 @@
     "SFTELCA_DRVHR2017_RV": 28
   },
   {
-    "UnitID": 171571,
+    "_id": "171571",
     "INSTNM_HD2017": "Oakland University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 326328337,
@@ -7801,7 +7801,7 @@
     "SFTELCA_DRVHR2017_RV": 31
   },
   {
-    "UnitID": 102094,
+    "_id": "102094",
     "INSTNM_HD2017": "University of South Alabama",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 402077000,
@@ -7841,7 +7841,7 @@
     "SFTELCA_DRVHR2017_RV": 41
   },
   {
-    "UnitID": 199218,
+    "_id": "199218",
     "INSTNM_HD2017": "University of North Carolina Wilmington",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 319635564,
@@ -7881,7 +7881,7 @@
     "SFTELCA_DRVHR2017_RV": 21
   },
   {
-    "UnitID": 156125,
+    "_id": "156125",
     "INSTNM_HD2017": "Wichita State University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 304397309,
@@ -7921,7 +7921,7 @@
     "SFTELCA_DRVHR2017_RV": 1
   },
   {
-    "UnitID": 137351,
+    "_id": "137351",
     "INSTNM_HD2017": "University of South Florida-Main Campus",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 1253178698,
@@ -7961,7 +7961,7 @@
     "SFTELCA_DRVHR2017_RV": 77
   },
   {
-    "UnitID": 194824,
+    "_id": "194824",
     "INSTNM_HD2017": "Rensselaer Polytechnic Institute",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 418720000,
@@ -8001,7 +8001,7 @@
     "SFTELCA_DRVHR2017_RV": 18
   },
   {
-    "UnitID": 159391,
+    "_id": "159391",
     "INSTNM_HD2017": "Louisiana State University and Agricultural & Mechanical College",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 946414580,
@@ -8041,7 +8041,7 @@
     "SFTELCA_DRVHR2017_RV": 76
   },
   {
-    "UnitID": 224147,
+    "_id": "224147",
     "INSTNM_HD2017": "Texas A & M University-Corpus Christi",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 233148081,
@@ -8081,7 +8081,7 @@
     "SFTELCA_DRVHR2017_RV": 28
   },
   {
-    "UnitID": 229027,
+    "_id": "229027",
     "INSTNM_HD2017": "The University of Texas at San Antonio",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 544836215,
@@ -8121,7 +8121,7 @@
     "SFTELCA_DRVHR2017_RV": 74
   },
   {
-    "UnitID": 142115,
+    "_id": "142115",
     "INSTNM_HD2017": "Boise State University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 381474146,
@@ -8139,7 +8139,7 @@
     "ADDR_HD2017": "1910 University Dr",
     "CITY_HD2017": "Boise",
     "STABBR_HD2017": "ID",
-    "ZIP_HD2017": 83725,
+    "ZIP_HD2017": "83725",
     "LONGITUD_HD2017": -116.203301,
     "LATITUDE_HD2017": 43.604284,
     "OBEREG_HD2017": 7,
@@ -8161,7 +8161,7 @@
     "SFTELCA_DRVHR2017_RV": 25
   },
   {
-    "UnitID": 185828,
+    "_id": "185828",
     "INSTNM_HD2017": "New Jersey Institute of Technology",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 414507000,
@@ -8179,7 +8179,7 @@
     "ADDR_HD2017": "University Heights",
     "CITY_HD2017": "Newark",
     "STABBR_HD2017": "NJ",
-    "ZIP_HD2017": 7102,
+    "ZIP_HD2017": "7102",
     "LONGITUD_HD2017": -74.177113,
     "LATITUDE_HD2017": 40.741997,
     "OBEREG_HD2017": 2,
@@ -8201,7 +8201,7 @@
     "SFTELCA_DRVHR2017_RV": 11
   },
   {
-    "UnitID": 109785,
+    "_id": "109785",
     "INSTNM_HD2017": "Azusa Pacific University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 208339721,
@@ -8241,7 +8241,7 @@
     "SFTELCA_DRVHR2017_RV": 0
   },
   {
-    "UnitID": 199102,
+    "_id": "199102",
     "INSTNM_HD2017": "North Carolina A & T State University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 282114305,
@@ -8259,7 +8259,7 @@
     "ADDR_HD2017": "1601 E Market  St",
     "CITY_HD2017": "Greensboro",
     "STABBR_HD2017": "NC",
-    "ZIP_HD2017": 27411,
+    "ZIP_HD2017": "27411",
     "LONGITUD_HD2017": -79.773375,
     "LATITUDE_HD2017": 36.07282,
     "OBEREG_HD2017": 5,
@@ -8281,7 +8281,7 @@
     "SFTELCA_DRVHR2017_RV": 12
   },
   {
-    "UnitID": 190044,
+    "_id": "190044",
     "INSTNM_HD2017": "Clarkson University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 113678617,
@@ -8299,7 +8299,7 @@
     "ADDR_HD2017": "8 Clarkson Ave",
     "CITY_HD2017": "Potsdam",
     "STABBR_HD2017": "NY",
-    "ZIP_HD2017": 13699,
+    "ZIP_HD2017": "13699",
     "LONGITUD_HD2017": -74.999359,
     "LATITUDE_HD2017": 44.662716,
     "OBEREG_HD2017": 2,
@@ -8321,7 +8321,7 @@
     "SFTELCA_DRVHR2017_RV": 3
   },
   {
-    "UnitID": 203517,
+    "_id": "203517",
     "INSTNM_HD2017": "Kent State University at Kent",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 511403900,
@@ -8361,7 +8361,7 @@
     "SFTELCA_DRVHR2017_RV": 9
   },
   {
-    "UnitID": 220862,
+    "_id": "220862",
     "INSTNM_HD2017": "University of Memphis",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 437542796,
@@ -8379,7 +8379,7 @@
     "ADDR_HD2017": "Southern Avenue",
     "CITY_HD2017": "Memphis",
     "STABBR_HD2017": "TN",
-    "ZIP_HD2017": 38152,
+    "ZIP_HD2017": "38152",
     "LONGITUD_HD2017": -89.938068,
     "LATITUDE_HD2017": 35.118878,
     "OBEREG_HD2017": 5,
@@ -8401,7 +8401,7 @@
     "SFTELCA_DRVHR2017_RV": 61
   },
   {
-    "UnitID": 209807,
+    "_id": "209807",
     "INSTNM_HD2017": "Portland State University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 455506187,
@@ -8419,7 +8419,7 @@
     "ADDR_HD2017": "724 SW Harrison",
     "CITY_HD2017": "Portland",
     "STABBR_HD2017": "OR",
-    "ZIP_HD2017": 97201,
+    "ZIP_HD2017": "97201",
     "LONGITUD_HD2017": -122.686289,
     "LATITUDE_HD2017": 45.511601,
     "OBEREG_HD2017": 8,
@@ -8441,7 +8441,7 @@
     "SFTELCA_DRVHR2017_RV": 42
   },
   {
-    "UnitID": 198543,
+    "_id": "198543",
     "INSTNM_HD2017": "Fayetteville State University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 117646116,
@@ -8481,7 +8481,7 @@
     "SFTELCA_DRVHR2017_RV": 10
   },
   {
-    "UnitID": 204857,
+    "_id": "204857",
     "INSTNM_HD2017": "Ohio University-Main Campus",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 626674178,
@@ -8521,7 +8521,7 @@
     "SFTELCA_DRVHR2017_RV": 52
   },
   {
-    "UnitID": 236939,
+    "_id": "236939",
     "INSTNM_HD2017": "Washington State University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 985404868,
@@ -8561,7 +8561,7 @@
     "SFTELCA_DRVHR2017_RV": 78
   },
   {
-    "UnitID": 232982,
+    "_id": "232982",
     "INSTNM_HD2017": "Old Dominion University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 390143470,
@@ -8579,7 +8579,7 @@
     "ADDR_HD2017": "5115 Hampton Blvd",
     "CITY_HD2017": "Norfolk",
     "STABBR_HD2017": "VA",
-    "ZIP_HD2017": 23529,
+    "ZIP_HD2017": "23529",
     "LONGITUD_HD2017": -76.30666,
     "LATITUDE_HD2017": 36.886418,
     "OBEREG_HD2017": 5,
@@ -8601,7 +8601,7 @@
     "SFTELCA_DRVHR2017_RV": 29
   },
   {
-    "UnitID": 169248,
+    "_id": "169248",
     "INSTNM_HD2017": "Central Michigan University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 410003759,
@@ -8619,7 +8619,7 @@
     "ADDR_HD2017": "106 Warriner Hall",
     "CITY_HD2017": "Mount Pleasant",
     "STABBR_HD2017": "MI",
-    "ZIP_HD2017": 48859,
+    "ZIP_HD2017": "48859",
     "LONGITUD_HD2017": -84.77525,
     "LATITUDE_HD2017": 43.591203,
     "OBEREG_HD2017": 3,
@@ -8641,7 +8641,7 @@
     "SFTELCA_DRVHR2017_RV": 36
   },
   {
-    "UnitID": 104151,
+    "_id": "104151",
     "INSTNM_HD2017": "Arizona State University-Tempe",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 1861647480,
@@ -8659,7 +8659,7 @@
     "ADDR_HD2017": "University Drive and Mill Avenue",
     "CITY_HD2017": "Tempe",
     "STABBR_HD2017": "AZ",
-    "ZIP_HD2017": 85287,
+    "ZIP_HD2017": "85287",
     "LONGITUD_HD2017": -111.934383,
     "LATITUDE_HD2017": 33.417721,
     "OBEREG_HD2017": 6,
@@ -8681,7 +8681,7 @@
     "SFTELCA_DRVHR2017_RV": 106
   },
   {
-    "UnitID": 122409,
+    "_id": "122409",
     "INSTNM_HD2017": "San Diego State University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 699258835,
@@ -8699,7 +8699,7 @@
     "ADDR_HD2017": "5500 Campanile Dr",
     "CITY_HD2017": "San Diego",
     "STABBR_HD2017": "CA",
-    "ZIP_HD2017": 92182,
+    "ZIP_HD2017": "92182",
     "LONGITUD_HD2017": -117.071228,
     "LATITUDE_HD2017": 32.77525,
     "OBEREG_HD2017": 8,
@@ -8721,7 +8721,7 @@
     "SFTELCA_DRVHR2017_RV": 50
   },
   {
-    "UnitID": 181394,
+    "_id": "181394",
     "INSTNM_HD2017": "University of Nebraska at Omaha",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 237336555,
@@ -8761,7 +8761,7 @@
     "SFTELCA_DRVHR2017_RV": 18
   },
   {
-    "UnitID": 145813,
+    "_id": "145813",
     "INSTNM_HD2017": "Illinois State University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 576457459,
@@ -8801,7 +8801,7 @@
     "SFTELCA_DRVHR2017_RV": 36
   },
   {
-    "UnitID": 219471,
+    "_id": "219471",
     "INSTNM_HD2017": "University of South Dakota",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 200394171,
@@ -8841,7 +8841,7 @@
     "SFTELCA_DRVHR2017_RV": 16
   },
   {
-    "UnitID": 169798,
+    "_id": "169798",
     "INSTNM_HD2017": "Eastern Michigan University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 311232077,
@@ -8859,7 +8859,7 @@
     "ADDR_HD2017": "401 Pierce Hall",
     "CITY_HD2017": "Ypsilanti",
     "STABBR_HD2017": "MI",
-    "ZIP_HD2017": 48197,
+    "ZIP_HD2017": "48197",
     "LONGITUD_HD2017": -83.622501,
     "LATITUDE_HD2017": 42.24694,
     "OBEREG_HD2017": 3,
@@ -8881,7 +8881,7 @@
     "SFTELCA_DRVHR2017_RV": 7
   },
   {
-    "UnitID": 176372,
+    "_id": "176372",
     "INSTNM_HD2017": "University of Southern Mississippi",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 309877265,
@@ -8921,7 +8921,7 @@
     "SFTELCA_DRVHR2017_RV": 55
   },
   {
-    "UnitID": 230728,
+    "_id": "230728",
     "INSTNM_HD2017": "Utah State University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 738120224,
@@ -8961,7 +8961,7 @@
     "SFTELCA_DRVHR2017_RV": 62
   },
   {
-    "UnitID": 201441,
+    "_id": "201441",
     "INSTNM_HD2017": "Bowling Green State University-Main Campus",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 294870081,
@@ -8979,7 +8979,7 @@
     "ADDR_HD2017": "220 McFall Ctr",
     "CITY_HD2017": "Bowling Green",
     "STABBR_HD2017": "OH",
-    "ZIP_HD2017": 43403,
+    "ZIP_HD2017": "43403",
     "LONGITUD_HD2017": -83.640896,
     "LATITUDE_HD2017": 41.375513,
     "OBEREG_HD2017": 3,
@@ -9001,7 +9001,7 @@
     "SFTELCA_DRVHR2017_RV": 28
   },
   {
-    "UnitID": 206084,
+    "_id": "206084",
     "INSTNM_HD2017": "University of Toledo",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 488105739,
@@ -9041,7 +9041,7 @@
     "SFTELCA_DRVHR2017_RV": 29
   },
   {
-    "UnitID": 184782,
+    "_id": "184782",
     "INSTNM_HD2017": "Rowan University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 546536935,
@@ -9059,7 +9059,7 @@
     "ADDR_HD2017": "201 Mullica Hill Road",
     "CITY_HD2017": "Glassboro",
     "STABBR_HD2017": "NJ",
-    "ZIP_HD2017": 8028,
+    "ZIP_HD2017": "8028",
     "LONGITUD_HD2017": -75.119119,
     "LATITUDE_HD2017": 39.709108,
     "OBEREG_HD2017": 2,
@@ -9081,7 +9081,7 @@
     "SFTELCA_DRVHR2017_RV": 26
   },
   {
-    "UnitID": 144281,
+    "_id": "144281",
     "INSTNM_HD2017": "Columbia College Chicago",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 168564735,
@@ -9121,7 +9121,7 @@
     "SFTELCA_DRVHR2017_RV": 29
   },
   {
-    "UnitID": 228705,
+    "_id": "228705",
     "INSTNM_HD2017": "Texas A & M University-Kingsville",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 160878741,
@@ -9139,7 +9139,7 @@
     "ADDR_HD2017": "955 University Blvd",
     "CITY_HD2017": "Kingsville",
     "STABBR_HD2017": "TX",
-    "ZIP_HD2017": 78363,
+    "ZIP_HD2017": "78363",
     "LONGITUD_HD2017": -97.882387,
     "LATITUDE_HD2017": 27.525168,
     "OBEREG_HD2017": 6,
@@ -9161,7 +9161,7 @@
     "SFTELCA_DRVHR2017_RV": 12
   },
   {
-    "UnitID": 133951,
+    "_id": "133951",
     "INSTNM_HD2017": "Florida International University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 945848154,
@@ -9179,7 +9179,7 @@
     "ADDR_HD2017": "11200 S. W. 8 Street",
     "CITY_HD2017": "Miami",
     "STABBR_HD2017": "FL",
-    "ZIP_HD2017": 33199,
+    "ZIP_HD2017": "33199",
     "LONGITUD_HD2017": -80.373928,
     "LATITUDE_HD2017": 25.75732,
     "OBEREG_HD2017": 5,
@@ -9201,7 +9201,7 @@
     "SFTELCA_DRVHR2017_RV": 125
   },
   {
-    "UnitID": 220075,
+    "_id": "220075",
     "INSTNM_HD2017": "East Tennessee State University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 376210468,
@@ -9219,7 +9219,7 @@
     "ADDR_HD2017": "1276 Gilbreath Drive",
     "CITY_HD2017": "Johnson City",
     "STABBR_HD2017": "TN",
-    "ZIP_HD2017": 37614,
+    "ZIP_HD2017": "37614",
     "LONGITUD_HD2017": -82.366954,
     "LATITUDE_HD2017": 36.301643,
     "OBEREG_HD2017": 5,
@@ -9241,7 +9241,7 @@
     "SFTELCA_DRVHR2017_RV": 4
   },
   {
-    "UnitID": 195003,
+    "_id": "195003",
     "INSTNM_HD2017": "Rochester Institute of Technology",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 598632000,
@@ -9281,7 +9281,7 @@
     "SFTELCA_DRVHR2017_RV": 25
   },
   {
-    "UnitID": 190567,
+    "_id": "190567",
     "INSTNM_HD2017": "CUNY City College",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 391291531,
@@ -9299,7 +9299,7 @@
     "ADDR_HD2017": "160 Convent Ave",
     "CITY_HD2017": "New York",
     "STABBR_HD2017": "NY",
-    "ZIP_HD2017": 10031,
+    "ZIP_HD2017": "10031",
     "LONGITUD_HD2017": -73.948542,
     "LATITUDE_HD2017": 40.819846,
     "OBEREG_HD2017": 2,
@@ -9321,7 +9321,7 @@
     "SFTELCA_DRVHR2017_RV": 21
   },
   {
-    "UnitID": 237525,
+    "_id": "237525",
     "INSTNM_HD2017": "Marshall University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 256208952,
@@ -9339,7 +9339,7 @@
     "ADDR_HD2017": "1 John Marshall Dr",
     "CITY_HD2017": "Huntington",
     "STABBR_HD2017": "WV",
-    "ZIP_HD2017": 25755,
+    "ZIP_HD2017": "25755",
     "LONGITUD_HD2017": -82.428964,
     "LATITUDE_HD2017": 38.422482,
     "OBEREG_HD2017": 5,
@@ -9361,7 +9361,7 @@
     "SFTELCA_DRVHR2017_RV": 28
   },
   {
-    "UnitID": 139940,
+    "_id": "139940",
     "INSTNM_HD2017": "Georgia State University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 728276490,
@@ -9401,7 +9401,7 @@
     "SFTELCA_DRVHR2017_RV": 57
   },
   {
-    "UnitID": 178411,
+    "_id": "178411",
     "INSTNM_HD2017": "Missouri University of Science and Technology",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 215731224,
@@ -9419,7 +9419,7 @@
     "ADDR_HD2017": "1201 N. State St.",
     "CITY_HD2017": "Rolla",
     "STABBR_HD2017": "MO",
-    "ZIP_HD2017": 65409,
+    "ZIP_HD2017": "65409",
     "LONGITUD_HD2017": -91.775583,
     "LATITUDE_HD2017": 37.953426,
     "OBEREG_HD2017": 4,
@@ -9441,7 +9441,7 @@
     "SFTELCA_DRVHR2017_RV": 7
   },
   {
-    "UnitID": 219356,
+    "_id": "219356",
     "INSTNM_HD2017": "South Dakota State University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 309981950,
@@ -9481,7 +9481,7 @@
     "SFTELCA_DRVHR2017_RV": 25
   },
   {
-    "UnitID": 106245,
+    "_id": "106245",
     "INSTNM_HD2017": "University of Arkansas at Little Rock",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 175085196,
@@ -9499,7 +9499,7 @@
     "ADDR_HD2017": "2801 S University Ave",
     "CITY_HD2017": "Little Rock",
     "STABBR_HD2017": "AR",
-    "ZIP_HD2017": 72204,
+    "ZIP_HD2017": "72204",
     "LONGITUD_HD2017": -92.339778,
     "LATITUDE_HD2017": 34.723254,
     "OBEREG_HD2017": 5,
@@ -9521,7 +9521,7 @@
     "SFTELCA_DRVHR2017_RV": 20
   },
   {
-    "UnitID": 232265,
+    "_id": "232265",
     "INSTNM_HD2017": "Hampton University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 165444448,
@@ -9561,7 +9561,7 @@
     "SFTELCA_DRVHR2017_RV": 21
   },
   {
-    "UnitID": 150136,
+    "_id": "150136",
     "INSTNM_HD2017": "Ball State University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 455176821,
@@ -9579,7 +9579,7 @@
     "ADDR_HD2017": "2000 University Ave",
     "CITY_HD2017": "Muncie",
     "STABBR_HD2017": "IN",
-    "ZIP_HD2017": 47306,
+    "ZIP_HD2017": "47306",
     "LONGITUD_HD2017": -85.409043,
     "LATITUDE_HD2017": 40.203431,
     "OBEREG_HD2017": 3,
@@ -9601,7 +9601,7 @@
     "SFTELCA_DRVHR2017_RV": 50
   },
   {
-    "UnitID": 159939,
+    "_id": "159939",
     "INSTNM_HD2017": "University of New Orleans",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 151850696,
@@ -9619,7 +9619,7 @@
     "ADDR_HD2017": "2000 Lakeshore Drive",
     "CITY_HD2017": "New Orleans",
     "STABBR_HD2017": "LA",
-    "ZIP_HD2017": 70148,
+    "ZIP_HD2017": "70148",
     "LONGITUD_HD2017": -90.067142,
     "LATITUDE_HD2017": 30.027704,
     "OBEREG_HD2017": 5,
@@ -9641,7 +9641,7 @@
     "SFTELCA_DRVHR2017_RV": 14
   },
   {
-    "UnitID": 200800,
+    "_id": "200800",
     "INSTNM_HD2017": "University of Akron Main Campus",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 374517859,
@@ -9681,7 +9681,7 @@
     "SFTELCA_DRVHR2017_RV": 47
   },
   {
-    "UnitID": 133669,
+    "_id": "133669",
     "INSTNM_HD2017": "Florida Atlantic University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 526086059,
@@ -9721,7 +9721,7 @@
     "SFTELCA_DRVHR2017_RV": 33
   },
   {
-    "UnitID": 166638,
+    "_id": "166638",
     "INSTNM_HD2017": "University of Massachusetts-Boston",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 455037000,
@@ -9761,7 +9761,7 @@
     "SFTELCA_DRVHR2017_RV": 22
   },
   {
-    "UnitID": 126580,
+    "_id": "126580",
     "INSTNM_HD2017": "University of Colorado Colorado Springs",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 195671597,
@@ -9778,7 +9778,7 @@
     "ADDR_HD2017": "1420 Austin Bluffs Parkway",
     "CITY_HD2017": "Colorado Springs",
     "STABBR_HD2017": "CO",
-    "ZIP_HD2017": 80918,
+    "ZIP_HD2017": "80918",
     "LONGITUD_HD2017": -104.800296,
     "LATITUDE_HD2017": 38.892735,
     "OBEREG_HD2017": 7,
@@ -9800,7 +9800,7 @@
     "SFTELCA_DRVHR2017_RV": 21
   },
   {
-    "UnitID": 130934,
+    "_id": "130934",
     "INSTNM_HD2017": "Delaware State University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 107437789,
@@ -9818,7 +9818,7 @@
     "ADDR_HD2017": "1200 N. Dupont Highway",
     "CITY_HD2017": "Dover",
     "STABBR_HD2017": "DE",
-    "ZIP_HD2017": 19901,
+    "ZIP_HD2017": "19901",
     "LONGITUD_HD2017": -75.54053,
     "LATITUDE_HD2017": 39.187173,
     "OBEREG_HD2017": 2,
@@ -9840,7 +9840,7 @@
     "SFTELCA_DRVHR2017_RV": 12
   },
   {
-    "UnitID": 106458,
+    "_id": "106458",
     "INSTNM_HD2017": "Arkansas State University-Main Campus",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 187510920,
@@ -9858,7 +9858,7 @@
     "ADDR_HD2017": "2105 E. Aggie Road",
     "CITY_HD2017": "Jonesboro",
     "STABBR_HD2017": "AR",
-    "ZIP_HD2017": 72401,
+    "ZIP_HD2017": "72401",
     "LONGITUD_HD2017": -90.679988,
     "LATITUDE_HD2017": 35.842388,
     "OBEREG_HD2017": 5,
@@ -9880,7 +9880,7 @@
     "SFTELCA_DRVHR2017_RV": 32
   },
   {
-    "UnitID": 100706,
+    "_id": "100706",
     "INSTNM_HD2017": "University of Alabama in Huntsville",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 223933000,
@@ -9898,7 +9898,7 @@
     "ADDR_HD2017": "301 Sparkman Dr",
     "CITY_HD2017": "Huntsville",
     "STABBR_HD2017": "AL",
-    "ZIP_HD2017": 35899,
+    "ZIP_HD2017": "35899",
     "LONGITUD_HD2017": -86.640449,
     "LATITUDE_HD2017": 34.724557,
     "OBEREG_HD2017": 5,
@@ -9920,7 +9920,7 @@
     "SFTELCA_DRVHR2017_RV": 11
   },
   {
-    "UnitID": 227368,
+    "_id": "227368",
     "INSTNM_HD2017": "The University of Texas Rio Grande Valley",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 553048436,
@@ -9960,7 +9960,7 @@
     "SFTELCA_DRVHR2017_RV": 48
   },
   {
-    "UnitID": 199157,
+    "_id": "199157",
     "INSTNM_HD2017": "North Carolina Central University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 187982576,
@@ -9978,7 +9978,7 @@
     "ADDR_HD2017": "1801 Fayetteville Street",
     "CITY_HD2017": "Durham",
     "STABBR_HD2017": "NC",
-    "ZIP_HD2017": 27707,
+    "ZIP_HD2017": "27707",
     "LONGITUD_HD2017": -78.898602,
     "LATITUDE_HD2017": 35.974237,
     "OBEREG_HD2017": 5,
@@ -10000,7 +10000,7 @@
     "SFTELCA_DRVHR2017_RV": 18
   },
   {
-    "UnitID": 240453,
+    "_id": "240453",
     "INSTNM_HD2017": "University of Wisconsin-Milwaukee",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 459685804,
@@ -10018,7 +10018,7 @@
     "ADDR_HD2017": "2200 E Kenwood Blvd",
     "CITY_HD2017": "Milwaukee",
     "STABBR_HD2017": "WI",
-    "ZIP_HD2017": 53211,
+    "ZIP_HD2017": "53211",
     "LONGITUD_HD2017": -87.880488,
     "LATITUDE_HD2017": 43.076848,
     "OBEREG_HD2017": 3,
@@ -10040,7 +10040,7 @@
     "SFTELCA_DRVHR2017_RV": 43
   },
   {
-    "UnitID": 162007,
+    "_id": "162007",
     "INSTNM_HD2017": "Bowie State University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 104870036,
@@ -10080,7 +10080,7 @@
     "SFTELCA_DRVHR2017_RV": 11
   },
   {
-    "UnitID": 186867,
+    "_id": "186867",
     "INSTNM_HD2017": "Stevens Institute of Technology",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 256044000,
@@ -10120,7 +10120,7 @@
     "SFTELCA_DRVHR2017_RV": 7
   },
   {
-    "UnitID": 202134,
+    "_id": "202134",
     "INSTNM_HD2017": "Cleveland State University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 318880876,
@@ -10160,7 +10160,7 @@
     "SFTELCA_DRVHR2017_RV": 17
   },
   {
-    "UnitID": 139931,
+    "_id": "139931",
     "INSTNM_HD2017": "Georgia Southern University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 374988203,
@@ -10200,7 +10200,7 @@
     "SFTELCA_DRVHR2017_RV": 16
   },
   {
-    "UnitID": 228769,
+    "_id": "228769",
     "INSTNM_HD2017": "The University of Texas at Arlington",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 743989725,
@@ -10218,7 +10218,7 @@
     "ADDR_HD2017": "701 S. Nedderman Dr.",
     "CITY_HD2017": "Arlington",
     "STABBR_HD2017": "TX",
-    "ZIP_HD2017": 76013,
+    "ZIP_HD2017": "76013",
     "LONGITUD_HD2017": -97.11296,
     "LATITUDE_HD2017": 32.729718,
     "OBEREG_HD2017": 6,
@@ -10240,7 +10240,7 @@
     "SFTELCA_DRVHR2017_RV": 81
   },
   {
-    "UnitID": 160621,
+    "_id": "160621",
     "INSTNM_HD2017": "Southern University and A & M College",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 117914074,
@@ -10258,7 +10258,7 @@
     "ADDR_HD2017": "3rd Floor  J.S. Clark Adm. Building  P.O. Box 9374",
     "CITY_HD2017": "Baton Rouge",
     "STABBR_HD2017": "LA",
-    "ZIP_HD2017": 70813,
+    "ZIP_HD2017": "70813",
     "LONGITUD_HD2017": -91.190105,
     "LATITUDE_HD2017": 30.524558,
     "OBEREG_HD2017": 5,
@@ -10280,7 +10280,7 @@
     "SFTELCA_DRVHR2017_RV": 16
   },
   {
-    "UnitID": 228796,
+    "_id": "228796",
     "INSTNM_HD2017": "The University of Texas at El Paso",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 452347817,
@@ -10320,7 +10320,7 @@
     "SFTELCA_DRVHR2017_RV": 46
   },
   {
-    "UnitID": 228787,
+    "_id": "228787",
     "INSTNM_HD2017": "The University of Texas at Dallas",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 759437311,
@@ -10360,7 +10360,7 @@
     "SFTELCA_DRVHR2017_RV": 26
   },
   {
-    "UnitID": 221847,
+    "_id": "221847",
     "INSTNM_HD2017": "Tennessee Technological University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 177344509,
@@ -10400,7 +10400,7 @@
     "SFTELCA_DRVHR2017_RV": 1
   },
   {
-    "UnitID": 227526,
+    "_id": "227526",
     "INSTNM_HD2017": "Prairie View A & M University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 273756933,
@@ -10418,7 +10418,7 @@
     "ADDR_HD2017": "FM 1098 Road & University Drive",
     "CITY_HD2017": "Prairie View",
     "STABBR_HD2017": "TX",
-    "ZIP_HD2017": 77446,
+    "ZIP_HD2017": "77446",
     "LONGITUD_HD2017": -95.989475,
     "LATITUDE_HD2017": 30.092425,
     "OBEREG_HD2017": 6,
@@ -10440,7 +10440,7 @@
     "SFTELCA_DRVHR2017_RV": 16
   },
   {
-    "UnitID": 229063,
+    "_id": "229063",
     "INSTNM_HD2017": "Texas Southern University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 236891407,
@@ -10458,7 +10458,7 @@
     "ADDR_HD2017": "3100 Cleburne St",
     "CITY_HD2017": "Houston",
     "STABBR_HD2017": "TX",
-    "ZIP_HD2017": 77004,
+    "ZIP_HD2017": "77004",
     "LONGITUD_HD2017": -95.361961,
     "LATITUDE_HD2017": 29.722468,
     "OBEREG_HD2017": 6,
@@ -10480,7 +10480,7 @@
     "SFTELCA_DRVHR2017_RV": 14
   },
   {
-    "UnitID": 166513,
+    "_id": "166513",
     "INSTNM_HD2017": "University of Massachusetts-Lowell",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 405337000,
@@ -10520,7 +10520,7 @@
     "SFTELCA_DRVHR2017_RV": 4
   },
   {
-    "UnitID": 185590,
+    "_id": "185590",
     "INSTNM_HD2017": "Montclair State University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 393048000,
@@ -10560,7 +10560,7 @@
     "SFTELCA_DRVHR2017_RV": 19
   },
   {
-    "UnitID": 232937,
+    "_id": "232937",
     "INSTNM_HD2017": "Norfolk State University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 127057479,
@@ -10600,7 +10600,7 @@
     "SFTELCA_DRVHR2017_RV": 3
   },
   {
-    "UnitID": 132903,
+    "_id": "132903",
     "INSTNM_HD2017": "University of Central Florida",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 1087431338,
@@ -10618,7 +10618,7 @@
     "ADDR_HD2017": "4000 Central Florida Blvd",
     "CITY_HD2017": "Orlando",
     "STABBR_HD2017": "FL",
-    "ZIP_HD2017": 32816,
+    "ZIP_HD2017": "32816",
     "LONGITUD_HD2017": -81.200889,
     "LATITUDE_HD2017": 28.602159,
     "OBEREG_HD2017": 5,
@@ -10640,7 +10640,7 @@
     "SFTELCA_DRVHR2017_RV": 91
   },
   {
-    "UnitID": 160658,
+    "_id": "160658",
     "INSTNM_HD2017": "University of Louisiana at Lafayette",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 315858598,
@@ -10658,7 +10658,7 @@
     "ADDR_HD2017": "104 University Circle",
     "CITY_HD2017": "Lafayette",
     "STABBR_HD2017": "LA",
-    "ZIP_HD2017": 70503,
+    "ZIP_HD2017": "70503",
     "LONGITUD_HD2017": -92.020165,
     "LATITUDE_HD2017": 30.212191,
     "OBEREG_HD2017": 5,
@@ -10680,7 +10680,7 @@
     "SFTELCA_DRVHR2017_RV": 18
   },
   {
-    "UnitID": 159009,
+    "_id": "159009",
     "INSTNM_HD2017": "Grambling State University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 69884652,
@@ -10698,7 +10698,7 @@
     "ADDR_HD2017": "403 Main Street",
     "CITY_HD2017": "Grambling",
     "STABBR_HD2017": "LA",
-    "ZIP_HD2017": 71245,
+    "ZIP_HD2017": "71245",
     "LONGITUD_HD2017": -92.713245,
     "LATITUDE_HD2017": 32.523797,
     "OBEREG_HD2017": 5,
@@ -10720,7 +10720,7 @@
     "SFTELCA_DRVHR2017_RV": 10
   },
   {
-    "UnitID": 141060,
+    "_id": "141060",
     "INSTNM_HD2017": "Spelman College",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 134092005,
@@ -10754,7 +10754,7 @@
     "SFTELCA_DRVHR2017_RV": 3
   },
   {
-    "UnitID": 158802,
+    "_id": "158802",
     "INSTNM_HD2017": "Dillard University",
     "fasb_gasb_DRVF2018": "fasb",
     "core_revenues_DRVF2018": 195237818,
@@ -10772,7 +10772,7 @@
     "ADDR_HD2017": "2601 Gentilly Blvd",
     "CITY_HD2017": "New Orleans",
     "STABBR_HD2017": "LA",
-    "ZIP_HD2017": 70122,
+    "ZIP_HD2017": "70122",
     "LONGITUD_HD2017": -90.06464,
     "LATITUDE_HD2017": 29.996587,
     "OBEREG_HD2017": 5,
@@ -10794,7 +10794,7 @@
     "SFTELCA_DRVHR2017_RV": 1
   },
   {
-    "UnitID": 159647,
+    "_id": "159647",
     "INSTNM_HD2017": "Louisiana Tech University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 179399007,
@@ -10812,7 +10812,7 @@
     "ADDR_HD2017": "1310 West Railroad Avenue",
     "CITY_HD2017": "Ruston",
     "STABBR_HD2017": "LA",
-    "ZIP_HD2017": 71272,
+    "ZIP_HD2017": "71272",
     "LONGITUD_HD2017": -92.649963,
     "LATITUDE_HD2017": 32.528297,
     "OBEREG_HD2017": 5,
@@ -10834,7 +10834,7 @@
     "SFTELCA_DRVHR2017_RV": 20
   },
   {
-    "UnitID": 138716,
+    "_id": "138716",
     "INSTNM_HD2017": "Albany State University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 112979532,
@@ -10852,7 +10852,7 @@
     "ADDR_HD2017": "504 College Drive",
     "CITY_HD2017": "Albany",
     "STABBR_HD2017": "GA",
-    "ZIP_HD2017": 31705,
+    "ZIP_HD2017": "31705",
     "LONGITUD_HD2017": -84.141825,
     "LATITUDE_HD2017": 31.56928,
     "OBEREG_HD2017": 5,
@@ -10872,7 +10872,7 @@
     "SFTELCA_DRVHR2017_RV": 3
   },
   {
-    "UnitID": 448886,
+    "_id": "448886",
     "INSTNM_HD2017": "Arizona State University-Downtown Phoenix",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 265949640,
@@ -10884,7 +10884,7 @@
     "ADDR_HD2017": "411 N Central Ave",
     "CITY_HD2017": "Phoenix",
     "STABBR_HD2017": "AZ",
-    "ZIP_HD2017": 85004,
+    "ZIP_HD2017": "85004",
     "LONGITUD_HD2017": -112.07347,
     "LATITUDE_HD2017": 33.452914,
     "OBEREG_HD2017": 6,
@@ -10906,7 +10906,7 @@
     "SFTELCA_DRVHR2017_RV": 14
   },
   {
-    "UnitID": 486840,
+    "_id": "486840",
     "INSTNM_HD2017": "Kennesaw State University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 457151494,
@@ -10924,7 +10924,7 @@
     "ADDR_HD2017": "1000 Chastain Rd",
     "CITY_HD2017": "Kennesaw",
     "STABBR_HD2017": "GA",
-    "ZIP_HD2017": 30144,
+    "ZIP_HD2017": "30144",
     "LONGITUD_HD2017": -84.583052,
     "LATITUDE_HD2017": 34.038807,
     "OBEREG_HD2017": 5,
@@ -10946,7 +10946,7 @@
     "SFTELCA_DRVHR2017_RV": 39
   },
   {
-    "UnitID": 105330,
+    "_id": "105330",
     "INSTNM_HD2017": "Northern Arizona University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 523816089,
@@ -10986,11 +10986,11 @@
     "SFTELCA_DRVHR2017_RV": 42
   },
   {
-    "UnitID": 140960,
+    "_id": "140960",
     "INSTNM_HD2017": "Savannah State University"
   },
   {
-    "UnitID": 175856,
+    "_id": "175856",
     "INSTNM_HD2017": "Jackson State University",
     "fasb_gasb_DRVF2018": "gasb",
     "core_revenues_DRVF2018": 158998910,
@@ -11008,7 +11008,7 @@
     "ADDR_HD2017": "1400 J R Lynch Street",
     "CITY_HD2017": "Jackson",
     "STABBR_HD2017": "MS",
-    "ZIP_HD2017": 39217,
+    "ZIP_HD2017": "39217",
     "LONGITUD_HD2017": -90.207405,
     "LATITUDE_HD2017": 32.296105,
     "OBEREG_HD2017": 5,

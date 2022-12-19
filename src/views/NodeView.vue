@@ -1,5 +1,4 @@
 <script>
-import { ref, onMounted } from 'vue';
 import axios from 'axios';
 import { useRoute } from 'vue-router';
 
@@ -10,14 +9,13 @@ export default {
     }
   },
   async created() {
-    const slug = useRoute().params.slug
+    const id = useRoute().params.id
 
     const data = JSON.stringify({
-      query: `query nodeBySlug {
-      node(query: { slug: "${slug}" }) {
+      query: `query nodeByID {
+      node(query: { _id: "${id}" }) {
         _id
         name
-        slug
       }
     }`
     });

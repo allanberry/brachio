@@ -1,32 +1,30 @@
+<script>
+export default {
+  props: {
+    id: String,
+    name: String
+  },
+}
+
+</script>
+
 <template>
-  <div class="card shadow-sm">
-    <svg
-      class="bd-placeholder-img card-img-top"
-      width="100%"
-      height="225"
-      xmlns="http://www.w3.org/2000/svg"
-      role="img"
-      aria-label="Placeholder: Thumbnail"
-      preserveAspectRatio="xMidYMid slice"
-      focusable="false"
-    >
-      <title>Placeholder</title>
-      <rect width="100%" height="100%" fill="#55595c"></rect>
-      <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-    </svg>
+  <div :id="id" class="card shadow-sm">
+    <img src="https://vim9ip3utf.execute-api.us-west-1.amazonaws.com/latest/iiif/2/test%2Fuic.png/full/300,/0/default.png" class="card-img-top" alt="...">
+
 
     <div class="card-body">
-      <p class="card-text">Library Description</p>
+      <p class="card-text">{{ name }}</p>
       <div class="d-flex justify-content-between align-items-center">
         <div class="btn-group">
-          <button type="button" class="btn btn-sm btn-outline-secondary">
+        <router-link type="button" :to="{ name: 'library', params: { id }}" class="btn btn-sm btn-outline-secondary">
             View
-          </button>
-          <button type="button" class="btn btn-sm btn-outline-secondary">
+          </router-link>
+          <!-- <button type="button" class="btn btn-sm btn-outline-secondary">
             Edit
-          </button>
+          </button> -->
         </div>
-        <small class="text-muted">9 mins</small>
+        <!-- <small class="text-muted">9 mins</small> -->
       </div>
     </div>
   </div>

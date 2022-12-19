@@ -1,92 +1,284 @@
-slug,name,type,categories,tags,arl,ipeds
-anahuac,Anáhuac University,org,"college, private",,,
-colum,Columbia College Chicago,org,"college, private",,,144281
-tec,Monterrey Institute of Technology and Higher Education,org,"college, private",,,
-bc,Boston College,org,"college, private","acc, r1",,164924
-duke,Duke University,org,"college, private","acc, r1",,198419
-syr,Syracuse University,org,"college, private","acc, r1",,196413
-miami,University of Miami,org,"college, private","acc, r1",,135726
-wfu,Wake Forest University,org,"college, private","acc, r2",,199847
-nd,University of Notre Dame,org,"college, private","big_ten, acc, r1",,152080
-jhu,Johns Hopkins University,org,"college, private","big_ten, r1, aau",,162928
-nw,Northwestern University,org,"college, private","big_ten, r1, aau",,147767
-dillard,Dillard University,org,"college, private",hbcu,,158802
-morehouse,Morehouse College,org,"college, private",hbcu,,140553
-spelman,Spelman College,org,"college, private",hbcu,,141060
-howard,Howard University,org,"college, private","hbcu, r2",,131520
-brown,Brown University,org,"college, private","ivy_league, r1, aau",,217156
-columbia,Columbia University,org,"college, private","ivy_league, r1, aau",,190150
-cornell,Cornell University,org,"college, private","ivy_league, r1, aau",,190415
-dartmouth,Dartmouth College,org,"college, private","ivy_league, r1, aau",,182670
-harvard,Harvard University,org,"college, private","ivy_league, r1, aau",,166027
-princeton,Princeton University,org,"college, private","ivy_league, r1, aau",,186131
-upenn,University of Pennsylvania,org,"college, private","ivy_league, r1, aau",,215062
-yale,Yale University,org,"college, private","ivy_league, r1, aau",,130794
-stanford,Stanford University,org,"college, private","pac_12, r1, aau",,243744
-usc,University of Southern California,org,"college, private","pac_12, r1, aau",,123961
-drexel,Drexel University,org,"college, private",r1,,212054
-emory,Emory University,org,"college, private",r1,,139658
-gwu,George Washington University,org,"college, private",r1,,131469
-georgetown,Georgetown University,org,"college, private",r1,,131496
-northeastern,Northeastern University,org,"college, private",r1,,167358
-rpi,Rensselaer Polytechnic Institute,org,"college, private",r1,,194824
-tufts,Tufts University,org,"college, private",r1,,168148
-uchicago,University of Chicago,org,"college, private",r1,,144050
-bu,Boston University,org,"college, private","r1, aau",,164988
-brandeis,Brandeis University,org,"college, private","r1, aau",,165015
-caltech,California Institute of Technology,org,"college, private","r1, aau",,110404
-cmu,Carnegie Mellon University,org,"college, private","r1, aau",,211440
-case,Case Western Reserve University,org,"college, private","r1, aau",,201645
-mit,Massachusetts Institute of Technology,org,"college, private","r1, aau",,166683
-nyu,New York University,org,"college, private","r1, aau",,193900
-rice,Rice University,org,"college, private","r1, aau",,227757
-tulane,Tulane University,org,"college, private","r1, aau",,160755
-rochester,University of Rochester,org,"college, private","r1, aau",,195030
-wustl,Washington University,org,"college, private","r1, aau",,179867
-american,American University,org,"college, private",r2,,131159
+_id,name,type,categories,tags,arl_id,iped_id
+aamu,Alabama A & M University,org,"college, public",hbcu,,100654
+uab,"University of Alabama, Birmingham",org,"college, public","r1, uic_peer",,100663
+uah,"University of Alabama, Huntsville",org,"college, public",r2,,100706
+ua,University of Alabama,org,"college, public","sec, r1",,100751
+auburn,Auburn University,org,"college, public","sec, r1",,100858
+southalabama,University of South Alabama,org,"college, public",r2,,102094
+uaf,"University of Alaska, Fairbanks",org,"college, public",r2,,102614
+asu,Arizona State University,org,"college, public","pac_12, r1",,104151
+arizona,University of Arizona,org,"college, public","pac_12, r1, aau, uic_peer",,104179
+nau,Northern Arizona University,org,"college, public",r2,,105330
+ualr,"University of Arkansas, Little Rock",org,"college, public",r2,,106245
+uark,University of Arkansas,org,"college, public","sec, r1",,106397
+astate,Arkansas State University,org,"college, public",r2,,106458
 apu,Azusa Pacific University,org,"college, private",r2,,109785
-baylor,Baylor University,org,"college, private",r2,,223232
-byu,Brigham Young University,org,"college, private",r2,,230038
-catholic,Catholic University of America,org,"college, private",r2,,131283
+caltech,California Institute of Technology,org,"college, private","r1, aau",,110404
+berkeley,"University of California, Berkeley",org,"college, public","pac_12, r1, aau",,110635
+ucdavis,"University of California, Davis",org,"college, public","r1, aau",,110644
+uci,"University of California, Irvine",org,"college, public","r1, aau, uic_peer",,110653
+ucla,"University of California, Los Angeles",org,"college, public","pac_12, r1, aau, uic_peer",,110662
+ucr,"University of California, Riverside",org,"college, public",r1,,110671
+ucsd,"University of California, San Diego",org,"college, public","r1, aau",,110680
+scsb,"University of California, Santa Barbara",org,"college, public","r1, aau",,110705
+ucsc,"University of California, Santa Cruz",org,"college, public","r1, aau",,110714
 chapman,Chapman University,org,"college, private",r2,,111948
 cgu,Claremont Graduate University,org,"college, private",r2,,112251
-cau,Clark Atlanta University,org,"college, private",r2,,138947
-clarku,Clark University,org,"college, private",r2,,165334
-clarkson,Clarkson University,org,"college, private",r2,,190044
-depaul,DePaul University,org,"college, private",r2,,144740
-duq,Duquesne University,org,"college, private",r2,,212106
-fit,Florida Institute of Technology,org,"college, private",r2,,133881
-fordham,Fordham University,org,"college, private",r2,,191241
-gallaudet,Gallaudet University,org,"college, private",r2,,131450
-hamptonu,Hampton University,org,"college, private",r2,,232265
-iit,Illinois Institute of Technology,org,"college, private",r2,,145725
-lehigh,Lehigh University,org,"college, private",r2,,213543
 lmu,Loyola Marymount University,org,"college, private",r2,,117946
-luc,Loyola University Chicago,org,"college, private",r2,,146719
-marquette,Marquette University,org,"college, private",r2,,239105
-mercer,Mercer University,org,"college, private",r2,,140447
-miamioh,Miami University,org,"college, private",r2,,204024
-newschool,New School,org,"college, private",r2,,193654
-nova,Nova Southeastern University,org,"college, private",r2,,136215
-rit,Rochester Institute of Technology,org,"college, private",r2,,195003
-rockefeller,Rockefeller University,org,"college, private",r2,,195049
-slu,Saint Louis University,org,"college, private",r2,,179159
-shu,Seton Hall University,org,"college, private",r2,,186584
-smu,Southern Methodist University,org,"college, private",r2,,228246
-stevens,Stevens Institute of Technology,org,"college, private",r2,,186867
-columbia_tc,Teachers College at Columbia University,org,"college, private",r2,,196468
-tcu,Texas Christian University,org,"college, private",r2,,228875
-jefferson,Thomas Jefferson University,org,"college, private",r2,,216366
-udayton,University of Dayton,org,"college, private",r2,,202480
-du,University of Denver,org,"college, private",r2,,127060
-une,University of New England,org,"college, private",r2,,161457
+sdsu,San Diego State University,org,"college, public",r2,,122409
 sandiego,University of San Diego,org,"college, private",r2,,122436
-utulsa,University of Tulsa,org,"college, private",r2,,207971
-villanova,Villanova University,org,"college, private",r2,,216597
-wpi,Worcester Polytechnic Institute,org,"college, private",r2,,168421
-yu,Yeshiva University,org,"college, private",r2,,197708
-vanderbilt,Vanderbilt University,org,"college, private","sec, r1, aau",,221999
+usc,University of Southern California,org,"college, private","pac_12, r1, aau",,123961
+ucdenver,"University of Colorado, Denver",org,"college, public",r1,,126562
+uccs,"University of Colorado, Colorado Springs",org,"college, public",r2,,126580
+colorado,University of Colorado,org,"college, public","pac_12, r1, aau",,126614
+mines,Colorado School of Mines,org,"college, public",r2,,126775
+colostate,Colorado State University,org,"college, public",r1,,126818
+du,University of Denver,org,"college, private",r2,,127060
+uconn,University of Connecticut,org,"college, public","r1, uic_peer",,129020
+yale,Yale University,org,"college, private","ivy_league, r1, aau",,130794
+desu,Delaware State University,org,"college, public",r2,,130934
+udel,University of Delaware,org,"college, public",r1,,130943
+american,American University,org,"college, private",r2,,131159
+catholic,Catholic University of America,org,"college, private",r2,,131283
+gallaudet,Gallaudet University,org,"college, private",r2,,131450
+gwu,George Washington University,org,"college, private",r1,,131469
+georgetown,Georgetown University,org,"college, private",r1,,131496
+howard,Howard University,org,"college, private","hbcu, r2",,131520
+ucf,University of Central Florida,org,"college, public","r1, aau",,132903
+famu,Florida A & M University,org,"college, public","hbcu, r2",,133650
+fau,Florida Atlantic University,org,"college, public",r2,,133669
+fit,Florida Institute of Technology,org,"college, private",r2,,133881
+fiu,Florida International University,org,"college, public",r1,,133951
+fsu,Florida State University,org,"college, public","acc, r1",,134097
+ufl,University of Florida,org,"college, public","sec, r1, aau",,134130
+miami,University of Miami,org,"college, private","acc, r1",,135726
+nova,Nova Southeastern University,org,"college, private",r2,,136215
+usf,University of South Florida,org,"college, public","r1, uic_peer",,137351
+asurams,Albany State University,org,"college, public",hbcu,,138716
+cau,Clark Atlanta University,org,"college, private",r2,,138947
+emory,Emory University,org,"college, private",r1,,139658
+gatech,Georgia Institute of Technology,org,"college, public","r1, aau",,139755
+georgiasouthern,Georgia Southern University,org,"college, public",r2,,139931
+gsu,Georgia State University,org,"college, public",r1,,139940
+uga,University of Georgia,org,"college, public","sec, r1",,139959
+mercer,Mercer University,org,"college, private",r2,,140447
+morehouse,Morehouse College,org,"college, private",hbcu,,140553
 savannahstate,Savannah State University,org,"college, public",hbcu,,140960
+spelman,Spelman College,org,"college, private",hbcu,,141060
+hawaii,University of Hawai'i,org,"college, public",r1,,141574
+boisestate,Boise State University,org,"college, public",r2,,142115
+isu,Idaho State University,org,"college, public",r2,,142276
+uidaho,University of Idaho,org,"college, public",r2,,142285
+uchicago,University of Chicago,org,"college, private",r1,,144050
+colum,Columbia College Chicago,org,"college, private",,,144281
+depaul,DePaul University,org,"college, private",r2,,144740
+uic,"University of Illinois, Chicago",org,"college, public",r1,,145600
+illinois,University of Illinois,org,"college, public","big_ten, r1, aau",,145637
+iit,Illinois Institute of Technology,org,"college, private",r2,,145725
+illinoisstate,Illinois State University,org,"college, public",r2,,145813
+luc,Loyola University Chicago,org,"college, private",r2,,146719
+niu,Northern Illinois University,org,"college, public",r2,,147703
+nw,Northwestern University,org,"college, private","big_ten, r1, aau",,147767
+siu,Southern Illinois University,org,"college, public",r2,,149222
+bsu,Ball State University,org,"college, public",r2,,150136
+iupui,Indiana University – Purdue University Indianapolis,org,"college, public",r2,,151111
+indiana,Indiana University,org,"college, public","big_ten, r1, aau",,151351
+nd,University of Notre Dame,org,"college, private","big_ten, acc, r1",,152080
+iastate,Iowa State University,org,"college, public","r1, aau",,153603
+uiowa,University of Iowa,org,"college, public","big_ten, r1, aau",,153658
+ku,University of Kansas,org,"college, public","r1, aau",,155317
+k-state,Kansas State University,org,"college, public",r1,,155399
+wichita,Wichita State University,org,"college, public",r2,,156125
+uky,University of Kentucky,org,"college, public","sec, r1",,157085
+louisville,University of Louisville,org,"college, public","acc, r1, uic_peer",,157289
+dillard,Dillard University,org,"college, private",hbcu,,158802
+gram,Grambling State University,org,"college, public",hbcu,,159009
+lsu,Louisiana State University,org,"college, public","sec, r1",,159391
+latech,Louisiana Tech University,org,"college, public",r2,,159647
+uno,University of New Orleans,org,"college, public",r2,,159939
+subr,Southern University and A & M College,org,"college, public",hbcu,,160621
+louisiana,"University of Louisiana, Lafayette",org,"college, public",r2,,160658
+tulane,Tulane University,org,"college, private","r1, aau",,160755
+umaine,University of Maine,org,"college, public",r2,,161253
+une,University of New England,org,"college, private",r2,,161457
+bowiestate,Bowie State University,org,"college, public",hbcu,,162007
+jhu,Johns Hopkins University,org,"college, private","big_ten, r1, aau",,162928
+umbc,"University of Maryland, Baltimore County",org,"college, public",r2,,163268
+umd,University of Maryland,org,"college, public","big_ten, r1, aau",,163286
+umes,"University of Maryland, Eastern Shore",org,"college, public",r2,,163338
+morgan,Morgan State University,org,"college, public","hbcu, r2",,163453
+bc,Boston College,org,"college, private","acc, r1",,164924
+bu,Boston University,org,"college, private","r1, aau",,164988
+brandeis,Brandeis University,org,"college, private","r1, aau",,165015
+clarku,Clark University,org,"college, private",r2,,165334
+harvard,Harvard University,org,"college, private","ivy_league, r1, aau",,166027
+uml,"University of Massachusetts, Lowell",org,"college, public",r2,,166513
+umass,University of Massachusetts,org,"college, public",r1,,166629
+umb,"University of Massachusetts, Boston",org,"college, public",r2,,166638
+mit,Massachusetts Institute of Technology,org,"college, private","r1, aau",,166683
+northeastern,Northeastern University,org,"college, private",r1,,167358
+umassd,"University of Massachusetts, Dartmouth",org,"college, public",r2,,167987
+tufts,Tufts University,org,"college, private",r1,,168148
+wpi,Worcester Polytechnic Institute,org,"college, private",r2,,168421
+cmich,Central Michigan University,org,"college, public",r2,,169248
+emich,Eastern Michigan University,org,"college, public",r2,,169798
+umich,University of Michigan,org,"college, public","big_ten, r1, aau",,170976
+msu,Michigan State University,org,"college, public","big_ten, r1, aau",,171100
+mtu,Michigan Technological University,org,"college, public",r2,,171128
+oakland,Oakland University,org,"college, public",r2,,171571
+wayne,Wayne State University,org,"college, public",r1,,172644
+wmich,Western Michigan University,org,"college, public",r2,,172699
+umn,University of Minnesota,org,"college, public","big_ten, r1, aau",,174066
+jsums,Jackson State University,org,"college, public","hbcu, r2",,175856
+olemiss,University of Mississippi,org,"college, public","sec, r1",,176017
+msstate,Mississippi State University,org,"college, public","sec, r1",,176080
+usm,University of Southern Mississippi,org,"college, public",r1,,176372
+missouri,University of Missouri,org,"college, public","sec, r1, aau",,178396
+umkc,"University of Missouri, Kansas City",org,"college, public",r2,,178402
+mst,Missouri University of Science and Technology,org,"college, public",r2,,178411
+umsl,"University of Missouri, St. Louis",org,"college, public",r2,,178420
+slu,Saint Louis University,org,"college, private",r2,,179159
+wustl,Washington University,org,"college, private","r1, aau",,179867
+montana,Montana State University,org,"college, public",r1,,180461
+unomaha,University of Nebraska at Omaha,org,"college, public",r2,,181394
+unl,University of Nebraska,org,"college, public","big_ten, r1",,181464
+unlv,"University of Nevada, Las Vegas",org,"college, public",r1,,182281
+unr,"University of Nevada, Reno",org,"college, public",r1,,182290
+dartmouth,Dartmouth College,org,"college, private","ivy_league, r1, aau",,182670
+unh,University of New Hampshire,org,"college, public",r1,,183044
+rowan,Rowan University,org,"college, public",r2,,184782
+montclair,Montclair State University,org,"college, public",r2,,185590
+njit,New Jersey Institute of Technology,org,"college, public",r1,,185828
+princeton,Princeton University,org,"college, private","ivy_league, r1, aau",,186131
+camden,"Rutgers University, Camden",org,"college, public",r2,,186371
+rutgers,Rutgers University,org,"college, public","big_ten, r1, aau, uic_peer",,186380
+newark,"Rutgers University, Newark",org,"college, public",r2,,186399
+shu,Seton Hall University,org,"college, private",r2,,186584
+stevens,Stevens Institute of Technology,org,"college, private",r2,,186867
+unm,University of New Mexico,org,"college, public",r1,,187985
+nmsu,New Mexico State University,org,"college, public",r2,,188030
+clarkson,Clarkson University,org,"college, private",r2,,190044
+columbia,Columbia University,org,"college, private","ivy_league, r1, aau",,190150
+cornell,Cornell University,org,"college, private","ivy_league, r1, aau",,190415
+cuny_ccny,City College of New York,org,"college, public",r2,,190567
+cuny_gc,"City University of New York, Graduate Center",org,"college, public",r1,,190576
+fordham,Fordham University,org,"college, private",r2,,191241
+newschool,New School,org,"college, private",r2,,193654
+nyu,New York University,org,"college, private","r1, aau",,193900
+rpi,Rensselaer Polytechnic Institute,org,"college, private",r1,,194824
+rit,Rochester Institute of Technology,org,"college, private",r2,,195003
+rochester,University of Rochester,org,"college, private","r1, aau",,195030
+rockefeller,Rockefeller University,org,"college, private",r2,,195049
+albany,University at Albany,org,"college, public",,,196060
+binghamton,Binghamton University,org,"college, public",r1,,196079
+buffalo,University at Buffalo,org,"college, public","r1, aau, uic_peer",,196088
+stonybrook,Stony Brook University,org,"college, public","r1, aau",,196097
+esf,SUNY College of Environmental Science and Forestry,org,"college, public",r2,,196103
+syr,Syracuse University,org,"college, private","acc, r1",,196413
+columbia_tc,Teachers College at Columbia University,org,"college, private",r2,,196468
+yu,Yeshiva University,org,"college, private",r2,,197708
+duke,Duke University,org,"college, private","acc, r1",,198419
+ecu,East Carolina University,org,"college, public",r2,,198464
+uncfsu,Fayetteville State University,org,"college, public",hbcu,,198543
+ncat,North Carolina A & T State University,org,"college, public","hbcu, r2",,199102
+unc,University of North Carolina,org,"college, public","acc, r1, aau",,199120
+uncc,"University of North Carolina, Charlotte",org,"college, public",r2,,199139
+uncg,"University of North Carolina, Greensboro",org,"college, public",r2,,199148
+nccu,North Carolina Central University,org,"college, public",hbcu,,199157
+ncsu,North Carolina State University,org,"college, public","acc, r1",,199193
+uncw,"University of North Carolina, Wilmington",org,"college, public",r2,,199218
+wfu,Wake Forest University,org,"college, private","acc, r2",,199847
+wssu,Winston-Salem State University,org,"college, public",hbcu,,199999
+und,University of North Dakota,org,"college, public",r2,,200280
+ndsu,North Dakota State University,org,"college, public",r2,,200332
+afit,Air Force Institute of Technology Graduate School of Engineering & Management,org,"college, public",r2,,200697
+uakron,University of Akron,org,"college, public",r2,,200800
+bgsu,Bowling Green State University,org,"college, public",r2,,201441
+case,Case Western Reserve University,org,"college, private","r1, aau",,201645
+uc,University of Cincinnati,org,"college, public","r1, uic_peer",,201885
+csuohio,Cleveland State University,org,"college, public",r2,,202134
+udayton,University of Dayton,org,"college, private",r2,,202480
+kent,Kent State University,org,"college, public",r2,,203517
+miamioh,Miami University,org,"college, private",r2,,204024
+osu,Ohio State University,org,"college, public","big_ten, r1, aau",,204796
+ohio,Ohio University,org,"college, public",r2,,204857
+utoledo,University of Toledo,org,"college, public",r2,,206084
+wright,Wright State University,org,"college, public",r2,,206604
+okstate,Oklahoma State University,org,"college, public",r1,,207388
+ou,University of Oklahoma,org,"college, public",r1,,207500
+utulsa,University of Tulsa,org,"college, private",r2,,207971
+oregonstate,Oregon State University,org,"college, public","pac_12, r1",,209542
+uoregon,University of Oregon,org,"college, public","pac_12, r1, aau",,209551
+pdx,Portland State University,org,"college, public",r2,,209807
+cmu,Carnegie Mellon University,org,"college, private","r1, aau",,211440
+drexel,Drexel University,org,"college, private",r1,,212054
+duq,Duquesne University,org,"college, private",r2,,212106
+lehigh,Lehigh University,org,"college, private",r2,,213543
+psu,Pennsylvania State University,org,"college, public","big_ten, r1, aau",,214777
+upenn,University of Pennsylvania,org,"college, private","ivy_league, r1, aau",,215062
+pitt,University of Pittsburgh,org,"college, public","acc, r1, aau",,215293
+temple,Temple University,org,"college, public",r1,,216339
+jefferson,Thomas Jefferson University,org,"college, private",r2,,216366
+villanova,Villanova University,org,"college, private",r2,,216597
+brown,Brown University,org,"college, private","ivy_league, r1, aau",,217156
+uri,University of Rhode Island,org,"college, public",r2,,217484
+clemson,Clemson University,org,"college, public","acc, r1",,217882
+sc,University of South Carolina,org,"college, public","sec, r1",,218663
+sdstate,South Dakota State University,org,"college, public",r2,,219356
+usd,University of South Dakota,org,"college, public",r2,,219471
+etsu,East Tennessee State University,org,"college, public",r2,,220075
+memphis,University of Memphis,org,"college, public",r2,,220862
+utk,University of Tennessee,org,"college, public","sec, r1",,221759
+tnstate,Tennessee State University,org,"college, public","hbcu, r2",,221838
+tntech,Tennessee Technological University,org,"college, public",r2,,221847
+vanderbilt,Vanderbilt University,org,"college, private","sec, r1, aau",,221999
+baylor,Baylor University,org,"college, private",r2,,223232
+tamucc,"Texas A&M University, Corpus Christi",org,"college, public",r2,,224147
+uh,University of Houston,org,"college, public",r1,,225511
+unt,University of North Texas,org,"college, public",r1,,227216
+utrgv,"University of Texas, Rio Grande Valley",org,"college, public",r2,,227368
+pvamu,Prairie View A & M University,org,"college, public",hbcu,,227526
+rice,Rice University,org,"college, private","r1, aau",,227757
+smu,Southern Methodist University,org,"college, private",r2,,228246
+txstate,Texas State University,org,"college, public",r2,,228459
+tamuk,"Texas A&M University, Kingsville",org,"college, public",r2,,228705
+tamu,Texas A&M University,org,"college, public","sec, r1, aau",,228723
+uta,"University of Texas, Arlington",org,"college, public",r1,,228769
+utexas,University of Texas,org,"college, public","r1, aau",,228778
+utdallas,"University of Texas, Dallas",org,"college, public",r1,,228787
+utep,"University of Texas, El Paso",org,"college, public",r1,,228796
+tcu,Texas Christian University,org,"college, private",r2,,228875
+utsa,"University of Texas, San Antonio",org,"college, public",r2,,229027
+tsu,Texas Southern University,org,"college, public","hbcu, r2",,229063
+ttu,Texas Tech University,org,"college, public",r1,,229115
+byu,Brigham Young University,org,"college, private",r2,,230038
+usu,Utah State University,org,"college, public",r2,,230728
+utah,University of Utah,org,"college, public","pac_12, r1, aau, uic_peer",,230764
+uvm,University of Vermont,org,"college, public",r2,,231174
+wm,College of William & Mary,org,"college, public",r2,,231624
+gmu,George Mason University,org,"college, public",r1,,232186
+hamptonu,Hampton University,org,"college, private",r2,,232265
+nsu,Norfolk State University,org,"college, public",hbcu,,232937
+odu,Old Dominion University,org,"college, public",r2,,232982
+vt,Virginia Polytechnic Institute and State University,org,"college, public","acc, r1",,233921
+vcu,Virginia Commonwealth University,org,"college, public","r1, uic_peer",,234030
+virginia,University of Virginia,org,"college, public","acc, r1, aau",,234076
+wsu,Washington State University,org,"college, public","pac_12, r1",,236939
+washington,University of Washington,org,"college, public","pac_12, r1, aau, uic_peer",,236948
+marshall,Marshall University,org,"college, public",r2,,237525
+wvu,West Virginia University,org,"college, public",r1,,238032
+marquette,Marquette University,org,"college, private",r2,,239105
+wisc,University of Wisconsin,org,"college, public","big_ten, r1, aau",,240444
+uwm,"University of Wisconsin, Milwaukee",org,"college, public",r1,,240453
+uwyo,University of Wyoming,org,"college, public",r2,,240727
+upr,University of Puerto Rico,org,"college, public",r2,,243221
+stanford,Stanford University,org,"college, private","pac_12, r1, aau",,243744
+purdue,Purdue University,org,"college, public","big_ten, r1, aau",,243780
+ucmerced,"University of California, Merced",org,"college, public",r2,,445188
+asu_phoenix,"Arizona State University, Phoenix",org,"college, public",r2,,448886
+kennesaw,Kennesaw State University,org,"college, public",r2,,486840
+anahuac,Anáhuac University,org,"college, private",,,
+tec,Monterrey Institute of Technology and Higher Education,org,"college, private",,,
 uanl,Autonomous University of Nuevo León,org,"college, public",,,
 uaslp,Autonomous University of San Luis Potosí,org,"college, public",,,
 mcmaster,McMaster University,org,"college, public",,,
@@ -98,7 +290,6 @@ colpos,Postgraduate College,org,"college, public",,,
 queensu,Queen's University,org,"college, public",,,
 sfu,Simon Fraser University,org,"college, public",,,
 ulaval,Université Laval,org,"college, public",,,
-albany,University at Albany,org,"college, public",,,196060
 ualberta,University of Alberta,org,"college, public",,,
 ubc,University of British Columbia,org,"college, public",,,
 ucalgary,University of Calgary,org,"college, public",,,
@@ -112,197 +303,6 @@ uwo,Western University,org,"college, public",,,
 yorku,York University,org,"college, public",,,
 mcgill,McGill University,org,"college, public",aau,,
 utoronto,University of Toronto,org,"college, public",aau,,
-clemson,Clemson University,org,"college, public","acc, r1",,217882
-fsu,Florida State University,org,"college, public","acc, r1",,134097
-ncsu,North Carolina State University,org,"college, public","acc, r1",,199193
-vt,Virginia Polytechnic Institute and State University,org,"college, public","acc, r1",,233921
-unc,University of North Carolina,org,"college, public","acc, r1, aau",,199120
-pitt,University of Pittsburgh,org,"college, public","acc, r1, aau",,215293
-virginia,University of Virginia,org,"college, public","acc, r1, aau",,234076
-louisville,University of Louisville,org,"college, public","acc, r1, uic_peer",,157289
-unl,University of Nebraska,org,"college, public","big_ten, r1",,181464
-indiana,Indiana University,org,"college, public","big_ten, r1, aau",,151351
-msu,Michigan State University,org,"college, public","big_ten, r1, aau",,171100
-osu,Ohio State University,org,"college, public","big_ten, r1, aau",,204796
-psu,Pennsylvania State University,org,"college, public","big_ten, r1, aau",,214777
-purdue,Purdue University,org,"college, public","big_ten, r1, aau",,243780
-illinois,University of Illinois,org,"college, public","big_ten, r1, aau",,145637
-uiowa,University of Iowa,org,"college, public","big_ten, r1, aau",,153658
-umd,University of Maryland,org,"college, public","big_ten, r1, aau",,163286
-umich,University of Michigan,org,"college, public","big_ten, r1, aau",,170976
-umn,University of Minnesota,org,"college, public","big_ten, r1, aau",,174066
-wisc,University of Wisconsin,org,"college, public","big_ten, r1, aau",,240444
-rutgers,Rutgers University,org,"college, public","big_ten, r1, aau, uic_peer",,186380
-aamu,Alabama A & M University,org,"college, public",hbcu,,100654
-asurams,Albany State University,org,"college, public",hbcu,,138716
-bowiestate,Bowie State University,org,"college, public",hbcu,,162007
-uncfsu,Fayetteville State University,org,"college, public",hbcu,,198543
-gram,Grambling State University,org,"college, public",hbcu,,159009
-nsu,Norfolk State University,org,"college, public",hbcu,,232937
-nccu,North Carolina Central University,org,"college, public",hbcu,,199157
-pvamu,Prairie View A & M University,org,"college, public",hbcu,,227526
-subr,Southern University and A & M College,org,"college, public",hbcu,,160621
-wssu,Winston-Salem State University,org,"college, public",hbcu,,199999
-famu,Florida A & M University,org,"college, public","hbcu, r2",,133650
-jsums,Jackson State University,org,"college, public","hbcu, r2",,175856
-morgan,Morgan State University,org,"college, public","hbcu, r2",,163453
-ncat,North Carolina A & T State University,org,"college, public","hbcu, r2",,199102
-tnstate,Tennessee State University,org,"college, public","hbcu, r2",,221838
-tsu,Texas Southern University,org,"college, public","hbcu, r2",,229063
-asu,Arizona State University,org,"college, public","pac_12, r1",,104151
-oregonstate,Oregon State University,org,"college, public","pac_12, r1",,209542
-wsu,Washington State University,org,"college, public","pac_12, r1",,236939
-berkeley,"University of California, Berkeley",org,"college, public","pac_12, r1, aau",,110635
-colorado,University of Colorado,org,"college, public","pac_12, r1, aau",,126614
-uoregon,University of Oregon,org,"college, public","pac_12, r1, aau",,209551
-arizona,University of Arizona,org,"college, public","pac_12, r1, aau, uic_peer",,104179
-ucla,"University of California, Los Angeles",org,"college, public","pac_12, r1, aau, uic_peer",,110662
-utah,University of Utah,org,"college, public","pac_12, r1, aau, uic_peer",,230764
-washington,University of Washington,org,"college, public","pac_12, r1, aau, uic_peer",,236948
-binghamton,Binghamton University,org,"college, public",r1,,196079
-cuny_gc,"City University of New York, Graduate Center",org,"college, public",r1,,190576
-colostate,Colorado State University,org,"college, public",r1,,126818
-fiu,Florida International University,org,"college, public",r1,,133951
-gmu,George Mason University,org,"college, public",r1,,232186
-gsu,Georgia State University,org,"college, public",r1,,139940
-k-state,Kansas State University,org,"college, public",r1,,155399
-montana,Montana State University,org,"college, public",r1,,180461
-njit,New Jersey Institute of Technology,org,"college, public",r1,,185828
-okstate,Oklahoma State University,org,"college, public",r1,,207388
-temple,Temple University,org,"college, public",r1,,216339
-ttu,Texas Tech University,org,"college, public",r1,,229115
-ucr,"University of California, Riverside",org,"college, public",r1,,110671
-ucdenver,"University of Colorado, Denver",org,"college, public",r1,,126562
-udel,University of Delaware,org,"college, public",r1,,130943
-hawaii,University of Hawai'i,org,"college, public",r1,,141574
-uh,University of Houston,org,"college, public",r1,,225511
-uic,"University of Illinois, Chicago",org,"college, public",r1,,145600
-umass,University of Massachusetts,org,"college, public",r1,,166629
-unlv,"University of Nevada, Las Vegas",org,"college, public",r1,,182281
-unr,"University of Nevada, Reno",org,"college, public",r1,,182290
-unh,University of New Hampshire,org,"college, public",r1,,183044
-unm,University of New Mexico,org,"college, public",r1,,187985
-unt,University of North Texas,org,"college, public",r1,,227216
-ou,University of Oklahoma,org,"college, public",r1,,207500
-usm,University of Southern Mississippi,org,"college, public",r1,,176372
-uta,"University of Texas, Arlington",org,"college, public",r1,,228769
-utdallas,"University of Texas, Dallas",org,"college, public",r1,,228787
-utep,"University of Texas, El Paso",org,"college, public",r1,,228796
-uwm,"University of Wisconsin, Milwaukee",org,"college, public",r1,,240453
-wayne,Wayne State University,org,"college, public",r1,,172644
-wvu,West Virginia University,org,"college, public",r1,,238032
-gatech,Georgia Institute of Technology,org,"college, public","r1, aau",,139755
-iastate,Iowa State University,org,"college, public","r1, aau",,153603
-stonybrook,Stony Brook University,org,"college, public","r1, aau",,196097
-ucdavis,"University of California, Davis",org,"college, public","r1, aau",,110644
-ucsd,"University of California, San Diego",org,"college, public","r1, aau",,110680
-scsb,"University of California, Santa Barbara",org,"college, public","r1, aau",,110705
-ucsc,"University of California, Santa Cruz",org,"college, public","r1, aau",,110714
-ucf,University of Central Florida,org,"college, public","r1, aau",,132903
-ku,University of Kansas,org,"college, public","r1, aau",,155317
-utexas,University of Texas,org,"college, public","r1, aau",,228778
-buffalo,University at Buffalo,org,"college, public","r1, aau, uic_peer",,196088
-uci,"University of California, Irvine",org,"college, public","r1, aau, uic_peer",,110653
-uab,"University of Alabama, Birmingham",org,"college, public","r1, uic_peer",,100663
-uc,University of Cincinnati,org,"college, public","r1, uic_peer",,201885
-uconn,University of Connecticut,org,"college, public","r1, uic_peer",,129020
-usf,University of South Florida,org,"college, public","r1, uic_peer",,137351
-vcu,Virginia Commonwealth University,org,"college, public","r1, uic_peer",,234030
-afit,Air Force Institute of Technology Graduate School of Engineering & Management,org,"college, public",r2,,200697
-asu_phoenix,"Arizona State University, Phoenix",org,"college, public",r2,,448886
-astate,Arkansas State University,org,"college, public",r2,,106458
-bsu,Ball State University,org,"college, public",r2,,150136
-boisestate,Boise State University,org,"college, public",r2,,142115
-bgsu,Bowling Green State University,org,"college, public",r2,,201441
-cmich,Central Michigan University,org,"college, public",r2,,169248
-cuny_ccny,City College of New York,org,"college, public",r2,,190567
-csuohio,Cleveland State University,org,"college, public",r2,,202134
-wm,College of William & Mary,org,"college, public",r2,,231624
-mines,Colorado School of Mines,org,"college, public",r2,,126775
-desu,Delaware State University,org,"college, public",r2,,130934
-ecu,East Carolina University,org,"college, public",r2,,198464
-etsu,East Tennessee State University,org,"college, public",r2,,220075
-emich,Eastern Michigan University,org,"college, public",r2,,169798
-fau,Florida Atlantic University,org,"college, public",r2,,133669
-georgiasouthern,Georgia Southern University,org,"college, public",r2,,139931
-isu,Idaho State University,org,"college, public",r2,,142276
-illinoisstate,Illinois State University,org,"college, public",r2,,145813
-iupui,Indiana University – Purdue University Indianapolis,org,"college, public",r2,,151111
-kennesaw,Kennesaw State University,org,"college, public",r2,,486840
-kent,Kent State University,org,"college, public",r2,,203517
-latech,Louisiana Tech University,org,"college, public",r2,,159647
-marshall,Marshall University,org,"college, public",r2,,237525
-mtu,Michigan Technological University,org,"college, public",r2,,171128
-mst,Missouri University of Science and Technology,org,"college, public",r2,,178411
-montclair,Montclair State University,org,"college, public",r2,,185590
-nmsu,New Mexico State University,org,"college, public",r2,,188030
-ndsu,North Dakota State University,org,"college, public",r2,,200332
-nau,Northern Arizona University,org,"college, public",r2,,105330
-niu,Northern Illinois University,org,"college, public",r2,,147703
-oakland,Oakland University,org,"college, public",r2,,171571
-ohio,Ohio University,org,"college, public",r2,,204857
-odu,Old Dominion University,org,"college, public",r2,,232982
-pdx,Portland State University,org,"college, public",r2,,209807
-rowan,Rowan University,org,"college, public",r2,,184782
-camden,"Rutgers University, Camden",org,"college, public",r2,,186371
-newark,"Rutgers University, Newark",org,"college, public",r2,,186399
-sdsu,San Diego State University,org,"college, public",r2,,122409
-sdstate,South Dakota State University,org,"college, public",r2,,219356
-siu,Southern Illinois University,org,"college, public",r2,,149222
-esf,SUNY College of Environmental Science and Forestry,org,"college, public",r2,,196103
-tntech,Tennessee Technological University,org,"college, public",r2,,221847
-tamucc,"Texas A&M University, Corpus Christi",org,"college, public",r2,,224147
-tamuk,"Texas A&M University, Kingsville",org,"college, public",r2,,228705
-txstate,Texas State University,org,"college, public",r2,,228459
-uakron,University of Akron,org,"college, public",r2,,200800
-uah,"University of Alabama, Huntsville",org,"college, public",r2,,100706
-uaf,"University of Alaska, Fairbanks",org,"college, public",r2,,102614
-ualr,"University of Arkansas, Little Rock",org,"college, public",r2,,106245
-ucmerced,"University of California, Merced",org,"college, public",r2,,445188
-uccs,"University of Colorado, Colorado Springs",org,"college, public",r2,,126580
-uidaho,University of Idaho,org,"college, public",r2,,142285
-louisiana,"University of Louisiana, Lafayette",org,"college, public",r2,,160658
-umaine,University of Maine,org,"college, public",r2,,161253
-umbc,"University of Maryland, Baltimore County",org,"college, public",r2,,163268
-umes,"University of Maryland, Eastern Shore",org,"college, public",r2,,163338
-umb,"University of Massachusetts, Boston",org,"college, public",r2,,166638
-umassd,"University of Massachusetts, Dartmouth",org,"college, public",r2,,167987
-uml,"University of Massachusetts, Lowell",org,"college, public",r2,,166513
-memphis,University of Memphis,org,"college, public",r2,,220862
-umkc,"University of Missouri, Kansas City",org,"college, public",r2,,178402
-umsl,"University of Missouri, St. Louis",org,"college, public",r2,,178420
-unomaha,University of Nebraska at Omaha,org,"college, public",r2,,181394
-uno,University of New Orleans,org,"college, public",r2,,159939
-uncc,"University of North Carolina, Charlotte",org,"college, public",r2,,199139
-uncg,"University of North Carolina, Greensboro",org,"college, public",r2,,199148
-uncw,"University of North Carolina, Wilmington",org,"college, public",r2,,199218
-und,University of North Dakota,org,"college, public",r2,,200280
-upr,University of Puerto Rico,org,"college, public",r2,,243221
-uri,University of Rhode Island,org,"college, public",r2,,217484
-southalabama,University of South Alabama,org,"college, public",r2,,102094
-usd,University of South Dakota,org,"college, public",r2,,219471
-utrgv,"University of Texas, Rio Grande Valley",org,"college, public",r2,,227368
-utsa,"University of Texas, San Antonio",org,"college, public",r2,,229027
-utoledo,University of Toledo,org,"college, public",r2,,206084
-uvm,University of Vermont,org,"college, public",r2,,231174
-uwyo,University of Wyoming,org,"college, public",r2,,240727
-usu,Utah State University,org,"college, public",r2,,230728
-wmich,Western Michigan University,org,"college, public",r2,,172699
-wichita,Wichita State University,org,"college, public",r2,,156125
-wright,Wright State University,org,"college, public",r2,,206604
-auburn,Auburn University,org,"college, public","sec, r1",,100858
-lsu,Louisiana State University,org,"college, public","sec, r1",,159391
-msstate,Mississippi State University,org,"college, public","sec, r1",,176080
-ua,University of Alabama,org,"college, public","sec, r1",,100751
-uark,University of Arkansas,org,"college, public","sec, r1",,106397
-uga,University of Georgia,org,"college, public","sec, r1",,139959
-uky,University of Kentucky,org,"college, public","sec, r1",,157085
-olemiss,University of Mississippi,org,"college, public","sec, r1",,176017
-sc,University of South Carolina,org,"college, public","sec, r1",,218663
-utk,University of Tennessee,org,"college, public","sec, r1",,221759
-tamu,Texas A&M University,org,"college, public","sec, r1, aau",,228723
-ufl,University of Florida,org,"college, public","sec, r1, aau",,134130
-missouri,University of Missouri,org,"college, public","sec, r1, aau",,178396
 auraria,Auraria Higher Education Center,org,"consortium, academic",,,
 cuny,City University of New York,org,"consortium, academic",,,
 claremont,Claremont Colleges,org,"consortium, academic",,,
