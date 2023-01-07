@@ -1,50 +1,14 @@
-<script>
+<script setup>
+// import { ref } from "vue";
 import NodeCard from "../components/NodeCard.vue";
 import NodeSidebar from "../components/NodeSidebar.vue";
 import NodeControls from "../components/NodeControls.vue";
 import axios from 'axios';
 import { useRoute } from 'vue-router';
+import { useBrachioStore } from '@/stores/brachioStore'
 
-export default {
-  components: {
-    NodeCard,
-    NodeSidebar,
-    NodeControls
-  },
-  data() {
-    return {
-      nodes: []
-    }
-  },
-  async created() {
-    const data = JSON.stringify({
-      query: `query nodes {
-        nodes(limit:3,sortBy:NAME_ASC) {
-          _id
-          name
-        }
-      }`
-    });
+const store = useBrachioStore();
 
-    const config = {
-      method: 'post',
-      url: '/api',
-      headers: {
-        'content-type': 'application/json',
-        'apiKey': import.meta.env.VITE_APIKEY,
-      },
-      data
-    };
-
-    try {
-      const response = await axios(config)
-      this.nodes = response.data.data.nodes;
-
-    } catch (error) {
-      console.error(error);
-    }
-  }
-}
 </script>
 
 <template>
@@ -90,7 +54,7 @@ export default {
 
             <div class="row">
               <div class="col-12 mb-4">
-                <NodeCard v-for="node in nodes" :key="node._id" :id="node._id" :name="node.name" />
+                <NodeCard v-for="node in store.nodes" :key="node._id" :id="node._id" :name="node.name" />
               </div>
             </div>
           </div>

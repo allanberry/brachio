@@ -10,7 +10,7 @@ export default {
 
 <template>
   <div :id="id" class="card shadow-sm">
-    <img src="https://vim9ip3utf.execute-api.us-west-1.amazonaws.com/latest/iiif/2/test%2Fuic.png/full/300,/0/default.png" class="card-img-top" alt="...">
+    <!-- <img src="https://vim9ip3utf.execute-api.us-west-1.amazonaws.com/latest/iiif/2/test%2Fuic.png/full/300,/0/default.png" class="card-img-top" alt="..."> -->
 
 
     <div class="card-body">
