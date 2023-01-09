@@ -54,7 +54,7 @@ const store = useBrachioStore();
 
             <div class="row">
               <div class="col-12 mb-4">
-                <NodeCard v-for="node in store.nodes" :key="node._id" :id="node._id" :name="node.name" />
+                <NodeCard v-for="node in store.libraries" :key="node._id" :id="node._id" :name="node.name" />
               </div>
             </div>
           </div>

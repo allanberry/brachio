@@ -1,42 +1,14 @@
-<script>
-import axios from 'axios';
+<script setup>
+import { computed } from 'vue';
 import { useRoute } from 'vue-router';
+import { useBrachioStore } from '@/stores/brachioStore'
 
-export default {
-  data() {
-    return {
-    }
-  },
-  computed: {
-    // async node() {
-    //   const id = useRoute().params.id
-    //   const config = {
-    //     method: 'post',
-    //     url: '/api',
-    //     headers: {
-    //       'content-type': 'application/json',
-    //       'apiKey': import.meta.env.VITE_APIKEY,
-    //     },
-    //     data: JSON.stringify({
-    //       query: `query nodeByID {
-    //   node(query: { _id: "${id}" }) {
-    //     _id
-    //     name
-    //   }
-    // }`
-    //     })
-    //   };
+const store = useBrachioStore();
+const id = useRoute().params.id
 
-    //   try {
-    //     const response = await axios(config)
-    //     return response.data.data.node;
+const node = computed(() => store.nodes.find((node) => node._id === id));
 
-    //   } catch (error) {
-    //     return error;
-    //   }
-    // }
-  }
-}
+
 </script>
 
 <template>
@@ -45,6 +17,8 @@ export default {
       <div class="col">
         <!-- <h1 class="fw-light">{{ node().name }}</h1> -->
         <h1 class="fw-light">Node</h1>
+        <p v-if="node">{{ node.name }}</p>
+        <p v-else>loading...</p>
       </div>
     </div>
   </section>
