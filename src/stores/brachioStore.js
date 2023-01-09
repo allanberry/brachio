@@ -129,7 +129,7 @@ export const useBrachioStore = defineStore('brachioStore', {
         url: '/api',
         headers: {
           'content-type': 'application/json',
-          'apiKey': import.meta.env.VITE_APIKEY,
+          'apiKey': import.meta.env.VITE_ATLAS_APIKEY,
         },
         data
       };
