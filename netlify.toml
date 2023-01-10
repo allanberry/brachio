@@ -1,6 +1,12 @@
-## This rule redirects to an external API, signing requests with a secret
+## This rule redirects to an external API
 [[redirects]]
   from = "/api/*"
   to = "https://realm.mongodb.com/api/client/v2.0/app/data-jgazm/graphql:splat"
   status = 200
   headers = {X-From = "Netlify"}
+
+## catch all rule
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
