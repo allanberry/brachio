@@ -7,6 +7,7 @@
 
 
 ## https://vim9ip3utf.execute-api.us-west-1.amazonaws.com/latest/iiif/2/test%2Fuic.png/full/300,/0/default.png
+## /iiif/test%2Fuic.png/full/300,/0/default.png
 [[redirects]]
   from = "/iiif/*"
   to = "https://vim9ip3utf.execute-api.us-west-1.amazonaws.com/latest/iiif/2/:splat"
@@ -14,7 +15,7 @@
 
 ## https://bcw-images.s3.us-west-1.amazonaws.com/brachio/visits/v1_0/ca_utoronto_library_3185385819_20050908182525/w320.png
 [[redirects]]
-  from = "/s3/"
+  from = "/s3/*"
   to = "https://bcw-images.s3.us-west-1.amazonaws.com/brachio/:splat"
   status = 200
 
