@@ -1,0 +1,5 @@
+## This rule redirects to an external API, signing requests with a secret
+[[redirects]]
+  from = "/api"
+  to = "https://realm.mongodb.com/api/client/v2.0/app/data-jgazm/graphql"
+  status = 200
