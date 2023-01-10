@@ -12,14 +12,17 @@
   from = "/iiif/*"
   to = "https://vim9ip3utf.execute-api.us-west-1.amazonaws.com/latest/iiif/2/:splat"
   status = 200
+  headers = {X-From = "Netlify"}
 
 ## https://bcw-images.s3.us-west-1.amazonaws.com/brachio/visits/v1_0/ca_utoronto_library_3185385819_20050908182525/w320.png
+## https://brachio.xyz/s3/brachio/visits/v1_0/ca_utoronto_library_3185385819_20050908182525/w320.png
 [[redirects]]
   from = "/s3/*"
   to = "https://bcw-images.s3.us-west-1.amazonaws.com/brachio/:splat"
   status = 200
+  headers = {X-From = "Netlify"}
 
-## catch all rule
+## catch all rule, e.g. for /libraries
 [[redirects]]
   from = "/*"
   to = "/index.html"
