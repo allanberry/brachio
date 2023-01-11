@@ -1,7 +1,11 @@
 <template>
-  <div class="p-3 bg-white">
+  <div class="sticky-top">
+    <h4 class="">Filters</h4>
+
     <div class="mb-3">
-      <label for="filter_keyword" class="form-label fs-5 fw-semibold">Keywords</label>
+      <label for="filter_keyword" class="form-label fs-5 mb-3 fw-semibold"
+        >Keywords</label
+      >
       <input
         type="email"
         class="form-control"
@@ -15,32 +19,12 @@
     </div>
     <a
       href="/"
-      class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom"
+      class="d-flex align-items-center mb-3 link-dark text-decoration-none"
     >
-      <!-- <svg class="bi pe-none me-2" width="30" height="24">
-        <use xlink:href="#bootstrap"></use>
-      </svg> -->
-
-      <!-- <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="16"
-        height="16"
-        fill="currentColor"
-        class="bi bi-chevron-right"
-        viewBox="0 0 16 16"
-      >
-        <path
-          fill-rule="evenodd"
-          d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
-        />
-      </svg> -->
-
       <span class="fs-5 fw-semibold">Facets</span>
     </a>
 
-
-
-    <ul class="list-unstyled ps-0">
+    <ul class="list-unstyled">
       <li class="mb-1" id="filter_list">
         <button
           class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
@@ -113,50 +97,6 @@
                 href="#"
                 class="link-dark d-inline-flex text-decoration-none rounded"
                 >Annually</a
-              >
-            </li>
-          </ul>
-        </div>
-      </li>
-      
-      <li class="border-top my-3"></li>
-      <li class="mb-1">
-        <button
-          class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-          data-bs-toggle="collapse"
-          data-bs-target="#account-collapse"
-          aria-expanded="false"
-        >
-          Account
-        </button>
-        <div class="collapse" id="account-collapse">
-          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-            <li>
-              <a
-                href="#"
-                class="link-dark d-inline-flex text-decoration-none rounded"
-                >New...</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="link-dark d-inline-flex text-decoration-none rounded"
-                >Profile</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="link-dark d-inline-flex text-decoration-none rounded"
-                >Settings</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="link-dark d-inline-flex text-decoration-none rounded"
-                >Sign out</a
               >
             </li>
           </ul>
