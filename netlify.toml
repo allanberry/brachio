@@ -5,17 +5,21 @@
   status = 200
   headers = {X-From = "Netlify"}
 
-
-## https://vim9ip3utf.execute-api.us-west-1.amazonaws.com/latest/iiif/2/test%2Fuic.png/full/300,/0/default.png
-## /iiif/test%2Fuic.png/full/300,/0/default.png
+## IIIF images
+## Examples
+  ## https://vim9ip3utf.execute-api.us-west-1.amazonaws.com/latest/iiif/2/test%2Fuic.png/full/300,/0/default.png
+  ## /iiif/test%2Fuic.png/full/300,/0/default.png
+  ## https://brachio.xyz/iiif/brachio%2Fvisits%2Fv1_0%2Fca_utoronto_library_3185385819_20050908182525%2Fw640.png/full/300,/0/default.png
 [[redirects]]
   from = "/iiif/*"
   to = "https://vim9ip3utf.execute-api.us-west-1.amazonaws.com/latest/iiif/2/:splat"
   status = 200
   headers = {X-From = "Netlify"}
 
-## https://bcw-images.s3.us-west-1.amazonaws.com/brachio/visits/v1_0/ca_utoronto_library_3185385819_20050908182525/w320.png
-## https://brachio.xyz/s3/brachio/visits/v1_0/ca_utoronto_library_3185385819_20050908182525/w320.png
+## S3 generic (not currently authorized by S3; need to activate)
+## Examples
+  ## https://bcw-images.s3.us-west-1.amazonaws.com/brachio/visits/v1_0/ca_utoronto_library_3185385819_20050908182525/w320.png
+  ## https://brachio.xyz/s3/brachio/visits/v1_0/ca_utoronto_library_3185385819_20050908182525/w320.png
 [[redirects]]
   from = "/s3/*"
   to = "https://bcw-images.s3.us-west-1.amazonaws.com/brachio/:splat"

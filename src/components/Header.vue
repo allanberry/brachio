@@ -20,14 +20,14 @@
             >
           </li>
           <li>
-            <RouterLink class="nav-link px-2 link-dark" to="/libraries"
-              >Libraries</RouterLink
+            <RouterLink class="nav-link px-2 link-dark" to="/nodes"
+              >Nodes</RouterLink
             >
           </li>
           <!-- <li>
             <RouterLink
               class="nav-link px-2 link-dark"
-              to="/libraries/library_name"
+              to="/nodes/library_name"
               >Library</RouterLink
             >
           </li> -->

@@ -1,6 +1,6 @@
 import { defineStore } from "pinia";
 import { ref, computed } from "vue";
-import axios from 'axios';
+import axios from "axios";
 
 const allNodes = `query nodes {
   nodes(limit: 1000, sortBy: NAME_ASC) {
@@ -102,48 +102,47 @@ const allNodes = `query nodes {
       # year
     # }
   }
-}`
+}`;
 
-export const useBrachioStore = defineStore('brachioStore', {
-
+export const useBrachioStore = defineStore("brachioStore", {
   state: () => ({
     nodes: [
       // { _id: "a", name: "A" },
       // { _id: "b", name: "B" },
       // { _id: "c", name: "C" },
-    ]
+    ],
   }),
   getters: {
     libraries() {
-      return this.nodes.filter(node => node.categories && node.categories[0] === 'library');
-    }
+      return this.nodes.filter(
+        (node) => node.categories && node.categories[0] === "library"
+      );
+    },
   },
   actions: {
     async getNodes() {
       const data = JSON.stringify({
-        query: allNodes
+        query: allNodes,
       });
 
       const config = {
-        method: 'post',
-        url: '/api',
+        method: "post",
+        url: "/api",
         headers: {
-          'content-type': 'application/json',
-          'apiKey': import.meta.env.VITE_ATLAS_APIKEY,
+          "content-type": "application/json",
+          apiKey: import.meta.env.VITE_ATLAS_APIKEY,
         },
-        data
+        data,
       };
 
       try {
         const response = await axios(config);
         // this.nodes = response.data.data.nodes;
-        this.$patch({ nodes: response.data.data.nodes })
+        this.$patch({ nodes: response.data.data.nodes });
         // console.log(this)
-
       } catch (error) {
         console.error(error);
       }
-    }
+    },
   },
-
-})
+});

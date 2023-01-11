@@ -15,15 +15,15 @@ const router = createRouter({
       component: () => import("../views/PageView.vue"),
     },
     {
-      path: "/libraries",
-      name: "libraries",
+      path: "/nodes",
+      name: "nodes",
       component: () => import("../views/NodeListView.vue"),
     },
     {
-      path: "/libraries/:id",
-      name: "library",
+      path: "/nodes/:id",
+      name: "node",
       component: () => import("../views/NodeView.vue"),
-    },
+    }
   ],
 });
 

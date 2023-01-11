@@ -15,7 +15,7 @@ const store = useBrachioStore();
   <section class="container">
     <div class="row py-lg-5">
       <div class="col">
-        <h1 class="fw-light">Libraries</h1>
+        <h1 class="fw-light">Nodes</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut
           ullamcorper dolor.

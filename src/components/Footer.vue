@@ -12,8 +12,8 @@
         >
       </li>
       <li>
-        <RouterLink class="nav-link px-2 link-dark text-muted" to="/libraries"
-          >Libraries</RouterLink
+        <RouterLink class="nav-link px-2 link-dark text-muted" to="/nodes"
+          >Nodes</RouterLink
         >
       </li>
     </ul>
