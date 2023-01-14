@@ -2,7 +2,8 @@
 // import { ref } from "vue";
 import NodeCard from "../components/NodeCard.vue";
 import NodeSidebar from "../components/NodeSidebar.vue";
-import NodeListPagination from "../components/NodeListPagination.vue";
+import NodeListResultsTools from "../components/NodeListResultsTools.vue";
+
 import axios from "axios";
 import { useRoute } from "vue-router";
 import { useBrachioStore } from "@/stores/brachioStore";
@@ -44,37 +45,7 @@ const store = useBrachioStore();
 
           <div v-if="store.nodes && store.nodes.length > 0">
 
-            <form id="tools_pre_content" class="row mb-3">
-              <div class="col">
-                <h5 class="visually-hidden">Results Tools, pre-content</h5>
-
-                <span>Results N of NNN</span>
-
-                
-
-                <div class="mb-3">
-                  <label for="qty_select">Sort By</label>
-                  <select id="qty_select" class="form-select">
-                    <option selected>Sort</option>
-                    <option value="name">Name</option>
-                    <option value="size">Size</option>
-                  </select>
-                </div>
-
-                <div class="mb-3">
-                  <label for="qty_select">Choose a Quantity</label>
-                  <select id="qty_select" class="form-select">
-                    <option selected>Qty</option>
-                    <option value="25">25</option>
-                    <option value="50">50</option>
-                    <option value="100">100</option>
-                  </select>
-                </div>
-
-                <NodeListPagination />
-
-              </div>
-            </form>
+            <NodeListResultsTools placement="precontent" title="Results Tools, pre-content" />
 
             <div id="content" class="row row-cols-1 row-cols-lg-2 g-3">
               <div class="col" v-for="node in store.nodes" :key="node._id">
@@ -82,12 +53,7 @@ const store = useBrachioStore();
               </div>
             </div>
 
-            <form id="tools_post_content" class="row mb-3 mt-3">
-              <div class="col">
-                <h5 class="visually-hidden">Results Tools, post-content</h5>
-                <NodeListPagination />
-              </div>
-            </form>
+            <NodeListResultsTools placement="postcontent" title="Results Tools, post-content"/>
 
           </div>
           <p v-else>loading...</p>
