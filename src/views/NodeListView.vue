@@ -2,6 +2,7 @@
 // import { ref } from "vue";
 import NodeCard from "../components/NodeCard.vue";
 import NodeSidebar from "../components/NodeSidebar.vue";
+import NodeListPagination from "../components/NodeListPagination.vue";
 import axios from "axios";
 import { useRoute } from "vue-router";
 import { useBrachioStore } from "@/stores/brachioStore";
@@ -39,52 +40,65 @@ const store = useBrachioStore();
         </div>
 
         <div class="col-12 col-md-8 col-lg-9">
-          <div class="container">
-            <div class="row mb-2">
-              <div class="col-6">
-                <h4 class="">Results</h4>
-                <p>Results N of NNN</p>
-              </div>
+          <h4 class="">Results</h4>
 
-              <div id="tools" class="col-6 d-flex flex-column align-items-end">
-                <h4 class="h5">Tools</h4>
-                <div
-                  class="btn-group"
-                  role="group"
-                  aria-label="Button group with nested dropdown"
-                >
-                  <!-- <button type="button" class="btn btn-outline-dark">1</button>
-                  <button type="button" class="btn btn-outline-dark">2</button> -->
+          <div v-if="store.nodes && store.nodes.length > 0">
 
-                  <div class="btn-group" role="group">
-                    <button
-                      type="button"
-                      class="btn btn-outline-dark dropdown-toggle"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      Sort
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li>
-                        <a class="dropdown-item" href="#">Name</a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="#">Size</a>
-                      </li>
-                    </ul>
-                  </div>
+            <form id="tools_pre_content" class="row mb-3">
+              <div class="col">
+                <h5 class="visually-hidden">Results Tools, pre-content</h5>
+
+                <span>Results N of NNN</span>
+
+                
+
+                <div class="mb-3">
+                  <label for="qty_select">Sort By</label>
+                  <select id="qty_select" class="form-select">
+                    <option selected>Sort</option>
+                    <option value="name">Name</option>
+                    <option value="size">Size</option>
+                  </select>
                 </div>
+
+                <div class="mb-3">
+                  <label for="qty_select">Choose a Quantity</label>
+                  <select id="qty_select" class="form-select">
+                    <option selected>Qty</option>
+                    <option value="25">25</option>
+                    <option value="50">50</option>
+                    <option value="100">100</option>
+                  </select>
+                </div>
+
+                <NodeListPagination />
+
               </div>
-            </div>
-            <div class="row row-cols-1 row-cols-lg-2 g-3">
-              <div class="col" v-for="node in store.libraries" :key="node._id">
+            </form>
+
+            <div id="content" class="row row-cols-1 row-cols-lg-2 g-3">
+              <div class="col" v-for="node in store.nodes" :key="node._id">
                 <NodeCard :id="node._id" :node="node" />
               </div>
             </div>
+
+            <form id="tools_post_content" class="row mb-3 mt-3">
+              <div class="col">
+                <h5 class="visually-hidden">Results Tools, post-content</h5>
+                <NodeListPagination />
+              </div>
+            </form>
+
           </div>
+          <p v-else>loading...</p>
         </div>
       </div>
     </div>
   </div>
 </template>
+
+<style scoped lang="scss">
+select.form-select {
+  // width: unset;
+}
+</style>

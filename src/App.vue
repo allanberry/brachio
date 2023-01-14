@@ -3,24 +3,21 @@ import Header from "./components/Header.vue";
 import Main from "./components/Main.vue";
 import Footer from "./components/Footer.vue";
 
-import { useBrachioStore } from '@/stores/brachioStore'
+import { useBrachioStore } from "@/stores/brachioStore";
 
 const store = useBrachioStore();
-store.getNodes()
-
+store.getNodes();
+store.getConnections();
 </script>
 
 <template>
+  <Header />
 
-    <Header />
+  <Main />
 
-    <Main />
-
-    <Footer />
-
+  <Footer />
 </template>
 
 <style lang="scss">
 @import "~/bootstrap/scss/bootstrap";
-
 </style>

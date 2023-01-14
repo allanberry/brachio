@@ -6,6 +6,18 @@
       <div
         class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
       >
+
+        <RouterLink class="nav-link px-2 link-secondary d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none" to="/"
+              >
+          <img
+            src="http://localhost:5173/src/assets/brachiosaurus.svg"
+            class="me-2"
+            width="40"
+            alt="brachiosaurus"
+          />
+
+          <span class="fs-4">Brachio</span>
+        </RouterLink>
         <ul
           class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
         >

@@ -1,9 +1,69 @@
 import { defineStore } from "pinia";
-import { ref, computed } from "vue";
 import axios from "axios";
 
+export const useBrachioStore = defineStore("brachioStore", {
+  state: () => ({
+    nodes: [],
+    connections: [],
+  }),
+  getters: {
+    libraries() {
+      return this.nodes.filter(
+        (node) => node.categories && node.categories[0] === "library"
+      );
+    },
+  },
+  actions: {
+    async getNodes() {
+      const data = JSON.stringify({
+        query: allNodes,
+      });
+
+      const config = {
+        method: "post",
+        url: "/api",
+        headers: {
+          "content-type": "application/json",
+          apiKey: import.meta.env.VITE_ATLAS_APIKEY,
+        },
+        data,
+      };
+
+      try {
+        const response = await axios(config);
+        this.$patch({ nodes: response.data.data.nodes });
+      } catch (error) {
+        console.error(error);
+      }
+    },
+
+    async getConnections() {
+      const data = JSON.stringify({
+        query: allConnections,
+      });
+
+      const config = {
+        method: "post",
+        url: "/api",
+        headers: {
+          "content-type": "application/json",
+          apiKey: import.meta.env.VITE_ATLAS_APIKEY,
+        },
+        data,
+      };
+
+      try {
+        const response = await axios(config);
+        this.$patch({ connections: response.data.data.connections });
+      } catch (error) {
+        console.error(error);
+      }
+    },
+  },
+});
+
 const allNodes = `query nodes {
-  nodes(limit: 1000, sortBy: NAME_ASC) {
+  nodes(limit: 1000000, sortBy: NAME_ASC) {
     _id
     name
     type
@@ -104,45 +164,17 @@ const allNodes = `query nodes {
   }
 }`;
 
-export const useBrachioStore = defineStore("brachioStore", {
-  state: () => ({
-    nodes: [
-      // { _id: "a", name: "A" },
-      // { _id: "b", name: "B" },
-      // { _id: "c", name: "C" },
-    ],
-  }),
-  getters: {
-    libraries() {
-      return this.nodes.filter(
-        (node) => node.categories && node.categories[0] === "library"
-      );
-    },
-  },
-  actions: {
-    async getNodes() {
-      const data = JSON.stringify({
-        query: allNodes,
-      });
-
-      const config = {
-        method: "post",
-        url: "/api",
-        headers: {
-          "content-type": "application/json",
-          apiKey: import.meta.env.VITE_ATLAS_APIKEY,
-        },
-        data,
-      };
-
-      try {
-        const response = await axios(config);
-        // this.nodes = response.data.data.nodes;
-        this.$patch({ nodes: response.data.data.nodes });
-        // console.log(this)
-      } catch (error) {
-        console.error(error);
-      }
-    },
-  },
-});
+const allConnections = `query connections {
+  connections(limit: 1000000) {
+    _id
+    subject {
+      _id
+      name
+    }
+    predicate
+    dobject {
+      _id
+      name
+    }
+  }
+}`;
