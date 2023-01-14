@@ -9,7 +9,11 @@ export default {
 
 <template>
   <div :id="id" class="card shadow-sm h-100">
-    <img src="http://localhost:5173/src/assets/brachiosaurus-k10.svg" class="card-img-top p-5 bg-light" alt="brachiosaurus">
+    <img
+      src="/src/assets/brachiosaurus-k10.svg"
+      class="card-img-top p-5 bg-light"
+      alt="brachiosaurus"
+    />
 
     <div class="card-body">
       <div class="mb-4">
