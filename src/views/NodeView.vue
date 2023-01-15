@@ -27,6 +27,46 @@ const parents = store.nodes.filter((node) => {
         <h1 class="fw-light">{{ node.name }}</h1>
 
         <div>
+          <h4>Categories</h4>
+          <p>coming soon</p>
+          <ul>
+            <li>Library</li>
+            <li>Academic</li>
+          </ul>
+          <hr />
+        </div>
+
+        <div>
+          <h4>Tags</h4>
+          <p>coming soon</p>
+          <ul>
+            <li>CARLI</li>
+          </ul>
+          <hr />
+        </div>
+
+        <div>
+          <h4>URLs</h4>
+          <p>coming soon</p>
+          <ul>
+            <li>https://library.uic.edu</li>
+          </ul>
+          <hr />
+        </div>
+
+        <div>
+          <h4>Locations</h4>
+          <p>coming soon</p>
+          <ul>
+                <li>
+                  <p>801 S. Morgan, Chicago IL 60607, United States</p>
+                  <p>Latitude: '33.75883, Longitude: '-84.388719</p>
+                </li>
+          </ul>
+          <hr />
+        </div>
+
+        <div>
           <h4>Connections</h4>
 
           <ul v-if="connections">
@@ -72,11 +112,22 @@ const parents = store.nodes.filter((node) => {
         </div>
 
         <div>
-          <h4>Stats</h4>
+          <h4>IPEDS</h4>
           <p>coming soon</p>
           <hr />
         </div>
 
+        <div>
+          <h4>ARLs</h4>
+          <p>coming soon</p>
+          <hr />
+        </div>
+
+        <div>
+          <h4>Stats</h4>
+          <p>coming soon</p>
+          <hr />
+        </div>
       </div>
       <p v-else>loading...</p>
     </div>
