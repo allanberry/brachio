@@ -17,7 +17,8 @@
         >
       </li>
     </ul>
-    <p class="text-center text-muted">© 2022 Company, Inc</p>
+    <p class="text-center text-muted">Copyright © 2023 <a href="https://allanberry.com">Allan Berry</a>: <a href="https://github.com/allanberry/brachio/blob/main/LICENSE.txt">CC-BY-NC</a></p>
+    
   </footer>
 </template>
 
