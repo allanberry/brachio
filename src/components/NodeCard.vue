@@ -12,7 +12,7 @@ export default {
     <img
       src="/src/assets/brachiosaurus-k10.svg"
       class="card-img-top p-5 bg-light"
-      alt="brachiosaurus"
+      alt="The image is missing.  This is a placeholder image, a silhouette of a brachiosaurus."
     />
 
     <div class="card-body">

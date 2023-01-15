@@ -41,11 +41,13 @@ const store = useBrachioStore();
         </div>
 
         <div class="col-12 col-md-8 col-lg-9">
-          <h4 class="">Results</h4>
+          <h3 class="">Results</h3>
 
           <div v-if="store.nodes && store.nodes.length > 0">
-
-            <NodeListResultsTools placement="precontent" title="Results Tools, pre-content" />
+            <NodeListResultsTools
+              placement="precontent"
+              title="Results Tools, pre-content"
+            />
 
             <div id="content" class="row row-cols-1 row-cols-lg-2 g-3">
               <div class="col" v-for="node in store.nodes" :key="node._id">
@@ -53,8 +55,10 @@ const store = useBrachioStore();
               </div>
             </div>
 
-            <NodeListResultsTools placement="postcontent" title="Results Tools, post-content"/>
-
+            <NodeListResultsTools
+              placement="postcontent"
+              title="Results Tools, post-content"
+            />
           </div>
           <p v-else>loading...</p>
         </div>
