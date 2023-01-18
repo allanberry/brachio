@@ -49,6 +49,8 @@ const store = useBrachioStore();
               title="Results Tools, pre-content"
             />
 
+
+
             <div id="content" class="row row-cols-1 row-cols-lg-2 g-3">
               <div class="col" v-for="node in store.nodes" :key="node._id">
                 <NodeCard :id="node._id" :node="node" />

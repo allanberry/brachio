@@ -14,7 +14,7 @@ export const useBrachioStore = defineStore("brachioStore", {
     },
   },
   actions: {
-    async getNodes() {
+    async fetchNodes() {
       const data = JSON.stringify({
         query: allNodes,
       });
@@ -37,7 +37,7 @@ export const useBrachioStore = defineStore("brachioStore", {
       }
     },
 
-    async getConnections() {
+    async fetchConnections() {
       const data = JSON.stringify({
         query: allConnections,
       });
@@ -59,8 +59,14 @@ export const useBrachioStore = defineStore("brachioStore", {
         console.error(error);
       }
     },
+
+    async getCategories() {},
+
+    async getTags() {},
   },
 });
+
+
 
 const allNodes = `query nodes {
   nodes(limit: 1000000, sortBy: NAME_ASC) {

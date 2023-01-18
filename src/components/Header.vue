@@ -37,6 +37,14 @@
               >Nodes</RouterLink
             >
           </li>
+          <li>
+            <RouterLink class="nav-link px-2 link-dark" to="/nodes/uic_library"
+              >UIC Library</RouterLink
+            >
+          </li>
+
+          
+
           <!-- <li>
             <RouterLink
               class="nav-link px-2 link-dark"
