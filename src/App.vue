@@ -10,7 +10,6 @@
 @import "~/bootstrap/scss/bootstrap";
 </style>
 
-
 <script setup>
 import Header from "./components/Header.vue";
 import Main from "./components/Main.vue";
@@ -21,4 +20,6 @@ import { useBrachioStore } from "@/stores/brachioStore";
 const store = useBrachioStore();
 store.fetchNodes();
 store.fetchConnections();
+store.fetchLocations();
+store.fetchURLs();
 </script>

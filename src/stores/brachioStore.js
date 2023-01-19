@@ -1,7 +1,7 @@
 import { defineStore } from "pinia";
 import axios from "axios";
 import { Connection, Node } from "../model";
-import { allConnections, allNodes } from "../queries";
+import { allConnections, allNodes, allLocations, allURLs } from "../queries";
 
 async function fetchAThing(query) {
   const data = JSON.stringify({ query });
@@ -44,6 +44,7 @@ export const useBrachioStore = defineStore("brachioStore", {
     async fetchNodes() {
       try {
         const data = await fetchAThing(allNodes);
+        
         const nodes = data.nodes.map((apiNode) => new Node(apiNode));
         this.$patch({ nodes });
       } catch (error) {
@@ -63,8 +64,31 @@ export const useBrachioStore = defineStore("brachioStore", {
       }
     },
 
-    async fetchLocations() {},
-    async fetchURLs() {},
+    async fetchLocations() {
+      try {
+        const data = await fetchAThing(allLocations);
+
+        // const locations = data.locations.map(
+        //   (apiLocation) => new Location(apiLocation)
+        // );
+        
+        this.$patch({ locations: data.locations });
+      } catch (error) {
+        console.error(error);
+      }
+    },
+
+    async fetchURLs() {
+      try {
+        const data = await fetchAThing(allURLs);
+        // const urls = data.urls.map((apiURL) => new URL(apiURL));
+
+        this.$patch({ urls: data.urls });
+      } catch (error) {
+        console.error(error);
+      }
+    },
+
     async fetchVisits() {},
   },
 });
