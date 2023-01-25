@@ -18,8 +18,5 @@ import Footer from "./components/Footer.vue";
 import { useBrachioStore } from "@/stores/brachioStore";
 
 const store = useBrachioStore();
-store.fetchNodes();
-store.fetchConnections();
-store.fetchLocations();
-store.fetchURLs();
+store.initData();
 </script>

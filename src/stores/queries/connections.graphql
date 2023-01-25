@@ -1,0 +1,12 @@
+query GetConnections($limit: Int!) {
+  connections(limit: $limit) {
+    _id
+    subject {
+      _id
+    }
+    predicate
+    dobject {
+      _id
+    }
+  }
+}

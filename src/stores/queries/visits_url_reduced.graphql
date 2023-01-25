@@ -1,0 +1,606 @@
+{
+  visits(query: { url: "https://library.uic.edu/" }) {
+    _id
+    id
+    # agent {
+    #   creator
+    #   name
+    #   url
+    #   version
+    # }
+    url
+    date_accessed
+    analysis {
+      # id
+      analyzecss {
+        # agent {
+        #   name
+        #   description
+        #   note
+        #   url
+        #   version
+        # }
+        data {
+          # base64Length
+          colors
+          # comments
+          # commentsLength
+          # complexSelectors
+          # declarations
+          # duplicatedProperties
+          # duplicatedSelectors
+          # emptyRules
+          # expressions
+          # importants
+          # imports
+          # length
+          # mediaQueries
+          # multiClassesSelectors
+          # notMinified
+          # oldIEFixes
+          # oldPropertyPrefixes
+          # parsingErrors
+          # propertyResets
+          # qualifiedSelectors
+          # redundantBodySelectors
+          rules
+          # selectorLengthAvg
+          # selectors
+          # selectorsByAttribute
+          # selectorsByClass
+          # selectorsById
+          # selectorsByPseudo
+          # selectorsByTag
+          # specificityClassAvg
+          # specificityClassTotal
+          # specificityIdAvg
+          # specificityIdTotal
+          # specificityIdTotal
+          # specificityTagAvg
+          # specificityTagTotal
+        }
+      }
+      builtwith {
+        # url
+        # agent {
+        #   name
+        #   description
+        #   url
+        #   version
+        # }
+        response {
+          data {
+            Results {
+              # Attributes {
+              #   AdobeTags
+              #   CDimensions
+              #   CGoals
+              #   CMetrics
+              #   GTMTags
+              #   MJRank
+              #   MJTLDRank
+              #   QubitTags
+              #   RefIP
+              #   RefSN
+              #   Sitemap
+              #   SourceBytes
+              #   TTFB
+              #   TealiumTags
+              # }
+              # FirstIndexed
+              # LastIndexed
+              # Lookup
+              # Meta {
+              #   ARank
+              #   Majestic
+              #   QRank
+              #   Umbrella
+              #   Vertical
+              # }
+              Result {
+                # IsDB
+                Paths {
+                  # Domain
+                  # FirstIndexed
+                  # LastIndexed
+                  # SubDomain
+                  Technologies {
+                    Name
+                    # Categories
+                    # Description
+                    # FirstDetected
+                    # IsPremium
+                    # LastDetected
+                    # Link
+                    # Parent
+                    Tag
+                  }
+                  Url
+                }
+                # Spend
+              }
+              # SalesRevenue
+            }
+          }
+          # headers {
+          #   accessControlAllowOrigin
+          #   cacheControl
+          #   connection
+          #   contentLength
+          #   contentType
+          #   date
+          #   server
+          #   strictTransportSecurity
+          #   xApiCreditsAvailable
+          #   xApiCreditsRemaining
+          #   xApiCreditsUsed
+          #   xUaCompatible
+          # }
+          status
+          statusText
+        }
+      }
+      error {
+        name
+        message
+        method
+      }
+      escomplex {
+        # agent {
+        #   name
+        #   description
+        #   note
+        #   url
+        #   version
+        # }
+        data {
+          cyclomatic
+          cyclomaticDensity
+          effort
+          halstead {
+            bugs
+            difficulty
+            effort
+            length
+            # operands {
+            #   distinct
+            #   total
+            # }
+            # operators {
+            #   distinct
+            #   total
+            # }
+            # time
+            vocabulary
+            volume
+          }
+          # line
+          maintainability
+          # params
+          sloc {
+            logical
+            physical
+          }
+        }
+        error {
+          name
+          message
+          method
+        }
+      }
+      lighthouse {
+        # agent {
+        #   name
+        #   description
+        #   url
+        #   version
+        # }
+        data {
+          categories {
+            accessibility {
+              # title
+              # id
+              # auditRefs {
+              #   id
+              #   group
+              #   weight
+              # }
+              # description
+              # manualDescription
+              score
+            }
+            bestPractices {
+              # title
+              # id
+              # auditRefs {
+              #   group
+              #   id
+              #   weight
+              # }
+              score
+            }
+            performance {
+              # title
+              # id
+              # auditRefs {
+              #   id
+              #   group
+              #   weight
+              # }
+              score
+            }
+          }
+          # configSettings {
+          #   auditMode
+          #   channel
+          #   disableStorageReset
+          #   emulatedFormFactor
+          #   gatherMode
+          #   internalDisableDeviceScreenEmulation
+          #   locale
+          #   maxWaitForFcp
+          #   maxWaitForLoad
+          #   onlyCategories
+          #   output
+          #   throttling {
+          #     cpuSlowdownMultiplier
+          #     downloadThroughputKbps
+          #     requestLatencyMs
+          #     rttMs
+          #     throughputKbps
+          #     uploadThroughputKbps
+          #   }
+          #   throttlingMethod
+          # }
+          # environment {
+          #   benchmarkIndex
+          #   credits {
+          #     axeCore
+          #   }
+          #   hostUserAgent
+          #   networkUserAgent
+          # }
+          # fetchTime
+          finalUrl
+          # lighthouseVersion
+          requestedUrl
+          # runWarnings
+          # userAgent
+        }
+      }
+      wappalyzer {
+        # agent {
+        #   name
+        #   description
+        #   url
+        #   version
+        # }
+        data {
+          technologies {
+            name
+            categories {
+              name
+              id
+              slug
+            }
+            confidence
+            # cpe
+            # icon
+            slug
+            version
+            website
+          }
+        }
+      }
+    }
+    # client {
+    #   geo {
+    #     area
+    #     city
+    #     country
+    #     eu
+    #     ll
+    #     metro
+    #     range
+    #     region
+    #     timezone
+    #   }
+    #   ip
+    # }
+    raw {
+      title
+      id
+      # agent {
+      #   name
+      #   description
+      #   url
+      #   version
+      # }
+      error {
+        name
+        message
+        method
+      }
+      response {
+        # description
+        # headers {
+        #   acceptRanges
+        #   accessControlAllowOrigin
+        #   accessControlMaxAge
+        #   age
+        #   cacheControl
+        #   cfCacheStatus
+        #   cfRay
+        #   cfRequestId
+        #   connection
+        #   contentLanguage
+        #   contentLength
+        #   contentLocation
+        #   contentSecurityPolicy
+        #   contentType
+        #   date
+        #   etag
+        #   expectCt
+        #   expires
+        #   lastModified
+        #   link
+        #   mementoDatetime
+        #   microsoftsharepointteamservices
+        #   myip
+        #   pragma
+        #   requestId
+        #   server
+        #   serverTiming
+        #   setCookie
+        #   spiislatency
+        #   sprequestduration
+        #   sprequestguid
+        #   strictTransportSecurity
+        #   surrogateKey
+        #   surrogateKeyRaw
+        #   transferEncoding
+        #   vary
+        #   via
+        #   xAmzCfId
+        #   xAmzCfPop
+        #   xAmzVersionId
+        #   xAppServer
+        #   xArchiveOrigAcceptRanges
+        #   xArchiveOrigAccessControlAllowHeaders
+        #   xArchiveOrigAccessControlAllowMethod
+        #   xArchiveOrigAccessControlAllowOrigin
+        #   xArchiveOrigAccessControlMaxAge
+        #   xArchiveOrigAge
+        #   xArchiveOrigCacheControl
+        #   xArchiveOrigCfCacheStatus
+        #   xArchiveOrigCfRay
+        #   xArchiveOrigCfRequestId
+        #   xArchiveOrigConnection
+        #   xArchiveOrigContentLanguage
+        #   xArchiveOrigContentLength
+        #   xArchiveOrigContentSecurityPolicy
+        #   xArchiveOrigDate
+        #   xArchiveOrigEtag
+        #   xArchiveOrigExpectCt
+        #   xArchiveOrigExpires
+        #   xArchiveOrigHostHeader
+        #   xArchiveOrigKeepAlive
+        #   xArchiveOrigLastModified
+        #   xArchiveOrigLink
+        #   xArchiveOrigMessageId
+        #   xArchiveOrigMicrosoftofficewebserver
+        #   xArchiveOrigMimeVersion
+        #   xArchiveOrigP3p
+        #   xArchiveOrigPageCompletionStatus
+        #   xArchiveOrigPragma
+        #   xArchiveOrigReferrerPolicy
+        #   xArchiveOrigServer
+        #   xArchiveOrigSetCookie
+        #   xArchiveOrigStatus
+        #   xArchiveOrigStrictTransportSecurity
+        #   xArchiveOrigSurrogateKey
+        #   xArchiveOrigSurrogateKeyRaw
+        #   xArchiveOrigTransferEncoding
+        #   xArchiveOrigUpgrade
+        #   xArchiveOrigVary
+        #   xArchiveOrigVia
+        #   xArchiveOrigWpeBackend
+        #   xArchiveOrigXAcmcache
+        #   xArchiveOrigXAhEnvironment
+        #   xArchiveOrigXAmzCfId
+        #   xArchiveOrigXAmzCfPop
+        #   xArchiveOrigXAmzVersionId
+        #   xArchiveOrigXAspnetVersion
+        #   xArchiveOrigXAspnetmvcVersion
+        #   xArchiveOrigXBackendServer
+        #   xArchiveOrigXCache
+        #   xArchiveOrigXCacheGroup
+        #   xArchiveOrigXCacheHits
+        #   xArchiveOrigXCacheable
+        #   xArchiveOrigXContentTypeOptions
+        #   xArchiveOrigXCrawlerContentEncoding
+        #   xArchiveOrigXCrawlerContentLength
+        #   xArchiveOrigXCrawlerTransferEncoding
+        #   xArchiveOrigXDownloadOptions
+        #   xArchiveOrigXDrupalCache
+        #   xArchiveOrigXDrupalDynamicCache
+        #   xArchiveOrigXFrameOptions
+        #   xArchiveOrigXGenerator
+        #   xArchiveOrigXHost
+        #   xArchiveOrigXInfo
+        #   xArchiveOrigXNodeName
+        #   xArchiveOrigXPad
+        #   xArchiveOrigXPantheonAz
+        #   xArchiveOrigXPantheonEndpoint
+        #   xArchiveOrigXPantheonEnvironment
+        #   xArchiveOrigXPantheonPhpreq
+        #   xArchiveOrigXPantheonSite
+        #   xArchiveOrigXPantheonStyxHostname
+        #   xArchiveOrigXPassWhy
+        #   xArchiveOrigXPermittedCrossDomainPolicies
+        #   xArchiveOrigXPlatformProcessor
+        #   xArchiveOrigXPoweredBy
+        #   xArchiveOrigXReferer
+        #   xArchiveOrigXRequestId
+        #   xArchiveOrigXRuntime
+        #   xArchiveOrigXServedBy
+        #   xArchiveOrigXServerEnv
+        #   xArchiveOrigXSpringyCacheDisabled
+        #   xArchiveOrigXStyxBuildDate
+        #   xArchiveOrigXStyxBuildNum
+        #   xArchiveOrigXStyxBuildSha
+        #   xArchiveOrigXStyxReqId
+        #   xArchiveOrigXStyxVersion
+        #   xArchiveOrigXTimer
+        #   xArchiveOrigXTrace
+        #   xArchiveOrigXType
+        #   xArchiveOrigXUaCompatible
+        #   xArchiveOrigXUrl
+        #   xArchiveOrigXVarnish
+        #   xArchiveOrigXVarnishCache
+        #   xArchiveOrigXXfo
+        #   xArchiveOrigXXssProtection
+        #   xArchiveOrigX_commoncrawl_crawlno
+        #   xArchiveOrigX_commoncrawl_fetchtimestamp
+        #   xArchiveOrigX_commoncrawl_hostfp
+        #   xArchiveOrigX_commoncrawl_originalurl
+        #   xArchiveOrigX_commoncrawl_parsesegmentid
+        #   xArchiveOrigX_commoncrawl_signature
+        #   xArchiveOrigX_commoncrawl_urlfp
+        #   xArchiveOrigXkey
+        #   xArchiveSrc
+        #   xAspnetVersion
+        #   xBackendServer
+        #   xCache
+        #   xCacheKey
+        #   xContentSecurityPolicy
+        #   xContentTypeOptions
+        #   xDispatcher
+        #   xDnsPrefetchControl
+        #   xDownloadOptions
+        #   xDrupalCache
+        #   xDrupalDynamicCache
+        #   xFrameOptions
+        #   xGenerator
+        #   xInfo
+        #   xLocation
+        #   xMsInvokeapp
+        #   xNa
+        #   xNid
+        #   xNodeName
+        #   xPageCache
+        #   xPantheonAz
+        #   xPantheonEnvironment
+        #   xPantheonPhpreq
+        #   xPantheonSite
+        #   xPantheonStyxHostname
+        #   xPingback
+        #   xPlatformProcessor
+        #   xPoweredBy
+        #   xRl
+        #   xSharepointhealthscore
+        #   xSource
+        #   xSpringyCacheDisabled
+        #   xStyxReqId
+        #   xTr
+        #   xTs
+        #   xUaCompatible
+        #   xVarnish
+        #   xVarnishCache
+        #   xVhost
+        #   xWebkitCsp
+        #   xXssProtection
+        #   xkey
+        # }
+        status
+        statusText
+      }
+      structure {
+        aggregate {
+          elementQty
+          length
+        }
+      }
+    }
+    rendered {
+      title
+      # agent {
+      #   name
+      #   browser
+      #   url
+      #   version
+      # }
+      anchors {
+        list {
+          url
+        }
+      }
+      metrics {
+        puppeteer {
+          Documents
+          Frames
+          # JSEventListeners
+          # JSHeapTotalSize
+          # JSHeapUsedSize
+          # LayoutCount
+          # LayoutDuration
+          Nodes
+          # RecalcStyleCount
+          # RecalcStyleDuration
+          # ScriptDuration
+          # TaskDuration
+          # Timestamp
+        }
+      }
+      screenshots
+      scripts {
+        aggregate {
+          length
+        }
+        list {
+          error {
+            name
+            message
+            method
+            wayback {
+              date_available
+              url_raw
+              url_rendered
+            }
+          }
+          length
+          selector
+          type
+          url
+        }
+      }
+      structure {
+        aggregate {
+          length
+        }
+        # data
+      }
+      styles {
+        aggregate {
+          length
+        }
+        list {
+          error {
+            name
+            message
+            method
+            wayback {
+              date_available
+              url_raw
+              url_rendered
+            }
+          }
+          length
+          selector
+          type
+          url
+        }
+      }
+    }
+  }
+}

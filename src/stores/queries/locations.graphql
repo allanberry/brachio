@@ -1,0 +1,15 @@
+{
+  locations(limit: 1000000) {
+    _id
+    node {
+      _id
+    }
+    address
+    postal
+    city
+    state
+    country
+    latitude
+    longitude
+  }
+}

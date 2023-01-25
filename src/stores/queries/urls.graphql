@@ -1,0 +1,10 @@
+{
+  urls(limit: 1000000) {
+    _id
+    node { 
+      _id
+    }   
+    rank
+    label
+  }
+}
