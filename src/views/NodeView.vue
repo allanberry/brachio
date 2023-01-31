@@ -27,20 +27,25 @@ export default {
   data() {
     return {
       id: this.$route.params.id,
+      node: store.nodes.find((node) => node._id === this.$route.params.id),
+      visits: [],
     };
   },
   computed: {
-    node: function () {
-      return store.nodes.find((node) => node._id === this.id);
-    },
     urls: function () {
       return this.node.urls;
     },
   },
   async mounted() {
-    // const v = await ;
-    // for (const url in this.urls) {
-    // }
+    await this.fetchVisits();
+  },
+  methods: {
+    async fetchVisits() {
+
+      for (const url of this.urls) {
+        await url.fetchVisits();
+      }
+    },
   },
 };
 </script>
@@ -79,7 +84,14 @@ export default {
           <h4>Pages (URLs)</h4>
 
           <ul v-if="urls">
-            <li v-for="url in urls" :key="url.url">{{ url.url }}</li>
+            <li v-for="url in urls" :key="url.url">
+              {{ url.url }}
+              <ul v-if="url.visits">
+                <li v-for="visit in url.visits" :key="visit._id">
+                  {{visit.id}}
+                </li>
+              </ul>
+            </li>
           </ul>
 
           <!-- <ul v-if="node.urls"> -->
