@@ -41,7 +41,6 @@ export default {
   },
   methods: {
     async fetchVisits() {
-
       for (const url of this.urls) {
         await url.fetchVisits();
       }
@@ -88,7 +87,7 @@ export default {
               {{ url.url }}
               <ul v-if="url.visits">
                 <li v-for="visit in url.visits" :key="visit._id">
-                  {{visit.id}}
+                  {{ visit.id }}
                 </li>
               </ul>
             </li>
@@ -170,40 +169,31 @@ export default {
           <hr />
         </div>
 
-        <div>
+        <div v-if="node.categories && node.categories.length">
           <h4>Categories</h4>
-          <p>coming soon</p>
           <ul>
-            <li>
-              Library
-              <ul>
+            <li v-for="cat in node.categories">
+              {{ cat }}
+              <!-- <ul>
                 <li>Academic</li>
-              </ul>
-            </li>
-            <li>
-              Second Category
-              <ul>
-                <li>Subcategory</li>
-              </ul>
+              </ul> -->
             </li>
           </ul>
           <hr />
         </div>
 
-        <div>
+        <div v-if="node.tags && node.tags.length">
           <h4>Tags</h4>
-          <p>coming soon</p>
           <ul>
-            <li>CARLI</li>
-            <li>Big Ten</li>
-            <li>Ivy League</li>
+            <li v-for="tag in node.tags">
+              {{ tag }}
+            </li>
           </ul>
           <hr />
         </div>
 
         <div>
           <h4>Locations</h4>
-          <p>coming soon</p>
           <ul>
             <li>
               Richard J. Daley Library<br />
