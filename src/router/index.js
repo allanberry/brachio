@@ -3,6 +3,7 @@ import HomeView from "../views/HomeView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
+
   routes: [
     {
       path: "/",
@@ -23,8 +24,17 @@ const router = createRouter({
       path: "/nodes/:id",
       name: "node",
       component: () => import("../views/NodeView.vue"),
-    }
+    },
   ],
+
+  scrollBehavior(to, from, savedPosition) {
+    // return desired position
+    if (savedPosition) {
+      return savedPosition;
+    } else {
+      return { top: 0 };
+    }
+  },
 });
 
 export default router;

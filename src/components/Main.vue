@@ -2,7 +2,7 @@
 
 <template>
   <main>
-      <RouterView />
+    <RouterView :key="$route.fullPath" />
   </main>
 </template>
 

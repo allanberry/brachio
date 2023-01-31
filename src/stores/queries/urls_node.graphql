@@ -1,0 +1,14 @@
+{
+  urls(limit: 100, query: { node: { _id: "uic_library" } }) {
+    _id
+    node {
+      _id
+    }
+    url
+
+    label
+    node
+    rank
+
+  }
+}

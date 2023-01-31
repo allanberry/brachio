@@ -1,5 +1,5 @@
 <script setup>
-import { computed } from "vue";
+import { ref, computed } from "vue";
 import { useRoute } from "vue-router";
 import { useBrachioStore } from "@/stores/brachioStore";
 
@@ -7,15 +7,18 @@ const store = useBrachioStore();
 const id = useRoute().params.id;
 
 const node = computed(() => store.nodes.find((node) => node._id === id));
+const parents = computed(() => {
+  const parent_connections = node.value.connections.filter(
+    (conn) => conn.subject === node.value._id && conn.predicate === "has_parent"
+  );
 
-const connections = computed(() =>
-  store.connections.filter(
-    (conn) => conn.subject._id === id || conn.dobject._id === id
-  )
-);
+  return store.nodes.filter((store_node) => {
+    // console.log({store_node: store_node._id, pc: parent_connections[0].subject});
 
-const parents = store.nodes.filter((node) => {
-  return ["asu", "uic", "illinois"].includes(node._id);
+    return parent_connections.find((conn) => {
+      return conn.dobject === store_node._id;
+    });
+  });
 });
 </script>
 
@@ -26,118 +29,96 @@ const parents = store.nodes.filter((node) => {
         <!-- <h1 class="fw-light">{{ node().name }}</h1> -->
         <h1 class="fw-light">{{ node.name }}</h1>
 
-        <div>
-          <h3>Pages (URLs)</h3>
+        <div v-if="parents && parents.length">
+          <h4>Parents</h4>
           <ul>
-            <li>
-              <li>
-                <span class="label">Full URL</span>
-                <span class="stat"></span>
-              </li>
-            </li>
-            <li>
-              <h4>http://example.com/url2</h4>
-            </li>
-            <li>
-              <h4>http://example.com/url1</h4>
+            <li v-for="p in parents" :key="p._id">
+              <RouterLink :to="{ name: 'node', params: { id: p._id } }">{{
+                p.name
+              }}</RouterLink
+              ><br />
+              {{ p._id }}
             </li>
           </ul>
-
-
-
-
-
-
-
-
-          <h5>Visits</h5>
-          <ul>
-          <li class="visit">
-            <h6>Visit 2022-01-01</h6>
-
-            <ul class="attribute_list">
-              <li>
-                <span class="label">Date and Time</span>
-                <span class="stat"></span>
-              </li>
-              <li>
-                <span class="label">Full URL</span>
-                <span class="stat"></span>
-              </li>
-
-              <li>
-                <span class="label">Wayback URL</span>
-                <span class="stat"></span>
-              </li>
-              <li>
-                <span class="label">Complexity</span>
-                <span class="stat"></span>
-              </li>
-              <li>
-                <span class="label">Years since previous redesign</span>
-                <span class="stat"></span>
-              </li>
-              <li>
-                <span class="label">Technologies Used</span>
-                <span class="stat"></span>
-              </li>
-              <li>
-                <span class="label">CSS style quantity</span>
-                <span class="stat"></span>
-              </li>
-              <li>
-                <span class="label">HTML element quantity</span>
-                <span class="stat"></span>
-              </li>
-              <li>
-                <span class="label">Accessibility score</span>
-                <span class="stat"></span>
-              </li>
-              <li>
-                <span class="label">Performance score</span>
-                <span class="stat"></span>
-              </li>
-              <li>
-                <span class="label">Best Practices Score</span>
-                <span class="stat"></span>
-              </li>
-              <li>
-                <span class="label">Bugs (Qty. per ???)</span>
-                <span class="stat"></span>
-              </li>
-              <li>
-                <span class="label">Lines of Code</span>
-                <span class="stat"></span>
-              </li>
-              <li>
-                <span class="label">Primary colors used</span>
-                <span class="stat"></span>
-              </li>
-            </ul>
-          </li>
-        </ul>
           <hr />
         </div>
 
         <div>
-          <h4>Parents</h4>
-          <p>Should be</p>
-          <ul>
-            <li>University of Illinois, Chicago</li>
-            <ul>
-              <li>University of Illinois</li>
-            </ul>
-          </ul>
-          <p>Current</p>
-          <ul v-if="parents">
-            <li v-for="parent in parents" :key="parent._id">
-              {{ parent.name }}
+          <h3>Pages (URLs)</h3>
+          <ul v-if="node.urls">
+            <li v-for="url in node.urls" :key="url.node_id">
+              <a :href="url.url">{{ url.url }}</a
+              ><br />
+              {{ url.label }}
             </li>
           </ul>
-          <div v-else>
-            <p>No Connections</p>
-            <p>{{ store.connections }}</p>
-          </div>
+
+          <h5>Visits</h5>
+          <ul>
+            <li class="visit">
+              <h6>Visit 2022-01-01</h6>
+
+              <ul class="attribute_list">
+                <li>
+                  <span class="label">Date and Time</span>
+                  <span class="stat"></span>
+                </li>
+                <li>
+                  <span class="label">Full URL</span>
+                  <span class="stat"></span>
+                </li>
+
+                <li>
+                  <span class="label">Wayback URL</span>
+                  <span class="stat"></span>
+                </li>
+                <li>
+                  <span class="label">Complexity</span>
+                  <span class="stat"></span>
+                </li>
+                <li>
+                  <span class="label">Years since previous redesign</span>
+                  <span class="stat"></span>
+                </li>
+                <li>
+                  <span class="label">Technologies Used</span>
+                  <span class="stat"></span>
+                </li>
+                <li>
+                  <span class="label">CSS style quantity</span>
+                  <span class="stat"></span>
+                </li>
+                <li>
+                  <span class="label">HTML element quantity</span>
+                  <span class="stat"></span>
+                </li>
+                <li>
+                  <span class="label">Accessibility score</span>
+                  <span class="stat"></span>
+                </li>
+                <li>
+                  <span class="label">Performance score</span>
+                  <span class="stat"></span>
+                </li>
+                <li>
+                  <span class="label">Best Practices Score</span>
+                  <span class="stat"></span>
+                </li>
+                <li>
+                  <span class="label">Bugs (Qty. per ???)</span>
+                  <span class="stat"></span>
+                </li>
+                <li>
+                  <span class="label">Lines of Code</span>
+                  <span class="stat"></span>
+                </li>
+                <li>
+                  <span class="label">Primary colors used</span>
+                  <span class="stat"></span>
+                </li>
+              </ul>
+            </li>
+          </ul>
           <hr />
         </div>
 
@@ -173,22 +154,6 @@ const parents = store.nodes.filter((node) => {
         </div>
 
         <div>
-          <h4>URLs</h4>
-          <p>coming soon</p>
-          <ul>
-            <li>
-              https://library.uic.edu<br />
-              Home Page
-            </li>
-            <li>
-              https://researchguides.uic.edu<br />
-              LibGuides
-            </li>
-          </ul>
-          <hr />
-        </div>
-
-        <div>
           <h4>Locations</h4>
           <p>coming soon</p>
           <ul>
@@ -201,7 +166,7 @@ const parents = store.nodes.filter((node) => {
           <hr />
         </div>
 
-        <div>
+        <!-- <div>
           <h4>Connections</h4>
 
           <ul v-if="connections">
@@ -215,7 +180,7 @@ const parents = store.nodes.filter((node) => {
             <p>Store connections: {{ store.connections }}</p>
           </div>
           <hr />
-        </div>
+        </div> -->
 
         <div>
           <h4>IPEDS</h4>
