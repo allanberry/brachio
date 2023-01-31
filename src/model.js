@@ -2,11 +2,52 @@ import locations from "./stores/datafiles/locations.json";
 import urls from "./stores/datafiles/urls.json";
 import connections from "./stores/datafiles/connections.json";
 
+class URL {
+  constructor(apiUrl) {
+    this.url = apiUrl.url;
+    this.node = apiUrl.node;
+    this.rank = apiUrl.rank;
+    this.label = apiUrl.label;
+
+    
+
+    this.test = "flark";
+  }
+
+  get visits() {
+
+    // getVisitsByUrl: async (url) => {
+    //   const response = await atlas(q_visits_url_complete, {
+    //     url,
+    //     limit: 100000,
+    //   });
+
+    //   return response.visits.map((api_visit) => new Visit(api_visit));
+    // },
+
+
+
+
+
+    return []//this.visits_arr;
+  }
+
+
+}
+
+class Connection {
+  constructor(apiConnection) {
+    this._id = apiConnection._id;
+    this.subject = apiConnection.subject;
+    this.predicate = apiConnection.predicate;
+    this.dobject = apiConnection.dobject;
+  }
+}
+
 // Declaration
 class Node {
-  constructor(apiNode, nodes) {
+  constructor(apiNode) {
     this._id = apiNode._id;
-    this.nodes = nodes;
     this.name = apiNode.name;
     this.type = apiNode.type;
     this.categories = apiNode.categories;
@@ -17,23 +58,66 @@ class Node {
     this.connections = connections.filter(
       (conn) => conn.subject === this._id || conn.dobject === this._id
     );
-    this.urls = urls.filter((url) => url.node_id === this._id);
+    this.urls = urls
+      .filter((url) => url.node_id === this._id)
+      .map((api_url) => new URL(api_url));
+
     this.locations = locations.filter((loc) => loc.node_id === this._id);
+
+    this.parent_nodes = [];
+    this.child_nodes = [];
+
+  }
+
+  set parents(arr) {
+    this.parent_nodes = arr;
   }
 
   get parents() {
-    const parent_connections = this.connections.filter(
-      (conn) => conn.subject === this._id && conn.predicate === "has_parent"
-    );
-
-    return this.nodes.filter((store_node) => {
-      // console.log({store_node: store_node._id, pc: parent_connections[0].subject});
-
-      return parent_connections.find((conn) => {
-        return conn.dobject === store_node._id;
-      });
-    });
+    return this.parent_nodes;
   }
+
+  set has_parent(node) {
+    this.parent_nodes.push(node);
+  }
+
+  set children(arr) {
+    this.child_nodes = arr;
+  }
+
+  get children() {
+    return this.child_nodes;
+  }
+
+  set has_child(node) {
+    this.child_nodes.push(node);
+  }
+
+  // get urls() {
+  //   return this.urls;
+  // }
+
+  // set urls(arr) {
+  //   this.urls = arr;
+  // }
+
+  // get parents() {
+  //   // const parent_connections = this.connections.filter(
+  //   //   (conn) => conn.subject === this._id && conn.predicate === "has_parent"
+  //   // );
+
+  //   // return this.store.nodes.filter((store_node) => {
+  //   //   // console.log({store_node: store_node._id, pc: parent_connections[0].subject});
+
+  //   //   // return parent_connections.find((conn) => {
+  //   //   //   return conn.dobject === store_node._id;
+  //   //   // });
+
+  //   //   return []
+  //   // });
+
+  //   return []
+  // }
 
   get location_primary() {
     return {};
@@ -76,6 +160,8 @@ class Node {
 class Visit {
   constructor(apiVisit) {
     this._id = apiVisit._id;
+    this.id = apiVisit.id;
+    this.url = apiVisit.url;
   }
 
   get images() {
@@ -92,15 +178,6 @@ class Visit {
 
   get technologies() {
     return [];
-  }
-}
-
-class Connection {
-  constructor(apiConnection) {
-    this._id = apiConnection._id;
-    this.subject = apiConnection.subject;
-    this.predicate = apiConnection.predicate;
-    this.dobject = apiConnection.dobject;
   }
 }
 

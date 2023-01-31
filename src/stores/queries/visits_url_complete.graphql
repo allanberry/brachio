@@ -1,5 +1,5 @@
-{
-  visits(query: { url: "https://www.bac-lac.gc.ca/" }) {
+query GetVisits($url: String, $limit: Int) {
+  visits(limit: $limit, query: { url: $url}) {
     _id
     id
     agent {

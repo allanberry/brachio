@@ -1,124 +1,160 @@
-<script setup>
+<script>
 import { ref, computed } from "vue";
 import { useRoute } from "vue-router";
 import { useBrachioStore } from "@/stores/brachioStore";
 
+// const parents = computed(() => {
+//   const parent_connections = node.value.connections.filter(
+//     (conn) => conn.subject === node.value._id && conn.predicate === "has_parent"
+//   );
+
+//   return store.nodes.filter((store_node) => {
+//     // console.log({store_node: store_node._id, pc: parent_connections[0].subject});
+
+//     return parent_connections.find((conn) => {
+//       return conn.dobject === store_node._id;
+//     });
+//   });
+// });
+
+// const visits = await store.getVisitsByUrl("https://library.uic.edu/");
+// console.log(await this.getVisitsByUrl("https://library.uic.edu/"));
+
 const store = useBrachioStore();
-const id = useRoute().params.id;
+// const route = useRoute();
 
-const node = computed(() => store.nodes.find((node) => node._id === id));
-const parents = computed(() => {
-  const parent_connections = node.value.connections.filter(
-    (conn) => conn.subject === node.value._id && conn.predicate === "has_parent"
-  );
-
-  return store.nodes.filter((store_node) => {
-    // console.log({store_node: store_node._id, pc: parent_connections[0].subject});
-
-    return parent_connections.find((conn) => {
-      return conn.dobject === store_node._id;
-    });
-  });
-});
+export default {
+  data() {
+    return {
+      id: this.$route.params.id,
+    };
+  },
+  computed: {
+    node: function () {
+      return store.nodes.find((node) => node._id === this.id);
+    },
+    urls: function () {
+      return this.node.urls;
+    },
+  },
+  async mounted() {
+    // const v = await ;
+    // for (const url in this.urls) {
+    // }
+  },
+};
 </script>
 
 <template>
   <section class="container">
     <div class="row py-lg-5">
       <div class="col" v-if="node">
-        <!-- <h1 class="fw-light">{{ node().name }}</h1> -->
         <h1 class="fw-light">{{ node.name }}</h1>
 
-        <div v-if="parents && parents.length">
+        <div v-if="node.parents && node.parents.length">
           <h4>Parents</h4>
           <ul>
-            <li v-for="p in parents" :key="p._id">
+            <li v-for="p in node.parents" :key="p.name">
               <RouterLink :to="{ name: 'node', params: { id: p._id } }">{{
                 p.name
-              }}</RouterLink
-              ><br />
-              {{ p._id }}
+              }}</RouterLink>
+            </li>
+          </ul>
+          <hr />
+        </div>
+
+        <div v-if="node.children && node.children.length">
+          <h4>Children</h4>
+          <ul>
+            <li v-for="c in node.children" :key="c.name">
+              <RouterLink :to="{ name: 'node', params: { id: c._id } }">{{
+                c.name
+              }}</RouterLink>
             </li>
           </ul>
           <hr />
         </div>
 
         <div>
-          <h3>Pages (URLs)</h3>
-          <ul v-if="node.urls">
-            <li v-for="url in node.urls" :key="url.node_id">
-              <a :href="url.url">{{ url.url }}</a
-              ><br />
-              {{ url.label }}
-            </li>
+          <h4>Pages (URLs)</h4>
+
+          <ul v-if="urls">
+            <li v-for="url in urls" :key="url.url">{{ url.url }}</li>
           </ul>
 
-          <h5>Visits</h5>
-          <ul>
-            <li class="visit">
-              <h6>Visit 2022-01-01</h6>
+          <!-- <ul v-if="node.urls"> -->
+          <!-- <li v-for="url in node.urls" :key="url.node_id"> -->
+          <!-- <a :href="url.url">{{ url.url }}</a><br /> -->
+          <!-- {{ url.label }} -->
 
-              <ul class="attribute_list">
-                <li>
-                  <span class="label">Date and Time</span>
-                  <span class="stat"></span>
-                </li>
-                <li>
-                  <span class="label">Full URL</span>
-                  <span class="stat"></span>
-                </li>
+          <!-- <h5>Visits</h5> -->
+          <!-- <ul> -->
+          <!-- <li class="visit" v-for="v in visits" :key="v.id"> -->
+          <!-- <h6>{{ v.id }}</h6> -->
 
-                <li>
-                  <span class="label">Wayback URL</span>
-                  <span class="stat"></span>
-                </li>
-                <li>
-                  <span class="label">Complexity</span>
-                  <span class="stat"></span>
-                </li>
-                <li>
-                  <span class="label">Years since previous redesign</span>
-                  <span class="stat"></span>
-                </li>
-                <li>
-                  <span class="label">Technologies Used</span>
-                  <span class="stat"></span>
-                </li>
-                <li>
-                  <span class="label">CSS style quantity</span>
-                  <span class="stat"></span>
-                </li>
-                <li>
-                  <span class="label">HTML element quantity</span>
-                  <span class="stat"></span>
-                </li>
-                <li>
-                  <span class="label">Accessibility score</span>
-                  <span class="stat"></span>
-                </li>
-                <li>
-                  <span class="label">Performance score</span>
-                  <span class="stat"></span>
-                </li>
-                <li>
-                  <span class="label">Best Practices Score</span>
-                  <span class="stat"></span>
-                </li>
-                <li>
-                  <span class="label">Bugs (Qty. per ???)</span>
-                  <span class="stat"></span>
-                </li>
-                <li>
-                  <span class="label">Lines of Code</span>
-                  <span class="stat"></span>
-                </li>
-                <li>
-                  <span class="label">Primary colors used</span>
-                  <span class="stat"></span>
-                </li>
-              </ul>
-            </li>
-          </ul>
+          <!-- <ul class="attribute_list">
+                    <li>
+                      <span class="label">Date and Time</span>
+                      <span class="stat"></span>
+                    </li>
+                    <li>
+                      <span class="label">Full URL</span>
+                      <span class="stat"></span>
+                    </li>
+
+                    <li>
+                      <span class="label">Wayback URL</span>
+                      <span class="stat"></span>
+                    </li> -->
+          <!-- <li>
+                      <span class="label">Complexity</span>
+                      <span class="stat"></span>
+                    </li>
+                    <li>
+                      <span class="label">Years since previous redesign</span>
+                      <span class="stat"></span>
+                    </li>
+                    <li>
+                      <span class="label">Technologies Used</span>
+                      <span class="stat"></span>
+                    </li>
+                    <li>
+                      <span class="label">CSS style quantity</span>
+                      <span class="stat"></span>
+                    </li>
+                    <li>
+                      <span class="label">HTML element quantity</span>
+                      <span class="stat"></span>
+                    </li>
+                    <li>
+                      <span class="label">Accessibility score</span>
+                      <span class="stat"></span>
+                    </li>
+                    <li>
+                      <span class="label">Performance score</span>
+                      <span class="stat"></span>
+                    </li>
+                    <li>
+                      <span class="label">Best Practices Score</span>
+                      <span class="stat"></span>
+                    </li>
+                    <li>
+                      <span class="label">Bugs (Qty. per ???)</span>
+                      <span class="stat"></span>
+                    </li>
+                    <li>
+                      <span class="label">Lines of Code</span>
+                      <span class="stat"></span>
+                    </li>
+                    <li>
+                      <span class="label">Primary colors used</span>
+                      <span class="stat"></span>
+                    </li> -->
+          <!-- </ul> -->
+          <!-- </li> -->
+          <!-- </ul> -->
+          <!-- </li> -->
+          <!-- </ul> -->
           <hr />
         </div>
 
@@ -198,7 +234,7 @@ const parents = computed(() => {
     </div>
     <div class="row mb-4">
       <div class="col">
-        <h5>Stats</h5>
+        <h4>Stats</h4>
         <ul>
           <li>
             Library Stats

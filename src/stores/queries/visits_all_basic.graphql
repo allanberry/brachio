@@ -1,0 +1,7 @@
+query GetVisits($limit: Int!) {
+  visits(limit: $limit) {
+    id
+    url
+    date_accessed
+  }
+}
