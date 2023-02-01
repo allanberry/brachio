@@ -27,7 +27,11 @@ export default {
       <p class="lead">{{ queue_position }}</p>
 
       <div class="mb-4">
-        <h4 class="card-text">{{ this.node.name }}</h4>
+        <h4 class="card-text">
+          <router-link type="button" :to="{ name: 'node', params: { id } }">
+            {{ this.node.name }}
+          </router-link>
+        </h4>
 
         <p v-if="node.parents && node.parents.length">
           {{ node.parents[0].name }}

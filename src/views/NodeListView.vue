@@ -62,7 +62,7 @@ export default {
               title="Results Tools, pre-content"
             />
 
-            <div id="content" class="row row-cols-1 row-cols-lg-2 g-3">
+            <div id="content" class="row row-cols-1 row-cols-lg-2 g-3 mb-4">
               <div
                 class="col"
                 v-for="library in paged_libraries"

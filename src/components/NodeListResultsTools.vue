@@ -60,9 +60,9 @@ export default {
 </script>
 
 <template>
-  <h4>{{ title }}</h4>
+  <h4 class="visually-hidden">{{ title }}</h4>
 
-  <div class="row mb-4">
+  <div class="row mb-4" v-if="placement === 'precontent'">
     <div class="col">
       Filters applied<br />
       <ul>
@@ -116,11 +116,13 @@ export default {
             </select>
           </div>
         </div>
-      </div>
+      </div><hr />
     </div>
+
+    
   </div>
 
-  <hr />
+  
 
   <div class="row">
     <h5 class="col col-12">Pager</h5>
@@ -128,7 +130,7 @@ export default {
       Results are divided into "pages", or sets of results.
     </p>
 
-    <div>
+    <!-- <div>
       <p>{{ store.pager }}</p>
       <p>
         {{
@@ -138,7 +140,7 @@ export default {
           }
         }}
       </p>
-    </div>
+    </div> -->
 
     <nav class="col col-6 mb-3">
       <label for="pager_select">Select Page</label>
@@ -202,7 +204,7 @@ export default {
       </ul>
     </nav>
 
-    <div class="col col-2 mb-3">
+    <div class="col col-2 mb-3"  v-if="placement === 'precontent'">
       <label for="qty_select">How Many</label>
       <p class="form-text">Results / Page</p>
 
@@ -220,7 +222,7 @@ export default {
       </select>
     </div>
 
-    <div class="col col-4 mb-3">
+    <div class="col col-4 mb-3"  v-if="placement === 'precontent'">
       <label for="pref_select">Preferences</label>
 
       <div class="form-check">
