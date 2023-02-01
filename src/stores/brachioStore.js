@@ -10,9 +10,9 @@ import q_visits_url_complete from "./queries/visits_url_complete.graphql?raw";
 import q_visits_url_reduced from "./queries/visits_url_reduced.graphql?raw";
 import q_visits_all_basic from "./queries/visits_all_basic.graphql?raw";
 
-// import arls from "./datafiles/arls.json";
+import api_arls from "./datafiles/arls.json";
 import api_connections from "./datafiles/connections.json";
-// import ipeds from "./datafiles/ipeds.json";
+import api_ipeds from "./datafiles/ipeds.json";
 import api_locations from "./datafiles/locations.json";
 import api_nodes from "./datafiles/nodes.json";
 import api_urls from "./datafiles/urls.json";
@@ -77,8 +77,11 @@ class Node {
     this.type = apiNode.type;
     this.categories = apiNode.categories;
     this.tags = apiNode.tags;
-    this.arl = apiNode.arl;
-    this.ipeds = apiNode.ipeds;
+
+    this.arl = api_arls.find((arl) => arl._id === apiNode.arl_id);
+    this.ipeds = api_ipeds.find(
+      (ipeds) => ipeds._id === apiNode.iped_id
+    );
 
     this.connections = api_connections.filter(
       (conn) => conn.subject === this._id || conn.dobject === this._id

@@ -220,17 +220,28 @@ export default {
           <hr />
         </div> -->
 
-        <div>
-          <h4>IPEDS</h4>
-          <p>coming soon</p>
+        <div v-if="node.ipeds">
+          <h4>IPEDS stats</h4>
+          <ul>
+            <li>Core revenues (2018): {{node.ipeds.core_revenues_DRVF2018}}</li>
+            <li>Endowment (2018): {{node.ipeds.endowment_assets_DRVF2018}}</li>
+            <li>Total Expenditures (2018): {{node.ipeds.LEXPTOT_AL2018}}</li>
+            <li>Total enrollment (2017): {{node.ipeds.ENRTOT_DRVEF2017_RV}}</li>
+            <li>Total library circulations (2018): {{node.ipeds.LTCRCLT_AL2018}}</li>
+
+          </ul>
           <hr />
         </div>
 
-        <div>
-          <h4>ARLs</h4>
-          <p>coming soon</p>
+        <div v-if="node.arl">
+          <h4>ARL stats</h4>
+          <ul>
+            <li>Total volumes: {{ node.arl.vols }}</li>
+            <li>Gate count: {{ node.arl.gatecount }}</li>
+          </ul>
           <hr />
         </div>
+
       </div>
       <p v-else>loading...</p>
     </div>
