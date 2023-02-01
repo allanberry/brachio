@@ -19,11 +19,13 @@ const router = createRouter({
       path: "/nodes",
       name: "nodes",
       component: () => import("../views/NodeListView.vue"),
+      alias: ["/libraries"],
     },
     {
       path: "/nodes/:id",
       name: "node",
       component: () => import("../views/NodeView.vue"),
+      alias: ["/libraries/:id"],
     },
   ],
 

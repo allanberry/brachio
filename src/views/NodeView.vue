@@ -3,25 +3,7 @@ import { ref, computed } from "vue";
 import { useRoute } from "vue-router";
 import { useBrachioStore } from "@/stores/brachioStore";
 
-// const parents = computed(() => {
-//   const parent_connections = node.value.connections.filter(
-//     (conn) => conn.subject === node.value._id && conn.predicate === "has_parent"
-//   );
-
-//   return store.nodes.filter((store_node) => {
-//     // console.log({store_node: store_node._id, pc: parent_connections[0].subject});
-
-//     return parent_connections.find((conn) => {
-//       return conn.dobject === store_node._id;
-//     });
-//   });
-// });
-
-// const visits = await store.getVisitsByUrl("https://library.uic.edu/");
-// console.log(await this.getVisitsByUrl("https://library.uic.edu/"));
-
 const store = useBrachioStore();
-// const route = useRoute();
 
 export default {
   data() {
@@ -37,12 +19,20 @@ export default {
     },
   },
   async mounted() {
-    await this.fetchVisits();
+    try {
+      await this.fetchVisits();
+    } catch (error) {
+      console.error(error);
+    }
   },
   methods: {
     async fetchVisits() {
-      for (const url of this.urls) {
-        await url.fetchVisits();
+      try {
+        for (const url of this.urls) {
+          await url.fetchVisits();
+        }
+      } catch (error) {
+        console.error(error);
       }
     },
   },
@@ -92,80 +82,6 @@ export default {
               </ul>
             </li>
           </ul>
-
-          <!-- <ul v-if="node.urls"> -->
-          <!-- <li v-for="url in node.urls" :key="url.node_id"> -->
-          <!-- <a :href="url.url">{{ url.url }}</a><br /> -->
-          <!-- {{ url.label }} -->
-
-          <!-- <h5>Visits</h5> -->
-          <!-- <ul> -->
-          <!-- <li class="visit" v-for="v in visits" :key="v.id"> -->
-          <!-- <h6>{{ v.id }}</h6> -->
-
-          <!-- <ul class="attribute_list">
-                    <li>
-                      <span class="label">Date and Time</span>
-                      <span class="stat"></span>
-                    </li>
-                    <li>
-                      <span class="label">Full URL</span>
-                      <span class="stat"></span>
-                    </li>
-
-                    <li>
-                      <span class="label">Wayback URL</span>
-                      <span class="stat"></span>
-                    </li> -->
-          <!-- <li>
-                      <span class="label">Complexity</span>
-                      <span class="stat"></span>
-                    </li>
-                    <li>
-                      <span class="label">Years since previous redesign</span>
-                      <span class="stat"></span>
-                    </li>
-                    <li>
-                      <span class="label">Technologies Used</span>
-                      <span class="stat"></span>
-                    </li>
-                    <li>
-                      <span class="label">CSS style quantity</span>
-                      <span class="stat"></span>
-                    </li>
-                    <li>
-                      <span class="label">HTML element quantity</span>
-                      <span class="stat"></span>
-                    </li>
-                    <li>
-                      <span class="label">Accessibility score</span>
-                      <span class="stat"></span>
-                    </li>
-                    <li>
-                      <span class="label">Performance score</span>
-                      <span class="stat"></span>
-                    </li>
-                    <li>
-                      <span class="label">Best Practices Score</span>
-                      <span class="stat"></span>
-                    </li>
-                    <li>
-                      <span class="label">Bugs (Qty. per ???)</span>
-                      <span class="stat"></span>
-                    </li>
-                    <li>
-                      <span class="label">Lines of Code</span>
-                      <span class="stat"></span>
-                    </li>
-                    <li>
-                      <span class="label">Primary colors used</span>
-                      <span class="stat"></span>
-                    </li> -->
-          <!-- </ul> -->
-          <!-- </li> -->
-          <!-- </ul> -->
-          <!-- </li> -->
-          <!-- </ul> -->
           <hr />
         </div>
 
@@ -192,13 +108,24 @@ export default {
           <hr />
         </div>
 
-        <div>
+        <div v-if="node.locations && node.locations.length">
           <h4>Locations</h4>
           <ul>
-            <li>
-              Richard J. Daley Library<br />
-              801 S. Morgan, Chicago IL 60607, United States<br />
-              Latitude: '33.75883, Longitude: '-84.388719
+            <li v-for="loc in node.locations" :key="loc._id">
+              <p>
+                <span v-if="loc.address">{{ loc.address }}</span>
+              </p>
+              <p>
+                <span v-if="loc.city">{{ loc.city }}, </span>
+                <span v-if="loc.state">{{ loc.state }} </span>
+                <span v-if="loc.postal">{{ loc.postal }} </span>
+                <span v-if="loc.country">{{ loc.country }}</span>
+              </p>
+
+              <p v-if="loc.latitude && loc.longitude">
+                <span>{{ loc.latitude }}, </span
+                ><span>{{ loc.longitude }}</span>
+              </p>
             </li>
           </ul>
           <hr />
@@ -223,12 +150,19 @@ export default {
         <div v-if="node.ipeds">
           <h4>IPEDS stats</h4>
           <ul>
-            <li>Core revenues (2018): {{node.ipeds.core_revenues_DRVF2018}}</li>
-            <li>Endowment (2018): {{node.ipeds.endowment_assets_DRVF2018}}</li>
-            <li>Total Expenditures (2018): {{node.ipeds.LEXPTOT_AL2018}}</li>
-            <li>Total enrollment (2017): {{node.ipeds.ENRTOT_DRVEF2017_RV}}</li>
-            <li>Total library circulations (2018): {{node.ipeds.LTCRCLT_AL2018}}</li>
-
+            <li>
+              Core revenues (2018): {{ node.ipeds.core_revenues_DRVF2018 }}
+            </li>
+            <li>
+              Endowment (2018): {{ node.ipeds.endowment_assets_DRVF2018 }}
+            </li>
+            <li>Total Expenditures (2018): {{ node.ipeds.LEXPTOT_AL2018 }}</li>
+            <li>
+              Total enrollment (2017): {{ node.ipeds.ENRTOT_DRVEF2017_RV }}
+            </li>
+            <li>
+              Total library circulations (2018): {{ node.ipeds.LTCRCLT_AL2018 }}
+            </li>
           </ul>
           <hr />
         </div>
@@ -241,70 +175,8 @@ export default {
           </ul>
           <hr />
         </div>
-
       </div>
       <p v-else>loading...</p>
-    </div>
-    <div class="row mb-4">
-      <div class="col">
-        <h4>Stats</h4>
-        <ul>
-          <li>
-            Library Stats
-            <ul>
-              <li>
-                <span class="label">Location</span>
-                <span class="stat"></span>
-              </li>
-              <li>
-                <span class="label">Librarians FTE</span>
-                <span class="stat"></span>
-              </li>
-              <li>
-                <span class="label">2021 Volume Count</span>
-                <span class="stat"></span>
-              </li>
-              <li>
-                <span class="label">2021 Budget</span>
-                <span class="stat"></span>
-              </li>
-              <li>
-                <span class="label">2021 Expenditures</span>
-                <span class="stat"></span>
-              </li>
-              <li>
-                <span class="label">2021 Avg. Librarian Salary</span>
-                <span class="stat"></span>
-              </li>
-            </ul>
-          </li>
-          <li>
-            Parent Institution Stats
-            <ul>
-              <li>
-                <span class="label">2021 Enrollment</span>
-                <span class="stat"></span>
-              </li>
-              <li>
-                <span class="label">Rural or Urban</span>
-                <span class="stat"></span>
-              </li>
-              <li>
-                <span class="label">2021 Gross Revenue</span>
-                <span class="stat"></span>
-              </li>
-              <li>
-                <span class="label">2021 Endowment</span>
-                <span class="stat"></span>
-              </li>
-              <li>
-                <span class="label">2021 pct. Minority</span>
-                <span class="stat"></span>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </div>
     </div>
   </section>
 </template>

@@ -33,8 +33,8 @@
             >
           </li>
           <li>
-            <RouterLink class="nav-link px-2 link-dark" to="/nodes"
-              >Nodes</RouterLink
+            <RouterLink class="nav-link px-2 link-dark" to="/libraries"
+              >Libraries</RouterLink
             >
           </li>
           <li>

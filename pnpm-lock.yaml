@@ -13,7 +13,7 @@ specifiers:
   eslint: ^8.22.0
   eslint-plugin-vue: ^9.3.0
   graphql: ^16.6.0
-  pinia: ^2.0.26
+  pinia: ^2.0.30
   postcss: ^8.4.19
   prettier: ^2.7.1
   sass: ^1.56.2
@@ -29,7 +29,7 @@ dependencies:
   bootstrap-icons: 1.10.2
   csvtojson: 2.0.10
   graphql: 16.6.0
-  pinia: 2.0.27_vue@3.2.45
+  pinia: 2.0.30_vue@3.2.45
   postcss: 8.4.19
   sass: 1.56.2
   vue: 3.2.45
@@ -1254,8 +1254,8 @@ packages:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
     engines: {node: '>=8.6'}
 
-  /pinia/2.0.27_vue@3.2.45:
-    resolution: {integrity: sha512-nOnXP0OFeL8R4WjAHsterU+11vptda643gH02xKNtSCDPiRzVfRYodOLihLDoa0gL1KKuQKV+KOzEgdt3YvqEw==}
+  /pinia/2.0.30_vue@3.2.45:
+    resolution: {integrity: sha512-q6DUmxWwe/mQgg+55QQjykpKC+aGeGdaJV3niminl19V08dE+LRTvSEuqi6/NLSGCKHI49KGL6tMNEOssFiMyA==}
     peerDependencies:
       '@vue/composition-api': ^1.4.0
       typescript: '>=4.4.4'

@@ -1,25 +1,38 @@
-<script setup>
+<script>
 // import { ref } from "vue";
 import NodeCard from "../components/NodeCard.vue";
 import NodeSidebar from "../components/NodeSidebar.vue";
 import NodeListResultsTools from "../components/NodeListResultsTools.vue";
 
-import axios from "axios";
-import { useRoute } from "vue-router";
 import { useBrachioStore } from "@/stores/brachioStore";
-
 const store = useBrachioStore();
+
+export default {
+  components: {
+    NodeCard,
+    NodeSidebar,
+    NodeListResultsTools,
+  },
+  data() {
+    return {};
+  },
+  computed: {
+    paged_libraries() {
+      return store.libraries.slice(
+        store.pager.cursor,
+        store.pager.cursor + store.pager.qty
+      );
+    },
+  },
+};
 </script>
 
 <template>
   <section class="container">
     <div class="row py-lg-5">
       <div class="col">
-        <h1 class="fw-light">Nodes</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut
-          ullamcorper dolor.
-        </p>
+        <h1 class="fw-light">Libraries</h1>
+        <p>Here are a bunch of Libraries.</p>
         <!-- <p class="lead text-muted">
           Something short and leading about the collection below—its contents,
           the creator, etc. Make it short and sweet, but not too short so folks
@@ -43,17 +56,19 @@ const store = useBrachioStore();
         <div class="col-12 col-md-8 col-lg-9">
           <h3 class="">Results</h3>
 
-          <div v-if="store.nodes && store.nodes.length > 0">
+          <div v-if="paged_libraries && paged_libraries.length > 0">
             <NodeListResultsTools
               placement="precontent"
               title="Results Tools, pre-content"
             />
 
-
-
             <div id="content" class="row row-cols-1 row-cols-lg-2 g-3">
-              <div class="col" v-for="node in store.nodes" :key="node._id">
-                <NodeCard :id="node._id" :node="node" />
+              <div
+                class="col"
+                v-for="library in paged_libraries"
+                :key="library._id"
+              >
+                <NodeCard :id="library._id" :node="library" />
               </div>
             </div>
 
@@ -68,9 +83,3 @@ const store = useBrachioStore();
     </div>
   </div>
 </template>
-
-<style scoped lang="scss">
-select.form-select {
-  // width: unset;
-}
-</style>

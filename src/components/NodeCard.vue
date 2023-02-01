@@ -1,8 +1,16 @@
 <script>
+import { useBrachioStore } from "@/stores/brachioStore";
+const store = useBrachioStore();
+
 export default {
   props: {
     id: String,
     node: Object,
+  },
+  computed: {
+    queue_position() {
+      return store.libraries.findIndex((lib) => lib._id === this.id) + 1;
+    },
   },
 };
 </script>
@@ -16,11 +24,17 @@ export default {
     />
 
     <div class="card-body">
+      <p class="lead">{{ queue_position }}</p>
+
       <div class="mb-4">
         <h4 class="card-text">{{ this.node.name }}</h4>
 
-        <p>Parent Institution</p>
+        <p v-if="node.parents && node.parents.length">
+          {{ node.parents[0].name }}
+        </p>
       </div>
+
+      <p>{{ node.type }}</p>
 
       <div v-if="node.categories">
         <span class="fs-6 fw-semibold">Categories</span>
