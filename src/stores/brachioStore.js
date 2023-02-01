@@ -1,3 +1,5 @@
+import { indexify } from "@/utils";
+
 import { defineStore } from "pinia";
 import { Visit, URL, Location, Connection, Node } from "./model";
 
@@ -18,12 +20,28 @@ export const useBrachioStore = defineStore("brachioStore", {
       qty: 25,
       sort: "name",
     },
+
+    filters: {
+      keyword: "",
+      categories: ["library", "academic"],
+      tags: ["arl", "carli", "gwla"],
+    },
   }),
   getters: {
     libraries() {
-      return this.nodes
-        .filter((node) => node.categories && node.categories[0] === "library")
-        .sort((a, b) => a[this.pager.sort] > b[this.pager.sort]);
+      return (
+        this.nodes
+          // filter out non-libraries, e.g. university nodes
+          .filter((node) => node.categories && node.categories[0] === "library")
+
+          // keyword filter
+          .filter((node) =>
+            node.search_target.includes(indexify(this.filters.keyword))
+          )
+
+          // sort results
+          .sort((a, b) => a[this.pager.sort] > b[this.pager.sort])
+      );
     },
   },
   actions: {

@@ -15,6 +15,7 @@ export default defineConfig({
     },
   },
   server: {
+    hmr: false,
     proxy: {
       "/api": {
         target: "https://realm.mongodb.com/api/client/v2.0/app/data-jgazm/graphql",

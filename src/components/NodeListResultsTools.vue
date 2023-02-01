@@ -65,12 +65,13 @@ export default {
   <div class="row mb-4" v-if="placement === 'precontent'">
     <div class="col">
       Filters applied<br />
+      
+      
       <ul>
-        <li class="badge bg-secondary">"Awesomesauce"</li>
-        <li class="badge bg-secondary">Libraries / Museums</li>
-        <li class="badge bg-secondary">Big Ten</li>
-        <li class="badge bg-secondary">hbcu</li>
+        <li class="badge bg-secondary">Test</li>
       </ul>
+
+
     </div>
   </div>
 

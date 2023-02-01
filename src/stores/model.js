@@ -1,4 +1,5 @@
 import axios from "axios";
+import { indexify } from "@/utils";
 // import { Connection, Node, Visit } from "../model";
 
 // import q_nodes from "./queries/nodes.graphql?raw";
@@ -135,6 +136,11 @@ class Node {
 
     this.parent_nodes = [];
     this.child_nodes = [];
+
+    this.search_target = indexify(this.name.concat(this._id, this.type), {
+      replacement: "",
+      lower: true,
+    });
   }
 
   set parents(arr) {

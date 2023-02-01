@@ -17,6 +17,7 @@ specifiers:
   postcss: ^8.4.19
   prettier: ^2.7.1
   sass: ^1.56.2
+  slugify: ^1.6.5
   vite: ^3.2.4
   vite-svg-loader: ^4.0.0
   vue: ^3.2.45
@@ -33,6 +34,7 @@ dependencies:
   pinia: 2.0.30_vue@3.2.45
   postcss: 8.4.19
   sass: 1.56.2
+  slugify: 1.6.5
   vue: 3.2.45
   vue-router: 4.1.6_vue@3.2.45
 
@@ -1491,6 +1493,11 @@ packages:
     resolution: {integrity: sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==}
     engines: {node: '>=8'}
     dev: true
+
+  /slugify/1.6.5:
+    resolution: {integrity: sha512-8mo9bslnBO3tr5PEVFzMPIWwWnipGS0xVbYf65zxDqfNwmzYn1LpiKNrR6DlClusuvo+hDHd1zKpmfAe83NQSQ==}
+    engines: {node: '>=8.0.0'}
+    dev: false
 
   /source-map-js/1.0.2:
     resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==}

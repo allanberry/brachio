@@ -1,4 +1,7 @@
 <script>
+import { useBrachioStore } from "@/stores/brachioStore";
+const store = useBrachioStore();
+
 import CardsIcon from "@/assets/icons/sidebar/cards.svg?component";
 import CompareIcon from "@/assets/icons/sidebar/compare.svg?component";
 import ListIcon from "@/assets/icons/sidebar/list.svg?component";
@@ -9,19 +12,21 @@ export default {
   data() {
     return {};
   },
+  computed: {
+    store: () => store,
+  },
   components: {
-    CardsIcon,
-    CompareIcon,
-    ListIcon,
-    MapIcon,
-    TimelineIcon,
+    // CardsIcon,
+    // CompareIcon,
+    // ListIcon,
+    // MapIcon,
+    // TimelineIcon,
   },
 };
 </script>
 
 <template>
   <div class="sticky-top">
-
     <!-- <div class="mb-4">
       <h5>Modes</h5>
       <p class="form-text">
@@ -69,11 +74,12 @@ export default {
       <div>
         <label for="filter_keyword" class="form-label">Keyword Filter</label>
         <input
-          type="email"
+          type="text"
           class="form-control"
           id="filter_keyword"
           placeholder="e.g. library, museum, ivy, hbcu..."
           aria-describedby="filter_keyword_help"
+          v-model="store.filters.keyword"
         />
       </div>
     </div>
