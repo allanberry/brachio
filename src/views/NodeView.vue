@@ -35,6 +35,104 @@ export default {
         console.error(error);
       }
     },
+    resolve_screenshot(path, size) {
+      if (size === "full") {
+        return `https://bcw-images.s3.us-west-1.amazonaws.com/brachio/visits/${path}`;
+      } else {
+        // format: https://vim9ip3utf.execute-api.us-west-1.amazonaws.com/latest/iiif/2/test%2Fuic.png/full/300,/0/default.png
+        const path_encoded = encodeURIComponent(`brachio/visits/${path}`);
+        return `https://vim9ip3utf.execute-api.us-west-1.amazonaws.com/latest/iiif/2/${path_encoded}/full/300,/0/default.png`;
+      }
+    },
+    visit_data: function (visit) {
+      return [
+        { label: "title", metric: visit.title },
+        { label: "date accessed", metric: visit.date_accessed },
+        { label: "date wayback", metric: visit.date_wayback },
+        { label: "url wayback", metric: visit.url_wayback },
+        { label: "url wayback raw", metric: visit.url_wayback_raw },
+        { label: "anchors length", metric: visit.anchors.length },
+        { label: "html element qty", metric: visit.raw_element_qty },
+        { label: "html length", metric: visit.raw_length },
+        { label: "css length", metric: visit.styles_length },
+        { label: "js length", metric: visit.scripts_length },
+        { label: "html frames", metric: visit.metrics_frames },
+        { label: "html documents", metric: visit.metrics_documents },
+        { label: "html nodes", metric: visit.metrics_nodes },
+        { label: "performance score", metric: visit.metrics_performance },
+        { label: "accessibility score", metric: visit.metrics_accessibility },
+        { label: "best practices score", metric: visit.metrics_best_practices },
+        { label: "css colors", metric: visit.metrics_styles_colors },
+        { label: "css comments", metric: visit.metrics_styles_comments },
+        {
+          label: "css commentsLength",
+          metric: visit.metrics_styles_commentsLength,
+        },
+        { label: "css oldIEFixes", metric: visit.metrics_styles_oldIEFixes },
+        { label: "css imports", metric: visit.metrics_styles_imports },
+        { label: "css importants", metric: visit.metrics_styles_importants },
+        {
+          label: "css mediaQueries",
+          metric: visit.metrics_styles_mediaQueries,
+        },
+        {
+          label: "css parsingErrors",
+          metric: visit.metrics_styles_parsingErrors,
+        },
+        {
+          label: "css qualifiedSelectors",
+          metric: visit.metrics_styles_qualifiedSelectors,
+        },
+        {
+          label: "css specificityIdAvg",
+          metric: visit.metrics_styles_specificityIdAvg,
+        },
+        {
+          label: "css specificityIspanotal",
+          metric: visit.metrics_styles_specificityIspanotal,
+        },
+        { label: "css selectors", metric: visit.metrics_styles_selectors },
+        { label: "css length 2", metric: visit.metrics_styles_length },
+        { label: "css rules", metric: visit.metrics_styles_rules },
+        {
+          label: "css declarations",
+          metric: visit.metrics_styles_declarations,
+        },
+        {
+          label: "js maintainability",
+          metric: visit.metrics_scripts_maintainability,
+        },
+        { label: "js lines of code", metric: visit.metrics_scripts_sloc },
+        {
+          label: "js halstead difficulty",
+          metric: visit.metrics_scripts_halstead_difficulty,
+        },
+        {
+          label: "js halstead bugs",
+          metric: visit.metrics_scripts_halstead_bugs,
+        },
+        {
+          label: "js halstead effort",
+          metric: visit.metrics_scripts_halstead_effort,
+        },
+        {
+          label: "js halstead length",
+          metric: visit.metrics_scripts_halstead_length,
+        },
+        {
+          label: "js halstead vocabulary",
+          metric: visit.metrics_scripts_halstead_vocabulary,
+        },
+        {
+          label: "js halstead volume",
+          metric: visit.metrics_scripts_halstead_volume,
+        },
+        {
+          label: "js halstead time",
+          metric: visit.metrics_scripts_halstead_time,
+        },
+      ];
+    },
   },
 };
 </script>
@@ -74,10 +172,38 @@ export default {
 
           <ul v-if="urls">
             <li v-for="url in urls" :key="url.url">
-              {{ url.url }}
+              <h5><span class="lead">URL:</span> {{ url.url }}</h5>
               <ul v-if="url.visits">
-                <li v-for="visit in url.visits" :key="visit._id">
-                  {{ visit.id }}
+                <li class="mb-3" v-for="visit in url.visits" :key="visit._id">
+                  <h6><span class="lead">Visit:</span> {{ visit.id }}</h6>
+                  <ul>
+                    <li
+                      class="row"
+                      v-for="item in visit_data(visit)"
+                      :key="item._id"
+                    >
+                      <span class="col-5 col-lg-3" style="font-weight: 700">{{
+                        item.label
+                      }}</span>
+                      <span class="col-7 col-lg-9">
+                        {{ item.metric }}
+                      </span>
+                    </li>
+
+                    <li class="row">
+                      <span class="col-5 col-lg-3">screenshots</span>
+                      <span class="col-7 col-lg-9">
+                        <ul>
+                          <li
+                            v-for="screenshot in visit.screenshots"
+                            :key="screenshot"
+                          >
+                            {{ resolve_screenshot(screenshot) }}
+                          </li>
+                        </ul>
+                      </span>
+                    </li>
+                  </ul>
                 </li>
               </ul>
             </li>
@@ -88,7 +214,7 @@ export default {
         <div v-if="node.categories && node.categories.length">
           <h4>Categories</h4>
           <ul>
-            <li v-for="cat in node.categories">
+            <li v-for="cat in node.categories" :key="cat._id">
               {{ cat }}
               <!-- <ul>
                 <li>Academic</li>
@@ -101,7 +227,7 @@ export default {
         <div v-if="node.tags && node.tags.length">
           <h4>Tags</h4>
           <ul>
-            <li v-for="tag in node.tags">
+            <li v-for="tag in node.tags" :key="tag">
               {{ tag }}
             </li>
           </ul>
@@ -113,7 +239,7 @@ export default {
           <ul>
             <li v-for="loc in node.locations" :key="loc._id">
               <p>
-                <span v-if="loc.address">{{ loc.address }}</span>
+                <span v-if="loc.aspanress">{{ loc.aspanress }}</span>
               </p>
               <p>
                 <span v-if="loc.city">{{ loc.city }}, </span>

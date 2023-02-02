@@ -602,5 +602,10 @@ query GetVisits($url: String, $limit: Int) {
         }
       }
     }
+    wayback {
+      date_available
+      url_raw
+      url_rendered
+    }
   }
 }

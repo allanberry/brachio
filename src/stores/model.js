@@ -41,17 +41,250 @@ async function atlas(query, variables) {
 
 class Visit {
   constructor(apiVisit) {
-    this._id = apiVisit._id;
+    // this._id = apiVisit._id;
     this.id = apiVisit.id;
     this.url = apiVisit.url;
-  }
 
-  get images() {
-    return {
-      mobile: "",
-      "1280x1040": "",
-      desktop: "",
-    };
+    this.date_accessed = apiVisit.date_accessed;
+
+    this.date_wayback = apiVisit.wayback
+      ? apiVisit.wayback.date_available
+      : undefined;
+    this.url_wayback = apiVisit.wayback
+      ? apiVisit.wayback.url_rendered
+      : undefined;
+    this.url_wayback_raw = apiVisit.wayback
+      ? apiVisit.wayback.url_raw
+      : undefined;
+
+    this.title = apiVisit.raw ? apiVisit.raw.title : undefined;
+    // this.date_last_modified = apiVisit.raw
+    //   ? apiVisit.raw["x-archive-orig-last-modified"]
+    //   : undefined;
+    this.raw_element_qty =
+      apiVisit.raw && apiVisit.raw.structure && apiVisit.raw.structure.aggregate
+        ? apiVisit.raw.structure.aggregate.elementQty
+        : undefined;
+    this.raw_length =
+      apiVisit.raw && apiVisit.raw.structure && apiVisit.raw.structure.aggregate
+        ? apiVisit.raw.structure.aggregate.length
+        : undefined;
+
+    this.screenshots = apiVisit.rendered
+      ? apiVisit.rendered.screenshots
+      : undefined;
+    this.styles_length =
+      apiVisit.rendered &&
+      apiVisit.rendered.styles &&
+      apiVisit.rendered.styles.aggregate
+        ? apiVisit.rendered.styles.aggregate.length
+        : undefined;
+    this.scripts_length =
+      apiVisit.rendered &&
+      apiVisit.rendered.scripts &&
+      apiVisit.rendered.scripts.aggregate
+        ? apiVisit.rendered.scripts.aggregate.length
+        : undefined;
+    this.anchors =
+      apiVisit.rendered &&
+      apiVisit.rendered.anchors &&
+      apiVisit.rendered.anchors
+        ? apiVisit.rendered.anchors.list
+        : undefined;
+
+    this.metrics_frames =
+      apiVisit.rendered &&
+      apiVisit.rendered.metrics &&
+      apiVisit.rendered.metrics.puppeteer
+        ? apiVisit.rendered.metrics.puppeteer.Frames
+        : undefined;
+    this.metrics_documents =
+      apiVisit.rendered &&
+      apiVisit.rendered.metrics &&
+      apiVisit.rendered.metrics.puppeteer
+        ? apiVisit.rendered.metrics.puppeteer.Documents
+        : undefined;
+    this.metrics_nodes =
+      apiVisit.rendered &&
+      apiVisit.rendered.metrics &&
+      apiVisit.rendered.metrics.puppeteer
+        ? apiVisit.rendered.metrics.puppeteer.Nodes
+        : undefined;
+
+    this.metrics_performance =
+      apiVisit.analysis &&
+      apiVisit.analysis.lighthouse &&
+      apiVisit.analysis.lighthouse.data.categories.performance
+        ? apiVisit.analysis.lighthouse.data.categories.performance.score
+        : undefined;
+    this.metrics_accessibility =
+      apiVisit.analysis &&
+      apiVisit.analysis.lighthouse &&
+      apiVisit.analysis.lighthouse.data.categories.accessibility
+        ? apiVisit.analysis.lighthouse.data.categories.accessibility.score
+        : undefined;
+    this.metrics_best_practices =
+      apiVisit.analysis &&
+      apiVisit.analysis.lighthouse &&
+      apiVisit.analysis.lighthouse.data.categories.bestPractices
+        ? apiVisit.analysis.lighthouse.data.categories.bestPractices.score
+        : undefined;
+
+    this.technologies.wappalyzer;
+    this.technologies.builtwith;
+
+    this.metrics_styles_colors =
+      apiVisit.analysis &&
+      apiVisit.analysis.analyzecss &&
+      apiVisit.analysis.analyzecss.data
+        ? apiVisit.analysis.analyzecss.data.colors
+        : undefined;
+    this.metrics_styles_comments =
+      apiVisit.analysis &&
+      apiVisit.analysis.analyzecss &&
+      apiVisit.analysis.analyzecss.data
+        ? apiVisit.analysis.analyzecss.data.comments
+        : undefined;
+    this.metrics_styles_commentsLength =
+      apiVisit.analysis &&
+      apiVisit.analysis.analyzecss &&
+      apiVisit.analysis.analyzecss.data
+        ? apiVisit.analysis.analyzecss.data.commentsLength
+        : undefined;
+    this.metrics_styles_oldIEFixes =
+      apiVisit.analysis &&
+      apiVisit.analysis.analyzecss &&
+      apiVisit.analysis.analyzecss.data
+        ? apiVisit.analysis.analyzecss.data.oldIEFixes
+        : undefined;
+    this.metrics_styles_imports =
+      apiVisit.analysis &&
+      apiVisit.analysis.analyzecss &&
+      apiVisit.analysis.analyzecss.data
+        ? apiVisit.analysis.analyzecss.data.imports
+        : undefined;
+    this.metrics_styles_importants =
+      apiVisit.analysis &&
+      apiVisit.analysis.analyzecss &&
+      apiVisit.analysis.analyzecss.data
+        ? apiVisit.analysis.analyzecss.data.importants
+        : undefined;
+    this.metrics_styles_mediaQueries =
+      apiVisit.analysis &&
+      apiVisit.analysis.analyzecss &&
+      apiVisit.analysis.analyzecss.data
+        ? apiVisit.analysis.analyzecss.data.mediaQueries
+        : undefined;
+    this.metrics_styles_parsingErrors =
+      apiVisit.analysis &&
+      apiVisit.analysis.analyzecss &&
+      apiVisit.analysis.analyzecss.data
+        ? apiVisit.analysis.analyzecss.data.parsingErrors
+        : undefined;
+    this.metrics_styles_qualifiedSelectors =
+      apiVisit.analysis &&
+      apiVisit.analysis.analyzecss &&
+      apiVisit.analysis.analyzecss.data
+        ? apiVisit.analysis.analyzecss.data.qualifiedSelectors
+        : undefined;
+    this.metrics_styles_specificityIdAvg =
+      apiVisit.analysis &&
+      apiVisit.analysis.analyzecss &&
+      apiVisit.analysis.analyzecss.data
+        ? apiVisit.analysis.analyzecss.data.specificityIdAvg
+        : undefined;
+    this.metrics_styles_specificityIdTotal =
+      apiVisit.analysis &&
+      apiVisit.analysis.analyzecss &&
+      apiVisit.analysis.analyzecss.data
+        ? apiVisit.analysis.analyzecss.data.specificityIdTotal
+        : undefined;
+    this.metrics_styles_selectors =
+      apiVisit.analysis &&
+      apiVisit.analysis.analyzecss &&
+      apiVisit.analysis.analyzecss.data
+        ? apiVisit.analysis.analyzecss.data.selectors
+        : undefined;
+    this.metrics_styles_length =
+      apiVisit.analysis &&
+      apiVisit.analysis.analyzecss &&
+      apiVisit.analysis.analyzecss.data
+        ? apiVisit.analysis.analyzecss.data.length
+        : undefined;
+    this.metrics_styles_rules =
+      apiVisit.analysis &&
+      apiVisit.analysis.analyzecss &&
+      apiVisit.analysis.analyzecss.data
+        ? apiVisit.analysis.analyzecss.data.rules
+        : undefined;
+    this.metrics_styles_declarations =
+      apiVisit.analysis &&
+      apiVisit.analysis.analyzecss &&
+      apiVisit.analysis.analyzecss.data
+        ? apiVisit.analysis.analyzecss.data.declarations
+        : undefined;
+    this.metrics_scripts_maintainability =
+      apiVisit.analysis &&
+      apiVisit.analysis.escomplex &&
+      apiVisit.analysis.escomplex.data
+        ? apiVisit.analysis.escomplex.data.maintainability
+        : undefined;
+    this.metrics_scripts_sloc =
+      apiVisit.analysis &&
+      apiVisit.analysis.escomplex &&
+      apiVisit.analysis.escomplex.data &&
+      apiVisit.analysis.escomplex.data.sloc
+        ? apiVisit.analysis.escomplex.data.sloc.logical
+        : undefined;
+    this.metrics_scripts_halstead_difficulty =
+      apiVisit.analysis &&
+      apiVisit.analysis.escomplex &&
+      apiVisit.analysis.escomplex.data &&
+      apiVisit.analysis.escomplex.data.halstead
+        ? apiVisit.analysis.escomplex.data.halstead.difficulty
+        : undefined;
+    this.metrics_scripts_halstead_bugs =
+      apiVisit.analysis &&
+      apiVisit.analysis.escomplex &&
+      apiVisit.analysis.escomplex.data &&
+      apiVisit.analysis.escomplex.data.halstead
+        ? apiVisit.analysis.escomplex.data.halstead.bugs
+        : undefined;
+    this.metrics_scripts_halstead_effort =
+      apiVisit.analysis &&
+      apiVisit.analysis.escomplex &&
+      apiVisit.analysis.escomplex.data &&
+      apiVisit.analysis.escomplex.data.halstead
+        ? apiVisit.analysis.escomplex.data.halstead.effort
+        : undefined;
+    this.metrics_scripts_halstead_length =
+      apiVisit.analysis &&
+      apiVisit.analysis.escomplex &&
+      apiVisit.analysis.escomplex.data &&
+      apiVisit.analysis.escomplex.data.halstead
+        ? apiVisit.analysis.escomplex.data.halstead.length
+        : undefined;
+    this.metrics_scripts_halstead_vocabulary =
+      apiVisit.analysis &&
+      apiVisit.analysis.escomplex &&
+      apiVisit.analysis.escomplex.data &&
+      apiVisit.analysis.escomplex.data.halstead
+        ? apiVisit.analysis.escomplex.data.halstead.vocabulary
+        : undefined;
+    this.metrics_scripts_halstead_volume =
+      apiVisit.analysis &&
+      apiVisit.analysis.escomplex &&
+      apiVisit.analysis.escomplex.data &&
+      apiVisit.analysis.escomplex.data.halstead
+        ? apiVisit.analysis.escomplex.data.halstead.volume
+        : undefined;
+    this.metrics_scripts_halstead_time =
+      apiVisit.analysis &&
+      apiVisit.analysis.escomplex &&
+      apiVisit.analysis.escomplex.data &&
+      apiVisit.analysis.escomplex.data.halstead
+        ? apiVisit.analysis.escomplex.data.halstead.time
+        : undefined;
   }
 
   get wayback_url() {
