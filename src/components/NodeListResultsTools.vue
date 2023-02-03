@@ -223,7 +223,7 @@ export default {
       </select>
     </div>
 
-    <div class="col col-4 mb-3"  v-if="placement === 'precontent'">
+    <!-- <div class="col col-4 mb-3"  v-if="placement === 'precontent'">
       <label for="pref_select">Preferences</label>
 
       <div class="form-check">
@@ -251,6 +251,6 @@ export default {
           Show info about parent
         </label>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>

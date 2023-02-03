@@ -1,6 +1,5 @@
 <script>
-import { ref, computed } from "vue";
-import { useRoute } from "vue-router";
+// import { useRoute } from "vue-router";
 import { useBrachioStore } from "@/stores/brachioStore";
 
 const store = useBrachioStore();
@@ -28,22 +27,14 @@ export default {
   methods: {
     async fetchVisits() {
       try {
-        for (const url of this.urls) {
+        for (const url of this.node.urls) {
           await url.fetchVisits();
         }
       } catch (error) {
         console.error(error);
       }
     },
-    resolve_screenshot(path, size) {
-      if (size === "full") {
-        return `https://bcw-images.s3.us-west-1.amazonaws.com/brachio/visits/${path}`;
-      } else {
-        // format: https://vim9ip3utf.execute-api.us-west-1.amazonaws.com/latest/iiif/2/test%2Fuic.png/full/300,/0/default.png
-        const path_encoded = encodeURIComponent(`brachio/visits/${path}`);
-        return `https://vim9ip3utf.execute-api.us-west-1.amazonaws.com/latest/iiif/2/${path_encoded}/full/300,/0/default.png`;
-      }
-    },
+
     visit_data: function (visit) {
       return [
         { label: "title", metric: visit.title },
@@ -87,10 +78,6 @@ export default {
           label: "css specificityIdAvg",
           metric: visit.metrics_styles_specificityIdAvg,
         },
-        {
-          label: "css specificityIspanotal",
-          metric: visit.metrics_styles_specificityIspanotal,
-        },
         { label: "css selectors", metric: visit.metrics_styles_selectors },
         { label: "css length 2", metric: visit.metrics_styles_length },
         { label: "css rules", metric: visit.metrics_styles_rules },
@@ -131,6 +118,19 @@ export default {
           label: "js halstead time",
           metric: visit.metrics_scripts_halstead_time,
         },
+
+        {
+          label: "screenshot mobile",
+          metric: visit.pics().mobile,
+        },
+        {
+          label: "screenshot tablet",
+          metric: visit.pics().tablet,
+        },
+        {
+          label: "screenshot desktop",
+          metric: visit.pics().desktop,
+        },
       ];
     },
   },
@@ -142,6 +142,7 @@ export default {
     <div class="row py-lg-5">
       <div class="col" v-if="node">
         <h1 class="fw-light">{{ node.name }}</h1>
+        <p>_id: {{ node._id }}</p>
 
         <div v-if="node.parents && node.parents.length">
           <h4>Parents</h4>
@@ -190,19 +191,19 @@ export default {
                       </span>
                     </li>
 
-                    <li class="row">
+                    <!-- <li class="row">
                       <span class="col-5 col-lg-3">screenshots</span>
                       <span class="col-7 col-lg-9">
                         <ul>
                           <li
-                            v-for="screenshot in visit.screenshots"
+                            v-for="screenshot in visit.screenshots_iiif"
                             :key="screenshot"
                           >
-                            {{ resolve_screenshot(screenshot) }}
+                            {{ screenshot }}
                           </li>
                         </ul>
                       </span>
-                    </li>
+                    </li> -->
                   </ul>
                 </li>
               </ul>

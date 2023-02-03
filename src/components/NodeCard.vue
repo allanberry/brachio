@@ -17,11 +17,24 @@ export default {
 
 <template>
   <div :id="id" class="card shadow-sm h-100">
-    <img
+    <!-- <img
       src="/src/assets/brachiosaurus-k10.svg"
       class="card-img-top p-5 bg-light"
       alt="The image is missing.  This is a placeholder image, a silhouette of a brachiosaurus."
+    /> -->
+
+    <img
+      :src="
+        node.urls[0].visits[0]
+          ? node.urls[0].visits[0].pics.mobile
+          : '/src/assets/brachiosaurus-k10.svg'
+      "
+      class="card-img-top p-5 bg-light"
+      alt="The image is missing.  This is a placeholder image, a silhouette of a brachiosaurus."
     />
+
+      <!-- {{ node.urls[0] }} -->
+
 
     <div class="card-body">
       <p class="lead">{{ queue_position }}</p>
@@ -38,7 +51,7 @@ export default {
         </p>
       </div>
 
-      <p>{{ node.type }}</p>
+      <!-- <p>{{ node.type }}</p> -->
 
       <div v-if="node.categories">
         <span class="fs-6 fw-semibold">Categories</span>

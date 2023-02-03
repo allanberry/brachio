@@ -1,0 +1,8 @@
+{
+  visits(limit: 10, query: {url: "https://library.uic.edu/"}) {
+    id
+    rendered {
+      screenshots
+    }
+  }
+}

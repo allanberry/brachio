@@ -187,18 +187,6 @@ class Visit {
       apiVisit.analysis.analyzecss.data
         ? apiVisit.analysis.analyzecss.data.qualifiedSelectors
         : undefined;
-    this.metrics_styles_specificityIdAvg =
-      apiVisit.analysis &&
-      apiVisit.analysis.analyzecss &&
-      apiVisit.analysis.analyzecss.data
-        ? apiVisit.analysis.analyzecss.data.specificityIdAvg
-        : undefined;
-    this.metrics_styles_specificityIdTotal =
-      apiVisit.analysis &&
-      apiVisit.analysis.analyzecss &&
-      apiVisit.analysis.analyzecss.data
-        ? apiVisit.analysis.analyzecss.data.specificityIdTotal
-        : undefined;
     this.metrics_styles_selectors =
       apiVisit.analysis &&
       apiVisit.analysis.analyzecss &&
@@ -287,6 +275,45 @@ class Visit {
         : undefined;
   }
 
+  // get screenshots() {
+  //   if (this.screenshots) {
+  //     return this.screenshots.map(
+  //       (path) =>
+  //         `https://bcw-images.s3.us-west-1.amazonaws.com/brachio/visits/${path}`
+  //     );
+  //   }
+  //   return [];
+  // }
+
+  pics(width = 500, height) {
+    function url(path) {
+      const path_encoded = encodeURIComponent(`brachio/visits/${path}`);
+      return `https://vim9ip3utf.execute-api.us-west-1.amazonaws.com/latest/iiif/2/${path_encoded}/full/${width},${
+        height ? height : ""
+      }/0/default.png`;
+    }
+
+    if (this.screenshots) {
+      return {
+        mobile: url(this.screenshots.find((pic) => pic.match("w320.png"))),
+        tablet: url(this.screenshots.find((pic) => pic.match("w640.png"))),
+        desktop: url(this.screenshots.find((pic) => pic.match("w1280.png"))),
+      };
+    }
+    return {};
+  }
+
+  // get screenshots_iiif() {
+  //   if (this.screenshots) {
+  //     return this.screenshots.map((path) => {
+  //       // format: https://vim9ip3utf.execute-api.us-west-1.amazonaws.com/latest/iiif/2/test%2Fuic.png/full/300,/0/default.png
+  //       const path_encoded = encodeURIComponent(`brachio/visits/${path}`);
+  //       return `https://vim9ip3utf.execute-api.us-west-1.amazonaws.com/latest/iiif/2/${path_encoded}/full/300,/0/default.png`;
+  //     });
+  //   }
+  //   return [];
+  // }
+
   get wayback_url() {
     return "";
   }
@@ -303,7 +330,6 @@ class URL {
     this.rank = apiUrl.rank;
     this.label = apiUrl.label;
 
-    this.test = "flark";
     this.visits = [];
   }
 
@@ -399,6 +425,7 @@ class Node {
   set has_child(node) {
     this.child_nodes.push(node);
   }
+  
 }
 
 export { Visit, URL, Location, Connection, Node };
