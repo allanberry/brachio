@@ -1,8 +1,12 @@
 <script>
-// import { ref } from "vue";
+import { atlas } from "@/utils";
+import q_snapshots from "@/stores/queries/snapshots.graphql?raw";
+
 import NodeCard from "../components/NodeCard.vue";
 import NodeSidebar from "../components/NodeSidebar.vue";
 import NodeListResultsTools from "../components/NodeListResultsTools.vue";
+
+// import { Snapshot } from "@/stores/model.js";
 
 import { useBrachioStore } from "@/stores/brachioStore";
 const store = useBrachioStore();
@@ -23,6 +27,71 @@ export default {
         store.pager.cursor + store.pager.qty
       );
     },
+  },
+  methods: {
+    async get_snapshots() {
+      try {
+        // get all urls from paged libraries.  Some are for the same node.
+        const urls = this.paged_libraries
+          .reduce((acc, lib) => acc.concat(lib.urls), [])
+          .map((url) => url.url);
+
+        // console.log({ urls });
+
+        const response = await atlas(q_snapshots, {
+          urls,
+        });
+
+        // console.log({ response })
+
+        // get unique nodes for these urls
+        const nodes = [
+          ...new Set(
+            urls.map((url) =>
+              store.nodes.find((node) =>
+                node.urls.map((url) => url.url).includes(url)
+              )
+            )
+          ),
+        ];
+
+        // get all visits to each url
+        const url_visit_sets = urls
+          .map((url) => response.visits.filter((visit) => visit.url === url))
+          // remove empty sets
+          .filter((url_visit_set) => url_visit_set.length)
+          // sort within by date
+          .map((url_visit_set) => url_visit_set.sort((a, b) => a.id < b.id));
+
+        console.log({ nodes, url_visit_sets });
+
+        // nodes.forEach((node) => {});
+
+        //   node.has_snapshot = {
+        //     thumbnail: {
+        //       img: "/src/assets/brachiosaurus-k10.svg",
+        //       alt: "This is a placeholder image, a silhouette of a brachiosaurus.",
+        //     },
+        //   };
+
+        // console.log(asdf);
+        // if (node && visit) {
+
+        // }
+
+        // console.log({urls, response})
+
+        // return response;
+      } catch (error) {
+        console.error(error);
+      }
+    },
+  },
+  async mounted() {
+    await this.get_snapshots();
+  },
+  async updated() {
+    await this.get_snapshots();
   },
 };
 </script>
@@ -68,7 +137,11 @@ export default {
                 v-for="library in paged_libraries"
                 :key="library._id"
               >
-                <NodeCard :id="library._id" :node="library" />
+                <NodeCard
+                  :id="library._id"
+                  :node="library"
+                  :snapshot="library.snapshot"
+                />
               </div>
             </div>
 

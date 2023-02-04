@@ -6,6 +6,7 @@ export default {
   props: {
     id: String,
     node: Object,
+    snapshot: Object,
   },
   computed: {
     queue_position() {
@@ -17,27 +18,16 @@ export default {
 
 <template>
   <div :id="id" class="card shadow-sm h-100">
-    <!-- <img
-      src="/src/assets/brachiosaurus-k10.svg"
-      class="card-img-top p-5 bg-light"
-      alt="The image is missing.  This is a placeholder image, a silhouette of a brachiosaurus."
-    /> -->
-
     <img
-      :src="
-        node.urls[0].visits[0]
-          ? node.urls[0].visits[0].pics.mobile
-          : '/src/assets/brachiosaurus-k10.svg'
-      "
-      class="card-img-top p-5 bg-light"
-      alt="The image is missing.  This is a placeholder image, a silhouette of a brachiosaurus."
+      :src="snapshot.thumbnail.img"
+      :alt="snapshot.thumbnail.alt"
+      class="card-img-top"
     />
-
-      <!-- {{ node.urls[0] }} -->
-
 
     <div class="card-body">
       <p class="lead">{{ queue_position }}</p>
+
+      <p>{{ node._id }}</p>
 
       <div class="mb-4">
         <h4 class="card-text">
@@ -50,8 +40,6 @@ export default {
           {{ node.parents[0].name }}
         </p>
       </div>
-
-      <!-- <p>{{ node.type }}</p> -->
 
       <div v-if="node.categories">
         <span class="fs-6 fw-semibold">Categories</span>

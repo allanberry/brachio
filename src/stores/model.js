@@ -1,5 +1,5 @@
-import axios from "axios";
-import { indexify } from "@/utils";
+// import axios from "axios";
+import { atlas, indexify } from "@/utils";
 // import { Connection, Node, Visit } from "../model";
 
 // import q_nodes from "./queries/nodes.graphql?raw";
@@ -16,28 +16,6 @@ import api_ipeds from "./datafiles/ipeds.json";
 import api_locations from "./datafiles/locations.json";
 // import api_nodes from "./datafiles/nodes.json";
 import api_urls from "./datafiles/urls.json";
-
-async function atlas(query, variables) {
-  try {
-    const data = JSON.stringify({ query, variables });
-
-    const config = {
-      method: "post",
-      url: "/api",
-      headers: {
-        "content-type": "application/json",
-        apiKey: import.meta.env.VITE_ATLAS_APIKEY,
-      },
-      data,
-    };
-
-    const response = await axios(config);
-
-    return response.data.data;
-  } catch (error) {
-    console.error(error);
-  }
-}
 
 class Visit {
   constructor(apiVisit) {
@@ -335,13 +313,16 @@ class URL {
 
   async fetchVisits() {
     try {
-      const response = await atlas(q_visits_url_complete, {
-        url: this.url,
-        limit: 100000,
-      });
-      this.visits = await response.visits.map(
-        (api_visit) => new Visit(api_visit)
-      );
+      // only fetch if not fetched already
+      if (!this.visits.length) {
+        const response = await atlas(q_visits_url_complete, {
+          url: this.url,
+          limit: 100000,
+        });
+        this.visits = await response.visits.map(
+          (api_visit) => new Visit(api_visit)
+        );
+      }
     } catch (error) {
       console.error(error);
     }
@@ -400,6 +381,13 @@ class Node {
       replacement: "",
       lower: true,
     });
+
+    this.snapshot = {
+      thumbnail: {
+        img: "/src/assets/brachiosaurus-k10.svg",
+        alt: "This is a placeholder image, a silhouette of a brachiosaurus.",
+      },
+    };
   }
 
   set parents(arr) {
@@ -425,7 +413,19 @@ class Node {
   set has_child(node) {
     this.child_nodes.push(node);
   }
-  
+
+  set has_snapshot(obj) {
+    this.snapshot = obj;
+  }
 }
+
+// class Snapshot() {
+//   constructor(apiSnapshot) {
+//     this.id = apiSnapshot.id
+//     this.url = apiSnapshot.url
+//     this.screenshot = this.apiSnapshot.screenshots[0]
+//     this.date = api.apiSnapshot.date_available
+//   }
+// }
 
 export { Visit, URL, Location, Connection, Node };

@@ -1,0 +1,12 @@
+query getSnapshots($urls: [String!])  {
+  visits(query: {url_in: $urls}) {
+    id
+    url
+    rendered {
+      screenshots
+    }
+    wayback {
+      date_available
+    }
+  }
+}

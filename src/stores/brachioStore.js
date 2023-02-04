@@ -17,7 +17,7 @@ export const useBrachioStore = defineStore("brachioStore", {
 
     pager: {
       cursor: 0,
-      qty: 25,
+      qty: 5,
       sort: "name",
     },
 
@@ -29,6 +29,8 @@ export const useBrachioStore = defineStore("brachioStore", {
   }),
   getters: {
     libraries() {
+      // console.log(this.nodes.forEach((node) => console.log(node)));
+
       return (
         this.nodes
           // filter out non-libraries, e.g. university nodes
@@ -77,5 +79,8 @@ export const useBrachioStore = defineStore("brachioStore", {
         console.error(error);
       }
     },
+    async get_snapshots(arr) {
+
+    }
   },
 });
