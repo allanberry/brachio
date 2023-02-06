@@ -1,5 +1,5 @@
 // import axios from "axios";
-import { atlas, indexify } from "@/utils";
+import { atlas, indexify, iiif_url } from "@/utils";
 // import { Connection, Node, Visit } from "../model";
 
 // import q_nodes from "./queries/nodes.graphql?raw";
@@ -263,19 +263,12 @@ class Visit {
   //   return [];
   // }
 
-  pics(width = 500, height) {
-    function url(path) {
-      const path_encoded = encodeURIComponent(`brachio/visits/${path}`);
-      return `https://vim9ip3utf.execute-api.us-west-1.amazonaws.com/latest/iiif/2/${path_encoded}/full/${width},${
-        height ? height : ""
-      }/0/default.png`;
-    }
-
+  pics() {
     if (this.screenshots) {
       return {
-        mobile: url(this.screenshots.find((pic) => pic.match("w320.png"))),
-        tablet: url(this.screenshots.find((pic) => pic.match("w640.png"))),
-        desktop: url(this.screenshots.find((pic) => pic.match("w1280.png"))),
+        mobile: iiif_url(this.screenshots.find((pic) => pic.match("w320.png"))),
+        tablet: iiif_url(this.screenshots.find((pic) => pic.match("w640.png"))),
+        desktop: iiif_url(this.screenshots.find((pic) => pic.match("w1280.png"))),
       };
     }
     return {};
@@ -381,13 +374,6 @@ class Node {
       replacement: "",
       lower: true,
     });
-
-    this.snapshot = {
-      thumbnail: {
-        img: "/src/assets/brachiosaurus-k10.svg",
-        alt: "This is a placeholder image, a silhouette of a brachiosaurus.",
-      },
-    };
   }
 
   set parents(arr) {
@@ -412,10 +398,6 @@ class Node {
 
   set has_child(node) {
     this.child_nodes.push(node);
-  }
-
-  set has_snapshot(obj) {
-    this.snapshot = obj;
   }
 }
 

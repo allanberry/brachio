@@ -3,14 +3,28 @@ import { useBrachioStore } from "@/stores/brachioStore";
 const store = useBrachioStore();
 
 export default {
+  data() {
+    return {};
+  },
   props: {
     id: String,
     node: Object,
-    snapshot: Object,
+    // snapshot: Object,
   },
   computed: {
     queue_position() {
       return store.libraries.findIndex((lib) => lib._id === this.id) + 1;
+    },
+    snapshot() {
+      if (store.snapshots[this.id]) {
+        return store.snapshots[this.id];
+      }
+      return {
+        thumbnail: {
+          img: "/src/assets/brachiosaurus-k10.svg",
+          alt: "This is a placeholder image, a silhouette of a brachiosaurus.",
+        },
+      };
     },
   },
 };
@@ -18,6 +32,8 @@ export default {
 
 <template>
   <div :id="id" class="card shadow-sm h-100">
+    <!-- <p v-if="snapshot">{{ snapshot.thumbnail.img }}</p> -->
+
     <img
       :src="snapshot.thumbnail.img"
       :alt="snapshot.thumbnail.alt"
@@ -27,7 +43,7 @@ export default {
     <div class="card-body">
       <p class="lead">{{ queue_position }}</p>
 
-      <p>{{ node._id }}</p>
+      <!-- <p>{{ { node_id: node._id, this_id: this.id, thumbnail: snapshot.thumbnail.img } }}</p> -->
 
       <div class="mb-4">
         <h4 class="card-text">
@@ -77,3 +93,11 @@ export default {
     </div>
   </div>
 </template>
+
+<style>
+.card-img-top {
+  height: 500px;
+  object-fit: cover;
+  object-position: top;
+}
+</style>

@@ -1,5 +1,5 @@
 <script>
-import { atlas } from "@/utils";
+import { atlas, iiif_url } from "@/utils";
 import q_snapshots from "@/stores/queries/snapshots.graphql?raw";
 
 import NodeCard from "../components/NodeCard.vue";
@@ -29,7 +29,7 @@ export default {
     },
   },
   methods: {
-    async get_snapshots() {
+    async fetch_snapshots() {
       try {
         // get all urls from paged libraries.  Some are for the same node.
         const urls = this.paged_libraries
@@ -38,6 +38,7 @@ export default {
 
         // console.log({ urls });
 
+        // get brief visits from api
         const response = await atlas(q_snapshots, {
           urls,
         });
@@ -60,19 +61,65 @@ export default {
           .map((url) => response.visits.filter((visit) => visit.url === url))
           // remove empty sets
           .filter((url_visit_set) => url_visit_set.length)
-          // sort within by date
+          // sort within by date (embedded in id)
           .map((url_visit_set) => url_visit_set.sort((a, b) => a.id < b.id));
 
-        console.log({ nodes, url_visit_sets });
+        nodes.forEach((node) => {
+          if (!store.snapshots[node.id]) {
+            // get first url by rank; otherwise, pick shortest url
+            const url = node.urls.sort((a, b) => {
+              if (a.rank && b.rank) {
+                return a.rank > b.rank;
+              } else {
+                return a.url.length > b.url.length;
+              }
+            })[0];
+
+            // console.log(url);
+
+            // find a matching set of urls, i.e. sharing a url
+            const visit_set = url_visit_sets.find((row) =>
+              row.find((col) => col.url === url.url)
+            );
+
+            // not all nodes have visits
+            if (visit_set) {
+              // console.log({
+              //   screenshot: iiif_url(visit_set[0].rendered.screenshots[1], 500),
+              //   node,
+              // });
+
+              const snapshot = {
+                thumbnail: {
+                  img: iiif_url(visit_set[0].rendered.screenshots[1], 500),
+                  alt: "This is a placeholder image, a silhouette of a brachiosaurus.",
+                },
+              };
+
+              // console.log('yep')
+
+              store.snapshots[node._id] = snapshot;
+            }
+          }
+        });
+
+        // select first visit_set, convert into snapshot, save to node
+
+        // in node.url.urls
+        // visit_set.url
+
+        // const url = url_visit_sets
+
+        // node.has_snapshot = {
+        //   thumbnail: {
+        //     img: "/src/assets/brachiosaurus-k10.svg",
+        //     alt: "This is a placeholder image, a silhouette of a brachiosaurus.",
+        //   },
+        // };
+
+        // console.log({ nodes, url_visit_sets });
 
         // nodes.forEach((node) => {});
-
-        //   node.has_snapshot = {
-        //     thumbnail: {
-        //       img: "/src/assets/brachiosaurus-k10.svg",
-        //       alt: "This is a placeholder image, a silhouette of a brachiosaurus.",
-        //     },
-        //   };
 
         // console.log(asdf);
         // if (node && visit) {
@@ -88,10 +135,10 @@ export default {
     },
   },
   async mounted() {
-    await this.get_snapshots();
+    await this.fetch_snapshots();
   },
   async updated() {
-    await this.get_snapshots();
+    await this.fetch_snapshots();
   },
 };
 </script>
@@ -137,11 +184,7 @@ export default {
                 v-for="library in paged_libraries"
                 :key="library._id"
               >
-                <NodeCard
-                  :id="library._id"
-                  :node="library"
-                  :snapshot="library.snapshot"
-                />
+                <NodeCard :id="library._id" :node="library" />
               </div>
             </div>
 

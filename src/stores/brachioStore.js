@@ -14,10 +14,11 @@ export const useBrachioStore = defineStore("brachioStore", {
   state: () => ({
     nodes: [],
     connections: [],
+    snapshots: {},
 
     pager: {
       cursor: 0,
-      qty: 5,
+      qty: 10,
       sort: "name",
     },
 
@@ -79,8 +80,19 @@ export const useBrachioStore = defineStore("brachioStore", {
         console.error(error);
       }
     },
-    async get_snapshots(arr) {
+    // get_snapshot(library) {
+    //   // console.log({library_id: library._id, snapshot: store.snapshots[library._id] });
 
-    }
+    //   return {
+    //     thumbnail: {
+    //       // img: iiif_url(visit_set[0].rendered.screenshots[1], 500),
+    //       img: "/src/assets/brachiosaurus-k10.svg",
+    //       alt: "This is a placeholder image, a silhouette of a brachiosaurus.",
+    //     },
+    //   };
+    // },
+    // async get_snapshots(arr) {
+
+    // }
   },
 });

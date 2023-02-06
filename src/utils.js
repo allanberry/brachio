@@ -1,5 +1,5 @@
 import axios from "axios";
-import slugify from 'slugify';
+import slugify from "slugify";
 
 // fetch from graphql api
 async function atlas(query, variables) {
@@ -30,6 +30,14 @@ function indexify(str) {
     replacement: "",
     lower: true,
   });
-} 
+}
 
-export { indexify, atlas};
+// create iiif url
+function iiif_url(path, width = 500, height) {
+  const path_encoded = encodeURIComponent(`brachio/visits/${path}`);
+  return `https://vim9ip3utf.execute-api.us-west-1.amazonaws.com/latest/iiif/2/${path_encoded}/full/${width},${
+    height ? height : ""
+  }/0/default.png`;
+}
+
+export { indexify, atlas, iiif_url };
