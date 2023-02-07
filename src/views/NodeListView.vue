@@ -185,7 +185,7 @@ export default {
                 v-for="library in paged_libraries"
                 :key="library._id"
               >
-                <NodeCard :id="library._id" :node="library" />
+                <NodeCard :node="library" />
               </div>
             </div>
 

@@ -7,24 +7,18 @@ export default {
     return {};
   },
   props: {
-    id: String,
     node: Object,
-    // snapshot: Object,
+    snapshot: Object,
   },
   computed: {
     queue_position() {
-      return store.libraries.findIndex((lib) => lib._id === this.id) + 1;
+      return store.libraries.findIndex((lib) => lib._id === this.node._id) + 1;
     },
-    snapshot() {
-      if (store.snapshots[this.id]) {
-        return store.snapshots[this.id];
-      }
+    thumbnail() {
       return {
-        thumbnail: {
-          placeholder: true,
-          img: "/src/assets/brachiosaurus-thumbnail.svg",
-          alt: "This is a placeholder image, a silhouette of a brachiosaurus.",
-        },
+        placeholder: true,
+        img: "/src/assets/brachiosaurus-thumbnail.svg",
+        alt: "This is a placeholder image, a silhouette of a brachiosaurus.",
       };
     },
   },
@@ -32,26 +26,23 @@ export default {
 </script>
 
 <template>
-  <div :id="id" class="card shadow-sm h-100">
-    <!-- <p v-if="snapshot">{{ snapshot.thumbnail.img }}</p> -->
+  <div :id="node._id" class="card shadow-sm h-100">
 
     <img
-      :src="snapshot.thumbnail.img"
-      :alt="snapshot.thumbnail.alt"
+      :src="thumbnail.img"
+      :alt="thumbnail.alt"
       class="card-img-top border-bottom"
     />
 
     <div class="card-body bg-light">
       <p class="lead">{{ queue_position }}</p>
 
-      <!-- <p>{{ { node_id: node._id, this_id: this.id, thumbnail: snapshot.thumbnail.img } }}</p> -->
-
       <div class="mb-4">
         <h4 class="card-title">
           <router-link
             class="card-link"
             type="button"
-            :to="{ name: 'node', params: { id } }"
+            :to="{ name: 'node', params: { id: node._id } }"
           >
             {{ this.node.name }}
           </router-link>
@@ -84,7 +75,7 @@ export default {
         <div class="btn-group">
           <router-link
             type="button"
-            :to="{ name: 'node', params: { id } }"
+            :to="{ name: 'node', params: { id: node._id } }"
             class="btn btn-sm btn-outline-secondary"
           >
             View
