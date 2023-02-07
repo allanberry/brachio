@@ -1,0 +1,17 @@
+id,label_full,label_short,parent,description
+college,college,college,-,A college or university.
+college_public,"college, public",public,college,A public college or university.
+college_private,"college, private",private,college,A private college or university.
+consortium,consortium,consortium,-,An organization or collection of multiple organizations.
+consortium_academic,"consortium, academic",academic,consortium,An organization or collection of multiple colleges or universities.
+consortium_academic_library,"consortium, academic, library",library,consortium,An organization or collection of multiple college or university libraries.
+library,library,library,-,A library.
+library_academic,"library, academic",academic,library,An academic library.
+library_independent,"library, independent",independent,library,An independent library.
+library_museum,"library, museum",museum,library,A library run by a museum.
+library_public,"library, public",public,library,A library run by a local government for public access.
+library_state,"library, state",state,library,A library run by a state government.
+museum,museum,museum,-,A museum.
+museum_art,"museum, art",art,museum,An art museum.
+museum_humanities,"museum, humanities",humanities,museum,"A museum of the human experience, e.g. history."
+museum_science,"museum, science",science,museum,A museum of the sciences.

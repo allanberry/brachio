@@ -26,7 +26,7 @@ export default {
 </script>
 
 <template>
-  <div class="sticky-top">
+  <div class="sticky-top pt-5">
     <!-- <div class="mb-4">
       <h5>Modes</h5>
       <p class="form-text">
@@ -80,6 +80,7 @@ export default {
           placeholder="e.g. library, museum, ivy, hbcu..."
           aria-describedby="filter_keyword_help"
           v-model="store.filters.keyword"
+          @keyup="store.reset_pager()"
         />
       </div>
     </div>

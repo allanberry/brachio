@@ -38,9 +38,9 @@ export const useBrachioStore = defineStore("brachioStore", {
           .filter((node) => node.categories && node.categories[0] === "library")
 
           // keyword filter
-          .filter((node) =>
-            node.search_target.includes(indexify(this.filters.keyword))
-          )
+          .filter((node) => {
+            return node.search_target.includes(indexify(this.filters.keyword));
+          })
 
           // sort results
           .sort((a, b) => a[this.pager.sort] > b[this.pager.sort])
@@ -80,13 +80,16 @@ export const useBrachioStore = defineStore("brachioStore", {
         console.error(error);
       }
     },
+    reset_pager() {
+      this.$patch({ pager: { cursor: 0 } });
+    },
     // get_snapshot(library) {
     //   // console.log({library_id: library._id, snapshot: store.snapshots[library._id] });
 
     //   return {
     //     thumbnail: {
     //       // img: iiif_url(visit_set[0].rendered.screenshots[1], 500),
-    //       img: "/src/assets/brachiosaurus-k10.svg",
+    //       img: "/src/assets/brachiosaurus-thumbnail.svg",
     //       alt: "This is a placeholder image, a silhouette of a brachiosaurus.",
     //     },
     //   };

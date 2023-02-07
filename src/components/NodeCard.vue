@@ -21,7 +21,8 @@ export default {
       }
       return {
         thumbnail: {
-          img: "/src/assets/brachiosaurus-k10.svg",
+          placeholder: true,
+          img: "/src/assets/brachiosaurus-thumbnail.svg",
           alt: "This is a placeholder image, a silhouette of a brachiosaurus.",
         },
       };
@@ -37,17 +38,21 @@ export default {
     <img
       :src="snapshot.thumbnail.img"
       :alt="snapshot.thumbnail.alt"
-      class="card-img-top"
+      class="card-img-top border-bottom"
     />
 
-    <div class="card-body">
+    <div class="card-body bg-light">
       <p class="lead">{{ queue_position }}</p>
 
       <!-- <p>{{ { node_id: node._id, this_id: this.id, thumbnail: snapshot.thumbnail.img } }}</p> -->
 
       <div class="mb-4">
-        <h4 class="card-text">
-          <router-link type="button" :to="{ name: 'node', params: { id } }">
+        <h4 class="card-title">
+          <router-link
+            class="card-link"
+            type="button"
+            :to="{ name: 'node', params: { id } }"
+          >
             {{ this.node.name }}
           </router-link>
         </h4>
@@ -96,7 +101,6 @@ export default {
 
 <style>
 .card-img-top {
-  height: 500px;
   object-fit: cover;
   object-position: top;
 }

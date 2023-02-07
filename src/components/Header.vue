@@ -1,13 +1,13 @@
 <script></script>
 
 <template>
-  <header class="p-3 mb-3 border-bottom">
+  <header class="p-3 mb-3 border-bottom bg-secondary">
     <div class="container">
       <div
         class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
       >
         <RouterLink
-          class="nav-link px-2 link-secondary d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
+          class=" text-white nav-link px-2 link-secondary d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none"
           to="/"
         >
           <img
@@ -23,22 +23,22 @@
           class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
         >
           <li>
-            <RouterLink class="nav-link px-2 link-secondary" to="/"
+            <RouterLink class="nav-link px-2 link-light" to="/"
               >Home</RouterLink
             >
           </li>
           <li>
-            <RouterLink class="nav-link px-2 link-dark" to="/about"
+            <RouterLink class="nav-link px-2 link-light" to="/about"
               >About</RouterLink
             >
           </li>
           <li>
-            <RouterLink class="nav-link px-2 link-dark" to="/libraries"
+            <RouterLink class="nav-link px-2 link-light" to="/libraries"
               >Libraries</RouterLink
             >
           </li>
           <li>
-            <RouterLink class="nav-link px-2 link-dark" to="/nodes/uic_library"
+            <RouterLink class="nav-link px-2 link-light" to="/nodes/uic_library"
               >UIC Library</RouterLink
             >
           </li>

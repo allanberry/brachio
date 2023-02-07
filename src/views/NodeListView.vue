@@ -1,5 +1,5 @@
 <script>
-import { atlas, iiif_url } from "@/utils";
+import { atlas, thumbnail_url, iiif_url } from "@/utils";
 import q_snapshots from "@/stores/queries/snapshots.graphql?raw";
 
 import NodeCard from "../components/NodeCard.vue";
@@ -91,8 +91,9 @@ export default {
 
               const snapshot = {
                 thumbnail: {
-                  img: iiif_url(visit_set[0].rendered.screenshots[1], 500),
-                  alt: "This is a placeholder image, a silhouette of a brachiosaurus.",
+                  placeholder: false,
+                  img: thumbnail_url(visit_set[0].id),
+                  alt: "This is a screenshot thumbnail of a webpage visit.",
                 },
               };
 
@@ -112,7 +113,7 @@ export default {
 
         // node.has_snapshot = {
         //   thumbnail: {
-        //     img: "/src/assets/brachiosaurus-k10.svg",
+        //     img: "/src/assets/brachiosaurus-thumbnail.svg",
         //     alt: "This is a placeholder image, a silhouette of a brachiosaurus.",
         //   },
         // };
@@ -162,7 +163,7 @@ export default {
     </div>
   </section>
 
-  <div class="album py-5 bg-light">
+  <div class="album pb-5 bg-light">
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-4 col-lg-3">
@@ -170,7 +171,7 @@ export default {
         </div>
 
         <div class="col-12 col-md-8 col-lg-9">
-          <h3 class="">Results</h3>
+          <h3 class="pt-5">Results</h3>
 
           <div v-if="paged_libraries && paged_libraries.length > 0">
             <NodeListResultsTools
@@ -178,7 +179,7 @@ export default {
               title="Results Tools, pre-content"
             />
 
-            <div id="content" class="row row-cols-1 row-cols-lg-2 g-3 mb-4">
+            <div id="content" class="row row-cols-1 row-cols-lg-2 g-4 mb-4">
               <div
                 class="col"
                 v-for="library in paged_libraries"

@@ -40,4 +40,8 @@ function iiif_url(path, width = 500, height) {
   }/0/default.png`;
 }
 
-export { indexify, atlas, iiif_url };
+function thumbnail_url(visit_id) {
+  return `https://bcw-images.s3.us-west-1.amazonaws.com/brachio/visits/thumbnails/${visit_id}.png`;
+}
+
+export { indexify, atlas, iiif_url, thumbnail_url };
