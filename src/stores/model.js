@@ -1,5 +1,5 @@
 // import axios from "axios";
-import { atlas, indexify, iiif_url } from "@/utils";
+import { atlas, indexify, iiif_url, thumbnail_url } from "@/utils";
 // import { Connection, Node, Visit } from "../model";
 
 // import q_nodes from "./queries/nodes.graphql?raw";
@@ -253,37 +253,18 @@ class Visit {
         : undefined;
   }
 
-  // get screenshots() {
-  //   if (this.screenshots) {
-  //     return this.screenshots.map(
-  //       (path) =>
-  //         `https://bcw-images.s3.us-west-1.amazonaws.com/brachio/visits/${path}`
-  //     );
-  //   }
-  //   return [];
-  // }
-
   pics() {
     if (this.screenshots) {
       return {
         mobile: iiif_url(this.screenshots.find((pic) => pic.match("w320.png"))),
         tablet: iiif_url(this.screenshots.find((pic) => pic.match("w640.png"))),
-        desktop: iiif_url(this.screenshots.find((pic) => pic.match("w1280.png"))),
+        desktop: iiif_url(
+          this.screenshots.find((pic) => pic.match("w1280.png"))
+        ),
       };
     }
     return {};
   }
-
-  // get screenshots_iiif() {
-  //   if (this.screenshots) {
-  //     return this.screenshots.map((path) => {
-  //       // format: https://vim9ip3utf.execute-api.us-west-1.amazonaws.com/latest/iiif/2/test%2Fuic.png/full/300,/0/default.png
-  //       const path_encoded = encodeURIComponent(`brachio/visits/${path}`);
-  //       return `https://vim9ip3utf.execute-api.us-west-1.amazonaws.com/latest/iiif/2/${path_encoded}/full/300,/0/default.png`;
-  //     });
-  //   }
-  //   return [];
-  // }
 
   get wayback_url() {
     return "";
@@ -401,13 +382,32 @@ class Node {
   }
 }
 
-// class Snapshot() {
-//   constructor(apiSnapshot) {
-//     this.id = apiSnapshot.id
-//     this.url = apiSnapshot.url
-//     this.screenshot = this.apiSnapshot.screenshots[0]
-//     this.date = api.apiSnapshot.date_available
-//   }
-// }
+// a snapshot is a brief overview of a node, derived from aggregated visits to node URLs
+class Snapshot {
+  constructor(node, visits = []) {
+    // pre-sort node urls ( by rank, then by shortest)
+    const sorted_urls = node.urls.sort((a, b) => {
+      if (a.rank && b.rank) {
+        return a.rank > b.rank;
+      } else {
+        return a.url.length > b.url.length;
+      }
+    });
 
-export { Visit, URL, Location, Connection, Node };
+    this.primary_url = sorted_urls[0];
+
+    const visits_sorted = visits.sort((a, b) => a.id < b.id);
+
+    if (visits && visits.length) {
+      this.thumbnail = {
+        placeholder: false,
+        img: thumbnail_url(visits_sorted[0].id),
+        alt: "This is a screenshot thumbnail of a webpage visit.",
+      };
+    }
+
+    this.technologies;
+  }
+}
+
+export { Visit, URL, Location, Connection, Node, Snapshot };

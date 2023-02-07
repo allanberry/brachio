@@ -2,11 +2,11 @@
 import { useBrachioStore } from "@/stores/brachioStore";
 const store = useBrachioStore();
 
-import CardsIcon from "@/assets/icons/sidebar/cards.svg?component";
-import CompareIcon from "@/assets/icons/sidebar/compare.svg?component";
-import ListIcon from "@/assets/icons/sidebar/list.svg?component";
-import MapIcon from "@/assets/icons/sidebar/map.svg?component";
-import TimelineIcon from "@/assets/icons/sidebar/timeline.svg?component";
+// import CardsIcon from "@/assets/icons/sidebar/cards.svg?component";
+// import CompareIcon from "@/assets/icons/sidebar/compare.svg?component";
+// import ListIcon from "@/assets/icons/sidebar/list.svg?component";
+// import MapIcon from "@/assets/icons/sidebar/map.svg?component";
+// import TimelineIcon from "@/assets/icons/sidebar/timeline.svg?component";
 
 export default {
   data() {

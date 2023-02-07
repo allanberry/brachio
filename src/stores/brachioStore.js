@@ -1,7 +1,10 @@
+import { atlas, thumbnail_url, iiif_url } from "@/utils";
+import q_snapshots from "@/stores/queries/snapshots.graphql?raw";
+
 import { indexify } from "@/utils";
 
 import { defineStore } from "pinia";
-import { Visit, URL, Location, Connection, Node } from "./model";
+import { Connection, Node, Snapshot } from "./model";
 
 // import api_arls from "./datafiles/arls.json";
 import api_connections from "./datafiles/connections.json";
@@ -14,7 +17,6 @@ export const useBrachioStore = defineStore("brachioStore", {
   state: () => ({
     nodes: [],
     connections: [],
-    snapshots: {},
 
     pager: {
       cursor: 0,
@@ -80,22 +82,39 @@ export const useBrachioStore = defineStore("brachioStore", {
         console.error(error);
       }
     },
+    async fetch_snapshots(nodes) {
+      try {
+        // identify a set of urls from a set of nodes, e.g. paged libraries.
+        const urls = nodes
+          .reduce((acc, lib) => acc.concat(lib.urls), [])
+          .map((url) => url.url);
+
+        // fetch brief visits to these urls, in aggregate from Atlas api
+        const brief_visits = (
+          await atlas(q_snapshots, {
+            urls,
+          })
+        ).visits;
+
+        // associate each visit_set with a node
+        nodes.forEach((node) => {
+          // collectinto a snapshot for each node
+          // first check if a snapshot already exists; abort if so.
+          if (!node.snapshot) {
+            const visits = brief_visits.filter((visit) =>
+              node.urls.map((url) => url.url).includes(visit.url)
+            );
+
+            node.snapshot = new Snapshot(node, visits);
+          }
+        });
+      } catch (error) {
+        console.error(error);
+      }
+    },
     reset_pager() {
       this.$patch({ pager: { cursor: 0 } });
     },
-    // get_snapshot(library) {
-    //   // console.log({library_id: library._id, snapshot: store.snapshots[library._id] });
 
-    //   return {
-    //     thumbnail: {
-    //       // img: iiif_url(visit_set[0].rendered.screenshots[1], 500),
-    //       img: "/src/assets/brachiosaurus-thumbnail.svg",
-    //       alt: "This is a placeholder image, a silhouette of a brachiosaurus.",
-    //     },
-    //   };
-    // },
-    // async get_snapshots(arr) {
-
-    // }
   },
 });

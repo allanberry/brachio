@@ -15,6 +15,10 @@ export default {
       return store.libraries.findIndex((lib) => lib._id === this.node._id) + 1;
     },
     thumbnail() {
+      if (this.node.snapshot && this.node.snapshot.thumbnail) {
+        return this.node.snapshot.thumbnail;
+      }
+
       return {
         placeholder: true,
         img: "/src/assets/brachiosaurus-thumbnail.svg",
@@ -27,7 +31,6 @@ export default {
 
 <template>
   <div :id="node._id" class="card shadow-sm h-100">
-
     <img
       :src="thumbnail.img"
       :alt="thumbnail.alt"
