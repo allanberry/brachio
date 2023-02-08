@@ -1,10 +1,15 @@
 <script>
 // import { useRoute } from "vue-router";
+
+import VisitCard from "../components/VisitCard.vue";
 import { useBrachioStore } from "@/stores/brachioStore";
 
 const store = useBrachioStore();
 
 export default {
+  components: {
+    VisitCard,
+  },
   data() {
     return {
       id: this.$route.params.id,
@@ -176,6 +181,11 @@ export default {
               <h5><span class="lead">URL:</span> {{ url.url }}</h5>
               <ul v-if="url.visits">
                 <li class="mb-3" v-for="visit in url.visits" :key="visit._id">
+
+
+                  <VisitCard />
+
+
                   <h6><span class="lead">Visit:</span> {{ visit.id }}</h6>
                   <ul>
                     <li

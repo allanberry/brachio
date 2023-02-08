@@ -8,7 +8,6 @@ export default {
   },
   props: {
     node: Object,
-    snapshot: Object,
   },
   computed: {
     queue_position() {
@@ -30,16 +29,16 @@ export default {
 </script>
 
 <template>
-  <div :id="node._id" class="card shadow-sm h-100">
-    <img
-      :src="thumbnail.img"
-      :alt="thumbnail.alt"
-      class="card-img-top border-bottom"
-    />
+  <div class="card flex-row flex-wrap mb-4 shadow-sm">
+    <div class="col card-header">
+      <img
+        class="card-img img-thumbnail border"
+        :src="thumbnail.img"
+        :alt="thumbnail.alt"
+      />
+    </div>
 
-    <div class="card-body bg-light">
-      <p class="lead">{{ queue_position }}</p>
-
+    <div class="col card-body bg-light">
       <div class="mb-4">
         <h4 class="card-title">
           <router-link
@@ -54,65 +53,111 @@ export default {
         <p v-if="node.parents && node.parents.length">
           {{ node.parents[0].name }}
         </p>
-
-        <p>Chicago IL, USA</p>
       </div>
 
-      <div v-if="node.categories">
-        <span class="fs-6 fw-semibold">Categories</span>
-        <ul>
-          <li v-for="category in node.categories" :key="category">
-            {{ category }}
-          </li>
-        </ul>
-      </div>
+      <div class="row">
+        <div class="col">
+          <div>
+            <h5>Location</h5>
+            <p>Chicago IL, USA</p>
+          </div>
+          <div v-if="node.categories">
+            <h5>Categories</h5>
+            <ul>
+              <li v-for="category in node.categories" :key="category">
+                {{ category }}
+              </li>
+            </ul>
+          </div>
 
-      <div v-if="node.tags">
-        <span class="fs-6 fw-semibold">Tags</span>
-        <ul>
-          <li v-for="tag in node.tags" :key="tag">
-            {{ tag }}
-          </li>
-        </ul>
-      </div>
+          <div v-if="node.tags">
+            <h5>Tags</h5>
+            <ul>
+              <li v-for="tag in node.tags" :key="tag">
+                {{ tag }}
+              </li>
+            </ul>
+          </div>
 
-      <div
-        v-if="
-          node.snapshot &&
-          node.snapshot.technologies &&
-          node.snapshot.technologies.length
-        "
-      >
-        <span class="fs-6 fw-semibold">Technologies</span>
-        <ul>
-          <li v-for="tech in node.snapshot.technologies" :key="tech.id">
-            {{ tech.name }}
-          </li>
-        </ul>
-      </div>
-
-      <div class="text-end">
-        <div class="btn-group">
-          <router-link
-            type="button"
-            :to="{ name: 'node', params: { id: node._id } }"
-            class="btn btn-sm btn-outline-secondary"
+          <div
+            v-if="
+              node.snapshot &&
+              node.snapshot.technologies &&
+              node.snapshot.technologies.length
+            "
           >
-            View
-          </router-link>
-          <!-- <button type="button" class="btn btn-sm btn-outline-secondary">
+            <h5>Technologies</h5>
+            <p>May include historical data.</p>
+            <ul>
+              <li v-for="tech in node.snapshot.technologies" :key="tech.id">
+                {{ tech.name }}
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col">
+          <div>
+            <h5>Webpage Visits</h5>
+            <p>14 visits to 3 webpages, 1998–2021</p>
+            <div class="url_visits">
+              <div>
+                <span>Primary URL:</span> <span>https://library.uic.edu/</span>
+              </div>
+              <div>
+                <span>Latest visit:</span>
+                <ul>
+                  <li><span>Date:</span> <span>2021-01-01</span></li>
+                  <li><span>Complexity:</span> <span>98/100</span></li>
+                  <li><span>Accessibility:</span> <span>98/100</span></li>
+                  <li><span>Usability:</span> <span>98/100</span></li>
+                  <li><span>Best Practices:</span> <span>98/100</span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="w-100"></div>
+    <div class="card-footer w-100 text-muted">
+      <div class="row">
+        <div class="col">
+          <div class="text-start">
+            <p class="lead">{{ queue_position }}</p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="text-end">
+            <div class="btn-group">
+              <router-link
+                type="button"
+                :to="{ name: 'node', params: { id: node._id } }"
+                class="btn btn-sm btn-primary"
+              >
+                View
+              </router-link>
+              <!-- <button type="button" class="btn btn-sm btn-outline-secondary">
             Edit
           </button> -->
+            </div>
+            <!-- <small class="text-muted">9 mins</small> -->
+          </div>
         </div>
-        <!-- <small class="text-muted">9 mins</small> -->
       </div>
     </div>
   </div>
 </template>
 
-<style>
-.card-img-top {
-  object-fit: cover;
-  object-position: top;
+<style lang="scss">
+.card-img {
+  // object-fit: cover;
+  // object-position: left;
+  flex: 1;
+}
+
+.card-body {
+  flex: 2;
 }
 </style>
