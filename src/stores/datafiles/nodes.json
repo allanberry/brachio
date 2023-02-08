@@ -4,116 +4,107 @@
     "name": "Alabama A & M University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "hbcu"
     ],
-    "iped_id": "100654"
+    "ipeds": "100654"
   },
   {
     "_id": "uab",
     "name": "University of Alabama, Birmingham",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1",
       "uic_peer"
     ],
-    "iped_id": "100663"
+    "ipeds": "100663"
   },
   {
     "_id": "uah",
     "name": "University of Alabama, Huntsville",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "100706"
+    "ipeds": "100706"
   },
   {
     "_id": "ua",
     "name": "University of Alabama",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "sec",
       "r1"
     ],
-    "iped_id": "100751"
+    "ipeds": "100751"
   },
   {
     "_id": "auburn",
     "name": "Auburn University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "sec",
       "r1"
     ],
-    "iped_id": "100858"
+    "ipeds": "100858"
   },
   {
     "_id": "southalabama",
     "name": "University of South Alabama",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "102094"
+    "ipeds": "102094"
   },
   {
     "_id": "uaf",
     "name": "University of Alaska, Fairbanks",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "102614"
+    "ipeds": "102614"
   },
   {
     "_id": "asu",
     "name": "Arizona State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "pac_12",
       "r1"
     ],
-    "iped_id": "104151"
+    "ipeds": "104151"
   },
   {
     "_id": "arizona",
     "name": "University of Arizona",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "pac_12",
@@ -121,139 +112,129 @@
       "aau",
       "uic_peer"
     ],
-    "iped_id": "104179"
+    "ipeds": "104179"
   },
   {
     "_id": "nau",
     "name": "Northern Arizona University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "105330"
+    "ipeds": "105330"
   },
   {
     "_id": "ualr",
     "name": "University of Arkansas, Little Rock",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "106245"
+    "ipeds": "106245"
   },
   {
     "_id": "uark",
     "name": "University of Arkansas",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "sec",
       "r1"
     ],
-    "iped_id": "106397"
+    "ipeds": "106397"
   },
   {
     "_id": "astate",
     "name": "Arkansas State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "106458"
+    "ipeds": "106458"
   },
   {
     "_id": "apu",
     "name": "Azusa Pacific University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "109785"
+    "ipeds": "109785"
   },
   {
     "_id": "caltech",
     "name": "California Institute of Technology",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r1",
       "aau"
     ],
-    "iped_id": "110404"
+    "ipeds": "110404"
   },
   {
     "_id": "berkeley",
     "name": "University of California, Berkeley",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "pac_12",
       "r1",
       "aau"
     ],
-    "iped_id": "110635"
+    "ipeds": "110635"
   },
   {
     "_id": "ucdavis",
     "name": "University of California, Davis",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1",
       "aau"
     ],
-    "iped_id": "110644"
+    "ipeds": "110644"
   },
   {
     "_id": "uci",
     "name": "University of California, Irvine",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1",
       "aau",
       "uic_peer"
     ],
-    "iped_id": "110653"
+    "ipeds": "110653"
   },
   {
     "_id": "ucla",
     "name": "University of California, Los Angeles",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "pac_12",
@@ -261,1806 +242,1672 @@
       "aau",
       "uic_peer"
     ],
-    "iped_id": "110662"
+    "ipeds": "110662"
   },
   {
     "_id": "ucr",
     "name": "University of California, Riverside",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "110671"
+    "ipeds": "110671"
   },
   {
     "_id": "ucsd",
     "name": "University of California, San Diego",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1",
       "aau"
     ],
-    "iped_id": "110680"
+    "ipeds": "110680"
   },
   {
     "_id": "scsb",
     "name": "University of California, Santa Barbara",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1",
       "aau"
     ],
-    "iped_id": "110705"
+    "ipeds": "110705"
   },
   {
     "_id": "ucsc",
     "name": "University of California, Santa Cruz",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1",
       "aau"
     ],
-    "iped_id": "110714"
+    "ipeds": "110714"
   },
   {
     "_id": "chapman",
     "name": "Chapman University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "111948"
+    "ipeds": "111948"
   },
   {
     "_id": "cgu",
     "name": "Claremont Graduate University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "112251"
+    "ipeds": "112251"
   },
   {
     "_id": "lmu",
     "name": "Loyola Marymount University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "117946"
+    "ipeds": "117946"
   },
   {
     "_id": "sdsu",
     "name": "San Diego State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "122409"
+    "ipeds": "122409"
   },
   {
     "_id": "sandiego",
     "name": "University of San Diego",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "122436"
+    "ipeds": "122436"
   },
   {
     "_id": "usc",
     "name": "University of Southern California",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "pac_12",
       "r1",
       "aau"
     ],
-    "iped_id": "123961"
+    "ipeds": "123961"
   },
   {
     "_id": "ucdenver",
     "name": "University of Colorado, Denver",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "126562"
+    "ipeds": "126562"
   },
   {
     "_id": "uccs",
     "name": "University of Colorado, Colorado Springs",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "126580"
+    "ipeds": "126580"
   },
   {
     "_id": "colorado",
     "name": "University of Colorado",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "pac_12",
       "r1",
       "aau"
     ],
-    "iped_id": "126614"
+    "ipeds": "126614"
   },
   {
     "_id": "mines",
     "name": "Colorado School of Mines",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "126775"
+    "ipeds": "126775"
   },
   {
     "_id": "colostate",
     "name": "Colorado State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "126818"
+    "ipeds": "126818"
   },
   {
     "_id": "du",
     "name": "University of Denver",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "127060"
+    "ipeds": "127060"
   },
   {
     "_id": "uconn",
     "name": "University of Connecticut",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1",
       "uic_peer"
     ],
-    "iped_id": "129020"
+    "ipeds": "129020"
   },
   {
     "_id": "yale",
     "name": "Yale University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "ivy_league",
       "r1",
       "aau"
     ],
-    "iped_id": "130794"
+    "ipeds": "130794"
   },
   {
     "_id": "desu",
     "name": "Delaware State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "130934"
+    "ipeds": "130934"
   },
   {
     "_id": "udel",
     "name": "University of Delaware",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "130943"
+    "ipeds": "130943"
   },
   {
     "_id": "american",
     "name": "American University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "131159"
+    "ipeds": "131159"
   },
   {
     "_id": "catholic",
     "name": "Catholic University of America",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "131283"
+    "ipeds": "131283"
   },
   {
     "_id": "gallaudet",
     "name": "Gallaudet University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "131450"
+    "ipeds": "131450"
   },
   {
     "_id": "gwu",
     "name": "George Washington University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "131469"
+    "ipeds": "131469"
   },
   {
     "_id": "georgetown",
     "name": "Georgetown University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "131496"
+    "ipeds": "131496"
   },
   {
     "_id": "howard",
     "name": "Howard University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "hbcu",
       "r2"
     ],
-    "iped_id": "131520"
+    "ipeds": "131520"
   },
   {
     "_id": "ucf",
     "name": "University of Central Florida",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1",
       "aau"
     ],
-    "iped_id": "132903"
+    "ipeds": "132903"
   },
   {
     "_id": "famu",
     "name": "Florida A & M University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "hbcu",
       "r2"
     ],
-    "iped_id": "133650"
+    "ipeds": "133650"
   },
   {
     "_id": "fau",
     "name": "Florida Atlantic University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "133669"
+    "ipeds": "133669"
   },
   {
     "_id": "fit",
     "name": "Florida Institute of Technology",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "133881"
+    "ipeds": "133881"
   },
   {
     "_id": "fiu",
     "name": "Florida International University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "133951"
+    "ipeds": "133951"
   },
   {
     "_id": "fsu",
     "name": "Florida State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "acc",
       "r1"
     ],
-    "iped_id": "134097"
+    "ipeds": "134097"
   },
   {
     "_id": "ufl",
     "name": "University of Florida",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "sec",
       "r1",
       "aau"
     ],
-    "iped_id": "134130"
+    "ipeds": "134130"
   },
   {
     "_id": "miami",
     "name": "University of Miami",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "acc",
       "r1"
     ],
-    "iped_id": "135726"
+    "ipeds": "135726"
   },
   {
     "_id": "nova",
     "name": "Nova Southeastern University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "136215"
+    "ipeds": "136215"
   },
   {
     "_id": "usf",
     "name": "University of South Florida",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1",
       "uic_peer"
     ],
-    "iped_id": "137351"
+    "ipeds": "137351"
   },
   {
     "_id": "asurams",
     "name": "Albany State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "hbcu"
     ],
-    "iped_id": "138716"
+    "ipeds": "138716"
   },
   {
     "_id": "cau",
     "name": "Clark Atlanta University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "138947"
+    "ipeds": "138947"
   },
   {
     "_id": "emory",
     "name": "Emory University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "139658"
+    "ipeds": "139658"
   },
   {
     "_id": "gatech",
     "name": "Georgia Institute of Technology",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1",
       "aau"
     ],
-    "iped_id": "139755"
+    "ipeds": "139755"
   },
   {
     "_id": "georgiasouthern",
     "name": "Georgia Southern University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "139931"
+    "ipeds": "139931"
   },
   {
     "_id": "gsu",
     "name": "Georgia State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "139940"
+    "ipeds": "139940"
   },
   {
     "_id": "uga",
     "name": "University of Georgia",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "sec",
       "r1"
     ],
-    "iped_id": "139959"
+    "ipeds": "139959"
   },
   {
     "_id": "mercer",
     "name": "Mercer University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "140447"
+    "ipeds": "140447"
   },
   {
     "_id": "morehouse",
     "name": "Morehouse College",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "hbcu"
     ],
-    "iped_id": "140553"
+    "ipeds": "140553"
   },
   {
     "_id": "savannahstate",
     "name": "Savannah State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "hbcu"
     ],
-    "iped_id": "140960"
+    "ipeds": "140960"
   },
   {
     "_id": "spelman",
     "name": "Spelman College",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "hbcu"
     ],
-    "iped_id": "141060"
+    "ipeds": "141060"
   },
   {
     "_id": "hawaii",
     "name": "University of Hawai'i",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "141574"
+    "ipeds": "141574"
   },
   {
     "_id": "boisestate",
     "name": "Boise State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "142115"
+    "ipeds": "142115"
   },
   {
     "_id": "isu",
     "name": "Idaho State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "142276"
+    "ipeds": "142276"
   },
   {
     "_id": "uidaho",
     "name": "University of Idaho",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "142285"
+    "ipeds": "142285"
   },
   {
     "_id": "uchicago",
     "name": "University of Chicago",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "144050"
+    "ipeds": "144050"
   },
   {
     "_id": "colum",
     "name": "Columbia College Chicago",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
-    "iped_id": "144281"
+    "ipeds": "144281"
   },
   {
     "_id": "depaul",
     "name": "DePaul University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "144740"
+    "ipeds": "144740"
   },
   {
     "_id": "uic",
     "name": "University of Illinois, Chicago",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "145600"
+    "ipeds": "145600"
   },
   {
     "_id": "illinois",
     "name": "University of Illinois",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "big_ten",
       "r1",
       "aau"
     ],
-    "iped_id": "145637"
+    "ipeds": "145637"
   },
   {
     "_id": "iit",
     "name": "Illinois Institute of Technology",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "145725"
+    "ipeds": "145725"
   },
   {
     "_id": "illinoisstate",
     "name": "Illinois State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "145813"
+    "ipeds": "145813"
   },
   {
     "_id": "luc",
     "name": "Loyola University Chicago",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "146719"
+    "ipeds": "146719"
   },
   {
     "_id": "niu",
     "name": "Northern Illinois University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "147703"
+    "ipeds": "147703"
   },
   {
     "_id": "nw",
     "name": "Northwestern University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "big_ten",
       "r1",
       "aau"
     ],
-    "iped_id": "147767"
+    "ipeds": "147767"
   },
   {
     "_id": "siu",
     "name": "Southern Illinois University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "149222"
+    "ipeds": "149222"
   },
   {
     "_id": "bsu",
     "name": "Ball State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "150136"
+    "ipeds": "150136"
   },
   {
     "_id": "iupui",
     "name": "Indiana University – Purdue University Indianapolis",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "151111"
+    "ipeds": "151111"
   },
   {
     "_id": "indiana",
     "name": "Indiana University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "big_ten",
       "r1",
       "aau"
     ],
-    "iped_id": "151351"
+    "ipeds": "151351"
   },
   {
     "_id": "nd",
     "name": "University of Notre Dame",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "big_ten",
       "acc",
       "r1"
     ],
-    "iped_id": "152080"
+    "ipeds": "152080"
   },
   {
     "_id": "iastate",
     "name": "Iowa State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1",
       "aau"
     ],
-    "iped_id": "153603"
+    "ipeds": "153603"
   },
   {
     "_id": "uiowa",
     "name": "University of Iowa",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "big_ten",
       "r1",
       "aau"
     ],
-    "iped_id": "153658"
+    "ipeds": "153658"
   },
   {
     "_id": "ku",
     "name": "University of Kansas",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1",
       "aau"
     ],
-    "iped_id": "155317"
+    "ipeds": "155317"
   },
   {
     "_id": "k-state",
     "name": "Kansas State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "155399"
+    "ipeds": "155399"
   },
   {
     "_id": "wichita",
     "name": "Wichita State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "156125"
+    "ipeds": "156125"
   },
   {
     "_id": "uky",
     "name": "University of Kentucky",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "sec",
       "r1"
     ],
-    "iped_id": "157085"
+    "ipeds": "157085"
   },
   {
     "_id": "louisville",
     "name": "University of Louisville",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "acc",
       "r1",
       "uic_peer"
     ],
-    "iped_id": "157289"
+    "ipeds": "157289"
   },
   {
     "_id": "dillard",
     "name": "Dillard University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "hbcu"
     ],
-    "iped_id": "158802"
+    "ipeds": "158802"
   },
   {
     "_id": "gram",
     "name": "Grambling State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "hbcu"
     ],
-    "iped_id": "159009"
+    "ipeds": "159009"
   },
   {
     "_id": "lsu",
     "name": "Louisiana State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "sec",
       "r1"
     ],
-    "iped_id": "159391"
+    "ipeds": "159391"
   },
   {
     "_id": "latech",
     "name": "Louisiana Tech University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "159647"
+    "ipeds": "159647"
   },
   {
     "_id": "uno",
     "name": "University of New Orleans",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "159939"
+    "ipeds": "159939"
   },
   {
     "_id": "subr",
     "name": "Southern University and A & M College",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "hbcu"
     ],
-    "iped_id": "160621"
+    "ipeds": "160621"
   },
   {
     "_id": "louisiana",
     "name": "University of Louisiana, Lafayette",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "160658"
+    "ipeds": "160658"
   },
   {
     "_id": "tulane",
     "name": "Tulane University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r1",
       "aau"
     ],
-    "iped_id": "160755"
+    "ipeds": "160755"
   },
   {
     "_id": "umaine",
     "name": "University of Maine",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "161253"
+    "ipeds": "161253"
   },
   {
     "_id": "une",
     "name": "University of New England",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "161457"
+    "ipeds": "161457"
   },
   {
     "_id": "bowiestate",
     "name": "Bowie State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "hbcu"
     ],
-    "iped_id": "162007"
+    "ipeds": "162007"
   },
   {
     "_id": "jhu",
     "name": "Johns Hopkins University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "big_ten",
       "r1",
       "aau"
     ],
-    "iped_id": "162928"
+    "ipeds": "162928"
   },
   {
     "_id": "umbc",
     "name": "University of Maryland, Baltimore County",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "163268"
+    "ipeds": "163268"
   },
   {
     "_id": "umd",
     "name": "University of Maryland",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "big_ten",
       "r1",
       "aau"
     ],
-    "iped_id": "163286"
+    "ipeds": "163286"
   },
   {
     "_id": "umes",
     "name": "University of Maryland, Eastern Shore",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "163338"
+    "ipeds": "163338"
   },
   {
     "_id": "morgan",
     "name": "Morgan State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "hbcu",
       "r2"
     ],
-    "iped_id": "163453"
+    "ipeds": "163453"
   },
   {
     "_id": "bc",
     "name": "Boston College",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "acc",
       "r1"
     ],
-    "iped_id": "164924"
+    "ipeds": "164924"
   },
   {
     "_id": "bu",
     "name": "Boston University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r1",
       "aau"
     ],
-    "iped_id": "164988"
+    "ipeds": "164988"
   },
   {
     "_id": "brandeis",
     "name": "Brandeis University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r1",
       "aau"
     ],
-    "iped_id": "165015"
+    "ipeds": "165015"
   },
   {
     "_id": "clarku",
     "name": "Clark University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "165334"
+    "ipeds": "165334"
   },
   {
     "_id": "harvard",
     "name": "Harvard University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "ivy_league",
       "r1",
       "aau"
     ],
-    "iped_id": "166027"
+    "ipeds": "166027"
   },
   {
     "_id": "uml",
     "name": "University of Massachusetts, Lowell",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "166513"
+    "ipeds": "166513"
   },
   {
     "_id": "umass",
     "name": "University of Massachusetts",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "166629"
+    "ipeds": "166629"
   },
   {
     "_id": "umb",
     "name": "University of Massachusetts, Boston",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "166638"
+    "ipeds": "166638"
   },
   {
     "_id": "mit",
     "name": "Massachusetts Institute of Technology",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r1",
       "aau"
     ],
-    "iped_id": "166683"
+    "ipeds": "166683"
   },
   {
     "_id": "northeastern",
     "name": "Northeastern University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "167358"
+    "ipeds": "167358"
   },
   {
     "_id": "umassd",
     "name": "University of Massachusetts, Dartmouth",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "167987"
+    "ipeds": "167987"
   },
   {
     "_id": "tufts",
     "name": "Tufts University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "168148"
+    "ipeds": "168148"
   },
   {
     "_id": "wpi",
     "name": "Worcester Polytechnic Institute",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "168421"
+    "ipeds": "168421"
   },
   {
     "_id": "cmich",
     "name": "Central Michigan University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "169248"
+    "ipeds": "169248"
   },
   {
     "_id": "emich",
     "name": "Eastern Michigan University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "169798"
+    "ipeds": "169798"
   },
   {
     "_id": "umich",
     "name": "University of Michigan",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "big_ten",
       "r1",
       "aau"
     ],
-    "iped_id": "170976"
+    "ipeds": "170976"
   },
   {
     "_id": "msu",
     "name": "Michigan State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "big_ten",
       "r1",
       "aau"
     ],
-    "iped_id": "171100"
+    "ipeds": "171100"
   },
   {
     "_id": "mtu",
     "name": "Michigan Technological University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "171128"
+    "ipeds": "171128"
   },
   {
     "_id": "oakland",
     "name": "Oakland University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "171571"
+    "ipeds": "171571"
   },
   {
     "_id": "wayne",
     "name": "Wayne State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "172644"
+    "ipeds": "172644"
   },
   {
     "_id": "wmich",
     "name": "Western Michigan University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "172699"
+    "ipeds": "172699"
   },
   {
     "_id": "umn",
     "name": "University of Minnesota",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "big_ten",
       "r1",
       "aau"
     ],
-    "iped_id": "174066"
+    "ipeds": "174066"
   },
   {
     "_id": "jsums",
     "name": "Jackson State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "hbcu",
       "r2"
     ],
-    "iped_id": "175856"
+    "ipeds": "175856"
   },
   {
     "_id": "olemiss",
     "name": "University of Mississippi",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "sec",
       "r1"
     ],
-    "iped_id": "176017"
+    "ipeds": "176017"
   },
   {
     "_id": "msstate",
     "name": "Mississippi State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "sec",
       "r1"
     ],
-    "iped_id": "176080"
+    "ipeds": "176080"
   },
   {
     "_id": "usm",
     "name": "University of Southern Mississippi",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "176372"
+    "ipeds": "176372"
   },
   {
     "_id": "missouri",
     "name": "University of Missouri",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "sec",
       "r1",
       "aau"
     ],
-    "iped_id": "178396"
+    "ipeds": "178396"
   },
   {
     "_id": "umkc",
     "name": "University of Missouri, Kansas City",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "178402"
+    "ipeds": "178402"
   },
   {
     "_id": "mst",
     "name": "Missouri University of Science and Technology",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "178411"
+    "ipeds": "178411"
   },
   {
     "_id": "umsl",
     "name": "University of Missouri, St. Louis",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "178420"
+    "ipeds": "178420"
   },
   {
     "_id": "slu",
     "name": "Saint Louis University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "179159"
+    "ipeds": "179159"
   },
   {
     "_id": "wustl",
     "name": "Washington University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r1",
       "aau"
     ],
-    "iped_id": "179867"
+    "ipeds": "179867"
   },
   {
     "_id": "montana",
     "name": "Montana State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "180461"
+    "ipeds": "180461"
   },
   {
     "_id": "unomaha",
     "name": "University of Nebraska at Omaha",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "181394"
+    "ipeds": "181394"
   },
   {
     "_id": "unl",
     "name": "University of Nebraska",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "big_ten",
       "r1"
     ],
-    "iped_id": "181464"
+    "ipeds": "181464"
   },
   {
     "_id": "unlv",
     "name": "University of Nevada, Las Vegas",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "182281"
+    "ipeds": "182281"
   },
   {
     "_id": "unr",
     "name": "University of Nevada, Reno",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "182290"
+    "ipeds": "182290"
   },
   {
     "_id": "dartmouth",
     "name": "Dartmouth College",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "ivy_league",
       "r1",
       "aau"
     ],
-    "iped_id": "182670"
+    "ipeds": "182670"
   },
   {
     "_id": "unh",
     "name": "University of New Hampshire",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "183044"
+    "ipeds": "183044"
   },
   {
     "_id": "rowan",
     "name": "Rowan University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "184782"
+    "ipeds": "184782"
   },
   {
     "_id": "montclair",
     "name": "Montclair State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "185590"
+    "ipeds": "185590"
   },
   {
     "_id": "njit",
     "name": "New Jersey Institute of Technology",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "185828"
+    "ipeds": "185828"
   },
   {
     "_id": "princeton",
     "name": "Princeton University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "ivy_league",
       "r1",
       "aau"
     ],
-    "iped_id": "186131"
+    "ipeds": "186131"
   },
   {
     "_id": "camden",
     "name": "Rutgers University, Camden",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "186371"
+    "ipeds": "186371"
   },
   {
     "_id": "rutgers",
     "name": "Rutgers University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "big_ten",
@@ -2068,1368 +1915,1266 @@
       "aau",
       "uic_peer"
     ],
-    "iped_id": "186380"
+    "ipeds": "186380"
   },
   {
     "_id": "newark",
     "name": "Rutgers University, Newark",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "186399"
+    "ipeds": "186399"
   },
   {
     "_id": "shu",
     "name": "Seton Hall University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "186584"
+    "ipeds": "186584"
   },
   {
     "_id": "stevens",
     "name": "Stevens Institute of Technology",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "186867"
+    "ipeds": "186867"
   },
   {
     "_id": "unm",
     "name": "University of New Mexico",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "187985"
+    "ipeds": "187985"
   },
   {
     "_id": "nmsu",
     "name": "New Mexico State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "188030"
+    "ipeds": "188030"
   },
   {
     "_id": "clarkson",
     "name": "Clarkson University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "190044"
+    "ipeds": "190044"
   },
   {
     "_id": "columbia",
     "name": "Columbia University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "ivy_league",
       "r1",
       "aau"
     ],
-    "iped_id": "190150"
+    "ipeds": "190150"
   },
   {
     "_id": "cornell",
     "name": "Cornell University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "ivy_league",
       "r1",
       "aau"
     ],
-    "iped_id": "190415"
+    "ipeds": "190415"
   },
   {
     "_id": "cuny_ccny",
     "name": "City College of New York",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "190567"
+    "ipeds": "190567"
   },
   {
     "_id": "cuny_gc",
     "name": "City University of New York, Graduate Center",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "190576"
+    "ipeds": "190576"
   },
   {
     "_id": "fordham",
     "name": "Fordham University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "191241"
+    "ipeds": "191241"
   },
   {
     "_id": "newschool",
     "name": "New School",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "193654"
+    "ipeds": "193654"
   },
   {
     "_id": "nyu",
     "name": "New York University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r1",
       "aau"
     ],
-    "iped_id": "193900"
+    "ipeds": "193900"
   },
   {
     "_id": "rpi",
     "name": "Rensselaer Polytechnic Institute",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "194824"
+    "ipeds": "194824"
   },
   {
     "_id": "rit",
     "name": "Rochester Institute of Technology",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "195003"
+    "ipeds": "195003"
   },
   {
     "_id": "rochester",
     "name": "University of Rochester",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r1",
       "aau"
     ],
-    "iped_id": "195030"
+    "ipeds": "195030"
   },
   {
     "_id": "rockefeller",
     "name": "Rockefeller University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "195049"
+    "ipeds": "195049"
   },
   {
     "_id": "albany",
     "name": "University at Albany",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
-    "iped_id": "196060"
+    "ipeds": "196060"
   },
   {
     "_id": "binghamton",
     "name": "Binghamton University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "196079"
+    "ipeds": "196079"
   },
   {
     "_id": "buffalo",
     "name": "University at Buffalo",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1",
       "aau",
       "uic_peer"
     ],
-    "iped_id": "196088"
+    "ipeds": "196088"
   },
   {
     "_id": "stonybrook",
     "name": "Stony Brook University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1",
       "aau"
     ],
-    "iped_id": "196097"
+    "ipeds": "196097"
   },
   {
     "_id": "esf",
     "name": "SUNY College of Environmental Science and Forestry",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "196103"
+    "ipeds": "196103"
   },
   {
     "_id": "syr",
     "name": "Syracuse University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "acc",
       "r1"
     ],
-    "iped_id": "196413"
+    "ipeds": "196413"
   },
   {
     "_id": "columbia_tc",
     "name": "Teachers College at Columbia University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "196468"
+    "ipeds": "196468"
   },
   {
     "_id": "yu",
     "name": "Yeshiva University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "197708"
+    "ipeds": "197708"
   },
   {
     "_id": "duke",
     "name": "Duke University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "acc",
       "r1"
     ],
-    "iped_id": "198419"
+    "ipeds": "198419"
   },
   {
     "_id": "ecu",
     "name": "East Carolina University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "198464"
+    "ipeds": "198464"
   },
   {
     "_id": "uncfsu",
     "name": "Fayetteville State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "hbcu"
     ],
-    "iped_id": "198543"
+    "ipeds": "198543"
   },
   {
     "_id": "ncat",
     "name": "North Carolina A & T State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "hbcu",
       "r2"
     ],
-    "iped_id": "199102"
+    "ipeds": "199102"
   },
   {
     "_id": "unc",
     "name": "University of North Carolina",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "acc",
       "r1",
       "aau"
     ],
-    "iped_id": "199120"
+    "ipeds": "199120"
   },
   {
     "_id": "uncc",
     "name": "University of North Carolina, Charlotte",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "199139"
+    "ipeds": "199139"
   },
   {
     "_id": "uncg",
     "name": "University of North Carolina, Greensboro",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "199148"
+    "ipeds": "199148"
   },
   {
     "_id": "nccu",
     "name": "North Carolina Central University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "hbcu"
     ],
-    "iped_id": "199157"
+    "ipeds": "199157"
   },
   {
     "_id": "ncsu",
     "name": "North Carolina State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "acc",
       "r1"
     ],
-    "iped_id": "199193"
+    "ipeds": "199193"
   },
   {
     "_id": "uncw",
     "name": "University of North Carolina, Wilmington",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "199218"
+    "ipeds": "199218"
   },
   {
     "_id": "wfu",
     "name": "Wake Forest University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "acc",
       "r2"
     ],
-    "iped_id": "199847"
+    "ipeds": "199847"
   },
   {
     "_id": "wssu",
     "name": "Winston-Salem State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "hbcu"
     ],
-    "iped_id": "199999"
+    "ipeds": "199999"
   },
   {
     "_id": "und",
     "name": "University of North Dakota",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "200280"
+    "ipeds": "200280"
   },
   {
     "_id": "ndsu",
     "name": "North Dakota State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "200332"
+    "ipeds": "200332"
   },
   {
     "_id": "afit",
     "name": "Air Force Institute of Technology Graduate School of Engineering & Management",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "200697"
+    "ipeds": "200697"
   },
   {
     "_id": "uakron",
     "name": "University of Akron",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "200800"
+    "ipeds": "200800"
   },
   {
     "_id": "bgsu",
     "name": "Bowling Green State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "201441"
+    "ipeds": "201441"
   },
   {
     "_id": "case",
     "name": "Case Western Reserve University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r1",
       "aau"
     ],
-    "iped_id": "201645"
+    "ipeds": "201645"
   },
   {
     "_id": "uc",
     "name": "University of Cincinnati",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1",
       "uic_peer"
     ],
-    "iped_id": "201885"
+    "ipeds": "201885"
   },
   {
     "_id": "csuohio",
     "name": "Cleveland State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "202134"
+    "ipeds": "202134"
   },
   {
     "_id": "udayton",
     "name": "University of Dayton",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "202480"
+    "ipeds": "202480"
   },
   {
     "_id": "kent",
     "name": "Kent State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "203517"
+    "ipeds": "203517"
   },
   {
     "_id": "miamioh",
     "name": "Miami University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "204024"
+    "ipeds": "204024"
   },
   {
     "_id": "osu",
     "name": "Ohio State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "big_ten",
       "r1",
       "aau"
     ],
-    "iped_id": "204796"
+    "ipeds": "204796"
   },
   {
     "_id": "ohio",
     "name": "Ohio University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "204857"
+    "ipeds": "204857"
   },
   {
     "_id": "utoledo",
     "name": "University of Toledo",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "206084"
+    "ipeds": "206084"
   },
   {
     "_id": "wright",
     "name": "Wright State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "206604"
+    "ipeds": "206604"
   },
   {
     "_id": "okstate",
     "name": "Oklahoma State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "207388"
+    "ipeds": "207388"
   },
   {
     "_id": "ou",
     "name": "University of Oklahoma",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "207500"
+    "ipeds": "207500"
   },
   {
     "_id": "utulsa",
     "name": "University of Tulsa",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "207971"
+    "ipeds": "207971"
   },
   {
     "_id": "oregonstate",
     "name": "Oregon State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "pac_12",
       "r1"
     ],
-    "iped_id": "209542"
+    "ipeds": "209542"
   },
   {
     "_id": "uoregon",
     "name": "University of Oregon",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "pac_12",
       "r1",
       "aau"
     ],
-    "iped_id": "209551"
+    "ipeds": "209551"
   },
   {
     "_id": "pdx",
     "name": "Portland State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "209807"
+    "ipeds": "209807"
   },
   {
     "_id": "cmu",
     "name": "Carnegie Mellon University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r1",
       "aau"
     ],
-    "iped_id": "211440"
+    "ipeds": "211440"
   },
   {
     "_id": "drexel",
     "name": "Drexel University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "212054"
+    "ipeds": "212054"
   },
   {
     "_id": "duq",
     "name": "Duquesne University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "212106"
+    "ipeds": "212106"
   },
   {
     "_id": "lehigh",
     "name": "Lehigh University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "213543"
+    "ipeds": "213543"
   },
   {
     "_id": "psu",
     "name": "Pennsylvania State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "big_ten",
       "r1",
       "aau"
     ],
-    "iped_id": "214777"
+    "ipeds": "214777"
   },
   {
     "_id": "upenn",
     "name": "University of Pennsylvania",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "ivy_league",
       "r1",
       "aau"
     ],
-    "iped_id": "215062"
+    "ipeds": "215062"
   },
   {
     "_id": "pitt",
     "name": "University of Pittsburgh",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "acc",
       "r1",
       "aau"
     ],
-    "iped_id": "215293"
+    "ipeds": "215293"
   },
   {
     "_id": "temple",
     "name": "Temple University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "216339"
+    "ipeds": "216339"
   },
   {
     "_id": "jefferson",
     "name": "Thomas Jefferson University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "216366"
+    "ipeds": "216366"
   },
   {
     "_id": "villanova",
     "name": "Villanova University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "216597"
+    "ipeds": "216597"
   },
   {
     "_id": "brown",
     "name": "Brown University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "ivy_league",
       "r1",
       "aau"
     ],
-    "iped_id": "217156"
+    "ipeds": "217156"
   },
   {
     "_id": "uri",
     "name": "University of Rhode Island",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "217484"
+    "ipeds": "217484"
   },
   {
     "_id": "clemson",
     "name": "Clemson University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "acc",
       "r1"
     ],
-    "iped_id": "217882"
+    "ipeds": "217882"
   },
   {
     "_id": "sc",
     "name": "University of South Carolina",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "sec",
       "r1"
     ],
-    "iped_id": "218663"
+    "ipeds": "218663"
   },
   {
     "_id": "sdstate",
     "name": "South Dakota State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "219356"
+    "ipeds": "219356"
   },
   {
     "_id": "usd",
     "name": "University of South Dakota",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "219471"
+    "ipeds": "219471"
   },
   {
     "_id": "etsu",
     "name": "East Tennessee State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "220075"
+    "ipeds": "220075"
   },
   {
     "_id": "memphis",
     "name": "University of Memphis",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "220862"
+    "ipeds": "220862"
   },
   {
     "_id": "utk",
     "name": "University of Tennessee",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "sec",
       "r1"
     ],
-    "iped_id": "221759"
+    "ipeds": "221759"
   },
   {
     "_id": "tnstate",
     "name": "Tennessee State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "hbcu",
       "r2"
     ],
-    "iped_id": "221838"
+    "ipeds": "221838"
   },
   {
     "_id": "tntech",
     "name": "Tennessee Technological University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "221847"
+    "ipeds": "221847"
   },
   {
     "_id": "vanderbilt",
     "name": "Vanderbilt University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "sec",
       "r1",
       "aau"
     ],
-    "iped_id": "221999"
+    "ipeds": "221999"
   },
   {
     "_id": "baylor",
     "name": "Baylor University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "223232"
+    "ipeds": "223232"
   },
   {
     "_id": "tamucc",
     "name": "Texas A&M University, Corpus Christi",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "224147"
+    "ipeds": "224147"
   },
   {
     "_id": "uh",
     "name": "University of Houston",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "225511"
+    "ipeds": "225511"
   },
   {
     "_id": "unt",
     "name": "University of North Texas",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "227216"
+    "ipeds": "227216"
   },
   {
     "_id": "utrgv",
     "name": "University of Texas, Rio Grande Valley",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "227368"
+    "ipeds": "227368"
   },
   {
     "_id": "pvamu",
     "name": "Prairie View A & M University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "hbcu"
     ],
-    "iped_id": "227526"
+    "ipeds": "227526"
   },
   {
     "_id": "rice",
     "name": "Rice University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r1",
       "aau"
     ],
-    "iped_id": "227757"
+    "ipeds": "227757"
   },
   {
     "_id": "smu",
     "name": "Southern Methodist University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "228246"
+    "ipeds": "228246"
   },
   {
     "_id": "txstate",
     "name": "Texas State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "228459"
+    "ipeds": "228459"
   },
   {
     "_id": "tamuk",
     "name": "Texas A&M University, Kingsville",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "228705"
+    "ipeds": "228705"
   },
   {
     "_id": "tamu",
     "name": "Texas A&M University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "sec",
       "r1",
       "aau"
     ],
-    "iped_id": "228723"
+    "ipeds": "228723"
   },
   {
     "_id": "uta",
     "name": "University of Texas, Arlington",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "228769"
+    "ipeds": "228769"
   },
   {
     "_id": "utexas",
     "name": "University of Texas",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1",
       "aau"
     ],
-    "iped_id": "228778"
+    "ipeds": "228778"
   },
   {
     "_id": "utdallas",
     "name": "University of Texas, Dallas",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "228787"
+    "ipeds": "228787"
   },
   {
     "_id": "utep",
     "name": "University of Texas, El Paso",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "228796"
+    "ipeds": "228796"
   },
   {
     "_id": "tcu",
     "name": "Texas Christian University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "228875"
+    "ipeds": "228875"
   },
   {
     "_id": "utsa",
     "name": "University of Texas, San Antonio",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "229027"
+    "ipeds": "229027"
   },
   {
     "_id": "tsu",
     "name": "Texas Southern University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "hbcu",
       "r2"
     ],
-    "iped_id": "229063"
+    "ipeds": "229063"
   },
   {
     "_id": "ttu",
     "name": "Texas Tech University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "229115"
+    "ipeds": "229115"
   },
   {
     "_id": "byu",
     "name": "Brigham Young University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "230038"
+    "ipeds": "230038"
   },
   {
     "_id": "usu",
     "name": "Utah State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "230728"
+    "ipeds": "230728"
   },
   {
     "_id": "utah",
     "name": "University of Utah",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "pac_12",
@@ -3437,150 +3182,139 @@
       "aau",
       "uic_peer"
     ],
-    "iped_id": "230764"
+    "ipeds": "230764"
   },
   {
     "_id": "uvm",
     "name": "University of Vermont",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "231174"
+    "ipeds": "231174"
   },
   {
     "_id": "wm",
     "name": "College of William & Mary",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "231624"
+    "ipeds": "231624"
   },
   {
     "_id": "gmu",
     "name": "George Mason University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "232186"
+    "ipeds": "232186"
   },
   {
     "_id": "hamptonu",
     "name": "Hampton University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "232265"
+    "ipeds": "232265"
   },
   {
     "_id": "nsu",
     "name": "Norfolk State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "hbcu"
     ],
-    "iped_id": "232937"
+    "ipeds": "232937"
   },
   {
     "_id": "odu",
     "name": "Old Dominion University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "232982"
+    "ipeds": "232982"
   },
   {
     "_id": "vt",
     "name": "Virginia Polytechnic Institute and State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "acc",
       "r1"
     ],
-    "iped_id": "233921"
+    "ipeds": "233921"
   },
   {
     "_id": "vcu",
     "name": "Virginia Commonwealth University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1",
       "uic_peer"
     ],
-    "iped_id": "234030"
+    "ipeds": "234030"
   },
   {
     "_id": "virginia",
     "name": "University of Virginia",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "acc",
       "r1",
       "aau"
     ],
-    "iped_id": "234076"
+    "ipeds": "234076"
   },
   {
     "_id": "wsu",
     "name": "Washington State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "pac_12",
       "r1"
     ],
-    "iped_id": "236939"
+    "ipeds": "236939"
   },
   {
     "_id": "washington",
     "name": "University of Washington",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "pac_12",
@@ -3588,177 +3322,164 @@
       "aau",
       "uic_peer"
     ],
-    "iped_id": "236948"
+    "ipeds": "236948"
   },
   {
     "_id": "marshall",
     "name": "Marshall University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "237525"
+    "ipeds": "237525"
   },
   {
     "_id": "wvu",
     "name": "West Virginia University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "238032"
+    "ipeds": "238032"
   },
   {
     "_id": "marquette",
     "name": "Marquette University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "239105"
+    "ipeds": "239105"
   },
   {
     "_id": "wisc",
     "name": "University of Wisconsin",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "big_ten",
       "r1",
       "aau"
     ],
-    "iped_id": "240444"
+    "ipeds": "240444"
   },
   {
     "_id": "uwm",
     "name": "University of Wisconsin, Milwaukee",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r1"
     ],
-    "iped_id": "240453"
+    "ipeds": "240453"
   },
   {
     "_id": "uwyo",
     "name": "University of Wyoming",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "240727"
+    "ipeds": "240727"
   },
   {
     "_id": "upr",
     "name": "University of Puerto Rico",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "243221"
+    "ipeds": "243221"
   },
   {
     "_id": "stanford",
     "name": "Stanford University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ],
     "tags": [
       "pac_12",
       "r1",
       "aau"
     ],
-    "iped_id": "243744"
+    "ipeds": "243744"
   },
   {
     "_id": "purdue",
     "name": "Purdue University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "big_ten",
       "r1",
       "aau"
     ],
-    "iped_id": "243780"
+    "ipeds": "243780"
   },
   {
     "_id": "ucmerced",
     "name": "University of California, Merced",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "445188"
+    "ipeds": "445188"
   },
   {
     "_id": "asu_phoenix",
     "name": "Arizona State University, Phoenix",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "448886"
+    "ipeds": "448886"
   },
   {
     "_id": "kennesaw",
     "name": "Kennesaw State University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "r2"
     ],
-    "iped_id": "486840"
+    "ipeds": "486840"
   },
   {
     "_id": "anahuac",
     "name": "Anáhuac University",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ]
   },
   {
@@ -3766,8 +3487,7 @@
     "name": "Monterrey Institute of Technology and Higher Education",
     "type": "org",
     "categories": [
-      "college",
-      "private"
+      "college_private"
     ]
   },
   {
@@ -3775,8 +3495,7 @@
     "name": "Autonomous University of Nuevo León",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ]
   },
   {
@@ -3784,8 +3503,7 @@
     "name": "Autonomous University of San Luis Potosí",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ]
   },
   {
@@ -3793,8 +3511,7 @@
     "name": "McMaster University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ]
   },
   {
@@ -3802,8 +3519,7 @@
     "name": "Meritorious Autonomous University of Puebla",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ]
   },
   {
@@ -3811,8 +3527,7 @@
     "name": "Metropolitan Autonomous University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ]
   },
   {
@@ -3820,8 +3535,7 @@
     "name": "National Autonomous University of Mexico",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ]
   },
   {
@@ -3829,8 +3543,7 @@
     "name": "National Polytechnic Institute of Mexico",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ]
   },
   {
@@ -3838,8 +3551,7 @@
     "name": "Postgraduate College",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ]
   },
   {
@@ -3847,8 +3559,7 @@
     "name": "Queen's University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ]
   },
   {
@@ -3856,8 +3567,7 @@
     "name": "Simon Fraser University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ]
   },
   {
@@ -3865,8 +3575,7 @@
     "name": "Université Laval",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ]
   },
   {
@@ -3874,8 +3583,7 @@
     "name": "University of Alberta",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ]
   },
   {
@@ -3883,8 +3591,7 @@
     "name": "University of British Columbia",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ]
   },
   {
@@ -3892,8 +3599,7 @@
     "name": "University of Calgary",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ]
   },
   {
@@ -3901,8 +3607,7 @@
     "name": "University of Guadalajara",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ]
   },
   {
@@ -3910,8 +3615,7 @@
     "name": "University of Guelph",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ]
   },
   {
@@ -3919,8 +3623,7 @@
     "name": "University of Manitoba",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ]
   },
   {
@@ -3928,8 +3631,7 @@
     "name": "University of Ottawa",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ]
   },
   {
@@ -3937,8 +3639,7 @@
     "name": "University of Saskatchewan",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ]
   },
   {
@@ -3946,8 +3647,7 @@
     "name": "University of Waterloo",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ]
   },
   {
@@ -3955,8 +3655,7 @@
     "name": "Western University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ]
   },
   {
@@ -3964,8 +3663,7 @@
     "name": "York University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ]
   },
   {
@@ -3973,8 +3671,7 @@
     "name": "McGill University",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "aau"
@@ -3985,8 +3682,7 @@
     "name": "University of Toronto",
     "type": "org",
     "categories": [
-      "college",
-      "public"
+      "college_public"
     ],
     "tags": [
       "aau"
@@ -3997,8 +3693,7 @@
     "name": "Auraria Higher Education Center",
     "type": "org",
     "categories": [
-      "consortium",
-      "academic"
+      "consortium_academic"
     ]
   },
   {
@@ -4006,8 +3701,7 @@
     "name": "City University of New York",
     "type": "org",
     "categories": [
-      "consortium",
-      "academic"
+      "consortium_academic"
     ]
   },
   {
@@ -4015,8 +3709,7 @@
     "name": "Claremont Colleges",
     "type": "org",
     "categories": [
-      "consortium",
-      "academic"
+      "consortium_academic"
     ]
   },
   {
@@ -4024,22 +3717,19 @@
     "name": "Center for Research Libraries",
     "type": "org",
     "categories": [
-      "consortium",
-      "academic"
+      "consortium_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "9870"
+    "arl": "9870"
   },
   {
     "_id": "alcts",
     "name": "Association for Library Collections & Technical Services",
     "type": "org",
     "categories": [
-      "consortium",
-      "academic",
-      "library"
+      "consortium_academic_library"
     ]
   },
   {
@@ -4047,9 +3737,7 @@
     "name": "Association of College and Research Libraries",
     "type": "org",
     "categories": [
-      "consortium",
-      "academic",
-      "library"
+      "consortium_academic_library"
     ]
   },
   {
@@ -4057,9 +3745,7 @@
     "name": "Association of Research Libraries",
     "type": "org",
     "categories": [
-      "consortium",
-      "academic",
-      "library"
+      "consortium_academic_library"
     ]
   },
   {
@@ -4067,9 +3753,7 @@
     "name": "Consortium of Academic and Research Libraries in Illinois",
     "type": "org",
     "categories": [
-      "consortium",
-      "academic",
-      "library"
+      "consortium_academic_library"
     ]
   },
   {
@@ -4077,9 +3761,7 @@
     "name": "Greater Western Library Alliance",
     "type": "org",
     "categories": [
-      "consortium",
-      "academic",
-      "library"
+      "consortium_academic_library"
     ]
   },
   {
@@ -4087,9 +3769,7 @@
     "name": "Historically Black Colleges and Universities Libraries Alliance",
     "type": "org",
     "categories": [
-      "consortium",
-      "academic",
-      "library"
+      "consortium_academic_library"
     ]
   },
   {
@@ -4097,9 +3777,7 @@
     "name": "Scholarly Publishing and Academic Resources Coalition",
     "type": "org",
     "categories": [
-      "consortium",
-      "academic",
-      "library"
+      "consortium_academic_library"
     ]
   },
   {
@@ -4107,8 +3785,7 @@
     "name": "Air Force Institute of Technology Graduate School of Engineering & Management, D'Azzo Research Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4116,8 +3793,7 @@
     "name": "Alabama A & M University, J. F. Drake Memorial Learning Resources Center",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4125,8 +3801,7 @@
     "name": "Albany State University Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4134,8 +3809,7 @@
     "name": "American University Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4143,8 +3817,7 @@
     "name": "Anáhuac University Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4152,8 +3825,7 @@
     "name": "Savannah State University, Asa H. Gordon Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4161,8 +3833,7 @@
     "name": "Arkansas State University, Dean B. Ellis Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4170,8 +3841,7 @@
     "name": "Atlanta University Center, Robert W. Woodruff Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4179,8 +3849,7 @@
     "name": "Auraria Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4188,8 +3857,7 @@
     "name": "Autonomous University of Nuevo León Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4197,8 +3865,7 @@
     "name": "Autonomous University of San Luis Potosí Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4206,8 +3873,7 @@
     "name": "Azusa Pacific University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4215,8 +3881,7 @@
     "name": "Ball State University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4224,8 +3889,7 @@
     "name": "Baylor University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4233,8 +3897,7 @@
     "name": "Binghamton University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4242,8 +3905,7 @@
     "name": "Boise State University, Albertsons Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4251,8 +3913,7 @@
     "name": "Bowie State University, Thurgood Marshall Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4260,8 +3921,7 @@
     "name": "Bowling Green State University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4269,8 +3929,7 @@
     "name": "Brandeis University Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4278,8 +3937,7 @@
     "name": "California Institute of Technology Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4287,8 +3945,7 @@
     "name": "Carnegie Mellon University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4296,8 +3953,7 @@
     "name": "Catholic University of America, University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4305,8 +3961,7 @@
     "name": "Central Michigan University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4314,8 +3969,7 @@
     "name": "Chapman University, Leatherby Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4323,8 +3977,7 @@
     "name": "City University of New York Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4332,8 +3985,7 @@
     "name": "Claremont Colleges Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4341,8 +3993,7 @@
     "name": "Clark University, Robert H. Goddard Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4350,8 +4001,7 @@
     "name": "Clarkson University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4359,8 +4009,7 @@
     "name": "Clemson University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4368,8 +4017,7 @@
     "name": "Cleveland State University, Michael Schwartz Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4377,8 +4025,7 @@
     "name": "College of William & Mary Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4386,8 +4033,7 @@
     "name": "Colorado School of MInes, Arthur Lakes Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4395,8 +4041,7 @@
     "name": "Columbia College Chicago Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4404,8 +4049,7 @@
     "name": "Delaware State University, William C. Jason Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4413,8 +4057,7 @@
     "name": "DePaul University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4422,8 +4065,7 @@
     "name": "Dillard University, Will W. Alexander Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4431,8 +4073,7 @@
     "name": "Drexel University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4440,8 +4081,7 @@
     "name": "Duquesne University, Gumberg Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4449,8 +4089,7 @@
     "name": "East Carolina University, Joyner Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4458,8 +4097,7 @@
     "name": "East Tennessee State University, Charles C. Sherrod Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4467,8 +4105,7 @@
     "name": "Eastern Michigan University, Halle Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4476,8 +4113,7 @@
     "name": "Fayetteville State University, Chestnutt Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4485,8 +4121,7 @@
     "name": "Florida A & M University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4494,8 +4129,7 @@
     "name": "Florida Atlantic University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4503,8 +4137,7 @@
     "name": "Florida Institute of Technology, Evans Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4512,8 +4145,7 @@
     "name": "Florida International University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4521,8 +4153,7 @@
     "name": "Fordham University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4530,8 +4161,7 @@
     "name": "Gallaudet University Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4539,8 +4169,7 @@
     "name": "George Mason University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4548,18 +4177,16 @@
     "name": "Georgia Institute of Technology Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
-    "arl_id": "2950"
+    "arl": "2950"
   },
   {
     "_id": "georgiasouthern_library",
     "name": "Georgia Southern University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4567,8 +4194,7 @@
     "name": "Georgia State University Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4576,8 +4202,7 @@
     "name": "Grambling State University Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4585,8 +4210,7 @@
     "name": "Hampton University, William R. & Norma B. Harvey Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4594,8 +4218,7 @@
     "name": "Idaho State University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4603,8 +4226,7 @@
     "name": "Illinois Institute of Technology, Paul V. Galvin Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4612,8 +4234,7 @@
     "name": "Illinois State University, Milner Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4621,8 +4242,7 @@
     "name": "Indiana University – Purdue University Indianapolis, University Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4630,8 +4250,7 @@
     "name": "Jackson State University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4639,8 +4258,7 @@
     "name": "Kansas State University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4648,8 +4266,7 @@
     "name": "Kennesaw State University Library System",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4657,8 +4274,7 @@
     "name": "Lehigh University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4666,8 +4282,7 @@
     "name": "Louisiana Tech University Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4675,8 +4290,7 @@
     "name": "Loyola Marymount University, William H. Hannon Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4684,8 +4298,7 @@
     "name": "Loyola University Chicago Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4693,8 +4306,7 @@
     "name": "Marquette University Raynor Memorial Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4702,8 +4314,7 @@
     "name": "Marshall University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4711,8 +4322,7 @@
     "name": "Mercer University Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4720,8 +4330,7 @@
     "name": "Meritorious Autonomous University of Puebla Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4729,8 +4338,7 @@
     "name": "Metropolitan Autonomous University Digital Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4738,8 +4346,7 @@
     "name": "Michigan Technological University, J. Robert Van Pelt and John and Ruanne Opie Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4747,8 +4354,7 @@
     "name": "Mississippi State University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4756,8 +4362,7 @@
     "name": "Missouri University of Science and Technology, Curtis Laws Wilson Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4765,8 +4370,7 @@
     "name": "Montana State University Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4774,8 +4378,7 @@
     "name": "Montclair State University, Harry A. Sprague Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4783,8 +4386,7 @@
     "name": "Monterrey Institute of Technology and Higher Education Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4792,8 +4394,7 @@
     "name": "Morgan State University, Earl S. Richardson Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4801,8 +4402,7 @@
     "name": "National Autonomous University of Mexico Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4810,8 +4410,7 @@
     "name": "National Polytechnic Institute of Mexico Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4819,8 +4418,7 @@
     "name": "New Jersey Institute of Technology, Robert W. Van Houten Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4828,8 +4426,7 @@
     "name": "New Mexico State University Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4837,8 +4434,7 @@
     "name": "New School Libraries & Archives",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4846,8 +4442,7 @@
     "name": "Norfolk State University, Lyman Beecher Brooks Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4855,8 +4450,7 @@
     "name": "North Carolina A & T State University, F. D. Bluford Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4864,8 +4458,7 @@
     "name": "North Carolina Central University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4873,8 +4466,7 @@
     "name": "North Dakota State University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4882,8 +4474,7 @@
     "name": "Northeastern University Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4891,8 +4482,7 @@
     "name": "Northern Arizona University Cline Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4900,8 +4490,7 @@
     "name": "Northern Illinois University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4909,8 +4498,7 @@
     "name": "Nova Southeastern University, Sherman Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4918,8 +4506,7 @@
     "name": "Oakland University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4927,8 +4514,7 @@
     "name": "Old Dominion University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4936,8 +4522,7 @@
     "name": "Oregon State University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4945,8 +4530,7 @@
     "name": "Portland State University Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4954,8 +4538,7 @@
     "name": "Postgraduate College Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4963,8 +4546,7 @@
     "name": "Prairie View A & M University Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4972,8 +4554,7 @@
     "name": "Rensselaer Polytechnic Institute Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4981,8 +4562,7 @@
     "name": "Rochester Institute of Technology Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4990,8 +4570,7 @@
     "name": "Rockefeller University, Rita & Frits Markus Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -4999,8 +4578,7 @@
     "name": "Rowan University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5008,8 +4586,7 @@
     "name": "Rutgers University, Camden Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5017,8 +4594,7 @@
     "name": "Rutgers University, Newark Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5026,8 +4602,7 @@
     "name": "Saint Louis University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5035,8 +4610,7 @@
     "name": "San Diego State University Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5044,8 +4618,7 @@
     "name": "Seton Hall University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5053,8 +4626,7 @@
     "name": "South Dakota State University, Hilton M. Briggs Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5062,8 +4634,7 @@
     "name": "Southern Methodist University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5071,8 +4642,7 @@
     "name": "Southern University and A & M College, John B. Cade Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5080,8 +4650,7 @@
     "name": "Stevens Institute of Technology, Samuel C. Williams Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5089,8 +4658,7 @@
     "name": "SUNY College of Environmental Science and Forestry Moon Memorial Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5098,8 +4666,7 @@
     "name": "Teachers College at Columbia University, Gottesman Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5107,8 +4674,7 @@
     "name": "Tennessee State University Libraries & Media Centers",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5116,8 +4682,7 @@
     "name": "Tennessee Technological University Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5125,8 +4690,7 @@
     "name": "Texas A&M University, Corpus Christi, Mary and Jeff Bell Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5134,8 +4698,7 @@
     "name": "Texas A&M University, Kingsville, Jernigan Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5143,8 +4706,7 @@
     "name": "Texas Christian University Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5152,8 +4714,7 @@
     "name": "Texas Southern University Library Learning Center",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5161,8 +4722,7 @@
     "name": "Texas State University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5170,8 +4730,7 @@
     "name": "Thomas Jefferson University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5179,8 +4738,7 @@
     "name": "Tufts University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5188,8 +4746,7 @@
     "name": "University of Akron Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5197,8 +4754,7 @@
     "name": "University of Alabama at Birmingham Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5206,8 +4762,7 @@
     "name": "University of Alabama in Huntsville Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5215,8 +4770,7 @@
     "name": "University of Alaska Fairbanks, Elmer E. Rasmuson Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5224,8 +4778,7 @@
     "name": "University of Arkansas Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5233,8 +4786,7 @@
     "name": "University of Arkansas, Little Rock, Ottenheimer Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5242,8 +4794,7 @@
     "name": "University of California, Merced Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5251,8 +4802,7 @@
     "name": "University of California, Santa Cruz, University Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5260,8 +4810,7 @@
     "name": "University of Central Florida Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5269,8 +4818,7 @@
     "name": "University of Colorado, Colorado Springs, Kraemer Family Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5278,8 +4826,7 @@
     "name": "University of Dayton Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5287,8 +4834,7 @@
     "name": "University of Denver, University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5296,8 +4842,7 @@
     "name": "University of Guadalajara Digital Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5305,8 +4850,7 @@
     "name": "University of Idaho Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5314,8 +4858,7 @@
     "name": "University of Louisiana, Lafayette, Edith Garland Dupré Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5323,8 +4866,7 @@
     "name": "University of Maine, Raymond H. Fogler Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5332,8 +4874,7 @@
     "name": "University of Maryland, Baltimore County, Albin O. Kuhn Library & Gallery",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5341,8 +4882,7 @@
     "name": "University of Maryland, Eastern Shore, Frederick Douglass Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5350,8 +4890,7 @@
     "name": "University of Massachusetts, Boston, Healey Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5359,8 +4898,7 @@
     "name": "University of Massachusetts, Dartmouth, Claire T. Carney University Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5368,8 +4906,7 @@
     "name": "University of Massachusetts, Lowell Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5377,8 +4914,7 @@
     "name": "University of Memphis, University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5386,8 +4922,7 @@
     "name": "University of Miami Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5395,8 +4930,7 @@
     "name": "University of Mississippi Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5404,8 +4938,7 @@
     "name": "University of Missouri, Kansas City Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5413,8 +4946,7 @@
     "name": "University of Missouri, St. Louis, University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5422,8 +4954,7 @@
     "name": "University of Nebraska at Omaha, Criss Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5431,8 +4962,7 @@
     "name": "University of Nevada, Las Vegas, University Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5440,8 +4970,7 @@
     "name": "University of Nevada, Reno Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5449,8 +4978,7 @@
     "name": "University of New England Library Services",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5458,8 +4986,7 @@
     "name": "University of New Hampshire Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5467,8 +4994,7 @@
     "name": "University of New Orleans, Earl K. Long Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5476,8 +5002,7 @@
     "name": "University of North Carolina, Charlotte, J. Murrey Atkins Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5485,8 +5010,7 @@
     "name": "University of North Carolina, Greensboro, University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5494,8 +5018,7 @@
     "name": "University of North Carolina, Wilmington, William Madison Randall Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5503,8 +5026,7 @@
     "name": "University of North Dakota, Chester Fritz Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5512,8 +5034,7 @@
     "name": "University of North Texas University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5521,8 +5042,7 @@
     "name": "University of Puerto Rico Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5530,8 +5050,7 @@
     "name": "University of Rhode Island, University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5539,8 +5058,7 @@
     "name": "University of San Diego, Copley Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5548,8 +5066,7 @@
     "name": "University of South Alabama Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5557,8 +5074,7 @@
     "name": "University of South Dakota, University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5566,8 +5082,7 @@
     "name": "University of South Florida Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5575,8 +5090,7 @@
     "name": "University of Southern Mississippi, University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5584,8 +5098,7 @@
     "name": "University of Texas, Arlington, Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5593,8 +5106,7 @@
     "name": "University of Texas, Dallas, Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5602,8 +5114,7 @@
     "name": "University of Texas, El Paso, Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5611,8 +5122,7 @@
     "name": "University of Texas, Rio Grande Valley, University Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5620,8 +5130,7 @@
     "name": "University of Texas, San Antonio, Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5629,8 +5138,7 @@
     "name": "University of Toledo, University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5638,8 +5146,7 @@
     "name": "University of Tulsa Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5647,8 +5154,7 @@
     "name": "University of Vermont, Howe Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5656,8 +5162,7 @@
     "name": "University of Wisconsin, Milwaukee Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5665,8 +5170,7 @@
     "name": "University of Wyoming Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5674,8 +5178,7 @@
     "name": "Utah State University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5683,8 +5186,7 @@
     "name": "Villanova University, Falvey Memorial Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5692,8 +5194,7 @@
     "name": "Wake Forest University, Z. Smith Reynolds Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5701,8 +5202,7 @@
     "name": "West Virginia University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5710,8 +5210,7 @@
     "name": "Western Michigan University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5719,8 +5218,7 @@
     "name": "Wichita State University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5728,8 +5226,7 @@
     "name": "Winston-Salem State University, C.G. O'Kelly Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5737,8 +5234,7 @@
     "name": "Worcester Polytechnic Institute, George C. Gordon Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5746,8 +5242,7 @@
     "name": "Wright State University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5755,8 +5250,7 @@
     "name": "Yeshiva University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ]
   },
   {
@@ -5764,1503 +5258,1387 @@
     "name": "Arizona State University Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "400"
+    "arl": "400"
   },
   {
     "_id": "auburn_library",
     "name": "Auburn University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "440"
+    "arl": "440"
   },
   {
     "_id": "bc_library",
     "name": "Boston College Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "550"
+    "arl": "550"
   },
   {
     "_id": "bu_library",
     "name": "Boston University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "500"
+    "arl": "500"
   },
   {
     "_id": "byu_library",
     "name": "Brigham Young University, Harold B. Lee Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "600"
+    "arl": "600"
   },
   {
     "_id": "brown_library",
     "name": "Brown University Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "800"
+    "arl": "800"
   },
   {
     "_id": "case_library",
     "name": "Case Western Reserve University, Kelvin Smith Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "1500"
+    "arl": "1500"
   },
   {
     "_id": "colostate_library",
     "name": "Colorado State University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "1900"
+    "arl": "1900"
   },
   {
     "_id": "columbia_library",
     "name": "Columbia University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "2000"
+    "arl": "2000"
   },
   {
     "_id": "cornell_library",
     "name": "Cornell University Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "2200"
+    "arl": "2200"
   },
   {
     "_id": "dartmouth_library",
     "name": "Dartmouth College Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "2300"
+    "arl": "2300"
   },
   {
     "_id": "duke_library",
     "name": "Duke University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "2400"
+    "arl": "2400"
   },
   {
     "_id": "emory_library",
     "name": "Emory University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "2500"
+    "arl": "2500"
   },
   {
     "_id": "fsu_library",
     "name": "Florida State University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "2700"
+    "arl": "2700"
   },
   {
     "_id": "gwu_library",
     "name": "George Washington University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "2750"
+    "arl": "2750"
   },
   {
     "_id": "georgetown_library",
     "name": "Georgetown University Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "2800"
+    "arl": "2800"
   },
   {
     "_id": "harvard_library",
     "name": "Harvard University Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "3100"
+    "arl": "3100"
   },
   {
     "_id": "howard_library",
     "name": "Howard University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "3400"
+    "arl": "3400"
   },
   {
     "_id": "indiana_library",
     "name": "Indiana University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "3600"
+    "arl": "3600"
   },
   {
     "_id": "iastate_library",
     "name": "Iowa State University Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "3800"
+    "arl": "3800"
   },
   {
     "_id": "jhu_library",
     "name": "Johns Hopkins University, Sheridan Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "3900"
+    "arl": "3900"
   },
   {
     "_id": "kent_library",
     "name": "Kent State University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "4200"
+    "arl": "4200"
   },
   {
     "_id": "ulaval_library",
     "name": "Laval University Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "4350"
+    "arl": "4350"
   },
   {
     "_id": "lsu_library",
     "name": "Louisiana State University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "4400"
+    "arl": "4400"
   },
   {
     "_id": "mit_library",
     "name": "Massachusetts Institute of Technology Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "4900"
+    "arl": "4900"
   },
   {
     "_id": "mcgill_library",
     "name": "McGill University Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "4500"
+    "arl": "4500"
   },
   {
     "_id": "mcmaster_library",
     "name": "McMaster University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "4600"
+    "arl": "4600"
   },
   {
     "_id": "miamioh_library",
     "name": "Miami University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "5000"
+    "arl": "5000"
   },
   {
     "_id": "msu_library",
     "name": "Michigan State University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "5200"
+    "arl": "5200"
   },
   {
     "_id": "nyu_library",
     "name": "New York University, Division of Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "5700"
+    "arl": "5700"
   },
   {
     "_id": "ncsu_library",
     "name": "North Carolina State University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "5850"
+    "arl": "5850"
   },
   {
     "_id": "nw_library",
     "name": "Northwestern University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "5900"
+    "arl": "5900"
   },
   {
     "_id": "osu_library",
     "name": "Ohio State University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "6100"
+    "arl": "6100"
   },
   {
     "_id": "ohio_library",
     "name": "Ohio University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "6050"
+    "arl": "6050"
   },
   {
     "_id": "okstate_library",
     "name": "Oklahoma State University Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "6300"
+    "arl": "6300"
   },
   {
     "_id": "psu_library",
     "name": "Pennsylvania State University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "6600"
+    "arl": "6600"
   },
   {
     "_id": "princeton_library",
     "name": "Princeton University Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "6800"
+    "arl": "6800"
   },
   {
     "_id": "purdue_library",
     "name": "Purdue University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "6900"
+    "arl": "6900"
   },
   {
     "_id": "queensu_library",
     "name": "Queen's University Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "7000"
+    "arl": "7000"
   },
   {
     "_id": "rice_library",
     "name": "Rice University, Fondren Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "7100"
+    "arl": "7100"
   },
   {
     "_id": "rutgers_library",
     "name": "Rutgers University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "7300"
+    "arl": "7300"
   },
   {
     "_id": "sfu_library",
     "name": "Simon Fraser University Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "7390"
+    "arl": "7390"
   },
   {
     "_id": "siu_library",
     "name": "Southern Illinois University, Morris Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "7600"
+    "arl": "7600"
   },
   {
     "_id": "stanford_library",
     "name": "Stanford University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "7700"
+    "arl": "7700"
   },
   {
     "_id": "stonybrook_library",
     "name": "Stony Brook University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "8000"
+    "arl": "8000"
   },
   {
     "_id": "syr_library",
     "name": "Syracuse University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "8100"
+    "arl": "8100"
   },
   {
     "_id": "temple_library",
     "name": "Temple University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "8200"
+    "arl": "8200"
   },
   {
     "_id": "tamu_library",
     "name": "Texas A&M University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "8500"
+    "arl": "8500"
   },
   {
     "_id": "ttu_library",
     "name": "Texas Tech University, University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "8550"
+    "arl": "8550"
   },
   {
     "_id": "tulane_library",
     "name": "Tulane University, Howard Tilton Memorial Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "8700"
+    "arl": "8700"
   },
   {
     "_id": "albany_library",
     "name": "University at Albany, University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "7800"
+    "arl": "7800"
   },
   {
     "_id": "buffalo_library",
     "name": "University at Buffalo, University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "7900"
+    "arl": "7900"
   },
   {
     "_id": "ua_library",
     "name": "University of Alabama Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "100"
+    "arl": "100"
   },
   {
     "_id": "ualberta_library",
     "name": "University of Alberta Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "200"
+    "arl": "200"
   },
   {
     "_id": "arizona_library",
     "name": "University of Arizona, University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "300"
+    "arl": "300"
   },
   {
     "_id": "ubc_library",
     "name": "University of British Columbia Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "700"
+    "arl": "700"
   },
   {
     "_id": "ucalgary_library",
     "name": "University of Calgary Libraries and Cultural Resources",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "860"
+    "arl": "860"
   },
   {
     "_id": "berkeley_library",
     "name": "University of California, Berkeley Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "900"
+    "arl": "900"
   },
   {
     "_id": "ucdavis_library",
     "name": "University of California, Davis University Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "1000"
+    "arl": "1000"
   },
   {
     "_id": "uci_library",
     "name": "University of California, Irvine Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "1050"
+    "arl": "1050"
   },
   {
     "_id": "ucla_library",
     "name": "University of California, Los Angeles Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "1100"
+    "arl": "1100"
   },
   {
     "_id": "ucr_library",
     "name": "University of California, Riverside Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "1200"
+    "arl": "1200"
   },
   {
     "_id": "ucsd_library",
     "name": "University of California, San Diego Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "1300"
+    "arl": "1300"
   },
   {
     "_id": "scsb_library",
     "name": "University of California, Santa Barbara Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "1400"
+    "arl": "1400"
   },
   {
     "_id": "uchicago_library",
     "name": "University of Chicago Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "1600"
+    "arl": "1600"
   },
   {
     "_id": "uc_library",
     "name": "University of Cincinnati Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "1700"
+    "arl": "1700"
   },
   {
     "_id": "colorado_library",
     "name": "University of Colorado, University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "1800"
+    "arl": "1800"
   },
   {
     "_id": "uconn_library",
     "name": "University of Connecticut Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "2100"
+    "arl": "2100"
   },
   {
     "_id": "udel_library",
     "name": "University of Delaware Library, Museums & Press",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "2350"
+    "arl": "2350"
   },
   {
     "_id": "ufl_library",
     "name": "University of Florida, George A. Smathers Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "2600"
+    "arl": "2600"
   },
   {
     "_id": "uga_library",
     "name": "University of Georgia Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "2900"
+    "arl": "2900"
   },
   {
     "_id": "uoguelph_library",
     "name": "University of Guelph Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "3000"
+    "arl": "3000"
   },
   {
     "_id": "hawaii_library",
     "name": "University of Hawai'i Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "3200"
+    "arl": "3200"
   },
   {
     "_id": "uh_library",
     "name": "University of Houston Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "3300"
+    "arl": "3300"
   },
   {
     "_id": "illinois_library",
     "name": "University of Illinois, University Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "3500"
+    "arl": "3500"
   },
   {
     "_id": "uiowa_library",
     "name": "University of Iowa Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "3700"
+    "arl": "3700"
   },
   {
     "_id": "ku_library",
     "name": "University of Kansas Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "4100"
+    "arl": "4100"
   },
   {
     "_id": "uky_library",
     "name": "University of Kentucky Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "4300"
+    "arl": "4300"
   },
   {
     "_id": "louisville_library",
     "name": "University of Louisville Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "4420"
+    "arl": "4420"
   },
   {
     "_id": "umanitoba_library",
     "name": "University of Manitoba Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "4650"
+    "arl": "4650"
   },
   {
     "_id": "umd_library",
     "name": "University of Maryland Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "4700"
+    "arl": "4700"
   },
   {
     "_id": "umass_library",
     "name": "University of Massachusetts Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "4800"
+    "arl": "4800"
   },
   {
     "_id": "umich_library",
     "name": "University of Michigan Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "5100"
+    "arl": "5100"
   },
   {
     "_id": "umn_library",
     "name": "University of Minnesota Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "5300"
+    "arl": "5300"
   },
   {
     "_id": "missouri_library",
     "name": "University of Missouri Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "5400"
+    "arl": "5400"
   },
   {
     "_id": "unl_library",
     "name": "University of Nebraska Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "5500"
+    "arl": "5500"
   },
   {
     "_id": "unm_library",
     "name": "University of New Mexico Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "5600"
+    "arl": "5600"
   },
   {
     "_id": "unc_library",
     "name": "University of North Carolina Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "5800"
+    "arl": "5800"
   },
   {
     "_id": "nd_library",
     "name": "University of Notre Dame, Hesburgh Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "6000"
+    "arl": "6000"
   },
   {
     "_id": "ou_library",
     "name": "University of Oklahoma Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "6200"
+    "arl": "6200"
   },
   {
     "_id": "uoregon_library",
     "name": "University of Oregon Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "6400"
+    "arl": "6400"
   },
   {
     "_id": "uottawa_library",
     "name": "University of Ottawa Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "6430"
+    "arl": "6430"
   },
   {
     "_id": "upenn_library",
     "name": "University of Pennsylvania Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "6500"
+    "arl": "6500"
   },
   {
     "_id": "pitt_library",
     "name": "University of Pittsburgh, University Library System",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "6700"
+    "arl": "6700"
   },
   {
     "_id": "rochester_library",
     "name": "University of Rochester, River Campus Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "7200"
+    "arl": "7200"
   },
   {
     "_id": "usask_library",
     "name": "University of Saskatchewan Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "7370"
+    "arl": "7370"
   },
   {
     "_id": "sc_library",
     "name": "University of South Carolina, University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "7400"
+    "arl": "7400"
   },
   {
     "_id": "usc_library",
     "name": "University of Southern California Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "7500"
+    "arl": "7500"
   },
   {
     "_id": "utk_library",
     "name": "University of Tennessee, University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "8300"
+    "arl": "8300"
   },
   {
     "_id": "utexas_library",
     "name": "University of Texas Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "8400"
+    "arl": "8400"
   },
   {
     "_id": "utoronto_library",
     "name": "University of Toronto Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "8600"
+    "arl": "8600"
   },
   {
     "_id": "utah_library",
     "name": "University of Utah, J. Willard Marriott Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "8800"
+    "arl": "8800"
   },
   {
     "_id": "virginia_library",
     "name": "University of Virginia Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "8900"
+    "arl": "8900"
   },
   {
     "_id": "washington_library",
     "name": "University of Washington, University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "9100"
+    "arl": "9100"
   },
   {
     "_id": "uwaterloo_library",
     "name": "University of Waterloo Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "9350"
+    "arl": "9350"
   },
   {
     "_id": "wisc_library",
     "name": "University of Wisconsin Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "9600"
+    "arl": "9600"
   },
   {
     "_id": "vanderbilt_library",
     "name": "Vanderbilt University, Jean and Alexander Heard Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "8850"
+    "arl": "8850"
   },
   {
     "_id": "vcu_library",
     "name": "Virginia Commonwealth University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "8950"
+    "arl": "8950"
   },
   {
     "_id": "vt_library",
     "name": "Virginia Polytechnic Institute and State University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "9000"
+    "arl": "9000"
   },
   {
     "_id": "wsu_library",
     "name": "Washington State University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "9200"
+    "arl": "9200"
   },
   {
     "_id": "wustl_library",
     "name": "Washington University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "9300"
+    "arl": "9300"
   },
   {
     "_id": "wayne_library",
     "name": "Wayne State University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "9400"
+    "arl": "9400"
   },
   {
     "_id": "uwo_library",
     "name": "Western University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "9500"
+    "arl": "9500"
   },
   {
     "_id": "yale_library",
     "name": "Yale University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "9700"
+    "arl": "9700"
   },
   {
     "_id": "yorku_library",
     "name": "York University Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "9800"
+    "arl": "9800"
   },
   {
     "_id": "uic_library",
     "name": "University of Illinois, Chicago Library",
     "type": "org",
     "categories": [
-      "library",
-      "academic"
+      "library_academic"
     ],
     "tags": [
       "arl",
@@ -7270,15 +6648,14 @@
       "acrl",
       "gwla"
     ],
-    "arl_id": "3490"
+    "arl": "3490"
   },
   {
     "_id": "americanantiquarian",
     "name": "American Antiquarian Society",
     "type": "org",
     "categories": [
-      "library",
-      "independent"
+      "library_independent"
     ],
     "tags": [
       "irla"
@@ -7289,8 +6666,7 @@
     "name": "American Philosophical Society",
     "type": "org",
     "categories": [
-      "library",
-      "independent"
+      "library_independent"
     ],
     "tags": [
       "irla"
@@ -7301,8 +6677,7 @@
     "name": "Canadian Centre for Architecture",
     "type": "org",
     "categories": [
-      "library",
-      "independent"
+      "library_independent"
     ],
     "tags": [
       "irla"
@@ -7313,8 +6688,7 @@
     "name": "Herzog August Library",
     "type": "org",
     "categories": [
-      "library",
-      "independent"
+      "library_independent"
     ],
     "tags": [
       "irla"
@@ -7325,8 +6699,7 @@
     "name": "Linda Hall Library of Science, Engineering & Technology",
     "type": "org",
     "categories": [
-      "library",
-      "independent"
+      "library_independent"
     ],
     "tags": [
       "irla"
@@ -7337,8 +6710,7 @@
     "name": "Massachusetts Historical Society",
     "type": "org",
     "categories": [
-      "library",
-      "independent"
+      "library_independent"
     ],
     "tags": [
       "irla"
@@ -7349,8 +6721,7 @@
     "name": "The Folger Shakespeare Library",
     "type": "org",
     "categories": [
-      "library",
-      "independent"
+      "library_independent"
     ],
     "tags": [
       "irla"
@@ -7361,8 +6732,7 @@
     "name": "The Hagley Museum and Library",
     "type": "org",
     "categories": [
-      "library",
-      "independent"
+      "library_independent"
     ],
     "tags": [
       "irla"
@@ -7373,8 +6743,7 @@
     "name": "The Historical Society of Pennsylvania",
     "type": "org",
     "categories": [
-      "library",
-      "independent"
+      "library_independent"
     ],
     "tags": [
       "irla"
@@ -7385,8 +6754,7 @@
     "name": "The Huntington Library, Art Collections, and Botanical Gardens",
     "type": "org",
     "categories": [
-      "library",
-      "independent"
+      "library_independent"
     ],
     "tags": [
       "irla"
@@ -7397,8 +6765,7 @@
     "name": "The John Carter Brown Library",
     "type": "org",
     "categories": [
-      "library",
-      "independent"
+      "library_independent"
     ],
     "tags": [
       "irla"
@@ -7409,8 +6776,7 @@
     "name": "The Library Company of Philadelphia",
     "type": "org",
     "categories": [
-      "library",
-      "independent"
+      "library_independent"
     ],
     "tags": [
       "irla"
@@ -7421,8 +6787,7 @@
     "name": "The Morgan Library & Museum",
     "type": "org",
     "categories": [
-      "library",
-      "independent"
+      "library_independent"
     ],
     "tags": [
       "irla"
@@ -7433,8 +6798,7 @@
     "name": "The New York Academy of Medicine",
     "type": "org",
     "categories": [
-      "library",
-      "independent"
+      "library_independent"
     ],
     "tags": [
       "irla"
@@ -7445,8 +6809,7 @@
     "name": "The New-York Historical Society",
     "type": "org",
     "categories": [
-      "library",
-      "independent"
+      "library_independent"
     ],
     "tags": [
       "irla"
@@ -7457,8 +6820,7 @@
     "name": "The Newberry Library",
     "type": "org",
     "categories": [
-      "library",
-      "independent"
+      "library_independent"
     ],
     "tags": [
       "irla"
@@ -7469,8 +6831,7 @@
     "name": "The Virginia Historical Society",
     "type": "org",
     "categories": [
-      "library",
-      "independent"
+      "library_independent"
     ],
     "tags": [
       "irla"
@@ -7481,8 +6842,7 @@
     "name": "Winterthur Museum, Garden & Library",
     "type": "org",
     "categories": [
-      "library",
-      "independent"
+      "library_independent"
     ],
     "tags": [
       "irla"
@@ -7493,8 +6853,7 @@
     "name": "The Art Institute of Chicago, Ryerson and Burnham Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "museum"
+      "library_museum"
     ]
   },
   {
@@ -7502,8 +6861,7 @@
     "name": "The Metropolitan Museum of Art Libraries and Research Centers",
     "type": "org",
     "categories": [
-      "library",
-      "museum"
+      "library_museum"
     ]
   },
   {
@@ -7511,8 +6869,7 @@
     "name": "The Museum of Modern Art Library",
     "type": "org",
     "categories": [
-      "library",
-      "museum"
+      "library_museum"
     ]
   },
   {
@@ -7520,8 +6877,7 @@
     "name": "The Getty Research Library",
     "type": "org",
     "categories": [
-      "library",
-      "museum"
+      "library_museum"
     ],
     "tags": [
       "irla"
@@ -7532,8 +6888,7 @@
     "name": "Allen County Public Library",
     "type": "org",
     "categories": [
-      "library",
-      "public"
+      "library_public"
     ]
   },
   {
@@ -7541,8 +6896,7 @@
     "name": "Anchorage Public Library",
     "type": "org",
     "categories": [
-      "library",
-      "public"
+      "library_public"
     ]
   },
   {
@@ -7550,8 +6904,7 @@
     "name": "Atlanta-Fulton Public Library",
     "type": "org",
     "categories": [
-      "library",
-      "public"
+      "library_public"
     ]
   },
   {
@@ -7559,8 +6912,7 @@
     "name": "Birmingham Public Library",
     "type": "org",
     "categories": [
-      "library",
-      "public"
+      "library_public"
     ]
   },
   {
@@ -7568,8 +6920,7 @@
     "name": "Brooklyn Public Library",
     "type": "org",
     "categories": [
-      "library",
-      "public"
+      "library_public"
     ]
   },
   {
@@ -7577,8 +6928,7 @@
     "name": "Broward County Library",
     "type": "org",
     "categories": [
-      "library",
-      "public"
+      "library_public"
     ]
   },
   {
@@ -7586,8 +6936,7 @@
     "name": "California State Library",
     "type": "org",
     "categories": [
-      "library",
-      "public"
+      "library_public"
     ]
   },
   {
@@ -7595,8 +6944,7 @@
     "name": "Chicago Public Library",
     "type": "org",
     "categories": [
-      "library",
-      "public"
+      "library_public"
     ]
   },
   {
@@ -7604,8 +6952,7 @@
     "name": "Cleveland Public Library",
     "type": "org",
     "categories": [
-      "library",
-      "public"
+      "library_public"
     ]
   },
   {
@@ -7613,8 +6960,7 @@
     "name": "Cuyahoga County Public Library",
     "type": "org",
     "categories": [
-      "library",
-      "public"
+      "library_public"
     ]
   },
   {
@@ -7622,8 +6968,7 @@
     "name": "Dallas Public Library",
     "type": "org",
     "categories": [
-      "library",
-      "public"
+      "library_public"
     ]
   },
   {
@@ -7631,8 +6976,7 @@
     "name": "Dayton Metro Library",
     "type": "org",
     "categories": [
-      "library",
-      "public"
+      "library_public"
     ]
   },
   {
@@ -7640,8 +6984,7 @@
     "name": "Detroit Public Library",
     "type": "org",
     "categories": [
-      "library",
-      "public"
+      "library_public"
     ]
   },
   {
@@ -7649,8 +6992,7 @@
     "name": "Hawaii State Public Library System",
     "type": "org",
     "categories": [
-      "library",
-      "public"
+      "library_public"
     ]
   },
   {
@@ -7658,8 +7000,7 @@
     "name": "Hennepin County Library",
     "type": "org",
     "categories": [
-      "library",
-      "public"
+      "library_public"
     ]
   },
   {
@@ -7667,8 +7008,7 @@
     "name": "Houston Public Library",
     "type": "org",
     "categories": [
-      "library",
-      "public"
+      "library_public"
     ]
   },
   {
@@ -7676,8 +7016,7 @@
     "name": "King County Library System",
     "type": "org",
     "categories": [
-      "library",
-      "public"
+      "library_public"
     ]
   },
   {
@@ -7685,8 +7024,7 @@
     "name": "LA County Library",
     "type": "org",
     "categories": [
-      "library",
-      "public"
+      "library_public"
     ]
   },
   {
@@ -7694,8 +7032,7 @@
     "name": "Las Vegas-Clark County Library District",
     "type": "org",
     "categories": [
-      "library",
-      "public"
+      "library_public"
     ]
   },
   {
@@ -7703,8 +7040,7 @@
     "name": "Los Angeles Public Library",
     "type": "org",
     "categories": [
-      "library",
-      "public"
+      "library_public"
     ]
   },
   {
@@ -7712,8 +7048,7 @@
     "name": "Miami-Dade Public Library System",
     "type": "org",
     "categories": [
-      "library",
-      "public"
+      "library_public"
     ]
   },
   {
@@ -7721,8 +7056,7 @@
     "name": "Phoenix Public Library",
     "type": "org",
     "categories": [
-      "library",
-      "public"
+      "library_public"
     ]
   },
   {
@@ -7730,8 +7064,7 @@
     "name": "Public Library of Cincinnati and Hamilton County",
     "type": "org",
     "categories": [
-      "library",
-      "public"
+      "library_public"
     ]
   },
   {
@@ -7739,8 +7072,7 @@
     "name": "Queens Borough Public Library",
     "type": "org",
     "categories": [
-      "library",
-      "public"
+      "library_public"
     ]
   },
   {
@@ -7748,8 +7080,7 @@
     "name": "San Francisco Public Library",
     "type": "org",
     "categories": [
-      "library",
-      "public"
+      "library_public"
     ]
   },
   {
@@ -7757,8 +7088,7 @@
     "name": "St. Louis Public Library",
     "type": "org",
     "categories": [
-      "library",
-      "public"
+      "library_public"
     ]
   },
   {
@@ -7766,35 +7096,32 @@
     "name": "Boston Public Library",
     "type": "org",
     "categories": [
-      "library",
-      "public"
+      "library_public"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "9850"
+    "arl": "9850"
   },
   {
     "_id": "nypl",
     "name": "New York Public Library",
     "type": "org",
     "categories": [
-      "library",
-      "public"
+      "library_public"
     ],
     "tags": [
       "arl",
       "irla"
     ],
-    "arl_id": "9950"
+    "arl": "9950"
   },
   {
     "_id": "bac-lac",
     "name": "Library and Archives Canada",
     "type": "org",
     "categories": [
-      "library",
-      "state"
+      "library_state"
     ]
   },
   {
@@ -7802,8 +7129,7 @@
     "name": "Texas State Library and Archives Commission",
     "type": "org",
     "categories": [
-      "library",
-      "state"
+      "library_state"
     ]
   },
   {
@@ -7811,86 +7137,79 @@
     "name": "Library of Congress",
     "type": "org",
     "categories": [
-      "library",
-      "state"
+      "library_state"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "9890"
+    "arl": "9890"
   },
   {
     "_id": "nal",
     "name": "National Agricultural Library",
     "type": "org",
     "categories": [
-      "library",
-      "state"
+      "library_state"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "9910"
+    "arl": "9910"
   },
   {
     "_id": "archives",
     "name": "National Archives and Records Administration",
     "type": "org",
     "categories": [
-      "library",
-      "state"
+      "library_state"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "9915"
+    "arl": "9915"
   },
   {
     "_id": "nlm",
     "name": "National Library of Medicine",
     "type": "org",
     "categories": [
-      "library",
-      "state"
+      "library_state"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "9930"
+    "arl": "9930"
   },
   {
     "_id": "nysl",
     "name": "New York State Library",
     "type": "org",
     "categories": [
-      "library",
-      "state"
+      "library_state"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "9960"
+    "arl": "9960"
   },
   {
     "_id": "sil",
     "name": "Smithsonian Libraries",
     "type": "org",
     "categories": [
-      "library",
-      "state"
+      "library_state"
     ],
     "tags": [
       "arl"
     ],
-    "arl_id": "9980"
+    "arl": "9980"
   },
   {
     "_id": "luma",
     "name": "Loyola University Museum of Art",
     "type": "org",
     "categories": [
-      "museum",
-      "art"
+      "museum_art"
     ]
   },
   {
@@ -7898,8 +7217,7 @@
     "name": "Museum of Contemporary Art",
     "type": "org",
     "categories": [
-      "museum",
-      "art"
+      "museum_art"
     ]
   },
   {
@@ -7907,8 +7225,7 @@
     "name": "Museum of Contemporary Photography",
     "type": "org",
     "categories": [
-      "museum",
-      "art"
+      "museum_art"
     ]
   },
   {
@@ -7916,8 +7233,7 @@
     "name": "National Museum of Mexican Art",
     "type": "org",
     "categories": [
-      "museum",
-      "art"
+      "museum_art"
     ]
   },
   {
@@ -7925,8 +7241,7 @@
     "name": "Oriental Institute",
     "type": "org",
     "categories": [
-      "museum",
-      "art"
+      "museum_art"
     ]
   },
   {
@@ -7934,8 +7249,7 @@
     "name": "Smart Museum of Art",
     "type": "org",
     "categories": [
-      "museum",
-      "art"
+      "museum_art"
     ]
   },
   {
@@ -7943,8 +7257,7 @@
     "name": "The Art Institute of Chicago",
     "type": "org",
     "categories": [
-      "museum",
-      "art"
+      "museum_art"
     ]
   },
   {
@@ -7952,8 +7265,7 @@
     "name": "The Getty",
     "type": "org",
     "categories": [
-      "museum",
-      "art"
+      "museum_art"
     ]
   },
   {
@@ -7961,8 +7273,7 @@
     "name": "The Metropolitan Museum of Art",
     "type": "org",
     "categories": [
-      "museum",
-      "art"
+      "museum_art"
     ]
   },
   {
@@ -7970,8 +7281,7 @@
     "name": "The Museum of Modern Art",
     "type": "org",
     "categories": [
-      "museum",
-      "art"
+      "museum_art"
     ]
   },
   {
@@ -7979,8 +7289,7 @@
     "name": "Chicago History Museum",
     "type": "org",
     "categories": [
-      "museum",
-      "humanities"
+      "museum_humanities"
     ]
   },
   {
@@ -7988,8 +7297,7 @@
     "name": "DuSable Museum of African American History",
     "type": "org",
     "categories": [
-      "museum",
-      "humanities"
+      "museum_humanities"
     ]
   },
   {
@@ -7997,8 +7305,7 @@
     "name": "Adler Planetarium",
     "type": "org",
     "categories": [
-      "museum",
-      "science"
+      "museum_science"
     ]
   },
   {
@@ -8006,8 +7313,7 @@
     "name": "Field Museum",
     "type": "org",
     "categories": [
-      "museum",
-      "science"
+      "museum_science"
     ]
   },
   {
@@ -8015,8 +7321,7 @@
     "name": "Museum of Science and Industry",
     "type": "org",
     "categories": [
-      "museum",
-      "science"
+      "museum_science"
     ]
   },
   {
@@ -8024,8 +7329,7 @@
     "name": "Peggy Notebaert Nature Museum",
     "type": "org",
     "categories": [
-      "museum",
-      "science"
+      "museum_science"
     ]
   }
 ]

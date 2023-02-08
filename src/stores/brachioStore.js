@@ -37,11 +37,12 @@ export const useBrachioStore = defineStore("brachioStore", {
       return (
         this.nodes
           // filter out non-libraries, e.g. university nodes
-          .filter((node) => node.categories && node.categories[0] === "library")
+          .filter(
+            (node) => node.categories && node.categories[0].match("library")
+          )
 
           // keyword filter
           .filter((node) => {
-
             return node.search_target.includes(indexify(this.filters.keyword));
           })
 
@@ -49,6 +50,12 @@ export const useBrachioStore = defineStore("brachioStore", {
           .sort((a, b) => a[this.pager.sort] > b[this.pager.sort])
       );
     },
+    paged_libraries() {
+      return this.libraries.slice(
+        this.pager.cursor,
+        this.pager.cursor + this.pager.qty
+      );
+    }
   },
   actions: {
     async init() {
@@ -63,8 +70,8 @@ export const useBrachioStore = defineStore("brachioStore", {
             (api_connection) => new Connection(api_connection)
           ),
           filters: {
-            keyword: "chicago"
-          }
+            keyword: "chicago",
+          },
         });
 
         // store parents and children in nodes
@@ -119,6 +126,5 @@ export const useBrachioStore = defineStore("brachioStore", {
     reset_pager() {
       this.$patch({ pager: { cursor: 0 } });
     },
-
   },
 });

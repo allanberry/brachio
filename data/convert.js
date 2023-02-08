@@ -131,6 +131,10 @@ const filesets = [
   {
     src: `${source_dir}/Brachio - technologies.csv`,
     target: `${save_dir}/technologies.json`,
+    colParser: {
+      builtwith: (item) => item === "TRUE",
+      wappalyzer: (item) => item === "TRUE",
+    },
   },
 ];
 

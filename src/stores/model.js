@@ -456,11 +456,11 @@ class Snapshot {
       // const techs_wappalyzer;
 
       // console.log({ techs_builtwith, techs_wappalyzer, api_technologies });
-      console.log(
-        api_technologies.filter((tech) => {
-          return tech.builtwith;
-        })
-      );
+      // console.log(
+      //   api_technologies.filter((tech) => {
+      //     return tech.builtwith;
+      //   })
+      // );
     }
   }
 }

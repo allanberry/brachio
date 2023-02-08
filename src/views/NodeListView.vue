@@ -17,12 +17,7 @@ export default {
     return {};
   },
   computed: {
-    paged_libraries() {
-      return store.libraries.slice(
-        store.pager.cursor,
-        store.pager.cursor + store.pager.qty
-      );
-    },
+    paged_libraries: () => store.paged_libraries,
   },
   methods: {},
   async mounted() {

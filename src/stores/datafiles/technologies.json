@@ -2,4825 +2,4809 @@
   {
     "id": "51-la",
     "name": "51.la",
-    "builtwith": true
+    "builtwith_name": "51.la"
   },
   {
     "id": "960-gs",
     "name": "960.gs",
-    "builtwith": true
+    "builtwith_name": "960.gs"
   },
   {
     "id": "ac-quicktime",
     "name": "AC Quicktime",
-    "builtwith": true
-  },
-  {
-    "name": "Accelerated Mobile Pages",
-    "builtwith": true,
-    "alias": "amp"
-  },
-  {
-    "name": "Add to Any",
-    "builtwith": true,
-    "alias": "addtoany"
+    "builtwith_name": "AC Quicktime"
   },
   {
     "id": "addthis",
     "name": "AddThis",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "AddThis",
+    "wappalyzer_name": "AddThis"
   },
   {
     "id": "addtoany",
     "name": "AddToAny",
-    "wappalyzer": true
+    "wappalyzer_name": "AddToAny"
   },
   {
     "id": "addtocalendar",
     "name": "AddToCalendar",
-    "builtwith": true
+    "builtwith_name": "AddToCalendar"
   },
   {
     "id": "adobe-active-content",
     "name": "Adobe Active Content",
-    "builtwith": true
+    "builtwith_name": "Adobe Active Content"
   },
   {
     "id": "adobe-analytics",
     "name": "Adobe Analytics",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "Adobe Analytics",
+    "wappalyzer_name": "Adobe Analytics"
   },
   {
     "id": "adobe-coldfusion",
     "name": "Adobe ColdFusion",
-    "builtwith": true
+    "builtwith_name": "Adobe ColdFusion"
   },
   {
     "id": "adobe-cq",
     "name": "Adobe CQ",
-    "builtwith": true
+    "builtwith_name": "Adobe CQ"
   },
   {
     "id": "adobe-cross-domain-configuration",
     "name": "Adobe Cross Domain Configuration",
-    "builtwith": true
-  },
-  {
-    "name": "Adobe Dreamweaver",
-    "builtwith": true,
-    "alias": "dreamweaver"
+    "builtwith_name": "Adobe Cross Domain Configuration"
   },
   {
     "id": "adobe-dtm",
     "name": "Adobe DTM",
-    "wappalyzer": true
+    "wappalyzer_name": "Adobe DTM"
   },
   {
     "id": "adobe-experience-manager",
     "name": "Adobe Experience Manager",
-    "builtwith": true,
-    "wappalyzer": true
-  },
-  {
-    "id": "flash",
-    "name": "Adobe Flash"
+    "builtwith_name": "Adobe Experience Manager",
+    "wappalyzer_name": "Adobe Experience Manager"
   },
   {
     "id": "adobe-golive",
     "name": "Adobe GoLive",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "Adobe GoLive",
+    "wappalyzer_name": "Adobe GoLive"
   },
   {
     "id": "adobe-pagemill",
     "name": "Adobe PageMill",
-    "builtwith": true
+    "builtwith_name": "Adobe PageMill"
   },
   {
     "id": "adobe-spry",
     "name": "Adobe Spry",
-    "builtwith": true
+    "builtwith_name": "Adobe Spry"
   },
   {
     "id": "adroll",
     "name": "AdRoll",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "AdRoll",
+    "wappalyzer_name": "AdRoll"
   },
   {
     "id": "ajax-libraries-api",
     "name": "AJAX Libraries API",
-    "builtwith": true
+    "builtwith_name": "AJAX Libraries API"
   },
   {
     "id": "akamai",
     "name": "Akamai",
-    "builtwith": true
+    "builtwith_name": "Akamai"
   },
   {
     "id": "all-in-one-seo-pack",
     "name": "All in One SEO Pack",
-    "builtwith": true
+    "builtwith_name": "All in One SEO Pack"
   },
   {
     "id": "alternate-protocol",
     "name": "Alternate Protocol",
-    "builtwith": true
-  },
-  {
-    "id": "s3",
-    "name": "Amazon S3",
-    "builtwith": true
+    "builtwith_name": "Alternate Protocol"
   },
   {
     "id": "amp",
     "name": "AMP",
-    "wappalyzer": true
+    "wappalyzer_name": "AMP"
   },
   {
     "id": "angular-js",
     "name": "Angular JS",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "Angular JS"
   },
   {
     "id": "angularjs",
+    "alias": "angular-js",
     "name": "AngularJS",
-    "wappalyzer": true
+    "wappalyzer_name": "AngularJS"
   },
   {
     "id": "animate-css",
     "name": "animate.css",
-    "wappalyzer": true,
-    "category": "css"
+    "wappalyzer_name": "animate.css"
   },
   {
     "id": "anythingslider",
     "name": "AnythingSlider",
-    "builtwith": true
+    "builtwith_name": "AnythingSlider"
   },
   {
     "id": "apache",
     "name": "Apache",
-    "builtwith": true,
-    "category": "servers"
-  },
-  {
-    "name": "Apache 1.3",
-    "builtwith": true,
-    "alias": "apache",
-    "category": "servers"
-  },
-  {
-    "name": "Apache 2.0",
-    "builtwith": true,
-    "alias": "apache",
-    "category": "servers"
-  },
-  {
-    "name": "Apache 2.2",
-    "builtwith": true,
-    "alias": "apache",
-    "category": "servers"
-  },
-  {
-    "name": "Apache 2.4",
-    "builtwith": true,
-    "alias": "apache",
-    "category": "servers"
+    "builtwith_name": "Apache"
   },
   {
     "id": "apache-tomcat",
     "name": "Apache Tomcat"
   },
   {
-    "name": "Apache Tomcat Coyote",
-    "builtwith": true,
-    "alias": "apache-tomcat",
-    "category": "servers"
-  },
-  {
-    "name": "Apache Tomcat JK",
-    "builtwith": true,
-    "alias": "apache-tomcat",
-    "category": "servers"
-  },
-  {
     "id": "appdynamics",
     "name": "AppDynamics",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "AppDynamics",
+    "wappalyzer_name": "AppDynamics"
   },
   {
     "id": "apple-mobile-web",
     "name": "Apple Mobile Web"
   },
   {
-    "name": "Apple Mobile Web App Capable",
-    "builtwith": true,
-    "alias": "apple-mobile-web"
-  },
-  {
-    "name": "Apple Mobile Web App Status Bar Style",
-    "builtwith": true,
-    "alias": "apple-mobile-web"
-  },
-  {
-    "name": "Apple Mobile Web Clips Icon",
-    "builtwith": true,
-    "alias": "apple-mobile-web",
-    "category": "icons"
-  },
-  {
-    "name": "Applet",
-    "builtwith": true,
-    "alias": "java"
-  },
-  {
     "id": "application-request-routing",
     "name": "Application Request Routing",
-    "builtwith": true
+    "builtwith_name": "Application Request Routing"
   },
   {
     "id": "applyweb",
     "name": "ApplyWeb",
-    "builtwith": true
+    "builtwith_name": "ApplyWeb"
   },
   {
     "id": "appnexus",
     "name": "AppNexus",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "AppNexus",
+    "wappalyzer_name": "AppNexus"
   },
   {
     "id": "appnexus-segment-pixel",
     "name": "AppNexus Segment Pixel",
-    "builtwith": true
+    "builtwith_name": "AppNexus Segment Pixel"
   },
   {
     "id": "arcgis",
     "name": "ArcGIS",
-    "builtwith": true
-  },
-  {
-    "name": "ASP.NET",
-    "builtwith": true,
-    "alias": "microsoft-asp-net"
-  },
-  {
-    "name": "ASP.NET Ajax",
-    "builtwith": true,
-    "alias": "microsoft-asp-net"
-  },
-  {
-    "name": "ASP.NET MVC",
-    "builtwith": true,
-    "alias": "microsoft-asp-net"
+    "builtwith_name": "ArcGIS"
   },
   {
     "id": "atg-click-to-call",
     "name": "ATG Click to Call",
-    "builtwith": true
+    "builtwith_name": "ATG Click to Call"
   },
   {
     "id": "atlassian-jira-issue-collector",
     "name": "Atlassian JIRA Issue Collector",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "Atlassian JIRA Issue Collector",
+    "wappalyzer_name": "Atlassian JIRA Issue Collector"
   },
   {
     "id": "atom",
     "name": "Atom",
-    "builtwith": true
+    "builtwith_name": "Atom"
   },
   {
     "id": "atomz",
     "name": "Atomz",
-    "builtwith": true
+    "builtwith_name": "Atomz"
   },
   {
     "id": "auth-passthrough",
     "name": "Auth Passthrough",
-    "builtwith": true
+    "builtwith_name": "Auth Passthrough"
   },
   {
     "id": "autoptimize",
     "name": "Autoptimize",
-    "builtwith": true
+    "builtwith_name": "Autoptimize"
   },
   {
     "id": "awstats",
     "name": "AWStats",
-    "builtwith": true
+    "builtwith_name": "AWStats"
   },
   {
     "id": "axios",
     "name": "Axios",
-    "builtwith": true
-  },
-  {
-    "name": "Azure Edge",
-    "builtwith": true,
-    "alias": "microsoft-azure"
+    "builtwith_name": "Axios"
   },
   {
     "id": "babel",
     "name": "Babel",
-    "wappalyzer": true
+    "wappalyzer_name": "Babel"
   },
   {
     "id": "backbone-js",
     "name": "Backbone.js",
-    "builtwith": true,
-    "wappalyzer": true,
-    "category": "JavaScript library"
+    "builtwith_name": "Backbone.js",
+    "wappalyzer_name": "Backbone.js"
   },
   {
     "id": "background-sound",
     "name": "Background Sound",
-    "builtwith": true
+    "builtwith_name": "Background Sound"
   },
   {
     "id": "big-ip",
     "name": "BIG-IP",
-    "builtwith": true
+    "builtwith_name": "BIG-IP"
   },
   {
     "id": "blackbaud",
     "name": "Blackbaud",
-    "builtwith": true
+    "builtwith_name": "Blackbaud"
   },
   {
     "id": "blink-element",
     "name": "Blink Element",
-    "builtwith": true
+    "builtwith_name": "Blink Element"
   },
   {
     "id": "blogger",
     "name": "Blogger",
-    "builtwith": true
+    "builtwith_name": "Blogger"
   },
   {
     "id": "bloomreach",
     "name": "Bloomreach",
-    "wappalyzer": true
+    "wappalyzer_name": "Bloomreach"
   },
   {
     "id": "blueconic",
     "name": "BlueConic",
-    "builtwith": true
+    "builtwith_name": "BlueConic"
   },
   {
     "id": "bootstrap",
     "name": "Bootstrap",
-    "wappalyzer": true,
-    "category": "ui frameworks"
-  },
-  {
-    "name": "Bootstrap 2.3.*",
-    "builtwith": true,
-    "alias": "bootstrap",
-    "category": "ui frameworks"
-  },
-  {
-    "name": "Bootstrap 3.3.*",
-    "builtwith": true,
-    "alias": "bootstrap",
-    "category": "ui frameworks"
-  },
-  {
-    "name": "Bootstrap 3.4.*",
-    "builtwith": true,
-    "alias": "bootstrap",
-    "category": "ui frameworks"
-  },
-  {
-    "name": "Bootstrap 4.1.*",
-    "builtwith": true,
-    "alias": "bootstrap",
-    "category": "ui frameworks"
+    "wappalyzer_name": "Bootstrap"
   },
   {
     "id": "box-over",
     "name": "Box Over",
-    "builtwith": true
+    "builtwith_name": "Box Over"
   },
   {
     "id": "brightcove",
     "name": "Brightcove",
-    "builtwith": true
+    "builtwith_name": "Brightcove"
   },
   {
     "id": "brightedge",
     "name": "BrightEdge",
-    "builtwith": true
+    "builtwith_name": "BrightEdge"
   },
   {
     "id": "browse-happy",
     "name": "Browse Happy",
-    "builtwith": true
+    "builtwith_name": "Browse Happy"
   },
   {
     "id": "browser-update",
     "name": "Browser-Update",
-    "builtwith": true
+    "builtwith_name": "Browser-Update"
   },
   {
     "id": "buysellads",
     "name": "BuySellAds",
-    "wappalyzer": true
+    "wappalyzer_name": "BuySellAds"
   },
   {
     "id": "bxslider",
     "name": "bxSlider",
-    "builtwith": true
+    "builtwith_name": "bxSlider"
   },
   {
     "id": "cache-control",
     "name": "Cache Control",
-    "builtwith": true
+    "builtwith_name": "Cache Control"
   },
   {
     "id": "campaignmonitor",
     "name": "Campaign Monitor",
-    "builtwith": true
-  },
-  {
-    "name": "Campaign Monitor Widget",
-    "builtwith": true,
-    "alias": "campaignmonitor"
+    "builtwith_name": "Campaign Monitor"
   },
   {
     "id": "canonical-content-tag",
     "name": "Canonical Content Tag",
-    "builtwith": true
+    "builtwith_name": "Canonical Content Tag"
   },
   {
     "id": "carbon-ads",
     "name": "Carbon Ads",
-    "wappalyzer": true
+    "wappalyzer_name": "Carbon Ads"
   },
   {
     "id": "caroufredsel",
     "name": "carouFredSel",
-    "builtwith": true
+    "builtwith_name": "carouFredSel"
   },
   {
     "id": "cart-functionality",
     "name": "Cart Functionality",
-    "wappalyzer": true
-  },
-  {
-    "id": "css",
-    "name": "Cascading Style Sheets",
-    "builtwith": true,
-    "category": "css"
+    "wappalyzer_name": "Cart Functionality"
   },
   {
     "id": "cashnet",
     "name": "Cashnet",
-    "builtwith": true
-  },
-  {
-    "id": "cdn-js",
-    "name": "CDN JS",
-    "builtwith": true,
-    "category": "cdn"
-  },
-  {
-    "id": "centos",
-    "name": "CentOS",
-    "builtwith": true
-  },
-  {
-    "id": "chart-js",
-    "name": "Chart.js",
-    "wappalyzer": true,
-    "category": "JavaScript library"
-  },
-  {
-    "id": "chartbeat",
-    "name": "Chartbeat",
-    "builtwith": true,
-    "wappalyzer": true
-  },
-  {
-    "id": "cisco-arrowpoint-content-service-switch",
-    "name": "Cisco/Arrowpoint Content Service Switch",
-    "builtwith": true
-  },
-  {
-    "id": "citrix-netscaler",
-    "name": "Citrix NetScaler",
-    "builtwith": true
-  },
-  {
-    "id": "ckeditor",
-    "name": "CKEditor",
-    "builtwith": true,
-    "wappalyzer": true
-  },
-  {
-    "id": "clarivate",
-    "name": "Clarivate",
-    "builtwith": true
-  },
-  {
-    "id": "clickheat",
-    "name": "Clickheat",
-    "builtwith": true,
-    "wappalyzer": true
-  },
-  {
-    "id": "clicky",
-    "name": "Clicky",
-    "builtwith": true
-  },
-  {
-    "id": "clipboard-js",
-    "name": "Clipboard.js",
-    "wappalyzer": true,
-    "category": "JavaScript library"
-  },
-  {
-    "id": "cloudflare-js",
-    "name": "Cloudflare JS",
-    "builtwith": true,
-    "category": "JavaScript library"
-  },
-  {
-    "id": "cloudfront",
-    "name": "CloudFront",
-    "builtwith": true
-  },
-  {
-    "id": "cludo",
-    "name": "Cludo",
-    "builtwith": true
-  },
-  {
-    "id": "codemirror",
-    "name": "CodeMirror",
-    "builtwith": true
-  },
-  {
-    "id": "collegeoruniversity-schema",
-    "name": "CollegeOrUniversity Schema",
-    "builtwith": true
-  },
-  {
-    "id": "concrete5",
-    "name": "Concrete5",
-    "builtwith": true,
-    "wappalyzer": true
-  },
-  {
-    "id": "conditional-comments",
-    "name": "Conditional Comments",
-    "builtwith": true
-  },
-  {
-    "id": "constant-contact",
-    "name": "Constant Contact",
-    "builtwith": true
-  },
-  {
-    "id": "contact-form-7",
-    "name": "Contact Form 7",
-    "builtwith": true
-  },
-  {
-    "id": "contactpoint-schema",
-    "name": "ContactPoint Schema",
-    "builtwith": true
+    "builtwith_name": "Cashnet"
   },
   {
     "id": "cdn",
     "name": "Content Delivery Network",
-    "builtwith": true,
-    "category": "cdn"
+    "builtwith_name": "Content Delivery Network"
+  },
+  {
+    "id": "cdn-js",
+    "name": "CDN JS",
+    "builtwith_name": "CDN JS"
+  },
+  {
+    "id": "centos",
+    "name": "CentOS",
+    "builtwith_name": "CentOS"
+  },
+  {
+    "id": "chart-js",
+    "name": "Chart.js",
+    "wappalyzer_name": "Chart.js"
+  },
+  {
+    "id": "chartbeat",
+    "name": "Chartbeat",
+    "builtwith_name": "Chartbeat",
+    "wappalyzer_name": "Chartbeat"
+  },
+  {
+    "id": "cisco-arrowpoint-content-service-switch",
+    "name": "Cisco/Arrowpoint Content Service Switch",
+    "builtwith_name": "Cisco/Arrowpoint Content Service Switch"
+  },
+  {
+    "id": "citrix-netscaler",
+    "name": "Citrix NetScaler",
+    "builtwith_name": "Citrix NetScaler"
+  },
+  {
+    "id": "ckeditor",
+    "name": "CKEditor",
+    "builtwith_name": "CKEditor",
+    "wappalyzer_name": "CKEditor"
+  },
+  {
+    "id": "clarivate",
+    "name": "Clarivate",
+    "builtwith_name": "Clarivate"
+  },
+  {
+    "id": "clickheat",
+    "name": "Clickheat",
+    "builtwith_name": "Clickheat",
+    "wappalyzer_name": "Clickheat"
+  },
+  {
+    "id": "clicky",
+    "name": "Clicky",
+    "builtwith_name": "Clicky"
+  },
+  {
+    "id": "clipboard-js",
+    "name": "Clipboard.js",
+    "wappalyzer_name": "Clipboard.js"
+  },
+  {
+    "id": "cloudflare-js",
+    "name": "Cloudflare JS",
+    "builtwith_name": "Cloudflare JS"
+  },
+  {
+    "id": "cloudfront",
+    "name": "CloudFront",
+    "builtwith_name": "CloudFront"
+  },
+  {
+    "id": "cludo",
+    "name": "Cludo",
+    "builtwith_name": "Cludo"
+  },
+  {
+    "id": "codemirror",
+    "name": "CodeMirror",
+    "builtwith_name": "CodeMirror"
+  },
+  {
+    "id": "collegeoruniversity-schema",
+    "name": "CollegeOrUniversity Schema",
+    "builtwith_name": "CollegeOrUniversity Schema"
+  },
+  {
+    "id": "concrete5",
+    "name": "Concrete5",
+    "builtwith_name": "Concrete5",
+    "wappalyzer_name": "Concrete5"
+  },
+  {
+    "id": "conditional-comments",
+    "name": "Conditional Comments",
+    "builtwith_name": "Conditional Comments"
+  },
+  {
+    "id": "constant-contact",
+    "name": "Constant Contact",
+    "builtwith_name": "Constant Contact"
+  },
+  {
+    "id": "contact-form-7",
+    "name": "Contact Form 7",
+    "builtwith_name": "Contact Form 7"
+  },
+  {
+    "id": "contactpoint-schema",
+    "name": "ContactPoint Schema",
+    "builtwith_name": "ContactPoint Schema"
   },
   {
     "id": "content-security-policy",
     "name": "Content Security Policy",
-    "builtwith": true
+    "builtwith_name": "Content Security Policy"
   },
   {
     "id": "content-style-type",
     "name": "Content Style Type",
-    "builtwith": true
+    "builtwith_name": "Content Style Type"
   },
   {
     "id": "content-type-options",
     "name": "Content Type Options",
-    "builtwith": true
+    "builtwith_name": "Content Type Options"
   },
   {
     "id": "convio",
     "name": "Convio",
-    "builtwith": true
+    "builtwith_name": "Convio"
   },
   {
     "id": "cookie-consent-by-osano",
     "name": "Cookie Consent by Osano",
-    "builtwith": true
+    "builtwith_name": "Cookie Consent by Osano"
   },
   {
     "id": "cookie-notice",
     "name": "Cookie Notice",
-    "builtwith": true
+    "builtwith_name": "Cookie Notice"
   },
   {
     "id": "cors",
     "name": "CORS",
-    "builtwith": true
+    "builtwith_name": "CORS"
   },
   {
     "id": "crazy-egg",
     "name": "Crazy Egg",
-    "wappalyzer": true
-  },
-  {
-    "name": "CrazyEgg",
-    "builtwith": true,
-    "alias": "crazy-egg"
+    "wappalyzer_name": "Crazy Egg"
   },
   {
     "id": "createjs",
     "name": "CreateJS",
-    "builtwith": true
+    "builtwith_name": "CreateJS"
   },
   {
     "id": "creative-commons",
     "name": "Creative Commons",
-    "builtwith": true
+    "builtwith_name": "Creative Commons"
   },
   {
     "id": "creativework-schema",
     "name": "CreativeWork Schema",
-    "builtwith": true
+    "builtwith_name": "CreativeWork Schema"
+  },
+  {
+    "id": "css",
+    "name": "Cascading Style Sheets",
+    "builtwith_name": "Cascading Style Sheets"
   },
   {
     "id": "css3-mediaqueries-js",
     "name": "css3-mediaqueries.js",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "css3-mediaqueries.js"
   },
   {
     "id": "cufon",
     "name": "cufón",
-    "builtwith": true
+    "builtwith_name": "cufón"
   },
   {
     "id": "datatables",
     "name": "DataTables",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "DataTables",
+    "wappalyzer_name": "DataTables"
   },
   {
     "id": "dav",
     "name": "DAV",
-    "builtwith": true
+    "builtwith_name": "DAV"
   },
   {
     "id": "day-js",
     "name": "Day.js",
-    "builtwith": true,
-    "wappalyzer": true,
-    "category": "JavaScript library"
+    "builtwith_name": "Day.js",
+    "wappalyzer_name": "Day.js"
   },
   {
     "id": "debian",
     "name": "Debian",
-    "builtwith": true,
-    "category": "os"
-  },
-  {
-    "name": "Debian Lennny",
-    "builtwith": true,
-    "alias": "debian",
-    "category": "os"
+    "builtwith_name": "Debian"
   },
   {
     "id": "deepmetrix",
     "name": "DeepMetrix",
-    "builtwith": true
+    "builtwith_name": "DeepMetrix"
   },
   {
     "id": "delicious",
     "name": "Del.icio.us",
-    "builtwith": true
+    "builtwith_name": "Del.icio.us"
   },
   {
     "id": "digg",
     "name": "Digg",
-    "builtwith": true
+    "builtwith_name": "Digg"
   },
   {
     "id": "disqus",
     "name": "Disqus",
-    "wappalyzer": true
+    "wappalyzer_name": "Disqus"
   },
   {
     "id": "divi",
     "name": "Divi",
-    "builtwith": true
+    "builtwith_name": "Divi"
   },
   {
     "id": "dnn",
     "name": "DNN",
-    "wappalyzer": true
-  },
-  {
-    "name": "DNN Software",
-    "builtwith": true,
-    "alias": "dnn"
+    "wappalyzer_name": "DNN"
   },
   {
     "id": "dns-prefetch",
     "name": "DNS Prefetch",
-    "builtwith": true
+    "builtwith_name": "DNS Prefetch"
   },
   {
     "id": "document-class",
     "name": "Document Class",
-    "builtwith": true
+    "builtwith_name": "Document Class"
   },
   {
     "id": "document-rights",
     "name": "Document Rights",
-    "builtwith": true
+    "builtwith_name": "Document Rights"
   },
   {
     "id": "dojo",
     "name": "Dojo",
-    "wappalyzer": true
-  },
-  {
-    "name": "Dojo Toolkit",
-    "builtwith": true,
-    "alias": "dojo"
+    "wappalyzer_name": "Dojo"
   },
   {
     "id": "dotcms",
     "name": "dotCMS",
-    "builtwith": true
+    "builtwith_name": "dotCMS"
   },
   {
     "id": "doubleclick-floodlight",
     "name": "DoubleClick Floodlight",
-    "builtwith": true
+    "builtwith_name": "DoubleClick Floodlight"
   },
   {
     "id": "doubleclick-net",
     "name": "DoubleClick.Net",
-    "builtwith": true
+    "builtwith_name": "DoubleClick.Net"
   },
   {
     "id": "dreamweaver",
     "name": "DreamWeaver",
-    "wappalyzer": true
+    "wappalyzer_name": "DreamWeaver"
   },
   {
     "id": "drupal",
     "name": "Drupal",
-    "builtwith": true,
-    "wappalyzer": true
-  },
-  {
-    "name": "Drupal 7",
-    "builtwith": true,
-    "alias": "drupal"
-  },
-  {
-    "name": "Drupal 8",
-    "builtwith": true,
-    "alias": "drupal"
+    "builtwith_name": "Drupal",
+    "wappalyzer_name": "Drupal"
   },
   {
     "id": "dstillery",
     "name": "Dstillery",
-    "builtwith": true
+    "builtwith_name": "Dstillery"
   },
   {
     "id": "dublin-core",
     "name": "Dublin Core",
-    "builtwith": true,
-    "category": "metadata"
+    "builtwith_name": "Dublin Core"
   },
   {
     "id": "duda",
     "name": "Duda",
-    "wappalyzer": true
+    "wappalyzer_name": "Duda"
   },
   {
     "id": "dynatrace",
     "name": "Dynatrace",
-    "builtwith": true
+    "builtwith_name": "Dynatrace"
   },
   {
     "id": "eab",
     "name": "EAB",
-    "builtwith": true
+    "builtwith_name": "EAB"
   },
   {
     "id": "easy-pie-chart",
     "name": "Easy Pie Chart",
-    "builtwith": true
+    "builtwith_name": "Easy Pie Chart"
   },
   {
     "id": "ecmascript-5-shim",
     "name": "ECMAScript 5 Shim",
-    "builtwith": true
+    "builtwith_name": "ECMAScript 5 Shim"
   },
   {
     "id": "educationalorganization-schema",
     "name": "EducationalOrganization Schema",
-    "builtwith": true
+    "builtwith_name": "EducationalOrganization Schema"
   },
   {
     "id": "ektron",
     "name": "Ektron",
-    "builtwith": true
+    "builtwith_name": "Ektron"
   },
   {
     "id": "elsevier",
     "name": "Elsevier",
-    "builtwith": true
+    "builtwith_name": "Elsevier"
   },
   {
     "id": "ember-js",
-    "name": "Ember",
-    "category": "JavaScript library"
+    "name": "Ember"
   },
   {
     "id": "emma-inc",
     "name": "Emma Inc",
-    "builtwith": true
+    "builtwith_name": "Emma Inc"
   },
   {
     "id": "endeca",
     "name": "Endeca",
-    "builtwith": true
+    "builtwith_name": "Endeca"
   },
   {
     "id": "enquire-js",
     "name": "Enquire JS",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "Enquire JS"
   },
   {
     "id": "enyo",
     "name": "Enyo",
-    "wappalyzer": true
+    "wappalyzer_name": "Enyo"
   },
   {
     "id": "equal-heights",
     "name": "Equal Heights",
-    "builtwith": true
+    "builtwith_name": "Equal Heights"
   },
   {
     "id": "ethnio",
     "name": "Ethnio",
-    "builtwith": true
+    "builtwith_name": "Ethnio"
   },
   {
     "id": "euro",
     "name": "Euro",
-    "builtwith": true
+    "builtwith_name": "Euro"
   },
   {
     "id": "event-schema",
     "name": "Event Schema",
-    "builtwith": true
+    "builtwith_name": "Event Schema"
   },
   {
     "id": "eventon",
     "name": "EventOn",
-    "builtwith": true
+    "builtwith_name": "EventOn"
   },
   {
     "id": "everyaction",
     "name": "EveryAction",
-    "builtwith": true
+    "builtwith_name": "EveryAction"
   },
   {
     "id": "ex-libris",
     "name": "Ex Libris",
-    "builtwith": true
+    "builtwith_name": "Ex Libris"
   },
   {
     "id": "exhibit",
     "name": "Exhibit",
-    "wappalyzer": true
+    "wappalyzer_name": "Exhibit"
   },
   {
     "id": "explorer-canvas",
     "name": "Explorer Canvas",
-    "builtwith": true
+    "builtwith_name": "Explorer Canvas"
   },
   {
     "id": "ext-js",
     "name": "Ext JS",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "Ext JS"
   },
   {
     "id": "facebook",
     "name": "Facebook",
-    "wappalyzer": true
-  },
-  {
-    "name": "Facebook Badge",
-    "builtwith": true,
-    "alias": "facebook"
+    "wappalyzer_name": "Facebook"
   },
   {
     "id": "facebook-conversion-tracking",
     "name": "Facebook Conversion Tracking",
-    "builtwith": true
+    "builtwith_name": "Facebook Conversion Tracking"
   },
   {
     "id": "facebook-custom-audiences",
     "name": "Facebook Custom Audiences",
-    "builtwith": true
+    "builtwith_name": "Facebook Custom Audiences"
   },
   {
     "id": "facebook-domain-insights",
     "name": "Facebook Domain Insights",
-    "builtwith": true
-  },
-  {
-    "name": "Facebook for Websites",
-    "builtwith": true,
-    "alias": "facebook"
+    "builtwith_name": "Facebook Domain Insights"
   },
   {
     "id": "facebook-graph-api",
     "name": "Facebook Graph API",
-    "builtwith": true
-  },
-  {
-    "name": "Facebook Like",
-    "builtwith": true,
-    "alias": "facebook"
-  },
-  {
-    "name": "Facebook Like Box",
-    "builtwith": true,
-    "alias": "facebook"
-  },
-  {
-    "name": "Facebook Like Button",
-    "builtwith": true,
-    "alias": "facebook"
+    "builtwith_name": "Facebook Graph API"
   },
   {
     "id": "facebook-page-administration",
     "name": "Facebook Page Administration",
-    "builtwith": true
+    "builtwith_name": "Facebook Page Administration"
   },
   {
     "id": "facebook-pixel",
     "name": "Facebook Pixel",
-    "builtwith": true
-  },
-  {
-    "name": "Facebook Pixel View Content",
-    "builtwith": true,
-    "alias": "facebook"
+    "builtwith_name": "Facebook Pixel"
   },
   {
     "id": "facebook-sdk",
     "name": "Facebook SDK",
-    "builtwith": true
+    "builtwith_name": "Facebook SDK"
   },
   {
     "id": "facebook-sharer",
     "name": "Facebook Sharer",
-    "builtwith": true
+    "builtwith_name": "Facebook Sharer"
   },
   {
     "id": "facebook-sign-in",
     "name": "Facebook Sign-in",
-    "wappalyzer": true
+    "wappalyzer_name": "Facebook Sign-in"
   },
   {
     "id": "fancybox",
     "name": "Fancybox",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "Fancybox",
+    "wappalyzer_name": "Fancybox"
   },
   {
     "id": "featherlight",
     "name": "Featherlight",
-    "builtwith": true
+    "builtwith_name": "Featherlight"
   },
   {
     "id": "feature-policy",
     "name": "Feature Policy",
-    "builtwith": true
+    "builtwith_name": "Feature Policy"
   },
   {
     "id": "fedora",
     "name": "Fedora",
-    "builtwith": true
+    "builtwith_name": "Fedora"
   },
   {
     "id": "feedburner",
     "name": "FeedBurner",
-    "builtwith": true
+    "builtwith_name": "FeedBurner"
   },
   {
     "id": "feedwind",
     "name": "FeedWind",
-    "builtwith": true
+    "builtwith_name": "FeedWind"
   },
   {
     "id": "fingerprintjs",
     "name": "Fingerprintjs",
-    "wappalyzer": true
+    "wappalyzer_name": "Fingerprintjs"
   },
   {
     "id": "fitvids-js",
     "name": "FitVids.JS",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "FitVids.JS"
   },
   {
-    "name": "Flash Object",
-    "builtwith": true,
-    "alias": "flash"
+    "id": "flash",
+    "name": "Adobe Flash"
   },
   {
     "id": "flexslider",
     "name": "FlexSlider",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "FlexSlider",
+    "wappalyzer_name": "FlexSlider"
   },
   {
     "id": "flickity",
     "name": "Flickity",
-    "wappalyzer": true
+    "wappalyzer_name": "Flickity"
   },
   {
     "id": "flickr-badge",
     "name": "Flickr Badge",
-    "builtwith": true
+    "builtwith_name": "Flickr Badge"
   },
   {
     "id": "flickr-photostream",
     "name": "Flickr PhotoStream",
-    "builtwith": true
+    "builtwith_name": "Flickr PhotoStream"
   },
   {
     "id": "flowplayer",
     "name": "Flowplayer",
-    "builtwith": true
+    "builtwith_name": "Flowplayer"
   },
   {
     "id": "flv-player",
     "name": "FLV Player",
-    "builtwith": true
+    "builtwith_name": "FLV Player"
   },
   {
     "id": "foaf",
     "name": "FOAF",
-    "builtwith": true
+    "builtwith_name": "FOAF"
   },
   {
     "id": "font-awesome",
     "name": "Font Awesome",
-    "builtwith": true,
-    "wappalyzer": true,
-    "category": "fonts"
+    "builtwith_name": "Font Awesome",
+    "wappalyzer_name": "Font Awesome"
   },
   {
     "id": "fontdeck",
     "name": "Fontdeck",
-    "builtwith": true,
-    "category": "fonts"
+    "builtwith_name": "Fontdeck"
   },
   {
     "id": "fonts-com",
     "name": "Fonts.com",
-    "builtwith": true,
-    "category": "fonts"
+    "builtwith_name": "Fonts.com"
   },
   {
     "id": "foresee-results",
     "name": "ForeSee Results",
-    "builtwith": true
+    "builtwith_name": "ForeSee Results"
   },
   {
     "id": "formalize-css",
     "name": "Formalize CSS",
-    "builtwith": true,
-    "category": "css"
+    "builtwith_name": "Formalize CSS"
   },
   {
     "id": "formidable-pro-form",
     "name": "Formidable Pro Form",
-    "builtwith": true
+    "builtwith_name": "Formidable Pro Form"
   },
   {
     "id": "formstack",
     "name": "Formstack",
-    "builtwith": true
+    "builtwith_name": "Formstack"
   },
   {
     "id": "foundation",
     "name": "Foundation",
-    "builtwith": true
+    "builtwith_name": "Foundation"
   },
   {
     "id": "frameset",
     "name": "Frameset",
-    "builtwith": true
+    "builtwith_name": "Frameset"
   },
   {
     "id": "freebsd",
     "name": "FreeBSD",
-    "builtwith": true
+    "builtwith_name": "FreeBSD"
   },
   {
     "id": "friends-network",
     "name": "Friends Network",
-    "builtwith": true
+    "builtwith_name": "Friends Network"
   },
   {
     "id": "frontpage",
     "name": "FrontPage",
-    "wappalyzer": true
-  },
-  {
-    "name": "Frontpage Extensions",
-    "builtwith": true,
-    "alias": "frontpage"
-  },
-  {
-    "name": "Frontpage Proprietary Tags",
-    "builtwith": true,
-    "alias": "frontpage"
+    "wappalyzer_name": "FrontPage"
   },
   {
     "id": "froogaloop",
     "name": "Froogaloop",
-    "builtwith": true
+    "builtwith_name": "Froogaloop"
   },
   {
     "id": "fullcalendar",
     "name": "FullCalendar",
-    "builtwith": true
+    "builtwith_name": "FullCalendar"
   },
   {
     "id": "gatsby",
     "name": "Gatsby",
-    "wappalyzer": true,
-    "category": "JavaScript library"
-  },
-  {
-    "name": "Gatsby JS",
-    "builtwith": true,
-    "alias": "gatsby",
-    "category": "JavaScript library"
+    "wappalyzer_name": "Gatsby"
   },
   {
     "id": "gaug-es",
     "name": "Gaug.es",
-    "builtwith": true
+    "builtwith_name": "Gaug.es"
   },
   {
     "id": "gauges",
     "name": "Gauges",
-    "wappalyzer": true
+    "wappalyzer_name": "Gauges"
   },
   {
     "id": "geocoordinates-schema",
     "name": "GeoCoordinates Schema",
-    "builtwith": true
+    "builtwith_name": "GeoCoordinates Schema"
   },
   {
     "id": "geographic-information",
     "name": "Geographic Information",
-    "builtwith": true
+    "builtwith_name": "Geographic Information"
   },
   {
     "id": "global-site-tag",
     "name": "Global Site Tag",
-    "builtwith": true
+    "builtwith_name": "Global Site Tag"
   },
   {
     "id": "globalsign-domain-verification",
     "name": "GlobalSign Domain Verification",
-    "builtwith": true
+    "builtwith_name": "GlobalSign Domain Verification"
   },
   {
     "id": "glyphicons",
     "name": "Glyphicons",
-    "wappalyzer": true,
-    "category": "icons"
+    "wappalyzer_name": "Glyphicons"
   },
   {
     "id": "gnu-terry-pratchett",
     "name": "GNU Terry Pratchett",
-    "builtwith": true
-  },
-  {
-    "name": "GoLive Javascript",
-    "builtwith": true,
-    "alias": "adobe-golive"
+    "builtwith_name": "GNU Terry Pratchett"
   },
   {
     "id": "google-adsense-for-search",
     "name": "Google Adsense for Search",
-    "builtwith": true
+    "builtwith_name": "Google Adsense for Search"
   },
   {
     "id": "google-adwords-conversion",
     "name": "Google AdWords Conversion",
-    "builtwith": true
+    "builtwith_name": "Google AdWords Conversion"
   },
   {
     "id": "google-analyticator",
     "name": "Google Analyticator",
-    "builtwith": true
+    "builtwith_name": "Google Analyticator"
   },
   {
     "id": "google-analytics",
     "name": "Google Analytics",
-    "builtwith": true,
-    "wappalyzer": true
-  },
-  {
-    "name": "Google Analytics Anonymize IP",
-    "builtwith": true,
-    "alias": "google-analytics"
-  },
-  {
-    "name": "Google Analytics Classic",
-    "builtwith": true,
-    "alias": "google-analytics"
-  },
-  {
-    "name": "Google Analytics Dashboard for WordPress",
-    "builtwith": true,
-    "alias": "google-analytics"
-  },
-  {
-    "name": "Google Analytics Enhanced eCommerce",
-    "wappalyzer": true,
-    "alias": "google-analytics"
-  },
-  {
-    "name": "Google Analytics Enhanced Link Attribution",
-    "builtwith": true,
-    "alias": "google-analytics"
-  },
-  {
-    "name": "Google Analytics Event Tracking",
-    "builtwith": true,
-    "alias": "google-analytics"
-  },
-  {
-    "name": "Google Analytics Forced SSL",
-    "builtwith": true,
-    "alias": "google-analytics"
-  },
-  {
-    "name": "Google Analytics IP Anonymization",
-    "builtwith": true,
-    "alias": "google-analytics"
-  },
-  {
-    "name": "Google Analytics Multiple Trackers",
-    "builtwith": true,
-    "alias": "google-analytics"
-  },
-  {
-    "name": "Google Analytics with Ad Tracking",
-    "builtwith": true,
-    "alias": "google-analytics"
+    "builtwith_name": "Google Analytics",
+    "wappalyzer_name": "Google Analytics"
   },
   {
     "id": "google-api",
     "name": "Google API",
-    "builtwith": true
+    "builtwith_name": "Google API"
   },
   {
     "id": "google-calendar",
     "name": "Google Calendar",
-    "builtwith": true
+    "builtwith_name": "Google Calendar"
   },
   {
     "id": "google-charts",
     "name": "Google Charts",
-    "builtwith": true
+    "builtwith_name": "Google Charts"
   },
   {
     "id": "google-chrome-frame-popup",
     "name": "Google Chrome Frame Popup",
-    "builtwith": true
+    "builtwith_name": "Google Chrome Frame Popup"
   },
   {
     "id": "google-chrome-ie-frame",
     "name": "Google Chrome IE Frame",
-    "builtwith": true
+    "builtwith_name": "Google Chrome IE Frame"
   },
   {
     "id": "google-code-prettify",
     "name": "Google Code Prettify",
-    "wappalyzer": true
+    "wappalyzer_name": "Google Code Prettify"
   },
   {
     "id": "google-conversion-tracking",
     "name": "Google Conversion Tracking",
-    "builtwith": true
+    "builtwith_name": "Google Conversion Tracking"
   },
   {
     "id": "google-custom-search",
     "name": "Google Custom Search",
-    "builtwith": true
+    "builtwith_name": "Google Custom Search"
   },
   {
     "id": "google-docs-widget",
     "name": "Google Docs Widget",
-    "builtwith": true
+    "builtwith_name": "Google Docs Widget"
   },
   {
     "id": "google-feedproxy",
     "name": "Google FeedProxy",
-    "builtwith": true
+    "builtwith_name": "Google FeedProxy"
   },
   {
     "id": "google-font-api",
     "name": "Google Font API",
-    "builtwith": true,
-    "wappalyzer": true,
-    "category": "fonts"
+    "builtwith_name": "Google Font API",
+    "wappalyzer_name": "Google Font API"
   },
   {
     "id": "google-front-end",
     "name": "Google Front End",
-    "builtwith": true
-  },
-  {
-    "name": "Google Hosted jQuery",
-    "builtwith": true,
-    "alias": "jquery"
-  },
-  {
-    "name": "Google Hosted jQuery UI",
-    "builtwith": true,
-    "alias": "jquery-ui"
+    "builtwith_name": "Google Front End"
   },
   {
     "id": "google-hosted-libraries",
     "name": "Google Hosted Libraries",
-    "builtwith": true
-  },
-  {
-    "name": "Google Hosted SWFObject",
-    "builtwith": true,
-    "alias": "flash"
+    "builtwith_name": "Google Hosted Libraries"
   },
   {
     "id": "google-hosted-web-font-loader",
     "name": "Google Hosted Web Font Loader",
-    "builtwith": true,
-    "category": "fonts"
+    "builtwith_name": "Google Hosted Web Font Loader"
   },
   {
     "id": "google-js-api",
     "name": "Google JS Api",
-    "builtwith": true
+    "builtwith_name": "Google JS Api"
   },
   {
     "id": "google-maps",
     "name": "Google Maps",
-    "builtwith": true,
-    "wappalyzer": true
-  },
-  {
-    "name": "Google Maps API",
-    "builtwith": true,
-    "alias": "google-maps"
-  },
-  {
-    "name": "Google Maps for Work",
-    "builtwith": true,
-    "alias": "google-maps"
+    "builtwith_name": "Google Maps",
+    "wappalyzer_name": "Google Maps"
   },
   {
     "id": "google-optimize-360",
     "name": "Google Optimize 360",
-    "builtwith": true
+    "builtwith_name": "Google Optimize 360"
   },
   {
     "id": "google-plus",
     "name": "Google Plus",
-    "wappalyzer": true
+    "wappalyzer_name": "Google Plus"
   },
   {
     "id": "google-plus-one-publisher",
     "name": "Google Plus One Publisher",
-    "builtwith": true
+    "builtwith_name": "Google Plus One Publisher"
   },
   {
     "id": "google-plus-one-snippet",
     "name": "Google Plus One Snippet",
-    "builtwith": true
+    "builtwith_name": "Google Plus One Snippet"
   },
   {
     "id": "google-remarketing",
     "name": "Google Remarketing",
-    "builtwith": true
+    "builtwith_name": "Google Remarketing"
   },
   {
     "id": "google-search-appliance",
     "name": "Google Search Appliance",
-    "builtwith": true
+    "builtwith_name": "Google Search Appliance"
   },
   {
     "id": "google-sites",
     "name": "Google Sites",
-    "builtwith": true
+    "builtwith_name": "Google Sites"
   },
   {
     "id": "google-tag-manager",
     "name": "Google Tag Manager",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "Google Tag Manager",
+    "wappalyzer_name": "Google Tag Manager"
   },
   {
     "id": "google-translate",
     "name": "Google Translate"
   },
   {
-    "name": "Google Translate Widget",
-    "builtwith": true,
-    "alias": "google-translate"
-  },
-  {
-    "name": "Google Universal Analytics",
-    "builtwith": true,
-    "alias": "google-analytics"
-  },
-  {
     "id": "google-webmaster",
     "name": "Google Webmaster",
-    "builtwith": true
+    "builtwith_name": "Google Webmaster"
   },
   {
     "id": "gravity-forms",
     "name": "Gravity Forms",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "Gravity Forms",
+    "wappalyzer_name": "Gravity Forms"
   },
   {
     "id": "gsap",
     "name": "GSAP",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "GSAP",
+    "wappalyzer_name": "GSAP"
   },
   {
     "id": "gstatic-google-static-content",
     "name": "GStatic Google Static Content",
-    "builtwith": true
+    "builtwith_name": "GStatic Google Static Content"
   },
   {
     "id": "gzip-module",
     "name": "GZIP Module",
-    "builtwith": true
+    "builtwith_name": "GZIP Module"
   },
   {
     "id": "hammer-js",
     "name": "Hammer.js",
-    "wappalyzer": true,
-    "category": "JavaScript library"
+    "wappalyzer_name": "Hammer.js"
   },
   {
     "id": "handheld-friendly",
     "name": "Handheld Friendly",
-    "builtwith": true
+    "builtwith_name": "Handheld Friendly"
   },
   {
     "id": "handlebars",
     "name": "Handlebars",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "Handlebars",
+    "wappalyzer_name": "Handlebars"
   },
   {
     "id": "headjs",
     "name": "HeadJS",
-    "wappalyzer": true,
-    "category": "JavaScript library"
+    "wappalyzer_name": "HeadJS"
   },
   {
     "id": "heatmap-it",
     "name": "Heatmap IT",
-    "builtwith": true
+    "builtwith_name": "Heatmap IT"
   },
   {
     "id": "hier-menus",
     "name": "Hier Menus",
-    "builtwith": true
+    "builtwith_name": "Hier Menus"
   },
   {
     "id": "highlight-js",
     "name": "Highlight.js",
-    "wappalyzer": true,
-    "category": "JavaScript library"
+    "wappalyzer_name": "Highlight.js"
   },
   {
     "id": "hippo",
     "name": "Hippo",
-    "builtwith": true
+    "builtwith_name": "Hippo"
   },
   {
     "id": "histats",
     "name": "Histats",
-    "builtwith": true
+    "builtwith_name": "Histats"
   },
   {
     "id": "hitslink",
     "name": "Hitslink",
-    "builtwith": true
+    "builtwith_name": "Hitslink"
   },
   {
     "id": "hotjar",
     "name": "Hotjar",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "Hotjar",
+    "wappalyzer_name": "Hotjar"
   },
   {
     "id": "hover-intent",
     "name": "Hover Intent",
-    "builtwith": true
+    "builtwith_name": "Hover Intent"
   },
   {
     "id": "hsts",
     "name": "HSTS",
-    "builtwith": true
+    "builtwith_name": "HSTS"
   },
   {
     "id": "hsts-includesubdomains-preload",
     "name": "HSTS IncludeSubdomains PreLoad",
-    "builtwith": true
-  },
-  {
-    "id": "html4",
-    "name": "HTML 4 / 4.01 Strict",
-    "builtwith": true,
-    "category": "html"
-  },
-  {
-    "name": "HTML 4.01 Transitional DTD",
-    "builtwith": true,
-    "alias": "html4",
-    "category": "html"
-  },
-  {
-    "name": "HTML 5 Specific Tags",
-    "builtwith": true,
-    "alias": "html5",
-    "category": "html"
-  },
-  {
-    "name": "HTML 5 Video Audio Tags",
-    "builtwith": true,
-    "alias": "html5",
-    "category": "html"
+    "builtwith_name": "HSTS IncludeSubdomains PreLoad"
   },
   {
     "id": "html-imports",
     "name": "HTML Imports",
-    "builtwith": true,
-    "category": "html"
+    "builtwith_name": "HTML Imports"
   },
   {
     "id": "html-tidy",
     "name": "HTML Tidy",
-    "builtwith": true,
-    "category": "html"
+    "builtwith_name": "HTML Tidy"
   },
   {
-    "id": "html5-boilerplate",
-    "name": "HTML5 Boilerplate",
-    "builtwith": true,
-    "category": "html"
+    "id": "html4",
+    "name": "HTML 4 / 4.01 Strict",
+    "builtwith_name": "HTML 4 / 4.01 Strict"
   },
   {
     "id": "html5",
     "name": "HTML5 DocType",
-    "builtwith": true,
-    "category": "html"
+    "builtwith_name": "HTML5 DocType"
   },
   {
-    "name": "HTML5 History API",
-    "builtwith": true,
-    "alias": "html5",
-    "category": "html"
+    "id": "html5-boilerplate",
+    "name": "HTML5 Boilerplate",
+    "builtwith_name": "HTML5 Boilerplate"
   },
   {
     "id": "html5shiv",
     "name": "html5shiv",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "html5shiv"
   },
   {
     "id": "hubspot",
     "name": "Hubspot",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "Hubspot",
+    "wappalyzer_name": "Hubspot"
   },
   {
     "id": "hubspot-forms",
     "name": "Hubspot Forms",
-    "builtwith": true
+    "builtwith_name": "Hubspot Forms"
   },
   {
     "id": "hugo",
     "name": "Hugo",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "Hugo",
+    "wappalyzer_name": "Hugo"
   },
   {
     "id": "humans-txt",
     "name": "Humans TXT",
-    "builtwith": true
+    "builtwith_name": "Humans TXT"
   },
   {
     "id": "ibm-http-server",
     "name": "IBM HTTP Server",
-    "builtwith": true,
-    "category": "servers"
+    "builtwith_name": "IBM HTTP Server"
   },
   {
     "id": "ie7-js",
     "name": "ie7-js",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "ie7-js"
   },
   {
     "id": "iframe",
     "name": "IFrame",
-    "builtwith": true
+    "builtwith_name": "IFrame"
   },
   {
     "id": "iis",
     "name": "IIS",
-    "builtwith": true,
-    "wappalyzer": true,
-    "category": "servers"
-  },
-  {
-    "name": "IIS 10",
-    "builtwith": true,
-    "alias": "iis",
-    "category": "servers"
-  },
-  {
-    "name": "IIS 3",
-    "builtwith": true,
-    "alias": "iis",
-    "category": "servers"
-  },
-  {
-    "name": "IIS 4",
-    "builtwith": true,
-    "alias": "iis",
-    "category": "servers"
-  },
-  {
-    "name": "IIS 5",
-    "builtwith": true,
-    "alias": "iis",
-    "category": "servers"
-  },
-  {
-    "name": "IIS 6",
-    "builtwith": true,
-    "alias": "iis",
-    "category": "servers"
-  },
-  {
-    "name": "IIS 7",
-    "builtwith": true,
-    "alias": "iis",
-    "category": "servers"
-  },
-  {
-    "name": "IIS 8",
-    "builtwith": true,
-    "alias": "iis",
-    "category": "servers"
+    "builtwith_name": "IIS",
+    "wappalyzer_name": "IIS"
   },
   {
     "id": "image-map",
     "name": "Image Map",
-    "builtwith": true
+    "builtwith_name": "Image Map"
   },
   {
     "id": "image-tool-bar",
     "name": "Image Tool Bar",
-    "builtwith": true
+    "builtwith_name": "Image Tool Bar"
   },
   {
     "id": "imagesloaded",
     "name": "imagesLoaded",
-    "builtwith": true
+    "builtwith_name": "imagesLoaded"
   },
   {
     "id": "imgix",
     "name": "Imgix",
-    "builtwith": true
+    "builtwith_name": "Imgix"
   },
   {
     "id": "imgur",
     "name": "Imgur",
-    "builtwith": true
+    "builtwith_name": "Imgur"
   },
   {
     "id": "imodules",
     "name": "iModules",
-    "builtwith": true
+    "builtwith_name": "iModules"
   },
   {
     "id": "incapsula-cdn",
     "name": "Incapsula CDN",
-    "builtwith": true,
-    "category": "cdn"
+    "builtwith_name": "Incapsula CDN"
   },
   {
     "id": "infinite-scroll",
     "name": "Infinite Scroll",
-    "builtwith": true
+    "builtwith_name": "Infinite Scroll"
   },
   {
     "id": "informer",
     "name": "Informer",
-    "builtwith": true
+    "builtwith_name": "Informer"
   },
   {
     "id": "inspectlet",
     "name": "Inspectlet",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "Inspectlet",
+    "wappalyzer_name": "Inspectlet"
   },
   {
     "id": "instafeed-js",
     "name": "Instafeed.js",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "Instafeed.js"
   },
   {
     "id": "ipad-compatible",
     "name": "iPad Compatible",
-    "builtwith": true
+    "builtwith_name": "iPad Compatible"
   },
   {
     "id": "iphone-mobile-compatible",
     "name": "IPhone / Mobile Compatible",
-    "builtwith": true
+    "builtwith_name": "IPhone / Mobile Compatible"
   },
   {
     "id": "ironpoint",
     "name": "IronPoint",
-    "builtwith": true
+    "builtwith_name": "IronPoint"
   },
   {
     "id": "iso-iec-8859",
     "name": "ISO/IEC 8859",
-    "builtwith": true
+    "builtwith_name": "ISO/IEC 8859"
   },
   {
     "id": "isotope",
     "name": "Isotope",
-    "builtwith": true
+    "builtwith_name": "Isotope"
   },
   {
     "id": "java",
     "name": "Java",
-    "wappalyzer": true
-  },
-  {
-    "name": "Java EE",
-    "builtwith": true,
-    "alias": "java"
-  },
-  {
-    "name": "Java Servlet",
-    "builtwith": true,
-    "alias": "java"
+    "wappalyzer_name": "Java"
   },
   {
     "id": "javascript",
     "name": "Javascript",
-    "builtwith": true
+    "builtwith_name": "Javascript"
   },
   {
     "id": "javascript-defer",
     "name": "Javascript Defer",
-    "builtwith": true
+    "builtwith_name": "Javascript Defer"
   },
   {
     "id": "javascript-infovis-toolkit",
     "name": "JavaScript Infovis Toolkit",
-    "wappalyzer": true
+    "wappalyzer_name": "JavaScript Infovis Toolkit"
   },
   {
     "id": "javascript-tooltips",
     "name": "Javascript Tooltips",
-    "builtwith": true
+    "builtwith_name": "Javascript Tooltips"
   },
   {
     "id": "jboss",
     "name": "JBoss",
-    "builtwith": true
+    "builtwith_name": "JBoss"
   },
   {
     "id": "jcarousel",
     "name": "JCarousel",
-    "builtwith": true
+    "builtwith_name": "JCarousel"
   },
   {
     "id": "jcarousel-lite",
     "name": "JCarousel Lite",
-    "builtwith": true
+    "builtwith_name": "JCarousel Lite"
   },
   {
     "id": "jetpack",
     "name": "Jetpack",
-    "builtwith": true
+    "builtwith_name": "Jetpack"
   },
   {
     "id": "jetty",
     "name": "Jetty",
-    "builtwith": true
+    "builtwith_name": "Jetty"
   },
   {
     "id": "joomla",
     "name": "Joomla",
-    "wappalyzer": true
-  },
-  {
-    "name": "Joomla!",
-    "builtwith": true,
-    "alias": "joomla"
+    "wappalyzer_name": "Joomla"
   },
   {
     "id": "jotform",
     "name": "JotForm",
-    "builtwith": true
+    "builtwith_name": "JotForm"
   },
   {
     "id": "jqbootstrapvalidation",
     "name": "jqBootstrapValidation",
-    "builtwith": true
+    "builtwith_name": "jqBootstrapValidation"
   },
   {
     "id": "jquery",
     "name": "jQuery",
-    "builtwith": true,
-    "wappalyzer": true,
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 1.10.0",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 1.10.1",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 1.10.2",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 1.11.0",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 1.11.1",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 1.11.2",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 1.11.3",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 1.12.0",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 1.12.3",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 1.12.4",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 1.2.6",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 1.3.1",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 1.3.2",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 1.4",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 1.4.2",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 1.4.3",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 1.4.4",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 1.5.1",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 1.5.2",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 1.6",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 1.6.2",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 1.6.3",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 1.6.4",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 1.7",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 1.7.0",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 1.7.1",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 1.7.2",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 1.8.0",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 1.8.1",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 1.8.2",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 1.8.3",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 1.9.0",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 1.9.1",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 2.1.0",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 2.1.1",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 2.1.3",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 2.1.4",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 2.2.0",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 3.1.0",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 3.1.1",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 3.2.1",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 3.3.1",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 3.4.1",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "jQuery 3.5.1",
-    "builtwith": true,
-    "alias": "jquery",
-    "category": "JavaScript library"
+    "builtwith_name": "jQuery",
+    "wappalyzer_name": "jQuery"
   },
   {
     "id": "jquery-autocomplete",
     "name": "jQuery Autocomplete",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "jQuery Autocomplete"
   },
   {
     "id": "jquery-bbq",
     "name": "jQuery BBQ",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "jQuery BBQ"
   },
   {
     "id": "jquery-bgiframe",
     "name": "jQuery bgiframe",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "jQuery bgiframe"
   },
   {
     "id": "jquery-blockui",
     "name": "jQuery BlockUI",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "jQuery BlockUI"
   },
   {
     "id": "jquery-cdn",
     "name": "jQuery CDN",
-    "builtwith": true,
-    "category": "JavaScript library, cdn"
+    "builtwith_name": "jQuery CDN"
   },
   {
     "id": "jquery-colorbox",
     "name": "jQuery Colorbox",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "jQuery Colorbox"
   },
   {
     "id": "jquery-cookie",
     "name": "jQuery Cookie",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "jQuery Cookie"
   },
   {
     "id": "jquery-countdown",
     "name": "jQuery Countdown",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "jQuery Countdown"
   },
   {
     "id": "jquery-custom-content-scroller",
     "name": "jQuery Custom Content Scroller",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "jQuery Custom Content Scroller"
   },
   {
     "id": "jquery-cycle",
     "name": "jQuery Cycle",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "jQuery Cycle"
   },
   {
     "id": "jquery-dimensions",
     "name": "jQuery Dimensions",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "jQuery Dimensions"
   },
   {
     "id": "jquery-easing",
     "name": "jQuery Easing",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "jQuery Easing"
   },
   {
     "id": "jquery-flash",
     "name": "jQuery Flash",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "jQuery Flash"
   },
   {
     "id": "jquery-form",
     "name": "jQuery Form",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "jQuery Form"
   },
   {
     "id": "jquery-hotlink",
     "name": "jQuery HotLink",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "jQuery HotLink"
   },
   {
     "id": "jquery-marquee",
     "name": "jQuery Marquee",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "jQuery Marquee"
   },
   {
     "id": "jquery-masonry",
     "name": "jQuery Masonry",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "jQuery Masonry"
   },
   {
     "id": "jquery-metadata",
     "name": "jQuery Metadata",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "jQuery Metadata"
   },
   {
     "id": "jquery-migrate",
     "name": "jQuery Migrate",
-    "wappalyzer": true,
-    "category": "JavaScript library"
+    "wappalyzer_name": "jQuery Migrate"
   },
   {
     "id": "jquery-mobile",
     "name": "jQuery Mobile",
-    "wappalyzer": true,
-    "category": "JavaScript library"
+    "wappalyzer_name": "jQuery Mobile"
   },
   {
     "id": "jquery-mousewheel",
     "name": "jQuery Mousewheel",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "jQuery Mousewheel"
   },
   {
     "id": "jquery-noconflict",
     "name": "jQuery NoConflict",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "jQuery NoConflict"
   },
   {
     "id": "jquery-once",
     "name": "jQuery Once",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "jQuery Once"
   },
   {
     "id": "jquery-placeholder",
     "name": "jQuery Placeholder",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "jQuery Placeholder"
   },
   {
     "id": "jquery-pngfix",
     "name": "jQuery pngfix",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "jQuery pngfix"
   },
   {
     "id": "jquery-prettyphoto",
     "name": "jQuery prettyPhoto",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "jQuery prettyPhoto"
   },
   {
     "id": "jquery-qtip",
     "name": "jQuery QTip",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "jQuery QTip"
   },
   {
     "id": "jquery-quicksand",
     "name": "jQuery QuickSand",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "jQuery QuickSand"
   },
   {
     "id": "jquery-scrollto",
     "name": "jQuery ScrollTo",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "jQuery ScrollTo"
   },
   {
     "id": "jquery-sparklines",
     "name": "jQuery Sparklines",
-    "wappalyzer": true,
-    "category": "JavaScript library"
+    "wappalyzer_name": "jQuery Sparklines"
   },
   {
     "id": "jquery-tools",
     "name": "jQuery Tools",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "jQuery Tools"
   },
   {
     "id": "jquery-tooltip",
     "name": "jQuery Tooltip",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "jQuery Tooltip"
   },
   {
     "id": "jquery-translate",
     "name": "jQuery Translate",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "jQuery Translate"
   },
   {
     "id": "jquery-ui",
     "name": "jQuery UI",
-    "builtwith": true,
-    "wappalyzer": true,
-    "category": "JavaScript library"
+    "builtwith_name": "jQuery UI",
+    "wappalyzer_name": "jQuery UI"
   },
   {
     "id": "jquery-ui-mouse",
     "name": "jQuery UI Mouse",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "jQuery UI Mouse"
   },
   {
     "id": "jquery-ui-tabs",
     "name": "jQuery UI Tabs",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "jQuery UI Tabs"
   },
   {
     "id": "jquery-validate",
     "name": "jQuery Validate",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "jQuery Validate"
   },
   {
     "id": "jquery-waypoints",
     "name": "jQuery Waypoints",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "jQuery Waypoints"
   },
   {
     "id": "jrun",
     "name": "JRun",
-    "builtwith": true
+    "builtwith_name": "JRun"
   },
   {
     "id": "jscrollpane",
     "name": "jScrollPane",
-    "builtwith": true
+    "builtwith_name": "jScrollPane"
   },
   {
     "id": "jsdelivr",
     "name": "jsDelivr",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "jsDelivr",
+    "wappalyzer_name": "jsDelivr"
   },
   {
     "id": "json-ld",
     "name": "JSON-LD",
-    "builtwith": true
+    "builtwith_name": "JSON-LD"
   },
   {
     "id": "jw-player",
     "name": "JW Player",
-    "builtwith": true
+    "builtwith_name": "JW Player"
   },
   {
     "id": "jw-player-tracking",
     "name": "JW Player Tracking",
-    "builtwith": true
+    "builtwith_name": "JW Player Tracking"
   },
   {
     "id": "kaltura",
     "name": "Kaltura",
-    "builtwith": true
+    "builtwith_name": "Kaltura"
   },
   {
     "id": "kentico-cms",
     "name": "Kentico CMS",
-    "wappalyzer": true
+    "wappalyzer_name": "Kentico CMS"
   },
   {
     "id": "kentico-xperience",
     "name": "Kentico Xperience",
-    "builtwith": true
+    "builtwith_name": "Kentico Xperience"
   },
   {
     "id": "ladda-ui",
     "name": "Ladda UI",
-    "builtwith": true
+    "builtwith_name": "Ladda UI"
   },
   {
     "id": "lazysizes",
     "name": "lazySizes",
-    "builtwith": true
+    "builtwith_name": "lazySizes"
   },
   {
     "id": "libraryh3lp",
     "name": "LibraryH3lp",
-    "builtwith": true
+    "builtwith_name": "LibraryH3lp"
   },
   {
     "id": "license-buttons",
     "name": "License Buttons",
-    "builtwith": true
+    "builtwith_name": "License Buttons"
   },
   {
     "id": "lightbox",
     "name": "Lightbox",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "Lightbox",
+    "wappalyzer_name": "Lightbox"
   },
   {
     "id": "limiter-modules",
     "name": "Limiter Modules",
-    "builtwith": true
+    "builtwith_name": "Limiter Modules"
   },
   {
     "id": "linkedin-ads",
     "name": "LinkedIn Ads",
-    "builtwith": true
+    "builtwith_name": "LinkedIn Ads"
   },
   {
     "id": "linkedin-insight-tag",
     "name": "Linkedin Insight Tag",
-    "wappalyzer": true
+    "wappalyzer_name": "Linkedin Insight Tag"
   },
   {
     "id": "linkedin-insights",
     "name": "LinkedIn Insights",
-    "builtwith": true
+    "builtwith_name": "LinkedIn Insights"
   },
   {
     "id": "liquid-web",
     "name": "Liquid Web",
-    "builtwith": true
+    "builtwith_name": "Liquid Web"
   },
   {
     "id": "list-js",
     "name": "List.js",
-    "wappalyzer": true,
-    "category": "JavaScript library"
+    "wappalyzer_name": "List.js"
   },
   {
     "id": "live-writer-support",
     "name": "Live Writer Support",
-    "builtwith": true
+    "builtwith_name": "Live Writer Support"
   },
   {
     "id": "livechat",
     "name": "LiveChat",
-    "wappalyzer": true
+    "wappalyzer_name": "LiveChat"
   },
   {
     "id": "liveperson",
     "name": "LivePerson",
-    "builtwith": true
+    "builtwith_name": "LivePerson"
   },
   {
     "id": "lodash",
     "name": "lodash",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "lodash",
+    "wappalyzer_name": "lodash"
   },
   {
     "id": "lotus-domino",
     "name": "Lotus Domino",
-    "builtwith": true
+    "builtwith_name": "Lotus Domino"
   },
   {
     "id": "lytebox",
     "name": "Lytebox",
-    "builtwith": true
+    "builtwith_name": "Lytebox"
   },
   {
     "id": "m3u-stream",
     "name": "M3U Stream",
-    "builtwith": true
+    "builtwith_name": "M3U Stream"
   },
   {
     "id": "magnific-popup",
     "name": "Magnific Popup",
-    "builtwith": true
+    "builtwith_name": "Magnific Popup"
   },
   {
     "id": "mailchimp",
     "name": "MailChimp",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "MailChimp",
+    "wappalyzer_name": "MailChimp"
   },
   {
     "id": "mailpoet",
     "name": "MailPoet",
-    "builtwith": true
+    "builtwith_name": "MailPoet"
   },
   {
     "id": "mambo",
     "name": "Mambo",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "Mambo",
+    "wappalyzer_name": "Mambo"
   },
   {
     "id": "marin-software",
     "name": "Marin Software",
-    "builtwith": true
+    "builtwith_name": "Marin Software"
   },
   {
     "id": "marquee",
     "name": "Marquee",
-    "builtwith": true
+    "builtwith_name": "Marquee"
   },
   {
     "id": "matchmedia",
     "name": "matchMedia",
-    "builtwith": true
+    "builtwith_name": "matchMedia"
   },
   {
     "id": "material-design-for-bootstrap",
     "name": "Material Design for Bootstrap",
-    "builtwith": true
+    "builtwith_name": "Material Design for Bootstrap"
   },
   {
     "id": "materialize-css",
     "name": "Materialize CSS",
-    "builtwith": true,
-    "wappalyzer": true,
-    "category": "css"
+    "builtwith_name": "Materialize CSS",
+    "wappalyzer_name": "Materialize CSS"
   },
   {
     "id": "matomo",
     "name": "Matomo",
-    "builtwith": true
+    "builtwith_name": "Matomo"
   },
   {
     "id": "matomo-analytics",
     "name": "Matomo Analytics",
-    "wappalyzer": true
+    "wappalyzer_name": "Matomo Analytics"
   },
   {
     "id": "matomo-cloud",
     "name": "Matomo Cloud",
-    "builtwith": true
+    "builtwith_name": "Matomo Cloud"
   },
   {
     "id": "matomo-tag-manager",
     "name": "Matomo Tag Manager",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "Matomo Tag Manager",
+    "wappalyzer_name": "Matomo Tag Manager"
   },
   {
     "id": "matterport",
     "name": "Matterport",
-    "builtwith": true
+    "builtwith_name": "Matterport"
   },
   {
     "id": "mediaelement-js",
     "name": "MediaElement.js",
-    "builtwith": true,
-    "wappalyzer": true,
-    "category": "JavaScript library"
+    "builtwith_name": "MediaElement.js",
+    "wappalyzer_name": "MediaElement.js"
   },
   {
     "id": "mediamind",
     "name": "MediaMind",
-    "builtwith": true
+    "builtwith_name": "MediaMind"
   },
   {
     "id": "meebo",
     "name": "Meebo",
-    "builtwith": true
+    "builtwith_name": "Meebo"
   },
   {
     "id": "meta-description",
     "name": "Meta Description",
-    "builtwith": true
+    "builtwith_name": "Meta Description"
   },
   {
     "id": "meta-keywords",
     "name": "Meta Keywords",
-    "builtwith": true
+    "builtwith_name": "Meta Keywords"
   },
   {
     "id": "meta-robot",
     "name": "Meta Robot",
-    "builtwith": true
+    "builtwith_name": "Meta Robot"
   },
   {
     "id": "microdata",
     "name": "Microdata",
-    "builtwith": true
+    "builtwith_name": "Microdata"
   },
   {
     "id": "microsoft-ajax-content-delivery-network",
     "name": "Microsoft Ajax Content Delivery Network",
-    "builtwith": true
+    "builtwith_name": "Microsoft Ajax Content Delivery Network"
   },
   {
     "id": "microsoft-asp-net",
     "name": "Microsoft ASP.NET",
-    "wappalyzer": true
+    "wappalyzer_name": "Microsoft ASP.NET"
   },
   {
     "id": "microsoft-azure",
     "name": "Microsoft Azure"
   },
   {
-    "name": "Microsoft Azure Blob Storage",
-    "builtwith": true,
-    "alias": "microsoft-azure"
-  },
-  {
     "id": "microsoft-frontpage",
     "name": "Microsoft Frontpage",
-    "builtwith": true
+    "builtwith_name": "Microsoft Frontpage"
   },
   {
     "id": "microsoft-office",
     "name": "Microsoft Office",
-    "builtwith": true
+    "builtwith_name": "Microsoft Office"
   },
   {
     "id": "microsoft-office-sharepoint",
     "name": "Microsoft Office SharePoint",
-    "builtwith": true
+    "builtwith_name": "Microsoft Office SharePoint"
   },
   {
     "id": "microsoft-office-web-server",
     "name": "Microsoft Office Web Server",
-    "builtwith": true,
-    "category": "servers"
+    "builtwith_name": "Microsoft Office Web Server"
   },
   {
     "id": "microsoft-publisher",
     "name": "Microsoft Publisher",
-    "wappalyzer": true
+    "wappalyzer_name": "Microsoft Publisher"
   },
   {
     "id": "microsoft-sharepoint",
     "name": "Microsoft SharePoint",
-    "wappalyzer": true
+    "wappalyzer_name": "Microsoft SharePoint"
   },
   {
     "id": "microsoft-sharepoint-server-2013",
     "name": "Microsoft SharePoint Server 2013",
-    "builtwith": true,
-    "category": "servers"
+    "builtwith_name": "Microsoft SharePoint Server 2013"
   },
   {
     "id": "microsoft-translator",
     "name": "Microsoft Translator",
-    "builtwith": true
+    "builtwith_name": "Microsoft Translator"
   },
   {
     "id": "microsoft-word",
     "name": "Microsoft Word",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "Microsoft Word",
+    "wappalyzer_name": "Microsoft Word"
   },
   {
     "id": "milonic",
     "name": "Milonic",
-    "builtwith": true
+    "builtwith_name": "Milonic"
   },
   {
     "id": "mm-menu",
     "name": "MM Menu",
-    "builtwith": true
+    "builtwith_name": "MM Menu"
   },
   {
     "id": "mobile-non-scaleable-content",
     "name": "Mobile Non Scaleable Content",
-    "builtwith": true
+    "builtwith_name": "Mobile Non Scaleable Content"
   },
   {
     "id": "mobile-optimized",
     "name": "Mobile Optimized",
-    "builtwith": true
+    "builtwith_name": "Mobile Optimized"
   },
   {
     "id": "mobilecause",
     "name": "MobileCause",
-    "builtwith": true
+    "builtwith_name": "MobileCause"
   },
   {
     "id": "mobilemenu",
     "name": "Mobilemenu",
-    "builtwith": true
+    "builtwith_name": "Mobilemenu"
   },
   {
     "id": "mod_ssl",
     "name": "mod_ssl",
-    "builtwith": true,
-    "category": "security"
-  },
-  {
-    "name": "mod_ssl 2.0.63",
-    "builtwith": true,
-    "alias": "mod_ssl",
-    "category": "security"
-  },
-  {
-    "name": "mod_ssl 2.2.10",
-    "builtwith": true,
-    "alias": "mod_ssl",
-    "category": "security"
-  },
-  {
-    "name": "mod_ssl 2.2.11",
-    "builtwith": true,
-    "alias": "mod_ssl",
-    "category": "security"
-  },
-  {
-    "name": "mod_ssl 2.2.14",
-    "builtwith": true,
-    "alias": "mod_ssl",
-    "category": "security"
-  },
-  {
-    "name": "mod_ssl 2.2.15",
-    "builtwith": true,
-    "alias": "mod_ssl",
-    "category": "security"
-  },
-  {
-    "name": "mod_ssl 2.2.19",
-    "builtwith": true,
-    "alias": "mod_ssl",
-    "category": "security"
-  },
-  {
-    "name": "mod_ssl 2.2.21",
-    "builtwith": true,
-    "alias": "mod_ssl",
-    "category": "security"
-  },
-  {
-    "name": "mod_ssl 2.2.22",
-    "builtwith": true,
-    "alias": "mod_ssl",
-    "category": "security"
-  },
-  {
-    "name": "mod_ssl 2.2.24",
-    "builtwith": true,
-    "alias": "mod_ssl",
-    "category": "security"
-  },
-  {
-    "name": "mod_ssl 2.2.25",
-    "builtwith": true,
-    "alias": "mod_ssl",
-    "category": "security"
-  },
-  {
-    "name": "mod_ssl 2.2.3",
-    "builtwith": true,
-    "alias": "mod_ssl",
-    "category": "security"
-  },
-  {
-    "name": "mod_ssl 2.2.8",
-    "builtwith": true,
-    "alias": "mod_ssl",
-    "category": "security"
-  },
-  {
-    "name": "mod_ssl 2.2.9",
-    "builtwith": true,
-    "alias": "mod_ssl",
-    "category": "security"
-  },
-  {
-    "name": "mod_ssl 2.8.22",
-    "builtwith": true,
-    "alias": "mod_ssl",
-    "category": "security"
-  },
-  {
-    "name": "mod_ssl 2.8.28",
-    "builtwith": true,
-    "alias": "mod_ssl",
-    "category": "security"
-  },
-  {
-    "name": "mod_ssl 2.8.31",
-    "builtwith": true,
-    "alias": "mod_ssl",
-    "category": "security"
+    "builtwith_name": "mod_ssl"
   },
   {
     "id": "mod_wsgi",
     "name": "mod_wsgi",
-    "builtwith": true,
-    "category": "servers"
+    "builtwith_name": "mod_wsgi"
   },
   {
     "id": "modernizr",
     "name": "Modernizr",
-    "builtwith": true,
-    "wappalyzer": true,
-    "category": "JavaScript library"
-  },
-  {
-    "name": "Modernizr 1.6",
-    "builtwith": true,
-    "alias": "modernizr",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "Modernizr 1.7",
-    "builtwith": true,
-    "alias": "modernizr",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "Modernizr 2.0",
-    "builtwith": true,
-    "alias": "modernizr",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "Modernizr 2.5",
-    "builtwith": true,
-    "alias": "modernizr",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "Modernizr 2.6",
-    "builtwith": true,
-    "alias": "modernizr",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "Modernizr 2.8",
-    "builtwith": true,
-    "alias": "modernizr",
-    "category": "JavaScript library"
+    "builtwith_name": "Modernizr",
+    "wappalyzer_name": "Modernizr"
   },
   {
     "id": "mollom",
     "name": "Mollom",
-    "builtwith": true
-  },
-  {
-    "name": "Moment JS",
-    "builtwith": true,
-    "alias": "moment-js",
-    "category": "JavaScript library"
-  },
-  {
-    "name": "Moment Timezone",
-    "wappalyzer": true,
-    "alias": "moment-js",
-    "category": "JavaScript library"
+    "builtwith_name": "Mollom"
   },
   {
     "id": "moment-js",
     "name": "Moment.js",
-    "wappalyzer": true,
-    "category": "JavaScript library"
+    "wappalyzer_name": "Moment.js"
   },
   {
     "id": "monsido",
     "name": "Monsido",
-    "builtwith": true
+    "builtwith_name": "Monsido"
   },
   {
     "id": "monsterinsights",
     "name": "MonsterInsights",
-    "builtwith": true
+    "builtwith_name": "MonsterInsights"
   },
   {
     "id": "mootools",
     "name": "MooTools",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "MooTools",
+    "wappalyzer_name": "MooTools"
   },
   {
     "id": "morris-js",
     "name": "morris.js",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "morris.js"
   },
   {
     "id": "mouse-flow",
     "name": "Mouse Flow",
-    "wappalyzer": true
+    "wappalyzer_name": "Mouse Flow"
   },
   {
     "id": "mouseflow",
     "name": "Mouseflow",
-    "builtwith": true
+    "builtwith_name": "Mouseflow"
   },
   {
     "id": "ms-smart-tag-prevention",
     "name": "MS Smart Tag Prevention",
-    "builtwith": true
+    "builtwith_name": "MS Smart Tag Prevention"
   },
   {
     "id": "msn-bing-webmaster",
     "name": "MSN/Bing Webmaster",
-    "builtwith": true
+    "builtwith_name": "MSN/Bing Webmaster"
   },
   {
     "id": "mustache",
     "name": "Mustache",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "Mustache",
+    "wappalyzer_name": "Mustache"
   },
   {
     "id": "myfonts",
     "name": "MyFonts",
-    "builtwith": true,
-    "category": "fonts"
+    "builtwith_name": "MyFonts"
   },
   {
     "id": "mysql",
     "name": "MySQL",
-    "wappalyzer": true
+    "wappalyzer_name": "MySQL"
   },
   {
     "id": "mywebsite",
     "name": "MyWebsite",
-    "wappalyzer": true
+    "wappalyzer_name": "MyWebsite"
   },
   {
     "id": "ncsa-httpd",
     "name": "NCSA HTTPd",
-    "builtwith": true
+    "builtwith_name": "NCSA HTTPd"
   },
   {
     "id": "neoncrm",
     "name": "NeonCRM",
-    "builtwith": true
+    "builtwith_name": "NeonCRM"
   },
   {
     "id": "netlify",
     "name": "Netlify",
-    "builtwith": true
+    "builtwith_name": "Netlify"
   },
   {
     "id": "netobjects-fusion",
     "name": "NetObjects Fusion",
-    "builtwith": true
+    "builtwith_name": "NetObjects Fusion"
   },
   {
     "id": "netscape-commerce",
     "name": "Netscape Commerce",
-    "builtwith": true
+    "builtwith_name": "Netscape Commerce"
   },
   {
     "id": "netscape-enterprise-server",
     "name": "Netscape Enterprise Server",
-    "builtwith": true,
-    "category": "servers"
+    "builtwith_name": "Netscape Enterprise Server"
   },
   {
     "id": "netscape-fasttrack",
     "name": "Netscape Fasttrack",
-    "builtwith": true
+    "builtwith_name": "Netscape Fasttrack"
   },
   {
     "id": "new-relic",
     "name": "New Relic",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "New Relic",
+    "wappalyzer_name": "New Relic"
   },
   {
     "id": "nextgen-gallery",
     "name": "NextGEN Gallery",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "NextGEN Gallery",
+    "wappalyzer_name": "NextGEN Gallery"
   },
   {
     "id": "nginx",
     "name": "nginx",
-    "builtwith": true,
-    "wappalyzer": true,
-    "category": "servers"
-  },
-  {
-    "name": "nginx 0.6",
-    "builtwith": true,
-    "alias": "nginx",
-    "category": "servers"
-  },
-  {
-    "name": "nginx 0.7",
-    "builtwith": true,
-    "alias": "nginx",
-    "category": "servers"
-  },
-  {
-    "name": "nginx 1.1",
-    "builtwith": true,
-    "alias": "nginx",
-    "category": "servers"
-  },
-  {
-    "name": "nginx 1.10",
-    "builtwith": true,
-    "alias": "nginx",
-    "category": "servers"
-  },
-  {
-    "name": "Nginx 1.12",
-    "builtwith": true,
-    "alias": "nginx",
-    "category": "servers"
-  },
-  {
-    "name": "Nginx 1.14",
-    "builtwith": true,
-    "alias": "nginx",
-    "category": "servers"
-  },
-  {
-    "name": "Nginx 1.15",
-    "builtwith": true,
-    "alias": "nginx",
-    "category": "servers"
-  },
-  {
-    "name": "Nginx 1.16",
-    "builtwith": true,
-    "alias": "nginx",
-    "category": "servers"
-  },
-  {
-    "name": "Nginx 1.17",
-    "builtwith": true,
-    "alias": "nginx",
-    "category": "servers"
-  },
-  {
-    "name": "nginx 1.4",
-    "builtwith": true,
-    "alias": "nginx",
-    "category": "servers"
-  },
-  {
-    "name": "nginx 1.6",
-    "builtwith": true,
-    "alias": "nginx",
-    "category": "servers"
+    "builtwith_name": "nginx",
+    "wappalyzer_name": "nginx"
   },
   {
     "id": "niche-academy",
     "name": "Niche Academy",
-    "builtwith": true
+    "builtwith_name": "Niche Academy"
   },
   {
     "id": "nifty-corners",
     "name": "Nifty Corners",
-    "builtwith": true
+    "builtwith_name": "Nifty Corners"
   },
   {
     "id": "nivo-slider",
     "name": "Nivo Slider",
-    "builtwith": true
+    "builtwith_name": "Nivo Slider"
   },
   {
     "id": "normalize-css",
     "name": "Normalize CSS",
-    "builtwith": true,
-    "category": "css"
+    "builtwith_name": "Normalize CSS"
   },
   {
     "id": "norton-safe-web",
     "name": "Norton Safe Web",
-    "builtwith": true
+    "builtwith_name": "Norton Safe Web"
   },
   {
     "id": "nwmatcher",
     "name": "NWMatcher",
-    "builtwith": true
+    "builtwith_name": "NWMatcher"
   },
   {
     "id": "oembed",
     "name": "oEmbed",
-    "builtwith": true
+    "builtwith_name": "oEmbed"
   },
   {
     "id": "omniture-sitecatalyst",
     "name": "Omniture SiteCatalyst",
-    "builtwith": true
+    "builtwith_name": "Omniture SiteCatalyst"
   },
   {
     "id": "omniupdate",
     "name": "OmniUpdate",
-    "builtwith": true
+    "builtwith_name": "OmniUpdate"
   },
   {
     "id": "onetrust",
     "name": "OneTrust",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "OneTrust",
+    "wappalyzer_name": "OneTrust"
   },
   {
     "id": "open-graph-protocol",
     "name": "Open Graph Protocol",
-    "builtwith": true
+    "builtwith_name": "Open Graph Protocol"
   },
   {
     "id": "openinghoursspecification-schema",
     "name": "OpeningHoursSpecification Schema",
-    "builtwith": true
+    "builtwith_name": "OpeningHoursSpecification Schema"
   },
   {
     "id": "opensearch",
     "name": "OpenSearch",
-    "builtwith": true
+    "builtwith_name": "OpenSearch"
   },
   {
     "id": "openssl",
     "name": "OpenSSL",
-    "builtwith": true
-  },
-  {
-    "name": "OpenSSL 0.9.6",
-    "builtwith": true,
-    "alias": "openssl"
-  },
-  {
-    "name": "OpenSSL 0.9.7",
-    "builtwith": true,
-    "alias": "openssl"
-  },
-  {
-    "name": "OpenSSL 0.9.8",
-    "builtwith": true,
-    "alias": "openssl"
-  },
-  {
-    "name": "OpenSSL 1.0.0",
-    "builtwith": true,
-    "alias": "openssl"
-  },
-  {
-    "name": "OpenSSL 1.0.1",
-    "builtwith": true,
-    "alias": "openssl"
+    "builtwith_name": "OpenSSL"
   },
   {
     "id": "optanon",
     "name": "Optanon",
-    "builtwith": true
+    "builtwith_name": "Optanon"
   },
   {
     "id": "optimizely",
     "name": "Optimizely",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "Optimizely",
+    "wappalyzer_name": "Optimizely"
   },
   {
     "id": "oracle-instant-service",
     "name": "Oracle Instant Service",
-    "builtwith": true
+    "builtwith_name": "Oracle Instant Service"
   },
   {
     "id": "orchard",
     "name": "Orchard",
-    "builtwith": true
+    "builtwith_name": "Orchard"
   },
   {
     "id": "orchard-cms",
     "name": "Orchard CMS",
-    "wappalyzer": true
+    "wappalyzer_name": "Orchard CMS"
   },
   {
     "id": "organization-schema",
     "name": "Organization Schema",
-    "builtwith": true
+    "builtwith_name": "Organization Schema"
   },
   {
     "id": "orgsync",
     "name": "OrgSync",
-    "builtwith": true
+    "builtwith_name": "OrgSync"
   },
   {
     "id": "osano",
     "name": "Osano",
-    "wappalyzer": true
+    "wappalyzer_name": "Osano"
   },
   {
     "id": "oss-cdn",
     "name": "OSS CDN",
-    "builtwith": true,
-    "category": "cdn"
+    "builtwith_name": "OSS CDN"
   },
   {
     "id": "overlib",
     "name": "overLIB",
-    "builtwith": true
+    "builtwith_name": "overLIB"
   },
   {
     "id": "owl-carousel",
     "name": "OWL Carousel",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "OWL Carousel",
+    "wappalyzer_name": "OWL Carousel"
   },
   {
     "id": "p3p-policy",
     "name": "P3P Policy",
-    "builtwith": true
+    "builtwith_name": "P3P Policy"
   },
   {
     "id": "pantheon",
     "name": "Pantheon",
-    "builtwith": true
+    "builtwith_name": "Pantheon"
   },
   {
     "id": "paperthin-common-spot",
     "name": "Paperthin Common Spot",
-    "builtwith": true
+    "builtwith_name": "Paperthin Common Spot"
   },
   {
     "id": "parallels-plesk-panel",
     "name": "Parallels Plesk Panel",
-    "builtwith": true
+    "builtwith_name": "Parallels Plesk Panel"
   },
   {
     "id": "parcel",
     "name": "parcel",
-    "wappalyzer": true
+    "wappalyzer_name": "parcel"
   },
   {
     "id": "pardot",
     "name": "Pardot",
-    "wappalyzer": true
+    "wappalyzer_name": "Pardot"
   },
   {
     "id": "paypal",
     "name": "PayPal",
-    "wappalyzer": true
+    "wappalyzer_name": "PayPal"
   },
   {
     "id": "percussion",
     "name": "Percussion",
-    "wappalyzer": true
+    "wappalyzer_name": "Percussion"
   },
   {
     "id": "perl",
     "name": "Perl",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "Perl",
+    "wappalyzer_name": "Perl"
   },
   {
     "id": "person-schema",
     "name": "Person Schema",
-    "builtwith": true
+    "builtwith_name": "Person Schema"
   },
   {
     "id": "photoswipe",
     "name": "PhotoSwipe",
-    "builtwith": true
+    "builtwith_name": "PhotoSwipe"
   },
   {
     "id": "php",
     "name": "PHP",
-    "builtwith": true,
-    "wappalyzer": true
-  },
-  {
-    "name": "PHP 7",
-    "builtwith": true,
-    "alias": "php"
+    "builtwith_name": "PHP",
+    "wappalyzer_name": "PHP"
   },
   {
     "id": "php-my-visits",
     "name": "PHP My Visits",
-    "builtwith": true
-  },
-  {
-    "name": "phpMyVisites",
-    "builtwith": true,
-    "alias": "php-my-visits"
+    "builtwith_name": "PHP My Visits"
   },
   {
     "id": "phusion-passenger",
     "name": "Phusion Passenger",
-    "builtwith": true
+    "builtwith_name": "Phusion Passenger"
   },
   {
     "id": "picasa-slideshow",
     "name": "Picasa Slideshow",
-    "builtwith": true
+    "builtwith_name": "Picasa Slideshow"
   },
   {
     "id": "piclens-lite",
     "name": "Piclens Lite",
-    "builtwith": true
+    "builtwith_name": "Piclens Lite"
   },
   {
     "id": "picosearch",
     "name": "PicoSearch",
-    "builtwith": true
+    "builtwith_name": "PicoSearch"
   },
   {
     "id": "picture-element",
     "name": "Picture Element",
-    "builtwith": true
+    "builtwith_name": "Picture Element"
   },
   {
     "id": "picturefill",
     "name": "Picturefill",
-    "builtwith": true
+    "builtwith_name": "Picturefill"
   },
   {
     "id": "pingback-support",
     "name": "Pingback Support",
-    "builtwith": true
+    "builtwith_name": "Pingback Support"
   },
   {
     "id": "pinterest",
     "name": "Pinterest",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "Pinterest",
+    "wappalyzer_name": "Pinterest"
   },
   {
     "id": "pinterest-domain-verify",
     "name": "Pinterest Domain Verify",
-    "builtwith": true
+    "builtwith_name": "Pinterest Domain Verify"
   },
   {
     "id": "pixabay",
     "name": "Pixabay",
-    "builtwith": true
+    "builtwith_name": "Pixabay"
   },
   {
     "id": "place-schema",
     "name": "Place Schema",
-    "builtwith": true
+    "builtwith_name": "Place Schema"
   },
   {
     "id": "placehold-it",
     "name": "Placehold IT",
-    "builtwith": true
+    "builtwith_name": "Placehold IT"
   },
   {
     "id": "placeholder",
     "name": "Placeholder",
-    "builtwith": true
+    "builtwith_name": "Placeholder"
   },
   {
     "id": "platform-for-internet-content-selection",
     "name": "Platform for Internet Content Selection",
-    "builtwith": true
+    "builtwith_name": "Platform for Internet Content Selection"
   },
   {
     "id": "plone",
     "name": "Plone",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "Plone",
+    "wappalyzer_name": "Plone"
   },
   {
     "id": "png-fix",
     "name": "PNG Fix",
-    "builtwith": true
+    "builtwith_name": "PNG Fix"
   },
   {
     "id": "polyfill",
     "name": "Polyfill",
-    "wappalyzer": true
-  },
-  {
-    "name": "Polyfill IO",
-    "builtwith": true,
-    "alias": "polyfill"
+    "wappalyzer_name": "Polyfill"
   },
   {
     "id": "popper",
     "name": "Popper",
-    "wappalyzer": true
-  },
-  {
-    "name": "Popper.js",
-    "builtwith": true,
-    "alias": "popper",
-    "category": "JavaScript library"
+    "wappalyzer_name": "Popper"
   },
   {
     "id": "postaladdress-schema",
     "name": "PostalAddress Schema",
-    "builtwith": true
+    "builtwith_name": "PostalAddress Schema"
   },
   {
     "id": "powerpc",
     "name": "PowerPC",
-    "builtwith": true
+    "builtwith_name": "PowerPC"
   },
   {
     "id": "prettyphoto",
     "name": "prettyPhoto",
-    "wappalyzer": true
+    "wappalyzer_name": "prettyPhoto"
   },
   {
     "id": "prettyprint",
     "name": "PrettyPrint",
-    "builtwith": true
+    "builtwith_name": "PrettyPrint"
   },
   {
     "id": "professionalservice-schema",
     "name": "ProfessionalService Schema",
-    "builtwith": true
+    "builtwith_name": "ProfessionalService Schema"
   },
   {
     "id": "project-seven-popup-menu",
     "name": "Project Seven Popup Menu",
-    "builtwith": true
+    "builtwith_name": "Project Seven Popup Menu"
   },
   {
     "id": "proofpoint-url-defense",
     "name": "Proofpoint URL Defense",
-    "builtwith": true
+    "builtwith_name": "Proofpoint URL Defense"
   },
   {
     "id": "prototype",
     "name": "Prototype",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "Prototype",
+    "wappalyzer_name": "Prototype"
   },
   {
     "id": "publitas",
     "name": "Publitas",
-    "builtwith": true
+    "builtwith_name": "Publitas"
   },
   {
     "id": "purl",
     "name": "Purl",
-    "builtwith": true
+    "builtwith_name": "Purl"
   },
   {
     "id": "python",
     "name": "Python",
-    "builtwith": true,
-    "wappalyzer": true
-  },
-  {
-    "name": "Python 2.5",
-    "builtwith": true,
-    "alias": "python"
-  },
-  {
-    "name": "Python 2.6",
-    "builtwith": true,
-    "alias": "python"
-  },
-  {
-    "name": "Python 2.7",
-    "builtwith": true,
-    "alias": "python"
-  },
-  {
-    "name": "Python 3.3",
-    "builtwith": true,
-    "alias": "python"
+    "builtwith_name": "Python",
+    "wappalyzer_name": "Python"
   },
   {
     "id": "qualaroo",
     "name": "Qualaroo",
-    "builtwith": true
+    "builtwith_name": "Qualaroo"
   },
   {
     "id": "qualtrics",
     "name": "Qualtrics",
-    "builtwith": true
-  },
-  {
-    "name": "Qualtrics Site Intercept",
-    "builtwith": true,
-    "alias": "qualtrics"
+    "builtwith_name": "Qualtrics"
   },
   {
     "id": "quantcast-choice",
     "name": "Quantcast Choice",
-    "wappalyzer": true
+    "wappalyzer_name": "Quantcast Choice"
   },
   {
     "id": "quantcast-measure",
     "name": "Quantcast Measure",
-    "wappalyzer": true
+    "wappalyzer_name": "Quantcast Measure"
   },
   {
     "id": "quantcast-measurement",
     "name": "Quantcast Measurement",
-    "builtwith": true
+    "builtwith_name": "Quantcast Measurement"
   },
   {
     "id": "raphael",
     "name": "Raphael",
-    "wappalyzer": true
+    "wappalyzer_name": "Raphael"
   },
   {
     "id": "rasci",
     "name": "RASCi",
-    "builtwith": true
+    "builtwith_name": "RASCi"
   },
   {
     "id": "raven-js",
     "name": "Raven JS",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "Raven JS"
   },
   {
     "id": "rawgit",
     "name": "RawGit",
-    "builtwith": true
+    "builtwith_name": "RawGit"
   },
   {
     "id": "rdf",
     "name": "RDF",
-    "builtwith": true
+    "builtwith_name": "RDF"
   },
   {
     "id": "reachlocal",
     "name": "ReachLocal",
-    "builtwith": true
+    "builtwith_name": "ReachLocal"
   },
   {
     "id": "react",
     "name": "React",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "React",
+    "wappalyzer_name": "React"
   },
   {
     "id": "really-simple-discovery",
     "name": "Really Simple Discovery",
-    "builtwith": true
+    "builtwith_name": "Really Simple Discovery"
   },
   {
     "id": "recaptcha",
     "name": "reCAPTCHA",
-    "builtwith": true,
-    "wappalyzer": true
-  },
-  {
-    "name": "reCAPTCHA v2",
-    "builtwith": true,
-    "alias": "recaptcha"
+    "builtwith_name": "reCAPTCHA",
+    "wappalyzer_name": "reCAPTCHA"
   },
   {
     "id": "red-hat-enterprise-linux",
     "name": "Red Hat Enterprise Linux",
-    "builtwith": true,
-    "category": "os"
+    "builtwith_name": "Red Hat Enterprise Linux"
   },
   {
     "id": "reddit",
     "name": "Reddit",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "Reddit",
+    "wappalyzer_name": "Reddit"
   },
   {
     "id": "referrer-policy",
     "name": "Referrer Policy",
-    "builtwith": true
+    "builtwith_name": "Referrer Policy"
   },
   {
     "id": "reinvigorate",
     "name": "Reinvigorate",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "Reinvigorate",
+    "wappalyzer_name": "Reinvigorate"
   },
   {
     "id": "report-uri-csp",
     "name": "Report URI CSP",
-    "builtwith": true
+    "builtwith_name": "Report URI CSP"
   },
   {
     "id": "requirejs",
     "name": "RequireJS",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "RequireJS",
+    "wappalyzer_name": "RequireJS"
   },
   {
     "id": "resin",
     "name": "Resin",
-    "builtwith": true
-  },
-  {
-    "name": "Resin 3.1",
-    "builtwith": true,
-    "alias": "resin"
+    "builtwith_name": "Resin"
   },
   {
     "id": "respond",
     "name": "Respond",
-    "builtwith": true
+    "builtwith_name": "Respond"
   },
   {
     "id": "retina-js",
     "name": "Retina JS",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "Retina JS"
   },
   {
     "id": "reveal-js",
     "name": "Reveal.js",
-    "wappalyzer": true,
-    "category": "JavaScript library"
+    "wappalyzer_name": "Reveal.js"
   },
   {
     "id": "revisit-after",
     "name": "Revisit After",
-    "builtwith": true
+    "builtwith_name": "Revisit After"
   },
   {
     "id": "revslider",
     "name": "Revslider",
-    "wappalyzer": true
+    "wappalyzer_name": "Revslider"
   },
   {
     "id": "roknavmenu",
     "name": "RokNavMenu",
-    "builtwith": true
+    "builtwith_name": "RokNavMenu"
   },
   {
     "id": "royalslider",
     "name": "RoyalSlider",
-    "builtwith": true
+    "builtwith_name": "RoyalSlider"
   },
   {
     "id": "rss",
     "name": "RSS",
-    "builtwith": true
+    "builtwith_name": "RSS"
   },
   {
     "id": "rtmp-stream",
     "name": "RTMP Stream",
-    "builtwith": true
+    "builtwith_name": "RTMP Stream"
   },
   {
     "id": "ruby",
     "name": "Ruby",
-    "wappalyzer": true
+    "wappalyzer_name": "Ruby"
   },
   {
     "id": "ruby-on-rails",
     "name": "Ruby on Rails",
-    "builtwith": true,
-    "wappalyzer": true
-  },
-  {
-    "name": "Ruby on Rails Token",
-    "builtwith": true,
-    "alias": "ruby-on-rails"
+    "builtwith_name": "Ruby on Rails",
+    "wappalyzer_name": "Ruby on Rails"
   },
   {
     "id": "ruzeeborders",
     "name": "ruzeeborders",
-    "builtwith": true
+    "builtwith_name": "ruzeeborders"
+  },
+  {
+    "id": "s3",
+    "name": "Amazon S3",
+    "builtwith_name": "Amazon S3"
   },
   {
     "id": "salient",
     "name": "Salient",
-    "builtwith": true
+    "builtwith_name": "Salient"
   },
   {
     "id": "script-aculo-us",
     "name": "script.aculo.us",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "script.aculo.us",
+    "wappalyzer_name": "script.aculo.us"
   },
   {
     "id": "select2",
     "name": "Select2",
-    "wappalyzer": true
+    "wappalyzer_name": "Select2"
   },
   {
     "id": "selectivizr",
     "name": "selectivizr",
-    "builtwith": true
+    "builtwith_name": "selectivizr"
   },
   {
     "id": "semantic-ui",
     "name": "Semantic UI",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "Semantic UI",
+    "wappalyzer_name": "Semantic UI"
   },
   {
     "id": "sentry",
     "name": "Sentry",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "Sentry",
+    "wappalyzer_name": "Sentry"
   },
   {
     "id": "service-worker",
     "name": "Service Worker",
-    "builtwith": true
+    "builtwith_name": "Service Worker"
   },
   {
     "id": "shadowbox",
     "name": "Shadowbox",
-    "builtwith": true
+    "builtwith_name": "Shadowbox"
   },
   {
     "id": "sharethis",
     "name": "ShareThis",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "ShareThis",
+    "wappalyzer_name": "ShareThis"
   },
   {
     "id": "shepherd",
     "name": "Shepherd",
-    "builtwith": true
-  },
-  {
-    "name": "Shockwave Flash Embed",
-    "builtwith": true,
-    "alias": "flash"
+    "builtwith_name": "Shepherd"
   },
   {
     "id": "showclix",
     "name": "ShowClix",
-    "builtwith": true
+    "builtwith_name": "ShowClix"
   },
   {
     "id": "shutterstock",
     "name": "Shutterstock",
-    "builtwith": true
+    "builtwith_name": "Shutterstock"
   },
   {
     "id": "sidr",
     "name": "sidr",
-    "builtwith": true
+    "builtwith_name": "sidr"
   },
   {
     "id": "sifr",
     "name": "sIFR",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "sIFR",
+    "wappalyzer_name": "sIFR"
   },
   {
     "id": "signal",
     "name": "Signal",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "Signal",
+    "wappalyzer_name": "Signal"
   },
   {
     "id": "silktide-cookie-consent",
     "name": "Silktide Cookie Consent",
-    "builtwith": true
+    "builtwith_name": "Silktide Cookie Consent"
   },
   {
     "id": "silverstripe",
     "name": "SilverStripe",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "SilverStripe",
+    "wappalyzer_name": "SilverStripe"
   },
   {
     "id": "simple-sitemap",
     "name": "Simple Sitemap",
-    "builtwith": true
+    "builtwith_name": "Simple Sitemap"
   },
   {
     "id": "simpli-fi",
     "name": "Simpli.fi",
-    "builtwith": true
+    "builtwith_name": "Simpli.fi"
   },
   {
     "id": "sioc",
     "name": "SIOC",
-    "builtwith": true
+    "builtwith_name": "SIOC"
   },
   {
     "id": "site-executive",
     "name": "Site Executive",
-    "builtwith": true
+    "builtwith_name": "Site Executive"
   },
   {
     "id": "sitecore",
     "name": "Sitecore",
-    "wappalyzer": true
+    "wappalyzer_name": "Sitecore"
   },
   {
     "id": "sitecore-cms",
     "name": "Sitecore CMS",
-    "builtwith": true
+    "builtwith_name": "Sitecore CMS"
   },
   {
     "id": "siteimprove",
     "name": "Siteimprove",
-    "builtwith": true
+    "builtwith_name": "Siteimprove"
   },
   {
     "id": "sitelinks-search-box",
     "name": "Sitelinks Search Box",
-    "builtwith": true
+    "builtwith_name": "Sitelinks Search Box"
   },
   {
     "id": "sizmek",
     "name": "Sizmek",
-    "wappalyzer": true
+    "wappalyzer_name": "Sizmek"
   },
   {
     "id": "skos",
     "name": "SKOS",
-    "builtwith": true
+    "builtwith_name": "SKOS"
   },
   {
     "id": "skrollr",
     "name": "Skrollr",
-    "builtwith": true
+    "builtwith_name": "Skrollr"
   },
   {
     "id": "slick",
     "name": "Slick",
-    "wappalyzer": true
-  },
-  {
-    "name": "Slick JS",
-    "builtwith": true,
-    "alias": "slick"
+    "wappalyzer_name": "Slick"
   },
   {
     "id": "smart-app-banner",
     "name": "Smart App Banner",
-    "builtwith": true
+    "builtwith_name": "Smart App Banner"
   },
   {
     "id": "smartcrawl",
     "name": "SmartCrawl",
-    "builtwith": true
+    "builtwith_name": "SmartCrawl"
   },
   {
     "id": "sothink-html-menu",
     "name": "SoThink HTML Menu",
-    "builtwith": true
+    "builtwith_name": "SoThink HTML Menu"
   },
   {
     "id": "soundmanager2",
     "name": "soundmanager2",
-    "builtwith": true
+    "builtwith_name": "soundmanager2"
   },
   {
     "id": "specific-media",
     "name": "Specific Media",
-    "builtwith": true
+    "builtwith_name": "Specific Media"
   },
   {
     "id": "spectate",
     "name": "Spectate",
-    "builtwith": true
+    "builtwith_name": "Spectate"
   },
   {
     "id": "squarespace",
     "name": "Squarespace",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "Squarespace",
+    "wappalyzer_name": "Squarespace"
   },
   {
     "id": "squid",
     "name": "Squid",
-    "builtwith": true
+    "builtwith_name": "Squid"
   },
   {
     "id": "srcset",
     "name": "srcset",
-    "builtwith": true
-  },
-  {
-    "name": "SSL Google Analytics",
-    "builtwith": true,
-    "alias": "google-analytics"
+    "builtwith_name": "srcset"
   },
   {
     "id": "stackpath-bootstrapcdn",
     "name": "StackPath BootstrapCDN",
-    "builtwith": true,
-    "category": "cdn"
+    "builtwith_name": "StackPath BootstrapCDN"
   },
   {
     "id": "statcounter",
     "name": "StatCounter",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "StatCounter",
+    "wappalyzer_name": "StatCounter"
   },
   {
     "id": "stellar-js",
     "name": "Stellar.js",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "Stellar.js"
   },
   {
     "id": "stream",
     "name": "Stream",
-    "builtwith": true
+    "builtwith_name": "Stream"
   },
   {
     "id": "strict-transport-security",
     "name": "Strict Transport Security",
-    "builtwith": true
+    "builtwith_name": "Strict Transport Security"
   },
   {
     "id": "stripe",
     "name": "Stripe",
-    "builtwith": true,
-    "wappalyzer": true
-  },
-  {
-    "name": "Stripe v3",
-    "builtwith": true,
-    "alias": "stripe"
+    "builtwith_name": "Stripe",
+    "wappalyzer_name": "Stripe"
   },
   {
     "id": "stumbleupon",
     "name": "Stumbleupon",
-    "builtwith": true
+    "builtwith_name": "Stumbleupon"
   },
   {
     "id": "style-switcher",
     "name": "Style Switcher",
-    "builtwith": true
+    "builtwith_name": "Style Switcher"
   },
   {
     "id": "sub-resource-integrity",
     "name": "Sub Resource Integrity",
-    "builtwith": true
+    "builtwith_name": "Sub Resource Integrity"
   },
   {
     "id": "subversion",
     "name": "Subversion",
-    "builtwith": true
+    "builtwith_name": "Subversion"
   },
   {
     "id": "sucuri-cloudproxy",
     "name": "Sucuri Cloudproxy",
-    "builtwith": true
+    "builtwith_name": "Sucuri Cloudproxy"
   },
   {
     "id": "suhosin",
     "name": "Suhosin",
-    "builtwith": true
-  },
-  {
-    "name": "Sun Java System",
-    "builtwith": true,
-    "alias": "java"
+    "builtwith_name": "Suhosin"
   },
   {
     "id": "sun-one",
     "name": "Sun ONE Web Server",
-    "builtwith": true,
-    "category": "servers"
-  },
-  {
-    "name": "Sun ONE Web Server v6.1",
-    "builtwith": true,
-    "alias": "sun-one",
-    "category": "servers"
+    "builtwith_name": "Sun ONE Web Server"
   },
   {
     "id": "superfish-menu",
     "name": "SuperFish Menu",
-    "builtwith": true
+    "builtwith_name": "SuperFish Menu"
   },
   {
     "id": "supersized",
     "name": "Supersized",
-    "wappalyzer": true
+    "wappalyzer_name": "Supersized"
   },
   {
     "id": "survicate",
     "name": "Survicate",
-    "builtwith": true
+    "builtwith_name": "Survicate"
   },
   {
     "id": "swfobject",
     "name": "SWFObject",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "SWFObject",
+    "wappalyzer_name": "SWFObject"
   },
   {
     "id": "swipe-js",
     "name": "Swipe JS",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "Swipe JS"
   },
   {
     "id": "swiper-slider",
     "name": "Swiper Slider",
-    "wappalyzer": true
+    "wappalyzer_name": "Swiper Slider"
   },
   {
     "id": "symplicity",
     "name": "Symplicity",
-    "builtwith": true
+    "builtwith_name": "Symplicity"
   },
   {
     "id": "tablesorter",
     "name": "Tablesorter",
-    "builtwith": true
+    "builtwith_name": "Tablesorter"
   },
   {
     "id": "taleo",
     "name": "Taleo",
-    "builtwith": true
+    "builtwith_name": "Taleo"
   },
   {
     "id": "tawk-to",
     "name": "tawk.to",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "tawk.to",
+    "wappalyzer_name": "tawk.to"
   },
   {
     "id": "tealium",
     "name": "Tealium",
-    "wappalyzer": true
+    "wappalyzer_name": "Tealium"
   },
   {
     "id": "telerik-controls",
     "name": "Telerik Controls",
-    "builtwith": true
+    "builtwith_name": "Telerik Controls"
   },
   {
     "id": "texthelp",
     "name": "Texthelp",
-    "builtwith": true
+    "builtwith_name": "Texthelp"
   },
   {
     "id": "the-enkoder",
     "name": "The Enkoder",
-    "builtwith": true
+    "builtwith_name": "The Enkoder"
   },
   {
     "id": "the-seo-framework",
     "name": "The SEO Framework",
-    "builtwith": true
+    "builtwith_name": "The SEO Framework"
   },
   {
     "id": "the-trade-desk",
     "name": "The Trade Desk",
-    "builtwith": true
+    "builtwith_name": "The Trade Desk"
   },
   {
     "id": "the7",
     "name": "The7",
-    "builtwith": true
+    "builtwith_name": "The7"
   },
   {
     "id": "themepunch",
     "name": "ThemePunch",
-    "builtwith": true
+    "builtwith_name": "ThemePunch"
   },
   {
     "id": "thickbox",
     "name": "Thickbox",
-    "builtwith": true
+    "builtwith_name": "Thickbox"
   },
   {
     "id": "thing-schema",
     "name": "Thing Schema",
-    "builtwith": true
+    "builtwith_name": "Thing Schema"
   },
   {
     "id": "ticketswest",
     "name": "TicketsWest",
-    "builtwith": true
+    "builtwith_name": "TicketsWest"
   },
   {
     "id": "timeago",
     "name": "timeago",
-    "builtwith": true
+    "builtwith_name": "timeago"
   },
   {
     "id": "tiny-carousel",
     "name": "Tiny Carousel",
-    "builtwith": true
+    "builtwith_name": "Tiny Carousel"
   },
   {
     "id": "tinymce",
     "name": "TinyMCE",
-    "wappalyzer": true
+    "wappalyzer_name": "TinyMCE"
   },
   {
     "id": "touchswipe",
     "name": "touchSwipe",
-    "builtwith": true
+    "builtwith_name": "touchSwipe"
   },
   {
     "id": "touristattraction-schema",
     "name": "TouristAttraction Schema",
-    "builtwith": true
+    "builtwith_name": "TouristAttraction Schema"
   },
   {
     "id": "trackjs",
     "name": "TrackJs",
-    "wappalyzer": true
+    "wappalyzer_name": "TrackJs"
   },
   {
     "id": "trafficmarketplace",
     "name": "TrafficMarketplace",
-    "builtwith": true
+    "builtwith_name": "TrafficMarketplace"
   },
   {
     "id": "trumba",
     "name": "Trumba",
-    "builtwith": true
+    "builtwith_name": "Trumba"
   },
   {
     "id": "turbolinks",
     "name": "TurboLinks",
-    "builtwith": true
+    "builtwith_name": "TurboLinks"
   },
   {
     "id": "tweenmax",
     "name": "TweenMax",
-    "builtwith": true
+    "builtwith_name": "TweenMax"
   },
   {
     "id": "tweet-for-jquery",
     "name": "Tweet for jQuery",
-    "builtwith": true
+    "builtwith_name": "Tweet for jQuery"
   },
   {
     "id": "twitter",
     "name": "Twitter",
-    "wappalyzer": true
-  },
-  {
-    "name": "Twitter Bootstrap",
-    "builtwith": true,
-    "alias": "bootstrap"
+    "wappalyzer_name": "Twitter"
   },
   {
     "id": "twitter-cards",
     "name": "Twitter Cards",
-    "builtwith": true
+    "builtwith_name": "Twitter Cards"
   },
   {
     "id": "twitter-cdn",
     "name": "Twitter CDN",
-    "builtwith": true,
-    "category": "cdn"
+    "builtwith_name": "Twitter CDN"
   },
   {
     "id": "twitter-emoji-twemoji",
     "name": "Twitter Emoji (Twemoji)",
-    "wappalyzer": true
+    "wappalyzer_name": "Twitter Emoji (Twemoji)"
   },
   {
     "id": "twitter-flight",
     "name": "Twitter Flight",
-    "wappalyzer": true
+    "wappalyzer_name": "Twitter Flight"
   },
   {
     "id": "twitter-follow-button",
     "name": "Twitter Follow Button",
-    "builtwith": true
+    "builtwith_name": "Twitter Follow Button"
   },
   {
     "id": "twitter-platform",
     "name": "Twitter Platform",
-    "builtwith": true
+    "builtwith_name": "Twitter Platform"
   },
   {
     "id": "twitter-timeline",
     "name": "Twitter Timeline",
-    "builtwith": true
+    "builtwith_name": "Twitter Timeline"
   },
   {
     "id": "twitter-tweet-button",
     "name": "Twitter Tweet Button",
-    "builtwith": true
+    "builtwith_name": "Twitter Tweet Button"
   },
   {
     "id": "twitter-typeahead-js",
     "name": "Twitter typeahead.js",
-    "wappalyzer": true,
-    "category": "JavaScript library"
+    "wappalyzer_name": "Twitter typeahead.js"
   },
   {
     "id": "twitter-widget",
     "name": "Twitter Widget",
-    "builtwith": true
+    "builtwith_name": "Twitter Widget"
   },
   {
     "id": "typeahead-js",
     "name": "Typeahead.js",
-    "builtwith": true,
-    "category": "JavaScript library"
+    "builtwith_name": "Typeahead.js"
   },
   {
     "id": "typekit",
     "name": "Typekit",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "Typekit",
+    "wappalyzer_name": "Typekit"
   },
   {
     "id": "typekit-async",
     "name": "Typekit Async",
-    "builtwith": true
+    "builtwith_name": "Typekit Async"
   },
   {
     "id": "typo3",
     "name": "TYPO3",
-    "builtwith": true
-  },
-  {
-    "name": "TYPO3 CMS",
-    "wappalyzer": true,
-    "alias": "typo3"
+    "builtwith_name": "TYPO3"
   },
   {
     "id": "typography",
     "name": "Typography",
-    "builtwith": true
+    "builtwith_name": "Typography"
   },
   {
     "id": "ubercart",
     "name": "Ubercart",
-    "builtwith": true
+    "builtwith_name": "Ubercart"
   },
   {
     "id": "ubuntu",
     "name": "Ubuntu",
-    "builtwith": true
+    "builtwith_name": "Ubuntu"
   },
   {
     "id": "underscore-js",
     "name": "Underscore.js",
-    "builtwith": true,
-    "wappalyzer": true,
-    "category": "JavaScript library"
+    "builtwith_name": "Underscore.js",
+    "wappalyzer_name": "Underscore.js"
   },
   {
     "id": "unix",
     "name": "Unix",
-    "builtwith": true
+    "builtwith_name": "Unix"
   },
   {
     "id": "unpkg",
     "name": "UNPKG",
-    "builtwith": true
+    "builtwith_name": "UNPKG"
   },
   {
     "id": "unsemantic",
     "name": "Unsemantic",
-    "builtwith": true
+    "builtwith_name": "Unsemantic"
   },
   {
     "id": "unsplash",
     "name": "Unsplash",
-    "builtwith": true
+    "builtwith_name": "Unsplash"
   },
   {
     "id": "urchin-5",
     "name": "Urchin 5",
-    "builtwith": true
+    "builtwith_name": "Urchin 5"
   },
   {
     "id": "url-rewriter-net",
     "name": "URL Rewriter .NET",
-    "builtwith": true
+    "builtwith_name": "URL Rewriter .NET"
   },
   {
     "id": "uservoice",
     "name": "UserVoice",
-    "wappalyzer": true
+    "wappalyzer_name": "UserVoice"
   },
   {
     "id": "utf-8",
     "name": "UTF-8",
-    "builtwith": true
+    "builtwith_name": "UTF-8"
   },
   {
     "id": "varnish",
     "name": "Varnish",
-    "builtwith": true
-  },
-  {
-    "name": "Varnish 5.x",
-    "builtwith": true,
-    "alias": "varnish"
+    "builtwith_name": "Varnish"
   },
   {
     "id": "vbscript",
     "name": "VBScript",
-    "builtwith": true
+    "builtwith_name": "VBScript"
   },
   {
     "id": "vcard",
     "name": "vCard",
-    "builtwith": true
+    "builtwith_name": "vCard"
   },
   {
     "id": "velaro",
     "name": "Velaro",
-    "builtwith": true
+    "builtwith_name": "Velaro"
   },
   {
     "id": "verticalresponse",
     "name": "VerticalResponse",
-    "builtwith": true
+    "builtwith_name": "VerticalResponse"
   },
   {
     "id": "videojs",
     "name": "VideoJS",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "VideoJS",
+    "wappalyzer_name": "VideoJS"
   },
   {
     "id": "viewport-meta",
     "name": "Viewport Meta",
-    "builtwith": true
+    "builtwith_name": "Viewport Meta"
   },
   {
     "id": "vimeo",
     "name": "Vimeo",
-    "builtwith": true
+    "builtwith_name": "Vimeo"
   },
   {
     "id": "visual-composer-ultimate-addons",
     "name": "Visual Composer Ultimate Addons",
-    "builtwith": true
+    "builtwith_name": "Visual Composer Ultimate Addons"
   },
   {
     "id": "visual-studio",
     "name": "Visual Studio",
-    "builtwith": true
+    "builtwith_name": "Visual Studio"
   },
   {
     "id": "visual-website-optimizer",
     "name": "Visual Website Optimizer",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "Visual Website Optimizer",
+    "wappalyzer_name": "Visual Website Optimizer"
   },
   {
     "id": "vticker",
     "name": "vTicker",
-    "builtwith": true
-  },
-  {
-    "name": "Vue",
-    "builtwith": true,
-    "alias": "vue-js",
-    "category": "JavaScript library"
+    "builtwith_name": "vTicker"
   },
   {
     "id": "vue-js",
     "name": "Vue.js",
-    "wappalyzer": true,
-    "category": "JavaScript library"
+    "wappalyzer_name": "Vue.js"
   },
   {
     "id": "w3-total-cache",
     "name": "W3 Total Cache",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "W3 Total Cache",
+    "wappalyzer_name": "W3 Total Cache"
   },
   {
     "id": "wai-aria",
     "name": "WAI-ARIA",
-    "builtwith": true
+    "builtwith_name": "WAI-ARIA"
   },
   {
     "id": "web-app-manifest",
     "name": "Web App Manifest",
-    "builtwith": true
+    "builtwith_name": "Web App Manifest"
   },
   {
     "id": "web-site-pro",
     "name": "Web Site Pro",
-    "builtwith": true
+    "builtwith_name": "Web Site Pro"
   },
   {
     "id": "webfont-loader",
     "name": "WebFont Loader",
-    "builtwith": true,
-    "category": "fonts"
+    "builtwith_name": "WebFont Loader"
   },
   {
     "id": "webgui",
     "name": "WebGUI",
-    "wappalyzer": true
+    "wappalyzer_name": "WebGUI"
   },
   {
     "id": "webpack",
     "name": "webpack",
-    "wappalyzer": true
+    "wappalyzer_name": "webpack"
   },
   {
     "id": "webstar-4d",
     "name": "WebStar 4d",
-    "builtwith": true
+    "builtwith_name": "WebStar 4d"
   },
   {
     "id": "webtrends",
     "name": "WebTrends",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "WebTrends",
+    "wappalyzer_name": "WebTrends"
   },
   {
     "id": "webtype",
     "name": "Webtype",
-    "builtwith": true
+    "builtwith_name": "Webtype"
   },
   {
     "id": "win32-header",
     "name": "Win32 Header",
-    "builtwith": true
+    "builtwith_name": "Win32 Header"
   },
   {
     "id": "windows-8-pinning",
     "name": "Windows 8 Pinning",
-    "builtwith": true
+    "builtwith_name": "Windows 8 Pinning"
   },
   {
     "id": "wistia",
     "name": "Wistia",
-    "builtwith": true
+    "builtwith_name": "Wistia"
   },
   {
     "id": "woopra",
     "name": "Woopra",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "Woopra",
+    "wappalyzer_name": "Woopra"
   },
   {
     "id": "wordfence",
     "name": "Wordfence",
-    "builtwith": true
+    "builtwith_name": "Wordfence"
   },
   {
     "id": "wordpress",
     "name": "WordPress",
-    "builtwith": true,
-    "wappalyzer": true
-  },
-  {
-    "name": "WordPress 2.5",
-    "builtwith": true,
-    "alias": "wordpress"
-  },
-  {
-    "name": "WordPress 2.8",
-    "builtwith": true,
-    "alias": "wordpress"
-  },
-  {
-    "name": "WordPress 3.3",
-    "builtwith": true,
-    "alias": "wordpress"
-  },
-  {
-    "name": "WordPress 3.5",
-    "builtwith": true,
-    "alias": "wordpress"
-  },
-  {
-    "name": "WordPress 3.6",
-    "builtwith": true,
-    "alias": "wordpress"
-  },
-  {
-    "name": "Wordpress 3.9",
-    "builtwith": true,
-    "alias": "wordpress"
-  },
-  {
-    "name": "WordPress 4.0",
-    "builtwith": true,
-    "alias": "wordpress"
-  },
-  {
-    "name": "Wordpress 4.1",
-    "builtwith": true,
-    "alias": "wordpress"
-  },
-  {
-    "name": "Wordpress 4.7",
-    "builtwith": true,
-    "alias": "wordpress"
-  },
-  {
-    "name": "Wordpress 4.8",
-    "builtwith": true,
-    "alias": "wordpress"
-  },
-  {
-    "name": "Wordpress 4.9",
-    "builtwith": true,
-    "alias": "wordpress"
-  },
-  {
-    "name": "Wordpress 5.0",
-    "builtwith": true,
-    "alias": "wordpress"
-  },
-  {
-    "name": "WordPress 5.2",
-    "builtwith": true,
-    "alias": "wordpress"
-  },
-  {
-    "name": "WordPress 5.3",
-    "builtwith": true,
-    "alias": "wordpress"
-  },
-  {
-    "name": "WordPress 5.4",
-    "builtwith": true,
-    "alias": "wordpress"
-  },
-  {
-    "name": "WordPress 5.5",
-    "builtwith": true,
-    "alias": "wordpress"
-  },
-  {
-    "name": "WordPress 5.6",
-    "builtwith": true,
-    "alias": "wordpress"
+    "builtwith_name": "WordPress",
+    "wappalyzer_name": "WordPress"
   },
   {
     "id": "wordpress-grid",
     "name": "WordPress Grid",
-    "builtwith": true
+    "builtwith_name": "WordPress Grid"
   },
   {
     "id": "wordpress-plugins",
     "name": "Wordpress Plugins",
-    "builtwith": true
+    "builtwith_name": "Wordpress Plugins"
   },
   {
     "id": "wordpress-super-cache",
     "name": "WordPress Super Cache",
-    "wappalyzer": true
+    "wappalyzer_name": "WordPress Super Cache"
   },
   {
     "id": "wow",
     "name": "WOW",
-    "builtwith": true
-  },
-  {
-    "name": "WOW Slider",
-    "builtwith": true,
-    "alias": "wow"
+    "builtwith_name": "WOW"
   },
   {
     "id": "wp-engine",
     "name": "WP Engine",
-    "builtwith": true
+    "builtwith_name": "WP Engine"
   },
   {
     "id": "wp-rocket",
     "name": "WP Rocket",
-    "builtwith": true,
-    "wappalyzer": true
-  },
-  {
-    "name": "WP Super Cache",
-    "builtwith": true,
-    "alias": "wordpress-super-cache"
+    "builtwith_name": "WP Rocket",
+    "wappalyzer_name": "WP Rocket"
   },
   {
     "id": "wpbakery",
     "name": "WPBakery",
-    "builtwith": true
+    "builtwith_name": "WPBakery"
   },
   {
     "id": "wpmu-dev",
     "name": "WPMU DEV",
-    "builtwith": true
+    "builtwith_name": "WPMU DEV"
   },
   {
     "id": "wufoo",
     "name": "Wufoo",
-    "builtwith": true
+    "builtwith_name": "Wufoo"
   },
   {
     "id": "wysija",
     "name": "Wysija",
-    "builtwith": true
+    "builtwith_name": "Wysija"
   },
   {
     "id": "x-frame-options",
     "name": "X-Frame-Options",
-    "builtwith": true
+    "builtwith_name": "X-Frame-Options"
   },
   {
     "id": "x-ua-compatible",
     "name": "X-UA-Compatible",
-    "builtwith": true
+    "builtwith_name": "X-UA-Compatible"
   },
   {
     "id": "x-xss-protection",
     "name": "X-XSS-Protection",
-    "builtwith": true
-  },
-  {
-    "id": "xhtml-rdf",
-    "name": "XHTML RDFa 1.0",
-    "builtwith": true
+    "builtwith_name": "X-XSS-Protection"
   },
   {
     "id": "xhtml",
     "name": "XHTML Strict",
-    "builtwith": true
+    "builtwith_name": "XHTML Strict"
   },
   {
-    "name": "XHTML Transitional",
-    "builtwith": true,
-    "alias": "xhtml"
-  },
-  {
-    "name": "XHTML Vocabulary",
-    "builtwith": true,
-    "alias": "xhtml"
-  },
-  {
-    "id": "yahoo-bookmarklet",
-    "name": "Yahoo Bookmarklet",
-    "builtwith": true
-  },
-  {
-    "id": "yahoo-cdn",
-    "name": "Yahoo CDN",
-    "builtwith": true,
-    "category": "cdn"
-  },
-  {
-    "name": "Yahoo Geocities Analytics",
-    "builtwith": true,
-    "alias": "yahoo-analytics"
-  },
-  {
-    "id": "yahoo-image-cdn",
-    "name": "Yahoo Image CDN",
-    "builtwith": true,
-    "category": "cdn"
-  },
-  {
-    "id": "yahoo-pipes",
-    "name": "Yahoo Pipes",
-    "builtwith": true
-  },
-  {
-    "id": "yahoo-site-explorer",
-    "name": "Yahoo Site Explorer",
-    "builtwith": true
-  },
-  {
-    "id": "yahoo-small-business",
-    "name": "Yahoo Small Business",
-    "builtwith": true
-  },
-  {
-    "id": "yui",
-    "name": "Yahoo User Interface",
-    "builtwith": true
+    "id": "xhtml-rdf",
+    "name": "XHTML RDFa 1.0",
+    "builtwith_name": "XHTML RDFa 1.0"
   },
   {
     "id": "yahoo-analytics",
     "name": "Yahoo Web Analytics",
-    "builtwith": true
+    "builtwith_name": "Yahoo Web Analytics"
   },
   {
-    "name": "Yoast Google Analytics for WordPress",
-    "builtwith": true,
-    "alias": "yahoo-analytics"
+    "id": "yahoo-bookmarklet",
+    "name": "Yahoo Bookmarklet",
+    "builtwith_name": "Yahoo Bookmarklet"
+  },
+  {
+    "id": "yahoo-cdn",
+    "name": "Yahoo CDN",
+    "builtwith_name": "Yahoo CDN"
+  },
+  {
+    "id": "yahoo-image-cdn",
+    "name": "Yahoo Image CDN",
+    "builtwith_name": "Yahoo Image CDN"
+  },
+  {
+    "id": "yahoo-pipes",
+    "name": "Yahoo Pipes",
+    "builtwith_name": "Yahoo Pipes"
+  },
+  {
+    "id": "yahoo-site-explorer",
+    "name": "Yahoo Site Explorer",
+    "builtwith_name": "Yahoo Site Explorer"
+  },
+  {
+    "id": "yahoo-small-business",
+    "name": "Yahoo Small Business",
+    "builtwith_name": "Yahoo Small Business"
   },
   {
     "id": "yoast-plugins",
     "name": "Yoast Plugins",
-    "builtwith": true
+    "builtwith_name": "Yoast Plugins"
   },
   {
     "id": "yoast-seo",
     "name": "Yoast SEO",
-    "wappalyzer": true
+    "wappalyzer_name": "Yoast SEO"
   },
   {
     "id": "yoast-seo-premium",
     "name": "Yoast SEO Premium",
-    "builtwith": true
+    "builtwith_name": "Yoast SEO Premium"
   },
   {
     "id": "yoast-wordpress-seo-plugin",
     "name": "Yoast WordPress SEO Plugin",
-    "builtwith": true
+    "builtwith_name": "Yoast WordPress SEO Plugin"
   },
   {
     "id": "youtube",
     "name": "YouTube",
-    "builtwith": true,
-    "wappalyzer": true
+    "builtwith_name": "YouTube",
+    "wappalyzer_name": "YouTube"
   },
   {
     "id": "youtube-iframe-api",
     "name": "YouTube IFrame API",
-    "builtwith": true
+    "builtwith_name": "YouTube IFrame API"
   },
   {
     "id": "youtube-iframe-upload",
     "name": "YouTube IFrame Upload",
-    "builtwith": true
+    "builtwith_name": "YouTube IFrame Upload"
   },
   {
     "id": "youtube-privacy-enchanced",
     "name": "YouTube Privacy Enchanced",
-    "builtwith": true
+    "builtwith_name": "YouTube Privacy Enchanced"
   },
   {
     "id": "youvisit",
     "name": "YouVisit",
-    "builtwith": true
+    "builtwith_name": "YouVisit"
   },
   {
-    "name": "YUI",
-    "wappalyzer": true,
-    "alias": "yui"
+    "id": "yui",
+    "name": "Yahoo User Interface",
+    "builtwith_name": "Yahoo User Interface"
   },
   {
     "id": "yui-doc",
     "name": "YUI Doc",
-    "wappalyzer": true
-  },
-  {
-    "name": "YUI3",
-    "builtwith": true,
-    "alias": "yui"
+    "wappalyzer_name": "YUI Doc"
   },
   {
     "id": "zencoder-cdn",
     "name": "Zencoder CDN",
-    "builtwith": true,
-    "category": "cdn"
+    "builtwith_name": "Zencoder CDN"
   },
   {
     "id": "zend-server",
     "name": "Zend Server",
-    "builtwith": true,
-    "category": "servers"
+    "builtwith_name": "Zend Server"
   },
   {
     "id": "zendesk-chat",
     "name": "Zendesk Chat",
-    "wappalyzer": true
+    "wappalyzer_name": "Zendesk Chat"
   },
   {
     "id": "zeus",
     "name": "Zeus",
-    "builtwith": true
+    "builtwith_name": "Zeus"
   },
   {
     "id": "zoho-salesiq",
     "name": "Zoho SalesIQ",
-    "builtwith": true
+    "builtwith_name": "Zoho SalesIQ"
   },
   {
     "id": "zoom",
     "name": "Zoom",
-    "builtwith": true
-  },
-  {
-    "name": "Zoom Video Conferencing",
-    "builtwith": true,
-    "alias": "zoom"
+    "builtwith_name": "Zoom"
   },
   {
     "id": "zope",
     "name": "Zope",
-    "builtwith": true
+    "builtwith_name": "Zope"
   },
   {
     "id": "zopim",
     "name": "Zopim",
-    "builtwith": true
+    "builtwith_name": "Zopim"
   },
   {
     "id": "zserver",
     "name": "ZServer",
-    "builtwith": true,
-    "category": "servers"
+    "builtwith_name": "ZServer"
   },
   {
     "id": "zurb-foundation",
     "name": "ZURB Foundation",
-    "wappalyzer": true
+    "wappalyzer_name": "ZURB Foundation"
+  },
+  {
+    "id": "accelerated-mobile-pages",
+    "alias": "amp",
+    "name": "Accelerated Mobile Pages",
+    "builtwith_name": "Accelerated Mobile Pages"
+  },
+  {
+    "id": "add-to-any",
+    "alias": "addtoany",
+    "name": "Add to Any",
+    "builtwith_name": "Add to Any"
+  },
+  {
+    "id": "adobe-dreamweaver",
+    "alias": "dreamweaver",
+    "name": "Adobe Dreamweaver",
+    "builtwith_name": "Adobe Dreamweaver"
+  },
+  {
+    "id": "apache-1-3",
+    "alias": "apache",
+    "name": "Apache 1.3",
+    "builtwith_name": "Apache 1.3"
+  },
+  {
+    "id": "apache-2-0",
+    "alias": "apache",
+    "name": "Apache 2.0",
+    "builtwith_name": "Apache 2.0"
+  },
+  {
+    "id": "apache-2-2",
+    "alias": "apache",
+    "name": "Apache 2.2",
+    "builtwith_name": "Apache 2.2"
+  },
+  {
+    "id": "apache-2-4",
+    "alias": "apache",
+    "name": "Apache 2.4",
+    "builtwith_name": "Apache 2.4"
+  },
+  {
+    "id": "apache-tomcat-coyote",
+    "alias": "apache-tomcat",
+    "name": "Apache Tomcat Coyote",
+    "builtwith_name": "Apache Tomcat Coyote"
+  },
+  {
+    "id": "apache-tomcat-jk",
+    "alias": "apache-tomcat",
+    "name": "Apache Tomcat JK",
+    "builtwith_name": "Apache Tomcat JK"
+  },
+  {
+    "id": "apple-mobile-web-app-capable",
+    "alias": "apple-mobile-web",
+    "name": "Apple Mobile Web App Capable",
+    "builtwith_name": "Apple Mobile Web App Capable"
+  },
+  {
+    "id": "apple-mobile-web-app-status-bar-style",
+    "alias": "apple-mobile-web",
+    "name": "Apple Mobile Web App Status Bar Style",
+    "builtwith_name": "Apple Mobile Web App Status Bar Style"
+  },
+  {
+    "id": "apple-mobile-web-clips-icon",
+    "alias": "apple-mobile-web",
+    "name": "Apple Mobile Web Clips Icon",
+    "builtwith_name": "Apple Mobile Web Clips Icon"
+  },
+  {
+    "id": "applet",
+    "alias": "java",
+    "name": "Applet",
+    "builtwith_name": "Applet"
+  },
+  {
+    "id": "asp-net",
+    "alias": "microsoft-asp-net",
+    "name": "ASP.NET",
+    "builtwith_name": "ASP.NET"
+  },
+  {
+    "id": "asp-net-ajax",
+    "alias": "microsoft-asp-net",
+    "name": "ASP.NET Ajax",
+    "builtwith_name": "ASP.NET Ajax"
+  },
+  {
+    "id": "asp-net-mvc",
+    "alias": "microsoft-asp-net",
+    "name": "ASP.NET MVC",
+    "builtwith_name": "ASP.NET MVC"
+  },
+  {
+    "id": "azure-edge",
+    "alias": "microsoft-azure",
+    "name": "Azure Edge",
+    "builtwith_name": "Azure Edge"
+  },
+  {
+    "id": "bootstrap-2-3-*",
+    "alias": "bootstrap",
+    "name": "Bootstrap 2.3.*",
+    "builtwith_name": "Bootstrap 2.3.*"
+  },
+  {
+    "id": "bootstrap-3-3-*",
+    "alias": "bootstrap",
+    "name": "Bootstrap 3.3.*",
+    "builtwith_name": "Bootstrap 3.3.*"
+  },
+  {
+    "id": "bootstrap-3-4-*",
+    "alias": "bootstrap",
+    "name": "Bootstrap 3.4.*",
+    "builtwith_name": "Bootstrap 3.4.*"
+  },
+  {
+    "id": "bootstrap-4-1-*",
+    "alias": "bootstrap",
+    "name": "Bootstrap 4.1.*",
+    "builtwith_name": "Bootstrap 4.1.*"
+  },
+  {
+    "id": "campaign-monitor-widget",
+    "alias": "campaignmonitor",
+    "name": "Campaign Monitor Widget",
+    "builtwith_name": "Campaign Monitor Widget"
+  },
+  {
+    "id": "crazyegg",
+    "alias": "crazy-egg",
+    "name": "CrazyEgg",
+    "builtwith_name": "CrazyEgg"
+  },
+  {
+    "id": "debian-lennny",
+    "alias": "debian",
+    "name": "Debian Lennny",
+    "builtwith_name": "Debian Lennny"
+  },
+  {
+    "id": "dnn-software",
+    "alias": "dnn",
+    "name": "DNN Software",
+    "builtwith_name": "DNN Software"
+  },
+  {
+    "id": "dojo-toolkit",
+    "alias": "dojo",
+    "name": "Dojo Toolkit",
+    "builtwith_name": "Dojo Toolkit"
+  },
+  {
+    "id": "drupal-7",
+    "alias": "drupal",
+    "name": "Drupal 7",
+    "builtwith_name": "Drupal 7"
+  },
+  {
+    "id": "drupal-8",
+    "alias": "drupal",
+    "name": "Drupal 8",
+    "builtwith_name": "Drupal 8"
+  },
+  {
+    "id": "facebook-badge",
+    "alias": "facebook",
+    "name": "Facebook Badge",
+    "builtwith_name": "Facebook Badge"
+  },
+  {
+    "id": "facebook-for-websites",
+    "alias": "facebook",
+    "name": "Facebook for Websites",
+    "builtwith_name": "Facebook for Websites"
+  },
+  {
+    "id": "facebook-like",
+    "alias": "facebook",
+    "name": "Facebook Like",
+    "builtwith_name": "Facebook Like"
+  },
+  {
+    "id": "facebook-like-box",
+    "alias": "facebook",
+    "name": "Facebook Like Box",
+    "builtwith_name": "Facebook Like Box"
+  },
+  {
+    "id": "facebook-like-button",
+    "alias": "facebook",
+    "name": "Facebook Like Button",
+    "builtwith_name": "Facebook Like Button"
+  },
+  {
+    "id": "facebook-pixel-view-content",
+    "alias": "facebook",
+    "name": "Facebook Pixel View Content",
+    "builtwith_name": "Facebook Pixel View Content"
+  },
+  {
+    "id": "flash-object",
+    "alias": "flash",
+    "name": "Flash Object",
+    "builtwith_name": "Flash Object"
+  },
+  {
+    "id": "frontpage-extensions",
+    "alias": "frontpage",
+    "name": "Frontpage Extensions",
+    "builtwith_name": "Frontpage Extensions"
+  },
+  {
+    "id": "frontpage-proprietary-tags",
+    "alias": "frontpage",
+    "name": "Frontpage Proprietary Tags",
+    "builtwith_name": "Frontpage Proprietary Tags"
+  },
+  {
+    "id": "gatsby-js",
+    "alias": "gatsby",
+    "name": "Gatsby JS",
+    "builtwith_name": "Gatsby JS"
+  },
+  {
+    "id": "golive-javascript",
+    "alias": "adobe-golive",
+    "name": "GoLive Javascript",
+    "builtwith_name": "GoLive Javascript"
+  },
+  {
+    "id": "google-analytics-anonymize-ip",
+    "alias": "google-analytics",
+    "name": "Google Analytics Anonymize IP",
+    "builtwith_name": "Google Analytics Anonymize IP"
+  },
+  {
+    "id": "google-analytics-classic",
+    "alias": "google-analytics",
+    "name": "Google Analytics Classic",
+    "builtwith_name": "Google Analytics Classic"
+  },
+  {
+    "id": "google-analytics-dashboard-for-wordpress",
+    "alias": "google-analytics",
+    "name": "Google Analytics Dashboard for WordPress",
+    "builtwith_name": "Google Analytics Dashboard for WordPress"
+  },
+  {
+    "id": "google-analytics-enhanced-link-attribution",
+    "alias": "google-analytics",
+    "name": "Google Analytics Enhanced Link Attribution",
+    "builtwith_name": "Google Analytics Enhanced Link Attribution"
+  },
+  {
+    "id": "google-analytics-event-tracking",
+    "alias": "google-analytics",
+    "name": "Google Analytics Event Tracking",
+    "builtwith_name": "Google Analytics Event Tracking"
+  },
+  {
+    "id": "google-analytics-forced-ssl",
+    "alias": "google-analytics",
+    "name": "Google Analytics Forced SSL",
+    "builtwith_name": "Google Analytics Forced SSL"
+  },
+  {
+    "id": "google-analytics-ip-anonymization",
+    "alias": "google-analytics",
+    "name": "Google Analytics IP Anonymization",
+    "builtwith_name": "Google Analytics IP Anonymization"
+  },
+  {
+    "id": "google-analytics-multiple-trackers",
+    "alias": "google-analytics",
+    "name": "Google Analytics Multiple Trackers",
+    "builtwith_name": "Google Analytics Multiple Trackers"
+  },
+  {
+    "id": "google-analytics-with-ad-tracking",
+    "alias": "google-analytics",
+    "name": "Google Analytics with Ad Tracking",
+    "builtwith_name": "Google Analytics with Ad Tracking"
+  },
+  {
+    "id": "google-hosted-jquery",
+    "alias": "jquery",
+    "name": "Google Hosted jQuery",
+    "builtwith_name": "Google Hosted jQuery"
+  },
+  {
+    "id": "google-hosted-jquery-ui",
+    "alias": "jquery-ui",
+    "name": "Google Hosted jQuery UI",
+    "builtwith_name": "Google Hosted jQuery UI"
+  },
+  {
+    "id": "google-hosted-swfobject",
+    "alias": "flash",
+    "name": "Google Hosted SWFObject",
+    "builtwith_name": "Google Hosted SWFObject"
+  },
+  {
+    "id": "google-maps-api",
+    "alias": "google-maps",
+    "name": "Google Maps API",
+    "builtwith_name": "Google Maps API"
+  },
+  {
+    "id": "google-maps-for-work",
+    "alias": "google-maps",
+    "name": "Google Maps for Work",
+    "builtwith_name": "Google Maps for Work"
+  },
+  {
+    "id": "google-translate-widget",
+    "alias": "google-translate",
+    "name": "Google Translate Widget",
+    "builtwith_name": "Google Translate Widget"
+  },
+  {
+    "id": "google-universal-analytics",
+    "alias": "google-analytics",
+    "name": "Google Universal Analytics",
+    "builtwith_name": "Google Universal Analytics"
+  },
+  {
+    "id": "html-4-01-transitional-dtd",
+    "alias": "html4",
+    "name": "HTML 4.01 Transitional DTD",
+    "builtwith_name": "HTML 4.01 Transitional DTD"
+  },
+  {
+    "id": "html-5-specific-tags",
+    "alias": "html5",
+    "name": "HTML 5 Specific Tags",
+    "builtwith_name": "HTML 5 Specific Tags"
+  },
+  {
+    "id": "html-5-video-audio-tags",
+    "alias": "html5",
+    "name": "HTML 5 Video Audio Tags",
+    "builtwith_name": "HTML 5 Video Audio Tags"
+  },
+  {
+    "id": "html5-history-api",
+    "alias": "html5",
+    "name": "HTML5 History API",
+    "builtwith_name": "HTML5 History API"
+  },
+  {
+    "id": "iis-10",
+    "alias": "iis",
+    "name": "IIS 10",
+    "builtwith_name": "IIS 10"
+  },
+  {
+    "id": "iis-3",
+    "alias": "iis",
+    "name": "IIS 3",
+    "builtwith_name": "IIS 3"
+  },
+  {
+    "id": "iis-4",
+    "alias": "iis",
+    "name": "IIS 4",
+    "builtwith_name": "IIS 4"
+  },
+  {
+    "id": "iis-5",
+    "alias": "iis",
+    "name": "IIS 5",
+    "builtwith_name": "IIS 5"
+  },
+  {
+    "id": "iis-6",
+    "alias": "iis",
+    "name": "IIS 6",
+    "builtwith_name": "IIS 6"
+  },
+  {
+    "id": "iis-7",
+    "alias": "iis",
+    "name": "IIS 7",
+    "builtwith_name": "IIS 7"
+  },
+  {
+    "id": "iis-8",
+    "alias": "iis",
+    "name": "IIS 8",
+    "builtwith_name": "IIS 8"
+  },
+  {
+    "id": "java-ee",
+    "alias": "java",
+    "name": "Java EE",
+    "builtwith_name": "Java EE"
+  },
+  {
+    "id": "java-servlet",
+    "alias": "java",
+    "name": "Java Servlet",
+    "builtwith_name": "Java Servlet"
+  },
+  {
+    "id": "joomla-",
+    "alias": "joomla",
+    "name": "Joomla!",
+    "builtwith_name": "Joomla!"
+  },
+  {
+    "id": "jquery-1-10-0",
+    "alias": "jquery",
+    "name": "jQuery 1.10.0",
+    "builtwith_name": "jQuery 1.10.0"
+  },
+  {
+    "id": "jquery-1-10-1",
+    "alias": "jquery",
+    "name": "jQuery 1.10.1",
+    "builtwith_name": "jQuery 1.10.1"
+  },
+  {
+    "id": "jquery-1-10-2",
+    "alias": "jquery",
+    "name": "jQuery 1.10.2",
+    "builtwith_name": "jQuery 1.10.2"
+  },
+  {
+    "id": "jquery-1-11-0",
+    "alias": "jquery",
+    "name": "jQuery 1.11.0",
+    "builtwith_name": "jQuery 1.11.0"
+  },
+  {
+    "id": "jquery-1-11-1",
+    "alias": "jquery",
+    "name": "jQuery 1.11.1",
+    "builtwith_name": "jQuery 1.11.1"
+  },
+  {
+    "id": "jquery-1-11-2",
+    "alias": "jquery",
+    "name": "jQuery 1.11.2",
+    "builtwith_name": "jQuery 1.11.2"
+  },
+  {
+    "id": "jquery-1-11-3",
+    "alias": "jquery",
+    "name": "jQuery 1.11.3",
+    "builtwith_name": "jQuery 1.11.3"
+  },
+  {
+    "id": "jquery-1-12-0",
+    "alias": "jquery",
+    "name": "jQuery 1.12.0",
+    "builtwith_name": "jQuery 1.12.0"
+  },
+  {
+    "id": "jquery-1-12-3",
+    "alias": "jquery",
+    "name": "jQuery 1.12.3",
+    "builtwith_name": "jQuery 1.12.3"
+  },
+  {
+    "id": "jquery-1-12-4",
+    "alias": "jquery",
+    "name": "jQuery 1.12.4",
+    "builtwith_name": "jQuery 1.12.4"
+  },
+  {
+    "id": "jquery-1-2-6",
+    "alias": "jquery",
+    "name": "jQuery 1.2.6",
+    "builtwith_name": "jQuery 1.2.6"
+  },
+  {
+    "id": "jquery-1-3-1",
+    "alias": "jquery",
+    "name": "jQuery 1.3.1",
+    "builtwith_name": "jQuery 1.3.1"
+  },
+  {
+    "id": "jquery-1-3-2",
+    "alias": "jquery",
+    "name": "jQuery 1.3.2",
+    "builtwith_name": "jQuery 1.3.2"
+  },
+  {
+    "id": "jquery-1-4",
+    "alias": "jquery",
+    "name": "jQuery 1.4",
+    "builtwith_name": "jQuery 1.4"
+  },
+  {
+    "id": "jquery-1-4-2",
+    "alias": "jquery",
+    "name": "jQuery 1.4.2",
+    "builtwith_name": "jQuery 1.4.2"
+  },
+  {
+    "id": "jquery-1-4-3",
+    "alias": "jquery",
+    "name": "jQuery 1.4.3",
+    "builtwith_name": "jQuery 1.4.3"
+  },
+  {
+    "id": "jquery-1-4-4",
+    "alias": "jquery",
+    "name": "jQuery 1.4.4",
+    "builtwith_name": "jQuery 1.4.4"
+  },
+  {
+    "id": "jquery-1-5-1",
+    "alias": "jquery",
+    "name": "jQuery 1.5.1",
+    "builtwith_name": "jQuery 1.5.1"
+  },
+  {
+    "id": "jquery-1-5-2",
+    "alias": "jquery",
+    "name": "jQuery 1.5.2",
+    "builtwith_name": "jQuery 1.5.2"
+  },
+  {
+    "id": "jquery-1-6",
+    "alias": "jquery",
+    "name": "jQuery 1.6",
+    "builtwith_name": "jQuery 1.6"
+  },
+  {
+    "id": "jquery-1-6-2",
+    "alias": "jquery",
+    "name": "jQuery 1.6.2",
+    "builtwith_name": "jQuery 1.6.2"
+  },
+  {
+    "id": "jquery-1-6-3",
+    "alias": "jquery",
+    "name": "jQuery 1.6.3",
+    "builtwith_name": "jQuery 1.6.3"
+  },
+  {
+    "id": "jquery-1-6-4",
+    "alias": "jquery",
+    "name": "jQuery 1.6.4",
+    "builtwith_name": "jQuery 1.6.4"
+  },
+  {
+    "id": "jquery-1-7",
+    "alias": "jquery",
+    "name": "jQuery 1.7",
+    "builtwith_name": "jQuery 1.7"
+  },
+  {
+    "id": "jquery-1-7-0",
+    "alias": "jquery",
+    "name": "jQuery 1.7.0",
+    "builtwith_name": "jQuery 1.7.0"
+  },
+  {
+    "id": "jquery-1-7-1",
+    "alias": "jquery",
+    "name": "jQuery 1.7.1",
+    "builtwith_name": "jQuery 1.7.1"
+  },
+  {
+    "id": "jquery-1-7-2",
+    "alias": "jquery",
+    "name": "jQuery 1.7.2",
+    "builtwith_name": "jQuery 1.7.2"
+  },
+  {
+    "id": "jquery-1-8-0",
+    "alias": "jquery",
+    "name": "jQuery 1.8.0",
+    "builtwith_name": "jQuery 1.8.0"
+  },
+  {
+    "id": "jquery-1-8-1",
+    "alias": "jquery",
+    "name": "jQuery 1.8.1",
+    "builtwith_name": "jQuery 1.8.1"
+  },
+  {
+    "id": "jquery-1-8-2",
+    "alias": "jquery",
+    "name": "jQuery 1.8.2",
+    "builtwith_name": "jQuery 1.8.2"
+  },
+  {
+    "id": "jquery-1-8-3",
+    "alias": "jquery",
+    "name": "jQuery 1.8.3",
+    "builtwith_name": "jQuery 1.8.3"
+  },
+  {
+    "id": "jquery-1-9-0",
+    "alias": "jquery",
+    "name": "jQuery 1.9.0",
+    "builtwith_name": "jQuery 1.9.0"
+  },
+  {
+    "id": "jquery-1-9-1",
+    "alias": "jquery",
+    "name": "jQuery 1.9.1",
+    "builtwith_name": "jQuery 1.9.1"
+  },
+  {
+    "id": "jquery-2-1-0",
+    "alias": "jquery",
+    "name": "jQuery 2.1.0",
+    "builtwith_name": "jQuery 2.1.0"
+  },
+  {
+    "id": "jquery-2-1-1",
+    "alias": "jquery",
+    "name": "jQuery 2.1.1",
+    "builtwith_name": "jQuery 2.1.1"
+  },
+  {
+    "id": "jquery-2-1-3",
+    "alias": "jquery",
+    "name": "jQuery 2.1.3",
+    "builtwith_name": "jQuery 2.1.3"
+  },
+  {
+    "id": "jquery-2-1-4",
+    "alias": "jquery",
+    "name": "jQuery 2.1.4",
+    "builtwith_name": "jQuery 2.1.4"
+  },
+  {
+    "id": "jquery-2-2-0",
+    "alias": "jquery",
+    "name": "jQuery 2.2.0",
+    "builtwith_name": "jQuery 2.2.0"
+  },
+  {
+    "id": "jquery-3-1-0",
+    "alias": "jquery",
+    "name": "jQuery 3.1.0",
+    "builtwith_name": "jQuery 3.1.0"
+  },
+  {
+    "id": "jquery-3-1-1",
+    "alias": "jquery",
+    "name": "jQuery 3.1.1",
+    "builtwith_name": "jQuery 3.1.1"
+  },
+  {
+    "id": "jquery-3-2-1",
+    "alias": "jquery",
+    "name": "jQuery 3.2.1",
+    "builtwith_name": "jQuery 3.2.1"
+  },
+  {
+    "id": "jquery-3-3-1",
+    "alias": "jquery",
+    "name": "jQuery 3.3.1",
+    "builtwith_name": "jQuery 3.3.1"
+  },
+  {
+    "id": "jquery-3-4-1",
+    "alias": "jquery",
+    "name": "jQuery 3.4.1",
+    "builtwith_name": "jQuery 3.4.1"
+  },
+  {
+    "id": "jquery-3-5-1",
+    "alias": "jquery",
+    "name": "jQuery 3.5.1",
+    "builtwith_name": "jQuery 3.5.1"
+  },
+  {
+    "id": "microsoft-azure-blob-storage",
+    "alias": "microsoft-azure",
+    "name": "Microsoft Azure Blob Storage",
+    "builtwith_name": "Microsoft Azure Blob Storage"
+  },
+  {
+    "id": "mod_ssl-2-0-63",
+    "alias": "mod_ssl",
+    "name": "mod_ssl 2.0.63",
+    "builtwith_name": "mod_ssl 2.0.63"
+  },
+  {
+    "id": "mod_ssl-2-2-10",
+    "alias": "mod_ssl",
+    "name": "mod_ssl 2.2.10",
+    "builtwith_name": "mod_ssl 2.2.10"
+  },
+  {
+    "id": "mod_ssl-2-2-11",
+    "alias": "mod_ssl",
+    "name": "mod_ssl 2.2.11",
+    "builtwith_name": "mod_ssl 2.2.11"
+  },
+  {
+    "id": "mod_ssl-2-2-14",
+    "alias": "mod_ssl",
+    "name": "mod_ssl 2.2.14",
+    "builtwith_name": "mod_ssl 2.2.14"
+  },
+  {
+    "id": "mod_ssl-2-2-15",
+    "alias": "mod_ssl",
+    "name": "mod_ssl 2.2.15",
+    "builtwith_name": "mod_ssl 2.2.15"
+  },
+  {
+    "id": "mod_ssl-2-2-19",
+    "alias": "mod_ssl",
+    "name": "mod_ssl 2.2.19",
+    "builtwith_name": "mod_ssl 2.2.19"
+  },
+  {
+    "id": "mod_ssl-2-2-21",
+    "alias": "mod_ssl",
+    "name": "mod_ssl 2.2.21",
+    "builtwith_name": "mod_ssl 2.2.21"
+  },
+  {
+    "id": "mod_ssl-2-2-22",
+    "alias": "mod_ssl",
+    "name": "mod_ssl 2.2.22",
+    "builtwith_name": "mod_ssl 2.2.22"
+  },
+  {
+    "id": "mod_ssl-2-2-24",
+    "alias": "mod_ssl",
+    "name": "mod_ssl 2.2.24",
+    "builtwith_name": "mod_ssl 2.2.24"
+  },
+  {
+    "id": "mod_ssl-2-2-25",
+    "alias": "mod_ssl",
+    "name": "mod_ssl 2.2.25",
+    "builtwith_name": "mod_ssl 2.2.25"
+  },
+  {
+    "id": "mod_ssl-2-2-3",
+    "alias": "mod_ssl",
+    "name": "mod_ssl 2.2.3",
+    "builtwith_name": "mod_ssl 2.2.3"
+  },
+  {
+    "id": "mod_ssl-2-2-8",
+    "alias": "mod_ssl",
+    "name": "mod_ssl 2.2.8",
+    "builtwith_name": "mod_ssl 2.2.8"
+  },
+  {
+    "id": "mod_ssl-2-2-9",
+    "alias": "mod_ssl",
+    "name": "mod_ssl 2.2.9",
+    "builtwith_name": "mod_ssl 2.2.9"
+  },
+  {
+    "id": "mod_ssl-2-8-22",
+    "alias": "mod_ssl",
+    "name": "mod_ssl 2.8.22",
+    "builtwith_name": "mod_ssl 2.8.22"
+  },
+  {
+    "id": "mod_ssl-2-8-28",
+    "alias": "mod_ssl",
+    "name": "mod_ssl 2.8.28",
+    "builtwith_name": "mod_ssl 2.8.28"
+  },
+  {
+    "id": "mod_ssl-2-8-31",
+    "alias": "mod_ssl",
+    "name": "mod_ssl 2.8.31",
+    "builtwith_name": "mod_ssl 2.8.31"
+  },
+  {
+    "id": "modernizr-1-6",
+    "alias": "modernizr",
+    "name": "Modernizr 1.6",
+    "builtwith_name": "Modernizr 1.6"
+  },
+  {
+    "id": "modernizr-1-7",
+    "alias": "modernizr",
+    "name": "Modernizr 1.7",
+    "builtwith_name": "Modernizr 1.7"
+  },
+  {
+    "id": "modernizr-2-0",
+    "alias": "modernizr",
+    "name": "Modernizr 2.0",
+    "builtwith_name": "Modernizr 2.0"
+  },
+  {
+    "id": "modernizr-2-5",
+    "alias": "modernizr",
+    "name": "Modernizr 2.5",
+    "builtwith_name": "Modernizr 2.5"
+  },
+  {
+    "id": "modernizr-2-6",
+    "alias": "modernizr",
+    "name": "Modernizr 2.6",
+    "builtwith_name": "Modernizr 2.6"
+  },
+  {
+    "id": "modernizr-2-8",
+    "alias": "modernizr",
+    "name": "Modernizr 2.8",
+    "builtwith_name": "Modernizr 2.8"
+  },
+  {
+    "id": "moment-js",
+    "alias": "moment-js",
+    "name": "Moment JS",
+    "builtwith_name": "Moment JS"
+  },
+  {
+    "id": "nginx-0-6",
+    "alias": "nginx",
+    "name": "nginx 0.6",
+    "builtwith_name": "nginx 0.6"
+  },
+  {
+    "id": "nginx-0-7",
+    "alias": "nginx",
+    "name": "nginx 0.7",
+    "builtwith_name": "nginx 0.7"
+  },
+  {
+    "id": "nginx-1-1",
+    "alias": "nginx",
+    "name": "nginx 1.1",
+    "builtwith_name": "nginx 1.1"
+  },
+  {
+    "id": "nginx-1-10",
+    "alias": "nginx",
+    "name": "nginx 1.10",
+    "builtwith_name": "nginx 1.10"
+  },
+  {
+    "id": "nginx-1-12",
+    "alias": "nginx",
+    "name": "Nginx 1.12",
+    "builtwith_name": "Nginx 1.12"
+  },
+  {
+    "id": "nginx-1-14",
+    "alias": "nginx",
+    "name": "Nginx 1.14",
+    "builtwith_name": "Nginx 1.14"
+  },
+  {
+    "id": "nginx-1-15",
+    "alias": "nginx",
+    "name": "Nginx 1.15",
+    "builtwith_name": "Nginx 1.15"
+  },
+  {
+    "id": "nginx-1-16",
+    "alias": "nginx",
+    "name": "Nginx 1.16",
+    "builtwith_name": "Nginx 1.16"
+  },
+  {
+    "id": "nginx-1-17",
+    "alias": "nginx",
+    "name": "Nginx 1.17",
+    "builtwith_name": "Nginx 1.17"
+  },
+  {
+    "id": "nginx-1-4",
+    "alias": "nginx",
+    "name": "nginx 1.4",
+    "builtwith_name": "nginx 1.4"
+  },
+  {
+    "id": "nginx-1-6",
+    "alias": "nginx",
+    "name": "nginx 1.6",
+    "builtwith_name": "nginx 1.6"
+  },
+  {
+    "id": "openssl-0-9-6",
+    "alias": "openssl",
+    "name": "OpenSSL 0.9.6",
+    "builtwith_name": "OpenSSL 0.9.6"
+  },
+  {
+    "id": "openssl-0-9-7",
+    "alias": "openssl",
+    "name": "OpenSSL 0.9.7",
+    "builtwith_name": "OpenSSL 0.9.7"
+  },
+  {
+    "id": "openssl-0-9-8",
+    "alias": "openssl",
+    "name": "OpenSSL 0.9.8",
+    "builtwith_name": "OpenSSL 0.9.8"
+  },
+  {
+    "id": "openssl-1-0-0",
+    "alias": "openssl",
+    "name": "OpenSSL 1.0.0",
+    "builtwith_name": "OpenSSL 1.0.0"
+  },
+  {
+    "id": "openssl-1-0-1",
+    "alias": "openssl",
+    "name": "OpenSSL 1.0.1",
+    "builtwith_name": "OpenSSL 1.0.1"
+  },
+  {
+    "id": "php-7",
+    "alias": "php",
+    "name": "PHP 7",
+    "builtwith_name": "PHP 7"
+  },
+  {
+    "id": "phpmyvisites",
+    "alias": "php-my-visits",
+    "name": "phpMyVisites",
+    "builtwith_name": "phpMyVisites"
+  },
+  {
+    "id": "polyfill-io",
+    "alias": "polyfill",
+    "name": "Polyfill IO",
+    "builtwith_name": "Polyfill IO"
+  },
+  {
+    "id": "popper-js",
+    "alias": "popper",
+    "name": "Popper.js",
+    "builtwith_name": "Popper.js"
+  },
+  {
+    "id": "python-2-5",
+    "alias": "python",
+    "name": "Python 2.5",
+    "builtwith_name": "Python 2.5"
+  },
+  {
+    "id": "python-2-6",
+    "alias": "python",
+    "name": "Python 2.6",
+    "builtwith_name": "Python 2.6"
+  },
+  {
+    "id": "python-2-7",
+    "alias": "python",
+    "name": "Python 2.7",
+    "builtwith_name": "Python 2.7"
+  },
+  {
+    "id": "python-3-3",
+    "alias": "python",
+    "name": "Python 3.3",
+    "builtwith_name": "Python 3.3"
+  },
+  {
+    "id": "qualtrics-site-intercept",
+    "alias": "qualtrics",
+    "name": "Qualtrics Site Intercept",
+    "builtwith_name": "Qualtrics Site Intercept"
+  },
+  {
+    "id": "recaptcha-v2",
+    "alias": "recaptcha",
+    "name": "reCAPTCHA v2",
+    "builtwith_name": "reCAPTCHA v2"
+  },
+  {
+    "id": "resin-3-1",
+    "alias": "resin",
+    "name": "Resin 3.1",
+    "builtwith_name": "Resin 3.1"
+  },
+  {
+    "id": "ruby-on-rails-token",
+    "alias": "ruby-on-rails",
+    "name": "Ruby on Rails Token",
+    "builtwith_name": "Ruby on Rails Token"
+  },
+  {
+    "id": "shockwave-flash-embed",
+    "alias": "flash",
+    "name": "Shockwave Flash Embed",
+    "builtwith_name": "Shockwave Flash Embed"
+  },
+  {
+    "id": "slick-js",
+    "alias": "slick",
+    "name": "Slick JS",
+    "builtwith_name": "Slick JS"
+  },
+  {
+    "id": "ssl-google-analytics",
+    "alias": "google-analytics",
+    "name": "SSL Google Analytics",
+    "builtwith_name": "SSL Google Analytics"
+  },
+  {
+    "id": "stripe-v3",
+    "alias": "stripe",
+    "name": "Stripe v3",
+    "builtwith_name": "Stripe v3"
+  },
+  {
+    "id": "sun-java-system",
+    "alias": "java",
+    "name": "Sun Java System",
+    "builtwith_name": "Sun Java System"
+  },
+  {
+    "id": "sun-one-web-server-v6-1",
+    "alias": "sun-one",
+    "name": "Sun ONE Web Server v6.1",
+    "builtwith_name": "Sun ONE Web Server v6.1"
+  },
+  {
+    "id": "twitter-bootstrap",
+    "alias": "bootstrap",
+    "name": "Twitter Bootstrap",
+    "builtwith_name": "Twitter Bootstrap"
+  },
+  {
+    "id": "varnish-5-x",
+    "alias": "varnish",
+    "name": "Varnish 5.x",
+    "builtwith_name": "Varnish 5.x"
+  },
+  {
+    "id": "vue",
+    "alias": "vue-js",
+    "name": "Vue",
+    "builtwith_name": "Vue"
+  },
+  {
+    "id": "wordpress-2-5",
+    "alias": "wordpress",
+    "name": "WordPress 2.5",
+    "builtwith_name": "WordPress 2.5"
+  },
+  {
+    "id": "wordpress-2-8",
+    "alias": "wordpress",
+    "name": "WordPress 2.8",
+    "builtwith_name": "WordPress 2.8"
+  },
+  {
+    "id": "wordpress-3-3",
+    "alias": "wordpress",
+    "name": "WordPress 3.3",
+    "builtwith_name": "WordPress 3.3"
+  },
+  {
+    "id": "wordpress-3-5",
+    "alias": "wordpress",
+    "name": "WordPress 3.5",
+    "builtwith_name": "WordPress 3.5"
+  },
+  {
+    "id": "wordpress-3-6",
+    "alias": "wordpress",
+    "name": "WordPress 3.6",
+    "builtwith_name": "WordPress 3.6"
+  },
+  {
+    "id": "wordpress-3-9",
+    "alias": "wordpress",
+    "name": "Wordpress 3.9",
+    "builtwith_name": "Wordpress 3.9"
+  },
+  {
+    "id": "wordpress-4-0",
+    "alias": "wordpress",
+    "name": "WordPress 4.0",
+    "builtwith_name": "WordPress 4.0"
+  },
+  {
+    "id": "wordpress-4-1",
+    "alias": "wordpress",
+    "name": "Wordpress 4.1",
+    "builtwith_name": "Wordpress 4.1"
+  },
+  {
+    "id": "wordpress-4-7",
+    "alias": "wordpress",
+    "name": "Wordpress 4.7",
+    "builtwith_name": "Wordpress 4.7"
+  },
+  {
+    "id": "wordpress-4-8",
+    "alias": "wordpress",
+    "name": "Wordpress 4.8",
+    "builtwith_name": "Wordpress 4.8"
+  },
+  {
+    "id": "wordpress-4-9",
+    "alias": "wordpress",
+    "name": "Wordpress 4.9",
+    "builtwith_name": "Wordpress 4.9"
+  },
+  {
+    "id": "wordpress-5-0",
+    "alias": "wordpress",
+    "name": "Wordpress 5.0",
+    "builtwith_name": "Wordpress 5.0"
+  },
+  {
+    "id": "wordpress-5-2",
+    "alias": "wordpress",
+    "name": "WordPress 5.2",
+    "builtwith_name": "WordPress 5.2"
+  },
+  {
+    "id": "wordpress-5-3",
+    "alias": "wordpress",
+    "name": "WordPress 5.3",
+    "builtwith_name": "WordPress 5.3"
+  },
+  {
+    "id": "wordpress-5-4",
+    "alias": "wordpress",
+    "name": "WordPress 5.4",
+    "builtwith_name": "WordPress 5.4"
+  },
+  {
+    "id": "wordpress-5-5",
+    "alias": "wordpress",
+    "name": "WordPress 5.5",
+    "builtwith_name": "WordPress 5.5"
+  },
+  {
+    "id": "wordpress-5-6",
+    "alias": "wordpress",
+    "name": "WordPress 5.6",
+    "builtwith_name": "WordPress 5.6"
+  },
+  {
+    "id": "wow-slider",
+    "alias": "wow",
+    "name": "WOW Slider",
+    "builtwith_name": "WOW Slider"
+  },
+  {
+    "id": "wp-super-cache",
+    "alias": "wordpress-super-cache",
+    "name": "WP Super Cache",
+    "builtwith_name": "WP Super Cache"
+  },
+  {
+    "id": "xhtml-transitional",
+    "alias": "xhtml",
+    "name": "XHTML Transitional",
+    "builtwith_name": "XHTML Transitional"
+  },
+  {
+    "id": "xhtml-vocabulary",
+    "alias": "xhtml",
+    "name": "XHTML Vocabulary",
+    "builtwith_name": "XHTML Vocabulary"
+  },
+  {
+    "id": "yahoo-geocities-analytics",
+    "alias": "yahoo-analytics",
+    "name": "Yahoo Geocities Analytics",
+    "builtwith_name": "Yahoo Geocities Analytics"
+  },
+  {
+    "id": "yoast-google-analytics-for-wordpress",
+    "alias": "yahoo-analytics",
+    "name": "Yoast Google Analytics for WordPress",
+    "builtwith_name": "Yoast Google Analytics for WordPress"
+  },
+  {
+    "id": "yui3",
+    "alias": "yui",
+    "name": "YUI3",
+    "builtwith_name": "YUI3"
+  },
+  {
+    "id": "zoom-video-conferencing",
+    "alias": "zoom",
+    "name": "Zoom Video Conferencing",
+    "builtwith_name": "Zoom Video Conferencing"
+  },
+  {
+    "id": "google-analytics-enhanced-ecommerce",
+    "alias": "google-analytics",
+    "name": "Google Analytics Enhanced eCommerce",
+    "wappalyzer_name": "Google Analytics Enhanced eCommerce"
+  },
+  {
+    "id": "moment-timezone",
+    "alias": "moment-js",
+    "name": "Moment Timezone",
+    "wappalyzer_name": "Moment Timezone"
+  },
+  {
+    "id": "typo3-cms",
+    "alias": "typo3",
+    "name": "TYPO3 CMS",
+    "wappalyzer_name": "TYPO3 CMS"
+  },
+  {
+    "id": "yui",
+    "alias": "yui",
+    "name": "YUI",
+    "wappalyzer_name": "YUI"
   }
 ]

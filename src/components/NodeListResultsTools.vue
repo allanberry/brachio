@@ -12,12 +12,12 @@ export default {
   },
   computed: {
     store: () => store,
-    paged_libraries() {
-      return store.libraries.slice(
-        store.pager.cursor,
-        store.pager.cursor + store.pager.qty
-      );
-    },
+    // paged_libraries() {
+    //   return store.libraries.slice(
+    //     store.pager.cursor,
+    //     store.pager.cursor + store.pager.qty
+    //   );
+    // },
     highest_on_page() {
       const temp = store.pager.cursor + store.pager.qty;
       if (temp < store.libraries.length) {
