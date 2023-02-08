@@ -394,7 +394,6 @@ class Snapshot {
         return a.url.length > b.url.length;
       }
     });
-
     this.primary_url = sorted_urls[0];
 
     const visits_sorted = visits.sort((a, b) => a.id < b.id);
@@ -434,8 +433,9 @@ class Snapshot {
             []
           )
         ),
-      ].sort((a, b) => a > b);
+      ];
 
+      // same for wappalyzer
       const techs_wappalyzer = [
         ...new Set(
           visits.reduce(
@@ -451,11 +451,48 @@ class Snapshot {
             []
           )
         ),
-      ].sort((a, b) => a > b);
+      ];
 
-      // const techs_wappalyzer;
+      const aliases = [];
+      const technologies = api_technologies
+        .filter((api_tech) => api_tech.rank)
+        .filter((api_tech) => {
+          if (
+            techs_builtwith.includes(api_tech.builtwith_name) ||
+            techs_wappalyzer.includes(api_tech.wappalyzer_name)
+          ) {
+            return true;
+          }
+        })
+        .filter((technology) => {
+          if (technology.alias) {
+            aliases.push(
+              api_technologies.find((tech) => {
+                return tech.id === technology.alias;
+              })
+            );
+            return false;
+          }
+          return true;
+        });
+
+      this.technologies = [...new Set(technologies.concat(aliases))].sort(
+        (a, b) => a > b
+      );
+
+      // api_technologies: {
+      //   "id": "asdf",
+      //   "alias": "asdf",
+      //   "name": "asdf",
+      //   "builtwith_name": "asdf",
+      //   "wappalyzer_name": "asdf"
+      // }
+
+      // techs_wappalyzer: ["asdf", "asdf", "asdf"]
+      // techs_builtwith: ["asdf", "asdf", "asdf"]
 
       // console.log({ techs_builtwith, techs_wappalyzer, api_technologies });
+
       // console.log(
       //   api_technologies.filter((tech) => {
       //     return tech.builtwith;

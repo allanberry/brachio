@@ -1,5 +1,1292 @@
 [
   {
+    "id": "add-to-any",
+    "alias": "addtoany",
+    "name": "Add to Any",
+    "builtwith_name": "Add to Any"
+  },
+  {
+    "id": "golive-javascript",
+    "alias": "adobe-golive",
+    "name": "GoLive Javascript",
+    "builtwith_name": "GoLive Javascript",
+    "rank": "1"
+  },
+  {
+    "id": "accelerated-mobile-pages",
+    "alias": "amp",
+    "name": "Accelerated Mobile Pages",
+    "builtwith_name": "Accelerated Mobile Pages",
+    "rank": "1"
+  },
+  {
+    "id": "angularjs",
+    "alias": "angular-js",
+    "name": "AngularJS",
+    "wappalyzer_name": "AngularJS",
+    "rank": "1"
+  },
+  {
+    "id": "apache-1-3",
+    "alias": "apache",
+    "name": "Apache 1.3",
+    "builtwith_name": "Apache 1.3"
+  },
+  {
+    "id": "apache-2-0",
+    "alias": "apache",
+    "name": "Apache 2.0",
+    "builtwith_name": "Apache 2.0"
+  },
+  {
+    "id": "apache-2-2",
+    "alias": "apache",
+    "name": "Apache 2.2",
+    "builtwith_name": "Apache 2.2"
+  },
+  {
+    "id": "apache-2-4",
+    "alias": "apache",
+    "name": "Apache 2.4",
+    "builtwith_name": "Apache 2.4"
+  },
+  {
+    "id": "apache-tomcat-coyote",
+    "alias": "apache-tomcat",
+    "name": "Apache Tomcat Coyote",
+    "builtwith_name": "Apache Tomcat Coyote"
+  },
+  {
+    "id": "apache-tomcat-jk",
+    "alias": "apache-tomcat",
+    "name": "Apache Tomcat JK",
+    "builtwith_name": "Apache Tomcat JK"
+  },
+  {
+    "id": "apple-mobile-web-app-capable",
+    "alias": "apple-mobile-web",
+    "name": "Apple Mobile Web App Capable",
+    "builtwith_name": "Apple Mobile Web App Capable"
+  },
+  {
+    "id": "apple-mobile-web-app-status-bar-style",
+    "alias": "apple-mobile-web",
+    "name": "Apple Mobile Web App Status Bar Style",
+    "builtwith_name": "Apple Mobile Web App Status Bar Style"
+  },
+  {
+    "id": "apple-mobile-web-clips-icon",
+    "alias": "apple-mobile-web",
+    "name": "Apple Mobile Web Clips Icon",
+    "builtwith_name": "Apple Mobile Web Clips Icon"
+  },
+  {
+    "id": "bootstrap-2-3-*",
+    "alias": "bootstrap",
+    "name": "Bootstrap 2.3.*",
+    "builtwith_name": "Bootstrap 2.3.*",
+    "rank": "1"
+  },
+  {
+    "id": "bootstrap-3-3-*",
+    "alias": "bootstrap",
+    "name": "Bootstrap 3.3.*",
+    "builtwith_name": "Bootstrap 3.3.*",
+    "rank": "1"
+  },
+  {
+    "id": "bootstrap-3-4-*",
+    "alias": "bootstrap",
+    "name": "Bootstrap 3.4.*",
+    "builtwith_name": "Bootstrap 3.4.*",
+    "rank": "1"
+  },
+  {
+    "id": "bootstrap-4-1-*",
+    "alias": "bootstrap",
+    "name": "Bootstrap 4.1.*",
+    "builtwith_name": "Bootstrap 4.1.*",
+    "rank": "1"
+  },
+  {
+    "id": "twitter-bootstrap",
+    "alias": "bootstrap",
+    "name": "Twitter Bootstrap",
+    "builtwith_name": "Twitter Bootstrap",
+    "rank": "1"
+  },
+  {
+    "id": "campaign-monitor-widget",
+    "alias": "campaignmonitor",
+    "name": "Campaign Monitor Widget",
+    "builtwith_name": "Campaign Monitor Widget"
+  },
+  {
+    "id": "crazyegg",
+    "alias": "crazy-egg",
+    "name": "CrazyEgg",
+    "builtwith_name": "CrazyEgg"
+  },
+  {
+    "id": "debian-lennny",
+    "alias": "debian",
+    "name": "Debian Lennny",
+    "builtwith_name": "Debian Lennny"
+  },
+  {
+    "id": "dnn-software",
+    "alias": "dnn",
+    "name": "DNN Software",
+    "builtwith_name": "DNN Software"
+  },
+  {
+    "id": "dojo-toolkit",
+    "alias": "dojo",
+    "name": "Dojo Toolkit",
+    "builtwith_name": "Dojo Toolkit"
+  },
+  {
+    "id": "adobe-dreamweaver",
+    "alias": "dreamweaver",
+    "name": "Adobe Dreamweaver",
+    "builtwith_name": "Adobe Dreamweaver",
+    "rank": "1"
+  },
+  {
+    "id": "drupal-7",
+    "alias": "drupal",
+    "name": "Drupal 7",
+    "builtwith_name": "Drupal 7",
+    "rank": "1"
+  },
+  {
+    "id": "drupal-8",
+    "alias": "drupal",
+    "name": "Drupal 8",
+    "builtwith_name": "Drupal 8",
+    "rank": "1"
+  },
+  {
+    "id": "facebook-badge",
+    "alias": "facebook",
+    "name": "Facebook Badge",
+    "builtwith_name": "Facebook Badge"
+  },
+  {
+    "id": "facebook-for-websites",
+    "alias": "facebook",
+    "name": "Facebook for Websites",
+    "builtwith_name": "Facebook for Websites"
+  },
+  {
+    "id": "facebook-like",
+    "alias": "facebook",
+    "name": "Facebook Like",
+    "builtwith_name": "Facebook Like"
+  },
+  {
+    "id": "facebook-like-box",
+    "alias": "facebook",
+    "name": "Facebook Like Box",
+    "builtwith_name": "Facebook Like Box"
+  },
+  {
+    "id": "facebook-like-button",
+    "alias": "facebook",
+    "name": "Facebook Like Button",
+    "builtwith_name": "Facebook Like Button"
+  },
+  {
+    "id": "facebook-pixel-view-content",
+    "alias": "facebook",
+    "name": "Facebook Pixel View Content",
+    "builtwith_name": "Facebook Pixel View Content"
+  },
+  {
+    "id": "flash-object",
+    "alias": "flash",
+    "name": "Flash Object",
+    "builtwith_name": "Flash Object",
+    "rank": "1"
+  },
+  {
+    "id": "google-hosted-swfobject",
+    "alias": "flash",
+    "name": "Google Hosted SWFObject",
+    "builtwith_name": "Google Hosted SWFObject",
+    "rank": "1"
+  },
+  {
+    "id": "shockwave-flash-embed",
+    "alias": "flash",
+    "name": "Shockwave Flash Embed",
+    "builtwith_name": "Shockwave Flash Embed",
+    "rank": "1"
+  },
+  {
+    "id": "frontpage-extensions",
+    "alias": "frontpage",
+    "name": "Frontpage Extensions",
+    "builtwith_name": "Frontpage Extensions",
+    "rank": "1"
+  },
+  {
+    "id": "frontpage-proprietary-tags",
+    "alias": "frontpage",
+    "name": "Frontpage Proprietary Tags",
+    "builtwith_name": "Frontpage Proprietary Tags",
+    "rank": "1"
+  },
+  {
+    "id": "gatsby-js",
+    "alias": "gatsby",
+    "name": "Gatsby JS",
+    "builtwith_name": "Gatsby JS"
+  },
+  {
+    "id": "google-analytics-anonymize-ip",
+    "alias": "google-analytics",
+    "name": "Google Analytics Anonymize IP",
+    "builtwith_name": "Google Analytics Anonymize IP"
+  },
+  {
+    "id": "google-analytics-classic",
+    "alias": "google-analytics",
+    "name": "Google Analytics Classic",
+    "builtwith_name": "Google Analytics Classic"
+  },
+  {
+    "id": "google-analytics-dashboard-for-wordpress",
+    "alias": "google-analytics",
+    "name": "Google Analytics Dashboard for WordPress",
+    "builtwith_name": "Google Analytics Dashboard for WordPress"
+  },
+  {
+    "id": "google-analytics-enhanced-ecommerce",
+    "alias": "google-analytics",
+    "name": "Google Analytics Enhanced eCommerce",
+    "wappalyzer_name": "Google Analytics Enhanced eCommerce"
+  },
+  {
+    "id": "google-analytics-enhanced-link-attribution",
+    "alias": "google-analytics",
+    "name": "Google Analytics Enhanced Link Attribution",
+    "builtwith_name": "Google Analytics Enhanced Link Attribution"
+  },
+  {
+    "id": "google-analytics-event-tracking",
+    "alias": "google-analytics",
+    "name": "Google Analytics Event Tracking",
+    "builtwith_name": "Google Analytics Event Tracking"
+  },
+  {
+    "id": "google-analytics-forced-ssl",
+    "alias": "google-analytics",
+    "name": "Google Analytics Forced SSL",
+    "builtwith_name": "Google Analytics Forced SSL"
+  },
+  {
+    "id": "google-analytics-ip-anonymization",
+    "alias": "google-analytics",
+    "name": "Google Analytics IP Anonymization",
+    "builtwith_name": "Google Analytics IP Anonymization"
+  },
+  {
+    "id": "google-analytics-multiple-trackers",
+    "alias": "google-analytics",
+    "name": "Google Analytics Multiple Trackers",
+    "builtwith_name": "Google Analytics Multiple Trackers"
+  },
+  {
+    "id": "google-analytics-with-ad-tracking",
+    "alias": "google-analytics",
+    "name": "Google Analytics with Ad Tracking",
+    "builtwith_name": "Google Analytics with Ad Tracking"
+  },
+  {
+    "id": "google-universal-analytics",
+    "alias": "google-analytics",
+    "name": "Google Universal Analytics",
+    "builtwith_name": "Google Universal Analytics"
+  },
+  {
+    "id": "ssl-google-analytics",
+    "alias": "google-analytics",
+    "name": "SSL Google Analytics",
+    "builtwith_name": "SSL Google Analytics"
+  },
+  {
+    "id": "google-maps-api",
+    "alias": "google-maps",
+    "name": "Google Maps API",
+    "builtwith_name": "Google Maps API"
+  },
+  {
+    "id": "google-maps-for-work",
+    "alias": "google-maps",
+    "name": "Google Maps for Work",
+    "builtwith_name": "Google Maps for Work"
+  },
+  {
+    "id": "google-translate-widget",
+    "alias": "google-translate",
+    "name": "Google Translate Widget",
+    "builtwith_name": "Google Translate Widget"
+  },
+  {
+    "id": "html-4-01-transitional-dtd",
+    "alias": "html4",
+    "name": "HTML 4.01 Transitional DTD",
+    "builtwith_name": "HTML 4.01 Transitional DTD"
+  },
+  {
+    "id": "html-5-specific-tags",
+    "alias": "html5",
+    "name": "HTML 5 Specific Tags",
+    "builtwith_name": "HTML 5 Specific Tags"
+  },
+  {
+    "id": "html-5-video-audio-tags",
+    "alias": "html5",
+    "name": "HTML 5 Video Audio Tags",
+    "builtwith_name": "HTML 5 Video Audio Tags"
+  },
+  {
+    "id": "html5-history-api",
+    "alias": "html5",
+    "name": "HTML5 History API",
+    "builtwith_name": "HTML5 History API"
+  },
+  {
+    "id": "iis-10",
+    "alias": "iis",
+    "name": "IIS 10",
+    "builtwith_name": "IIS 10"
+  },
+  {
+    "id": "iis-3",
+    "alias": "iis",
+    "name": "IIS 3",
+    "builtwith_name": "IIS 3"
+  },
+  {
+    "id": "iis-4",
+    "alias": "iis",
+    "name": "IIS 4",
+    "builtwith_name": "IIS 4"
+  },
+  {
+    "id": "iis-5",
+    "alias": "iis",
+    "name": "IIS 5",
+    "builtwith_name": "IIS 5"
+  },
+  {
+    "id": "iis-6",
+    "alias": "iis",
+    "name": "IIS 6",
+    "builtwith_name": "IIS 6"
+  },
+  {
+    "id": "iis-7",
+    "alias": "iis",
+    "name": "IIS 7",
+    "builtwith_name": "IIS 7"
+  },
+  {
+    "id": "iis-8",
+    "alias": "iis",
+    "name": "IIS 8",
+    "builtwith_name": "IIS 8"
+  },
+  {
+    "id": "applet",
+    "alias": "java",
+    "name": "Applet",
+    "builtwith_name": "Applet"
+  },
+  {
+    "id": "java-ee",
+    "alias": "java",
+    "name": "Java EE",
+    "builtwith_name": "Java EE"
+  },
+  {
+    "id": "java-servlet",
+    "alias": "java",
+    "name": "Java Servlet",
+    "builtwith_name": "Java Servlet"
+  },
+  {
+    "id": "sun-java-system",
+    "alias": "java",
+    "name": "Sun Java System",
+    "builtwith_name": "Sun Java System"
+  },
+  {
+    "id": "joomla-",
+    "alias": "joomla",
+    "name": "Joomla!",
+    "builtwith_name": "Joomla!"
+  },
+  {
+    "id": "google-hosted-jquery",
+    "alias": "jquery",
+    "name": "Google Hosted jQuery",
+    "builtwith_name": "Google Hosted jQuery"
+  },
+  {
+    "id": "jquery-1-10-0",
+    "alias": "jquery",
+    "name": "jQuery 1.10.0",
+    "builtwith_name": "jQuery 1.10.0"
+  },
+  {
+    "id": "jquery-1-10-1",
+    "alias": "jquery",
+    "name": "jQuery 1.10.1",
+    "builtwith_name": "jQuery 1.10.1"
+  },
+  {
+    "id": "jquery-1-10-2",
+    "alias": "jquery",
+    "name": "jQuery 1.10.2",
+    "builtwith_name": "jQuery 1.10.2"
+  },
+  {
+    "id": "jquery-1-11-0",
+    "alias": "jquery",
+    "name": "jQuery 1.11.0",
+    "builtwith_name": "jQuery 1.11.0"
+  },
+  {
+    "id": "jquery-1-11-1",
+    "alias": "jquery",
+    "name": "jQuery 1.11.1",
+    "builtwith_name": "jQuery 1.11.1"
+  },
+  {
+    "id": "jquery-1-11-2",
+    "alias": "jquery",
+    "name": "jQuery 1.11.2",
+    "builtwith_name": "jQuery 1.11.2"
+  },
+  {
+    "id": "jquery-1-11-3",
+    "alias": "jquery",
+    "name": "jQuery 1.11.3",
+    "builtwith_name": "jQuery 1.11.3"
+  },
+  {
+    "id": "jquery-1-12-0",
+    "alias": "jquery",
+    "name": "jQuery 1.12.0",
+    "builtwith_name": "jQuery 1.12.0"
+  },
+  {
+    "id": "jquery-1-12-3",
+    "alias": "jquery",
+    "name": "jQuery 1.12.3",
+    "builtwith_name": "jQuery 1.12.3"
+  },
+  {
+    "id": "jquery-1-12-4",
+    "alias": "jquery",
+    "name": "jQuery 1.12.4",
+    "builtwith_name": "jQuery 1.12.4"
+  },
+  {
+    "id": "jquery-1-2-6",
+    "alias": "jquery",
+    "name": "jQuery 1.2.6",
+    "builtwith_name": "jQuery 1.2.6"
+  },
+  {
+    "id": "jquery-1-3-1",
+    "alias": "jquery",
+    "name": "jQuery 1.3.1",
+    "builtwith_name": "jQuery 1.3.1"
+  },
+  {
+    "id": "jquery-1-3-2",
+    "alias": "jquery",
+    "name": "jQuery 1.3.2",
+    "builtwith_name": "jQuery 1.3.2"
+  },
+  {
+    "id": "jquery-1-4",
+    "alias": "jquery",
+    "name": "jQuery 1.4",
+    "builtwith_name": "jQuery 1.4"
+  },
+  {
+    "id": "jquery-1-4-2",
+    "alias": "jquery",
+    "name": "jQuery 1.4.2",
+    "builtwith_name": "jQuery 1.4.2"
+  },
+  {
+    "id": "jquery-1-4-3",
+    "alias": "jquery",
+    "name": "jQuery 1.4.3",
+    "builtwith_name": "jQuery 1.4.3"
+  },
+  {
+    "id": "jquery-1-4-4",
+    "alias": "jquery",
+    "name": "jQuery 1.4.4",
+    "builtwith_name": "jQuery 1.4.4"
+  },
+  {
+    "id": "jquery-1-5-1",
+    "alias": "jquery",
+    "name": "jQuery 1.5.1",
+    "builtwith_name": "jQuery 1.5.1"
+  },
+  {
+    "id": "jquery-1-5-2",
+    "alias": "jquery",
+    "name": "jQuery 1.5.2",
+    "builtwith_name": "jQuery 1.5.2"
+  },
+  {
+    "id": "jquery-1-6",
+    "alias": "jquery",
+    "name": "jQuery 1.6",
+    "builtwith_name": "jQuery 1.6"
+  },
+  {
+    "id": "jquery-1-6-2",
+    "alias": "jquery",
+    "name": "jQuery 1.6.2",
+    "builtwith_name": "jQuery 1.6.2"
+  },
+  {
+    "id": "jquery-1-6-3",
+    "alias": "jquery",
+    "name": "jQuery 1.6.3",
+    "builtwith_name": "jQuery 1.6.3"
+  },
+  {
+    "id": "jquery-1-6-4",
+    "alias": "jquery",
+    "name": "jQuery 1.6.4",
+    "builtwith_name": "jQuery 1.6.4"
+  },
+  {
+    "id": "jquery-1-7",
+    "alias": "jquery",
+    "name": "jQuery 1.7",
+    "builtwith_name": "jQuery 1.7"
+  },
+  {
+    "id": "jquery-1-7-0",
+    "alias": "jquery",
+    "name": "jQuery 1.7.0",
+    "builtwith_name": "jQuery 1.7.0"
+  },
+  {
+    "id": "jquery-1-7-1",
+    "alias": "jquery",
+    "name": "jQuery 1.7.1",
+    "builtwith_name": "jQuery 1.7.1"
+  },
+  {
+    "id": "jquery-1-7-2",
+    "alias": "jquery",
+    "name": "jQuery 1.7.2",
+    "builtwith_name": "jQuery 1.7.2"
+  },
+  {
+    "id": "jquery-1-8-0",
+    "alias": "jquery",
+    "name": "jQuery 1.8.0",
+    "builtwith_name": "jQuery 1.8.0"
+  },
+  {
+    "id": "jquery-1-8-1",
+    "alias": "jquery",
+    "name": "jQuery 1.8.1",
+    "builtwith_name": "jQuery 1.8.1"
+  },
+  {
+    "id": "jquery-1-8-2",
+    "alias": "jquery",
+    "name": "jQuery 1.8.2",
+    "builtwith_name": "jQuery 1.8.2"
+  },
+  {
+    "id": "jquery-1-8-3",
+    "alias": "jquery",
+    "name": "jQuery 1.8.3",
+    "builtwith_name": "jQuery 1.8.3"
+  },
+  {
+    "id": "jquery-1-9-0",
+    "alias": "jquery",
+    "name": "jQuery 1.9.0",
+    "builtwith_name": "jQuery 1.9.0"
+  },
+  {
+    "id": "jquery-1-9-1",
+    "alias": "jquery",
+    "name": "jQuery 1.9.1",
+    "builtwith_name": "jQuery 1.9.1"
+  },
+  {
+    "id": "jquery-2-1-0",
+    "alias": "jquery",
+    "name": "jQuery 2.1.0",
+    "builtwith_name": "jQuery 2.1.0"
+  },
+  {
+    "id": "jquery-2-1-1",
+    "alias": "jquery",
+    "name": "jQuery 2.1.1",
+    "builtwith_name": "jQuery 2.1.1"
+  },
+  {
+    "id": "jquery-2-1-3",
+    "alias": "jquery",
+    "name": "jQuery 2.1.3",
+    "builtwith_name": "jQuery 2.1.3"
+  },
+  {
+    "id": "jquery-2-1-4",
+    "alias": "jquery",
+    "name": "jQuery 2.1.4",
+    "builtwith_name": "jQuery 2.1.4"
+  },
+  {
+    "id": "jquery-2-2-0",
+    "alias": "jquery",
+    "name": "jQuery 2.2.0",
+    "builtwith_name": "jQuery 2.2.0"
+  },
+  {
+    "id": "jquery-3-1-0",
+    "alias": "jquery",
+    "name": "jQuery 3.1.0",
+    "builtwith_name": "jQuery 3.1.0"
+  },
+  {
+    "id": "jquery-3-1-1",
+    "alias": "jquery",
+    "name": "jQuery 3.1.1",
+    "builtwith_name": "jQuery 3.1.1"
+  },
+  {
+    "id": "jquery-3-2-1",
+    "alias": "jquery",
+    "name": "jQuery 3.2.1",
+    "builtwith_name": "jQuery 3.2.1"
+  },
+  {
+    "id": "jquery-3-3-1",
+    "alias": "jquery",
+    "name": "jQuery 3.3.1",
+    "builtwith_name": "jQuery 3.3.1"
+  },
+  {
+    "id": "jquery-3-4-1",
+    "alias": "jquery",
+    "name": "jQuery 3.4.1",
+    "builtwith_name": "jQuery 3.4.1"
+  },
+  {
+    "id": "jquery-3-5-1",
+    "alias": "jquery",
+    "name": "jQuery 3.5.1",
+    "builtwith_name": "jQuery 3.5.1"
+  },
+  {
+    "id": "google-hosted-jquery-ui",
+    "alias": "jquery-ui",
+    "name": "Google Hosted jQuery UI",
+    "builtwith_name": "Google Hosted jQuery UI"
+  },
+  {
+    "id": "asp-net",
+    "alias": "microsoft-asp-net",
+    "name": "ASP.NET",
+    "builtwith_name": "ASP.NET"
+  },
+  {
+    "id": "asp-net-ajax",
+    "alias": "microsoft-asp-net",
+    "name": "ASP.NET Ajax",
+    "builtwith_name": "ASP.NET Ajax"
+  },
+  {
+    "id": "asp-net-mvc",
+    "alias": "microsoft-asp-net",
+    "name": "ASP.NET MVC",
+    "builtwith_name": "ASP.NET MVC"
+  },
+  {
+    "id": "azure-edge",
+    "alias": "microsoft-azure",
+    "name": "Azure Edge",
+    "builtwith_name": "Azure Edge"
+  },
+  {
+    "id": "microsoft-azure-blob-storage",
+    "alias": "microsoft-azure",
+    "name": "Microsoft Azure Blob Storage",
+    "builtwith_name": "Microsoft Azure Blob Storage"
+  },
+  {
+    "id": "mod_ssl-2-0-63",
+    "alias": "mod_ssl",
+    "name": "mod_ssl 2.0.63",
+    "builtwith_name": "mod_ssl 2.0.63"
+  },
+  {
+    "id": "mod_ssl-2-2-10",
+    "alias": "mod_ssl",
+    "name": "mod_ssl 2.2.10",
+    "builtwith_name": "mod_ssl 2.2.10"
+  },
+  {
+    "id": "mod_ssl-2-2-11",
+    "alias": "mod_ssl",
+    "name": "mod_ssl 2.2.11",
+    "builtwith_name": "mod_ssl 2.2.11"
+  },
+  {
+    "id": "mod_ssl-2-2-14",
+    "alias": "mod_ssl",
+    "name": "mod_ssl 2.2.14",
+    "builtwith_name": "mod_ssl 2.2.14"
+  },
+  {
+    "id": "mod_ssl-2-2-15",
+    "alias": "mod_ssl",
+    "name": "mod_ssl 2.2.15",
+    "builtwith_name": "mod_ssl 2.2.15"
+  },
+  {
+    "id": "mod_ssl-2-2-19",
+    "alias": "mod_ssl",
+    "name": "mod_ssl 2.2.19",
+    "builtwith_name": "mod_ssl 2.2.19"
+  },
+  {
+    "id": "mod_ssl-2-2-21",
+    "alias": "mod_ssl",
+    "name": "mod_ssl 2.2.21",
+    "builtwith_name": "mod_ssl 2.2.21"
+  },
+  {
+    "id": "mod_ssl-2-2-22",
+    "alias": "mod_ssl",
+    "name": "mod_ssl 2.2.22",
+    "builtwith_name": "mod_ssl 2.2.22"
+  },
+  {
+    "id": "mod_ssl-2-2-24",
+    "alias": "mod_ssl",
+    "name": "mod_ssl 2.2.24",
+    "builtwith_name": "mod_ssl 2.2.24"
+  },
+  {
+    "id": "mod_ssl-2-2-25",
+    "alias": "mod_ssl",
+    "name": "mod_ssl 2.2.25",
+    "builtwith_name": "mod_ssl 2.2.25"
+  },
+  {
+    "id": "mod_ssl-2-2-3",
+    "alias": "mod_ssl",
+    "name": "mod_ssl 2.2.3",
+    "builtwith_name": "mod_ssl 2.2.3"
+  },
+  {
+    "id": "mod_ssl-2-2-8",
+    "alias": "mod_ssl",
+    "name": "mod_ssl 2.2.8",
+    "builtwith_name": "mod_ssl 2.2.8"
+  },
+  {
+    "id": "mod_ssl-2-2-9",
+    "alias": "mod_ssl",
+    "name": "mod_ssl 2.2.9",
+    "builtwith_name": "mod_ssl 2.2.9"
+  },
+  {
+    "id": "mod_ssl-2-8-22",
+    "alias": "mod_ssl",
+    "name": "mod_ssl 2.8.22",
+    "builtwith_name": "mod_ssl 2.8.22"
+  },
+  {
+    "id": "mod_ssl-2-8-28",
+    "alias": "mod_ssl",
+    "name": "mod_ssl 2.8.28",
+    "builtwith_name": "mod_ssl 2.8.28"
+  },
+  {
+    "id": "mod_ssl-2-8-31",
+    "alias": "mod_ssl",
+    "name": "mod_ssl 2.8.31",
+    "builtwith_name": "mod_ssl 2.8.31"
+  },
+  {
+    "id": "modernizr-1-6",
+    "alias": "modernizr",
+    "name": "Modernizr 1.6",
+    "builtwith_name": "Modernizr 1.6"
+  },
+  {
+    "id": "modernizr-1-7",
+    "alias": "modernizr",
+    "name": "Modernizr 1.7",
+    "builtwith_name": "Modernizr 1.7"
+  },
+  {
+    "id": "modernizr-2-0",
+    "alias": "modernizr",
+    "name": "Modernizr 2.0",
+    "builtwith_name": "Modernizr 2.0"
+  },
+  {
+    "id": "modernizr-2-5",
+    "alias": "modernizr",
+    "name": "Modernizr 2.5",
+    "builtwith_name": "Modernizr 2.5"
+  },
+  {
+    "id": "modernizr-2-6",
+    "alias": "modernizr",
+    "name": "Modernizr 2.6",
+    "builtwith_name": "Modernizr 2.6"
+  },
+  {
+    "id": "modernizr-2-8",
+    "alias": "modernizr",
+    "name": "Modernizr 2.8",
+    "builtwith_name": "Modernizr 2.8"
+  },
+  {
+    "id": "moment-js",
+    "alias": "moment-js",
+    "name": "Moment JS",
+    "builtwith_name": "Moment JS"
+  },
+  {
+    "id": "moment-timezone",
+    "alias": "moment-js",
+    "name": "Moment Timezone",
+    "wappalyzer_name": "Moment Timezone"
+  },
+  {
+    "id": "nginx-0-6",
+    "alias": "nginx",
+    "name": "nginx 0.6",
+    "builtwith_name": "nginx 0.6"
+  },
+  {
+    "id": "nginx-0-7",
+    "alias": "nginx",
+    "name": "nginx 0.7",
+    "builtwith_name": "nginx 0.7"
+  },
+  {
+    "id": "nginx-1-1",
+    "alias": "nginx",
+    "name": "nginx 1.1",
+    "builtwith_name": "nginx 1.1"
+  },
+  {
+    "id": "nginx-1-10",
+    "alias": "nginx",
+    "name": "nginx 1.10",
+    "builtwith_name": "nginx 1.10"
+  },
+  {
+    "id": "nginx-1-12",
+    "alias": "nginx",
+    "name": "Nginx 1.12",
+    "builtwith_name": "Nginx 1.12"
+  },
+  {
+    "id": "nginx-1-14",
+    "alias": "nginx",
+    "name": "Nginx 1.14",
+    "builtwith_name": "Nginx 1.14"
+  },
+  {
+    "id": "nginx-1-15",
+    "alias": "nginx",
+    "name": "Nginx 1.15",
+    "builtwith_name": "Nginx 1.15"
+  },
+  {
+    "id": "nginx-1-16",
+    "alias": "nginx",
+    "name": "Nginx 1.16",
+    "builtwith_name": "Nginx 1.16"
+  },
+  {
+    "id": "nginx-1-17",
+    "alias": "nginx",
+    "name": "Nginx 1.17",
+    "builtwith_name": "Nginx 1.17"
+  },
+  {
+    "id": "nginx-1-4",
+    "alias": "nginx",
+    "name": "nginx 1.4",
+    "builtwith_name": "nginx 1.4"
+  },
+  {
+    "id": "nginx-1-6",
+    "alias": "nginx",
+    "name": "nginx 1.6",
+    "builtwith_name": "nginx 1.6"
+  },
+  {
+    "id": "openssl-0-9-6",
+    "alias": "openssl",
+    "name": "OpenSSL 0.9.6",
+    "builtwith_name": "OpenSSL 0.9.6"
+  },
+  {
+    "id": "openssl-0-9-7",
+    "alias": "openssl",
+    "name": "OpenSSL 0.9.7",
+    "builtwith_name": "OpenSSL 0.9.7"
+  },
+  {
+    "id": "openssl-0-9-8",
+    "alias": "openssl",
+    "name": "OpenSSL 0.9.8",
+    "builtwith_name": "OpenSSL 0.9.8"
+  },
+  {
+    "id": "openssl-1-0-0",
+    "alias": "openssl",
+    "name": "OpenSSL 1.0.0",
+    "builtwith_name": "OpenSSL 1.0.0"
+  },
+  {
+    "id": "openssl-1-0-1",
+    "alias": "openssl",
+    "name": "OpenSSL 1.0.1",
+    "builtwith_name": "OpenSSL 1.0.1"
+  },
+  {
+    "id": "php-7",
+    "alias": "php",
+    "name": "PHP 7",
+    "builtwith_name": "PHP 7",
+    "rank": "1"
+  },
+  {
+    "id": "phpmyvisites",
+    "alias": "php-my-visits",
+    "name": "phpMyVisites",
+    "builtwith_name": "phpMyVisites"
+  },
+  {
+    "id": "polyfill-io",
+    "alias": "polyfill",
+    "name": "Polyfill IO",
+    "builtwith_name": "Polyfill IO"
+  },
+  {
+    "id": "popper-js",
+    "alias": "popper",
+    "name": "Popper.js",
+    "builtwith_name": "Popper.js"
+  },
+  {
+    "id": "python-2-5",
+    "alias": "python",
+    "name": "Python 2.5",
+    "builtwith_name": "Python 2.5",
+    "rank": "1"
+  },
+  {
+    "id": "python-2-6",
+    "alias": "python",
+    "name": "Python 2.6",
+    "builtwith_name": "Python 2.6",
+    "rank": "1"
+  },
+  {
+    "id": "python-2-7",
+    "alias": "python",
+    "name": "Python 2.7",
+    "builtwith_name": "Python 2.7",
+    "rank": "1"
+  },
+  {
+    "id": "python-3-3",
+    "alias": "python",
+    "name": "Python 3.3",
+    "builtwith_name": "Python 3.3",
+    "rank": "1"
+  },
+  {
+    "id": "qualtrics-site-intercept",
+    "alias": "qualtrics",
+    "name": "Qualtrics Site Intercept",
+    "builtwith_name": "Qualtrics Site Intercept"
+  },
+  {
+    "id": "recaptcha-v2",
+    "alias": "recaptcha",
+    "name": "reCAPTCHA v2",
+    "builtwith_name": "reCAPTCHA v2"
+  },
+  {
+    "id": "resin-3-1",
+    "alias": "resin",
+    "name": "Resin 3.1",
+    "builtwith_name": "Resin 3.1"
+  },
+  {
+    "id": "ruby-on-rails-token",
+    "alias": "ruby-on-rails",
+    "name": "Ruby on Rails Token",
+    "builtwith_name": "Ruby on Rails Token",
+    "rank": "1"
+  },
+  {
+    "id": "slick-js",
+    "alias": "slick",
+    "name": "Slick JS",
+    "builtwith_name": "Slick JS"
+  },
+  {
+    "id": "stripe-v3",
+    "alias": "stripe",
+    "name": "Stripe v3",
+    "builtwith_name": "Stripe v3"
+  },
+  {
+    "id": "sun-one-web-server-v6-1",
+    "alias": "sun-one",
+    "name": "Sun ONE Web Server v6.1",
+    "builtwith_name": "Sun ONE Web Server v6.1"
+  },
+  {
+    "id": "typo3-cms",
+    "alias": "typo3",
+    "name": "TYPO3 CMS",
+    "wappalyzer_name": "TYPO3 CMS",
+    "rank": "1"
+  },
+  {
+    "id": "varnish-5-x",
+    "alias": "varnish",
+    "name": "Varnish 5.x",
+    "builtwith_name": "Varnish 5.x"
+  },
+  {
+    "id": "vue",
+    "alias": "vue-js",
+    "name": "Vue",
+    "builtwith_name": "Vue",
+    "rank": "1"
+  },
+  {
+    "id": "wordpress-2-5",
+    "alias": "wordpress",
+    "name": "WordPress 2.5",
+    "builtwith_name": "WordPress 2.5",
+    "rank": "1"
+  },
+  {
+    "id": "wordpress-2-8",
+    "alias": "wordpress",
+    "name": "WordPress 2.8",
+    "builtwith_name": "WordPress 2.8",
+    "rank": "1"
+  },
+  {
+    "id": "wordpress-3-3",
+    "alias": "wordpress",
+    "name": "WordPress 3.3",
+    "builtwith_name": "WordPress 3.3",
+    "rank": "1"
+  },
+  {
+    "id": "wordpress-3-5",
+    "alias": "wordpress",
+    "name": "WordPress 3.5",
+    "builtwith_name": "WordPress 3.5",
+    "rank": "1"
+  },
+  {
+    "id": "wordpress-3-6",
+    "alias": "wordpress",
+    "name": "WordPress 3.6",
+    "builtwith_name": "WordPress 3.6",
+    "rank": "1"
+  },
+  {
+    "id": "wordpress-3-9",
+    "alias": "wordpress",
+    "name": "Wordpress 3.9",
+    "builtwith_name": "Wordpress 3.9",
+    "rank": "1"
+  },
+  {
+    "id": "wordpress-4-0",
+    "alias": "wordpress",
+    "name": "WordPress 4.0",
+    "builtwith_name": "WordPress 4.0",
+    "rank": "1"
+  },
+  {
+    "id": "wordpress-4-1",
+    "alias": "wordpress",
+    "name": "Wordpress 4.1",
+    "builtwith_name": "Wordpress 4.1",
+    "rank": "1"
+  },
+  {
+    "id": "wordpress-4-7",
+    "alias": "wordpress",
+    "name": "Wordpress 4.7",
+    "builtwith_name": "Wordpress 4.7",
+    "rank": "1"
+  },
+  {
+    "id": "wordpress-4-8",
+    "alias": "wordpress",
+    "name": "Wordpress 4.8",
+    "builtwith_name": "Wordpress 4.8",
+    "rank": "1"
+  },
+  {
+    "id": "wordpress-4-9",
+    "alias": "wordpress",
+    "name": "Wordpress 4.9",
+    "builtwith_name": "Wordpress 4.9",
+    "rank": "1"
+  },
+  {
+    "id": "wordpress-5-0",
+    "alias": "wordpress",
+    "name": "Wordpress 5.0",
+    "builtwith_name": "Wordpress 5.0",
+    "rank": "1"
+  },
+  {
+    "id": "wordpress-5-2",
+    "alias": "wordpress",
+    "name": "WordPress 5.2",
+    "builtwith_name": "WordPress 5.2",
+    "rank": "1"
+  },
+  {
+    "id": "wordpress-5-3",
+    "alias": "wordpress",
+    "name": "WordPress 5.3",
+    "builtwith_name": "WordPress 5.3",
+    "rank": "1"
+  },
+  {
+    "id": "wordpress-5-4",
+    "alias": "wordpress",
+    "name": "WordPress 5.4",
+    "builtwith_name": "WordPress 5.4",
+    "rank": "1"
+  },
+  {
+    "id": "wordpress-5-5",
+    "alias": "wordpress",
+    "name": "WordPress 5.5",
+    "builtwith_name": "WordPress 5.5",
+    "rank": "1"
+  },
+  {
+    "id": "wordpress-5-6",
+    "alias": "wordpress",
+    "name": "WordPress 5.6",
+    "builtwith_name": "WordPress 5.6",
+    "rank": "1"
+  },
+  {
+    "id": "wordpress-grid",
+    "alias": "wordpress",
+    "name": "WordPress Grid",
+    "builtwith_name": "WordPress Grid",
+    "rank": "1"
+  },
+  {
+    "id": "wordpress-plugins",
+    "alias": "wordpress",
+    "name": "Wordpress Plugins",
+    "builtwith_name": "Wordpress Plugins",
+    "rank": "1"
+  },
+  {
+    "id": "wordpress-super-cache",
+    "alias": "wordpress",
+    "name": "WordPress Super Cache",
+    "wappalyzer_name": "WordPress Super Cache"
+  },
+  {
+    "id": "wp-super-cache",
+    "alias": "wordpress-super-cache",
+    "name": "WP Super Cache",
+    "builtwith_name": "WP Super Cache"
+  },
+  {
+    "id": "wow-slider",
+    "alias": "wow",
+    "name": "WOW Slider",
+    "builtwith_name": "WOW Slider"
+  },
+  {
+    "id": "xhtml-transitional",
+    "alias": "xhtml",
+    "name": "XHTML Transitional",
+    "builtwith_name": "XHTML Transitional"
+  },
+  {
+    "id": "xhtml-vocabulary",
+    "alias": "xhtml",
+    "name": "XHTML Vocabulary",
+    "builtwith_name": "XHTML Vocabulary"
+  },
+  {
+    "id": "yahoo-geocities-analytics",
+    "alias": "yahoo-analytics",
+    "name": "Yahoo Geocities Analytics",
+    "builtwith_name": "Yahoo Geocities Analytics"
+  },
+  {
+    "id": "yoast-google-analytics-for-wordpress",
+    "alias": "yahoo-analytics",
+    "name": "Yoast Google Analytics for WordPress",
+    "builtwith_name": "Yoast Google Analytics for WordPress"
+  },
+  {
+    "id": "yui",
+    "alias": "yui",
+    "name": "YUI",
+    "wappalyzer_name": "YUI",
+    "rank": "1"
+  },
+  {
+    "id": "yui3",
+    "alias": "yui",
+    "name": "YUI3",
+    "builtwith_name": "YUI3",
+    "rank": "1"
+  },
+  {
+    "id": "zoom-video-conferencing",
+    "alias": "zoom",
+    "name": "Zoom Video Conferencing",
+    "builtwith_name": "Zoom Video Conferencing"
+  },
+  {
     "id": "51-la",
     "name": "51.la",
     "builtwith_name": "51.la"
@@ -44,7 +1331,8 @@
   {
     "id": "adobe-coldfusion",
     "name": "Adobe ColdFusion",
-    "builtwith_name": "Adobe ColdFusion"
+    "builtwith_name": "Adobe ColdFusion",
+    "rank": "1"
   },
   {
     "id": "adobe-cq",
@@ -68,15 +1356,22 @@
     "wappalyzer_name": "Adobe Experience Manager"
   },
   {
+    "id": "flash",
+    "name": "Adobe Flash",
+    "rank": "1"
+  },
+  {
     "id": "adobe-golive",
     "name": "Adobe GoLive",
     "builtwith_name": "Adobe GoLive",
-    "wappalyzer_name": "Adobe GoLive"
+    "wappalyzer_name": "Adobe GoLive",
+    "rank": "1"
   },
   {
     "id": "adobe-pagemill",
     "name": "Adobe PageMill",
-    "builtwith_name": "Adobe PageMill"
+    "builtwith_name": "Adobe PageMill",
+    "rank": "1"
   },
   {
     "id": "adobe-spry",
@@ -110,20 +1405,22 @@
     "builtwith_name": "Alternate Protocol"
   },
   {
+    "id": "s3",
+    "name": "Amazon S3",
+    "builtwith_name": "Amazon S3",
+    "rank": "1"
+  },
+  {
     "id": "amp",
     "name": "AMP",
-    "wappalyzer_name": "AMP"
+    "wappalyzer_name": "AMP",
+    "rank": "1"
   },
   {
     "id": "angular-js",
     "name": "Angular JS",
-    "builtwith_name": "Angular JS"
-  },
-  {
-    "id": "angularjs",
-    "alias": "angular-js",
-    "name": "AngularJS",
-    "wappalyzer_name": "AngularJS"
+    "builtwith_name": "Angular JS",
+    "rank": "1"
   },
   {
     "id": "animate-css",
@@ -230,7 +1527,8 @@
     "id": "backbone-js",
     "name": "Backbone.js",
     "builtwith_name": "Backbone.js",
-    "wappalyzer_name": "Backbone.js"
+    "wappalyzer_name": "Backbone.js",
+    "rank": "1"
   },
   {
     "id": "background-sound",
@@ -270,7 +1568,8 @@
   {
     "id": "bootstrap",
     "name": "Bootstrap",
-    "wappalyzer_name": "Bootstrap"
+    "wappalyzer_name": "Bootstrap",
+    "rank": "1"
   },
   {
     "id": "box-over",
@@ -338,14 +1637,14 @@
     "wappalyzer_name": "Cart Functionality"
   },
   {
+    "id": "css",
+    "name": "Cascading Style Sheets",
+    "builtwith_name": "Cascading Style Sheets"
+  },
+  {
     "id": "cashnet",
     "name": "Cashnet",
     "builtwith_name": "Cashnet"
-  },
-  {
-    "id": "cdn",
-    "name": "Content Delivery Network",
-    "builtwith_name": "Content Delivery Network"
   },
   {
     "id": "cdn-js",
@@ -434,7 +1733,8 @@
     "id": "concrete5",
     "name": "Concrete5",
     "builtwith_name": "Concrete5",
-    "wappalyzer_name": "Concrete5"
+    "wappalyzer_name": "Concrete5",
+    "rank": "1"
   },
   {
     "id": "conditional-comments",
@@ -455,6 +1755,11 @@
     "id": "contactpoint-schema",
     "name": "ContactPoint Schema",
     "builtwith_name": "ContactPoint Schema"
+  },
+  {
+    "id": "cdn",
+    "name": "Content Delivery Network",
+    "builtwith_name": "Content Delivery Network"
   },
   {
     "id": "content-security-policy",
@@ -504,17 +1809,13 @@
   {
     "id": "creative-commons",
     "name": "Creative Commons",
-    "builtwith_name": "Creative Commons"
+    "builtwith_name": "Creative Commons",
+    "rank": "1"
   },
   {
     "id": "creativework-schema",
     "name": "CreativeWork Schema",
     "builtwith_name": "CreativeWork Schema"
-  },
-  {
-    "id": "css",
-    "name": "Cascading Style Sheets",
-    "builtwith_name": "Cascading Style Sheets"
   },
   {
     "id": "css3-mediaqueries-js",
@@ -601,7 +1902,8 @@
   {
     "id": "dotcms",
     "name": "dotCMS",
-    "builtwith_name": "dotCMS"
+    "builtwith_name": "dotCMS",
+    "rank": "1"
   },
   {
     "id": "doubleclick-floodlight",
@@ -622,7 +1924,8 @@
     "id": "drupal",
     "name": "Drupal",
     "builtwith_name": "Drupal",
-    "wappalyzer_name": "Drupal"
+    "wappalyzer_name": "Drupal",
+    "rank": "1"
   },
   {
     "id": "dstillery",
@@ -632,7 +1935,8 @@
   {
     "id": "dublin-core",
     "name": "Dublin Core",
-    "builtwith_name": "Dublin Core"
+    "builtwith_name": "Dublin Core",
+    "rank": "1"
   },
   {
     "id": "duda",
@@ -672,7 +1976,8 @@
   {
     "id": "elsevier",
     "name": "Elsevier",
-    "builtwith_name": "Elsevier"
+    "builtwith_name": "Elsevier",
+    "rank": "1"
   },
   {
     "id": "ember-js",
@@ -731,7 +2036,8 @@
   {
     "id": "ex-libris",
     "name": "Ex Libris",
-    "builtwith_name": "Ex Libris"
+    "builtwith_name": "Ex Libris",
+    "rank": "1"
   },
   {
     "id": "exhibit",
@@ -840,10 +2146,6 @@
     "builtwith_name": "FitVids.JS"
   },
   {
-    "id": "flash",
-    "name": "Adobe Flash"
-  },
-  {
     "id": "flexslider",
     "name": "FlexSlider",
     "builtwith_name": "FlexSlider",
@@ -877,13 +2179,15 @@
   {
     "id": "foaf",
     "name": "FOAF",
-    "builtwith_name": "FOAF"
+    "builtwith_name": "FOAF",
+    "rank": "1"
   },
   {
     "id": "font-awesome",
     "name": "Font Awesome",
     "builtwith_name": "Font Awesome",
-    "wappalyzer_name": "Font Awesome"
+    "wappalyzer_name": "Font Awesome",
+    "rank": "1"
   },
   {
     "id": "fontdeck",
@@ -953,7 +2257,8 @@
   {
     "id": "gatsby",
     "name": "Gatsby",
-    "wappalyzer_name": "Gatsby"
+    "wappalyzer_name": "Gatsby",
+    "rank": "1"
   },
   {
     "id": "gaug-es",
@@ -1150,6 +2455,7 @@
   },
   {
     "id": "gravity-forms",
+    "alias": "wordpress",
     "name": "Gravity Forms",
     "builtwith_name": "Gravity Forms",
     "wappalyzer_name": "Gravity Forms"
@@ -1243,6 +2549,11 @@
     "builtwith_name": "HSTS IncludeSubdomains PreLoad"
   },
   {
+    "id": "html4",
+    "name": "HTML 4 / 4.01 Strict",
+    "builtwith_name": "HTML 4 / 4.01 Strict"
+  },
+  {
     "id": "html-imports",
     "name": "HTML Imports",
     "builtwith_name": "HTML Imports"
@@ -1253,19 +2564,14 @@
     "builtwith_name": "HTML Tidy"
   },
   {
-    "id": "html4",
-    "name": "HTML 4 / 4.01 Strict",
-    "builtwith_name": "HTML 4 / 4.01 Strict"
+    "id": "html5-boilerplate",
+    "name": "HTML5 Boilerplate",
+    "builtwith_name": "HTML5 Boilerplate"
   },
   {
     "id": "html5",
     "name": "HTML5 DocType",
     "builtwith_name": "HTML5 DocType"
-  },
-  {
-    "id": "html5-boilerplate",
-    "name": "HTML5 Boilerplate",
-    "builtwith_name": "HTML5 Boilerplate"
   },
   {
     "id": "html5shiv",
@@ -1449,7 +2755,8 @@
   {
     "id": "joomla",
     "name": "Joomla",
-    "wappalyzer_name": "Joomla"
+    "wappalyzer_name": "Joomla",
+    "rank": "1"
   },
   {
     "id": "jotform",
@@ -1465,7 +2772,8 @@
     "id": "jquery",
     "name": "jQuery",
     "builtwith_name": "jQuery",
-    "wappalyzer_name": "jQuery"
+    "wappalyzer_name": "jQuery",
+    "rank": "1"
   },
   {
     "id": "jquery-autocomplete",
@@ -1697,7 +3005,8 @@
   {
     "id": "kentico-cms",
     "name": "Kentico CMS",
-    "wappalyzer_name": "Kentico CMS"
+    "wappalyzer_name": "Kentico CMS",
+    "rank": "1"
   },
   {
     "id": "kentico-xperience",
@@ -1779,7 +3088,8 @@
     "id": "lodash",
     "name": "lodash",
     "builtwith_name": "lodash",
-    "wappalyzer_name": "lodash"
+    "wappalyzer_name": "lodash",
+    "rank": "1"
   },
   {
     "id": "lotus-domino",
@@ -1816,7 +3126,8 @@
     "id": "mambo",
     "name": "Mambo",
     "builtwith_name": "Mambo",
-    "wappalyzer_name": "Mambo"
+    "wappalyzer_name": "Mambo",
+    "rank": "1"
   },
   {
     "id": "marin-software",
@@ -1835,6 +3146,7 @@
   },
   {
     "id": "material-design-for-bootstrap",
+    "alias": "bootstrap",
     "name": "Material Design for Bootstrap",
     "builtwith_name": "Material Design for Bootstrap"
   },
@@ -1847,7 +3159,8 @@
   {
     "id": "matomo",
     "name": "Matomo",
-    "builtwith_name": "Matomo"
+    "builtwith_name": "Matomo",
+    "rank": "1"
   },
   {
     "id": "matomo-analytics",
@@ -1914,7 +3227,8 @@
   {
     "id": "microsoft-asp-net",
     "name": "Microsoft ASP.NET",
-    "wappalyzer_name": "Microsoft ASP.NET"
+    "wappalyzer_name": "Microsoft ASP.NET",
+    "rank": "1"
   },
   {
     "id": "microsoft-azure",
@@ -1923,7 +3237,8 @@
   {
     "id": "microsoft-frontpage",
     "name": "Microsoft Frontpage",
-    "builtwith_name": "Microsoft Frontpage"
+    "builtwith_name": "Microsoft Frontpage",
+    "rank": "1"
   },
   {
     "id": "microsoft-office",
@@ -1943,7 +3258,8 @@
   {
     "id": "microsoft-publisher",
     "name": "Microsoft Publisher",
-    "wappalyzer_name": "Microsoft Publisher"
+    "wappalyzer_name": "Microsoft Publisher",
+    "rank": "1"
   },
   {
     "id": "microsoft-sharepoint",
@@ -2036,7 +3352,8 @@
     "id": "mootools",
     "name": "MooTools",
     "builtwith_name": "MooTools",
-    "wappalyzer_name": "MooTools"
+    "wappalyzer_name": "MooTools",
+    "rank": "1"
   },
   {
     "id": "morris-js",
@@ -2155,7 +3472,8 @@
   {
     "id": "normalize-css",
     "name": "Normalize CSS",
-    "builtwith_name": "Normalize CSS"
+    "builtwith_name": "Normalize CSS",
+    "rank": "1"
   },
   {
     "id": "norton-safe-web",
@@ -2226,13 +3544,16 @@
   },
   {
     "id": "orchard",
+    "alias": "orchard-cms",
     "name": "Orchard",
-    "builtwith_name": "Orchard"
+    "builtwith_name": "Orchard",
+    "rank": "1"
   },
   {
     "id": "orchard-cms",
     "name": "Orchard CMS",
-    "wappalyzer_name": "Orchard CMS"
+    "wappalyzer_name": "Orchard CMS",
+    "rank": "1"
   },
   {
     "id": "organization-schema",
@@ -2309,7 +3630,8 @@
     "id": "perl",
     "name": "Perl",
     "builtwith_name": "Perl",
-    "wappalyzer_name": "Perl"
+    "wappalyzer_name": "Perl",
+    "rank": "1"
   },
   {
     "id": "person-schema",
@@ -2325,7 +3647,8 @@
     "id": "php",
     "name": "PHP",
     "builtwith_name": "PHP",
-    "wappalyzer_name": "PHP"
+    "wappalyzer_name": "PHP",
+    "rank": "1"
   },
   {
     "id": "php-my-visits",
@@ -2407,7 +3730,8 @@
     "id": "plone",
     "name": "Plone",
     "builtwith_name": "Plone",
-    "wappalyzer_name": "Plone"
+    "wappalyzer_name": "Plone",
+    "rank": "1"
   },
   {
     "id": "png-fix",
@@ -2479,7 +3803,8 @@
     "id": "python",
     "name": "Python",
     "builtwith_name": "Python",
-    "wappalyzer_name": "Python"
+    "wappalyzer_name": "Python",
+    "rank": "1"
   },
   {
     "id": "qualaroo",
@@ -2540,7 +3865,8 @@
     "id": "react",
     "name": "React",
     "builtwith_name": "React",
-    "wappalyzer_name": "React"
+    "wappalyzer_name": "React",
+    "rank": "1"
   },
   {
     "id": "really-simple-discovery",
@@ -2639,23 +3965,20 @@
   {
     "id": "ruby",
     "name": "Ruby",
-    "wappalyzer_name": "Ruby"
+    "wappalyzer_name": "Ruby",
+    "rank": "1"
   },
   {
     "id": "ruby-on-rails",
     "name": "Ruby on Rails",
     "builtwith_name": "Ruby on Rails",
-    "wappalyzer_name": "Ruby on Rails"
+    "wappalyzer_name": "Ruby on Rails",
+    "rank": "1"
   },
   {
     "id": "ruzeeborders",
     "name": "ruzeeborders",
     "builtwith_name": "ruzeeborders"
-  },
-  {
-    "id": "s3",
-    "name": "Amazon S3",
-    "builtwith_name": "Amazon S3"
   },
   {
     "id": "salient",
@@ -2771,13 +4094,16 @@
   },
   {
     "id": "sitecore",
+    "alias": "sitecore-cms",
     "name": "Sitecore",
-    "wappalyzer_name": "Sitecore"
+    "wappalyzer_name": "Sitecore",
+    "rank": "1"
   },
   {
     "id": "sitecore-cms",
     "name": "Sitecore CMS",
-    "builtwith_name": "Sitecore CMS"
+    "builtwith_name": "Sitecore CMS",
+    "rank": "1"
   },
   {
     "id": "siteimprove",
@@ -2843,7 +4169,8 @@
     "id": "squarespace",
     "name": "Squarespace",
     "builtwith_name": "Squarespace",
-    "wappalyzer_name": "Squarespace"
+    "wappalyzer_name": "Squarespace",
+    "rank": "1"
   },
   {
     "id": "squid",
@@ -3158,7 +4485,8 @@
   {
     "id": "typo3",
     "name": "TYPO3",
-    "builtwith_name": "TYPO3"
+    "builtwith_name": "TYPO3",
+    "rank": "1"
   },
   {
     "id": "typography",
@@ -3286,7 +4614,8 @@
   {
     "id": "vue-js",
     "name": "Vue.js",
-    "wappalyzer_name": "Vue.js"
+    "wappalyzer_name": "Vue.js",
+    "rank": "1"
   },
   {
     "id": "w3-total-cache",
@@ -3307,7 +4636,8 @@
   {
     "id": "web-site-pro",
     "name": "Web Site Pro",
-    "builtwith_name": "Web Site Pro"
+    "builtwith_name": "Web Site Pro",
+    "rank": "1"
   },
   {
     "id": "webfont-loader",
@@ -3317,7 +4647,8 @@
   {
     "id": "webgui",
     "name": "WebGUI",
-    "wappalyzer_name": "WebGUI"
+    "wappalyzer_name": "WebGUI",
+    "rank": "1"
   },
   {
     "id": "webpack",
@@ -3370,22 +4701,8 @@
     "id": "wordpress",
     "name": "WordPress",
     "builtwith_name": "WordPress",
-    "wappalyzer_name": "WordPress"
-  },
-  {
-    "id": "wordpress-grid",
-    "name": "WordPress Grid",
-    "builtwith_name": "WordPress Grid"
-  },
-  {
-    "id": "wordpress-plugins",
-    "name": "Wordpress Plugins",
-    "builtwith_name": "Wordpress Plugins"
-  },
-  {
-    "id": "wordpress-super-cache",
-    "name": "WordPress Super Cache",
-    "wappalyzer_name": "WordPress Super Cache"
+    "wappalyzer_name": "WordPress",
+    "rank": "1"
   },
   {
     "id": "wow",
@@ -3439,19 +4756,14 @@
     "builtwith_name": "X-XSS-Protection"
   },
   {
-    "id": "xhtml",
-    "name": "XHTML Strict",
-    "builtwith_name": "XHTML Strict"
-  },
-  {
     "id": "xhtml-rdf",
     "name": "XHTML RDFa 1.0",
     "builtwith_name": "XHTML RDFa 1.0"
   },
   {
-    "id": "yahoo-analytics",
-    "name": "Yahoo Web Analytics",
-    "builtwith_name": "Yahoo Web Analytics"
+    "id": "xhtml",
+    "name": "XHTML Strict",
+    "builtwith_name": "XHTML Strict"
   },
   {
     "id": "yahoo-bookmarklet",
@@ -3482,6 +4794,17 @@
     "id": "yahoo-small-business",
     "name": "Yahoo Small Business",
     "builtwith_name": "Yahoo Small Business"
+  },
+  {
+    "id": "yui",
+    "name": "Yahoo User Interface",
+    "builtwith_name": "Yahoo User Interface",
+    "rank": "1"
+  },
+  {
+    "id": "yahoo-analytics",
+    "name": "Yahoo Web Analytics",
+    "builtwith_name": "Yahoo Web Analytics"
   },
   {
     "id": "yoast-plugins",
@@ -3530,12 +4853,8 @@
     "builtwith_name": "YouVisit"
   },
   {
-    "id": "yui",
-    "name": "Yahoo User Interface",
-    "builtwith_name": "Yahoo User Interface"
-  },
-  {
     "id": "yui-doc",
+    "alias": "yui",
     "name": "YUI Doc",
     "wappalyzer_name": "YUI Doc"
   },
@@ -3546,8 +4865,10 @@
   },
   {
     "id": "zend-server",
+    "alias": "php",
     "name": "Zend Server",
-    "builtwith_name": "Zend Server"
+    "builtwith_name": "Zend Server",
+    "rank": "1"
   },
   {
     "id": "zendesk-chat",
@@ -3572,7 +4893,8 @@
   {
     "id": "zope",
     "name": "Zope",
-    "builtwith_name": "Zope"
+    "builtwith_name": "Zope",
+    "rank": "1"
   },
   {
     "id": "zopim",
@@ -3588,1223 +4910,5 @@
     "id": "zurb-foundation",
     "name": "ZURB Foundation",
     "wappalyzer_name": "ZURB Foundation"
-  },
-  {
-    "id": "accelerated-mobile-pages",
-    "alias": "amp",
-    "name": "Accelerated Mobile Pages",
-    "builtwith_name": "Accelerated Mobile Pages"
-  },
-  {
-    "id": "add-to-any",
-    "alias": "addtoany",
-    "name": "Add to Any",
-    "builtwith_name": "Add to Any"
-  },
-  {
-    "id": "adobe-dreamweaver",
-    "alias": "dreamweaver",
-    "name": "Adobe Dreamweaver",
-    "builtwith_name": "Adobe Dreamweaver"
-  },
-  {
-    "id": "apache-1-3",
-    "alias": "apache",
-    "name": "Apache 1.3",
-    "builtwith_name": "Apache 1.3"
-  },
-  {
-    "id": "apache-2-0",
-    "alias": "apache",
-    "name": "Apache 2.0",
-    "builtwith_name": "Apache 2.0"
-  },
-  {
-    "id": "apache-2-2",
-    "alias": "apache",
-    "name": "Apache 2.2",
-    "builtwith_name": "Apache 2.2"
-  },
-  {
-    "id": "apache-2-4",
-    "alias": "apache",
-    "name": "Apache 2.4",
-    "builtwith_name": "Apache 2.4"
-  },
-  {
-    "id": "apache-tomcat-coyote",
-    "alias": "apache-tomcat",
-    "name": "Apache Tomcat Coyote",
-    "builtwith_name": "Apache Tomcat Coyote"
-  },
-  {
-    "id": "apache-tomcat-jk",
-    "alias": "apache-tomcat",
-    "name": "Apache Tomcat JK",
-    "builtwith_name": "Apache Tomcat JK"
-  },
-  {
-    "id": "apple-mobile-web-app-capable",
-    "alias": "apple-mobile-web",
-    "name": "Apple Mobile Web App Capable",
-    "builtwith_name": "Apple Mobile Web App Capable"
-  },
-  {
-    "id": "apple-mobile-web-app-status-bar-style",
-    "alias": "apple-mobile-web",
-    "name": "Apple Mobile Web App Status Bar Style",
-    "builtwith_name": "Apple Mobile Web App Status Bar Style"
-  },
-  {
-    "id": "apple-mobile-web-clips-icon",
-    "alias": "apple-mobile-web",
-    "name": "Apple Mobile Web Clips Icon",
-    "builtwith_name": "Apple Mobile Web Clips Icon"
-  },
-  {
-    "id": "applet",
-    "alias": "java",
-    "name": "Applet",
-    "builtwith_name": "Applet"
-  },
-  {
-    "id": "asp-net",
-    "alias": "microsoft-asp-net",
-    "name": "ASP.NET",
-    "builtwith_name": "ASP.NET"
-  },
-  {
-    "id": "asp-net-ajax",
-    "alias": "microsoft-asp-net",
-    "name": "ASP.NET Ajax",
-    "builtwith_name": "ASP.NET Ajax"
-  },
-  {
-    "id": "asp-net-mvc",
-    "alias": "microsoft-asp-net",
-    "name": "ASP.NET MVC",
-    "builtwith_name": "ASP.NET MVC"
-  },
-  {
-    "id": "azure-edge",
-    "alias": "microsoft-azure",
-    "name": "Azure Edge",
-    "builtwith_name": "Azure Edge"
-  },
-  {
-    "id": "bootstrap-2-3-*",
-    "alias": "bootstrap",
-    "name": "Bootstrap 2.3.*",
-    "builtwith_name": "Bootstrap 2.3.*"
-  },
-  {
-    "id": "bootstrap-3-3-*",
-    "alias": "bootstrap",
-    "name": "Bootstrap 3.3.*",
-    "builtwith_name": "Bootstrap 3.3.*"
-  },
-  {
-    "id": "bootstrap-3-4-*",
-    "alias": "bootstrap",
-    "name": "Bootstrap 3.4.*",
-    "builtwith_name": "Bootstrap 3.4.*"
-  },
-  {
-    "id": "bootstrap-4-1-*",
-    "alias": "bootstrap",
-    "name": "Bootstrap 4.1.*",
-    "builtwith_name": "Bootstrap 4.1.*"
-  },
-  {
-    "id": "campaign-monitor-widget",
-    "alias": "campaignmonitor",
-    "name": "Campaign Monitor Widget",
-    "builtwith_name": "Campaign Monitor Widget"
-  },
-  {
-    "id": "crazyegg",
-    "alias": "crazy-egg",
-    "name": "CrazyEgg",
-    "builtwith_name": "CrazyEgg"
-  },
-  {
-    "id": "debian-lennny",
-    "alias": "debian",
-    "name": "Debian Lennny",
-    "builtwith_name": "Debian Lennny"
-  },
-  {
-    "id": "dnn-software",
-    "alias": "dnn",
-    "name": "DNN Software",
-    "builtwith_name": "DNN Software"
-  },
-  {
-    "id": "dojo-toolkit",
-    "alias": "dojo",
-    "name": "Dojo Toolkit",
-    "builtwith_name": "Dojo Toolkit"
-  },
-  {
-    "id": "drupal-7",
-    "alias": "drupal",
-    "name": "Drupal 7",
-    "builtwith_name": "Drupal 7"
-  },
-  {
-    "id": "drupal-8",
-    "alias": "drupal",
-    "name": "Drupal 8",
-    "builtwith_name": "Drupal 8"
-  },
-  {
-    "id": "facebook-badge",
-    "alias": "facebook",
-    "name": "Facebook Badge",
-    "builtwith_name": "Facebook Badge"
-  },
-  {
-    "id": "facebook-for-websites",
-    "alias": "facebook",
-    "name": "Facebook for Websites",
-    "builtwith_name": "Facebook for Websites"
-  },
-  {
-    "id": "facebook-like",
-    "alias": "facebook",
-    "name": "Facebook Like",
-    "builtwith_name": "Facebook Like"
-  },
-  {
-    "id": "facebook-like-box",
-    "alias": "facebook",
-    "name": "Facebook Like Box",
-    "builtwith_name": "Facebook Like Box"
-  },
-  {
-    "id": "facebook-like-button",
-    "alias": "facebook",
-    "name": "Facebook Like Button",
-    "builtwith_name": "Facebook Like Button"
-  },
-  {
-    "id": "facebook-pixel-view-content",
-    "alias": "facebook",
-    "name": "Facebook Pixel View Content",
-    "builtwith_name": "Facebook Pixel View Content"
-  },
-  {
-    "id": "flash-object",
-    "alias": "flash",
-    "name": "Flash Object",
-    "builtwith_name": "Flash Object"
-  },
-  {
-    "id": "frontpage-extensions",
-    "alias": "frontpage",
-    "name": "Frontpage Extensions",
-    "builtwith_name": "Frontpage Extensions"
-  },
-  {
-    "id": "frontpage-proprietary-tags",
-    "alias": "frontpage",
-    "name": "Frontpage Proprietary Tags",
-    "builtwith_name": "Frontpage Proprietary Tags"
-  },
-  {
-    "id": "gatsby-js",
-    "alias": "gatsby",
-    "name": "Gatsby JS",
-    "builtwith_name": "Gatsby JS"
-  },
-  {
-    "id": "golive-javascript",
-    "alias": "adobe-golive",
-    "name": "GoLive Javascript",
-    "builtwith_name": "GoLive Javascript"
-  },
-  {
-    "id": "google-analytics-anonymize-ip",
-    "alias": "google-analytics",
-    "name": "Google Analytics Anonymize IP",
-    "builtwith_name": "Google Analytics Anonymize IP"
-  },
-  {
-    "id": "google-analytics-classic",
-    "alias": "google-analytics",
-    "name": "Google Analytics Classic",
-    "builtwith_name": "Google Analytics Classic"
-  },
-  {
-    "id": "google-analytics-dashboard-for-wordpress",
-    "alias": "google-analytics",
-    "name": "Google Analytics Dashboard for WordPress",
-    "builtwith_name": "Google Analytics Dashboard for WordPress"
-  },
-  {
-    "id": "google-analytics-enhanced-link-attribution",
-    "alias": "google-analytics",
-    "name": "Google Analytics Enhanced Link Attribution",
-    "builtwith_name": "Google Analytics Enhanced Link Attribution"
-  },
-  {
-    "id": "google-analytics-event-tracking",
-    "alias": "google-analytics",
-    "name": "Google Analytics Event Tracking",
-    "builtwith_name": "Google Analytics Event Tracking"
-  },
-  {
-    "id": "google-analytics-forced-ssl",
-    "alias": "google-analytics",
-    "name": "Google Analytics Forced SSL",
-    "builtwith_name": "Google Analytics Forced SSL"
-  },
-  {
-    "id": "google-analytics-ip-anonymization",
-    "alias": "google-analytics",
-    "name": "Google Analytics IP Anonymization",
-    "builtwith_name": "Google Analytics IP Anonymization"
-  },
-  {
-    "id": "google-analytics-multiple-trackers",
-    "alias": "google-analytics",
-    "name": "Google Analytics Multiple Trackers",
-    "builtwith_name": "Google Analytics Multiple Trackers"
-  },
-  {
-    "id": "google-analytics-with-ad-tracking",
-    "alias": "google-analytics",
-    "name": "Google Analytics with Ad Tracking",
-    "builtwith_name": "Google Analytics with Ad Tracking"
-  },
-  {
-    "id": "google-hosted-jquery",
-    "alias": "jquery",
-    "name": "Google Hosted jQuery",
-    "builtwith_name": "Google Hosted jQuery"
-  },
-  {
-    "id": "google-hosted-jquery-ui",
-    "alias": "jquery-ui",
-    "name": "Google Hosted jQuery UI",
-    "builtwith_name": "Google Hosted jQuery UI"
-  },
-  {
-    "id": "google-hosted-swfobject",
-    "alias": "flash",
-    "name": "Google Hosted SWFObject",
-    "builtwith_name": "Google Hosted SWFObject"
-  },
-  {
-    "id": "google-maps-api",
-    "alias": "google-maps",
-    "name": "Google Maps API",
-    "builtwith_name": "Google Maps API"
-  },
-  {
-    "id": "google-maps-for-work",
-    "alias": "google-maps",
-    "name": "Google Maps for Work",
-    "builtwith_name": "Google Maps for Work"
-  },
-  {
-    "id": "google-translate-widget",
-    "alias": "google-translate",
-    "name": "Google Translate Widget",
-    "builtwith_name": "Google Translate Widget"
-  },
-  {
-    "id": "google-universal-analytics",
-    "alias": "google-analytics",
-    "name": "Google Universal Analytics",
-    "builtwith_name": "Google Universal Analytics"
-  },
-  {
-    "id": "html-4-01-transitional-dtd",
-    "alias": "html4",
-    "name": "HTML 4.01 Transitional DTD",
-    "builtwith_name": "HTML 4.01 Transitional DTD"
-  },
-  {
-    "id": "html-5-specific-tags",
-    "alias": "html5",
-    "name": "HTML 5 Specific Tags",
-    "builtwith_name": "HTML 5 Specific Tags"
-  },
-  {
-    "id": "html-5-video-audio-tags",
-    "alias": "html5",
-    "name": "HTML 5 Video Audio Tags",
-    "builtwith_name": "HTML 5 Video Audio Tags"
-  },
-  {
-    "id": "html5-history-api",
-    "alias": "html5",
-    "name": "HTML5 History API",
-    "builtwith_name": "HTML5 History API"
-  },
-  {
-    "id": "iis-10",
-    "alias": "iis",
-    "name": "IIS 10",
-    "builtwith_name": "IIS 10"
-  },
-  {
-    "id": "iis-3",
-    "alias": "iis",
-    "name": "IIS 3",
-    "builtwith_name": "IIS 3"
-  },
-  {
-    "id": "iis-4",
-    "alias": "iis",
-    "name": "IIS 4",
-    "builtwith_name": "IIS 4"
-  },
-  {
-    "id": "iis-5",
-    "alias": "iis",
-    "name": "IIS 5",
-    "builtwith_name": "IIS 5"
-  },
-  {
-    "id": "iis-6",
-    "alias": "iis",
-    "name": "IIS 6",
-    "builtwith_name": "IIS 6"
-  },
-  {
-    "id": "iis-7",
-    "alias": "iis",
-    "name": "IIS 7",
-    "builtwith_name": "IIS 7"
-  },
-  {
-    "id": "iis-8",
-    "alias": "iis",
-    "name": "IIS 8",
-    "builtwith_name": "IIS 8"
-  },
-  {
-    "id": "java-ee",
-    "alias": "java",
-    "name": "Java EE",
-    "builtwith_name": "Java EE"
-  },
-  {
-    "id": "java-servlet",
-    "alias": "java",
-    "name": "Java Servlet",
-    "builtwith_name": "Java Servlet"
-  },
-  {
-    "id": "joomla-",
-    "alias": "joomla",
-    "name": "Joomla!",
-    "builtwith_name": "Joomla!"
-  },
-  {
-    "id": "jquery-1-10-0",
-    "alias": "jquery",
-    "name": "jQuery 1.10.0",
-    "builtwith_name": "jQuery 1.10.0"
-  },
-  {
-    "id": "jquery-1-10-1",
-    "alias": "jquery",
-    "name": "jQuery 1.10.1",
-    "builtwith_name": "jQuery 1.10.1"
-  },
-  {
-    "id": "jquery-1-10-2",
-    "alias": "jquery",
-    "name": "jQuery 1.10.2",
-    "builtwith_name": "jQuery 1.10.2"
-  },
-  {
-    "id": "jquery-1-11-0",
-    "alias": "jquery",
-    "name": "jQuery 1.11.0",
-    "builtwith_name": "jQuery 1.11.0"
-  },
-  {
-    "id": "jquery-1-11-1",
-    "alias": "jquery",
-    "name": "jQuery 1.11.1",
-    "builtwith_name": "jQuery 1.11.1"
-  },
-  {
-    "id": "jquery-1-11-2",
-    "alias": "jquery",
-    "name": "jQuery 1.11.2",
-    "builtwith_name": "jQuery 1.11.2"
-  },
-  {
-    "id": "jquery-1-11-3",
-    "alias": "jquery",
-    "name": "jQuery 1.11.3",
-    "builtwith_name": "jQuery 1.11.3"
-  },
-  {
-    "id": "jquery-1-12-0",
-    "alias": "jquery",
-    "name": "jQuery 1.12.0",
-    "builtwith_name": "jQuery 1.12.0"
-  },
-  {
-    "id": "jquery-1-12-3",
-    "alias": "jquery",
-    "name": "jQuery 1.12.3",
-    "builtwith_name": "jQuery 1.12.3"
-  },
-  {
-    "id": "jquery-1-12-4",
-    "alias": "jquery",
-    "name": "jQuery 1.12.4",
-    "builtwith_name": "jQuery 1.12.4"
-  },
-  {
-    "id": "jquery-1-2-6",
-    "alias": "jquery",
-    "name": "jQuery 1.2.6",
-    "builtwith_name": "jQuery 1.2.6"
-  },
-  {
-    "id": "jquery-1-3-1",
-    "alias": "jquery",
-    "name": "jQuery 1.3.1",
-    "builtwith_name": "jQuery 1.3.1"
-  },
-  {
-    "id": "jquery-1-3-2",
-    "alias": "jquery",
-    "name": "jQuery 1.3.2",
-    "builtwith_name": "jQuery 1.3.2"
-  },
-  {
-    "id": "jquery-1-4",
-    "alias": "jquery",
-    "name": "jQuery 1.4",
-    "builtwith_name": "jQuery 1.4"
-  },
-  {
-    "id": "jquery-1-4-2",
-    "alias": "jquery",
-    "name": "jQuery 1.4.2",
-    "builtwith_name": "jQuery 1.4.2"
-  },
-  {
-    "id": "jquery-1-4-3",
-    "alias": "jquery",
-    "name": "jQuery 1.4.3",
-    "builtwith_name": "jQuery 1.4.3"
-  },
-  {
-    "id": "jquery-1-4-4",
-    "alias": "jquery",
-    "name": "jQuery 1.4.4",
-    "builtwith_name": "jQuery 1.4.4"
-  },
-  {
-    "id": "jquery-1-5-1",
-    "alias": "jquery",
-    "name": "jQuery 1.5.1",
-    "builtwith_name": "jQuery 1.5.1"
-  },
-  {
-    "id": "jquery-1-5-2",
-    "alias": "jquery",
-    "name": "jQuery 1.5.2",
-    "builtwith_name": "jQuery 1.5.2"
-  },
-  {
-    "id": "jquery-1-6",
-    "alias": "jquery",
-    "name": "jQuery 1.6",
-    "builtwith_name": "jQuery 1.6"
-  },
-  {
-    "id": "jquery-1-6-2",
-    "alias": "jquery",
-    "name": "jQuery 1.6.2",
-    "builtwith_name": "jQuery 1.6.2"
-  },
-  {
-    "id": "jquery-1-6-3",
-    "alias": "jquery",
-    "name": "jQuery 1.6.3",
-    "builtwith_name": "jQuery 1.6.3"
-  },
-  {
-    "id": "jquery-1-6-4",
-    "alias": "jquery",
-    "name": "jQuery 1.6.4",
-    "builtwith_name": "jQuery 1.6.4"
-  },
-  {
-    "id": "jquery-1-7",
-    "alias": "jquery",
-    "name": "jQuery 1.7",
-    "builtwith_name": "jQuery 1.7"
-  },
-  {
-    "id": "jquery-1-7-0",
-    "alias": "jquery",
-    "name": "jQuery 1.7.0",
-    "builtwith_name": "jQuery 1.7.0"
-  },
-  {
-    "id": "jquery-1-7-1",
-    "alias": "jquery",
-    "name": "jQuery 1.7.1",
-    "builtwith_name": "jQuery 1.7.1"
-  },
-  {
-    "id": "jquery-1-7-2",
-    "alias": "jquery",
-    "name": "jQuery 1.7.2",
-    "builtwith_name": "jQuery 1.7.2"
-  },
-  {
-    "id": "jquery-1-8-0",
-    "alias": "jquery",
-    "name": "jQuery 1.8.0",
-    "builtwith_name": "jQuery 1.8.0"
-  },
-  {
-    "id": "jquery-1-8-1",
-    "alias": "jquery",
-    "name": "jQuery 1.8.1",
-    "builtwith_name": "jQuery 1.8.1"
-  },
-  {
-    "id": "jquery-1-8-2",
-    "alias": "jquery",
-    "name": "jQuery 1.8.2",
-    "builtwith_name": "jQuery 1.8.2"
-  },
-  {
-    "id": "jquery-1-8-3",
-    "alias": "jquery",
-    "name": "jQuery 1.8.3",
-    "builtwith_name": "jQuery 1.8.3"
-  },
-  {
-    "id": "jquery-1-9-0",
-    "alias": "jquery",
-    "name": "jQuery 1.9.0",
-    "builtwith_name": "jQuery 1.9.0"
-  },
-  {
-    "id": "jquery-1-9-1",
-    "alias": "jquery",
-    "name": "jQuery 1.9.1",
-    "builtwith_name": "jQuery 1.9.1"
-  },
-  {
-    "id": "jquery-2-1-0",
-    "alias": "jquery",
-    "name": "jQuery 2.1.0",
-    "builtwith_name": "jQuery 2.1.0"
-  },
-  {
-    "id": "jquery-2-1-1",
-    "alias": "jquery",
-    "name": "jQuery 2.1.1",
-    "builtwith_name": "jQuery 2.1.1"
-  },
-  {
-    "id": "jquery-2-1-3",
-    "alias": "jquery",
-    "name": "jQuery 2.1.3",
-    "builtwith_name": "jQuery 2.1.3"
-  },
-  {
-    "id": "jquery-2-1-4",
-    "alias": "jquery",
-    "name": "jQuery 2.1.4",
-    "builtwith_name": "jQuery 2.1.4"
-  },
-  {
-    "id": "jquery-2-2-0",
-    "alias": "jquery",
-    "name": "jQuery 2.2.0",
-    "builtwith_name": "jQuery 2.2.0"
-  },
-  {
-    "id": "jquery-3-1-0",
-    "alias": "jquery",
-    "name": "jQuery 3.1.0",
-    "builtwith_name": "jQuery 3.1.0"
-  },
-  {
-    "id": "jquery-3-1-1",
-    "alias": "jquery",
-    "name": "jQuery 3.1.1",
-    "builtwith_name": "jQuery 3.1.1"
-  },
-  {
-    "id": "jquery-3-2-1",
-    "alias": "jquery",
-    "name": "jQuery 3.2.1",
-    "builtwith_name": "jQuery 3.2.1"
-  },
-  {
-    "id": "jquery-3-3-1",
-    "alias": "jquery",
-    "name": "jQuery 3.3.1",
-    "builtwith_name": "jQuery 3.3.1"
-  },
-  {
-    "id": "jquery-3-4-1",
-    "alias": "jquery",
-    "name": "jQuery 3.4.1",
-    "builtwith_name": "jQuery 3.4.1"
-  },
-  {
-    "id": "jquery-3-5-1",
-    "alias": "jquery",
-    "name": "jQuery 3.5.1",
-    "builtwith_name": "jQuery 3.5.1"
-  },
-  {
-    "id": "microsoft-azure-blob-storage",
-    "alias": "microsoft-azure",
-    "name": "Microsoft Azure Blob Storage",
-    "builtwith_name": "Microsoft Azure Blob Storage"
-  },
-  {
-    "id": "mod_ssl-2-0-63",
-    "alias": "mod_ssl",
-    "name": "mod_ssl 2.0.63",
-    "builtwith_name": "mod_ssl 2.0.63"
-  },
-  {
-    "id": "mod_ssl-2-2-10",
-    "alias": "mod_ssl",
-    "name": "mod_ssl 2.2.10",
-    "builtwith_name": "mod_ssl 2.2.10"
-  },
-  {
-    "id": "mod_ssl-2-2-11",
-    "alias": "mod_ssl",
-    "name": "mod_ssl 2.2.11",
-    "builtwith_name": "mod_ssl 2.2.11"
-  },
-  {
-    "id": "mod_ssl-2-2-14",
-    "alias": "mod_ssl",
-    "name": "mod_ssl 2.2.14",
-    "builtwith_name": "mod_ssl 2.2.14"
-  },
-  {
-    "id": "mod_ssl-2-2-15",
-    "alias": "mod_ssl",
-    "name": "mod_ssl 2.2.15",
-    "builtwith_name": "mod_ssl 2.2.15"
-  },
-  {
-    "id": "mod_ssl-2-2-19",
-    "alias": "mod_ssl",
-    "name": "mod_ssl 2.2.19",
-    "builtwith_name": "mod_ssl 2.2.19"
-  },
-  {
-    "id": "mod_ssl-2-2-21",
-    "alias": "mod_ssl",
-    "name": "mod_ssl 2.2.21",
-    "builtwith_name": "mod_ssl 2.2.21"
-  },
-  {
-    "id": "mod_ssl-2-2-22",
-    "alias": "mod_ssl",
-    "name": "mod_ssl 2.2.22",
-    "builtwith_name": "mod_ssl 2.2.22"
-  },
-  {
-    "id": "mod_ssl-2-2-24",
-    "alias": "mod_ssl",
-    "name": "mod_ssl 2.2.24",
-    "builtwith_name": "mod_ssl 2.2.24"
-  },
-  {
-    "id": "mod_ssl-2-2-25",
-    "alias": "mod_ssl",
-    "name": "mod_ssl 2.2.25",
-    "builtwith_name": "mod_ssl 2.2.25"
-  },
-  {
-    "id": "mod_ssl-2-2-3",
-    "alias": "mod_ssl",
-    "name": "mod_ssl 2.2.3",
-    "builtwith_name": "mod_ssl 2.2.3"
-  },
-  {
-    "id": "mod_ssl-2-2-8",
-    "alias": "mod_ssl",
-    "name": "mod_ssl 2.2.8",
-    "builtwith_name": "mod_ssl 2.2.8"
-  },
-  {
-    "id": "mod_ssl-2-2-9",
-    "alias": "mod_ssl",
-    "name": "mod_ssl 2.2.9",
-    "builtwith_name": "mod_ssl 2.2.9"
-  },
-  {
-    "id": "mod_ssl-2-8-22",
-    "alias": "mod_ssl",
-    "name": "mod_ssl 2.8.22",
-    "builtwith_name": "mod_ssl 2.8.22"
-  },
-  {
-    "id": "mod_ssl-2-8-28",
-    "alias": "mod_ssl",
-    "name": "mod_ssl 2.8.28",
-    "builtwith_name": "mod_ssl 2.8.28"
-  },
-  {
-    "id": "mod_ssl-2-8-31",
-    "alias": "mod_ssl",
-    "name": "mod_ssl 2.8.31",
-    "builtwith_name": "mod_ssl 2.8.31"
-  },
-  {
-    "id": "modernizr-1-6",
-    "alias": "modernizr",
-    "name": "Modernizr 1.6",
-    "builtwith_name": "Modernizr 1.6"
-  },
-  {
-    "id": "modernizr-1-7",
-    "alias": "modernizr",
-    "name": "Modernizr 1.7",
-    "builtwith_name": "Modernizr 1.7"
-  },
-  {
-    "id": "modernizr-2-0",
-    "alias": "modernizr",
-    "name": "Modernizr 2.0",
-    "builtwith_name": "Modernizr 2.0"
-  },
-  {
-    "id": "modernizr-2-5",
-    "alias": "modernizr",
-    "name": "Modernizr 2.5",
-    "builtwith_name": "Modernizr 2.5"
-  },
-  {
-    "id": "modernizr-2-6",
-    "alias": "modernizr",
-    "name": "Modernizr 2.6",
-    "builtwith_name": "Modernizr 2.6"
-  },
-  {
-    "id": "modernizr-2-8",
-    "alias": "modernizr",
-    "name": "Modernizr 2.8",
-    "builtwith_name": "Modernizr 2.8"
-  },
-  {
-    "id": "moment-js",
-    "alias": "moment-js",
-    "name": "Moment JS",
-    "builtwith_name": "Moment JS"
-  },
-  {
-    "id": "nginx-0-6",
-    "alias": "nginx",
-    "name": "nginx 0.6",
-    "builtwith_name": "nginx 0.6"
-  },
-  {
-    "id": "nginx-0-7",
-    "alias": "nginx",
-    "name": "nginx 0.7",
-    "builtwith_name": "nginx 0.7"
-  },
-  {
-    "id": "nginx-1-1",
-    "alias": "nginx",
-    "name": "nginx 1.1",
-    "builtwith_name": "nginx 1.1"
-  },
-  {
-    "id": "nginx-1-10",
-    "alias": "nginx",
-    "name": "nginx 1.10",
-    "builtwith_name": "nginx 1.10"
-  },
-  {
-    "id": "nginx-1-12",
-    "alias": "nginx",
-    "name": "Nginx 1.12",
-    "builtwith_name": "Nginx 1.12"
-  },
-  {
-    "id": "nginx-1-14",
-    "alias": "nginx",
-    "name": "Nginx 1.14",
-    "builtwith_name": "Nginx 1.14"
-  },
-  {
-    "id": "nginx-1-15",
-    "alias": "nginx",
-    "name": "Nginx 1.15",
-    "builtwith_name": "Nginx 1.15"
-  },
-  {
-    "id": "nginx-1-16",
-    "alias": "nginx",
-    "name": "Nginx 1.16",
-    "builtwith_name": "Nginx 1.16"
-  },
-  {
-    "id": "nginx-1-17",
-    "alias": "nginx",
-    "name": "Nginx 1.17",
-    "builtwith_name": "Nginx 1.17"
-  },
-  {
-    "id": "nginx-1-4",
-    "alias": "nginx",
-    "name": "nginx 1.4",
-    "builtwith_name": "nginx 1.4"
-  },
-  {
-    "id": "nginx-1-6",
-    "alias": "nginx",
-    "name": "nginx 1.6",
-    "builtwith_name": "nginx 1.6"
-  },
-  {
-    "id": "openssl-0-9-6",
-    "alias": "openssl",
-    "name": "OpenSSL 0.9.6",
-    "builtwith_name": "OpenSSL 0.9.6"
-  },
-  {
-    "id": "openssl-0-9-7",
-    "alias": "openssl",
-    "name": "OpenSSL 0.9.7",
-    "builtwith_name": "OpenSSL 0.9.7"
-  },
-  {
-    "id": "openssl-0-9-8",
-    "alias": "openssl",
-    "name": "OpenSSL 0.9.8",
-    "builtwith_name": "OpenSSL 0.9.8"
-  },
-  {
-    "id": "openssl-1-0-0",
-    "alias": "openssl",
-    "name": "OpenSSL 1.0.0",
-    "builtwith_name": "OpenSSL 1.0.0"
-  },
-  {
-    "id": "openssl-1-0-1",
-    "alias": "openssl",
-    "name": "OpenSSL 1.0.1",
-    "builtwith_name": "OpenSSL 1.0.1"
-  },
-  {
-    "id": "php-7",
-    "alias": "php",
-    "name": "PHP 7",
-    "builtwith_name": "PHP 7"
-  },
-  {
-    "id": "phpmyvisites",
-    "alias": "php-my-visits",
-    "name": "phpMyVisites",
-    "builtwith_name": "phpMyVisites"
-  },
-  {
-    "id": "polyfill-io",
-    "alias": "polyfill",
-    "name": "Polyfill IO",
-    "builtwith_name": "Polyfill IO"
-  },
-  {
-    "id": "popper-js",
-    "alias": "popper",
-    "name": "Popper.js",
-    "builtwith_name": "Popper.js"
-  },
-  {
-    "id": "python-2-5",
-    "alias": "python",
-    "name": "Python 2.5",
-    "builtwith_name": "Python 2.5"
-  },
-  {
-    "id": "python-2-6",
-    "alias": "python",
-    "name": "Python 2.6",
-    "builtwith_name": "Python 2.6"
-  },
-  {
-    "id": "python-2-7",
-    "alias": "python",
-    "name": "Python 2.7",
-    "builtwith_name": "Python 2.7"
-  },
-  {
-    "id": "python-3-3",
-    "alias": "python",
-    "name": "Python 3.3",
-    "builtwith_name": "Python 3.3"
-  },
-  {
-    "id": "qualtrics-site-intercept",
-    "alias": "qualtrics",
-    "name": "Qualtrics Site Intercept",
-    "builtwith_name": "Qualtrics Site Intercept"
-  },
-  {
-    "id": "recaptcha-v2",
-    "alias": "recaptcha",
-    "name": "reCAPTCHA v2",
-    "builtwith_name": "reCAPTCHA v2"
-  },
-  {
-    "id": "resin-3-1",
-    "alias": "resin",
-    "name": "Resin 3.1",
-    "builtwith_name": "Resin 3.1"
-  },
-  {
-    "id": "ruby-on-rails-token",
-    "alias": "ruby-on-rails",
-    "name": "Ruby on Rails Token",
-    "builtwith_name": "Ruby on Rails Token"
-  },
-  {
-    "id": "shockwave-flash-embed",
-    "alias": "flash",
-    "name": "Shockwave Flash Embed",
-    "builtwith_name": "Shockwave Flash Embed"
-  },
-  {
-    "id": "slick-js",
-    "alias": "slick",
-    "name": "Slick JS",
-    "builtwith_name": "Slick JS"
-  },
-  {
-    "id": "ssl-google-analytics",
-    "alias": "google-analytics",
-    "name": "SSL Google Analytics",
-    "builtwith_name": "SSL Google Analytics"
-  },
-  {
-    "id": "stripe-v3",
-    "alias": "stripe",
-    "name": "Stripe v3",
-    "builtwith_name": "Stripe v3"
-  },
-  {
-    "id": "sun-java-system",
-    "alias": "java",
-    "name": "Sun Java System",
-    "builtwith_name": "Sun Java System"
-  },
-  {
-    "id": "sun-one-web-server-v6-1",
-    "alias": "sun-one",
-    "name": "Sun ONE Web Server v6.1",
-    "builtwith_name": "Sun ONE Web Server v6.1"
-  },
-  {
-    "id": "twitter-bootstrap",
-    "alias": "bootstrap",
-    "name": "Twitter Bootstrap",
-    "builtwith_name": "Twitter Bootstrap"
-  },
-  {
-    "id": "varnish-5-x",
-    "alias": "varnish",
-    "name": "Varnish 5.x",
-    "builtwith_name": "Varnish 5.x"
-  },
-  {
-    "id": "vue",
-    "alias": "vue-js",
-    "name": "Vue",
-    "builtwith_name": "Vue"
-  },
-  {
-    "id": "wordpress-2-5",
-    "alias": "wordpress",
-    "name": "WordPress 2.5",
-    "builtwith_name": "WordPress 2.5"
-  },
-  {
-    "id": "wordpress-2-8",
-    "alias": "wordpress",
-    "name": "WordPress 2.8",
-    "builtwith_name": "WordPress 2.8"
-  },
-  {
-    "id": "wordpress-3-3",
-    "alias": "wordpress",
-    "name": "WordPress 3.3",
-    "builtwith_name": "WordPress 3.3"
-  },
-  {
-    "id": "wordpress-3-5",
-    "alias": "wordpress",
-    "name": "WordPress 3.5",
-    "builtwith_name": "WordPress 3.5"
-  },
-  {
-    "id": "wordpress-3-6",
-    "alias": "wordpress",
-    "name": "WordPress 3.6",
-    "builtwith_name": "WordPress 3.6"
-  },
-  {
-    "id": "wordpress-3-9",
-    "alias": "wordpress",
-    "name": "Wordpress 3.9",
-    "builtwith_name": "Wordpress 3.9"
-  },
-  {
-    "id": "wordpress-4-0",
-    "alias": "wordpress",
-    "name": "WordPress 4.0",
-    "builtwith_name": "WordPress 4.0"
-  },
-  {
-    "id": "wordpress-4-1",
-    "alias": "wordpress",
-    "name": "Wordpress 4.1",
-    "builtwith_name": "Wordpress 4.1"
-  },
-  {
-    "id": "wordpress-4-7",
-    "alias": "wordpress",
-    "name": "Wordpress 4.7",
-    "builtwith_name": "Wordpress 4.7"
-  },
-  {
-    "id": "wordpress-4-8",
-    "alias": "wordpress",
-    "name": "Wordpress 4.8",
-    "builtwith_name": "Wordpress 4.8"
-  },
-  {
-    "id": "wordpress-4-9",
-    "alias": "wordpress",
-    "name": "Wordpress 4.9",
-    "builtwith_name": "Wordpress 4.9"
-  },
-  {
-    "id": "wordpress-5-0",
-    "alias": "wordpress",
-    "name": "Wordpress 5.0",
-    "builtwith_name": "Wordpress 5.0"
-  },
-  {
-    "id": "wordpress-5-2",
-    "alias": "wordpress",
-    "name": "WordPress 5.2",
-    "builtwith_name": "WordPress 5.2"
-  },
-  {
-    "id": "wordpress-5-3",
-    "alias": "wordpress",
-    "name": "WordPress 5.3",
-    "builtwith_name": "WordPress 5.3"
-  },
-  {
-    "id": "wordpress-5-4",
-    "alias": "wordpress",
-    "name": "WordPress 5.4",
-    "builtwith_name": "WordPress 5.4"
-  },
-  {
-    "id": "wordpress-5-5",
-    "alias": "wordpress",
-    "name": "WordPress 5.5",
-    "builtwith_name": "WordPress 5.5"
-  },
-  {
-    "id": "wordpress-5-6",
-    "alias": "wordpress",
-    "name": "WordPress 5.6",
-    "builtwith_name": "WordPress 5.6"
-  },
-  {
-    "id": "wow-slider",
-    "alias": "wow",
-    "name": "WOW Slider",
-    "builtwith_name": "WOW Slider"
-  },
-  {
-    "id": "wp-super-cache",
-    "alias": "wordpress-super-cache",
-    "name": "WP Super Cache",
-    "builtwith_name": "WP Super Cache"
-  },
-  {
-    "id": "xhtml-transitional",
-    "alias": "xhtml",
-    "name": "XHTML Transitional",
-    "builtwith_name": "XHTML Transitional"
-  },
-  {
-    "id": "xhtml-vocabulary",
-    "alias": "xhtml",
-    "name": "XHTML Vocabulary",
-    "builtwith_name": "XHTML Vocabulary"
-  },
-  {
-    "id": "yahoo-geocities-analytics",
-    "alias": "yahoo-analytics",
-    "name": "Yahoo Geocities Analytics",
-    "builtwith_name": "Yahoo Geocities Analytics"
-  },
-  {
-    "id": "yoast-google-analytics-for-wordpress",
-    "alias": "yahoo-analytics",
-    "name": "Yoast Google Analytics for WordPress",
-    "builtwith_name": "Yoast Google Analytics for WordPress"
-  },
-  {
-    "id": "yui3",
-    "alias": "yui",
-    "name": "YUI3",
-    "builtwith_name": "YUI3"
-  },
-  {
-    "id": "zoom-video-conferencing",
-    "alias": "zoom",
-    "name": "Zoom Video Conferencing",
-    "builtwith_name": "Zoom Video Conferencing"
-  },
-  {
-    "id": "google-analytics-enhanced-ecommerce",
-    "alias": "google-analytics",
-    "name": "Google Analytics Enhanced eCommerce",
-    "wappalyzer_name": "Google Analytics Enhanced eCommerce"
-  },
-  {
-    "id": "moment-timezone",
-    "alias": "moment-js",
-    "name": "Moment Timezone",
-    "wappalyzer_name": "Moment Timezone"
-  },
-  {
-    "id": "typo3-cms",
-    "alias": "typo3",
-    "name": "TYPO3 CMS",
-    "wappalyzer_name": "TYPO3 CMS"
-  },
-  {
-    "id": "yui",
-    "alias": "yui",
-    "name": "YUI",
-    "wappalyzer_name": "YUI"
   }
 ]

@@ -76,14 +76,17 @@ export default {
         </ul>
       </div>
 
-      <div v-if="node.snapshot">
+      <div
+        v-if="
+          node.snapshot &&
+          node.snapshot.technologies &&
+          node.snapshot.technologies.length
+        "
+      >
         <span class="fs-6 fw-semibold">Technologies</span>
         <ul>
-
-          <p></p>
-
-          <li v-for="tech in node.snapshot.technologies" :key="tech">
-            {{ tech }}
+          <li v-for="tech in node.snapshot.technologies" :key="tech.id">
+            {{ tech.name }}
           </li>
         </ul>
       </div>
@@ -103,9 +106,6 @@ export default {
         </div>
         <!-- <small class="text-muted">9 mins</small> -->
       </div>
-
-      
-
     </div>
   </div>
 </template>
