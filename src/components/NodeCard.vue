@@ -54,6 +54,8 @@ export default {
         <p v-if="node.parents && node.parents.length">
           {{ node.parents[0].name }}
         </p>
+
+        <p>Chicago IL, USA</p>
       </div>
 
       <div v-if="node.categories">
@@ -74,6 +76,18 @@ export default {
         </ul>
       </div>
 
+      <div v-if="node.snapshot">
+        <span class="fs-6 fw-semibold">Technologies</span>
+        <ul>
+
+          <p></p>
+
+          <li v-for="tech in node.snapshot.technologies" :key="tech">
+            {{ tech }}
+          </li>
+        </ul>
+      </div>
+
       <div class="text-end">
         <div class="btn-group">
           <router-link
@@ -89,6 +103,9 @@ export default {
         </div>
         <!-- <small class="text-muted">9 mins</small> -->
       </div>
+
+      
+
     </div>
   </div>
 </template>

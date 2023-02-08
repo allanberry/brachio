@@ -16,6 +16,7 @@ import api_ipeds from "./datafiles/ipeds.json";
 import api_locations from "./datafiles/locations.json";
 // import api_nodes from "./datafiles/nodes.json";
 import api_urls from "./datafiles/urls.json";
+import api_technologies from "./datafiles/technologies.json";
 
 class Visit {
   constructor(apiVisit) {
@@ -404,9 +405,63 @@ class Snapshot {
         img: thumbnail_url(visits_sorted[0].id),
         alt: "This is a screenshot thumbnail of a webpage visit.",
       };
-    }
 
-    this.technologies;
+      // put all builtwith techs into a single array
+      const techs_builtwith = [
+        ...new Set(
+          visits.reduce(
+            (acc1, visit) =>
+              visit.analysis.builtwith
+                ? acc1.concat(
+                    visit.analysis.builtwith.response.data.Results.reduce(
+                      (acc2, result) =>
+                        acc2.concat(
+                          result.Result.Paths.reduce(
+                            (acc3, path) =>
+                              acc3.concat(
+                                path.Technologies.reduce(
+                                  (acc4, tech) => acc4.concat(tech.Name),
+                                  []
+                                )
+                              ),
+                            []
+                          )
+                        ),
+                      []
+                    )
+                  )
+                : acc1,
+            []
+          )
+        ),
+      ].sort((a, b) => a > b);
+
+      const techs_wappalyzer = [
+        ...new Set(
+          visits.reduce(
+            (acc1, visit) =>
+              visit.analysis.wappalyzer
+                ? acc1.concat(
+                    visit.analysis.wappalyzer.data.technologies.reduce(
+                      (acc2, tech) => acc2.concat(tech.name),
+                      []
+                    )
+                  )
+                : acc1,
+            []
+          )
+        ),
+      ].sort((a, b) => a > b);
+
+      // const techs_wappalyzer;
+
+      // console.log({ techs_builtwith, techs_wappalyzer, api_technologies });
+      console.log(
+        api_technologies.filter((tech) => {
+          return tech.builtwith;
+        })
+      );
+    }
   }
 }
 

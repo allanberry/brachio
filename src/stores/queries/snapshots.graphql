@@ -1,5 +1,5 @@
-query getSnapshots($urls: [String!])  {
-  visits(query: {url_in: $urls}) {
+query getSnapshots($urls: [String!]) {
+  visits(query: { url_in: $urls }) {
     id
     url
     rendered {
@@ -7,6 +7,30 @@ query getSnapshots($urls: [String!])  {
     }
     wayback {
       date_available
+    }
+    analysis {
+      builtwith {
+        response {
+          data {
+            Results {
+              Result {
+                Paths {
+                  Technologies {
+                    Name
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      wappalyzer {
+        data {
+          technologies {
+            name
+          }
+        }
+      }
     }
   }
 }

@@ -106,6 +106,30 @@ export default {
                   class="link-dark d-inline-flex text-decoration-none rounded"
                   >Libraries</a
                 >
+
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >a</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >b</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="link-dark d-inline-flex text-decoration-none rounded"
+                      >c</a
+                    >
+                  </li>
+                </ul>
               </li>
               <li>
                 <a
@@ -155,6 +179,42 @@ export default {
                   href="#"
                   class="link-dark d-inline-flex text-decoration-none rounded"
                   >Ivy League</a
+                >
+              </li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="mb-3" id="sidebar_facets_tags">
+          <button
+            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+            data-bs-toggle="collapse"
+            data-bs-target="#tags-collapse"
+            aria-expanded="true"
+          >
+            Technologies
+          </button>
+          <div class="collapse show" id="tags-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li>
+                <a
+                  href="#"
+                  class="link-dark d-inline-flex text-decoration-none rounded"
+                  >WordPress</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="link-dark d-inline-flex text-decoration-none rounded"
+                  >Drupal</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="link-dark d-inline-flex text-decoration-none rounded"
+                  >Primo VE</a
                 >
               </li>
             </ul>

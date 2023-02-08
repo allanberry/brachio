@@ -41,6 +41,7 @@ export const useBrachioStore = defineStore("brachioStore", {
 
           // keyword filter
           .filter((node) => {
+
             return node.search_target.includes(indexify(this.filters.keyword));
           })
 
@@ -61,6 +62,9 @@ export const useBrachioStore = defineStore("brachioStore", {
           connections: api_connections.map(
             (api_connection) => new Connection(api_connection)
           ),
+          filters: {
+            keyword: "chicago"
+          }
         });
 
         // store parents and children in nodes

@@ -2,10 +2,13 @@ const fs = require("fs");
 const path = require("path");
 const csv = require("csvtojson");
 
+const source_dir = "./from_google";
+const save_dir = "../src/stores/datafiles";
+
 const filesets = [
   {
-    src: "./from_google/Brachio - arls.csv",
-    target: "./to_atlas/arls.json",
+    src: `${source_dir}/Brachio - arls.csv`,
+    target: `${save_dir}/arls.json`,
     rm_2nd_line: true,
     colParser: {
       branch: (item) => item == true,
@@ -58,14 +61,14 @@ const filesets = [
     },
   },
   {
-    src: "./from_google/Brachio - connections.csv",
-    target: "./to_atlas/connections.json",
+    src: `${source_dir}/Brachio - connections.csv`,
+    target: `${save_dir}/connections.json`,
     colParser: {},
   },
   {
-    src: "./from_google/Brachio - ipeds.csv",
+    src: `${source_dir}/Brachio - ipeds.csv`,
     rm_2nd_line: true,
-    target: "./to_atlas/ipeds.json",
+    target: `${save_dir}/ipeds.json`,
     colParser: {
       C15ENPRF_HD2017: "number",
       C15IPGRD_HD2017: "number",
@@ -101,29 +104,33 @@ const filesets = [
     },
   },
   {
-    src: "./from_google/Brachio - locations.csv",
-    target: "./to_atlas/locations.json",
+    src: `${source_dir}/Brachio - locations.csv`,
+    target: `${save_dir}/locations.json`,
     colParser: {
       latitude: "number",
       longitude: "number",
     },
   },
   {
-    src: "./from_google/Brachio - nodes.csv",
-    target: "./to_atlas/nodes.json",
+    src: `${source_dir}/Brachio - nodes.csv`,
+    target: `${save_dir}/nodes.json`,
     colParser: {
       categories: (item) => item.split(",").map((element) => element.trim()),
       tags: (item) => item.split(",").map((element) => element.trim()),
     },
   },
   {
-    src: "./from_google/Brachio - urls.csv",
-    target: "./to_atlas/urls.json",
+    src: `${source_dir}/Brachio - urls.csv`,
+    target: `${save_dir}/urls.json`,
     colParser: {
       rank: "number",
       label: "home",
       include: (item) => item === "TRUE",
     },
+  },
+  {
+    src: `${source_dir}/Brachio - technologies.csv`,
+    target: `${save_dir}/technologies.json`,
   },
 ];
 
