@@ -26,8 +26,8 @@ export const useBrachioStore = defineStore("brachioStore", {
 
     filters: {
       keyword: "",
-      categories: ["library", "academic"],
-      tags: ["arl", "carli", "gwla"],
+      // categories: ["library", "academic"],
+      // tags: ["arl", "carli", "gwla"],
     },
   }),
   getters: {
@@ -70,7 +70,7 @@ export const useBrachioStore = defineStore("brachioStore", {
             (api_connection) => new Connection(api_connection)
           ),
           filters: {
-            keyword: "chicago",
+            keyword: "uic_library",
           },
         });
 

@@ -336,7 +336,13 @@ class Node {
     this.type = apiNode.type;
 
     this.categories = apiNode.categories;
-    this.tags = apiNode.tags;
+
+    if (apiNode.tags) {
+      this.tags = api_tags.filter((api_tag) => {
+        return apiNode.tags.includes(api_tag.id);
+      });
+
+    }
 
     this.arl = api_arls.find((arl) => arl._id === apiNode.arl_id);
     this.ipeds = api_ipeds.find((ipeds) => ipeds._id === apiNode.iped_id);
@@ -402,6 +408,50 @@ class Snapshot {
     const visits_sorted = visits.sort((a, b) => a.id < b.id);
 
     if (visits && visits.length) {
+      this.visits = visits
+        .map((visit) => {
+          return {
+            wayback_date: visit.wayback
+              ? visit.wayback.date_available
+              : undefined,
+            wayback_url_raw: visit.wayback ? visit.wayback.url_raw : undefined,
+            wayback_url_rendered: visit.wayback
+              ? visit.wayback.url_rendered
+              : undefined,
+            lighthouse_accessibility:
+              visit.analysis.lighthouse &&
+              visit.analysis.lighthouse.data &&
+              visit.analysis.lighthouse.data.categories
+                ? visit.analysis.lighthouse.data.categories.accessibility.score
+                : undefined,
+            lighthouse_best_practices:
+              visit.analysis.lighthouse &&
+              visit.analysis.lighthouse.data &&
+              visit.analysis.lighthouse.data.categories
+                ? visit.analysis.lighthouse.data.categories.bestPractices.score
+                : undefined,
+            lighthouse_performance:
+              visit.analysis.lighthouse &&
+              visit.analysis.lighthouse.data &&
+              visit.analysis.lighthouse.data.categories
+                ? visit.analysis.lighthouse.data.categories.performance.score
+                : undefined,
+            js_maintainability:
+              visit.analysis.escomplex && visit.analysis.escomplex.data
+                ? visit.analysis.escomplex.data.maintainability
+                : undefined,
+            js_effort:
+              visit.analysis.escomplex && visit.analysis.escomplex.data
+                ? visit.analysis.escomplex.data.halstead.effort
+                : undefined,
+            js_difficulty:
+              visit.analysis.escomplex && visit.analysis.escomplex.data
+                ? visit.analysis.escomplex.data.halstead.difficulty
+                : undefined,
+          };
+        })
+        .sort((a, b) => a.wayback_date < b.wayback_date);
+
       this.thumbnail = {
         placeholder: false,
         img: thumbnail_url(visits_sorted[0].id),

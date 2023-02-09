@@ -77,11 +77,11 @@ export default {
             </ul>
           </div>
 
-          <div v-if="node.tags">
+          <div v-if="node.tags && node.tags.length">
             <h5>Tags</h5>
             <ul>
-              <li v-for="tag in node.tags" :key="tag">
-                {{ tag }}
+              <li v-for="tag in node.tags" :key="tag.id">
+                {{ tag.label }}
               </li>
             </ul>
           </div>
@@ -106,7 +106,7 @@ export default {
         <div class="col">
           <div>
             <h5>Webpage Visits</h5>
-            <p>14 visits to 3 webpages, 1998–2021</p>
+            <p>14 visits to 3 URLs, 1998–2021</p>
             <div class="url_visits">
               <div class="pb-2" v-if="primary_url">
                 <span>Primary URL:</span><br />
@@ -115,14 +115,41 @@ export default {
                 >
               </div>
 
-              <div>
+              <div v-if="node.snapshot && node.snapshot.visits">
                 <span>Latest visit:</span>
                 <ul>
-                  <li><span>Date:</span> <span>2021-01-01</span></li>
-                  <li><span>Complexity:</span> <span>98/100</span></li>
-                  <li><span>Accessibility:</span> <span>98/100</span></li>
-                  <li><span>Usability:</span> <span>98/100</span></li>
-                  <li><span>Best Practices:</span> <span>98/100</span></li>
+                  <li>
+                    <span>Date:</span>
+                    <span>{{ node.snapshot.visits[0].wayback_date }}</span>
+                  </li>
+                  <li>
+                    <span>Accessibility:</span>
+                    <span>{{
+                      node.snapshot.visits[0].lighthouse_accessibility
+                    }}</span>
+                  </li>
+                  <li>
+                    <span>Performance:</span>
+                    <span>{{
+                      node.snapshot.visits[0].lighthouse_performance
+                    }}</span>
+                  </li>
+                  <li>
+                    <span>Best Practices:</span>
+                    <span>{{
+                      node.snapshot.visits[0].lighthouse_best_practices
+                    }}</span>
+                  </li>
+                  <li>
+                    <span>Maintainability:</span>
+                    <span>{{
+                      node.snapshot.visits[0].js_maintainability
+                    }}</span>
+                  </li>
+                  <li>
+                    <span>Complexity:</span>
+                    <span>{{ node.snapshot.visits[0].js_effort }}</span>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -170,7 +197,7 @@ export default {
   // height: 100%;
   .card-img.img-thumbnail {
     padding: 0;
-  border-radius: unset;
+    border-radius: unset;
     // object-fit: cover;
     // object-position: left;
     margin-bottom: unset;

@@ -2,11 +2,13 @@ query getSnapshots($urls: [String!]) {
   visits(query: { url_in: $urls }) {
     id
     url
-    rendered {
-      screenshots
-    }
     wayback {
       date_available
+      url_raw
+      url_rendered
+    }
+    rendered {
+      screenshots
     }
     analysis {
       builtwith {
@@ -29,6 +31,33 @@ query getSnapshots($urls: [String!]) {
           technologies {
             name
           }
+        }
+      }
+      lighthouse {
+        data {
+          categories {
+            accessibility {
+              title
+              score
+            }
+            bestPractices {
+              title
+              score
+            }
+            performance {
+              title
+              score
+            }
+          }
+        }
+      }
+      escomplex {
+        data {
+          halstead {
+            effort
+						difficulty
+          }
+          maintainability
         }
       }
     }
