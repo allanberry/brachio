@@ -1,0 +1,110 @@
+[
+  {
+    "id": "college",
+    "label_full": "college",
+    "label_short": "college",
+    "description": "A college or university."
+  },
+  {
+    "id": "college_public",
+    "label_full": "college, public",
+    "label_short": "public",
+    "parent": "college",
+    "description": "A public college or university."
+  },
+  {
+    "id": "college_private",
+    "label_full": "college, private",
+    "label_short": "private",
+    "parent": "college",
+    "description": "A private college or university."
+  },
+  {
+    "id": "consortium",
+    "label_full": "consortium",
+    "label_short": "consortium",
+    "description": "An organization or collection of multiple organizations."
+  },
+  {
+    "id": "consortium_academic",
+    "label_full": "consortium, academic",
+    "label_short": "academic",
+    "parent": "consortium",
+    "description": "An organization or collection of multiple colleges or universities."
+  },
+  {
+    "id": "consortium_academic_library",
+    "label_full": "consortium, academic, library",
+    "label_short": "library",
+    "parent": "consortium",
+    "description": "An organization or collection of multiple college or university libraries."
+  },
+  {
+    "id": "library",
+    "label_full": "library",
+    "label_short": "library",
+    "description": "A library."
+  },
+  {
+    "id": "library_academic",
+    "label_full": "library, academic",
+    "label_short": "academic",
+    "parent": "library",
+    "description": "An academic library."
+  },
+  {
+    "id": "library_independent",
+    "label_full": "library, independent",
+    "label_short": "independent",
+    "parent": "library",
+    "description": "An independent library."
+  },
+  {
+    "id": "library_museum",
+    "label_full": "library, museum",
+    "label_short": "museum",
+    "parent": "library",
+    "description": "A library run by a museum."
+  },
+  {
+    "id": "library_public",
+    "label_full": "library, public",
+    "label_short": "public",
+    "parent": "library",
+    "description": "A library run by a local government for public access."
+  },
+  {
+    "id": "library_state",
+    "label_full": "library, state",
+    "label_short": "state",
+    "parent": "library",
+    "description": "A library run by a state government."
+  },
+  {
+    "id": "museum",
+    "label_full": "museum",
+    "label_short": "museum",
+    "description": "A museum."
+  },
+  {
+    "id": "museum_art",
+    "label_full": "museum, art",
+    "label_short": "art",
+    "parent": "museum",
+    "description": "An art museum."
+  },
+  {
+    "id": "museum_humanities",
+    "label_full": "museum, humanities",
+    "label_short": "humanities",
+    "parent": "museum",
+    "description": "A museum of the human experience, e.g. history."
+  },
+  {
+    "id": "museum_science",
+    "label_full": "museum, science",
+    "label_short": "science",
+    "parent": "museum",
+    "description": "A museum of the sciences."
+  }
+]

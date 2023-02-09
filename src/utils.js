@@ -32,7 +32,7 @@ function indexify(str) {
   });
 }
 
-// create iiif url
+// build iiif url
 function iiif_url(path, width = 500, height) {
   const path_encoded = encodeURIComponent(`brachio/visits/${path}`);
   return `https://vim9ip3utf.execute-api.us-west-1.amazonaws.com/latest/iiif/2/${path_encoded}/full/${width},${
@@ -40,8 +40,9 @@ function iiif_url(path, width = 500, height) {
   }/0/default.png`;
 }
 
+// build thumbnail url
 function thumbnail_url(visit_id) {
-  return `https://bcw-images.s3.us-west-1.amazonaws.com/brachio/visits/thumbnails/${visit_id}.png`;
+  return `https://bcw-images.s3.us-west-1.amazonaws.com/brachio/visits/1280x640/${visit_id}.png`;
 }
 
 export { indexify, atlas, iiif_url, thumbnail_url };

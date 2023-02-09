@@ -17,6 +17,8 @@ import api_locations from "./datafiles/locations.json";
 // import api_nodes from "./datafiles/nodes.json";
 import api_urls from "./datafiles/urls.json";
 import api_technologies from "./datafiles/technologies.json";
+import api_tags from "./datafiles/tags.json";
+import api_categories from "./datafiles/categories.json";
 
 class Visit {
   constructor(apiVisit) {
@@ -332,6 +334,7 @@ class Node {
     this._id = apiNode._id;
     this.name = apiNode.name;
     this.type = apiNode.type;
+
     this.categories = apiNode.categories;
     this.tags = apiNode.tags;
 

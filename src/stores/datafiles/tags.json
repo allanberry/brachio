@@ -1,0 +1,103 @@
+[
+  {
+    "id": "aau",
+    "label": "American Association of Universities",
+    "description": "The Association of American Universities (AAU) is an organization of American research universities devoted to maintaining a strong system of academic research and education.",
+    "url": "https://www.aau.edu/"
+  },
+  {
+    "id": "acc",
+    "label": "Atlantic Coast Conference",
+    "description": "The Atlantic Coast Conference (ACC) is a collegiate athletic conference located in the eastern United States. Headquartered in Greensboro, North Carolina, the ACC's fifteen member universities compete in the National Collegiate Athletic Association (NCAA)'s Division I.",
+    "url": "https://theacc.com/"
+  },
+  {
+    "id": "arl",
+    "label": "Association of Research Libraries",
+    "description": "The Association of Research Libraries (ARL) is a nonprofit organization of 127 research libraries at comprehensive, research institutions in Canada and the United States.",
+    "url": "https://www.arl.org/"
+  },
+  {
+    "id": "acrl",
+    "label": "Association of College and Research Libraries",
+    "description": "The Association of College and Research Libraries (ACRL), a division of the American Library Association, is a professional association of academic librarians and other interested individuals.",
+    "url": "https://www.acrl.org/"
+  },
+  {
+    "id": "alcts",
+    "label": "Association for Library Collections and Technical Services",
+    "description": "The Association for Library Collections and Technical Services (ALCTS) was a division of the American Library Association (ALA) dedicated to the areas of technical services (acquisitions, cataloging and classification, and continuing resources), collection management and development, and preservation and reformatting.",
+    "url": "https://www.ala.org/alcts/"
+  },
+  {
+    "id": "big_ten",
+    "label": "Big Ten Conference",
+    "description": "The Big Ten Conference (stylized B1G, formerly the Western Conference and the Big Nine Conference) is the oldest Division I collegiate athletic conference in the United States.",
+    "url": "https://bigten.org/"
+  },
+  {
+    "id": "carli",
+    "label": "Consortium of Academic and Research Libraries in Illinois",
+    "description": "The Consortium of Academic and Research Libraries in Illinois (CARLI) is an academic consortium of public and private university and research libraries in the state of Illinois.",
+    "url": "https://www.carli.illinois.edu/"
+  },
+  {
+    "id": "gwla",
+    "label": "Greater Western Library Alliance",
+    "description": "The Greater Western Library Alliance (GWLA) is a library consortium of 39 research libraries located across the United States."
+  },
+  {
+    "id": "hbcu",
+    "label": "Historically Black colleges and universities",
+    "description": "Historically black colleges and universities (HBCUs) are institutions of higher education in the United States that were established before the Civil Rights Act of 1964 with the intention of primarily serving African Americans.",
+    "url": "https://en.wikipedia.org/wiki/Historically_black_colleges_and_universities"
+  },
+  {
+    "id": "irla",
+    "label": "Independent Research Libraries Association",
+    "description": "The Independent Research Libraries Association (IRLA) was established in 1972 in order to address the future of independent, privately-supported research libraries.",
+    "url": "https://irla.lindahall.org/"
+  },
+  {
+    "id": "ivy_league",
+    "label": "Ivy League",
+    "description": "The Ivy League is an American collegiate athletic conference comprising eight private research universities in the Northeastern United States.",
+    "url": "https://ivyleague.com/"
+  },
+  {
+    "id": "pac_12",
+    "label": "Pac-12 Conferences",
+    "description": "The Pac-12 Conference is a collegiate athletic conference, that operates in the Western United States, participating in 24 sports at the NCAA Division I level.",
+    "url": "http://pac-12.com/"
+  },
+  {
+    "id": "r1",
+    "label": "R1 university",
+    "description": "R1 universities are doctoral-granting universities classified as \"Very High Research Activity (R1)\" according to the Carnegie Classification of Institutions of Higher Education, a framework for classifying colleges and universities in the United States.",
+    "url": "https://en.wikipedia.org/wiki/List_of_research_universities_in_the_United_States#Universities_classified_as_%22R1:_Doctoral_Universities_%E2%80%93_Very_high_research_activity%22"
+  },
+  {
+    "id": "r2",
+    "label": "R2 university",
+    "description": "R1 universities are doctoral-granting universities classified as \"High Research Activity (R2)\" according to the Carnegie Classification of Institutions of Higher Education, a framework for classifying colleges and universities in the United States.",
+    "url": "https://en.wikipedia.org/wiki/List_of_research_universities_in_the_United_States#Universities_classified_as_Universities_classified_as_%22R2:_Doctoral_Universities_%E2%80%93_High_research_activity%22"
+  },
+  {
+    "id": "sec",
+    "label": "Southeastern Conference",
+    "description": "The Southeastern Conference (SEC) is an American college athletic conference whose member institutions are located primarily in the South Central and Southeastern United States.",
+    "url": "http://www.secsports.com/"
+  },
+  {
+    "id": "sparc",
+    "label": "Scholarly Publishing and Academic Resources Coalition",
+    "description": "The Scholarly Publishing and Academic Resources Coalition (SPARC) is an international alliance of academic and research libraries developed by the Association of Research Libraries in 1998 which promotes open access to scholarship.",
+    "url": "https://sparcopen.org/"
+  },
+  {
+    "id": "uic_peer",
+    "label": "UIC peer institutions",
+    "description": "Peer institutions of the University of Illinois at Chicago, with selected additions by the author.",
+    "url": "https://www.pb.uillinois.edu/reports-public/bot-performance-metrics/peer-groups.cfm"
+  }
+]

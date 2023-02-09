@@ -136,6 +136,15 @@ const filesets = [
       wappalyzer: (item) => item === "TRUE",
     },
   },
+
+  {
+    src: `${source_dir}/Brachio - categories.csv`,
+    target: `${save_dir}/categories.json`,
+  },
+  {
+    src: `${source_dir}/Brachio - tags.csv`,
+    target: `${save_dir}/tags.json`,
+  },
 ];
 
 async function convert() {

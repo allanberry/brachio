@@ -10,6 +10,13 @@ export default {
     node: Object,
   },
   computed: {
+    primary_url() {
+      // return this.node.snapshot.primary_url.url;
+      if (this.node && this.node.snapshot && this.node.snapshot.primary_url) {
+        return this.node.snapshot.primary_url.url;
+      }
+      return undefined;
+    },
     queue_position() {
       return store.libraries.findIndex((lib) => lib._id === this.node._id) + 1;
     },
@@ -29,7 +36,7 @@ export default {
 </script>
 
 <template>
-  <div class="card flex-row flex-wrap mb-4 shadow-sm">
+  <div class="card flex-row flex-wrap mb-4 bg-light shadow-sm">
     <div class="col card-header">
       <img
         class="card-img img-thumbnail border"
@@ -38,7 +45,7 @@ export default {
       />
     </div>
 
-    <div class="col card-body bg-light">
+    <div class="col card-body">
       <div class="mb-4">
         <h4 class="card-title">
           <router-link
@@ -95,14 +102,19 @@ export default {
             </ul>
           </div>
         </div>
+
         <div class="col">
           <div>
             <h5>Webpage Visits</h5>
             <p>14 visits to 3 webpages, 1998–2021</p>
             <div class="url_visits">
-              <div>
-                <span>Primary URL:</span> <span>https://library.uic.edu/</span>
+              <div class="pb-2" v-if="primary_url">
+                <span>Primary URL:</span><br />
+                <span
+                  ><a :href="primary_url">{{ primary_url }}</a></span
+                >
               </div>
+
               <div>
                 <span>Latest visit:</span>
                 <ul>
@@ -151,10 +163,20 @@ export default {
 </template>
 
 <style lang="scss">
-.card-img {
-  // object-fit: cover;
-  // object-position: left;
-  flex: 1;
+.card-header {
+  padding: unset;
+  border-bottom: unset;
+  border-radius: unset;
+  // height: 100%;
+  .card-img.img-thumbnail {
+    padding: 0;
+  border-radius: unset;
+    // object-fit: cover;
+    // object-position: left;
+    margin-bottom: unset;
+
+    flex: 1;
+  }
 }
 
 .card-body {
