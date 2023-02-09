@@ -42,7 +42,7 @@ function iiif_url(path, width = 500, height) {
 
 // build thumbnail url
 function thumbnail_url(visit_id) {
-  return `https://bcw-images.s3.us-west-1.amazonaws.com/brachio/visits/1280x640/${visit_id}.png`;
+  return `https://bcw-images.s3.us-west-1.amazonaws.com/brachio/visits/2000x500/${visit_id}.png`;
 }
 
 export { indexify, atlas, iiif_url, thumbnail_url };

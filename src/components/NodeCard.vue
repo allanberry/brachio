@@ -30,19 +30,23 @@ export default {
         img: "/src/assets/brachiosaurus-thumbnail.svg",
         alt: "This is a placeholder image, a silhouette of a brachiosaurus.",
       };
+
     },
+    background_image() {
+        return `background-image: url(${this.thumbnail.img})`;
+      }
   },
 };
 </script>
 
 <template>
   <div class="card flex-row flex-wrap mb-4 bg-light shadow-sm">
-    <div class="col card-header">
-      <img
-        class="card-img img-thumbnail border"
+    <div class="col card-header" :style="background_image">
+      <!-- <img
+        class="card-img img-thumbnail"
         :src="thumbnail.img"
         :alt="thumbnail.alt"
-      />
+      /> -->
     </div>
 
     <div class="col card-body">
@@ -194,16 +198,36 @@ export default {
   padding: unset;
   border-bottom: unset;
   border-radius: unset;
-  // height: 100%;
-  .card-img.img-thumbnail {
-    padding: 0;
-    border-radius: unset;
-    // object-fit: cover;
-    // object-position: left;
-    margin-bottom: unset;
 
-    flex: 1;
+  // background: transparent;
+
+  background-size: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+
+  &:first-child {
+    border-top-right-radius: unset;
   }
+  mask-image: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 80%, rgba(0,0,0,0) 100%);
+
+  // max-height: 400px;
+  width: 100%;
+
+  
+  // height: 100%;
+  // .card-img.img-thumbnail {
+  //   padding: 0;
+  //   border-radius: unset;
+  //   // object-fit: cover;
+  //   // object-position: left;
+  //   margin-bottom: unset;
+  //   border: none;
+
+  //   flex: 1;
+
+  //   mask-image: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 75%, rgba(0,0,0,0) 100%);
+    
+  // }
 }
 
 .card-body {
