@@ -337,12 +337,11 @@ class Node {
 
     this.categories = apiNode.categories;
 
-    if (apiNode.tags) {
-      this.tags = api_tags.filter((api_tag) => {
-        return apiNode.tags.includes(api_tag.id);
-      });
-
-    }
+    this.tags = apiNode.tags
+      ? api_tags.filter((api_tag) => {
+          return apiNode.tags.includes(api_tag.id);
+        })
+      : [];
 
     this.arl = api_arls.find((arl) => arl._id === apiNode.arl_id);
     this.ipeds = api_ipeds.find((ipeds) => ipeds._id === apiNode.iped_id);
@@ -377,6 +376,13 @@ class Node {
 
   set has_parent(node) {
     this.parent_nodes.push(node);
+
+    // all parent tags apply to baby tags too
+    // this: baby node
+    // node: parent
+    this.tags = [...new Set(this.tags.concat(node.tags))]
+      // might as well sort by name
+      .sort((a, b) => a.label > b.label);
   }
 
   set children(arr) {
