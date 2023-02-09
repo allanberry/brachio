@@ -140,15 +140,17 @@ const filesets = [
   {
     src: `${source_dir}/Brachio - categories.csv`,
     target: `${save_dir}/categories.json`,
+    colParser: {},
   },
   {
     src: `${source_dir}/Brachio - tags.csv`,
     target: `${save_dir}/tags.json`,
+    colParser: {},
   },
 ];
 
 async function convert() {
-  for (fileset of filesets) {
+  for (const fileset of filesets) {
     const srcpath = path.join(__dirname, fileset.src);
     const targetpath = path.join(__dirname, fileset.target);
 

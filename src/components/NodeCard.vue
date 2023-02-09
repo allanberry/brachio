@@ -70,13 +70,18 @@ export default {
         <div class="col">
           <div>
             <h5>Location</h5>
-            <p>Chicago IL, USA</p>
+            <!-- <p>Chicago IL, USA</p> -->
+
+
+            {{ node.locations }}
+
+
           </div>
           <div v-if="node.categories">
             <h5>Categories</h5>
             <ul>
               <li v-for="category in node.categories" :key="category">
-                {{ category }}
+                {{ category.label_full }}
               </li>
             </ul>
           </div>
@@ -89,7 +94,9 @@ export default {
               </li>
             </ul>
           </div>
+        </div>
 
+<div class="col">
           <div
             v-if="
               node.snapshot &&
@@ -105,9 +112,7 @@ export default {
               </li>
             </ul>
           </div>
-        </div>
 
-        <div class="col">
           <div>
             <h5>Webpage Visits</h5>
             <p>14 visits to 3 URLs, 1998–2021</p>
@@ -123,35 +128,40 @@ export default {
                 <span>Latest visit:</span>
                 <ul>
                   <li>
-                    <span>Date:</span>
-                    <span>{{ node.snapshot.visits[0].wayback_date }}</span>
+                    <span>Date: </span>
+                    <span>{{ node.snapshot.visits[0].date }}</span>
                   </li>
-                  <li>
-                    <span>Accessibility:</span>
+
+                  <li v-if="node.snapshot.visits[0].lighthouse_accessibility">
+                    <span>Accessibility: </span>
                     <span>{{
                       node.snapshot.visits[0].lighthouse_accessibility
                     }}</span>
                   </li>
-                  <li>
-                    <span>Performance:</span>
+
+                  <li v-if="node.snapshot.visits[0].lighthouse_performance">
+                    <span>Performance: </span>
                     <span>{{
                       node.snapshot.visits[0].lighthouse_performance
                     }}</span>
                   </li>
-                  <li>
-                    <span>Best Practices:</span>
+
+                  <li v-if="node.snapshot.visits[0].lighthouse_best_practices">
+                    <span>Best Practices: </span>
                     <span>{{
                       node.snapshot.visits[0].lighthouse_best_practices
                     }}</span>
                   </li>
-                  <li>
-                    <span>Maintainability:</span>
+
+                  <li v-if="node.snapshot.visits[0].js_maintainability">
+                    <span>Maintainability: </span>
                     <span>{{
                       node.snapshot.visits[0].js_maintainability
                     }}</span>
                   </li>
-                  <li>
-                    <span>Complexity:</span>
+
+                  <li v-if="node.snapshot.visits[0].js_effort">
+                    <span>Complexity: </span>
                     <span>{{ node.snapshot.visits[0].js_effort }}</span>
                   </li>
                 </ul>

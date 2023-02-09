@@ -38,7 +38,24 @@ export const useBrachioStore = defineStore("brachioStore", {
         this.nodes
           // filter out non-libraries, e.g. university nodes
           .filter(
-            (node) => node.categories && node.categories[0].match("library")
+            (node) => {
+              // console.log(node.categories.map((cat) => cat.id).includes('library_academic'))
+
+              const arr1 = [
+                "library_academic",
+                "library_public",
+                "library_museum",
+                "library_state",
+              ];
+
+              const arr2 = node.categories.map((cat) => cat.id);
+
+              return arr1.some((r) => arr2.includes(r));
+            }
+            // &&
+            // node.categories.includes((category) => {
+            //   console.log(category)
+            // })
           )
 
           // keyword filter
@@ -55,7 +72,7 @@ export const useBrachioStore = defineStore("brachioStore", {
         this.pager.cursor,
         this.pager.cursor + this.pager.qty
       );
-    }
+    },
   },
   actions: {
     async init() {

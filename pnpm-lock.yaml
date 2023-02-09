@@ -10,6 +10,7 @@ specifiers:
   bootstrap: ^5.2.3
   bootstrap-icons: ^1.10.2
   csvtojson: ^2.0.10
+  dayjs: ^1.11.7
   dotenv: ^16.0.3
   eslint: ^8.22.0
   eslint-plugin-vue: ^9.3.0
@@ -32,6 +33,7 @@ dependencies:
   bootstrap: 5.2.3_@popperjs+core@2.11.6
   bootstrap-icons: 1.10.2
   csvtojson: 2.0.10
+  dayjs: 1.11.7
   graphql: 16.6.0
   nodejs-file-downloader: 4.10.6
   pinia: 2.0.30_vue@3.2.45
@@ -525,6 +527,10 @@ packages:
       bluebird: 3.7.2
       lodash: 4.17.21
       strip-bom: 2.0.0
+    dev: false
+
+  /dayjs/1.11.7:
+    resolution: {integrity: sha512-+Yw9U6YO5TQohxLcIkrXBeY73WP3ejHWVvx8XCk3gxvQDCTEmS48ZrSZCKciI7Bhl/uCMyxYtE9UqRILmFphkQ==}
     dev: false
 
   /debug/4.3.4:

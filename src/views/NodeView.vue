@@ -44,7 +44,8 @@ export default {
       return [
         { label: "title", metric: visit.title },
         { label: "date accessed", metric: visit.date_accessed },
-        { label: "date wayback", metric: visit.date_wayback },
+        { label: "date", metric: visit.date },
+        // { label: "date wayback", metric: visit.date_wayback },
         { label: "url wayback", metric: visit.url_wayback },
         { label: "url wayback raw", metric: visit.url_wayback_raw },
         { label: "anchors length", metric: visit.anchors.length },

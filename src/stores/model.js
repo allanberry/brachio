@@ -20,6 +20,8 @@ import api_technologies from "./datafiles/technologies.json";
 import api_tags from "./datafiles/tags.json";
 import api_categories from "./datafiles/categories.json";
 
+import dayjs from "dayjs"
+
 class Visit {
   constructor(apiVisit) {
     // this._id = apiVisit._id;
@@ -28,9 +30,10 @@ class Visit {
 
     this.date_accessed = apiVisit.date_accessed;
 
-    this.date_wayback = apiVisit.wayback
-      ? apiVisit.wayback.date_available
-      : undefined;
+    // this.date_wayback = "asdfasdf"
+    // apiVisit.wayback
+    //   ? apiVisit.wayback.date_available
+    //   : ;
     this.url_wayback = apiVisit.wayback
       ? apiVisit.wayback.url_rendered
       : undefined;
@@ -269,12 +272,8 @@ class Visit {
     return {};
   }
 
-  get wayback_url() {
-    return "";
-  }
-
-  get technologies() {
-    return [];
+  get date() {
+    return "blorkyblork";
   }
 }
 
@@ -342,6 +341,17 @@ class Node {
           return apiNode.tags.includes(api_tag.id);
         })
       : [];
+
+    // apiNode.categories (node only) = ['asdf']
+    // api_categories (all) = [{id: 'asdf'},{},{}]
+
+    this.categories = apiNode.categories
+      ? api_categories.filter((api_category) => {
+          return apiNode.categories.includes(api_category.id);
+        })
+      : [];
+
+    // console.log({categories: this.categories})
 
     this.arl = api_arls.find((arl) => arl._id === apiNode.arl_id);
     this.ipeds = api_ipeds.find((ipeds) => ipeds._id === apiNode.iped_id);
@@ -416,10 +426,24 @@ class Snapshot {
     if (visits && visits.length) {
       this.visits = visits
         .map((visit) => {
+          function derive_date(visit_id) {
+            const date_string = visit_id.split("_").slice(-1)[0];
+
+            const format = 'YYYY-MM-DD';
+
+            return dayjs(date_string).format(format)
+          }
+
+          // console.log(visit.id)
           return {
-            wayback_date: visit.wayback
-              ? visit.wayback.date_available
-              : undefined,
+            date: visit.date_wayback
+              ? visit.date_wayback
+              : derive_date(visit.id),
+
+            // date_wayback: visit.date,
+            // visit.date_wayback
+            // ? visit.date_wayback
+            // : undefined,
             wayback_url_raw: visit.wayback ? visit.wayback.url_raw : undefined,
             wayback_url_rendered: visit.wayback
               ? visit.wayback.url_rendered
@@ -456,7 +480,7 @@ class Snapshot {
                 : undefined,
           };
         })
-        .sort((a, b) => a.wayback_date < b.wayback_date);
+        .sort((a, b) => a.date < b.date);
 
       this.thumbnail = {
         placeholder: false,
