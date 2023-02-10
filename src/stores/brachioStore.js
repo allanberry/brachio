@@ -1,4 +1,4 @@
-import { atlas, thumbnail_url, iiif_url } from "@/utils";
+import { atlas, thumbnail_url, iiif_url, tech_filter } from "@/utils";
 import q_snapshots from "@/stores/queries/snapshots.graphql?raw";
 
 import { indexify } from "@/utils";
@@ -21,8 +21,8 @@ export const useBrachioStore = defineStore("brachioStore", {
     nodes: [],
     connections: [],
 
-    technologies: api_technologies.filter(
-      (tech) => tech.rank && tech.rank.length
+    technologies: tech_filter(
+      api_technologies.filter((tech) => tech.rank && tech.rank.length)
     ),
     tags: api_tags,
     categories: api_categories.filter(

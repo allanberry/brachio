@@ -1,6 +1,8 @@
 import axios from "axios";
 import slugify from "slugify";
 
+import api_technologies from "./stores/datafiles/technologies.json";
+
 // fetch from graphql api
 async function atlas(query, variables) {
   try {
@@ -45,4 +47,26 @@ function thumbnail_url(visit_id) {
   return `https://bcw-images.s3.us-west-1.amazonaws.com/brachio/visits/2000x500/${visit_id}.png`;
 }
 
-export { indexify, atlas, iiif_url, thumbnail_url };
+// common filters for Technologies
+function tech_filter(technologies) {
+  // const technologies = api_technologies
+  //
+
+
+  const aliases = [];
+  return technologies
+    .filter((tech) => tech.rank)
+    .filter((technology) => {
+      if (technology.alias) {
+        aliases.push(
+          api_technologies.find((tech) => {
+            return tech.id === technology.alias;
+          })
+        );
+        return false;
+      }
+      return true;
+    });
+}
+
+export { indexify, atlas, iiif_url, thumbnail_url, tech_filter };

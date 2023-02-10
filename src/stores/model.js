@@ -1,5 +1,5 @@
 // import axios from "axios";
-import { atlas, indexify, iiif_url, thumbnail_url } from "@/utils";
+import { atlas, indexify, iiif_url, thumbnail_url, tech_filter } from "@/utils";
 // import { Connection, Node, Visit } from "../model";
 
 // import q_nodes from "./queries/nodes.graphql?raw";
@@ -16,11 +16,12 @@ import api_ipeds from "./datafiles/ipeds.json";
 import api_locations from "./datafiles/locations.json";
 // import api_nodes from "./datafiles/nodes.json";
 import api_urls from "./datafiles/urls.json";
+
 import api_technologies from "./datafiles/technologies.json";
 import api_tags from "./datafiles/tags.json";
 import api_categories from "./datafiles/categories.json";
 
-import dayjs from "dayjs"
+import dayjs from "dayjs";
 
 class Visit {
   constructor(apiVisit) {
@@ -363,8 +364,6 @@ class Node {
       .filter((url) => url.node_id === this._id)
       .map((api_url) => new URL(api_url));
 
-      
-
     this.locations = api_locations
       .filter((loc) => loc.node === this._id)
       .map((api_loc) => new Location(api_loc));
@@ -430,7 +429,7 @@ class Snapshot {
         .map((visit) => {
           function derive_date(visit_id) {
             const date_string = visit_id.split("_").slice(-1)[0];
-            return dayjs(date_string)
+            return dayjs(date_string);
           }
 
           // console.log(visit.id)
@@ -535,32 +534,23 @@ class Snapshot {
         ),
       ];
 
-      const aliases = [];
-      const technologies = api_technologies
-        .filter((api_tech) => api_tech.rank)
-        .filter((api_tech) => {
-          if (
-            techs_builtwith.includes(api_tech.builtwith_name) ||
-            techs_wappalyzer.includes(api_tech.wappalyzer_name)
-          ) {
-            return true;
-          }
-        })
-        .filter((technology) => {
-          if (technology.alias) {
-            aliases.push(
-              api_technologies.find((tech) => {
-                return tech.id === technology.alias;
-              })
-            );
-            return false;
-          }
+      // pretty gnarly... refactor me!
+      // LOL :D  from such nuggets doth arise the likes of cthulhu
+      const filter_technologies = (input_technologies) => {
+        const techs = input_technologies.filter((api_tech) => api_tech.rank);
+        const aliases = [];
+        return [...new Set(techs.concat(aliases))].sort((a, b) => a > b);
+      };
+      this.technologies = tech_filter(
+        filter_technologies(api_technologies)
+      ).filter((api_tech) => {
+        if (
+          techs_builtwith.includes(api_tech.builtwith_name) ||
+          techs_wappalyzer.includes(api_tech.wappalyzer_name)
+        ) {
           return true;
-        });
-
-      this.technologies = [...new Set(technologies.concat(aliases))].sort(
-        (a, b) => a > b
-      );
+        }
+      });
 
       // api_technologies: {
       //   "id": "asdf",
