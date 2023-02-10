@@ -126,7 +126,7 @@ export default {
               <div class="pb-2" v-if="primary_url">
                 <span>Primary URL:</span><br />
                 <span
-                  ><a :href="primary_url" style="">{{ primary_url }}</a></span
+                  ><a class="card-link" :href="primary_url" style="">{{ primary_url }}</a></span
                 >
               </div>
 
@@ -257,6 +257,13 @@ export default {
       column-count: 2;
       & > * {
         break-inside: avoid;
+      }
+    }
+
+    .card-link {
+      text-decoration: none;
+      &:hover, &:active {
+        text-decoration: underline;
       }
     }
   }

@@ -491,7 +491,9 @@ class Snapshot {
         ...new Set(
           visits.reduce(
             (acc1, visit) =>
-              visit.analysis.builtwith
+              visit.analysis.builtwith &&
+              visit.analysis.builtwith.response &&
+              visit.analysis.builtwith.response.data
                 ? acc1.concat(
                     visit.analysis.builtwith.response.data.Results.reduce(
                       (acc2, result) =>

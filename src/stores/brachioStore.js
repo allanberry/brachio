@@ -44,6 +44,7 @@ export const useBrachioStore = defineStore("brachioStore", {
       keyword: "",
       categories: [],
       tags: [],
+      technologies: []
     },
   }),
   getters: {
@@ -79,7 +80,7 @@ export const useBrachioStore = defineStore("brachioStore", {
             return node.search_target.includes(indexify(this.filters.keyword));
           })
 
-          // sort results
+          // sort records
           .sort((a, b) => a[this.pager.sort] > b[this.pager.sort])
       );
     },

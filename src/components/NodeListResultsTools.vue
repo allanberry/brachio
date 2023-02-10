@@ -62,7 +62,7 @@ export default {
 <template>
   <h4 class="visually-hidden">{{ title }}</h4>
 
-  <div class="row mb-4" v-if="placement === 'precontent'">
+  <!-- <div class="row mb-4" v-if="placement === 'precontent'">
     <div class="col">
       Filters applied<br />
       
@@ -73,7 +73,7 @@ export default {
 
 
     </div>
-  </div>
+  </div> -->
 
   <div class="row" v-if="placement === 'precontent'">
     <div class="col">
@@ -100,24 +100,25 @@ export default {
               class="form-select"
               id="sort_select"
             >
-              <option disabled value="">Please select one</option>
-              <option value="name">Name</option>
+              <option disabled value="">Select one</option>
+              <option value="node_name">Name</option>
+              <option value="random">Random</option>
+              <option disabled>──────────</option>
 
-              <!-- <option value="size">Parent Name</option>
-              <option value="size">Parent Age</option>
-              <option value="size">Parent Endowment</option>
-              <option value="size">Parent No. of students</option>
+              <option value="node_parent_age">Age</option>
+              <option value="node_parent_endowment">Endowment</option>
+              <option value="node_parent_enrollment">No. of students</option>
+              <option value="node_qty_books">No. of books</option>
+              <option value="node_gate_count">Gate Count</option>
 
-              <option value="size">No. of books</option>
-              <option value="size">Gate Count</option>
-
-              <option value="size">Website Avg. Complexity</option>
-              <option value="size">Website Wayback First</option>
-              <option value="size">Website Wayback Most Recent</option> -->
+              <option disabled>──────────</option>
+              <option value="node_visit_accessibility">Website Accessibility</option>
+              <option value="node_visit_performance">Website Performance</option>
+              <option value="node_visit_best_practices">Website Best Practices</option>
             </select>
           </div>
         </div>
-      </div><hr />
+      </div>
     </div>
 
     
@@ -128,7 +129,7 @@ export default {
   <div class="row pager" v-if="total_pages != 1">
     <h5 class="col col-12">Pager</h5>
     <p class="col col-12 form-text mb-3">
-      Results are divided into "pages", or sets of results.
+      Libraries are divided into "pages", or sets of results.
     </p>
 
     <!-- <div>
@@ -143,9 +144,9 @@ export default {
       </p>
     </div> -->
 
-    <nav class="col col-6 mb-3">
-      <label for="pager_select">Select Page</label>
-      <p class="form-text">Select which page to view.</p>
+    <nav class="col col-9 mb-3">
+      <label for="pager_select form-text">Select Page</label>
+      <!-- <p class="form-text">Select which page to view.</p> -->
       <ul class="pagination" id="pager_select">
         <li
           class="page-item"
@@ -205,21 +206,19 @@ export default {
       </ul>
     </nav>
 
-    <div class="col col-2 mb-3"  v-if="placement === 'precontent'">
-      <label for="qty_select">How Many</label>
-      <p class="form-text">Results / Page</p>
+    <div class="col col-3 mb-3"  v-if="placement === 'precontent'">
+      <label for="qty_select">Max Libraries per page</label>
+      <!-- <p class="form-text">Results / Page</p> -->
 
       <select
         v-model.number="store.pager.qty"
         class="form-select"
         id="qty_select"
       >
-        <option disabled value="">Please select one</option>
-        <option>5</option>
+        <option disabled value="">Select one</option>
         <option>10</option>
-        <option>25</option>
+        <option>20</option>
         <option>50</option>
-        <option>100</option>
       </select>
     </div>
 

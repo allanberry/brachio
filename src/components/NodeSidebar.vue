@@ -8,6 +8,9 @@ const store = useBrachioStore();
 // import MapIcon from "@/assets/icons/sidebar/map.svg?component";
 // import TimelineIcon from "@/assets/icons/sidebar/timeline.svg?component";
 
+import NodeSidebarDropdown from "./NodeSidebarDropdown.vue";
+// import NodeCard from "../components/NodeCard.vue";
+
 export default {
   data() {
     return {};
@@ -16,6 +19,7 @@ export default {
     store: () => store,
   },
   components: {
+    NodeSidebarDropdown,
     // CardsIcon,
     // CompareIcon,
     // ListIcon,
@@ -89,85 +93,44 @@ export default {
     <div class="mb-4" id="sidebar_facets">
       <h5>Facets</h5>
       <p class="form-text">Select predefined categories and tags.</p>
+
       <ul class="list-unstyled">
         <li
-          class="mb-2"
           id="sidebar_facets_category"
           v-if="store.categories && store.categories.length"
         >
-          <button
-            class="btn btn-toggle d-inline-flex align-items-center border-0 collapsed"
-            data-bs-toggle="collapse"
-            data-bs-target="#category-collapse"
-            aria-expanded="true"
-          >
-            Category
-          </button>
-
-          <div class="collapse show" id="category-collapse">
-            <ul class="btn-toggle-nav list-unstyled pb-1 small">
-              <li v-for="category in store.categories" :key="category.id">
-                <a class="d-inline-flex text-decoration-none">{{
-                  category.label_full
-                }}</a>
-              </li>
-            </ul>
-          </div>
+          <NodeSidebarDropdown
+            label="Categories"
+            :expanded="true"
+            :items="store.categories"
+            filter="categories"
+          />
         </li>
-
-        <li
-          class="mb-3"
-          id="sidebar_facets_tags"
-          v-if="store.tags && store.tags.length"
-        >
-          <button
-            class="btn btn-toggle d-inline-flex align-items-center border-0 collapsed"
-            data-bs-toggle="collapse"
-            data-bs-target="#tags-collapse"
-            aria-expanded="false"
-          >
-            Tags
-          </button>
-          <div class="collapse" id="tags-collapse">
-            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-              <li v-for="tag in store.tags" :key="tag.id">
-                <a class="d-inline-flex text-decoration-none">{{
-                  tag.label
-                }}</a>
-              </li>
-            </ul>
-          </div>
+        <li id="sidebar_facets_tags" v-if="store.tags && store.tags.length">
+          <NodeSidebarDropdown
+            label="Tags"
+            :expanded="false"
+            :items="store.tags"
+            filter="tags"
+          />
         </li>
-
         <li
-          class="mb-3"
           id="sidebar_facets_technologies"
           v-if="store.technologies && store.technologies.length"
         >
-          <button
-            class="btn btn-toggle d-inline-flex align-items-center border-0 collapsed"
-            data-bs-toggle="collapse"
-            data-bs-target="#technologies-collapse"
-            aria-expanded="false"
-          >
-            Technologies
-          </button>
-          <div class="collapse" id="technologies-collapse">
-            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-              <li v-for="technology in store.technologies" :key="technology.id">
-                <a class="d-inline-flex text-decoration-none">{{
-                  technology.name
-                }}</a>
-              </li>
-            </ul>
-          </div>
+          <NodeSidebarDropdown
+            label="Technologies"
+            :expanded="false"
+            :items="store.technologies"
+            filter="technologies"
+          />
         </li>
       </ul>
     </div>
   </div>
 </template>
 
-<style>
+<style lang="scss">
 .dropdown-toggle {
   outline: 0;
 }
@@ -192,14 +155,17 @@ export default {
   transform: rotate(90deg);
 }
 
-.btn-toggle-nav a {
-  padding: 0.1875rem 0.5rem;
-  margin-top: 0.125rem;
-  margin-left: 1.25rem;
-}
-.btn-toggle-nav a:hover,
-.btn-toggle-nav a:focus {
-  /* background-color: silver; */
+.btn-toggle-nav {
+  padding-left: 1.25rem;
+  a {
+    padding: 0.1875rem 0.5rem;
+    margin-top: 0.125rem;
+    margin-left: 1.25rem;
+  }
+  a:hover,
+  a:focus {
+    /* background-color: silver; */
+  }
 }
 
 .scrollarea {
