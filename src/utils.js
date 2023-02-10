@@ -52,21 +52,25 @@ function tech_filter(technologies) {
   // const technologies = api_technologies
   //
 
-
   const aliases = [];
-  return technologies
-    .filter((tech) => tech.rank)
-    .filter((technology) => {
-      if (technology.alias) {
-        aliases.push(
-          api_technologies.find((tech) => {
-            return tech.id === technology.alias;
-          })
-        );
-        return false;
-      }
-      return true;
-    });
+  return [
+    ...new Set(
+      technologies
+        .filter((tech) => tech.rank)
+        .filter((technology) => {
+          if (technology.alias) {
+            aliases.push(
+              api_technologies.find((tech) => {
+                return tech.id === technology.alias;
+              })
+            );
+            return false;
+          }
+          return true;
+        })
+        .sort((a, b) => a > b)
+    ),
+  ];
 }
 
 export { indexify, atlas, iiif_url, thumbnail_url, tech_filter };

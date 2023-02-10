@@ -534,16 +534,8 @@ class Snapshot {
         ),
       ];
 
-      // pretty gnarly... refactor me!
-      // LOL :D  from such nuggets doth arise the likes of cthulhu
-      const filter_technologies = (input_technologies) => {
-        const techs = input_technologies.filter((api_tech) => api_tech.rank);
-        const aliases = [];
-        return [...new Set(techs.concat(aliases))].sort((a, b) => a > b);
-      };
-      this.technologies = tech_filter(
-        filter_technologies(api_technologies)
-      ).filter((api_tech) => {
+      // when possible, make any changes in tech_filter(), so as to share with other aspects of application
+      this.technologies = tech_filter(api_technologies).filter((api_tech) => {
         if (
           techs_builtwith.includes(api_tech.builtwith_name) ||
           techs_wappalyzer.includes(api_tech.wappalyzer_name)
@@ -564,12 +556,6 @@ class Snapshot {
       // techs_builtwith: ["asdf", "asdf", "asdf"]
 
       // console.log({ techs_builtwith, techs_wappalyzer, api_technologies });
-
-      // console.log(
-      //   api_technologies.filter((tech) => {
-      //     return tech.builtwith;
-      //   })
-      // );
     }
   }
 }
