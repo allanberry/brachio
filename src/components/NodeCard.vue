@@ -211,54 +211,59 @@ export default {
 </template>
 
 <style lang="scss">
-.card-header {
-  padding: unset;
-  border-bottom: unset;
-  border-radius: unset;
+.card {
+  .card-header {
+    padding: unset;
+    border-bottom: unset;
+    border-radius: unset;
 
-  // background: transparent;
+    // background: transparent;
 
-  background-size: 100%;
-  background-position: top;
-  background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
 
-  &:first-child {
-    border-top-right-radius: unset;
-  }
-  mask-image: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(0, 0, 0, 1) 80%,
-    rgba(0, 0, 0, 0) 100%
-  );
-
-  // max-height: 400px;
-  width: 100%;
-
-  // height: 100%;
-  // .card-img.img-thumbnail {
-  //   padding: 0;
-  //   border-radius: unset;
-  //   // object-fit: cover;
-  //   // object-position: left;
-  //   margin-bottom: unset;
-  //   border: none;
-
-  //   flex: 1;
-
-  //   mask-image: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 75%, rgba(0,0,0,0) 100%);
-
-  // }
-}
-
-.card-body {
-  flex: 2;
-
-  .main_col {
-    column-count: 2;
-    & > * {
-      break-inside: avoid;
+    &:first-child {
+      border-top-right-radius: unset;
     }
+    mask-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(0, 0, 0, 1) 80%,
+      rgba(0, 0, 0, 0) 100%
+    );
+
+    // max-height: 400px;
+    width: 100%;
+
+    // height: 100%;
+    // .card-img.img-thumbnail {
+    //   padding: 0;
+    //   border-radius: unset;
+    //   // object-fit: cover;
+    //   // object-position: left;
+    //   margin-bottom: unset;
+    //   border: none;
+
+    //   flex: 1;
+
+    //   mask-image: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 75%, rgba(0,0,0,0) 100%);
+
+    // }
+  }
+
+  .card-body {
+    flex: 2;
+
+    .main_col {
+      column-count: 2;
+      & > * {
+        break-inside: avoid;
+      }
+    }
+  }
+  .card-footer {
+    border-top: none;
   }
 }
 </style>

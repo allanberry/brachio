@@ -6,17 +6,28 @@ import { indexify } from "@/utils";
 import { defineStore } from "pinia";
 import { Connection, Node, Snapshot } from "./model";
 
-// import api_arls from "./datafiles/arls.json";
+import api_nodes from "./datafiles/nodes.json";
 import api_connections from "./datafiles/connections.json";
+// import api_arls from "./datafiles/arls.json";
 // import api_ipeds from "./datafiles/ipeds.json";
 // import api_locations from "./datafiles/locations.json";
-import api_nodes from "./datafiles/nodes.json";
 // import api_urls from "./datafiles/urls.json";
+import api_technologies from "./datafiles/technologies.json";
+import api_tags from "./datafiles/tags.json";
+import api_categories from "./datafiles/categories.json";
 
 export const useBrachioStore = defineStore("brachioStore", {
   state: () => ({
     nodes: [],
     connections: [],
+
+    technologies: api_technologies.filter(
+      (tech) => tech.rank && tech.rank.length
+    ),
+    tags: api_tags,
+    categories: api_categories.filter(
+      (cat) => cat.parent && cat.parent === "library"
+    ),
 
     pager: {
       cursor: 0,

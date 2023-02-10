@@ -33,17 +33,17 @@ export default {
         Results can be viewed and explored in different ways.
       </p>
       <ul class="nav nav-pills flex-column mb-auto">
-        <li class="nav-item">
-          <a href="#" class="nav-link active" aria-current="page">
-            <CardsIcon />
-            Cards
-          </a>
-        </li>
         <li>
           <a href="#" class="nav-link link-dark">
             <ListIcon />
 
             List
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link active" aria-current="page">
+            <CardsIcon />
+            Cards
           </a>
         </li>
         <li>
@@ -89,7 +89,11 @@ export default {
       <h5>Facets</h5>
       <p class="form-text">Select predefined categories and tags.</p>
       <ul class="list-unstyled">
-        <li class="mb-2" id="sidebar_facets_category">
+        <li
+          class="mb-2"
+          id="sidebar_facets_category"
+          v-if="store.categories && store.categories.length"
+        >
           <button
             class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
             data-bs-toggle="collapse"
@@ -98,58 +102,21 @@ export default {
           >
             Category
           </button>
+
           <div class="collapse show" id="category-collapse">
             <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-              <li>
+              <li v-for="category in store.categories" :key="category.id">
                 <a
                   href="#"
                   class="link-dark d-inline-flex text-decoration-none rounded"
-                  >Libraries</a
-                >
-
-                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                  <li>
-                    <a
-                      href="#"
-                      class="link-dark d-inline-flex text-decoration-none rounded"
-                      >a</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="#"
-                      class="link-dark d-inline-flex text-decoration-none rounded"
-                      >b</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="#"
-                      class="link-dark d-inline-flex text-decoration-none rounded"
-                      >c</a
-                    >
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="link-dark d-inline-flex text-decoration-none rounded"
-                  >Museums</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="link-dark d-inline-flex text-decoration-none rounded"
-                  >Colleges</a
+                  >{{ category.label_full }}</a
                 >
               </li>
             </ul>
           </div>
         </li>
 
-        <li class="mb-3" id="sidebar_facets_tags">
+        <li class="mb-3" id="sidebar_facets_tags" v-if="store.tags && store.tags.length">
           <button
             class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
             data-bs-toggle="collapse"
@@ -160,32 +127,22 @@ export default {
           </button>
           <div class="collapse show" id="tags-collapse">
             <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-              <li>
+              <li v-for="tag in store.tags" :key="tag.id">
                 <a
                   href="#"
                   class="link-dark d-inline-flex text-decoration-none rounded"
-                  >Big Ten</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="link-dark d-inline-flex text-decoration-none rounded"
-                  >Historically Black Colleges & Universities</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="link-dark d-inline-flex text-decoration-none rounded"
-                  >Ivy League</a
+                  >{{ tag.label }}</a
                 >
               </li>
             </ul>
           </div>
         </li>
 
-        <li class="mb-3" id="sidebar_facets_tags">
+        <li
+          class="mb-3"
+          id="sidebar_facets_tags"
+          v-if="store.technologies && store.technologies.length"
+        >
           <button
             class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
             data-bs-toggle="collapse"
@@ -196,25 +153,11 @@ export default {
           </button>
           <div class="collapse show" id="tags-collapse">
             <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-              <li>
+              <li v-for="technology in store.technologies" :key="technology.id">
                 <a
                   href="#"
                   class="link-dark d-inline-flex text-decoration-none rounded"
-                  >WordPress</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="link-dark d-inline-flex text-decoration-none rounded"
-                  >Drupal</a
-                >
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="link-dark d-inline-flex text-decoration-none rounded"
-                  >Primo VE</a
+                  >{{ technology.name }}</a
                 >
               </li>
             </ul>
