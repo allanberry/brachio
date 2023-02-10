@@ -125,7 +125,7 @@ export default {
 
   
 
-  <div class="row">
+  <div class="row pager" v-if="total_pages != 1">
     <h5 class="col col-12">Pager</h5>
     <p class="col col-12 form-text mb-3">
       Results are divided into "pages", or sets of results.

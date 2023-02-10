@@ -48,6 +48,7 @@ function thumbnail_url(visit_id) {
 }
 
 // common filters for Technologies
+// used both by model of incoming Visit data, but also searching systems in the NodeListView sidebar
 function tech_filter(technologies) {
   // const technologies = api_technologies
   //

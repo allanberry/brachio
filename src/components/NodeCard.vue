@@ -65,8 +65,6 @@ export default {
         </p>
         <div class="mb-3">
           <h5 class="visually-hidden">Locations</h5>
-          <!-- <p>Chicago IL, USA</p> -->
-
           <p v-for="loc in node.locations" :key="loc.id">
             {{ loc.city }}, {{ loc.state }}
             {{ loc.country }}

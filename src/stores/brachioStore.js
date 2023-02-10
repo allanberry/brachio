@@ -1,4 +1,9 @@
-import { atlas, thumbnail_url, iiif_url, tech_filter } from "@/utils";
+import {
+  atlas,
+  // thumbnail_url,
+  // iiif_url,
+  tech_filter,
+} from "@/utils";
 import q_snapshots from "@/stores/queries/snapshots.graphql?raw";
 
 import { indexify } from "@/utils";
@@ -37,14 +42,14 @@ export const useBrachioStore = defineStore("brachioStore", {
 
     filters: {
       keyword: "",
-      // categories: ["library", "academic"],
-      // tags: ["arl", "carli", "gwla"],
+      categories: [],
+      tags: [],
     },
   }),
   getters: {
-    libraries() {
-      // console.log(this.nodes.forEach((node) => console.log(node)));
 
+    // get all Libraries in the system
+    libraries() {
       return (
         this.nodes
           // filter out non-libraries, e.g. university nodes
@@ -78,6 +83,7 @@ export const useBrachioStore = defineStore("brachioStore", {
           .sort((a, b) => a[this.pager.sort] > b[this.pager.sort])
       );
     },
+    // subset of the above, relevant to those currently on the page
     paged_libraries() {
       return this.libraries.slice(
         this.pager.cursor,
@@ -97,9 +103,9 @@ export const useBrachioStore = defineStore("brachioStore", {
           connections: api_connections.map(
             (api_connection) => new Connection(api_connection)
           ),
-          filters: {
-            keyword: "chicago",
-          },
+          // filters: {
+          //   keyword: "chicago",
+          // },
         });
 
         // store parents and children in nodes

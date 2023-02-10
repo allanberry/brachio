@@ -26,7 +26,8 @@ export default {
 </script>
 
 <template>
-  <div class="sticky-top pt-5">
+  <!-- <div class="sticky-top pt-5"> -->
+  <div class="pt-5">
     <!-- <div class="mb-4">
       <h5>Modes</h5>
       <p class="form-text">
@@ -79,7 +80,7 @@ export default {
           id="filter_keyword"
           placeholder="e.g. library, museum, ivy, hbcu..."
           aria-describedby="filter_keyword_help"
-          v-model="store.filters.keyword"
+          v-model.lazy="store.filters.keyword"
           @keyup="store.reset_pager()"
         />
       </div>
@@ -95,7 +96,7 @@ export default {
           v-if="store.categories && store.categories.length"
         >
           <button
-            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+            class="btn btn-toggle d-inline-flex align-items-center border-0 collapsed"
             data-bs-toggle="collapse"
             data-bs-target="#category-collapse"
             aria-expanded="true"
@@ -104,35 +105,11 @@ export default {
           </button>
 
           <div class="collapse show" id="category-collapse">
-            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+            <ul class="btn-toggle-nav list-unstyled pb-1 small">
               <li v-for="category in store.categories" :key="category.id">
-                <a
-                  href="#"
-                  class="link-dark d-inline-flex text-decoration-none rounded"
-                  >{{ category.label_full }}</a
-                >
-              </li>
-            </ul>
-          </div>
-        </li>
-
-        <li class="mb-3" id="sidebar_facets_tags" v-if="store.tags && store.tags.length">
-          <button
-            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-            data-bs-toggle="collapse"
-            data-bs-target="#tags-collapse"
-            aria-expanded="true"
-          >
-            Tags
-          </button>
-          <div class="collapse show" id="tags-collapse">
-            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-              <li v-for="tag in store.tags" :key="tag.id">
-                <a
-                  href="#"
-                  class="link-dark d-inline-flex text-decoration-none rounded"
-                  >{{ tag.label }}</a
-                >
+                <a class="d-inline-flex text-decoration-none">{{
+                  category.label_full
+                }}</a>
               </li>
             </ul>
           </div>
@@ -141,24 +118,46 @@ export default {
         <li
           class="mb-3"
           id="sidebar_facets_tags"
+          v-if="store.tags && store.tags.length"
+        >
+          <button
+            class="btn btn-toggle d-inline-flex align-items-center border-0 collapsed"
+            data-bs-toggle="collapse"
+            data-bs-target="#tags-collapse"
+            aria-expanded="false"
+          >
+            Tags
+          </button>
+          <div class="collapse" id="tags-collapse">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li v-for="tag in store.tags" :key="tag.id">
+                <a class="d-inline-flex text-decoration-none">{{
+                  tag.label
+                }}</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+
+        <li
+          class="mb-3"
+          id="sidebar_facets_technologies"
           v-if="store.technologies && store.technologies.length"
         >
           <button
-            class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+            class="btn btn-toggle d-inline-flex align-items-center border-0 collapsed"
             data-bs-toggle="collapse"
-            data-bs-target="#tags-collapse"
-            aria-expanded="true"
+            data-bs-target="#technologies-collapse"
+            aria-expanded="false"
           >
             Technologies
           </button>
-          <div class="collapse show" id="tags-collapse">
+          <div class="collapse" id="technologies-collapse">
             <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
               <li v-for="technology in store.technologies" :key="technology.id">
-                <a
-                  href="#"
-                  class="link-dark d-inline-flex text-decoration-none rounded"
-                  >{{ technology.name }}</a
-                >
+                <a class="d-inline-flex text-decoration-none">{{
+                  technology.name
+                }}</a>
               </li>
             </ul>
           </div>
@@ -176,26 +175,19 @@ export default {
 .btn-toggle {
   padding: 0.25rem 0.5rem;
   font-weight: 600;
-  color: rgba(0, 0, 0, 0.65);
-  background-color: transparent;
 }
 .btn-toggle:hover,
 .btn-toggle:focus {
-  color: rgba(0, 0, 0, 0.85);
-  background-color: #d2f4ea;
+  /* background-color: silver; */
 }
 
 .btn-toggle::before {
   width: 1.25em;
   line-height: 0;
   content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='rgba%280,0,0,.5%29' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 14l6-6-6-6'/%3e%3c/svg%3e");
-  transition: transform 0.35s ease;
   transform-origin: 0.5em 50%;
 }
 
-.btn-toggle[aria-expanded="true"] {
-  color: rgba(0, 0, 0, 0.85);
-}
 .btn-toggle[aria-expanded="true"]::before {
   transform: rotate(90deg);
 }
@@ -207,7 +199,7 @@ export default {
 }
 .btn-toggle-nav a:hover,
 .btn-toggle-nav a:focus {
-  background-color: #d2f4ea;
+  /* background-color: silver; */
 }
 
 .scrollarea {

@@ -534,7 +534,7 @@ class Snapshot {
         ),
       ];
 
-      // when possible, make any changes in tech_filter(), so as to share with other aspects of application
+      // when possible, make any changes in Utils tech_filter(), so as to share with other aspects of application
       this.technologies = tech_filter(api_technologies).filter((api_tech) => {
         if (
           techs_builtwith.includes(api_tech.builtwith_name) ||
