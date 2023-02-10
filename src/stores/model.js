@@ -363,8 +363,10 @@ class Node {
       .filter((url) => url.node_id === this._id)
       .map((api_url) => new URL(api_url));
 
+      
+
     this.locations = api_locations
-      .filter((loc) => loc.node_id === this._id)
+      .filter((loc) => loc.node === this._id)
       .map((api_loc) => new Location(api_loc));
 
     this.parent_nodes = [];
@@ -428,10 +430,7 @@ class Snapshot {
         .map((visit) => {
           function derive_date(visit_id) {
             const date_string = visit_id.split("_").slice(-1)[0];
-
-            const format = 'YYYY-MM-DD';
-
-            return dayjs(date_string).format(format)
+            return dayjs(date_string)
           }
 
           // console.log(visit.id)

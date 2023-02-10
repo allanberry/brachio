@@ -30,11 +30,10 @@ export default {
         img: "/src/assets/brachiosaurus-thumbnail.svg",
         alt: "This is a placeholder image, a silhouette of a brachiosaurus.",
       };
-
     },
     background_image() {
-        return `background-image: url(${this.thumbnail.img})`;
-      }
+      return `background-image: url(${this.thumbnail.img})`;
+    },
   },
 };
 </script>
@@ -64,19 +63,19 @@ export default {
         <p v-if="node.parents && node.parents.length">
           {{ node.parents[0].name }}
         </p>
+        <div class="mb-3">
+          <h5 class="visually-hidden">Locations</h5>
+          <!-- <p>Chicago IL, USA</p> -->
+
+          <p v-for="loc in node.locations" :key="loc.id">
+            {{ loc.city }}, {{ loc.state }}
+            {{ loc.country }}
+          </p>
+        </div>
       </div>
 
       <div class="row">
-        <div class="col">
-          <div>
-            <h5>Location</h5>
-            <!-- <p>Chicago IL, USA</p> -->
-
-
-            {{ node.locations }}
-
-
-          </div>
+        <div class="col main_col">
           <div v-if="node.categories">
             <h5>Categories</h5>
             <ul>
@@ -94,9 +93,7 @@ export default {
               </li>
             </ul>
           </div>
-        </div>
 
-<div class="col">
           <div
             v-if="
               node.snapshot &&
@@ -115,21 +112,34 @@ export default {
 
           <div>
             <h5>Webpage Visits</h5>
-            <p>14 visits to 3 URLs, 1998–2021</p>
-            <div class="url_visits">
+
+            <div
+              class="url_visits"
+              v-if="node.snapshot && node.snapshot.visits"
+            >
+              <p>
+                {{ node.snapshot.visits.length }} visits to
+                {{ node.urls.length }} URLs,
+                {{ node.snapshot.visits.slice(-1)[0].date.format("YYYY") }}–{{
+                  node.snapshot.visits[0].date.format("YYYY")
+                }}
+              </p>
+
               <div class="pb-2" v-if="primary_url">
                 <span>Primary URL:</span><br />
                 <span
-                  ><a :href="primary_url">{{ primary_url }}</a></span
+                  ><a :href="primary_url" style="">{{ primary_url }}</a></span
                 >
               </div>
 
-              <div v-if="node.snapshot && node.snapshot.visits">
+              <div>
                 <span>Latest visit:</span>
                 <ul>
                   <li>
                     <span>Date: </span>
-                    <span>{{ node.snapshot.visits[0].date }}</span>
+                    <span>{{
+                      node.snapshot.visits[0].date.format("YYYY-MM-DD")
+                    }}</span>
                   </li>
 
                   <li v-if="node.snapshot.visits[0].lighthouse_accessibility">
@@ -157,12 +167,9 @@ export default {
                     <span>Maintainability: </span>
                     <span>{{
                       node.snapshot.visits[0].js_maintainability
+                        .toFixed(2)
+                        .replace(/\d(?=(\d{3})+\.)/g, "$&,")
                     }}</span>
-                  </li>
-
-                  <li v-if="node.snapshot.visits[0].js_effort">
-                    <span>Complexity: </span>
-                    <span>{{ node.snapshot.visits[0].js_effort }}</span>
                   </li>
                 </ul>
               </div>
@@ -218,12 +225,16 @@ export default {
   &:first-child {
     border-top-right-radius: unset;
   }
-  mask-image: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 80%, rgba(0,0,0,0) 100%);
+  mask-image: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0) 100%
+  );
 
   // max-height: 400px;
   width: 100%;
 
-  
   // height: 100%;
   // .card-img.img-thumbnail {
   //   padding: 0;
@@ -236,11 +247,18 @@ export default {
   //   flex: 1;
 
   //   mask-image: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 75%, rgba(0,0,0,0) 100%);
-    
+
   // }
 }
 
 .card-body {
   flex: 2;
+
+  .main_col {
+    column-count: 2;
+    & > * {
+      break-inside: avoid;
+    }
+  }
 }
 </style>

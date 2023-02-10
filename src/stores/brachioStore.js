@@ -87,7 +87,7 @@ export const useBrachioStore = defineStore("brachioStore", {
             (api_connection) => new Connection(api_connection)
           ),
           filters: {
-            keyword: "uic_library",
+            keyword: "chicago",
           },
         });
 
