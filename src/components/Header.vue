@@ -1,4 +1,17 @@
-<script></script>
+<script>
+import brachiosaurus_url from "@/assets/brachiosaurus.svg?url";
+
+export default {
+  data() {
+    return {};
+  },
+  computed: {
+    brachiosaurus_url() {
+      return brachiosaurus_url;
+    },
+  },
+};
+</script>
 
 <template>
   <header class="p-3 mb-3 border-bottom bg-secondary">
@@ -7,11 +20,12 @@
         class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
       >
         <RouterLink
-          class=" text-white nav-link px-2 link-secondary d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none"
+          class="text-white nav-link px-2 link-secondary d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none"
           to="/"
         >
+          <!-- <img src="@/assets/images/home.png"/> -->
           <img
-            :src="`/src/assets/brachiosaurus.svg`"
+            :src="brachiosaurus_url"
             class="me-2"
             width="40"
             alt="brachiosaurus"
@@ -42,8 +56,6 @@
               >UIC Library</RouterLink
             >
           </li>
-
-          
 
           <!-- <li>
             <RouterLink

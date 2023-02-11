@@ -335,8 +335,6 @@ class Node {
     this.name = apiNode.name;
     this.type = apiNode.type;
 
-    this.categories = apiNode.categories;
-
     this.tags = apiNode.tags
       ? api_tags.filter((api_tag) => {
           return apiNode.tags.includes(api_tag.id);

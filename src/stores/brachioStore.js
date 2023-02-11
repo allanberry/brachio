@@ -96,11 +96,26 @@ export const useBrachioStore = defineStore("brachioStore", {
 
           // technology filter
           .filter((node) => {
-            if (this.filters.technologies && this.filters.technologies.length) {
-              const arr1 = this.filters.technologies;
-              const arr2 = node.technologies.map((cat) => cat.id);
-              return arr1.some((r) => arr2.includes(r));
-            }
+            // if (this.filters.technologies && node.technologies) {
+            //   const arr1 = this.filters.technologies;
+            //   const arr2 = node.technologies.map((cat) => cat.id);
+            //   return arr1.some((r) => arr2.includes(r));
+            // }
+
+            // if (
+            //   this.filters.technologies &&
+            //   this.filters.technologies.length &&
+            //   node.snapshot &&
+            //   node.snapshot.technologies &&
+            //   node.snapshot.technologies.length
+            // ) {
+            //   console.log({
+            //     filters: this.filters.technologies,
+            //     node_snapshot: node.snapshot.technologies,
+            //   });
+            // }
+
+
             return true;
           })
 

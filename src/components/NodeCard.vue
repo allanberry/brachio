@@ -2,6 +2,8 @@
 import { useBrachioStore } from "@/stores/brachioStore";
 const store = useBrachioStore();
 
+import brachiosaurus_thumbnail_url from "@/assets/brachiosaurus-thumbnail.svg?url";
+
 export default {
   data() {
     return {};
@@ -10,6 +12,9 @@ export default {
     node: Object,
   },
   computed: {
+    brachiosaurus_thumbnail_url() {
+      return brachiosaurus_thumbnail_url;
+    },
     primary_url() {
       // return this.node.snapshot.primary_url.url;
       if (this.node && this.node.snapshot && this.node.snapshot.primary_url) {
@@ -27,7 +32,7 @@ export default {
 
       return {
         placeholder: true,
-        img: "/src/assets/brachiosaurus-thumbnail.svg",
+        img: brachiosaurus_thumbnail_url,
         alt: "This is a placeholder image, a silhouette of a brachiosaurus.",
       };
     },
@@ -126,7 +131,9 @@ export default {
               <div class="pb-2" v-if="primary_url">
                 <span>Primary URL:</span><br />
                 <span
-                  ><a class="card-link" :href="primary_url" style="">{{ primary_url }}</a></span
+                  ><a class="card-link" :href="primary_url" style="">{{
+                    primary_url
+                  }}</a></span
                 >
               </div>
 
@@ -262,7 +269,8 @@ export default {
 
     .card-link {
       text-decoration: none;
-      &:hover, &:active {
+      &:hover,
+      &:active {
         text-decoration: underline;
       }
     }
