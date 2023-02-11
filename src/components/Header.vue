@@ -11,7 +11,7 @@
           to="/"
         >
           <img
-            src="/src/assets/brachiosaurus.svg"
+            :src="`/src/assets/brachiosaurus.svg`"
             class="me-2"
             width="40"
             alt="brachiosaurus"
