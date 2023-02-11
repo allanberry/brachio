@@ -44,40 +44,64 @@ export const useBrachioStore = defineStore("brachioStore", {
       keyword: "",
       categories: [],
       tags: [],
-      technologies: []
+      technologies: [],
     },
   }),
   getters: {
-
     // get all Libraries in the system
     libraries() {
       return (
         this.nodes
           // filter out non-libraries, e.g. university nodes
-          .filter(
-            (node) => {
-              // console.log(node.categories.map((cat) => cat.id).includes('library_academic'))
-
-              const arr1 = [
-                "library_academic",
-                "library_public",
-                "library_museum",
-                "library_state",
-              ];
-
-              const arr2 = node.categories.map((cat) => cat.id);
-
-              return arr1.some((r) => arr2.includes(r));
-            }
-            // &&
-            // node.categories.includes((category) => {
-            //   console.log(category)
-            // })
-          )
+          .filter((node) => {
+            const arr1 = [
+              "library_academic",
+              "library_public",
+              "library_independent",
+              "library_museum",
+              "library_state",
+            ];
+            const arr2 = node.categories.map((cat) => cat.id);
+            return arr1.some((r) => arr2.includes(r));
+          })
 
           // keyword filter
           .filter((node) => {
             return node.search_target.includes(indexify(this.filters.keyword));
+          })
+
+          // category filter
+          .filter((node) => {
+            // return node.categories
+            //   .map((category) => category.id)
+            //   .includes("library_public");
+
+            if (this.filters.categories && this.filters.categories.length) {
+              const arr1 = this.filters.categories;
+              const arr2 = node.categories.map((cat) => cat.id);
+              return arr1.some((r) => arr2.includes(r));
+            }
+            return true;
+          })
+
+          // tag filter
+          .filter((node) => {
+            if (this.filters.tags && this.filters.tags.length) {
+              const arr1 = this.filters.tags;
+              const arr2 = node.tags.map((cat) => cat.id);
+              return arr1.some((r) => arr2.includes(r));
+            }
+            return true;
+          })
+
+          // technology filter
+          .filter((node) => {
+            if (this.filters.technologies && this.filters.technologies.length) {
+              const arr1 = this.filters.technologies;
+              const arr2 = node.technologies.map((cat) => cat.id);
+              return arr1.some((r) => arr2.includes(r));
+            }
+            return true;
           })
 
           // sort records

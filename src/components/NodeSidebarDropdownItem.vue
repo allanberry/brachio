@@ -41,6 +41,7 @@ export default {
         :value="`${item.id}`"
         v-model.lazy="store.filters[filter]"
         :id="`checkbox-${filter}-${item.id}`"
+        @keyup="store.reset_pager"
       />
       <label class="form-check-label" :for="`checkbox-${filter}-${item.id}`">{{
         label
