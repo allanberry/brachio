@@ -44,7 +44,7 @@ function iiif_url(path, width = 500, height) {
 
 // build thumbnail url
 function thumbnail_url(visit_id) {
-  return `https://bcw-images.s3.us-west-1.amazonaws.com/brachio/visits/2000x500/${visit_id}.png`;
+  return `https://bcw-images.s3.us-west-1.amazonaws.com/brachio/visits/1800x360/${visit_id}.png`;
 }
 
 // common filters for Technologies

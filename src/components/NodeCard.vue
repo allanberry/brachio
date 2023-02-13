@@ -113,13 +113,10 @@ export default {
             </ul>
           </div>
 
-          <div>
+          <div v-if="node.snapshot && node.snapshot.visits">
             <h5>Webpage Visits</h5>
 
-            <div
-              class="url_visits"
-              v-if="node.snapshot && node.snapshot.visits"
-            >
+            <div class="url_visits">
               <p>
                 {{ node.snapshot.visits.length }} visits to
                 {{ node.urls.length }} URLs,
@@ -189,8 +186,19 @@ export default {
       <div class="row">
         <div class="col">
           <div class="text-start">
-            <p class="lead">{{ queue_position }}</p>
+            <p class="h4 text-secondary">{{ queue_position }}</p>
           </div>
+          <span class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+            />
+            <label class="form-check-label" for="flexCheckDefault">
+              Pin
+            </label>
+          </span>
         </div>
 
         <div class="col">
@@ -199,7 +207,7 @@ export default {
               <router-link
                 type="button"
                 :to="{ name: 'node', params: { id: node._id } }"
-                class="btn btn-sm btn-primary"
+                class="btn btn-outline-primary"
               >
                 View
               </router-link>
@@ -221,12 +229,15 @@ export default {
     padding: unset;
     border-bottom: unset;
     border-radius: unset;
+    background-color: white;
 
     // background: transparent;
 
     background-size: 100%;
     background-position: top;
     background-repeat: no-repeat;
+
+    min-width: 320px;
 
     &:first-child {
       border-top-right-radius: unset;
@@ -259,6 +270,7 @@ export default {
 
   .card-body {
     flex: 2;
+    min-height: 320px;
 
     .main_col {
       column-count: 2;
@@ -277,6 +289,7 @@ export default {
   }
   .card-footer {
     border-top: none;
+    // line-height: 24px
   }
 }
 </style>

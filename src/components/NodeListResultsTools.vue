@@ -86,6 +86,8 @@ export default {
           >
         </div>
 
+
+
         <div class="col col-4 d-flex justify-content-end">
           <div class="input-group mb-3">
             <label class="input-group-text" for="sort_select">Sort By</label>
@@ -112,24 +114,26 @@ export default {
               <option value="node_gate_count">Gate Count</option>
 
               <option disabled>──────────</option>
-              <option value="node_visit_accessibility">Website Accessibility</option>
-              <option value="node_visit_performance">Website Performance</option>
-              <option value="node_visit_best_practices">Website Best Practices</option>
+              <option value="node_visit_accessibility">
+                Website Accessibility
+              </option>
+              <option value="node_visit_performance">
+                Website Performance
+              </option>
+              <option value="node_visit_best_practices">
+                Website Best Practices
+              </option>
             </select>
           </div>
         </div>
       </div>
     </div>
-
-    
   </div>
-
-  
 
   <div class="row pager" v-if="total_pages != 1">
     <h5 class="col col-12">Pager</h5>
     <p class="col col-12 form-text mb-3">
-      Libraries are divided into "pages", or sets of results.
+      Records are divided into "pages", or sets of results.
     </p>
 
     <!-- <div>
@@ -206,8 +210,8 @@ export default {
       </ul>
     </nav>
 
-    <div class="col col-3 mb-3"  v-if="placement === 'precontent'">
-      <label for="qty_select">Max Libraries per page</label>
+    <div class="col col-3 mb-3" v-if="placement === 'precontent'">
+      <label for="qty_select">Max per page</label>
       <!-- <p class="form-text">Results / Page</p> -->
 
       <select

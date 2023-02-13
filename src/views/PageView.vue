@@ -11,9 +11,9 @@
         <p>
           I mean, you're welcome to peek, but most stuff is pretty broken ATM.
         </p>
-        <p>
+        <p class="lead">
           For more information, please contact Allan Berry:
-          <a href="mailto:aberry3@uic.edu">aberry3@uic.edu</a>. Thanks.
+          <a href="mailto:aberry3@uic.edu">aberry3@uic.edu</a>. Thanks!
         </p>
 
         <h3>Glossary</h3>
@@ -43,7 +43,10 @@
           <li>Thanks to Ben Aldred for help with the name.</li>
           <li>Thanks to UIC faculty for the general support.</li>
         </ul>
-        <p>Allan helps build the web for the UIC Library. He lives in Chicago, originally from Detroit MI.</p>
+        <p>
+          Allan helps build the web for the UIC Library. He lives in Chicago,
+          originally from Detroit MI.
+        </p>
 
         <!-- <p class="lead text-muted">
           Something short and leading about the collection below—its contents,
