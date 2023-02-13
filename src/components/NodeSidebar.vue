@@ -83,7 +83,7 @@ export default {
           type="text"
           class="form-control"
           id="filter_keyword"
-          placeholder="e.g. museum, ivy, hbcu..."
+          placeholder="e.g. a library name or city"
           aria-describedby="filter_keyword_help"
           v-model.lazy="store.filters.keyword"
           @keyup="store.reset_pager()"
@@ -91,11 +91,14 @@ export default {
       </div>
 
       <div class="form-check mb-4">
-        <input class="form-check-input" type="checkbox" id="sdfg" />
-        <label class="form-check-label" for="sdfg">"Pin" only</label>
+        <input
+          class="form-check-input"
+          type="checkbox"
+          id="pins-activate"
+          v-model="store.pins.active"
+        />
+        <label class="form-check-label" for="#pins-activate">"Pin" only</label>
       </div>
-
-
     </div>
 
     <!-- <div class="form-check">
@@ -172,7 +175,13 @@ export default {
           />
         </li> -->
       </ul>
-      <button type="button" class="btn btn-outline-secondary">Clear All</button>
+      <button
+        type="button"
+        class="btn btn-outline-secondary"
+        @click="store.clear_filters()"
+      >
+        Clear All
+      </button>
     </div>
   </div>
 </template>

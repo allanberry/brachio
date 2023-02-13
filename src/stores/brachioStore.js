@@ -21,6 +21,31 @@ import api_technologies from "./datafiles/technologies.json";
 import api_tags from "./datafiles/tags.json";
 import api_categories from "./datafiles/categories.json";
 
+const defaults = {
+  pins: {
+    active: false,
+    pinned: [],
+  },
+
+  pager: {
+    cursor: 0,
+    qty: 10,
+    sort: "node_name",
+  },
+
+  filters: {
+    keyword: "",
+    categories: [],
+    tags: [],
+    technologies: [],
+  },
+};
+
+function deepclone(object) {
+  return JSON.parse(JSON.stringify(object))
+}
+
+
 export const useBrachioStore = defineStore("brachioStore", {
   state: () => ({
     nodes: [],
@@ -33,19 +58,9 @@ export const useBrachioStore = defineStore("brachioStore", {
     categories: api_categories.filter(
       (cat) => cat.parent && cat.parent === "library"
     ),
-
-    pager: {
-      cursor: 0,
-      qty: 10,
-      sort: "name",
-    },
-
-    filters: {
-      keyword: "",
-      categories: [],
-      tags: [],
-      technologies: [],
-    },
+    pins: deepclone(defaults.pins),
+    pager: deepclone(defaults.pager),
+    filters: deepclone(defaults.filters),
   }),
   getters: {
     // get all Libraries in the system
@@ -94,8 +109,22 @@ export const useBrachioStore = defineStore("brachioStore", {
             return true;
           })
 
+          // pins filter
+          .filter((node) => {
+            if (this.pins.active) {
+              if (this.pins.pinned.includes(node._id)) {
+                return true;
+              }
+              return false;
+            }
+            return true;
+          })
+
           // technology filter
           .filter((node) => {
+            // not yet implemented.
+            // need to establish client-side relationship?  no data
+
             // if (this.filters.technologies && node.technologies) {
             //   const arr1 = this.filters.technologies;
             //   const arr2 = node.technologies.map((cat) => cat.id);
@@ -114,13 +143,26 @@ export const useBrachioStore = defineStore("brachioStore", {
             //     node_snapshot: node.snapshot.technologies,
             //   });
             // }
-
-
             return true;
           })
 
           // sort records
-          .sort((a, b) => a[this.pager.sort] > b[this.pager.sort])
+          .sort((node_a, node_b) => {
+            // if (this.pager.sort === "xxx") {
+            //   return node_a.xxx < node_b.xxx;
+            // }
+
+            // default
+            return node_a.name < node_b.name;
+          })
+
+          // randomize records?
+          .sort(() => {
+            if (this.pager.sort === "random") {
+              return 0.5 - Math.random();
+            }
+            return true;
+          })
       );
     },
     // subset of the above, relevant to those currently on the page
@@ -198,7 +240,16 @@ export const useBrachioStore = defineStore("brachioStore", {
       }
     },
     reset_pager() {
-      this.$patch({ pager: { cursor: 0 } });
+      this.$patch({
+        pager: { cursor: 0 }
+      });
+    },
+    clear_filters() {
+      this.$patch({
+        pins: deepclone(defaults.pins),
+        pager: deepclone(defaults.pager),
+        filters: deepclone(defaults.filters),
+      });
     },
   },
 });

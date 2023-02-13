@@ -102,10 +102,10 @@ export default {
               class="form-select"
               id="sort_select"
             >
-              <option disabled value="">Select one</option>
+              <!-- <option disabled value="">Select one</option> -->
               <option value="node_name">Name</option>
-              <option value="random">Random</option>
-              <option disabled>──────────</option>
+              <option value="random" selected="selected">Random</option>
+              <!--<option disabled>---</option>
 
               <option value="node_parent_age">Age</option>
               <option value="node_parent_endowment">Endowment</option>
@@ -113,7 +113,7 @@ export default {
               <option value="node_qty_books">No. of books</option>
               <option value="node_gate_count">Gate Count</option>
 
-              <option disabled>──────────</option>
+              <option disabled>---</option>
               <option value="node_visit_accessibility">
                 Website Accessibility
               </option>
@@ -122,7 +122,7 @@ export default {
               </option>
               <option value="node_visit_best_practices">
                 Website Best Practices
-              </option>
+              </option>-->
             </select>
           </div>
         </div>
@@ -211,7 +211,7 @@ export default {
     </nav>
 
     <div class="col col-3 mb-3" v-if="placement === 'precontent'">
-      <label for="qty_select">Max per page</label>
+      <label for="qty_select">Max/page</label>
       <!-- <p class="form-text">Results / Page</p> -->
 
       <select

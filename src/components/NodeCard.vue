@@ -12,13 +12,14 @@ export default {
     node: Object,
   },
   computed: {
+    store: () => store,
     brachiosaurus_thumbnail_url() {
       return brachiosaurus_thumbnail_url;
     },
     primary_url() {
       // return this.node.snapshot.primary_url.url;
       if (this.node && this.node.snapshot && this.node.snapshot.primary_url) {
-        return this.node.snapshot.primary_url.url;
+        return this.node.snapshot.primary_url.url.replace("https://", "").replace("http://", "");
       }
       return undefined;
     },
@@ -75,6 +76,15 @@ export default {
             {{ loc.country }}
           </p>
         </div>
+
+        <div class="pb-2 primary_url" v-if="primary_url">
+          <span>Primary URL:</span><br />
+          <span
+            ><a class="card-link" :href="primary_url" style="">{{
+              primary_url
+            }}</a></span
+          >
+        </div>
       </div>
 
       <div class="row">
@@ -124,15 +134,6 @@ export default {
                   node.snapshot.visits[0].date.format("YYYY")
                 }}
               </p>
-
-              <div class="pb-2" v-if="primary_url">
-                <span>Primary URL:</span><br />
-                <span
-                  ><a class="card-link" :href="primary_url" style="">{{
-                    primary_url
-                  }}</a></span
-                >
-              </div>
 
               <div>
                 <span>Latest visit:</span>
@@ -188,14 +189,16 @@ export default {
           <div class="text-start">
             <p class="h4 text-secondary">{{ queue_position }}</p>
           </div>
+
           <span class="form-check">
             <input
               class="form-check-input"
               type="checkbox"
-              value=""
-              id="flexCheckDefault"
+              :id="`pin-${node._id}`"
+              :value="`${node._id}`"
+              v-model="store.pins.pinned"
             />
-            <label class="form-check-label" for="flexCheckDefault">
+            <label class="form-check-label" :for="`pin-${node._id}`">
               Pin
             </label>
           </span>
@@ -237,7 +240,8 @@ export default {
     background-position: top;
     background-repeat: no-repeat;
 
-    min-width: 320px;
+    width: 320px;
+    min-height: 320px;
 
     &:first-child {
       border-top-right-radius: unset;
@@ -272,11 +276,27 @@ export default {
     flex: 2;
     min-height: 320px;
 
+    .primary_url {
+        a {
+          display: inline-block;
+          // border: 2px solid red;
+          max-width: 240px;
+
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+
+
     .main_col {
       column-count: 2;
+      column-width: 360;
       & > * {
         break-inside: avoid;
       }
+
+
     }
 
     .card-link {
