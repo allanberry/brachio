@@ -19,7 +19,7 @@ export default {
     primary_url() {
       // return this.node.snapshot.primary_url.url;
       if (this.node && this.node.snapshot && this.node.snapshot.primary_url) {
-        return this.node.snapshot.primary_url.url.replace("https://", "").replace("http://", "");
+        return this.node.snapshot.primary_url.url;
       }
       return undefined;
     },
@@ -81,7 +81,7 @@ export default {
           <span>Primary URL:</span><br />
           <span
             ><a class="card-link" :href="primary_url" style="">{{
-              primary_url
+              primary_url.replace("https://", "").replace("http://", "")
             }}</a></span
           >
         </div>
@@ -277,20 +277,17 @@ export default {
     min-height: 320px;
 
     .primary_url {
-        a {
-          display: inline-block;
-          // border: 2px solid red;
-          max-width: 240px;
+      a {
+        display: inline-block;
+        // border: 2px solid red;
+        max-width: 240px;
 
-          white-space: nowrap;
-          overflow: hidden;
-          text-overflow: ellipsis;
-          word-break: break-all;
-
-          
-        }
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        word-break: break-all;
       }
-
+    }
 
     .main_col {
       column-count: 2;
@@ -298,8 +295,6 @@ export default {
       & > * {
         break-inside: avoid;
       }
-
-
     }
 
     .card-link {
