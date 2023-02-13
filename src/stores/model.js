@@ -115,8 +115,8 @@ class Visit {
         ? apiVisit.analysis.lighthouse.data.categories.bestPractices.score
         : undefined;
 
-    this.technologies.wappalyzer;
-    this.technologies.builtwith;
+    // this.technologies.wappalyzer;
+    // this.technologies.builtwith;
 
     this.metrics_styles_colors =
       apiVisit.analysis &&
