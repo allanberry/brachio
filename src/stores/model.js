@@ -23,13 +23,18 @@ import api_categories from "./datafiles/categories.json";
 
 import dayjs from "dayjs";
 
+function derive_date(visit_id) {
+  const date_string = visit_id.split("_").slice(-1)[0];
+  return dayjs(date_string);
+}
+
 class Visit {
   constructor(apiVisit) {
     // this._id = apiVisit._id;
     this.id = apiVisit.id;
     this.url = apiVisit.url;
 
-    this.date_accessed = apiVisit.date_accessed;
+    this.date_accessed = dayjs(apiVisit.date_accessed).format('YYYY-MM-DD');
 
     // this.date_wayback = "asdfasdf"
     // apiVisit.wayback
@@ -274,7 +279,7 @@ class Visit {
   }
 
   get date() {
-    return "blorkyblork";
+    return this.date_wayback ? this.date_wayback : derive_date(this.id);
   }
 }
 
@@ -425,11 +430,6 @@ class Snapshot {
     if (visits && visits.length) {
       this.visits = visits
         .map((visit) => {
-          function derive_date(visit_id) {
-            const date_string = visit_id.split("_").slice(-1)[0];
-            return dayjs(date_string);
-          }
-
           // console.log(visit.id)
           return {
             date: visit.date_wayback

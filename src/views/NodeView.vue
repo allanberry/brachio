@@ -74,22 +74,6 @@ export default {
           <hr />
         </div>
 
-        <div>
-          <h4>Pages (URLs)</h4>
-
-          <ul v-if="urls">
-            <li v-for="url in urls" :key="url.url">
-              <h5><span class="lead">URL:</span> {{ url.url }}</h5>
-              <ul v-if="url.visits">
-                <li class="mb-3" v-for="visit in url.visits" :key="visit._id">
-                  <VisitCard :visit="visit" />
-                </li>
-              </ul>
-            </li>
-          </ul>
-          <hr />
-        </div>
-
         <div v-if="node.categories && node.categories.length">
           <h4>Categories</h4>
           <ul>
@@ -135,6 +119,24 @@ export default {
           </ul>
           <hr />
         </div>
+
+
+        <div>
+          <h4>Pages (URLs)</h4>
+
+          <ul v-if="urls">
+            <li v-for="url in urls" :key="url.url">
+              <h5><span class="lead">URL:</span> {{ url.url }}</h5>
+              <ul v-if="url.visits">
+                <li class="mb-3" v-for="visit in url.visits" :key="visit._id">
+                  <VisitCard :visit="visit" />
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <hr />
+        </div>
+
 
         <!-- <div>
           <h4>Connections</h4>

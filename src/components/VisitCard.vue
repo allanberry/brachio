@@ -18,7 +18,7 @@ export default {
       return [
         { label: "title", metric: visit.title },
         { label: "date accessed", metric: visit.date_accessed },
-        { label: "date", metric: visit.date },
+        { label: "date", metric: visit.date.format("YYYY-MM-DD") },
         // { label: "date wayback", metric: visit.date_wayback },
         { label: "url wayback", metric: visit.url_wayback, overflow: false },
         {
