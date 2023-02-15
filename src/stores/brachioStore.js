@@ -42,9 +42,8 @@ const defaults = {
 };
 
 function deepclone(object) {
-  return JSON.parse(JSON.stringify(object))
+  return JSON.parse(JSON.stringify(object));
 }
-
 
 export const useBrachioStore = defineStore("brachioStore", {
   state: () => ({
@@ -241,7 +240,7 @@ export const useBrachioStore = defineStore("brachioStore", {
     },
     reset_pager() {
       this.$patch({
-        pager: { cursor: 0 }
+        pager: { cursor: 0 },
       });
     },
     clear_filters() {

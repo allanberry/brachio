@@ -48,7 +48,7 @@ export default {
     </div>
   </section>
 
-  <div class="album pb-5 bg-light">
+  <div class="album pb-5">
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-4 col-lg-3">

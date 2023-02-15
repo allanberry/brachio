@@ -34,7 +34,7 @@ class Visit {
     this.id = apiVisit.id;
     this.url = apiVisit.url;
 
-    this.date_accessed = dayjs(apiVisit.date_accessed).format('YYYY-MM-DD');
+    this.date_accessed = dayjs(apiVisit.date_accessed).format("YYYY-MM-DD");
 
     // this.date_wayback = "asdfasdf"
     // apiVisit.wayback
@@ -357,8 +357,26 @@ class Node {
 
     // console.log({categories: this.categories})
 
-    this.arl = api_arls.find((arl) => arl._id === apiNode.arl_id);
-    this.ipeds = api_ipeds.find((ipeds) => ipeds._id === apiNode.iped_id);
+    // console.log({ ipeds: apiNode.ipeds, arl: apiNode.arl });
+
+    this.arl = api_arls.find((arl) => {
+      if (apiNode.arl) {
+        return arl._id === apiNode.arl;
+      }
+      return false;
+    });
+    this.ipeds = api_ipeds.find((ipeds) => {
+      if (apiNode.ipeds) {
+        // console.log(ipeds._id === apiNode.ipeds);
+
+        return ipeds._id === apiNode.ipeds;
+      }
+      return false;
+    });
+
+
+
+    // console.log(api_ipeds)
 
     this.connections = api_connections.filter(
       (conn) => conn.subject === this._id || conn.dobject === this._id

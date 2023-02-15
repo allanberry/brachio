@@ -17,6 +17,7 @@ export default {
     visit_data: function (visit) {
       return [
         { label: "title", metric: visit.title },
+        { label: "id", metric: visit.id },
         { label: "date accessed", metric: visit.date_accessed },
         { label: "date", metric: visit.date.format("YYYY-MM-DD") },
         // { label: "date wayback", metric: visit.date_wayback },
@@ -107,16 +108,19 @@ export default {
           label: "screenshot mobile",
           metric: visit.pics().mobile,
           overflow: "false",
+          link: true,
         },
         {
           label: "screenshot tablet",
           metric: visit.pics().tablet,
           overflow: "false",
+          link: true,
         },
         {
           label: "screenshot desktop",
           metric: visit.pics().desktop,
           overflow: "false",
+          link: true,
         },
       ];
     },
@@ -125,11 +129,55 @@ export default {
 </script>
 
 <template>
-  <div class="card">
+  <div class="card visit_card flex-row flex-wrap mb-4 shadow-sm">
+    <div class="row g-0">
+      <div class="col-md-4 bg-light" style="max-height: 360px; overflow: hidden;">
+        <img :src="visit.pics().tablet" class="img-fluid rounded-start" />
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title"> {{ visit.date.format("YYYY-MM-DD") }}
+          </h5>
+          <p class="card-text">
+            <small class="text-muted">{{ visit.id }}</small>
+          </p>
+
+          <ul>
+            <li>
+              <span>title:</span> <span>{{ visit.title }}</span>
+            </li>
+
+            <li>
+              <span>performance:</span>
+              <span>{{ visit.metrics_performance }}</span>
+            </li>
+            <li>
+              <span>accessibility:</span>
+              <span>{{ visit.metrics_accessibility }}</span>
+            </li>
+            <li>
+              <span>best practices:</span>
+              <span>{{ visit.metrics_best_practices }}</span>
+            </li>
+          </ul>
+
+          <button
+            class="btn btn-sm btn-outline-secondary"
+            type="button"
+            data-bs-toggle="collapse"
+            :data-bs-target="`#${visit.id}-data-table`"
+            aria-expanded="false"
+            :aria-controls="`${visit.id}-data-table`"
+          >
+            Toggle Data
+          </button>
+        </div>
+      </div>
+    </div>
+
     <!-- <img src="//placehold.it/200" class="card-img-top" alt="..." /> -->
-    <div class="card-body">
-      <h5 class="card-title">Visit {{ visit.id  }}</h5>
-      <!-- <ul>
+
+    <!-- <ul>
         <li class="row" v-for="item in visit_data(visit)" :key="item._id">
           <span class="col-5 col-lg-3" style="font-weight: 700">{{
             item.label
@@ -140,16 +188,16 @@ export default {
         </li>
       </ul> -->
 
-      <table class="table">
-        <thead>
-          <tr>
-            <!-- <th scope="col">#</th> -->
-            <th scope="col">Label</th>
-            <th scope="col">Metric</th>
-          </tr>
-        </thead>
-        <tbody>
-          <!-- <li class="row" v-for="item in visit_data(visit)" :key="item._id">
+    <table class="card-body table collapse" :id="`${visit.id}-data-table`">
+      <thead>
+        <tr>
+          <!-- <th scope="col">#</th> -->
+          <th scope="col">Label</th>
+          <th scope="col">Metric</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- <li class="row" v-for="item in visit_data(visit)" :key="item._id">
           <span class="col-5 col-lg-3" style="font-weight: 700">{{
             item.label
           }}</span>
@@ -158,22 +206,24 @@ export default {
           </span>
         </li> -->
 
-          <tr v-for="item in visit_data(visit)" :key="item._id">
-            <!-- <th scope="row">1</th> -->
-            <th>{{ item.label }}</th>
-            <td>
-              {{ item.metric }}
-            </td>
-          </tr>
+        <tr v-for="item in visit_data(visit)" :key="item._id">
+          <!-- <th scope="row">1</th> -->
+          <th>{{ item.label }}</th>
+          <td v-if="item.link">
+            <a :href="item.metric" target="_new">{{ item.metric }}</a>
+          </td>
+          <td v-else>
+            {{ item.metric }}
+          </td>
+        </tr>
 
-          <!-- <tr>
+        <!-- <tr>
             <th scope="row">2</th>
             <td>Jacob</td>
             <td>Thornton</td>
           </tr> -->
-        </tbody>
-      </table>
-    </div>
+      </tbody>
+    </table>
     <!-- <ul class="list-group list-group-flush">
       <li class="list-group-item">An item</li>
       <li class="list-group-item">A second item</li>
@@ -222,14 +272,84 @@ export default {
     </div> -->
 </template>
 
-<style>
-/* .card-img-top {
+<style lang="scss">
+.card.visit_card {
+  /* .card-img-top {
   object-fit: cover;
   object-position: top;
 } */
 
-td {
-  overflow: hidden;
-  word-break: break-all
+  td {
+    overflow: hidden;
+    word-break: break-all;
+  }
+
+  .card-header {
+    padding: unset;
+    border-bottom: unset;
+    background-color: white;
+
+    // background: transparent;
+
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+
+    width: 320px;
+    min-height: 320px;
+
+    &:first-child {
+      border-top-right-radius: unset;
+    }
+    mask-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(0, 0, 0, 1) 80%,
+      rgba(0, 0, 0, 0) 100%
+    );
+
+    // max-height: 400px;
+    width: 100%;
+
+    // height: 100%;
+    // .card-img.img-thumbnail {
+    //   padding: 0;
+    //   border-radius: unset;
+    //   // object-fit: cover;
+    //   // object-position: left;
+    //   margin-bottom: unset;
+    //   border: none;
+
+    //   flex: 1;
+
+    //   mask-image: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 75%, rgba(0,0,0,0) 100%);
+
+    // }
+  }
+
+  .card-body {
+    flex: 2;
+    min-height: 320px;
+
+    .main_col {
+      column-count: 2;
+      column-width: 360;
+      & > * {
+        break-inside: avoid;
+      }
+    }
+
+    .card-link {
+      text-decoration: none;
+      &:hover,
+      &:active {
+        text-decoration: underline;
+      }
+    }
+  }
+  .card-footer {
+    border-top: none;
+    // line-height: 24px
+  }
 }
 </style>

@@ -45,7 +45,7 @@ export default {
 </script>
 
 <template>
-  <div class="card flex-row flex-wrap mb-4 bg-light shadow-sm">
+  <div class="card flex-row flex-wrap mb-4 shadow-sm">
     <div class="col card-header" :style="background_image">
       <!-- <img
         class="card-img img-thumbnail"
@@ -100,9 +100,9 @@ export default {
 
           <div v-if="node.tags && node.tags.length">
             <h5>Tags</h5>
-            <ul>
-              <li v-for="tag in node.tags" :key="tag.id">
-                {{ tag.label }}
+            <ul class="list-inline">
+              <li v-for="tag in node.tags" :key="tag.id" class="list-inline-item">
+                {{ tag.label_short }}
               </li>
             </ul>
           </div>
@@ -231,7 +231,6 @@ export default {
   .card-header {
     padding: unset;
     border-bottom: unset;
-    border-radius: unset;
     background-color: white;
 
     // background: transparent;

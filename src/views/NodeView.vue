@@ -3,6 +3,8 @@
 
 import VisitCard from "../components/VisitCard.vue";
 import { useBrachioStore } from "@/stores/brachioStore";
+import slugify from "slugify";
+import { currency_formatter } from "@/utils";
 
 const store = useBrachioStore();
 
@@ -30,6 +32,12 @@ export default {
     }
   },
   methods: {
+    slugify: (str) => slugify(str),
+    currency: (str) => currency_formatter.format(str),
+    num_format: (str) =>
+      new Intl.NumberFormat("en-US", { maximumSignificantDigits: 3 }).format(
+        str
+      ),
     async fetchVisits() {
       try {
         for (const url of this.node.urls) {
@@ -48,22 +56,59 @@ export default {
     <div class="row py-lg-5">
       <div class="col" v-if="node">
         <h1 class="fw-light">{{ node.name }}</h1>
-        <p>_id: {{ node._id }}</p>
+        <!-- <p>_id: {{ node._id }}</p> -->
 
-        <div v-if="node.parents && node.parents.length">
+        <div
+          v-if="node.parents && node.parents.length"
+          class="node_section"
+          :id="`${node._id}-parents`"
+        >
           <h4>Parents</h4>
+          <p>Parent nodes.</p>
           <ul>
-            <li v-for="p in node.parents" :key="p.name">
-              <RouterLink :to="{ name: 'node', params: { id: p._id } }">{{
-                p.name
+            <li v-for="parent in node.parents" :key="parent.name">
+              <RouterLink :to="{ name: 'node', params: { id: parent._id } }">{{
+                parent.name
               }}</RouterLink>
+
+              <div v-if="parent.ipeds" :id="`parent-${parent._id}-ipeds`">
+                <h5>IPEDS</h5>
+                <p>IPEDs stats for the parent node.</p>
+                <ul>
+                  <li>
+                    Core revenues (2018):
+                    {{ currency(parent.ipeds.core_revenues_DRVF2018) }}
+                  </li>
+                  <li>
+                    Total Expenditures (2018):
+                    {{ currency(parent.ipeds.LEXPTOT_AL2018) }}
+                  </li>
+                  <li>
+                    Total student enrollment (2017):
+                    {{ num_format(parent.ipeds.ENRTOT_DRVEF2017_RV) }}
+                  </li>
+                  <li>
+                    Endowment per student (2018):
+                    {{ currency(parent.ipeds.endowment_assets_DRVF2018) }}
+                  </li>
+                  <li>
+                    Total library circulations (2018):
+                    {{ num_format(parent.ipeds.LTCRCLT_AL2018) }}
+                  </li>
+                </ul>
+              </div>
             </li>
           </ul>
           <hr />
         </div>
 
-        <div v-if="node.children && node.children.length">
+        <div
+          v-if="node.children && node.children.length"
+          class="node_section"
+          :id="`${node._id}-children`"
+        >
           <h4>Children</h4>
+          <p>Child nodes.</p>
           <ul>
             <li v-for="c in node.children" :key="c.name">
               <RouterLink :to="{ name: 'node', params: { id: c._id } }">{{
@@ -74,11 +119,16 @@ export default {
           <hr />
         </div>
 
-        <div v-if="node.categories && node.categories.length">
+        <div
+          v-if="node.categories && node.categories.length"
+          class="node_section"
+          :id="`${node._id}-categories`"
+        >
           <h4>Categories</h4>
+          <p>Categories for this node.</p>
           <ul>
             <li v-for="cat in node.categories" :key="cat._id">
-              {{ cat }}
+              {{ cat.label_full }}
               <!-- <ul>
                 <li>Academic</li>
               </ul> -->
@@ -87,18 +137,28 @@ export default {
           <hr />
         </div>
 
-        <div v-if="node.tags && node.tags.length">
+        <div
+          v-if="node.tags && node.tags.length"
+          :id="`${node._id}-tags`"
+          class="node_section"
+        >
           <h4>Tags</h4>
-          <ul>
-            <li v-for="tag in node.tags" :key="tag">
-              {{ tag }}
+          <p>Tags for this node.</p>
+          <ul class="list-inline">
+            <li v-for="tag in node.tags" :key="tag" class="list-inline-item">
+              {{ tag.label_short }}
             </li>
           </ul>
           <hr />
         </div>
 
-        <div v-if="node.locations && node.locations.length">
+        <div
+          v-if="node.locations && node.locations.length"
+          class="node_section"
+          :id="`${node._id}-locations`"
+        >
           <h4>Locations</h4>
+          <p>Locations for this node.</p>
           <ul>
             <li v-for="loc in node.locations" :key="loc._id">
               <p>
@@ -120,42 +180,9 @@ export default {
           <hr />
         </div>
 
-
-        <div>
-          <h4>Pages (URLs)</h4>
-
-          <ul v-if="urls">
-            <li v-for="url in urls" :key="url.url">
-              <h5><span class="lead">URL:</span> {{ url.url }}</h5>
-              <ul v-if="url.visits">
-                <li class="mb-3" v-for="visit in url.visits" :key="visit._id">
-                  <VisitCard :visit="visit" />
-                </li>
-              </ul>
-            </li>
-          </ul>
-          <hr />
-        </div>
-
-
-        <!-- <div>
-          <h4>Connections</h4>
-
-          <ul v-if="connections">
-            <li v-for="connection in connections" :key="connection._id">
-              {{ connection.subject._id }} {{ connection.predicate }}
-              {{ connection.dobject._id }}
-            </li>
-          </ul>
-          <div v-else>
-            <p>No Connections</p>
-            <p>Store connections: {{ store.connections }}</p>
-          </div>
-          <hr />
-        </div> -->
-
-        <div v-if="node.ipeds">
-          <h4>IPEDS stats</h4>
+        <div v-if="node.ipeds" :id="`${node._id}-ipeds`" class="node_section">
+          <h4>IPEDS</h4>
+          <p>IPEDs stats for this node.</p>
           <ul>
             <li>
               Core revenues (2018): {{ node.ipeds.core_revenues_DRVF2018 }}
@@ -174,16 +201,72 @@ export default {
           <hr />
         </div>
 
-        <div v-if="node.arl">
+        <div v-if="node.arl" :id="`${node._id}-arl`">
           <h4>ARL stats</h4>
+          <p>ARL stats for this node.</p>
           <ul>
             <li>Total volumes: {{ node.arl.vols }}</li>
             <li>Gate count: {{ node.arl.gatecount }}</li>
           </ul>
           <hr />
         </div>
+
+        <div
+          v-if="node.urls && node.urls.length"
+          :id="`${node._id}-urls`"
+          class="node_section"
+        >
+          <h4>Pages (URLs)</h4>
+          <p>URLs for this node.</p>
+
+          <ul>
+            <li v-for="url in urls" :key="url.url">
+              <h5><span class="lead">URL:</span> {{ url.url }}</h5>
+
+              <ul
+                v-if="url.visits"
+                class="row visit_list"
+                :id="`${node._id}-${slugify(url.url)}-visits`"
+              >
+                <li
+                  class="mb-3 col-lg-6 visit_list_item"
+                  v-for="visit in url.visits"
+                  :key="visit._id"
+                >
+                  <VisitCard :visit="visit" />
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <hr />
+        </div>
+
+        <!-- <div>
+          <h4>Connections</h4>
+
+          <ul v-if="connections">
+            <li v-for="connection in connections" :key="connection._id">
+              {{ connection.subject._id }} {{ connection.predicate }}
+              {{ connection.dobject._id }}
+            </li>
+          </ul>
+          <div v-else>
+            <p>No Connections</p>
+            <p>Store connections: {{ store.connections }}</p>
+          </div>
+          <hr />
+        </div> -->
       </div>
       <p v-else>loading...</p>
     </div>
   </section>
 </template>
+
+<style lang="scss">
+.node_section {
+  ul.visit_list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+}
+</style>
