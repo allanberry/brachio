@@ -30,7 +30,7 @@ const defaults = {
   pager: {
     cursor: 0,
     qty: 10,
-    sort: "node_name",
+    sort: "random",
   },
 
   filters: {

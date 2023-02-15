@@ -1,16 +1,18 @@
 <script>
 // import { useRoute } from "vue-router";
 
-import VisitCard from "../components/VisitCard.vue";
+import VisitCard from "@/components/VisitCard.vue";
+import ChartURL from "@/components/ChartURL.vue";
 import { useBrachioStore } from "@/stores/brachioStore";
 import slugify from "slugify";
-import { currency_formatter } from "@/utils";
+import { currency_formatter, number_formatter } from "@/utils";
 
 const store = useBrachioStore();
 
 export default {
   components: {
     VisitCard,
+    ChartURL,
   },
   data() {
     return {
@@ -33,11 +35,8 @@ export default {
   },
   methods: {
     slugify: (str) => slugify(str),
-    currency: (str) => currency_formatter.format(str),
-    num_format: (str) =>
-      new Intl.NumberFormat("en-US", { maximumSignificantDigits: 3 }).format(
-        str
-      ),
+    currency_format: (str) => currency_formatter.format(str),
+    number_format: (str) => number_formatter.format(str),
     async fetchVisits() {
       try {
         for (const url of this.node.urls) {
@@ -77,23 +76,25 @@ export default {
                 <ul>
                   <li>
                     Core revenues (2018):
-                    {{ currency(parent.ipeds.core_revenues_DRVF2018) }}
+                    {{ currency_format(parent.ipeds.core_revenues_DRVF2018) }}
                   </li>
                   <li>
                     Total Expenditures (2018):
-                    {{ currency(parent.ipeds.LEXPTOT_AL2018) }}
+                    {{ currency_format(parent.ipeds.LEXPTOT_AL2018) }}
                   </li>
                   <li>
                     Total student enrollment (2017):
-                    {{ num_format(parent.ipeds.ENRTOT_DRVEF2017_RV) }}
+                    {{ number_format(parent.ipeds.ENRTOT_DRVEF2017_RV) }}
                   </li>
                   <li>
                     Endowment per student (2018):
-                    {{ currency(parent.ipeds.endowment_assets_DRVF2018) }}
+                    {{
+                      currency_format(parent.ipeds.endowment_assets_DRVF2018)
+                    }}
                   </li>
                   <li>
                     Total library circulations (2018):
-                    {{ num_format(parent.ipeds.LTCRCLT_AL2018) }}
+                    {{ number_format(parent.ipeds.LTCRCLT_AL2018) }}
                   </li>
                 </ul>
               </div>
@@ -205,8 +206,8 @@ export default {
           <h4>ARL stats</h4>
           <p>ARL stats for this node.</p>
           <ul>
-            <li>Total volumes: {{ node.arl.vols }}</li>
-            <li>Gate count: {{ node.arl.gatecount }}</li>
+            <li v-if="node.arl.vols">Total volumes: {{ number_format(node.arl.vols) }}</li>
+            <li v-if="node.arl.gatecount">Gate count: {{ number_format(node.arl.gatecount) }}</li>
           </ul>
           <hr />
         </div>
@@ -221,6 +222,9 @@ export default {
 
           <ul>
             <li v-for="url in urls" :key="url.url">
+
+              <ChartURL :url="url" :data="[99, 71, 78, 25, 36, 80]" />
+
               <h5><span class="lead">URL:</span> {{ url.url }}</h5>
 
               <ul

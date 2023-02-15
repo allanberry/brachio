@@ -84,6 +84,10 @@ const currency_formatter = new Intl.NumberFormat("en-US", {
   //maximumFractionDigits: 0, // (causes 2500.99 to be printed as $2,501)
 });
 
+const number_formatter = new Intl.NumberFormat("en-US", {
+  maximumSignificantDigits: 3,
+});
+
 export {
   indexify,
   atlas,
@@ -91,4 +95,5 @@ export {
   thumbnail_url,
   tech_filter,
   currency_formatter,
+  number_formatter
 };
