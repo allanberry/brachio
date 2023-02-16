@@ -206,8 +206,12 @@ export default {
           <h4>ARL stats</h4>
           <p>ARL stats for this node.</p>
           <ul>
-            <li v-if="node.arl.vols">Total volumes: {{ number_format(node.arl.vols) }}</li>
-            <li v-if="node.arl.gatecount">Gate count: {{ number_format(node.arl.gatecount) }}</li>
+            <li v-if="node.arl.vols">
+              Total volumes: {{ number_format(node.arl.vols) }}
+            </li>
+            <li v-if="node.arl.gatecount">
+              Gate count: {{ number_format(node.arl.gatecount) }}
+            </li>
           </ul>
           <hr />
         </div>
@@ -222,10 +226,9 @@ export default {
 
           <ul>
             <li v-for="url in urls" :key="url.url">
-
-              <ChartURL :url="url" :data="[99, 71, 78, 25, 36, 80]" />
-
               <h5><span class="lead">URL:</span> {{ url.url }}</h5>
+
+              <ChartURL :url="url" class="mb-4" />
 
               <ul
                 v-if="url.visits"

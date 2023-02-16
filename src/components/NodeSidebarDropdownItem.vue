@@ -1,7 +1,7 @@
 <script>
 import { useBrachioStore } from "@/stores/brachioStore";
 const store = useBrachioStore();
-import slugify from "slugify";
+// import slugify from "slugify";
 
 export default {
   data() {
