@@ -1346,7 +1346,6 @@ export default {
         strokeOpacity = 1, // stroke opacity of line
       } = {}
     ) {
-      console.log(data);
 
       // Compute values.
       const X = d3.map(data, x);
@@ -1421,6 +1420,7 @@ export default {
         .attr("stroke-opacity", strokeOpacity)
         .attr("d", line(I));
 
+        
       return svg.node();
     },
   },
