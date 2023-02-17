@@ -15,66 +15,79 @@ export default {
         lower: true,
         remove: /[//*+~.-_()'"!:@]/g,
       })}`,
+      url_chart: Object,
       // width: 200,
       // height: 200,
-      chart_data: [
-        {
-          id: "Visit 2020",
-          score: 50,
-        },
-        {
-          id: "Visit 2021",
-          score: 75,
-        },
-        {
-          id: "Visit 1999",
-          score: 25,
-        },
-        {
-          id: "Visit 1995",
-          score: 100,
-        },
-        {
-          id: "Visit 2010",
-          score: 65,
-        },
-      ],
     };
   },
   props: {
     url: Object,
   },
-  methods: {},
+  methods: {
+    // getData: function () {
+    //   return this.$refs;
+    // },
+  },
   computed: {
+    visits: function () {
+      return this.url.visits.map((visit) => {
+        return {
+          id: visit.id,
+          date: new Date(visit.date),
+          metrics_best_practices: visit.metrics_best_practices,
+          metrics_accessibility: visit.metrics_accessibility,
+          metrics_performance: visit.metrics_performance,
+        };
+      });
+    },
     chart: function () {
       return Plot.plot({
+        grid: true,
+        line: true,
+        // width: this.calculate_width(),
         style: {
           background: "transparent",
         },
-        y: {
-          grid: true,
+        x: {
+          domain: [new Date("1995"), Date.now()],
         },
-        color: {
-          type: "diverging",
-          scheme: "burd",
+        y: {
+          domain: [0, 1.0],
         },
         marks: [
-          Plot.ruleY([0]),
+          Plot.lineY(this.visits, {
+            x: "date",
+            y: "metrics_best_practices",
+            // curve: "step",
+            stroke: "blue",
+          }),
 
-          Plot.barY(this.chart_data, { x: "id", y: "score", stroke: "steelblue", fill: "aqua" }),
-          // Plot.barY(this.chart_data, {
-          //   x: "id",
-          //   y: "score",
-          //   stroke: "steelblue",
-          // }),
+          Plot.lineY(this.visits, {
+            x: "date",
+            y: "metrics_performance",
+            // curve: "step",
+            stroke: "red",
+          }),
+
+          Plot.lineY(this.visits, {
+            x: "date",
+            y: "metrics_accessibility",
+            // curve: "step",
+            stroke: "orange",
+          }),
         ],
-        caption: `Figure 1. This chart has a <i>fancy</i> caption.`,
+        // caption: `Figure 1. This chart has a <i>fancy</i> caption.`,
       });
     },
   },
   mounted() {
-    document.querySelector(`#${this.chart_id}`).append(this.chart);
+    this.url_chart = document
+      .querySelector(`#${this.chart_id}`)
+      .append(this.chart);
   },
+  // updated() {
+  //   console.log(this.getData());
+  // },
 };
 </script>
 
@@ -83,7 +96,10 @@ export default {
   <div class="card chart chart-url p-4" :id="`chart-url-${chart_id}`">
     <!-- <div>{{ chart }}</div>
     <div v-html="chart"></div> -->
+    <!-- <p>{{ getData() }}</p> -->
     <div :id="chart_id"></div>
+
+    <!-- <p>{{ url.visits }}</p> -->
   </div>
 </template>
 
@@ -95,7 +111,6 @@ export default {
 // }
 
 .card.chart.chart-url {
-  border: 2px solid orange;
 }
 </style>
 

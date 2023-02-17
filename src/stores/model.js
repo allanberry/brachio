@@ -301,9 +301,16 @@ class URL {
           url: this.url,
           limit: 100000,
         });
+
+
+        
+
+
         this.visits = await response.visits.map(
           (api_visit) => new Visit(api_visit)
         );
+
+        console.log(this, this.visits);
       }
     } catch (error) {
       console.error(error);

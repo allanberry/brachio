@@ -228,7 +228,11 @@ export default {
             <li v-for="url in urls" :key="url.url">
               <h5><span class="lead">URL:</span> {{ url.url }}</h5>
 
-              <ChartURL :url="url" class="mb-4" />
+              <ChartURL
+                v-if="url.visits && url.visits.length"
+                :url="url"
+                class="mb-4"
+              />
 
               <ul
                 v-if="url.visits"

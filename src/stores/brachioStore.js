@@ -62,6 +62,10 @@ export const useBrachioStore = defineStore("brachioStore", {
     filters: deepclone(defaults.filters),
   }),
   getters: {
+    // node_current() {
+    //   return this.nodes.find((node) => node.current === true)
+    // }
+
     // get all Libraries in the system
     libraries() {
       return (
