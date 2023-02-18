@@ -16,8 +16,6 @@ export default {
         remove: /[//*+~.-_()'"!:@]/g,
       })}`,
       url_chart: Object,
-      // width: 200,
-      // height: 200,
     };
   },
   props: {
@@ -42,9 +40,10 @@ export default {
     },
     chart: function () {
       return Plot.plot({
-        grid: true,
+        // grid: true,
         line: true,
         // width: this.calculate_width(),
+        height: 240,
         style: {
           background: "transparent",
         },
@@ -53,27 +52,43 @@ export default {
         },
         y: {
           domain: [0, 1.0],
+          grid: true,
+        },
+        color: {
+          domain: ["best practices", "performance", "accessibility"],
+          range: ["red", "green", "orange"],
+          legend: true,
         },
         marks: [
-          Plot.lineY(this.visits, {
+          Plot.ruleX(this.visits, {
+            x: "date",
+            stroke: "#ddd",
+            strokeWidth: 1,
+          }),
+
+          Plot.line(this.visits, {
             x: "date",
             y: "metrics_best_practices",
             // curve: "step",
-            stroke: "blue",
+            stroke: "red",
+            strokeWidth: 3,
           }),
 
-          Plot.lineY(this.visits, {
+          Plot.line(this.visits, {
             x: "date",
             y: "metrics_performance",
             // curve: "step",
-            stroke: "red",
+            // stroke: "red",
+            stroke: "green",
+            strokeWidth: 3,
           }),
 
-          Plot.lineY(this.visits, {
+          Plot.line(this.visits, {
             x: "date",
             y: "metrics_accessibility",
             // curve: "step",
             stroke: "orange",
+            strokeWidth: 3,
           }),
         ],
         // caption: `Figure 1. This chart has a <i>fancy</i> caption.`,
@@ -93,7 +108,7 @@ export default {
 
 <template>
   <!-- <div :id="chart_id" class="card url_chart shadow-sm"></div> -->
-  <div class="card chart chart-url p-4" :id="`chart-url-${chart_id}`">
+  <div class="card chart chart-url px-3 pt-2" :id="`chart-url-${chart_id}`">
     <!-- <div>{{ chart }}</div>
     <div v-html="chart"></div> -->
     <!-- <p>{{ getData() }}</p> -->
@@ -110,7 +125,10 @@ export default {
 //   }
 // }
 
-.card.chart.chart-url {
+.card {
+  figure > svg {
+    width: 100%;
+  }
 }
 </style>
 

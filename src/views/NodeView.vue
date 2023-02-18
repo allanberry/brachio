@@ -225,11 +225,12 @@ export default {
           <p>URLs for this node.</p>
 
           <ul>
-            <li v-for="url in urls" :key="url.url">
+            <li v-for="url in urls" :key="url.url" >
               <h5><span class="lead">URL:</span> {{ url.url }}</h5>
 
               <ChartURL
                 v-if="url.visits && url.visits.length"
+                
                 :url="url"
                 class="mb-4"
               />
