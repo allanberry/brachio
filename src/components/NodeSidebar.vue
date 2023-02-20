@@ -75,10 +75,19 @@ export default {
 
     <div class="mb-4" id="sidebar_filters">
       <h5>Filters</h5>
-      <p class="form-text">Enter keywords to limit choices.</p>
+      <div class="form-check mb-4">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          id="pins-activate"
+          v-model="store.pins.active"
+        />
+        <label class="form-check-label" for="#pins-activate">"Pin" only</label>
+      </div>
 
       <div class="mb-4">
         <label for="filter_keyword" class="form-label">Keyword Filter</label>
+        <p class="form-text">Enter keywords to limit choices.</p>
         <input
           type="text"
           class="form-control"
@@ -88,16 +97,6 @@ export default {
           v-model.lazy="store.filters.keyword"
           @keyup="store.reset_pager()"
         />
-      </div>
-
-      <div class="form-check mb-4">
-        <input
-          class="form-check-input"
-          type="checkbox"
-          id="pins-activate"
-          v-model="store.pins.active"
-        />
-        <label class="form-check-label" for="#pins-activate">"Pin" only</label>
       </div>
     </div>
 
@@ -115,7 +114,10 @@ export default {
 
     <div class="mb-4" id="sidebar_facets">
       <h5>Facets</h5>
-      <p class="form-text">Select from predefined categories and tags.</p>
+
+      <p class="form-text">
+        Select from predefined categories and tags. Facets are boolean "OR".
+      </p>
 
       <!-- <div class="mb-2">
         <div class="form-check">

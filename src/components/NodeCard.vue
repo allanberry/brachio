@@ -1,8 +1,16 @@
 <script>
 import { useBrachioStore } from "@/stores/brachioStore";
 const store = useBrachioStore();
+// import bootstrap from 'bootstrap'
 
 import brachiosaurus_thumbnail_url from "@/assets/brachiosaurus-thumbnail.svg?url";
+
+// const popoverTriggerList = document.querySelectorAll(
+//   '[data-bs-toggle="popover"]'
+// );
+// const popoverList = [...popoverTriggerList].map(
+//   (popoverTriggerEl) => new bootstrap.Popover(popoverTriggerEl)
+// );
 
 export default {
   data() {
@@ -84,6 +92,16 @@ export default {
               primary_url.replace("https://", "").replace("http://", "")
             }}</a></span
           >
+
+          <button
+            type="button"
+            class="btn btn-sm btn-outline-primary"
+            data-bs-toggle="popover"
+            data-bs-title="Popover title"
+            data-bs-content="And here's some amazing content. It's very engaging. Right?"
+          >
+            Click to toggle popover
+          </button>
         </div>
       </div>
 
@@ -101,7 +119,11 @@ export default {
           <div v-if="node.tags && node.tags.length">
             <h5>Tags</h5>
             <ul class="list-inline">
-              <li v-for="tag in node.tags" :key="tag.id" class="list-inline-item">
+              <li
+                v-for="tag in node.tags"
+                :key="tag.id"
+                class="list-inline-item"
+              >
                 {{ tag.label_short }}
               </li>
             </ul>

@@ -33,8 +33,8 @@ export default {
   <section class="container">
     <div class="row py-lg-5">
       <div class="col">
-        <h1 class="fw-light">Libraries</h1>
-        <p>Here are a bunch of Libraries.</p>
+        <h1 class="fw-light">Library Websites</h1>
+        <p>Browse a selection of library websites.  Results can be filtered and sorted by various criteria.</p>
         <!-- <p class="lead text-muted">
           Something short and leading about the collection below—its contents,
           the creator, etc. Make it short and sweet, but not too short so folks
