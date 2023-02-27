@@ -1,6 +1,8 @@
 <script>
 import { useBrachioStore } from "@/stores/brachioStore";
 const store = useBrachioStore();
+import ToolTip from "@/components/ToolTip.vue";
+
 
 export default {
   data() {
@@ -9,6 +11,9 @@ export default {
   props: {
     title: String,
     placement: String,
+  },
+  components: {
+    ToolTip
   },
   computed: {
     store: () => store,
@@ -131,10 +136,9 @@ export default {
   </div>
 
   <div class="row pager" v-if="total_pages != 1">
-    <h5 class="col col-12">Pager</h5>
-    <p class="col col-12 form-text mb-3">
-      Records are divided into "pages", or sets of results.
-    </p>
+    <h5 class="col col-12">Pager <ToolTip content="Records are divided into `pages`, or sets of results." /></h5>
+
+    
 
     <!-- <div>
       <p>{{ store.pager }}</p>

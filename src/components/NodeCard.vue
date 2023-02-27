@@ -1,20 +1,36 @@
 <script>
 import { useBrachioStore } from "@/stores/brachioStore";
 const store = useBrachioStore();
-// import bootstrap from 'bootstrap'
+
+import ToolTip from "@/components/ToolTip.vue";
+
+
 
 import brachiosaurus_thumbnail_url from "@/assets/brachiosaurus-thumbnail.svg?url";
 
-// const popoverTriggerList = document.querySelectorAll(
-//   '[data-bs-toggle="popover"]'
-// );
-// const popoverList = [...popoverTriggerList].map(
-//   (popoverTriggerEl) => new bootstrap.Popover(popoverTriggerEl)
-// );
+// import { createPopper } from "@popperjs/core";
+
+// export default {
+// name: "TestView",
+// components: {
+// },
+// data() {
+// return {
+// };
+// },
+// mounted(){
+//   const button = document.querySelector('#button');
+//   const tooltip = document.querySelector('#tooltip');
+//   createPopper(button, tooltip);
+// }
+// };
 
 export default {
   data() {
     return {};
+  },
+  components: {
+    ToolTip
   },
   props: {
     node: Object,
@@ -49,6 +65,7 @@ export default {
       return `background-image: url(${this.thumbnail.img})`;
     },
   },
+
 };
 </script>
 
@@ -64,6 +81,8 @@ export default {
 
     <div class="col card-body">
       <div class="mb-4">
+    
+
         <h4 class="card-title">
           <router-link
             class="card-link"
@@ -92,16 +111,6 @@ export default {
               primary_url.replace("https://", "").replace("http://", "")
             }}</a></span
           >
-
-          <button
-            type="button"
-            class="btn btn-sm btn-outline-primary"
-            data-bs-toggle="popover"
-            data-bs-title="Popover title"
-            data-bs-content="And here's some amazing content. It's very engaging. Right?"
-          >
-            Click to toggle popover
-          </button>
         </div>
       </div>
 
@@ -136,8 +145,8 @@ export default {
               node.snapshot.technologies.length
             "
           >
-            <h5>Technologies</h5>
-            <p>May include historical data.</p>
+            <h5>Technologies <ToolTip content="May include historical data." /></h5>
+            
             <ul>
               <li v-for="tech in node.snapshot.technologies" :key="tech.id">
                 {{ tech.name }}
@@ -247,6 +256,19 @@ export default {
     </div>
   </div>
 </template>
+
+<style>
+:root {
+  --popper-theme-background-color: #333333;
+  --popper-theme-background-color-hover: #333333;
+  --popper-theme-text-color: #ffffff;
+  --popper-theme-border-width: 0px;
+  --popper-theme-border-style: solid;
+  --popper-theme-border-radius: 6px;
+  --popper-theme-padding: 32px;
+  --popper-theme-box-shadow: 0 6px 30px -6px rgba(0, 0, 0, 0.25);
+}
+</style>
 
 <style lang="scss">
 .card {

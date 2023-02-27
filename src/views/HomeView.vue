@@ -1,4 +1,16 @@
-<script setup></script>
+<script>
+// import "bootstrap";
+
+// import Popper from "vue3-popper";
+
+export default {
+  data() {
+    return {};
+  },
+};
+
+//
+</script>
 
 <template>
   <section class="container col-xxl-8 px-4 py-5">
@@ -22,14 +34,16 @@
           interdum libero, eget interdum sem.
         </p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
+          <!-- <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
             Primary
           </button>
           <button type="button" class="btn btn-outline-secondary btn-lg px-4">
             Default
-          </button>
+          </button> -->
         </div>
       </div>
     </div>
   </section>
 </template>
+
+<style lang="scss"></style>

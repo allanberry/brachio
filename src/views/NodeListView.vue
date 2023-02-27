@@ -1,8 +1,8 @@
 <script>
-
 import NodeCard from "../components/NodeCard.vue";
 import NodeSidebar from "../components/NodeSidebar.vue";
 import NodeListResultsTools from "../components/NodeListResultsTools.vue";
+import ToolTip from "../components/ToolTip.vue";
 
 import { useBrachioStore } from "@/stores/brachioStore";
 const store = useBrachioStore();
@@ -12,6 +12,7 @@ export default {
     NodeCard,
     NodeSidebar,
     NodeListResultsTools,
+    // ToolTip,
   },
   data() {
     return {};
@@ -34,7 +35,13 @@ export default {
     <div class="row py-lg-5">
       <div class="col">
         <h1 class="fw-light">Library Websites</h1>
-        <p>Browse a selection of library websites.  Results can be filtered and sorted by various criteria.</p>
+
+        
+
+        <p>
+          Browse a selection of library websites. Results can be filtered and sorted by various criteria.
+          
+        </p>
         <!-- <p class="lead text-muted">
           Something short and leading about the collection below—its contents,
           the creator, etc. Make it short and sweet, but not too short so folks
