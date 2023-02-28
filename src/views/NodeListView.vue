@@ -63,7 +63,7 @@ export default {
         </div>
 
         <div class="col-12 col-md-8 col-lg-9">
-          <h3 class="pt-5">Results</h3>
+          <h3 class="visually-hidden pt-5">Search Results</h3>
 
           <div v-if="paged_libraries && paged_libraries.length > 0">
             <NodeListResultsTools

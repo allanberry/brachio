@@ -82,7 +82,6 @@ export default {
 
   <div class="row" v-if="placement === 'precontent'">
     <div class="col">
-      <h5 class="visually-hidden">Datafiers</h5>
       <div class="row">
         <div class="col col-8">
           <span

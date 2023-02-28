@@ -34,7 +34,7 @@ export default {
 
 <template>
   <!-- <div class="sticky-top pt-5"> -->
-  <div class="pt-5">
+  <div>
     <!-- <div class="mb-4">
       <h5>Modes</h5>
       <p class="form-text">
