@@ -29,12 +29,12 @@ export default {
     tabindex="0"
     :id="this.id"
     type="button"
-    class="btn popover brachio_popover"
+    class="popover brachio_popover"
     data-bs-toggle="popover"
     :data-bs-title="title"
     :data-bs-content="content"
   >
-    <ToolTipIcon />
+    <ToolTipIcon class="align-baseline"/>
   </button>
 </template>
 
@@ -44,7 +44,8 @@ export default {
     fill: var(--bs-primary);
   }
 
-  &:hover {
+  &:hover,
+  &:active {
     svg {
       fill: navy;
     }
@@ -58,7 +59,7 @@ export default {
   // --bs-popover-body-padding-y: 0;
   --bs-popover-bg: none;
   --bs-popover-border-width: 0;
-  
+
   display: inline-block;
 }
 </style>

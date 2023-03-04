@@ -1,7 +1,11 @@
 <script>
 import brachiosaurus_url from "@/assets/brachiosaurus.svg?url";
+import PrimaryNav from "@/components/PrimaryNav.vue";
 
 export default {
+  components: {
+    PrimaryNav
+  },
   data() {
     return {};
   },
@@ -14,7 +18,7 @@ export default {
 </script>
 
 <template>
-  <header class="p-3 border-bottom bg-secondary">
+  <header id="site_header" class="header p-3 border-bottom">
     <div class="container">
       <div
         class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
@@ -33,38 +37,7 @@ export default {
 
           <span class="fs-4">Brachio</span>
         </RouterLink>
-        <ul
-          class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
-        >
-          <li>
-            <RouterLink class="nav-link px-2 link-light" to="/"
-              >Home</RouterLink
-            >
-          </li>
-          <li>
-            <RouterLink class="nav-link px-2 link-light" to="/about"
-              >About</RouterLink
-            >
-          </li>
-          <li>
-            <RouterLink class="nav-link px-2 link-light" to="/libraries"
-              >Libraries</RouterLink
-            >
-          </li>
-          <li>
-            <RouterLink class="nav-link px-2 link-light" to="/nodes/uic_library"
-              >UIC Library</RouterLink
-            >
-          </li>
-
-          <!-- <li>
-            <RouterLink
-              class="nav-link px-2 link-dark"
-              to="/nodes/library_name"
-              >Library</RouterLink
-            >
-          </li> -->
-        </ul>
+        <PrimaryNav />
 
         <!-- <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
           <input
@@ -79,4 +52,8 @@ export default {
   </header>
 </template>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+header#site_header {
+  background-color: MidnightBlue;
+}
+</style>

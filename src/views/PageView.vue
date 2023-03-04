@@ -6,47 +6,83 @@
       <div class="col">
         <h1 class="fw-light">About</h1>
         <p>
-          Brachio is a work in progress, and is not really ready to look at yet.
-        </p>
-        <p>
-          I mean, you're welcome to peek, but most stuff is pretty broken ATM.
-        </p>
-        <p class="lead">
-          For more information, please contact Allan Berry:
-          <a href="mailto:aberry3@uic.edu">aberry3@uic.edu</a>. Thanks!
+          <span class="lead">Brachio is a work in progress</span>, but please
+          feel free to look around.
         </p>
 
-        <h3>Glossary</h3>
+        <p></p>
+
+        <p>For background, please see this presentation:</p>
         <ul>
-          <li id="term-visit" class="glossary_term">
-            <span class="label">Visit</span>
-            <span class="definition"></span>
-          </li>
-          <li id="term-visit" class="glossary_term">
-            <span class="label">Page (URL)</span>
-            <span class="definition"></span>
-          </li>
-          <li id="term-visit" class="glossary_term">
-            <span class="label">Wayback Machine</span>
-            <span class="definition"></span>
-          </li>
-          <li id="term-visit" class="glossary_term">
-            <span class="label">Allan Berry</span>
-            <span class="definition"></span>
+          <li class="lead">
+            <a
+              href="https://docs.google.com/presentation/d/1Ie_en6dBrJ3bb5e86Fy28WyTkfIitgSYn6WlZUPAf7c/edit?usp=sharing"
+              >Code4Lib slides, 2023-03</a
+            >
           </li>
         </ul>
 
-        <h3>About Allan Berry</h3>
+        <h3>About Me</h3>
+
+        <p class="lead">
+          Allan Berry <a href="mailto:aberry3@uic.edu">aberry3@uic.edu</a>
+        </p>
+        <p>
+          Allan is a Librarian and sometime artist from Detroit MI, now in
+          Chicago.
+        </p>
+        <ul>
+          <li class="term">
+            <span class="label me-2"
+              ><a href="https://allanberry.com">allanberry.com</a></span
+            >
+          </li>
+          <li class="term">
+            <span class="label me-2">Email</span>
+            <span class="definition"
+              ><a href="mailto:aberry3@uic.edu">aberry3@uic.edu</a></span
+            >
+          </li>
+
+          <li class="term">
+            <span class="label me-2">Stack Overflow</span>
+            <span class="definition"
+              ><a href="https://stackoverflow.com/users/652626/allanberry"
+                >allanberry</a
+              ></span
+            >
+          </li>
+          <li class="term">
+            <span class="label me-2">GitHub</span>
+            <span class="definition"
+              ><a href="https://github.com/allanberry">allanberry</a></span
+            >
+          </li>
+          <li class="term">
+            <span class="label me-2">Linked In</span>
+            <span class="definition"
+              ><a href="https://www.linkedin.com/in/allanberry/"
+                >allanberry</a
+              ></span
+            >
+          </li>
+        </ul>
+        <p>Please get in touch for more information.</p>
+        <p>
+          Allan helps build the web for the
+          <a href="https://library.uic.edu">UIC Library</a>. He still thinks the
+          Web can help people.
+        </p>
+
         <p>Allan made Brachio, such as it is, with the help of a few folks:</p>
         <ul>
-          <li>Thanks to Tracy Seneca for the initial boost.</li>
-          <li>Thanks to Ben Aldred for help with the name.</li>
-          <li>Thanks to UIC faculty for the general support.</li>
+          <li>Thanks to Tracy for the initial boost.</li>
+          <li>Thanks to Ben for help with the name.</li>
+          <li>
+            Thanks to UIC faculty, especially the Library's Digital Projects
+            dept. for the general support.
+          </li>
         </ul>
-        <p>
-          Allan helps build the web for the UIC Library. He lives in Chicago,
-          originally from Detroit MI.
-        </p>
 
         <!-- <p class="lead text-muted">
           Something short and leading about the collection below—its contents,
@@ -57,7 +93,66 @@
           <a href="#" class="btn btn-primary my-2">Main call to action</a>
           <a href="#" class="btn btn-secondary my-2">Secondary action</a>
         </p> -->
+
+        <h3>Frequently Asked Questions</h3>
+        <ul>
+          <li class="term">
+            <span class="label me-2">Where does Brachio data come from?</span>
+            <span class="definition"></span>
+          </li>
+          <li class="term">
+            <span class="label me-2">Why is my library missing?</span>
+            <span class="definition"></span>
+          </li>
+          <li class="term">
+            <span class="label me-2"
+              >Why are screenshots of my library's website missing, or look
+              really bad?</span
+            >
+            <span class="definition"></span>
+          </li>
+        </ul>
+
+        <h3>Glossary</h3>
+        <ul>
+          <li class="term">
+            <span class="label me-2">Visit</span>
+            <span class="definition"></span>
+          </li>
+          <li class="term">
+            <span class="label me-2">Page (URL)</span>
+            <span class="definition"></span>
+          </li>
+          <li class="term">
+            <span class="label me-2">Wayback Machine</span>
+            <span class="definition"></span>
+          </li>
+        </ul>
+
+        <h3>Colophon</h3>
+        <ul>
+          <li class="term">
+            <span class="label me-2">Node JS</span>
+            <span class="definition"></span>
+          </li>
+          <li class="term">
+            <span class="label me-2">Vue.js</span>
+            <span class="definition"></span>
+          </li>
+
+          <li class="term">
+            <span class="label me-2">Puppeteer</span>
+            <span class="definition"></span>
+          </li>
+        </ul>
       </div>
     </div>
   </section>
 </template>
+
+<style lang="scss">
+.term {
+  .label {
+  }
+}
+</style>

@@ -1,7 +1,7 @@
 <script></script>
 
 <template>
-  <main class="bg-light pt-4 pb-6">
+  <main id="site_main" class="pt-4 pb-6">
     <RouterView :key="$route.fullPath" />
   </main>
 </template>

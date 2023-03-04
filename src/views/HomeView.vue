@@ -2,8 +2,15 @@
 // import "bootstrap";
 
 // import Popper from "vue3-popper";
+import { useBrachioStore } from "@/stores/brachioStore";
+const store = useBrachioStore();
+
+import ChartURL from "../components/ChartURL.vue";
 
 export default {
+  components: {
+    ChartURL,
+  },
   data() {
     return {};
   },
@@ -26,14 +33,14 @@ export default {
         />
       </div>
       <div class="col-lg-6">
-        <h1 class="display-5 fw-bold lh-1 mb-3">Brachio</h1>
+        <h1 class="display-5 fw-bold lh-1 mb-3">Welcome!</h1>
         <p class="lead">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut
-          ullamcorper dolor. Quisque a odio in justo aliquet facilisis. Mauris
-          malesuada ipsum nisi, vel consequat nulla ornare ac. Donec non
-          interdum libero, eget interdum sem.
+          Brachio is an online research catalog of library websites from the
+          Internet Archive's
+          <a href="https://archive.org/web/">Wayback Machine</a>.
         </p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <p>Please visit <a href="#">Libraries</a> to browse.</p>
           <!-- <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
             Primary
           </button>
@@ -41,6 +48,38 @@ export default {
             Default
           </button> -->
         </div>
+      </div>
+
+      <div>
+        <h2>Featured Websites</h2>
+        <p>Websites selected for various reasons</p>
+        <ul>
+          <li>Princeton University Library</li>
+          <li><ChartURL :url="`https://library.uic.edu/`" /></li>
+          <li>Carnegie Mellon University</li>
+          <li>University of Illinois at Chicago</li>
+        </ul>
+      </div>
+
+      <div>
+        <h2>Featured Categories</h2>
+        <p>Libraries selected by a particular keyword</p>
+        <ul>
+          <li>Ivy League</li>
+          <li>Historically Black Colleges and Universities</li>
+          <li>UIC Peers</li>
+          <li>Institutions using WordPress</li>
+        </ul>
+      </div>
+
+      <div>
+        <h2>Featured Comparisons</h2>
+        <p>Selected libraries Compared</p>
+        <ul>
+          <li>HBCUs : Ivy League</li>
+          <li>Ohio State : University of Michigan</li>
+          <li>Chicago Public Library</li>
+        </ul>
       </div>
     </div>
   </section>
