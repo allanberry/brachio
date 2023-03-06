@@ -20,5 +20,3 @@ import { useBrachioStore } from "@/stores/brachioStore";
 const store = useBrachioStore();
 store.init();
 </script>
-
-

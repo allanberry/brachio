@@ -1,9 +1,6 @@
 <script>
-// import "bootstrap";
-
-// import Popper from "vue3-popper";
-import { useBrachioStore } from "@/stores/brachioStore";
-const store = useBrachioStore();
+// import { useBrachioStore } from "@/stores/brachioStore";
+// const store = useBrachioStore();
 
 import ChartURL from "../components/ChartURL.vue";
 
@@ -55,7 +52,7 @@ export default {
         <p>Websites selected for various reasons</p>
         <ul>
           <li>Princeton University Library</li>
-          <li><ChartURL :url="`https://library.uic.edu/`" /></li>
+          <!-- <li><ChartURL :url="`https://library.uic.edu/`" /></li> -->
           <li>Carnegie Mellon University</li>
           <li>University of Illinois at Chicago</li>
         </ul>
