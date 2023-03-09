@@ -165,9 +165,9 @@ export default {
             </li>
           </ul>
 
-          <p class="card-text">
+          <!-- <p class="card-text">
             <small class="text-muted">{{ visit.id }}</small>
-          </p>
+          </p> -->
 
           <button
             class="btn btn-sm btn-outline-secondary"

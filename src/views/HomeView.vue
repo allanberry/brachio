@@ -37,7 +37,12 @@ export default {
           <a href="https://archive.org/web/">Wayback Machine</a>.
         </p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-          <p>Please visit <a href="#">Libraries</a> to browse.</p>
+          <p>
+            Please visit
+            <router-link :to="{ name: 'nodes' }"> Libraries </router-link> to
+            browse.
+          </p>
+
           <!-- <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
             Primary
           </button>
