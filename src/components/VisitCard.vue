@@ -137,7 +137,9 @@ export default {
         class="col-md-4 bg-light"
         style="max-height: 360px; overflow: hidden"
       >
-        <img :src="visit.pics().tablet" class="img-fluid rounded-start" />
+        <a :href="visit.pics().tablet" target="_new"
+          ><img :src="visit.pics().tablet" class="img-fluid rounded-start"
+        /></a>
       </div>
       <div class="col-md-8">
         <div class="card-body">

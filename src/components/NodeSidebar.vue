@@ -3,7 +3,6 @@ import { useBrachioStore } from "@/stores/brachioStore";
 const store = useBrachioStore();
 import ToolTip from "@/components/ToolTip.vue";
 
-
 // import CardsIcon from "@/assets/icons/sidebar/cards.svg?component";
 // import CompareIcon from "@/assets/icons/sidebar/compare.svg?component";
 // import ListIcon from "@/assets/icons/sidebar/list.svg?component";
@@ -89,12 +88,14 @@ export default {
       </div>
 
       <div class="mb-4">
-        <label for="filter_keyword" class="form-label">Keyword Filter <ToolTip content="Enter Keywords to limit choices." /></label>
+        <label for="filter_keyword" class="form-label"
+          >Keyword Filter <ToolTip content="Enter Keywords to limit choices."
+        /></label>
         <input
           type="text"
           class="form-control"
           id="filter_keyword"
-          placeholder="e.g. a library name or city"
+          placeholder="e.g. a library name"
           aria-describedby="filter_keyword_help"
           v-model.lazy="store.filters.keyword"
           @keyup="store.reset_pager()"
@@ -115,8 +116,12 @@ export default {
     </div> -->
 
     <div class="mb-4" id="sidebar_facets">
-      <h5>Facets <ToolTip content=" Select from predefined categories and tags. Facets are boolean `OR`." /></h5>
-
+      <h5>
+        Facets
+        <ToolTip
+          content=" Select from predefined categories and tags. Facets are boolean `OR`."
+        />
+      </h5>
 
       <!-- <div class="mb-2">
         <div class="form-check">

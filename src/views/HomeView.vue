@@ -1,15 +1,34 @@
 <script>
-// import { useBrachioStore } from "@/stores/brachioStore";
-// const store = useBrachioStore();
+import ChartURL from "@/components/ChartURL.vue";
 
-import ChartURL from "../components/ChartURL.vue";
+import { useBrachioStore } from "@/stores/brachioStore";
+const store = useBrachioStore();
 
 export default {
   components: {
     ChartURL,
   },
   data() {
-    return {};
+    return {
+      nodes: store.select_nodes([
+        "umich_library",
+        "uic_library",
+        "harvard_library",
+      ]),
+    };
+  },
+  async mounted() {
+    store.fetch_snapshots(this.nodes);
+
+    try {
+      for (const node of this.nodes) {
+        for (const url of node.urls) {
+          await url.fetchVisits();
+        }
+      }
+    } catch (error) {
+      console.error(error);
+    }
   },
 };
 
@@ -32,9 +51,13 @@ export default {
       <div class="col-lg-6">
         <h1 class="display-5 fw-bold lh-1 mb-3">Welcome!</h1>
         <p class="lead">
-          Brachio is an online research catalog of library websites from the
-          Internet Archive's
+          <span class="h3">Brachio</span> is an experimental online research catalog of library websites selected from the Internet Archive's
           <a href="https://archive.org/web/">Wayback Machine</a>.
+        </p>
+        <p>
+          <span class="text-warning">This site is a work in progress.</span>
+          Please take everything here with a grain of salt. I'm still filling in
+          data. Most data is pre-2022.
         </p>
         <div class="d-grid gap-2 d-md-flex justify-content-md-start">
           <p>
@@ -56,14 +79,33 @@ export default {
         <h2>Featured Websites</h2>
         <p>Websites selected for various reasons</p>
         <ul>
-          <li>Princeton University Library</li>
-          <!-- <li><ChartURL :url="`https://library.uic.edu/`" /></li> -->
-          <li>Carnegie Mellon University</li>
-          <li>University of Illinois at Chicago</li>
+          <li v-for="url in [].concat(nodes[0].urls[0])" :key="url.url">
+            <h5><span class="lead">URL:</span> {{ url.url }}</h5>
+
+            <ChartURL
+              v-if="url.visits && url.visits.length"
+              :url="url"
+              class="mb-4"
+            />
+
+            <!-- <ul
+              v-if="url.visits"
+              class="row visit_list"
+              :id="`${node._id}-${slugify(url.url)}-visits`"
+            >
+              <li
+                class="mb-3 col-lg-6 visit_list_item"
+                v-for="visit in url.visits"
+                :key="visit._id"
+              >
+                <VisitCard :visit="visit" />
+              </li>
+            </ul> -->
+          </li>
         </ul>
       </div>
 
-      <div>
+      <!-- <div>
         <h2>Featured Categories</h2>
         <p>Libraries selected by a particular keyword</p>
         <ul>
@@ -72,9 +114,9 @@ export default {
           <li>UIC Peers</li>
           <li>Institutions using WordPress</li>
         </ul>
-      </div>
+      </div> -->
 
-      <div>
+      <!-- <div>
         <h2>Featured Comparisons</h2>
         <p>Selected libraries Compared</p>
         <ul>
@@ -82,7 +124,7 @@ export default {
           <li>Ohio State : University of Michigan</li>
           <li>Chicago Public Library</li>
         </ul>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>

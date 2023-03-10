@@ -111,6 +111,10 @@
             >
             <span class="definition"></span>
           </li>
+          <li class="term">
+            <span class="label me-2">Why is there no data past 2021?</span>
+            <span class="definition"></span>
+          </li>
         </ul>
 
         <h3>Glossary</h3>
