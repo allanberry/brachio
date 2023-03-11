@@ -14,11 +14,13 @@ import NodeSidebarDropdown from "./NodeSidebarDropdown.vue";
 
 export default {
   data() {
-    return {};
+    return {
+    };
   },
   computed: {
     store: () => store,
   },
+
   components: {
     NodeSidebarDropdown,
     // CardsIcon,
@@ -164,7 +166,7 @@ export default {
         <li id="sidebar_facets_tags" v-if="store.tags && store.tags.length">
           <NodeSidebarDropdown
             label="Tags"
-            :expanded="false"
+            :expanded="true"
             :items="store.tags"
             filter="tags"
           />
