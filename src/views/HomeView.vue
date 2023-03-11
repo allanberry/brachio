@@ -1,5 +1,6 @@
 <script>
 import ChartURL from "@/components/ChartURL.vue";
+import ChartNode from "@/components/ChartNode.vue";
 
 import { useBrachioStore } from "@/stores/brachioStore";
 const store = useBrachioStore();
@@ -7,23 +8,21 @@ const store = useBrachioStore();
 export default {
   components: {
     ChartURL,
+    ChartNode,
   },
   data() {
     return {
-      nodes: store.select_nodes([
-        "umich_library",
-        "uic_library",
-        "harvard_library",
-      ]),
+      nodes: store.select_nodes(["umich_library", "uic_library"]),
     };
   },
   async mounted() {
-    store.fetch_snapshots(this.nodes);
-
     try {
+      await store.fetch_snapshots(this.nodes);
+
       for (const node of this.nodes) {
         for (const url of node.urls) {
           await url.fetchVisits();
+          // await url.aggregate();
         }
       }
     } catch (error) {
@@ -49,9 +48,10 @@ export default {
         />
       </div>
       <div class="col-lg-6">
-        <h1 class="display-5 fw-bold lh-1 mb-3">Welcome!</h1>
+        <h1 class="display-5 fw-light lh-1 mb-3">Welcome!</h1>
         <p class="lead">
-          <span class="h3">Brachio</span> is an experimental online research catalog of library websites selected from the Internet Archive's
+          <span class="h3">Brachio</span> is an experimental online research
+          catalog of library websites selected from the Internet Archive's
           <a href="https://archive.org/web/">Wayback Machine</a>.
         </p>
         <p>
@@ -79,29 +79,14 @@ export default {
         <h2>Featured Websites</h2>
         <p>Websites selected for various reasons</p>
         <ul>
-          <li v-for="url in [].concat(nodes[0].urls[0])" :key="url.url">
-            <h5><span class="lead">URL:</span> {{ url.url }}</h5>
+          <!-- <li v-for="url_obj in [].concat(nodes[0].urls[0])" :key="url_obj.url">
+            <p>{{ url_obj.url }}</p>
+            <ChartURL :url_obj="url_obj" class="mb-4" />
+          </li> -->
 
-            <ChartURL
-              v-if="url.visits && url.visits.length"
-              :url="url"
-              class="mb-4"
-            />
+          <li>University of Illinois at Chicago Homepage</li>
 
-            <!-- <ul
-              v-if="url.visits"
-              class="row visit_list"
-              :id="`${node._id}-${slugify(url.url)}-visits`"
-            >
-              <li
-                class="mb-3 col-lg-6 visit_list_item"
-                v-for="visit in url.visits"
-                :key="visit._id"
-              >
-                <VisitCard :visit="visit" />
-              </li>
-            </ul> -->
-          </li>
+          <ChartNode :node="nodes[0]" class="mb-4" />
         </ul>
       </div>
 

@@ -1,8 +1,7 @@
 <script>
-import { useBrachioStore } from "@/stores/brachioStore";
+// import { useBrachioStore } from "@/stores/brachioStore";
 // const store = useBrachioStore();
 // import { number_formatter } from "@/utils";
-import slugify from "slugify";
 // import * as d3 from "d3";
 
 import * as Plot from "@observablehq/plot";
@@ -10,16 +9,12 @@ import * as Plot from "@observablehq/plot";
 export default {
   data() {
     return {
-      chart_id: `${slugify(this.url_obj.url, {
-        replacement: "-",
-        lower: true,
-        remove: /[//*+~.-_()'"!:@]/g,
-      })}`,
+      chart_id: `${this.node._id}-chart`,
       url_chart: Object,
     };
   },
   props: {
-    url_obj: Object,
+    node: Object,
   },
   methods: {
     // getData: function () {
@@ -27,8 +22,13 @@ export default {
     // },
   },
   computed: {
+    default_url: function () {
+      return this.node.urls[0];
+    },
     visits: function () {
-      return this.url_obj.visits.map((visit) => {
+
+      // uses the first url as default
+      return this.default_url.visits.map((visit) => {
         return {
           id: visit.id,
           date: new Date(visit.date),
@@ -60,13 +60,13 @@ export default {
           legend: true,
         },
         marks: [
-          Plot.ruleX(this.visits, {
+          Plot.ruleX(this.default_url.visits, {
             x: "date",
             stroke: "#ddd",
             strokeWidth: 1,
           }),
 
-          Plot.line(this.visits, {
+          Plot.line(this.default_url.visits, {
             x: "date",
             y: "metrics_best_practices",
             // curve: "step",
@@ -74,7 +74,7 @@ export default {
             strokeWidth: 3,
           }),
 
-          Plot.line(this.visits, {
+          Plot.line(this.default_url.visits, {
             x: "date",
             y: "metrics_performance",
             // curve: "step",
@@ -83,7 +83,7 @@ export default {
             strokeWidth: 3,
           }),
 
-          Plot.line(this.visits, {
+          Plot.line(this.default_url.visits, {
             x: "date",
             y: "metrics_accessibility",
             // curve: "step",

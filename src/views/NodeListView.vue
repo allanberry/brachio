@@ -22,7 +22,34 @@ export default {
   },
   methods: {},
   async mounted() {
-    await store.fetch_snapshots(this.paged_libraries);
+    try {
+      // deal with query params
+      if (this.$route.query.keyword) {
+        store.filters.keyword = this.$route.query.keyword;
+      }
+      if (this.$route.query.category) {
+        if (Array.isArray(this.$route.query.category)) {
+          store.filters.categories = this.$route.query.category;
+        } else {
+          store.filters.categories = [this.$route.query.category];
+        }
+      }
+
+      if (this.$route.query.tag) {
+        if (Array.isArray(this.$route.query.tag)) {
+          store.filters.tags = this.$route.query.tag;
+        } else {
+          store.filters.tags = [this.$route.query.tag];
+        }
+      }
+      if (this.$route.query.sort) {
+        store.pager.sort = this.$route.query.sort;
+      }
+
+      await store.fetch_snapshots(this.paged_libraries);
+    } catch (error) {
+      console.error(error);
+    }
   },
   async updated() {
     await store.fetch_snapshots(this.paged_libraries);
@@ -36,11 +63,9 @@ export default {
       <div class="col">
         <h1 class="fw-light">Library Websites</h1>
 
-        
-
         <p>
-          Browse a selection of library websites. Results can be filtered and sorted by various criteria.
-          
+          Browse a selection of library websites. Results can be filtered and
+          sorted by various criteria.
         </p>
         <!-- <p class="lead text-muted">
           Something short and leading about the collection below—its contents,

@@ -3,7 +3,6 @@ import { useBrachioStore } from "@/stores/brachioStore";
 const store = useBrachioStore();
 import ToolTip from "@/components/ToolTip.vue";
 
-
 export default {
   data() {
     return {};
@@ -13,7 +12,7 @@ export default {
     placement: String,
   },
   components: {
-    ToolTip
+    ToolTip,
   },
   computed: {
     store: () => store,
@@ -90,8 +89,6 @@ export default {
           >
         </div>
 
-
-
         <div class="col col-4 d-flex justify-content-end">
           <div class="input-group mb-3">
             <label class="input-group-text" for="sort_select">Sort By</label>
@@ -107,24 +104,24 @@ export default {
               id="sort_select"
             >
               <!-- <option disabled value="">Select one</option> -->
-              <option value="node_name">Name</option>
+              <option value="name">Name</option>
               <option value="random" selected="selected">Random</option>
               <!--<option disabled>---</option>
 
-              <option value="node_parent_age">Age</option>
-              <option value="node_parent_endowment">Endowment</option>
-              <option value="node_parent_enrollment">No. of students</option>
-              <option value="node_qty_books">No. of books</option>
-              <option value="node_gate_count">Gate Count</option>
+              <option value="parent_age">Age</option>
+              <option value="parent_endowment">Endowment</option>
+              <option value="parent_enrollment">No. of students</option>
+              <option value="qty_books">No. of books</option>
+              <option value="gate_count">Gate Count</option>
 
               <option disabled>---</option>
-              <option value="node_visit_accessibility">
+              <option value="visit_accessibility">
                 Website Accessibility
               </option>
-              <option value="node_visit_performance">
+              <option value="visit_performance">
                 Website Performance
               </option>
-              <option value="node_visit_best_practices">
+              <option value="visit_best_practices">
                 Website Best Practices
               </option>-->
             </select>
@@ -135,9 +132,12 @@ export default {
   </div>
 
   <div class="row pager" v-if="total_pages != 1">
-    <h5 class="col col-12">Pager <ToolTip content="Records are divided into `pages`, or sets of results." /></h5>
-
-    
+    <h5 class="col col-12">
+      Pager
+      <ToolTip
+        content="Records are divided into `pages`, or sets of results."
+      />
+    </h5>
 
     <!-- <div>
       <p>{{ store.pager }}</p>

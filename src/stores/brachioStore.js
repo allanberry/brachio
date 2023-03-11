@@ -214,16 +214,12 @@ export const useBrachioStore = defineStore("brachioStore", {
     },
     async fetch_snapshots(nodes) {
       try {
-
-
         // identify a set of urls from a set of nodes, e.g. paged libraries.
         const urls = nodes
           .reduce((acc, lib) => acc.concat(lib.urls), [])
           .map((url) => url.url);
 
-
-          console.log(urls)
-
+        // console.log(urls);
 
         // fetch brief visits to these urls, in aggregate from Atlas api
         const brief_visits = (

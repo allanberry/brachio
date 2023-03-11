@@ -302,10 +302,6 @@ class URL {
           limit: 100000,
         });
 
-
-        
-
-
         this.visits = await response.visits.map(
           (api_visit) => new Visit(api_visit)
         );
@@ -314,6 +310,16 @@ class URL {
       }
     } catch (error) {
       console.error(error);
+    }
+  }
+
+  async aggregate() {
+    await this.fetchVisits();
+
+    return {
+      best_practices: 123,
+      accessibility: 123,
+      performance: 123,
     }
   }
 }
@@ -380,8 +386,6 @@ class Node {
       }
       return false;
     });
-
-
 
     // console.log(api_ipeds)
 

@@ -10,6 +10,12 @@
         >About</RouterLink
       >
     </li>
+
+    <li>
+      <RouterLink class="nav-link px-2 link-light" to="/docs"
+        >Docs</RouterLink
+      >
+    </li>
     <li>
       <RouterLink class="nav-link px-2 link-light" to="/libraries"
         >Libraries</RouterLink

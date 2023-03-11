@@ -5,12 +5,15 @@
     <div class="row py-lg-5">
       <div class="col">
         <h1 class="fw-light">About</h1>
+        <p class="lead">
+          <span class="h3">Brachio</span> is an experimental online research catalog of library websites selected from the Internet Archive's
+          <a href="https://archive.org/web/">Wayback Machine</a>.
+        </p>
+
         <p>
           <span class="lead">Brachio is a work in progress</span>, but please
           feel free to look around.
         </p>
-
-        <p></p>
 
         <p>For background, please see this presentation:</p>
         <ul>
@@ -22,7 +25,11 @@
           </li>
         </ul>
 
-        <h3>About Me</h3>
+
+
+        <hr />
+
+        <h3>Creators</h3>
 
         <p class="lead">
           Allan Berry <a href="mailto:aberry3@uic.edu">aberry3@uic.edu</a>
