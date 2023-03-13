@@ -29,7 +29,7 @@ const visit_data = require("./from_atlas/visits_screenshots.json");
 
       try {
         const { filePath, downloadStatus } = await downloader.download();
-        console.log({ id: visit.id, url });
+        // console.log({ id: visit.id, url });
         // console.log("All done");
       } catch (error) {
         console.error("Download failed", { id: visit.id, error });

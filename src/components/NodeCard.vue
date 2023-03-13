@@ -3,34 +3,17 @@ import { useBrachioStore } from "@/stores/brachioStore";
 const store = useBrachioStore();
 
 import ToolTip from "@/components/ToolTip.vue";
-
-
+import NodeCardStats from "@/components/NodeCardStats.vue";
 
 import brachiosaurus_thumbnail_url from "@/assets/brachiosaurus-thumbnail.svg?url";
-
-// import { createPopper } from "@popperjs/core";
-
-// export default {
-// name: "TestView",
-// components: {
-// },
-// data() {
-// return {
-// };
-// },
-// mounted(){
-//   const button = document.querySelector('#button');
-//   const tooltip = document.querySelector('#tooltip');
-//   createPopper(button, tooltip);
-// }
-// };
 
 export default {
   data() {
     return {};
   },
   components: {
-    ToolTip
+    ToolTip,
+    NodeCardStats,
   },
   props: {
     node: Object,
@@ -65,7 +48,34 @@ export default {
       return `background-image: url(${this.thumbnail.img})`;
     },
   },
-
+  methods: {
+    round(n) {
+      // hat tip: https://stackoverflow.com/a/11832950/652626
+      return Math.round((n + Number.EPSILON) * 100) / 100;
+    },
+    // stats(visit) {
+    //   if (visit) {
+    //     return {
+    //       difficulty: visit.js_difficulty,
+    //       effort: visit.js_effort,
+    //       maintainability: visit.js_maintainability,
+    //       accessibility: visit.lighthouse_accessibility,
+    //       performance: visit.lighthouse_performance,
+    //       best_practices: visit.lighthouse_best_practices,
+    //     };
+    //   } else {
+    //     // otherwise we're doing aggregate stats
+    //     return {
+    //       difficulty: this.node.snapshot?.stats?.aggregate_difficulty,
+    //       effort: this.node.snapshot?.stats?.aggregate_effort,
+    //       accessibility: this.node.snapshot?.stats?.aggregate_accessibility,
+    //       performance: this.node.snapshot?.stats?.aggregate_performance,
+    //       best_practices: this.node.snapshot?.stats?.aggregate_best_practices,
+    //       maintainability: this.node.snapshot?.stats?.aggregate_maintainability,
+    //     };
+    //   }
+    // },
+  },
 };
 </script>
 
@@ -81,8 +91,6 @@ export default {
 
     <div class="col card-body">
       <div class="mb-4">
-    
-
         <h4 class="card-title">
           <router-link
             class="card-link"
@@ -145,8 +153,10 @@ export default {
               node.snapshot.technologies.length
             "
           >
-            <h5>Technologies <ToolTip content="May include historical data." /></h5>
-            
+            <h5>
+              Technologies <ToolTip content="May include historical data." />
+            </h5>
+
             <ul>
               <li v-for="tech in node.snapshot.technologies" :key="tech.id">
                 {{ tech.name }}
@@ -154,59 +164,31 @@ export default {
             </ul>
           </div>
 
-          <div v-if="node.snapshot && node.snapshot.visits">
-            <h5>Webpage Visits</h5>
-
+          <div
+            v-if="
+              node.snapshot &&
+              node.snapshot.visits_ok &&
+              node.snapshot.visits_ok.length
+            "
+          >
+            <h5>Visit Stats</h5>
             <div class="url_visits">
-              <p>
-                {{ node.snapshot.visits.length }} visits to
-                {{ node.urls.length }} URLs,
-                {{ node.snapshot.visits.slice(-1)[0].date.format("YYYY") }}–{{
-                  node.snapshot.visits[0].date.format("YYYY")
-                }}
-              </p>
-
-              <div>
-                <span>Latest visit:</span>
-                <ul>
-                  <li>
-                    <span>Date: </span>
-                    <span>{{
-                      node.snapshot.visits[0].date.format("YYYY-MM-DD")
-                    }}</span>
-                  </li>
-
-                  <li v-if="node.snapshot.visits[0].lighthouse_accessibility">
-                    <span>Accessibility: </span>
-                    <span>{{
-                      node.snapshot.visits[0].lighthouse_accessibility
-                    }}</span>
-                  </li>
-
-                  <li v-if="node.snapshot.visits[0].lighthouse_performance">
-                    <span>Performance: </span>
-                    <span>{{
-                      node.snapshot.visits[0].lighthouse_performance
-                    }}</span>
-                  </li>
-
-                  <li v-if="node.snapshot.visits[0].lighthouse_best_practices">
-                    <span>Best Practices: </span>
-                    <span>{{
-                      node.snapshot.visits[0].lighthouse_best_practices
-                    }}</span>
-                  </li>
-
-                  <li v-if="node.snapshot.visits[0].js_maintainability">
-                    <span>Maintainability: </span>
-                    <span>{{
-                      node.snapshot.visits[0].js_maintainability
-                        .toFixed(2)
-                        .replace(/\d(?=(\d{3})+\.)/g, "$&,")
-                    }}</span>
-                  </li>
-                </ul>
-              </div>
+              <NodeCardStats
+                name="Latest Visit"
+                :stats="node.snapshot.visits_ok[0].stats"
+              />
+              <!-- <NodeCardStats
+                name="Earliest Visit"
+                :stats="
+                  node.snapshot.visits_ok[node.snapshot.visits_ok.length - 1]
+                    .stats
+                "
+              /> -->
+              <NodeCardStats
+                name="Visits Aggregate"
+                :aggregate="true"
+                :stats="node.snapshot.stats_aggregate"
+              />
             </div>
           </div>
         </div>

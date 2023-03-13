@@ -20,6 +20,6 @@ const raw_dir = "./from_google";
     const credentials = `${__dirname}/google/credentials.json`;
 
   } catch (err) {
-    console.log(err);
+    console.error(err);
   }
 })();

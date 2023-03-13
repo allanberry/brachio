@@ -123,31 +123,31 @@ export const useBrachioStore = defineStore("brachioStore", {
             return true;
           })
 
-          // technology filter
-          .filter((node) => {
-            // not yet implemented.
-            // need to establish client-side relationship?  no data
+          // // technology filter
+          // // .filter((node) => {
+          // // not yet implemented.
+          // // need to establish client-side relationship?  no data
 
-            // if (this.filters.technologies && node.technologies) {
-            //   const arr1 = this.filters.technologies;
-            //   const arr2 = node.technologies.map((cat) => cat.id);
-            //   return arr1.some((r) => arr2.includes(r));
-            // }
+          // if (this.filters.technologies && node.technologies) {
+          //   const arr1 = this.filters.technologies;
+          //   const arr2 = node.technologies.map((cat) => cat.id);
+          //   return arr1.some((r) => arr2.includes(r));
+          // }
 
-            // if (
-            //   this.filters.technologies &&
-            //   this.filters.technologies.length &&
-            //   node.snapshot &&
-            //   node.snapshot.technologies &&
-            //   node.snapshot.technologies.length
-            // ) {
-            //   console.log({
-            //     filters: this.filters.technologies,
-            //     node_snapshot: node.snapshot.technologies,
-            //   });
-            // }
-            return true;
-          })
+          // if (
+          //   this.filters.technologies &&
+          //   this.filters.technologies.length &&
+          //   node.snapshot &&
+          //   node.snapshot.technologies &&
+          //   node.snapshot.technologies.length
+          // ) {
+          //   console.log({
+          //     filters: this.filters.technologies,
+          //     node_snapshot: node.snapshot.technologies,
+          //   });
+          // }
+          //   return true;
+          // })
 
           // sort records
           .sort((node_a, node_b) => {
@@ -233,11 +233,12 @@ export const useBrachioStore = defineStore("brachioStore", {
           // collectinto a snapshot for each node
           // first check if a snapshot already exists; abort if so.
           if (!node.snapshot) {
-            const visits = brief_visits.filter((visit) =>
-              node.urls.map((url) => url.url).includes(visit.url)
+            node.snapshot = new Snapshot(
+              node,
+              brief_visits.filter((visit) =>
+                node.urls.map((url) => url.url).includes(visit.url)
+              )
             );
-
-            node.snapshot = new Snapshot(node, visits);
           }
         });
       } catch (error) {

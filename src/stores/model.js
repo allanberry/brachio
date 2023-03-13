@@ -320,7 +320,7 @@ class URL {
       best_practices: 123,
       accessibility: 123,
       performance: 123,
-    }
+    };
   }
 }
 
@@ -442,6 +442,7 @@ class Node {
 }
 
 // a snapshot is a brief overview of a node, derived from aggregated visits to node URLs
+// note that "visit" in this context refers to a "brief_visit" which doesn't have all visit fields.
 class Snapshot {
   constructor(node, visits = []) {
     // pre-sort node urls ( by rank, then by shortest)
@@ -460,52 +461,42 @@ class Snapshot {
       this.visits = visits
         .map((visit) => {
           // console.log(visit.id)
-          return {
-            date: visit.date_wayback
-              ? visit.date_wayback
-              : derive_date(visit.id),
+          const date = visit.date_wayback
+            ? visit.date_wayback
+            : derive_date(visit.id);
 
-            // date_wayback: visit.date,
-            // visit.date_wayback
-            // ? visit.date_wayback
-            // : undefined,
-            wayback_url_raw: visit.wayback ? visit.wayback.url_raw : undefined,
-            wayback_url_rendered: visit.wayback
-              ? visit.wayback.url_rendered
-              : undefined,
-            lighthouse_accessibility:
-              visit.analysis.lighthouse &&
-              visit.analysis.lighthouse.data &&
-              visit.analysis.lighthouse.data.categories
-                ? visit.analysis.lighthouse.data.categories.accessibility.score
-                : undefined,
-            lighthouse_best_practices:
-              visit.analysis.lighthouse &&
-              visit.analysis.lighthouse.data &&
-              visit.analysis.lighthouse.data.categories
-                ? visit.analysis.lighthouse.data.categories.bestPractices.score
-                : undefined,
-            lighthouse_performance:
-              visit.analysis.lighthouse &&
-              visit.analysis.lighthouse.data &&
-              visit.analysis.lighthouse.data.categories
-                ? visit.analysis.lighthouse.data.categories.performance.score
-                : undefined,
-            js_maintainability:
-              visit.analysis.escomplex && visit.analysis.escomplex.data
-                ? visit.analysis.escomplex.data.maintainability
-                : undefined,
-            js_effort:
-              visit.analysis.escomplex && visit.analysis.escomplex.data
-                ? visit.analysis.escomplex.data.halstead.effort
-                : undefined,
-            js_difficulty:
-              visit.analysis.escomplex && visit.analysis.escomplex.data
-                ? visit.analysis.escomplex.data.halstead.difficulty
-                : undefined,
+          return {
+            date,
+            wayback_url_raw: visit.wayback?.url_raw,
+            wayback_url_rendered: visit.wayback?.url_rendered,
+
+            stats: {
+              date,
+              difficulty: visit.analysis?.escomplex?.data?.halstead?.difficulty,
+              effort: visit.analysis?.escomplex?.data?.halstead?.effort,
+              maintainability: visit.analysis?.escomplex?.data?.maintainability,
+              accessibility:
+                visit.analysis?.lighthouse?.data?.categories?.accessibility
+                  ?.score,
+              best_practices:
+                visit.analysis?.lighthouse?.data?.categories?.bestPractices
+                  ?.score,
+              performance:
+                visit.analysis?.lighthouse?.data?.categories?.performance
+                  ?.score,
+            },
+
+            ok:
+              visit.wayback &&
+              visit.analysis?.lighthouse?.data?.categories &&
+              visit.analysis?.escomplex?.data
+                ? true
+                : false,
           };
         })
         .sort((a, b) => a.date < b.date);
+
+      this.visits_ok = this.visits.filter((visit) => visit.ok);
 
       this.thumbnail = {
         placeholder: false,
@@ -572,6 +563,42 @@ class Snapshot {
           return true;
         }
       });
+
+      // Basically getting an average stat
+      // const aggregate = (stat) => {
+
+      // return (
+      //   this.visits_ok.reduce((acc, v) => {
+      //     if (v[stat]) {
+      //       return acc + v[stat];
+      //     }
+      //     return acc;
+      //   }, 0) / this.visits.filter((v) => v[stat]).length
+      // );
+      // };
+
+      const aggregate = function (visits, stat_name) {
+        return (
+          visits.reduce((acc, visit) => acc + visit.stats[stat_name], 0) /
+          visits.length
+        );
+      };
+
+      this.stats_aggregate = {
+        dates: {
+          latest: this.visits_ok[0].date,
+          earliest: this.visits_ok[this.visits_ok.length -1].date
+        },
+        visit_qty: this.visits.length,
+        visit_ok_qty: this.visits_ok.length,
+
+        difficulty: aggregate(this.visits_ok, "difficulty"),
+        effort: aggregate(this.visits_ok, "effort"),
+        maintainability: aggregate(this.visits_ok, "maintainability"),
+        accessibility: aggregate(this.visits_ok, "accessibility"),
+        best_practices: aggregate(this.visits_ok, "best_practices"),
+        performance: aggregate(this.visits_ok, "performance"),
+      };
 
       // api_technologies: {
       //   "id": "asdf",

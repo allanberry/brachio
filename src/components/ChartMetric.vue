@@ -75,7 +75,7 @@ export default {
       .querySelector(`#${this.chart_id}`)
       .append(this.chart);
 
-    console.log('flurg')
+    // console.log('flurg')
   },
 };
 </script>
