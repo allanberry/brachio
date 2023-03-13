@@ -225,19 +225,24 @@ export default {
           <p>URLs for this node.</p>
 
           <ul>
-            <li v-for="url_obj in urls" :key="url_obj.url">
-              <h5><span class="lead">URL:</span> {{ url_obj.url }}</h5>
+            <li v-for="url in urls" :key="url.url" >
+              <h5><span class="lead">URL:</span> {{ url.url }}</h5>
 
-              <ChartURL :url_obj="url_obj" class="mb-4" />
+              <ChartURL
+                v-if="url.visits && url.visits.length"
+                
+                :url="url"
+                class="mb-4"
+              />
 
               <ul
-                v-if="url_obj.visits"
+                v-if="url.visits"
                 class="row visit_list"
-                :id="`${node._id}-${slugify(url_obj.url)}-visits`"
+                :id="`${node._id}-${slugify(url.url)}-visits`"
               >
                 <li
                   class="mb-3 col-lg-6 visit_list_item"
-                  v-for="visit in url_obj.visits"
+                  v-for="visit in url.visits"
                   :key="visit._id"
                 >
                   <VisitCard :visit="visit" />

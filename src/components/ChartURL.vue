@@ -1,5 +1,5 @@
 <script>
-import { useBrachioStore } from "@/stores/brachioStore";
+// import { useBrachioStore } from "@/stores/brachioStore";
 // const store = useBrachioStore();
 // import { number_formatter } from "@/utils";
 import slugify from "slugify";
@@ -10,7 +10,7 @@ import * as Plot from "@observablehq/plot";
 export default {
   data() {
     return {
-      chart_id: `${slugify(this.url_obj.url, {
+      chart_id: `${slugify(this.url.url, {
         replacement: "-",
         lower: true,
         remove: /[//*+~.-_()'"!:@]/g,
@@ -19,7 +19,7 @@ export default {
     };
   },
   props: {
-    url_obj: Object,
+    url: Object,
   },
   methods: {
     // getData: function () {
@@ -28,7 +28,7 @@ export default {
   },
   computed: {
     visits: function () {
-      return this.url_obj.visits.map((visit) => {
+      return this.url.visits.map((visit) => {
         return {
           id: visit.id,
           date: new Date(visit.date),
@@ -100,9 +100,9 @@ export default {
       .querySelector(`#${this.chart_id}`)
       .append(this.chart);
   },
-  // updated() {
-  //   console.log(this.getData());
-  // },
+  updated() {
+    console.log(this.getData());
+  },
 };
 </script>
 
