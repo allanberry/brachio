@@ -58,23 +58,22 @@ export default {
       <div>
         <h2>Featured Websites</h2>
         <p>Websites selected for various reasons</p>
-          <!-- <li v-for="url_obj in [].concat(nodes[0].urls[0])" :key="url_obj.url">
+        <!-- <li v-for="url_obj in [].concat(nodes[0].urls[0])" :key="url_obj.url">
             <p>{{ url_obj.url }}</p>
             <ChartURL :url_obj="url_obj" class="mb-4" />
           </li> -->
 
-            <h5>University of Illinois at Chicago</h5>
-            <ChartNode node_name="uic_library" class="mb-4" />
+        <h5>University of Illinois at Chicago</h5>
+        <ChartNode node_name="uic_library" class="mb-4" />
 
-            <h5>University of Michigan Library</h5>
-            <ChartNode node_name="umich_library" class="mb-4" />
+        <h5>University of Michigan Library</h5>
+        <ChartNode node_name="umich_library" class="mb-4" />
 
-            <h5>Princeton University Library</h5>
-            <ChartNode node_name="princeton_library" class="mb-4" />
+        <h5>Princeton University Library</h5>
+        <ChartNode node_name="princeton_library" class="mb-4" />
 
-            <h5>MIT Library</h5>
-            <ChartNode node_name="mit_library" class="mb-4" />
-          
+        <h5>MIT Library</h5>
+        <ChartNode node_name="mit_library" class="mb-4" />
       </div>
 
       <!-- <div>

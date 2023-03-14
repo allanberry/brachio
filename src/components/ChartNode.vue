@@ -15,6 +15,14 @@ export default {
     return {
       node_chart: Object,
       node: store.select_node(this.node_name),
+      selected: {
+        best_practices: true,
+        performance: true,
+        accessibility: true,
+        difficulty: false,
+        effort: false,
+        maintainability: false,
+      },
     };
   },
   props: {
@@ -57,8 +65,14 @@ export default {
           best_practices: visit.stats.best_practices,
           performance: visit.stats.performance,
           accessibility: visit.stats.accessibility,
+          difficulty: visit.stats.difficulty / store.stat_maximums.difficulty,
+          effort: visit.stats.effort / store.stat_maximums.effort,
+          maintainability:
+            visit.stats.maintainability / store.stat_maximums.maintainability,
         };
       });
+
+      // console.log(visits_ok_flat)
 
       return Plot.plot({
         // grid: true,
@@ -76,8 +90,17 @@ export default {
           grid: true,
         },
         color: {
-          domain: ["best practices", "performance", "accessibility"],
-          range: ["red", "green", "orange"],
+          domain: [
+            "best practices",
+            "performance",
+            "accessibility",
+            // "maintainability",
+            // "effort",
+            // "difficulty",
+          ],
+          range: ["red", "green", "orange",
+          // "purple", "skyblue", "pink"
+        ],
           legend: true,
         },
         marks: [
@@ -86,28 +109,67 @@ export default {
             stroke: "#ddd",
             strokeWidth: 1,
           }),
-          Plot.line(visits_ok_flat, {
-            x: "date",
-            y: "best_practices",
-            // curve: "step",
-            stroke: "red",
-            strokeWidth: 3,
-          }),
-          Plot.line(visits_ok_flat, {
-            x: "date",
-            y: "performance",
-            // curve: "step",
-            // stroke: "red",
-            stroke: "green",
-            strokeWidth: 3,
-          }),
-          Plot.line(visits_ok_flat, {
-            x: "date",
-            y: "accessibility",
-            // curve: "step",
-            stroke: "orange",
-            strokeWidth: 3,
-          }),
+
+          this.selected.best_practices
+            ? Plot.line(visits_ok_flat, {
+                x: "date",
+                y: "best_practices",
+                // curve: "step",
+                stroke: "red",
+                strokeWidth: 3,
+              })
+            : undefined,
+
+          this.selected.performance
+            ? Plot.line(visits_ok_flat, {
+                x: "date",
+                y: "performance",
+                // curve: "step",
+                // stroke: "red",
+                stroke: "green",
+                strokeWidth: 3,
+              })
+            : undefined,
+
+          this.selected.accessibility
+            ? Plot.line(visits_ok_flat, {
+                x: "date",
+                y: "accessibility",
+                // curve: "step",
+                stroke: "orange",
+                strokeWidth: 3,
+              })
+            : undefined,
+
+          // this.selected.maintainability
+          //   ? Plot.line(visits_ok_flat, {
+          //       x: "date",
+          //       y: "maintainability",
+          //       // curve: "step",
+          //       stroke: "purple",
+          //       strokeWidth: 3,
+          //     })
+          //   : undefined,
+
+          // this.selected.effort
+          //   ? Plot.line(visits_ok_flat, {
+          //       x: "date",
+          //       y: "effort",
+          //       // curve: "step",
+          //       stroke: "skyblue",
+          //       strokeWidth: 3,
+          //     })
+          //   : undefined,
+
+          // this.selected.difficulty
+          //   ? Plot.line(visits_ok_flat, {
+          //       x: "date",
+          //       y: "difficulty",
+          //       // curve: "step",
+          //       stroke: "pink",
+          //       strokeWidth: 3,
+          //     })
+          //   : undefined,
         ],
         // caption: `Figure 1. This chart has a <i>fancy</i> caption.`,
       });
@@ -127,6 +189,7 @@ export default {
     <div v-html="chart"></div> -->
     <!-- <p>{{ getData() }}</p> -->
     <div :id="chart_id"></div>
+    
 
     <!-- <p>{{ url.visits }}</p> -->
   </div>

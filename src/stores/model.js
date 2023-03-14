@@ -587,7 +587,7 @@ class Snapshot {
       this.stats_aggregate = {
         dates: {
           latest: this.visits_ok[0]?.date,
-          earliest: this.visits_ok[this.visits_ok.length -1]?.date
+          earliest: this.visits_ok[this.visits_ok.length - 1]?.date,
         },
         visit_qty: this.visits.length,
         visit_ok_qty: this.visits_ok.length,

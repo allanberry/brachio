@@ -60,6 +60,12 @@ export const useBrachioStore = defineStore("brachioStore", {
     pins: deepclone(defaults.pins),
     pager: deepclone(defaults.pager),
     filters: deepclone(defaults.filters),
+
+    stat_maximums: {
+      maintainability: 171,
+      effort: 2840083234,
+      difficulty: 607,
+    },
   }),
   getters: {
     // node_current() {
