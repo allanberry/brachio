@@ -1,33 +1,13 @@
 <script>
-import ChartURL from "@/components/ChartURL.vue";
+// import ChartURL from "@/components/ChartURL.vue";
 import ChartNode from "@/components/ChartNode.vue";
 
-import { useBrachioStore } from "@/stores/brachioStore";
-const store = useBrachioStore();
+// import { useBrachioStore } from "@/stores/brachioStore";
+// const store = useBrachioStore();
 
 export default {
   components: {
-    ChartURL,
     ChartNode,
-  },
-  data() {
-    return {
-      nodes: store.select_nodes(["umich_library", "uic_library"]),
-    };
-  },
-  async mounted() {
-    try {
-      await store.fetch_snapshots(this.nodes);
-
-      for (const node of this.nodes) {
-        for (const url of node.urls) {
-          await url.fetchVisits();
-          // await url.aggregate();
-        }
-      }
-    } catch (error) {
-      console.error(error);
-    }
   },
 };
 
@@ -37,7 +17,7 @@ export default {
 <template>
   <section class="container col-xxl-8 px-4 py-5">
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-      <div class="col-10 col-sm-8 col-lg-6">
+      <!-- <div class="col-10 col-sm-8 col-lg-6">
         <img
           src="https://images.unsplash.com/photo-1451187580459-43490279c0fa"
           class="d-block mx-lg-auto img-fluid"
@@ -46,8 +26,8 @@ export default {
           width="700"
           height="500"
         />
-      </div>
-      <div class="col-lg-6">
+      </div> -->
+      <div class="col-12">
         <h1 class="display-5 fw-light lh-1 mb-3">Welcome!</h1>
         <p class="lead">
           <span class="h3">Brachio</span> is an experimental online research
@@ -78,16 +58,23 @@ export default {
       <div>
         <h2>Featured Websites</h2>
         <p>Websites selected for various reasons</p>
-        <ul>
           <!-- <li v-for="url_obj in [].concat(nodes[0].urls[0])" :key="url_obj.url">
             <p>{{ url_obj.url }}</p>
             <ChartURL :url_obj="url_obj" class="mb-4" />
           </li> -->
 
-          <li>University of Illinois at Chicago Homepage</li>
+            <h5>University of Illinois at Chicago</h5>
+            <ChartNode node_name="uic_library" class="mb-4" />
 
-          <ChartNode :node="nodes[0]" class="mb-4" />
-        </ul>
+            <h5>University of Michigan Library</h5>
+            <ChartNode node_name="umich_library" class="mb-4" />
+
+            <h5>Princeton University Library</h5>
+            <ChartNode node_name="princeton_library" class="mb-4" />
+
+            <h5>MIT Library</h5>
+            <ChartNode node_name="mit_library" class="mb-4" />
+          
       </div>
 
       <!-- <div>

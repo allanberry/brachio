@@ -100,9 +100,9 @@ export default {
       .querySelector(`#${this.chart_id}`)
       .append(this.chart);
   },
-  updated() {
-    console.log(this.getData());
-  },
+  // updated() {
+  //   // console.log(this.getData());
+  // },
 };
 </script>
 

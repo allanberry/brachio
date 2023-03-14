@@ -175,7 +175,7 @@ export default {
             <div class="url_visits">
               <NodeCardStats
                 name="Latest Visit"
-                :stats="node.snapshot.visits_ok[0].stats"
+                :stats="node.snapshot.visits_ok[0]?.stats"
               />
               <!-- <NodeCardStats
                 name="Earliest Visit"

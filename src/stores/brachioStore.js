@@ -65,7 +65,6 @@ export const useBrachioStore = defineStore("brachioStore", {
     // node_current() {
     //   return this.nodes.find((node) => node.current === true)
     // }
-
     // get all Libraries in the system
     libraries() {
       return (
@@ -256,6 +255,10 @@ export const useBrachioStore = defineStore("brachioStore", {
         pager: deepclone(defaults.pager),
         filters: deepclone(defaults.filters),
       });
+    },
+    select_node(id) {
+      // return this.nodes.find((node) => id === node._id);
+      return this.nodes.find((node) => id === node._id);
     },
     select_nodes(id_arr) {
       return this.nodes.filter((node) => {

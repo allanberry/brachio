@@ -2,43 +2,64 @@
 // import { useBrachioStore } from "@/stores/brachioStore";
 // const store = useBrachioStore();
 // import { number_formatter } from "@/utils";
+// import slugify from "slugify";
 // import * as d3 from "d3";
+
+import { useBrachioStore } from "@/stores/brachioStore";
+const store = useBrachioStore();
 
 import * as Plot from "@observablehq/plot";
 
 export default {
   data() {
     return {
-      chart_id: `${this.node._id}-chart`,
-      url_chart: Object,
+      node_chart: Object,
+      node: store.select_node(this.node_name),
     };
   },
   props: {
-    node: Object,
+    node_name: String,
   },
-  methods: {
-    // getData: function () {
-    //   return this.$refs;
+  // methods: {
+  //   // getData: function () {
+  //   //   return this.$refs;
+  //   // },
+  // },
+  computed: {
+    chart_id() {
+      return this.node_name;
+    },
+    // node: ,
+    // visits: function () {
+    //   return this.url.visits.map((visit) => {
+    //     return {
+    //       id: visit.id,
+    //       date: new Date(visit.date),
+    //       metrics_best_practices: visit.metrics_best_practices,
+    //       metrics_accessibility: visit.metrics_accessibility,
+    //       metrics_performance: visit.metrics_performance,
+    //     };
+    //   });
     // },
   },
-  computed: {
-    default_url: function () {
-      return this.node.urls[0];
-    },
-    visits: function () {
+  async mounted() {
+    const c = await this.chart();
+    this.node_chart = document.querySelector(`#${this.chart_id}`).append(c);
+  },
+  methods: {
+    chart: async function () {
+      await store.fetch_snapshots([this.node]);
 
-      // uses the first url as default
-      return this.default_url.visits.map((visit) => {
+      // return {};
+      const visits_ok_flat = this.node.snapshot.visits_ok.map((visit) => {
         return {
-          id: visit.id,
-          date: new Date(visit.date),
-          metrics_best_practices: visit.metrics_best_practices,
-          metrics_accessibility: visit.metrics_accessibility,
-          metrics_performance: visit.metrics_performance,
+          date: visit.date,
+          best_practices: visit.stats.best_practices,
+          performance: visit.stats.performance,
+          accessibility: visit.stats.accessibility,
         };
       });
-    },
-    chart: function () {
+
       return Plot.plot({
         // grid: true,
         line: true,
@@ -60,32 +81,29 @@ export default {
           legend: true,
         },
         marks: [
-          Plot.ruleX(this.default_url.visits, {
+          Plot.ruleX(this.node.snapshot.visits_ok, {
             x: "date",
             stroke: "#ddd",
             strokeWidth: 1,
           }),
-
-          Plot.line(this.default_url.visits, {
+          Plot.line(visits_ok_flat, {
             x: "date",
-            y: "metrics_best_practices",
+            y: "best_practices",
             // curve: "step",
             stroke: "red",
             strokeWidth: 3,
           }),
-
-          Plot.line(this.default_url.visits, {
+          Plot.line(visits_ok_flat, {
             x: "date",
-            y: "metrics_performance",
+            y: "performance",
             // curve: "step",
             // stroke: "red",
             stroke: "green",
             strokeWidth: 3,
           }),
-
-          Plot.line(this.default_url.visits, {
+          Plot.line(visits_ok_flat, {
             x: "date",
-            y: "metrics_accessibility",
+            y: "accessibility",
             // curve: "step",
             stroke: "orange",
             strokeWidth: 3,
@@ -95,11 +113,7 @@ export default {
       });
     },
   },
-  mounted() {
-    this.url_chart = document
-      .querySelector(`#${this.chart_id}`)
-      .append(this.chart);
-  },
+
   // updated() {
   //   console.log(this.getData());
   // },
@@ -108,7 +122,7 @@ export default {
 
 <template>
   <!-- <div :id="chart_id" class="card url_chart shadow-sm"></div> -->
-  <div class="card chart chart-url px-3 pt-2" :id="`chart-url-${chart_id}`">
+  <div class="card chart chart-url px-3 pt-2">
     <!-- <div>{{ chart }}</div>
     <div v-html="chart"></div> -->
     <!-- <p>{{ getData() }}</p> -->
