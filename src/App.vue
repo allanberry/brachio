@@ -1,9 +1,7 @@
 <template>
-  <Header />
-
-  <Main />
-
-  <Footer />
+  <SiteHeader />
+  <SiteMain />
+  <SiteFooter />
 </template>
 
 <style lang="scss">
@@ -11,9 +9,9 @@
 </style>
 
 <script setup>
-import Header from "./components/Header.vue";
-import Main from "./components/Main.vue";
-import Footer from "./components/Footer.vue";
+import SiteHeader from "./components/SiteHeader.vue";
+import SiteMain from "./components/SiteMain.vue";
+import SiteFooter from "./components/SiteFooter.vue";
 
 import { useBrachioStore } from "@/stores/brachioStore";
 

@@ -4,7 +4,7 @@ import PrimaryNav from "@/components/PrimaryNav.vue";
 
 export default {
   components: {
-    PrimaryNav
+    PrimaryNav,
   },
   data() {
     return {};

@@ -1,5 +1,7 @@
 <script>
 import ToolTip from "@/components/ToolTip.vue";
+import { round } from "@/utils.js";
+
 export default {
   components: {
     ToolTip,
@@ -10,10 +12,7 @@ export default {
     aggregate: Boolean,
   },
   methods: {
-    round(n) {
-      // hat tip: https://stackoverflow.com/a/11832950/652626
-      return Math.round((n + Number.EPSILON) * 100) / 100;
-    },
+    round,
   },
 };
 </script>

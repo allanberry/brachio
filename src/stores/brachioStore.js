@@ -160,16 +160,19 @@ export const useBrachioStore = defineStore("brachioStore", {
             //   return node_a.xxx < node_b.xxx;
             // }
 
-            // default
-            return node_a.name < node_b.name;
-          })
-
-          // randomize records?
-          .sort(() => {
-            if (this.pager.sort === "random") {
-              return 0.5 - Math.random();
+            if (this.pager.sort === "name") {
+              return node_a.name > node_b.name;
+            } else if (this.pager.sort === "vols") {
+              const a = node_a.arl?.vols ? node_a.arl.vols : 0;
+              const b = node_b.arl?.vols ? node_b.arl.vols : 0;
+              return a < b;
+            } else if (this.pager.sort === "gate_count") {
+              const a = node_a.arl?.gatecount ? node_a.arl.gatecount : 0;
+              const b = node_b.arl?.gatecount ? node_b.arl.gatecount : 0;
+              return a < b;
             }
-            return true;
+            // default is random sort
+            return 0.5 - Math.random();
           })
       );
     },

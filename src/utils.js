@@ -74,6 +74,12 @@ function tech_filter(technologies) {
   ];
 }
 
+function round(n) {
+  // hat tip: https://stackoverflow.com/a/11832950/652626
+  return Math.round((n + Number.EPSILON) * 100) / 100;
+}
+
+
 // hat tip https://stackoverflow.com/a/16233919/652626
 const currency_formatter = new Intl.NumberFormat("en-US", {
   style: "currency",
@@ -94,6 +100,7 @@ export {
   iiif_url,
   thumbnail_url,
   tech_filter,
+  round,
   currency_formatter,
   number_formatter
 };

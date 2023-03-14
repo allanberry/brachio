@@ -106,13 +106,15 @@ export default {
               <!-- <option disabled value="">Select one</option> -->
               <option value="name">Name</option>
               <option value="random" selected="selected">Random</option>
-              <!--<option disabled>---</option>
+              <option value="vols">library total volumes</option>
+              <option value="gate_count">library gate count</option>
+              <!--<option disabled>---</option>-->
 
-              <option value="parent_age">Age</option>
-              <option value="parent_endowment">Endowment</option>
+              <!--<option value="parent_endowment">Endowment</option>
               <option value="parent_enrollment">No. of students</option>
               <option value="qty_books">No. of books</option>
               <option value="gate_count">Gate Count</option>
+              <option value="parent_age">Institution Age</option>
 
               <option disabled>---</option>
               <option value="visit_accessibility">
