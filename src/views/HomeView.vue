@@ -63,16 +63,36 @@ export default {
             <ChartURL :url_obj="url_obj" class="mb-4" />
           </li> -->
 
-        <h5>University of Illinois at Chicago</h5>
+        <h4>
+          <router-link
+            :to="{ name: 'node', params: { id: 'uic_library' } }"
+            >University of Illinois at Chicago</router-link
+          >
+        </h4>
         <ChartNode node_name="uic_library" class="mb-4" />
 
-        <h5>University of Michigan Library</h5>
+        <h4>
+          <router-link
+            :to="{ name: 'node', params: { id: 'umich_library' } }"
+            >University of Michigan Library</router-link
+          >
+        </h4>
         <ChartNode node_name="umich_library" class="mb-4" />
 
-        <h5>Princeton University Library</h5>
+        <h4>
+          <router-link
+            :to="{ name: 'node', params: { id: 'princeton_library' } }"
+            >Princeton University Library</router-link
+          >
+        </h4>
         <ChartNode node_name="princeton_library" class="mb-4" />
 
-        <h5>MIT Library</h5>
+        <h4>
+          <router-link
+            :to="{ name: 'node', params: { id: 'mit_library' } }"
+            >MIT Library</router-link
+          >
+        </h4>
         <ChartNode node_name="mit_library" class="mb-4" />
       </div>
 

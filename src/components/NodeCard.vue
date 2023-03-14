@@ -128,7 +128,10 @@ export default {
             <h5>Categories</h5>
             <ul>
               <li v-for="category in node.categories" :key="category">
-                {{ category.label_full }}
+                <router-link
+                  :to="{ name: 'nodes', query: { category: category.id } }"
+                  >{{ category.label_full }}</router-link
+                >
               </li>
             </ul>
           </div>
@@ -141,7 +144,9 @@ export default {
                 :key="tag.id"
                 class="list-inline-item"
               >
-                {{ tag.label_short }}
+                <router-link :to="{ name: 'nodes', query: { tag: tag.id } }">{{
+                  tag.label_short
+                }}</router-link>
               </li>
             </ul>
           </div>
