@@ -2,7 +2,6 @@
 import NodeCard from "../components/NodeCard.vue";
 import NodeSidebar from "../components/NodeSidebar.vue";
 import NodeListResultsTools from "../components/NodeListResultsTools.vue";
-import ToolTip from "../components/ToolTip.vue";
 
 import { useBrachioStore } from "@/stores/brachioStore";
 const store = useBrachioStore();
@@ -67,15 +66,6 @@ export default {
           Browse a selection of library websites. Results can be filtered and
           sorted by various criteria.
         </p>
-        <!-- <p class="lead text-muted">
-          Something short and leading about the collection below—its contents,
-          the creator, etc. Make it short and sweet, but not too short so folks
-          don’t simply skip over it entirely.
-        </p>
-        <p>
-          <a href="#" class="btn btn-primary my-2">Main call to action</a>
-          <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-        </p> -->
       </div>
     </div>
   </section>

@@ -51,41 +51,13 @@ export default {
   },
   methods: {
     round,
-    // stats(visit) {
-    //   if (visit) {
-    //     return {
-    //       difficulty: visit.js_difficulty,
-    //       effort: visit.js_effort,
-    //       maintainability: visit.js_maintainability,
-    //       accessibility: visit.lighthouse_accessibility,
-    //       performance: visit.lighthouse_performance,
-    //       best_practices: visit.lighthouse_best_practices,
-    //     };
-    //   } else {
-    //     // otherwise we're doing aggregate stats
-    //     return {
-    //       difficulty: this.node.snapshot?.stats?.aggregate_difficulty,
-    //       effort: this.node.snapshot?.stats?.aggregate_effort,
-    //       accessibility: this.node.snapshot?.stats?.aggregate_accessibility,
-    //       performance: this.node.snapshot?.stats?.aggregate_performance,
-    //       best_practices: this.node.snapshot?.stats?.aggregate_best_practices,
-    //       maintainability: this.node.snapshot?.stats?.aggregate_maintainability,
-    //     };
-    //   }
-    // },
   },
 };
 </script>
 
 <template>
   <div class="card flex-row flex-wrap mb-4 shadow-sm">
-    <div class="col card-header" :style="background_image">
-      <!-- <img
-        class="card-img img-thumbnail"
-        :src="thumbnail.img"
-        :alt="thumbnail.alt"
-      /> -->
-    </div>
+    <div class="col card-header" :style="background_image"></div>
 
     <div class="col card-body">
       <div class="mb-4">
@@ -192,7 +164,8 @@ export default {
               </li>
 
               <li v-if="node.parent_nodes[0]?.ipeds?.ENRTOT_DRVEF2017_RV">
-                <span>Full-time enrollment 2017: </span><span>{{
+                <span>Full-time enrollment 2017: </span
+                ><span>{{
                   node.parent_nodes[0].ipeds.ENRTOT_DRVEF2017_RV.toLocaleString()
                 }}</span>
                 <ToolTip
@@ -267,13 +240,7 @@ export default {
                 name="Latest Visit"
                 :stats="node.snapshot.visits_ok[0]?.stats"
               />
-              <!-- <NodeCardStats
-                name="Earliest Visit"
-                :stats="
-                  node.snapshot.visits_ok[node.snapshot.visits_ok.length - 1]
-                    .stats
-                "
-              /> -->
+
               <NodeCardStats
                 name="Visits Aggregate"
                 :aggregate="true"
@@ -317,11 +284,7 @@ export default {
               >
                 View
               </router-link>
-              <!-- <button type="button" class="btn btn-sm btn-outline-secondary">
-            Edit
-          </button> -->
             </div>
-            <!-- <small class="text-muted">9 mins</small> -->
           </div>
         </div>
       </div>
@@ -368,23 +331,7 @@ export default {
       rgba(0, 0, 0, 0) 100%
     );
 
-    // max-height: 400px;
     width: 100%;
-
-    // height: 100%;
-    // .card-img.img-thumbnail {
-    //   padding: 0;
-    //   border-radius: unset;
-    //   // object-fit: cover;
-    //   // object-position: left;
-    //   margin-bottom: unset;
-    //   border: none;
-
-    //   flex: 1;
-
-    //   mask-image: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 75%, rgba(0,0,0,0) 100%);
-
-    // }
   }
 
   .card-body {

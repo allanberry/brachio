@@ -51,12 +51,6 @@ export default {
     }
   }
 
-  // --bs-popover-max-width: 200px;
-  // --bs-popover-border-color: var(--bs-secondary);
-  // --bs-popover-header-bg: var(--bs-secondary);
-  // --bs-popover-header-color: var(--bs-white);
-  // --bs-popover-body-padding-x: 0;
-  // --bs-popover-body-padding-y: 0;
   --bs-popover-bg: none;
   --bs-popover-border-width: 0;
 

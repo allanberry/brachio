@@ -1,7 +1,6 @@
 <script>
 import { useBrachioStore } from "@/stores/brachioStore";
 const store = useBrachioStore();
-// import slugify from "slugify";
 
 export default {
   data() {
@@ -20,13 +19,6 @@ export default {
       );
     },
     store: () => store,
-    
-
-//     store.$patch((state) => {
-//   state.items.push({ name: 'shoes', quantity: 1 })
-//   state.hasChanged = true
-// })
-
   },
 };
 </script>
@@ -49,9 +41,3 @@ export default {
     </div>
   </span>
 </template>
-
-<style lang="scss">
-.sidebar_item {
-  // border: 0.25rem solid orange;
-}
-</style>

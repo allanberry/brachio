@@ -38,15 +38,6 @@ export default {
           <span class="fs-4">Brachio</span>
         </RouterLink>
         <PrimaryNav />
-
-        <!-- <form class="col-12 col-lg-auto mb-3 mb-lg-0" role="search">
-          <input
-            type="search"
-            class="form-control"
-            placeholder="Search..."
-            aria-label="Search"
-          />
-        </form> -->
       </div>
     </div>
   </header>

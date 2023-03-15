@@ -6,7 +6,8 @@
       <div class="col">
         <h1 class="fw-light">About</h1>
         <p class="lead">
-          <span class="h3">Brachio</span> is an experimental online research catalog of library websites selected from the Internet Archive's
+          <span class="h3">Brachio</span> is an experimental online research
+          catalog of library websites selected from the Internet Archive's
           <a href="https://archive.org/web/">Wayback Machine</a>.
         </p>
 
@@ -25,7 +26,17 @@
           </li>
         </ul>
 
+        <h4>Code</h4>
+        <ul>
+          <li>
+            Brachio <a href="https://github.com/allanberry/brachio">GitHub</a>
+          </li>
 
+          <li>
+            Visitor
+            <a href="https://github.com/allanberry/visitor">GitHub</a>
+          </li>
+        </ul>
 
         <hr />
 
@@ -91,40 +102,7 @@
           </li>
         </ul>
 
-        <!-- <p class="lead text-muted">
-          Something short and leading about the collection below—its contents,
-          the creator, etc. Make it short and sweet, but not too short so folks
-          don’t simply skip over it entirely.
-        </p>
-        <p>
-          <a href="#" class="btn btn-primary my-2">Main call to action</a>
-          <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-        </p> -->
-
-        <h3>Frequently Asked Questions</h3>
-        <ul>
-          <li class="term">
-            <span class="label me-2">Where does Brachio data come from?</span>
-            <span class="definition"></span>
-          </li>
-          <li class="term">
-            <span class="label me-2">Why is my library missing?</span>
-            <span class="definition"></span>
-          </li>
-          <li class="term">
-            <span class="label me-2"
-              >Why are screenshots of my library's website missing, or look
-              really bad?</span
-            >
-            <span class="definition"></span>
-          </li>
-          <li class="term">
-            <span class="label me-2">Why is there no data past 2021?</span>
-            <span class="definition"></span>
-          </li>
-        </ul>
-
-        <h3>Glossary</h3>
+        <!-- <h3>Glossary</h3>
         <ul>
           <li class="term">
             <span class="label me-2">Visit</span>
@@ -155,7 +133,7 @@
             <span class="label me-2">Puppeteer</span>
             <span class="definition"></span>
           </li>
-        </ul>
+        </ul> -->
       </div>
     </div>
   </section>

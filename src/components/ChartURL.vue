@@ -1,10 +1,5 @@
 <script>
-// import { useBrachioStore } from "@/stores/brachioStore";
-// const store = useBrachioStore();
-// import { number_formatter } from "@/utils";
 import slugify from "slugify";
-// import * as d3 from "d3";
-
 import * as Plot from "@observablehq/plot";
 
 export default {
@@ -20,11 +15,6 @@ export default {
   },
   props: {
     url: Object,
-  },
-  methods: {
-    // getData: function () {
-    //   return this.$refs;
-    // },
   },
   computed: {
     visits: function () {
@@ -91,7 +81,6 @@ export default {
             strokeWidth: 3,
           }),
         ],
-        // caption: `Figure 1. This chart has a <i>fancy</i> caption.`,
       });
     },
   },
@@ -100,36 +89,19 @@ export default {
       .querySelector(`#${this.chart_id}`)
       .append(this.chart);
   },
-  // updated() {
-  //   // console.log(this.getData());
-  // },
 };
 </script>
 
 <template>
-  <!-- <div :id="chart_id" class="card url_chart shadow-sm"></div> -->
   <div class="card chart chart-url px-3 pt-2" :id="`chart-url-${chart_id}`">
-    <!-- <div>{{ chart }}</div>
-    <div v-html="chart"></div> -->
-    <!-- <p>{{ getData() }}</p> -->
     <div :id="chart_id"></div>
-
-    <!-- <p>{{ url.visits }}</p> -->
   </div>
 </template>
 
 <style lang="scss">
-// .card.chart.chart-url {
-//   svg {
-//     border: 1px solid red;
-//   }
-// }
-
 .card {
   figure > svg {
     width: 100%;
   }
 }
 </style>
-
-<!-- chart_svg -->

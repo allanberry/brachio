@@ -61,6 +61,5 @@ export default {
 
 <style lang="scss">
 .sidebar_item {
-  // border: 0.25rem solid orange;
 }
 </style>

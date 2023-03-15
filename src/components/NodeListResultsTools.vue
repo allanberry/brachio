@@ -16,12 +16,6 @@ export default {
   },
   computed: {
     store: () => store,
-    // paged_libraries() {
-    //   return store.libraries.slice(
-    //     store.pager.cursor,
-    //     store.pager.cursor + store.pager.qty
-    //   );
-    // },
     highest_on_page() {
       const temp = store.pager.cursor + store.pager.qty;
       if (temp < store.libraries.length) {
@@ -65,20 +59,6 @@ export default {
 
 <template>
   <h4 class="visually-hidden">{{ title }}</h4>
-
-  <!-- <div class="row mb-4" v-if="placement === 'precontent'">
-    <div class="col">
-      Filters applied<br />
-      
-      
-      <ul>
-        <li class="badge bg-secondary">Test</li>
-      </ul>
-
-
-    </div>
-  </div> -->
-
   <div class="row" v-if="placement === 'precontent'">
     <div class="col">
       <div class="row">
@@ -92,40 +72,16 @@ export default {
         <div class="col col-4 d-flex justify-content-end">
           <div class="input-group mb-3">
             <label class="input-group-text" for="sort_select">Sort By</label>
-            <!-- <select class="form-select" id="sort_select">
-              <option value="name" selected>Name</option>
-
-
-            </select> -->
 
             <select
               v-model="store.pager.sort"
               class="form-select"
               id="sort_select"
             >
-              <!-- <option disabled value="">Select one</option> -->
               <option value="name">Name</option>
               <option value="random" selected="selected">Random</option>
               <option value="vols">library total volumes</option>
               <option value="gate_count">library gate count</option>
-              <!--<option disabled>---</option>-->
-
-              <!--<option value="parent_endowment">Endowment</option>
-              <option value="parent_enrollment">No. of students</option>
-              <option value="qty_books">No. of books</option>
-              <option value="gate_count">Gate Count</option>
-              <option value="parent_age">Institution Age</option>
-
-              <option disabled>---</option>
-              <option value="visit_accessibility">
-                Website Accessibility
-              </option>
-              <option value="visit_performance">
-                Website Performance
-              </option>
-              <option value="visit_best_practices">
-                Website Best Practices
-              </option>-->
             </select>
           </div>
         </div>
@@ -141,21 +97,8 @@ export default {
       />
     </h5>
 
-    <!-- <div>
-      <p>{{ store.pager }}</p>
-      <p>
-        {{
-          {
-            page_current,
-            total_pages,
-          }
-        }}
-      </p>
-    </div> -->
-
     <nav class="col col-9 mb-3">
       <label for="pager_select form-text">Select Page</label>
-      <!-- <p class="form-text">Select which page to view.</p> -->
       <ul class="pagination" id="pager_select">
         <li
           class="page-item"
@@ -180,13 +123,9 @@ export default {
           <span class="page-link disabled" disabled>...</span>
         </li>
 
-        <!-- <li class="page-item"><span class="page-link">3</span></li>-->
-
         <li class="page-item active">
           <span class="page-link">{{ page_current }}</span>
         </li>
-
-        <!--<li class="page-item"><span class="page-link">5</span></li> -->
 
         <li class="page-item" v-if="page_current < total_pages - 1">
           <span class="page-link disabled" disabled>...</span>
@@ -217,7 +156,6 @@ export default {
 
     <div class="col col-3 mb-3" v-if="placement === 'precontent'">
       <label for="qty_select">Max/page</label>
-      <!-- <p class="form-text">Results / Page</p> -->
 
       <select
         v-model.number="store.pager.qty"
@@ -230,35 +168,5 @@ export default {
         <option>50</option>
       </select>
     </div>
-
-    <!-- <div class="col col-4 mb-3"  v-if="placement === 'precontent'">
-      <label for="pref_select">Preferences</label>
-
-      <div class="form-check">
-        <input
-          class="form-check-input"
-          type="checkbox"
-          value=""
-          id="prefs_show_card_images"
-          checked
-        />
-        <label class="form-check-label" for="prefs_show_card_images">
-          Show images
-        </label>
-      </div>
-
-      <div class="form-check">
-        <input
-          class="form-check-input"
-          type="checkbox"
-          value=""
-          id="prefs_show_card_parent"
-          checked
-        />
-        <label class="form-check-label" for="prefs_show_card_parent">
-          Show info about parent
-        </label>
-      </div>
-    </div> -->
   </div>
 </template>

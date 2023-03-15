@@ -63,7 +63,6 @@ export default {
 
       <li v-if="stats.maintainability">
         <span>Maintainability: </span>
-        <!-- <span>{{stats.maintainability.toFixed(2).replace(/\d(?=(\d{3})+\.)/g, "$&,")}}</span> -->
         <span>{{ round(stats.maintainability) }}</span>
       </li>
     </ul>

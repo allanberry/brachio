@@ -1,5 +1,4 @@
 <script>
-// import { useRoute } from "vue-router";
 
 import VisitCard from "@/components/VisitCard.vue";
 import ChartURL from "@/components/ChartURL.vue";
@@ -252,22 +251,6 @@ export default {
           </ul>
           <hr />
         </div>
-
-        <!-- <div>
-          <h4>Connections</h4>
-
-          <ul v-if="connections">
-            <li v-for="connection in connections" :key="connection._id">
-              {{ connection.subject._id }} {{ connection.predicate }}
-              {{ connection.dobject._id }}
-            </li>
-          </ul>
-          <div v-else>
-            <p>No Connections</p>
-            <p>Store connections: {{ store.connections }}</p>
-          </div>
-          <hr />
-        </div> -->
       </div>
       <p v-else>loading...</p>
     </div>

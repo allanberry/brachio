@@ -1,6 +1,4 @@
 <script>
-import { useBrachioStore } from "@/stores/brachioStore";
-const store = useBrachioStore();
 import { number_formatter } from "@/utils";
 
 export default {
@@ -10,10 +8,6 @@ export default {
   props: {
     visit: Object,
   },
-  computed: {
-    // queue_position() {},
-    // thumbnail() {},
-  },
   methods: {
     number_format: (number) => number_formatter.format(number),
     visit_data: function (visit) {
@@ -22,7 +16,6 @@ export default {
         { label: "id", value: visit.id },
         { label: "date accessed", value: visit.date_accessed },
         { label: "date", value: visit.date.format("YYYY-MM-DD") },
-        // { label: "date wayback", value: visit.date_wayback },
         { label: "url wayback", value: visit.url_wayback, overflow: false },
         {
           label: "url wayback raw",
@@ -167,10 +160,6 @@ export default {
             </li>
           </ul>
 
-          <!-- <p class="card-text">
-            <small class="text-muted">{{ visit.id }}</small>
-          </p> -->
-
           <button
             class="btn btn-sm btn-outline-secondary"
             type="button"
@@ -185,19 +174,6 @@ export default {
       </div>
     </div>
 
-    <!-- <img src="//placehold.it/200" class="card-img-top" alt="..." /> -->
-
-    <!-- <ul>
-        <li class="row" v-for="metric in visit_data(visit)" :key="metric._id">
-          <span class="col-5 col-lg-3" style="font-weight: 700">{{
-            metric.label
-          }}</span>
-          <span class="col-7 col-lg-9">
-            {{ metric.value }}
-          </span>
-        </li>
-      </ul> -->
-
     <table class="card-body table collapse" :id="`${visit.id}-data-table`">
       <thead>
         <tr>
@@ -207,14 +183,6 @@ export default {
         </tr>
       </thead>
       <tbody>
-        <!-- <li class="row" v-for="metric in visit_data(visit)" :key="metric._id">
-          <span class="col-5 col-lg-3" style="font-weight: 700">{{
-            metric.label
-          }}</span>
-          <span class="col-7 col-lg-9">
-            {{ metric.value }}
-          </span>
-        </li> -->
 
         <template v-for="metric in visit_data(visit)" :key="metric._id">
           <tr v-if="metric.value">
@@ -232,67 +200,16 @@ export default {
           </tr>
         </template>
 
-        <!-- <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-          </tr> -->
       </tbody>
     </table>
-    <!-- <ul class="list-group list-group-flush">
-      <li class="list-group-item">An item</li>
-      <li class="list-group-item">A second item</li>
-      <li class="list-group-item">A third item</li>
-    </ul>
-    <div class="card-body">
-      <a href="#" class="card-link">Card link</a>
-      <a href="#" class="card-link">Another link</a>
-    </div> -->
+
   </div>
 
-  <!-- <div class="row no-gutters">
-      <div class="col-3">
-        <img src="//placehold.it/200" class="img-fluid" alt="" />
-      </div>
-      <div class="col-9">
-        <div class="card-block px-2">
-          <h4 class="card-title">Visit</h4>
-
-          <ul>
-            <li class="row" v-for="metric in visit_data(visit)" :key="metric._id">
-              <span class="col-5 col-lg-3" style="font-weight: 700">{{
-                metric.label
-              }}</span>
-              <span class="col-7 col-lg-9">
-                {{ metric.value }}
-              </span>
-            </li> -->
-
-  <!-- <li class="row">
-                      <span class="col-5 col-lg-3">screenshots</span>
-                      <span class="col-7 col-lg-9">
-                        <ul>
-                          <li
-                            v-for="screenshot in visit.screenshots_iiif"
-                            :key="screenshot"
-                          >
-                            {{ screenshot }}
-                          </li>
-                        </ul>
-                      </span>
-                    </li>-->
-
-  <!-- <div class="card-footer w-100 text-muted">
-      Footer stating cats are CUTE little animals
-    </div> -->
+  
 </template>
 
 <style lang="scss">
 .card.visit_card {
-  /* .card-img-top {
-  object-fit: cover;
-  object-position: top;
-} */
 
   td {
     overflow: hidden;
@@ -304,7 +221,6 @@ export default {
     border-bottom: unset;
     background-color: white;
 
-    // background: transparent;
 
     background-size: 100%;
     background-position: top;
@@ -323,23 +239,9 @@ export default {
       rgba(0, 0, 0, 0) 100%
     );
 
-    // max-height: 400px;
     width: 100%;
 
-    // height: 100%;
-    // .card-img.img-thumbnail {
-    //   padding: 0;
-    //   border-radius: unset;
-    //   // object-fit: cover;
-    //   // object-position: left;
-    //   margin-bottom: unset;
-    //   border: none;
 
-    //   flex: 1;
-
-    //   mask-image: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 75%, rgba(0,0,0,0) 100%);
-
-    // }
   }
 
   .card-body {
@@ -364,7 +266,6 @@ export default {
   }
   .card-footer {
     border-top: none;
-    // line-height: 24px
   }
 }
 </style>

@@ -2,20 +2,11 @@
 import { useBrachioStore } from "@/stores/brachioStore";
 const store = useBrachioStore();
 import ToolTip from "@/components/ToolTip.vue";
-
-// import CardsIcon from "@/assets/icons/sidebar/cards.svg?component";
-// import CompareIcon from "@/assets/icons/sidebar/compare.svg?component";
-// import ListIcon from "@/assets/icons/sidebar/list.svg?component";
-// import MapIcon from "@/assets/icons/sidebar/map.svg?component";
-// import TimelineIcon from "@/assets/icons/sidebar/timeline.svg?component";
-
 import NodeSidebarDropdown from "./NodeSidebarDropdown.vue";
-// import NodeCard from "../components/NodeCard.vue";
 
 export default {
   data() {
-    return {
-    };
+    return {};
   },
   computed: {
     store: () => store,
@@ -23,60 +14,13 @@ export default {
 
   components: {
     NodeSidebarDropdown,
-    // CardsIcon,
-    // CompareIcon,
-    // ListIcon,
-    // MapIcon,
-    // TimelineIcon,
     ToolTip,
   },
 };
 </script>
 
 <template>
-  <!-- <div class="sticky-top pt-5"> -->
   <div>
-    <!-- <div class="mb-4">
-      <h5>Modes</h5>
-      <p class="form-text">
-        Results can be viewed and explored in different ways.
-      </p>
-      <ul class="nav nav-pills flex-column mb-auto">
-        <li>
-          <a href="#" class="nav-link link-dark">
-            <ListIcon />
-
-            List
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link active" aria-current="page">
-            <CardsIcon />
-            Cards
-          </a>
-        </li>
-        <li>
-          <a href="#" class="nav-link link-dark">
-            <MapIcon />
-            Map
-          </a>
-        </li>
-        <li>
-          <a href="#" class="nav-link link-dark">
-            <TimelineIcon />
-
-            Timeline
-          </a>
-        </li>
-        <li>
-          <a href="#" class="nav-link link-dark">
-            <CompareIcon />
-            Compare
-          </a>
-        </li>
-      </ul>
-    </div> -->
-
     <div class="mb-4" id="sidebar_filters">
       <h5>Filters</h5>
       <div class="form-check mb-4">
@@ -105,18 +49,6 @@ export default {
       </div>
     </div>
 
-    <!-- <div class="form-check">
-      <input
-        class="form-check-input"
-        type="checkbox"
-        value=""
-        id="flexCheckDefault"
-      />
-      <label class="form-check-label" for="flexCheckDefault">
-        Boolean OR or AND
-      </label>
-    </div> -->
-
     <div class="mb-4" id="sidebar_facets">
       <h5>
         Facets
@@ -124,32 +56,6 @@ export default {
           content=" Select from predefined categories and tags. Facets are boolean `OR`."
         />
       </h5>
-
-      <!-- <div class="mb-2">
-        <div class="form-check">
-          <input
-            class="form-check-input"
-            type="radio"
-            name="flexRadioDefault"
-            id="flexRadioDefault1"
-            checked
-          />
-          <label class="form-check-label" for="flexRadioDefault1">
-            any of checked ("OR")
-          </label>
-        </div>
-        <div class="form-check">
-          <input
-            class="form-check-input"
-            type="radio"
-            name="flexRadioDefault"
-            id="flexRadioDefault2"
-          />
-          <label class="form-check-label" for="flexRadioDefault2">
-            all of checked ("AND")
-          </label>
-        </div>
-      </div> -->
 
       <ul class="list-unstyled">
         <li
@@ -171,17 +77,6 @@ export default {
             filter="tags"
           />
         </li>
-        <!-- <li
-          id="sidebar_facets_technologies"
-          v-if="store.technologies && store.technologies.length"
-        >
-          <NodeSidebarDropdown
-            label="Technologies"
-            :expanded="false"
-            :items="store.technologies"
-            filter="technologies"
-          />
-        </li> -->
       </ul>
       <button
         type="button"
@@ -203,10 +98,6 @@ export default {
   padding: 0.25rem 0.5rem;
   font-weight: 600;
 }
-.btn-toggle:hover,
-.btn-toggle:focus {
-  /* background-color: silver; */
-}
 
 .btn-toggle::before {
   width: 1.25em;
@@ -225,10 +116,6 @@ export default {
     padding: 0.1875rem 0.5rem;
     margin-top: 0.125rem;
     margin-left: 1.25rem;
-  }
-  a:hover,
-  a:focus {
-    /* background-color: silver; */
   }
 }
 
